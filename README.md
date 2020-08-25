@@ -1,10 +1,18 @@
-# COVID-19 Data from Canadian Government Sources
+# Archive of COVID-19 Data from Canadian Government Sources
 
 This repository provides automated, daily backups of COVID-19 data from various Canadian government sources.
 
 **File name timestamps are given in ET (America/Toronto) in the following format: %Y%-m-%d_%H-%M.** The script is run nightly around 23:00 ET.
 
-## Sources/terms of use
+## Contributing
+
+Community members may contribute to this repository in three ways:
+
+* Create an issue to request a dataset be added to the archive.
+* Create a pull request for *archiver.py* adding the ability to automatically-archive a requested or not-yet-implemented dataset.
+* Submit archived versions of an existing, requested, or not-yet-implemented dataset. If possible, please use the original file name plus timestamp in the format described above.
+
+## Data sources/terms of use
 
 The sources and terms of use for each included dataset are linked below.
 
@@ -35,4 +43,4 @@ The sources and terms of use for each included dataset are linked below.
 * [City of Toronto COVID-19 Summary](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-status-of-cases-in-toronto/): [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
     * To be added
 * [COVID-19 Cases in Toronto](https://open.toronto.ca/dataset/covid-19-cases-in-toronto/): [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
-    * To be added
+    * Data are extracted at 3 PM on the Monday of a given week and posted by Wednesday [dataset is updated only on Wednesdays]
