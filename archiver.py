@@ -11,7 +11,8 @@ g = Github(token)
 repo = g.get_repo('jeanpaulrsoucy/covid-19-canada-gov-data')
 
 # commit string
-commit = 'Nightly update: ' + str(datetime.now(pytz.timezone('America/Toronto')).date())
+t = datetime.now(pytz.timezone('America/Toronto'))
+commit = 'Nightly update: ' + str(t.date())
 
 # function: download and commit csv
 def dl_csv(link, path, file, commit):
@@ -54,3 +55,11 @@ dl_csv('https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/res
        'on/status-of-cases/',
        'covidtesting',
        commit)
+
+# ON - COVID-19 Cases in Toronto
+## run only on Wednesdays
+if t.weekday() == 2:
+    dl_csv('https://ckan0.cf.opendata.inter.prod-toronto.ca/download_resource/e5bf35bc-e681-43da-b2ce-0242d00922ad?format=csv',
+           'on/toronto-cases/',
+           'COVID19_cases',
+           commit)
