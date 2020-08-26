@@ -54,3 +54,9 @@ The sources and terms of use for each included dataset are linked below.
 * [COVID-19 Cases in Toronto](https://open.toronto.ca/dataset/covid-19-cases-in-toronto/)
     * Data are extracted at 3 PM on the Monday of a given week and posted by Wednesday [dataset is updated only on Wednesdays]
     * Terms of use: [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
+
+## Acknowledgements
+
+Many people are to thank for contributing archived data to this repository.
+
+* [Jens von Bergmann](https://github.com/mountainMath)
