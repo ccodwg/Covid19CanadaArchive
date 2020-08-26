@@ -4,6 +4,7 @@ import pandas as pd
 from datetime import datetime
 import pytz
 from github import Github
+import requests
 
 # access repo
 token = os.environ['GH_TOKEN']
@@ -19,6 +20,12 @@ def dl_csv(link, path, file, commit):
     data = pd.read_csv(link)
     name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
     repo.create_file(path + name + '.csv', commit, data.to_csv(index=False))
+
+# function: download and commit xlsx
+def dl_xlsx(link, path, file, commit):
+    data = requests.get(link).content
+    name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
+    repo.create_file(path + name + '.xlsx', commit, data)
 
 # AB - COVID-19 in Alberta: Current cases by local geographic area (Edmonton)
 dl_csv('https://data.edmonton.ca/api/views/ix8f-s9xp/rows.csv?accessType=DOWNLOAD',
@@ -55,6 +62,12 @@ dl_csv('https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/res
        'on/status-of-cases/',
        'covidtesting',
        commit)
+
+# ON - City of Toronto COVID-19 Summary
+dl_xlsx('https://docs.google.com/spreadsheets/d/1euhrML0rkV_hHF1thiA0G5vSSeZCqxHY/export?format=xlsx&id=1euhrML0rkV_hHF1thiA0G5vSSeZCqxHY',
+        'on/toronto-covid-summary/',
+        'CityofToronto_COVID-19_Data',
+        commit)
 
 # ON - COVID-19 Cases in Toronto
 ## run only on Wednesdays
