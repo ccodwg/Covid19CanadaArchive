@@ -21,8 +21,13 @@ The sources and terms of use for each included dataset are linked below.
 ### Alberta
 
 * [COVID-19 Alberta statistics](https://www.alberta.ca/stats/covid-19-alberta-statistics.htm)
-    * To be added
-    * Terms of use: See “data notes” tab of [website](https://www.alberta.ca/stats/covid-19-alberta-statistics.htm)
+    * To be added to archiver.py
+    * ab/cases/covid19dataexport.csv
+    * Terms of use: Assumed to be [Open Government Licence - Alberta](https://open.alberta.ca/licence)
+* [COVID-19 relaunch status map](https://www.alberta.ca/maps/covid-19-status-map.htm)
+    * To be added to archiver.py
+    * ab/active-cases-by-region/covid19dataexport-relaunch.csv
+    * Terms of use: Assumed to be [Open Government Licence - Alberta](https://open.alberta.ca/licence)
 * [COVID-19 in Alberta: Current cases by local geographic area (Edmonton)](https://data.edmonton.ca/Community-Services/COVID-19-in-Alberta-Current-cases-by-local-geograp/ix8f-s9xp)
     * ab/edmonton-cases-by-area/COVID-19_in_Alberta__Current_cases_by_local_geographic_area.csv
     * Terms of use: [City of Edmonton Open Data Terms of Use](https://data.edmonton.ca/stories/s/City-of-Edmonton-Open-Data-Terms-of-Use/msh8-if28/)
