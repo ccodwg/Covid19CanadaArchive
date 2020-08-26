@@ -46,8 +46,9 @@ The sources and terms of use for each included dataset are linked below.
 * [Status of COVID-19 cases in Ontario](https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/ed270bb8-340b-41f9-a7c6-e8ef587e6d11)
     * on/status-of-cases/covidtesting.csv
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
-* [City of Toronto COVID-19 Summary](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-status-of-cases-in-toronto/): [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
-    * To be added
+* [City of Toronto COVID-19 Summary](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-status-of-cases-in-toronto/)
+    * on/toronto-covid-summary/CityofToronto_COVID-19_Data.xlsx
+    * Terms of use: [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
 * [COVID-19 Cases in Toronto](https://open.toronto.ca/dataset/covid-19-cases-in-toronto/)
     * Data are extracted at 3 PM on the Monday of a given week and posted by Wednesday [dataset is updated only on Wednesdays]
     * Terms of use: [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
