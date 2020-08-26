@@ -24,7 +24,7 @@ The sources and terms of use for each included dataset are linked below.
     * To be added
     * Terms of use: See “data notes” tab of [website](https://www.alberta.ca/stats/covid-19-alberta-statistics.htm)
 * [COVID-19 in Alberta: Current cases by local geographic area (Edmonton)](https://data.edmonton.ca/Community-Services/COVID-19-in-Alberta-Current-cases-by-local-geograp/ix8f-s9xp)
-    * ab/edmonton-cases-by-areas/COVID-19_in_Alberta__Current_cases_by_local_geographic_area.csv
+    * ab/edmonton-cases-by-area/COVID-19_in_Alberta__Current_cases_by_local_geographic_area.csv
     * Terms of use: [City of Edmonton Open Data Terms of Use](https://data.edmonton.ca/stories/s/City-of-Edmonton-Open-Data-Terms-of-Use/msh8-if28/)
 
 ### British Columbia
