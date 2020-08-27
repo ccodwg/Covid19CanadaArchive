@@ -25,13 +25,13 @@ def dl_csv(url, path, file, commit, user=False):
     else:
         data = pd.read_csv(url)
     name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
-    repo.create_file(path + name + '.csv', commit, data.to_csv(index=False))
+    repo.create_file(path + name + '.csv', commit + ' (' + path + ')', data.to_csv(index=False))
 
 # function: download and commit xlsx
 def dl_xlsx(url, path, file, commit):
     data = requests.get(url).content
     name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
-    repo.create_file(path + name + '.xlsx', commit, data)
+    repo.create_file(path + name + '.xlsx', commit + ' (' + path + ')', data)
 
 # AB - COVID-19 in Alberta: Current cases by local geographic area (Edmonton)
 dl_csv('https://data.edmonton.ca/api/views/ix8f-s9xp/rows.csv?accessType=DOWNLOAD',
