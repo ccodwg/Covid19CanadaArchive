@@ -83,3 +83,4 @@ Many people are to thank for contributing archived data and code to this reposit
 * [Simon Coulombe](https://github.com/simoncoulombe)
 * [James E. Wright](https://twitter.com/JWright159)
 * [Farbod Abolhassani](https://github.com/farbodab)
+* [Shelby L. Sturrock](https://twitter.com/shelbysturrock)
