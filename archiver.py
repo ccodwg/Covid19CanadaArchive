@@ -17,19 +17,19 @@ t = datetime.now(pytz.timezone('America/Toronto'))
 commit = 'Nightly update: ' + str(t.date())
 
 # function: download and commit csv
-def dl_csv(link, path, file, commit, user=False):
+def dl_csv(url, path, file, commit, user=False):
     if user == True:
         headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0"}
-        req = requests.get(link, headers=headers)
+        req = requests.get(url, headers=headers)
         data = pd.read_csv(StringIO(req.text))
     else:
-        data = pd.read_csv(link)
+        data = pd.read_csv(url)
     name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
     repo.create_file(path + name + '.csv', commit, data.to_csv(index=False))
 
 # function: download and commit xlsx
-def dl_xlsx(link, path, file, commit):
-    data = requests.get(link).content
+def dl_xlsx(url, path, file, commit):
+    data = requests.get(url).content
     name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
     repo.create_file(path + name + '.xlsx', commit, data)
 
