@@ -60,6 +60,18 @@ The sources and terms of use for each included dataset are linked below.
     * Data are extracted at 3 PM on the Monday of a given week and posted by Wednesday [dataset is updated only on Wednesdays]
     * Terms of use: [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
 
+### Quebec
+
+* [Données COVID-19 au Québec](https://www.inspq.qc.ca/covid-19/donnees)
+    * COVID-19 data: qc/covid-data/combine.csv
+    * COVID-19 data (charts): qc/covid-data-charts/combine2.csv
+    * Deaths by RSS (health region) and living environment: qc/deaths-by-rss-and-living-environment/tableau-rpa.csv
+    * Cases by RSS (health region) and RLS (local service network): Cases qc/cases-by-rss-and-rls/tableau-rls.csv
+    * Terms of use: TBD
+* [Situation du coronavirus (COVID-19) à Montréal](https://santemontreal.qc.ca/population/coronavirus-covid-19/situation-du-coronavirus-covid-19-a-montreal/)
+    * Montréal cases by area: qc/montreal-cases-by-area/municipal.csv
+    * Terms of use: TBD
+
 ## Acknowledgements
 
 Many people are to thank for contributing archived data to this repository.

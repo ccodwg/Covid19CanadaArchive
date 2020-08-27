@@ -5,6 +5,7 @@ from datetime import datetime
 import pytz
 from github import Github
 import requests
+from io import StringIO
 
 # access repo
 token = os.environ['GH_TOKEN']
@@ -16,8 +17,13 @@ t = datetime.now(pytz.timezone('America/Toronto'))
 commit = 'Nightly update: ' + str(t.date())
 
 # function: download and commit csv
-def dl_csv(link, path, file, commit):
-    data = pd.read_csv(link)
+def dl_csv(link, path, file, commit, user=False):
+    if user == True:
+        headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0"}
+        req = requests.get(link, headers=headers)
+        data = pd.read_csv(StringIO(req.text))
+    else:
+        data = pd.read_csv(link)
     name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
     repo.create_file(path + name + '.csv', commit, data.to_csv(index=False))
 
@@ -76,3 +82,38 @@ if t.weekday() == 2:
            'on/toronto-cases/',
            'COVID19_cases',
            commit)
+
+# QC - COVID-19 data
+dl_csv('https://www.inspq.qc.ca/sites/default/files/covid/donnees/combine.csv',
+       'qc/covid-data/',
+       'combine',
+       commit,
+       user=True)
+
+# QC - COVID-19 data (charts)
+dl_csv('https://www.inspq.qc.ca/sites/default/files/covid/donnees/combine2.csv',
+       'qc/covid-data-charts/',
+       'combine2',
+       commit,
+       user=True)
+
+# QC - Deaths by RSS (health region) and living environment
+dl_csv('https://www.inspq.qc.ca/sites/default/files/covid/donnees/tableau-rpa.csv',
+       'qc/deaths-by-rss-and-living-environment/',
+       'tableau-rpa',
+       commit,
+       user=True)
+
+# QC - Cases by RSS (health region) and RLS (local service network)
+dl_csv('https://www.inspq.qc.ca/sites/default/files/covid/donnees/tableau-rls.csv',
+       'qc/cases-by-rss-and-rls/',
+       'tableau-rls',
+       commit,
+       user=True)
+
+# QC - Montréal cases by area
+dl_csv('https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/municipal.csv',
+       'qc/montreal-cases-by-area/',
+       'municipal',
+       commit,
+       user=True)
