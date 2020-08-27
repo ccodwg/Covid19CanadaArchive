@@ -77,3 +77,4 @@ The sources and terms of use for each included dataset are linked below.
 Many people are to thank for contributing archived data to this repository.
 
 * [Jens von Bergmann](https://github.com/mountainMath)
+* [Simon Coulombe](https://github.com/simoncoulombe)
