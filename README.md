@@ -69,7 +69,12 @@ The sources and terms of use for each included dataset are linked below.
     * Cases by RSS (health region) and RLS (local service network): Cases qc/cases-by-rss-and-rls/tableau-rls.csv
     * Terms of use: TBD
 * [Situation du coronavirus (COVID-19) à Montréal](https://santemontreal.qc.ca/population/coronavirus-covid-19/situation-du-coronavirus-covid-19-a-montreal/)
+    * **Note that these files are actually semicolon-separated since they use a comma as the decimal marker (rather than a period) and are encoded as ISO 8859-15 (rather than UTF-8)**
+    * Montréal cases and deaths by CIUSSS (integrated health and social services centres): qc/montreal-cases-and-deaths-by-ciusss/ciusss.csv
     * Montréal cases by area: qc/montreal-cases-by-area/municipal.csv
+    * Montréal cases and deaths by age group: qc/montreal-cases-and-deaths-by-age-group/grage.csv
+    * Montréal cases and deaths by sex: qc/montreal-cases-and-deaths-by-sex/sexe.csv
+    * Montréal epidemic curve: qc/montreal-epidemic-curve/courbe.csv
     * Terms of use: TBD
 
 ## Acknowledgements
