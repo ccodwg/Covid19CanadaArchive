@@ -21,11 +21,9 @@ The sources and terms of use for each included dataset are linked below.
 ### Alberta
 
 * [COVID-19 Alberta statistics](https://www.alberta.ca/stats/covid-19-alberta-statistics.htm)
-    * To be added to archiver.py
     * ab/cases/covid19dataexport.csv
     * Terms of use: Assumed to be [Open Government Licence - Alberta](https://open.alberta.ca/licence); see also the disclaimer in the "data notes" tab of the [website](https://www.alberta.ca/stats/covid-19-alberta-statistics.htm)
 * [COVID-19 relaunch status map](https://www.alberta.ca/maps/covid-19-status-map.htm)
-    * To be added to archiver.py
     * ab/active-cases-by-region/covid19dataexport-relaunch.csv
     * Terms of use: Assumed to be [Open Government Licence - Alberta](https://open.alberta.ca/licence)
 * [COVID-19 in Alberta: Current cases by local geographic area (Edmonton)](https://data.edmonton.ca/Community-Services/COVID-19-in-Alberta-Current-cases-by-local-geograp/ix8f-s9xp)
@@ -79,8 +77,9 @@ The sources and terms of use for each included dataset are linked below.
 
 ## Acknowledgements
 
-Many people are to thank for contributing archived data to this repository.
+Many people are to thank for contributing archived data and code to this repository.
 
 * [Jens von Bergmann](https://github.com/mountainMath)
 * [Simon Coulombe](https://github.com/simoncoulombe)
 * [James E. Wright](https://twitter.com/JWright159)
+* [Farbod Abolhassani](https://github.com/farbodab)
