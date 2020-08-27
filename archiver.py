@@ -1,10 +1,12 @@
 # import modules
 import os
-import pandas as pd
 from datetime import datetime
 import pytz
 from github import Github
 import requests
+import tempfile
+from selenium import webdriver # requires ChromeDriver and Chromium/Chrome
+from selenium.webdriver.chrome.options import Options
 
 # access repo
 token = os.environ['GH_TOKEN']
@@ -15,15 +17,76 @@ repo = g.get_repo('jeanpaulrsoucy/covid-19-canada-gov-data')
 t = datetime.now(pytz.timezone('America/Toronto'))
 commit = 'Nightly update: ' + str(t.date())
 
+# create temporary directory
+tmpdir = tempfile.TemporaryDirectory()
+
+# setup webdriver
+options = Options()
+options.binary_location = os.environ['GOOGLE_CHROME_BIN']
+options.add_argument("--headless")
+options.add_argument("--disable-dev-shm-usage")
+options.add_argument("--no-sandbox")
+prefs = {'download.default_directory' : str(tmpdir)}
+options.add_experimental_option('prefs', prefs)
+driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
+
 # function: download and commit file
 def dl_file(url, path, file, commit, user=False, ext='.csv'):
         if user == True:
                 headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0"}
-                data = req = requests.get(url, headers=headers).content
+                data = requests.get(url, headers=headers).content
         else:
-                data = req = requests.get(url).content
+                data = requests.get(url).content
         name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
         repo.create_file(path + name + ext, commit + ' (' + path + ')', data)
+
+# function: download and commit csv from AB - "COVID-19 Alberta statistics"
+def dl_ab_cases(url, path, file, commit, ext='.csv'):
+
+        ## click to export
+        driver.get(url)
+        elements = driver.find_elements_by_tag_name("li")
+        for element in elements:
+                if element.text == 'Data export':
+                        element.click()
+        elements = driver.find_elements_by_tag_name("button")
+        for element in elements:
+                if element.text == 'CSV':
+                        element.click()
+
+        ## commit file
+        with open(os.path.join(str(tmpdir), file + ext), 'r') as f:
+                data = f.read()
+        name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
+        repo.create_file(path + name + ext, commit + ' (' + path + ')', data)
+
+# function: download and commit csv from AB - "COVID-19 relaunch status map"
+def dl_ab_relaunch(url, path, file, commit, ext='.csv'):
+        
+        ## click to export
+        driver.get(url)
+        elements = driver.find_elements_by_tag_name("button")
+        for element in elements:
+                if element.text == 'CSV':
+                        element.click()
+
+        ## commit file
+        with open(os.path.join(str(tmpdir), file + ext), 'r') as f:
+                data = f.read()
+        name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
+        repo.create_file(path + name + ext, commit + ' (' + path + ')', data)
+
+# AB - COVID-19 Alberta statistics
+dl_ab_cases('https://www.alberta.ca/stats/covid-19-alberta-statistics.htm',
+            'ab/cases/',
+            'covid19dataexport',
+            commit)
+
+# AB - COVID-19 relaunch status map
+dl_ab_relaunch('https://www.alberta.ca/maps/covid-19-status-map.htm',
+               'ab/active-cases-by-region/',
+               'covid19dataexport-relaunch',
+               commit)
 
 # AB - COVID-19 in Alberta: Current cases by local geographic area (Edmonton)
 dl_file('https://data.edmonton.ca/api/views/ix8f-s9xp/rows.csv?accessType=DOWNLOAD',
