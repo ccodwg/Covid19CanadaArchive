@@ -1,4 +1,4 @@
-pandas
 pytz
 PyGithub
 requests
+selenium
