@@ -78,3 +78,4 @@ Many people are to thank for contributing archived data to this repository.
 
 * [Jens von Bergmann](https://github.com/mountainMath)
 * [Simon Coulombe](https://github.com/simoncoulombe)
+* [James E. Wright](https://twitter.com/JWright159)
