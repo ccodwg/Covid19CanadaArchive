@@ -23,14 +23,14 @@ The sources and terms of use for each included dataset are linked below.
 * [COVID-19 Alberta statistics](https://www.alberta.ca/stats/covid-19-alberta-statistics.htm)
     * To be added to archiver.py
     * ab/cases/covid19dataexport.csv
-    * Terms of use: Assumed to be [Open Government Licence - Alberta](https://open.alberta.ca/licence)
+    * Terms of use: Assumed to be [Open Government Licence - Alberta](https://open.alberta.ca/licence); see also the disclaimer in the "data notes" tab of the [website](https://www.alberta.ca/stats/covid-19-alberta-statistics.htm)
 * [COVID-19 relaunch status map](https://www.alberta.ca/maps/covid-19-status-map.htm)
     * To be added to archiver.py
     * ab/active-cases-by-region/covid19dataexport-relaunch.csv
     * Terms of use: Assumed to be [Open Government Licence - Alberta](https://open.alberta.ca/licence)
 * [COVID-19 in Alberta: Current cases by local geographic area (Edmonton)](https://data.edmonton.ca/Community-Services/COVID-19-in-Alberta-Current-cases-by-local-geograp/ix8f-s9xp)
     * ab/edmonton-cases-by-area/COVID-19_in_Alberta__Current_cases_by_local_geographic_area.csv
-    * Terms of use: [City of Edmonton Open Data Terms of Use](https://data.edmonton.ca/stories/s/City-of-Edmonton-Open-Data-Terms-of-Use/msh8-if28/)
+    * Terms of use: Assumed to be [City of Edmonton Open Data Terms of Use](https://data.edmonton.ca/stories/s/City-of-Edmonton-Open-Data-Terms-of-Use/msh8-if28/)
 
 ### British Columbia
 
@@ -43,7 +43,7 @@ The sources and terms of use for each included dataset are linked below.
 
 * [Coronavirus disease 2019 (COVID-19): Epidemiology update](https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html)
     * can/epidemiology-update/covid19.csv
-    * Terms of use: [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
+    * Terms of use: Assumed to be [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
 
 ### Ontario
 
@@ -55,10 +55,10 @@ The sources and terms of use for each included dataset are linked below.
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 * [City of Toronto COVID-19 Summary](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-status-of-cases-in-toronto/)
     * on/toronto-covid-summary/CityofToronto_COVID-19_Data.xlsx
-    * Terms of use: [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
+    * Terms of use: Assumed to be [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
 * [COVID-19 Cases in Toronto](https://open.toronto.ca/dataset/covid-19-cases-in-toronto/)
     * Data are extracted at 3 PM on the Monday of a given week and posted by Wednesday [dataset is updated only on Wednesdays]
-    * Terms of use: [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
+    * Terms of use: Assumed to be [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
 
 ### Quebec
 
