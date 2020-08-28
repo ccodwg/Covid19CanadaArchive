@@ -17,19 +17,6 @@ repo = g.get_repo('jeanpaulrsoucy/covid-19-canada-gov-data')
 t = datetime.now(pytz.timezone('America/Toronto'))
 commit = 'Nightly update: ' + str(t.date())
 
-# create temporary directory
-tmpdir = tempfile.TemporaryDirectory()
-
-# setup webdriver
-options = Options()
-options.binary_location = os.environ['GOOGLE_CHROME_BIN']
-options.add_argument("--headless")
-options.add_argument("--disable-dev-shm-usage")
-options.add_argument("--no-sandbox")
-prefs = {'download.default_directory' : str(tmpdir)}
-options.add_experimental_option('prefs', prefs)
-driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
-
 # function: download and commit file
 def dl_file(url, path, file, commit, user=False, ext='.csv'):
         if user == True:
@@ -42,7 +29,20 @@ def dl_file(url, path, file, commit, user=False, ext='.csv'):
 
 # function: download and commit csv from AB - "COVID-19 Alberta statistics"
 def dl_ab_cases(url, path, file, commit, ext='.csv'):
-
+        
+        ## create temporary directory
+        tmpdir = tempfile.TemporaryDirectory()
+        
+        ## setup webdriver
+        options = Options()
+        options.binary_location = os.environ['GOOGLE_CHROME_BIN']
+        options.add_argument("--headless")
+        options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("--no-sandbox")
+        prefs = {'download.default_directory' : str(tmpdir)}
+        options.add_experimental_option('prefs', prefs)
+        driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
+        
         ## click to export
         driver.get(url)
         elements = driver.find_elements_by_tag_name("li")
@@ -62,6 +62,19 @@ def dl_ab_cases(url, path, file, commit, ext='.csv'):
 
 # function: download and commit csv from AB - "COVID-19 relaunch status map"
 def dl_ab_relaunch(url, path, file, commit, ext='.csv'):
+        
+        ## create temporary directory
+        tmpdir = tempfile.TemporaryDirectory()        
+        
+        ## setup webdriver
+        options = Options()
+        options.binary_location = os.environ['GOOGLE_CHROME_BIN']
+        options.add_argument("--headless")
+        options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("--no-sandbox")
+        prefs = {'download.default_directory' : str(tmpdir)}
+        options.add_experimental_option('prefs', prefs)
+        driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)        
         
         ## click to export
         driver.get(url)
