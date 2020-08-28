@@ -1,4 +1,6 @@
 # import modules
+import sys
+import time
 import os
 from datetime import datetime
 import pytz
@@ -7,11 +9,26 @@ import requests
 import tempfile
 from selenium import webdriver # requires ChromeDriver and Chromium/Chrome
 from selenium.webdriver.chrome.options import Options
+from colorit import *
+
+# allow script to be run in testing mode (no commits written)
+if len(sys.argv) == 1:
+        mode = 'prod'
+elif len(sys.argv) == 2 and sys.argv[1] == 'test':
+        mode = 'test' # testing on server
+elif len(sys.argv) == 2 and sys.argv[1] == 'localtest':
+        mode = 'localtest' # testing on local machine
+else:
+        sys.exit("Error: Invalid arguments.")
+
+# print with colour
+init_colorit()
 
 # access repo
-token = os.environ['GH_TOKEN']
-g = Github(token)
-repo = g.get_repo('jeanpaulrsoucy/covid-19-canada-gov-data')
+if mode == 'prod':
+        token = os.environ['GH_TOKEN']
+        g = Github(token)
+        repo = g.get_repo('jeanpaulrsoucy/covid-19-canada-gov-data')
 
 # commit string
 t = datetime.now(pytz.timezone('America/Toronto'))
@@ -21,87 +38,148 @@ commit = 'Nightly update: ' + str(t.date())
 def dl_file(url, path, file, commit, user=False, ext='.csv'):
         if user == True:
                 headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0"}
-                data = requests.get(url, headers=headers).content
+                req = requests.get(url, headers=headers)
         else:
-                data = requests.get(url).content
+                req = requests.get(url)
         name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
-        repo.create_file(path + name + ext, commit + ' (' + path + ')', data)
+        if not req.ok:
+                print(background('Error downloading: ' + name, Colors.red))
+        elif mode != 'prod':
+                print(color('Test download successful: ' + name, Colors.green))
+        else:
+                data = req.content
+                repo.create_file(path + name + ext, commit + ' (' + path + ')', data)
+                print(color('Commit successful: ' + name, Colors.green))
 
 # function: download and commit csv from AB - "COVID-19 Alberta statistics"
-def dl_ab_cases(url, path, file, commit, ext='.csv'):
+def dl_ab_cases(url, path, file, commit, ext='.csv', wait=5, attempts=3, verbose=False):
         
-        ## create temporary directory
-        tmpdir = tempfile.TemporaryDirectory()
+        ## attempts begin at 0
+        a = 0
         
-        ## setup webdriver
-        options = Options()
-        options.binary_location = os.environ['GOOGLE_CHROME_BIN']
-        options.add_argument("--headless")
-        options.add_argument("--disable-dev-shm-usage")
-        options.add_argument("--no-sandbox")
-        prefs = {'download.default_directory' : str(tmpdir)}
-        options.add_experimental_option('prefs', prefs)
-        driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
-        driver.implicitly_wait(10)
+        ## attempt download
+        while(a < attempts):
+                ## create temporary directory
+                tmpdir = tempfile.TemporaryDirectory()
+                
+                ## setup webdriver
+                options = Options()
+                if mode != 'localtest':
+                        options.binary_location = os.environ['GOOGLE_CHROME_BIN']
+                options.add_argument("--headless")
+                options.add_argument("--disable-dev-shm-usage")
+                options.add_argument("--no-sandbox")
+                prefs = {'download.default_directory' : tmpdir.name}
+                options.add_experimental_option('prefs', prefs)
+                if mode != 'localtest':
+                        driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
+                else:
+                        driver = webdriver.Chrome(options=options)
+                driver.implicitly_wait(10)
+                
+                ## click to export
+                driver.get(url)
+                elements = driver.find_elements_by_tag_name("li")
+                for element in elements:
+                        if element.text == 'Data export':
+                                element.click()
+                elements = driver.find_elements_by_tag_name("button")
+                for element in elements:
+                        if element.text == 'CSV':
+                                element.click()
+                
+                ## verify download
+                fpath = os.path.join(tmpdir.name, file + ext)
+                time.sleep(wait) # wait for download to finish before checking
+                if not os.path.isfile(fpath):
+                        a += 1
+                        if verbose:
+                                print(color('Attempt ' + str(a) + ' failed...', (150, 150, 150)))
+                        continue
+                else:
+                        break
         
-        ## click to export
-        driver.get(url)
-        elements = driver.find_elements_by_tag_name("li")
-        for element in elements:
-                if element.text == 'Data export':
-                        element.click()
-        elements = driver.find_elements_by_tag_name("button")
-        for element in elements:
-                if element.text == 'CSV':
-                        element.click()
-
         ## commit file
-        with open(os.path.join(str(tmpdir), file + ext), 'r') as f:
-                data = f.read()
         name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
-        repo.create_file(path + name + ext, commit + ' (' + path + ')', data)
+        if not os.path.isfile(fpath):
+                print(background('Error downloading: ' + name, Colors.red))
+        elif mode != 'prod':
+                print(color('Test download successful: ' + name, Colors.green))
+        else:
+                with open(fpath, 'r') as f:
+                        data = f.read()
+                repo.create_file(path + name + ext, commit + ' (' + path + ')', data)
+                print(color('Commit successful: ' + name, Colors.green))
 
 # function: download and commit csv from AB - "COVID-19 relaunch status map"
-def dl_ab_relaunch(url, path, file, commit, ext='.csv'):
+def dl_ab_relaunch(url, path, file, commit, ext='.csv', wait=5, attempts=3, verbose=False):
         
-        ## create temporary directory
-        tmpdir = tempfile.TemporaryDirectory()        
+        ## attempts begin at 0
+        a = 0
         
-        ## setup webdriver
-        options = Options()
-        options.binary_location = os.environ['GOOGLE_CHROME_BIN']
-        options.add_argument("--headless")
-        options.add_argument("--disable-dev-shm-usage")
-        options.add_argument("--no-sandbox")
-        prefs = {'download.default_directory' : str(tmpdir)}
-        options.add_experimental_option('prefs', prefs)
-        driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
-        driver.implicitly_wait(10)
-        
-        ## click to export
-        driver.get(url)
-        elements = driver.find_elements_by_tag_name("button")
-        for element in elements:
-                if element.text == 'CSV':
-                        element.click()
+        ## attempt download        
+        while(a < attempts):
+                ## create temporary directory
+                tmpdir = tempfile.TemporaryDirectory()        
+                
+                ## setup webdriver
+                options = Options()
+                if mode != 'localtest':
+                        options.binary_location = os.environ['GOOGLE_CHROME_BIN']
+                options.add_argument("--headless")
+                options.add_argument("--disable-dev-shm-usage")
+                options.add_argument("--no-sandbox")
+                prefs = {'download.default_directory' : tmpdir.name}
+                options.add_experimental_option('prefs', prefs)
+                if mode != 'localtest':
+                        driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
+                else:
+                        driver = webdriver.Chrome(options=options)
+                driver.implicitly_wait(10)
+                
+                ## click to export
+                driver.get(url)
+                elements = driver.find_elements_by_tag_name("button")
+                for element in elements:
+                        if element.text == 'CSV':
+                                element.click()
+                                
+                ## verify download
+                fpath = os.path.join(tmpdir.name, file + ext)
+                time.sleep(wait) # wait for download to finish before checking
+                if not os.path.isfile(fpath):
+                        a += 1
+                        if verbose:
+                                print(color('Attempt ' + str(a) + ' failed...', (150, 150, 150)))
+                        continue
+                else:
+                        break
 
         ## commit file
-        with open(os.path.join(str(tmpdir), file + ext), 'r') as f:
-                data = f.read()
         name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
-        repo.create_file(path + name + ext, commit + ' (' + path + ')', data)
+        if not os.path.isfile(fpath):
+                print(background('Error downloading: ' + name, Colors.red))
+        elif mode != 'prod':
+                print(color('Test download successful: ' + name, Colors.green))
+        else:
+                with open(fpath, 'r') as f:
+                        data = f.read()
+                repo.create_file(path + name + ext, commit + ' (' + path + ')', data)
+                print(color('Commit successful: ' + name, Colors.green))
 
 # AB - COVID-19 Alberta statistics
 dl_ab_cases('https://www.alberta.ca/stats/covid-19-alberta-statistics.htm',
             'ab/cases/',
             'covid19dataexport',
-            commit)
+            commit,
+            verbose=True)
 
 # AB - COVID-19 relaunch status map
 dl_ab_relaunch('https://www.alberta.ca/maps/covid-19-status-map.htm',
                'ab/active-cases-by-region/',
                'covid19dataexport-relaunch',
-               commit)
+               commit,
+               verbose=True)
 
 # AB - COVID-19 in Alberta: Current cases by local geographic area (Edmonton)
 dl_file('https://data.edmonton.ca/api/views/ix8f-s9xp/rows.csv?accessType=DOWNLOAD',

@@ -2,3 +2,4 @@ pytz
 PyGithub
 requests
 selenium
+color-it
