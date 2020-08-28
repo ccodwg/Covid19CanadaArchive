@@ -42,6 +42,7 @@ def dl_ab_cases(url, path, file, commit, ext='.csv'):
         prefs = {'download.default_directory' : str(tmpdir)}
         options.add_experimental_option('prefs', prefs)
         driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
+        driver.implicitly_wait(10)
         
         ## click to export
         driver.get(url)
@@ -74,7 +75,8 @@ def dl_ab_relaunch(url, path, file, commit, ext='.csv'):
         options.add_argument("--no-sandbox")
         prefs = {'download.default_directory' : str(tmpdir)}
         options.add_experimental_option('prefs', prefs)
-        driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)        
+        driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
+        driver.implicitly_wait(10)
         
         ## click to export
         driver.get(url)
