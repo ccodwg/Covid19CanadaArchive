@@ -121,10 +121,94 @@ dl_file('http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_
         'BCCDC_COVID19_Dashboard_Lab_Information',
         commit)
 
-# CAN - Coronavirus disease 2019 (COVID-19): Epidemiology update
+# CAN - COVID-19 Situational Awareness Dashboard (Epidemiology update)
 dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19.csv',
         'can/epidemiology-update/',
         'covid19',
+        commit)
+
+# CAN - COVID-19 Situational Awareness Dashboard (Epidemiology summary statements)
+dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-statements.csv',
+        'can/epidemiology-summary-statements/',
+        'covid19-epiSummary-statements',
+        commit)
+
+# CAN - COVID-19 Situational Awareness Dashboard (NML summary)
+dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-NML.csv',
+        'can/nml-summary/',
+        'covid19-epiSummary-NML',
+        commit)
+
+# CAN - COVID-19 Situational Awareness Dashboard (NML weekly testing)
+dl_file('https://health-infobase.canada.ca/src/data/covidLive/NML_weekly_testing.csv',
+        'can/nml-weekly-testing/',
+        'NML_weekly_testing',
+        commit)
+
+# CAN - COVID-19 Situational Awareness Dashboard (Number of cases with detailed case report data)
+dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-nTotal.csv',
+        'can/detailed-case-report-n/',
+        'covid19-nTotal',
+        commit)
+
+# CAN - COVID-19 Situational Awareness Dashboard (Cases and deaths by health region time series)
+dl_file('https://health-infobase.canada.ca/src/data/covidLive/file_out_v5.csv',
+        'can/cases-and-deaths-by-hr-time-series/',
+        'file_out_v5',
+        commit)
+
+# CAN - COVID-19 Situational Awareness Dashboard (Health region UID table)
+dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-healthregions-hruid.csv',
+        'can/health-region-uid/',
+        'covid19-healthregions-hruid',
+        commit)
+
+# CAN - COVID-19 Situational Awareness Dashboard (Cases by exposure setting time series)
+dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesovertime.csv',
+        'can/cases-by-exposure-time-series/',
+        'covid19-epiSummary-casesovertime',
+        commit)
+
+# CAN - COVID-19 Situational Awareness Dashboard (Epidemic curve by date of illness onset by age group)
+dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-epiCurveByAge.csv',
+        'can/epidemic-curve-by-age/',
+        'covid19-epiSummary-epiCurveByAge',
+        commit)
+
+# CAN - COVID-19 Situational Awareness Dashboard (Severity by age group and sex)
+dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-severityUpdate.csv',
+        'can/severity-by-age-and-sex/',
+        'covid19-epiSummary-severityUpdate',
+        commit)
+
+# CAN - COVID-19 Situational Awareness Dashboard (Cases by severity)
+dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-severity.csv',
+        'can/cases-by-severity/',
+        'covid19-epiSummary-severity',
+        commit)
+
+# CAN - COVID-19 Situational Awareness Dashboard (Cases by age group and sex)
+dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-agegroups2.csv',
+        'can/cases-by-age-and-sex/',
+        'covid19-epiSummary-agegroups2',
+        commit)
+
+# CAN - COVID-19 Situational Awareness Dashboard (Cases by probable exposure setting)
+dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-probableexposure2.csv',
+        'can/cases-by-probable-exposure-setting/',
+        'covid19-epiSummary-probableexposure2',
+        commit)
+
+# CAN - COVID-19 Situational Awareness Dashboard (Symptoms summary)
+dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-symptoms.csv',
+        'can/symptoms-summary/',
+        'covid19-epiSummary-symptoms',
+        commit)
+
+# CAN - COVID-19 Situational Awareness Dashboard (Situational awareness dashboard update time)
+dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-updateTime.csv',
+        'can/situational-awareness-dashboard-update-time/',
+        'covid19-updateTime',
         commit)
 
 # ON - Confirmed positive cases of COVID19 in Ontario

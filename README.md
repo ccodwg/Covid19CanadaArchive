@@ -40,8 +40,22 @@ The sources and terms of use for each included dataset are linked below.
 
 ### Canada
 
-* [Coronavirus disease 2019 (COVID-19): Epidemiology update](https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html)
-    * can/epidemiology-update/covid19.csv
+* [epidemiological summary of COVID-19 cases in Canada](https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html) / [COVID-19 Situational Awareness Dashboard](https://health-infobase.canada.ca/covid-19/dashboard/)
+    * Epidemiology update: can/epidemiology-update/covid19.csv
+    * Epidemiology summary statements: can/epidemiology-summary-statements/covid19-epiSummary-statements.csv
+    * NML summary: can/nml-summary/covid19-epiSummary-NML.csv
+    * NML weekly testing: can/nml-weekly-testing/NML_weekly_testing.csv
+    * Number of cases with detailed case report data: can/detailed-case-report-n/covid19-nTotal.csv
+    * Cases and deaths by health region time series: can/cases-and-deaths-by-hr-time-series/file_out_v5.csv
+    * Health region UID table: can/health-region-uid/covid19-healthregions-hruid.csv
+    * Cases by exposure setting time series: can/cases-by-exposure-time-series/covid19-epiSummary-casesovertime.csv
+    * Epidemic curve by date of illness onset by age group: can/epidemic-curve-by-age/covid19-epiSummary-epiCurveByAge.csv
+    * Severity by age group and sex: can/severity-by-age-and-sex/covid19-epiSummary-severityUpdate.csv
+    * Cases by severity: can/cases-by-severity/covid19-epiSummary-severity.csv
+    * Cases by age group and sex: can/cases-by-age-and-sex/covid19-epiSummary-agegroups2.csv
+    * Cases by probable exposure setting: can/cases-by-probable-exposure-setting/covid19-epiSummary-probableexposure2.csv
+    * Symptoms summary: can/symptoms-summary/covid19-epiSummary-symptoms.csv
+    * Situational awareness dashboard update time: can/situational-awareness-dashboard-update-time/covid19-updateTime.csv
     * Terms of use: Assumed to be [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
 
 ### Ontario
