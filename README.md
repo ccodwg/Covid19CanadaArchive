@@ -33,6 +33,7 @@ The sources and terms of use for each included dataset are linked below.
 ### British Columbia
 
 * [BC COVID-19 Data](http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data)
+    * **Note that the date format of the case data file is %m/%d/%Y rather than %Y-%m-%d for 2020-08-24 to 2020-08-26 exclusively**
     * Case data: bc/case-data/BCCDC_COVID19_Dashboard_Case_Details.csv
     * Laboratory data: bc/laboratory-data/BCCDC_COVID19_Dashboard_Lab_Information.csv
     * Terms of use: [Disclaimer and data notes](http://www.bccdc.ca/Health-Info-Site/Documents/BC_COVID-19_Disclaimer_Data_Notes.pdf)
