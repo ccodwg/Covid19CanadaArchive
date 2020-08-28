@@ -40,7 +40,7 @@ The sources and terms of use for each included dataset are linked below.
 
 ### Canada
 
-* [epidemiological summary of COVID-19 cases in Canada](https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html) / [COVID-19 Situational Awareness Dashboard](https://health-infobase.canada.ca/covid-19/dashboard/)
+* [Epidemiological summary of COVID-19 cases in Canada](https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html) / [COVID-19 Situational Awareness Dashboard](https://health-infobase.canada.ca/covid-19/dashboard/)
     * Epidemiology update: can/epidemiology-update/covid19.csv
     * Epidemiology summary statements: can/epidemiology-summary-statements/covid19-epiSummary-statements.csv
     * NML summary: can/nml-summary/covid19-epiSummary-NML.csv
