@@ -33,8 +33,18 @@ The sources and terms of use for each included dataset are linked below.
 ### British Columbia
 
 * [BC COVID-19 Data](http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data)
-    * **Note that the date format of the case data file is %m/%d/%Y rather than %Y-%m-%d for 2020-08-24 to 2020-08-26 exclusively**
     * Case data: bc/case-data/BCCDC_COVID19_Dashboard_Case_Details.csv
+        * The format of the column "Reported_Date" is %Y-%m-%d except for 2020-08-24 to 2020-08-26 where it is %m/%d/%Y.
+        * Due to Excel's aggressive date conversion, the column "Age_Group" may occasionally contain "19-Oct" rather than "10-19" (e.g., see this [Twitter thread](https://twitter.com/vb_jens/status/1298661723876909056)). This archive may not represent a perfect record of the appearance of "19-Oct" as some files may have been processed in Excel prior to upload, either removing or introducing the anomalous value.
+        * Data parsing advice for the above issues in R:
+        ```
+        library(dplyr)
+        dat <- read.csv("http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Case_Details.csv") %>%
+          mutate(
+            Reported_Date = coalesce(as.Date(Reported_Date), as.Date(Reported_Date, "%m/%d/%Y")),
+            Age_Group = recode(Age_Group, "19-Oct" = "10-19")
+          )
+        ```        
     * Laboratory data: bc/laboratory-data/BCCDC_COVID19_Dashboard_Lab_Information.csv
     * Terms of use: [Disclaimer and data notes](http://www.bccdc.ca/Health-Info-Site/Documents/BC_COVID-19_Disclaimer_Data_Notes.pdf)
 
