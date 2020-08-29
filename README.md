@@ -6,6 +6,8 @@ This repository provides automated, daily backups of COVID-19 data from various 
 
 All code in this repository is covered by the [MIT License](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/blob/master/LICENSE). Licenses and terms of use for each archived dataset are given below.
 
+This repository is maintained by [Jean-Paul R. Soucy](https://jeanpaulsoucy.com/) on behalf of the [COVID-19 Open Data Working Group](https://opencovid.ca/).
+
 ## Contributing
 
 Community members may contribute to this repository in three ways:
@@ -13,6 +15,10 @@ Community members may contribute to this repository in three ways:
 * Create an issue to request a dataset be added to the archive.
 * Create a pull request for *archiver.py* adding the ability to automatically archive a requested or not-yet-implemented dataset.
 * Submit archived versions of an existing, requested, or not-yet-implemented dataset. If possible, please use the original file name plus timestamp in the format described above.
+
+## Recommended citation
+
+COVID-19 Canada Open Data Working Group. Archive of COVID-19 Data from Canadian Government Sources. https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data. (Access date).
 
 ## Data sources/terms of use
 
@@ -103,7 +109,7 @@ The sources and terms of use for each included dataset are linked below.
 ## Acknowledgements
 
 Many people are to thank for contributing archived data and code to this repository.
-
+ 
 * [Jens von Bergmann](https://github.com/mountainMath)
 * [Simon Coulombe](https://github.com/simoncoulombe)
 * [James E. Wright](https://twitter.com/JWright159)
