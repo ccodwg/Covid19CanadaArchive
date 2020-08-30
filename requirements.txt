@@ -1,5 +1,5 @@
 pytz
-PyGithub
+gitpython
 requests
 selenium
 color-it
