@@ -32,12 +32,17 @@ t = datetime.now(pytz.timezone('America/Toronto'))
 if mode == 'prod':
         ## access token
         token = os.environ['GH_TOKEN']
+        gh_name = os.environ['GH_NAME']
+        gh_mail = os.environ['GH_MAIL']
         ## set repository directory
         repo_dir = 'archive'
         ## shallow clone
         repo_remote = 'https://' + token + ':x-oauth-basic@github.com/jeanpaulrsoucy/covid-19-canada-gov-data'
         repo = Repo.clone_from(repo_remote, repo_dir, depth=1)
         origin = repo.remote('origin')
+        ### set identity
+        repo.config_writer().set_value("user", "name", gh_name).release()
+        repo.config_writer().set_value("user", "email", gh_mail).release()
         ## initialize file list
         file_list = []
         ## initialize commit message
