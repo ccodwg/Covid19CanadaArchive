@@ -316,6 +316,24 @@ if t.weekday() == 2:
                 'COVID19_cases',
                 commit)
 
+# ON - Ottawa cases and deaths
+dl_file('https://www.arcgis.com/sharing/rest/content/items/cf9abb0165b34220be8f26790576a5e7/data',
+        'on/ottawa-cases-and-deaths/',
+        'COVID-19_Cases_and_Deaths_in_Ottawa_EN',
+        commit)
+
+# ON - Ottawa outbreaks in healthcare institutions
+dl_file('https://www.arcgis.com/sharing/rest/content/items/77078920fea8499dbb6f54cc69c03a90/data',
+        'on/ottawa-outbreaks-in-healthcare-institutions/',
+        'COVID-19_Outbreaks_in_Ottawa_Healthcare_Institutions_EN',
+        commit)
+
+# ON - Ottawa hospitalization data
+dl_file('https://www.arcgis.com/sharing/rest/content/items/02c99319ef44488e85cd4f96f5061f20/data',
+        'on/ottawa-hospitalization/',
+        'Hospitalizations_of_Ottawa_residents_with_confirmed_COVID-19',
+        commit)
+
 # QC - COVID-19 data
 dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/combine.csv',
         'qc/covid-data/',

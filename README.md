@@ -88,6 +88,11 @@ The sources and terms of use for each included dataset are linked below.
 * [COVID-19 Cases in Toronto](https://open.toronto.ca/dataset/covid-19-cases-in-toronto/)
     * Data are extracted at 3 PM on the Monday of a given week and posted by Wednesday [dataset is updated only on Wednesdays]
     * Terms of use: Assumed to be [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
+* [Daily COVID-19 Dashboard (Ottawa)](https://ottawa.ca/en/city-hall/get-know-your-city/open-data#open-data-licence-version-2-0)
+    * Ottawa cases and deaths: on/ottawa-cases-and-deaths/COVID-19_Cases_and_Deaths_in_Ottawa_EN.csv
+    * Ottawa outbreaks in healthcare institutions: on/ottawa-outbreaks-in-healthcare-institutions/COVID-19_Outbreaks_in_Ottawa_Healthcare_Institutions_EN.csv
+    * Ottawa hospitalization data: on/ottawa-hospitalization/Hospitalizations_of_Ottawa_residents_with_confirmed_COVID-19.csv
+    * Terms of use: [Open Government Licence – City of Ottawa](https://ottawa.ca/en/city-hall/get-know-your-city/open-data#open-data-licence-version-2-0)
 
 ### Quebec
 
