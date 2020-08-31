@@ -74,6 +74,12 @@ The sources and terms of use for each included dataset are linked below.
     * Situational awareness dashboard update time: can/situational-awareness-dashboard-update-time/covid19-updateTime.csv
     * Terms of use: Assumed to be [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
 
+### Nova Scotia
+
+* [Coronavirus (COVID-19): case data](https://novascotia.ca/coronavirus/data/)
+    * ns/case-data/ns-covid19-data.csv
+    * Terms of use: Assumed to be [Open Government Licence – Nova Scotia](https://novascotia.ca/opendata/licence.asp)
+
 ### Ontario
 
 * [Confirmed positive cases of COVID19 in Ontario](https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario/resource/455fd63b-603d-4608-8216-7d8647f43350)

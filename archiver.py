@@ -311,6 +311,11 @@ dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-updateTime
         'can/situational-awareness-dashboard-update-time/',
         'covid19-updateTime')
 
+# NS - Coronavirus (COVID-19): case data
+dl_file('https://novascotia.ca/coronavirus/data/ns-covid19-data.csv',
+        'ns/case-data/,
+        'ns-covid19-data')
+
 # ON - Confirmed positive cases of COVID19 in Ontario
 dl_file('https://data.ontario.ca/dataset/f4112442-bdc8-45d2-be3c-12efae72fb27/resource/455fd63b-603d-4608-8216-7d8647f43350/download/conposcovidloc.csv',
         'on/confirmed-positive-cases/',
