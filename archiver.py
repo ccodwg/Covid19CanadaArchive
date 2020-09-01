@@ -52,6 +52,7 @@ if mode == 'prod':
 def prep_files(name, full_name, data = None, fpath=None, copy=False):
         global commit_message
         spath = os.path.join(repo_dir, full_name)
+        os.makedirs(os.path.dirname(spath), exist_ok=True)
         if copy:
                 copyfile(fpath, spath)
         else:
