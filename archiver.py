@@ -313,7 +313,7 @@ dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-updateTime
 
 # NS - Coronavirus (COVID-19): case data
 dl_file('https://novascotia.ca/coronavirus/data/ns-covid19-data.csv',
-        'ns/case-data/,
+        'ns/case-data/',
         'ns-covid19-data')
 
 # ON - Confirmed positive cases of COVID19 in Ontario
