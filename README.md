@@ -108,6 +108,9 @@ The sources and terms of use for each included dataset are linked below.
     * Deaths by RSS (health region) and living environment: qc/deaths-by-rss-and-living-environment/tableau-rpa.csv
     * Cases by RSS (health region) and RLS (local service network): Cases qc/cases-by-rss-and-rls/tableau-rls.csv
     * Terms of use: TBD
+* [Situation dans les établissements scolaires relative à la COVID-19](https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_ecole.pdf)
+    * qc/situation-in-schools/etat_situation_ecole.pdf
+    * Terms of use: TBD
 * [Situation du coronavirus (COVID-19) à Montréal](https://santemontreal.qc.ca/population/coronavirus-covid-19/situation-du-coronavirus-covid-19-a-montreal/)
     * **Note that these files are actually semicolon-separated since they use a comma as the decimal marker (rather than a period) and are encoded as ISO 8859-15 (rather than UTF-8)**
     * Montréal cases and deaths by CIUSSS (integrated health and social services centres): qc/montreal-cases-and-deaths-by-ciusss/ciusss.csv
