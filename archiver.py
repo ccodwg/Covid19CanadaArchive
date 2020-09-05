@@ -379,6 +379,12 @@ dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/tableau-rls.c
         'tableau-rls',
         user=True)
 
+# QC - Situation in schools relating to COVID-19
+dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_ecole.pdf',
+        'qc/situation-in-schools/',
+        'etat_situation_ecole',
+        ext = '.pdf')
+
 # QC - Montréal cases and deaths by CIUSSS (integrated health and social services centres)
 dl_file('https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/ciusss.csv',
         'qc/montreal-cases-and-deaths-by-ciusss/',
