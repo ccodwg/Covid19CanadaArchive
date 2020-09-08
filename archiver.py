@@ -60,7 +60,7 @@ def prep_files(name, full_name, data = None, fpath=None, copy=False):
                         local_file.write(data)
         file_list.append(full_name)
         commit_message = commit_message + 'Success: ' + full_name + '\n'
-        print(color('Copy successful: ' + name, Colors.blue))
+        print(color('Copy successful: ' + full_name, Colors.blue))
 
 # function: commit files
 def commit_files(file_list, commit_message):
@@ -79,11 +79,11 @@ def dl_file(url, path, file, user=False, ext='.csv'):
         name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
         full_name = os.path.join(path, name + ext)
         if not req.ok:
-                print(background('Error downloading: ' + name, Colors.red))
+                print(background('Error downloading: ' + full_name, Colors.red))
                 if mode == 'prod':
                         commit_message = commit_message + 'Failure: ' + full_name + '\n'
         elif mode != 'prod':
-                print(color('Test download successful: ' + name, Colors.green))
+                print(color('Test download successful: ' + full_name, Colors.green))
         else:
                 data = req.content
                 prep_files(name=name, full_name=full_name, data=data)
@@ -143,11 +143,11 @@ def dl_ab_cases(url, path, file, ext='.csv', wait=5, attempts=3, verbose=False):
         
         ## commit file
         if not os.path.isfile(fpath):
-                print(background('Error downloading: ' + name, Colors.red))
+                print(background('Error downloading: ' + full_name, Colors.red))
                 if mode == 'prod':
                         commit_message = commit_message + 'Failure: ' + full_name + '\n'                
         elif mode != 'prod':
-                print(color('Test download successful: ' + name, Colors.green))
+                print(color('Test download successful: ' + full_name, Colors.green))
         else:
                 prep_files(name=name, full_name=full_name, fpath=fpath, copy=True)
 
@@ -202,11 +202,11 @@ def dl_ab_relaunch(url, path, file, ext='.csv', wait=5, attempts=3, verbose=Fals
 
         ## commit file
         if not os.path.isfile(fpath):
-                print(background('Error downloading: ' + name, Colors.red))
+                print(background('Error downloading: ' + full_name, Colors.red))
                 if mode == 'prod':
                         commit_message = commit_message + 'Failure: ' + full_name + '\n'                
         elif mode != 'prod':
-                print(color('Test download successful: ' + name, Colors.green))
+                print(color('Test download successful: ' + full_name, Colors.green))
         else:
                 prep_files(name=name, full_name=full_name, fpath=fpath, copy=True)
 
