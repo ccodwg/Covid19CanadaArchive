@@ -165,7 +165,7 @@ def dl_ab_relaunch(url, path, file, ext='.csv', wait=5, attempts=3, verbose=Fals
         ## attempt download        
         while(a < attempts):
                 ## create temporary directory
-                tmpdir = tempfile.TemporaryDirectory()        
+                tmpdir = tempfile.TemporaryDirectory()
                 
                 ## setup webdriver
                 options = Options()
@@ -414,6 +414,12 @@ dl_file('https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/si
         'qc/montreal-epidemic-curve/',
         'courbe',
         user=True)
+
+# Other: QC - Covid Écoles Québec (Excel)
+dl_file('https://drive.google.com/uc?export=download&id=1xOl0uhyx9IuHZfJuRH-OR7BcGFuWYUex',
+        'other/qc/covid-ecoles-quebec-school-list/',
+        'COVIDECOLESQUEBEC',
+        ext = '.xlsx')
 
 # Commit files
 if mode == 'prod':
