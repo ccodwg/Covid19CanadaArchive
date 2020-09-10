@@ -89,57 +89,45 @@ def dl_file(url, path, file, user=False, ext='.csv'):
                 prep_files(name=name, full_name=full_name, data=data)
 
 # function: download and commit csv from AB - "COVID-19 Alberta statistics"
-def dl_ab_cases(url, path, file, ext='.csv', wait=5, attempts=3, verbose=False):
+def dl_ab_cases(url, path, file, ext='.csv', wait=5):
         global commit_message
         
         ## set names
         name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
         full_name = os.path.join(path, name + ext)           
         
-        ## attempts begin at 0
-        a = 0
+        ## create temporary directory
+        tmpdir = tempfile.TemporaryDirectory()
         
-        ## attempt download
-        while(a < attempts):
-                ## create temporary directory
-                tmpdir = tempfile.TemporaryDirectory()
-                
-                ## setup webdriver
-                options = Options()
-                if mode != 'localtest':
-                        options.binary_location = os.environ['GOOGLE_CHROME_BIN']
-                options.add_argument("--headless")
-                options.add_argument("--disable-dev-shm-usage")
-                options.add_argument("--no-sandbox")
-                prefs = {'download.default_directory' : tmpdir.name}
-                options.add_experimental_option('prefs', prefs)
-                if mode != 'localtest':
-                        driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
-                else:
-                        driver = webdriver.Chrome(options=options)
-                driver.implicitly_wait(10)
-                
-                ## click to export
-                driver.get(url)
-                elements = driver.find_elements_by_tag_name("li")
-                for element in elements:
-                        if element.text == 'Data export':
-                                element.click()
-                elements = driver.find_elements_by_tag_name("button")
-                for element in elements:
-                        if element.text == 'CSV':
-                                element.click()
-                
-                ## verify download
-                fpath = os.path.join(tmpdir.name, file + ext)
-                time.sleep(wait) # wait for download to finish before checking
-                if not os.path.isfile(fpath):
-                        a += 1
-                        if verbose:
-                                print(color('Attempt ' + str(a) + ' failed...', (150, 150, 150)))
-                        continue
-                else:
-                        break
+        ## setup webdriver
+        options = Options()
+        if mode != 'localtest':
+                options.binary_location = os.environ['GOOGLE_CHROME_BIN']
+        options.add_argument("--headless")
+        options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("--no-sandbox")
+        prefs = {'download.default_directory' : tmpdir.name}
+        options.add_experimental_option('prefs', prefs)
+        if mode != 'localtest':
+                driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
+        else:
+                driver = webdriver.Chrome(options=options)
+        driver.implicitly_wait(10)
+        
+        ## click to export
+        driver.get(url)
+        elements = driver.find_elements_by_tag_name("li")
+        for element in elements:
+                if element.text == 'Data export':
+                        element.click()
+        elements = driver.find_elements_by_tag_name("button")
+        for element in elements:
+                if element.text == 'CSV':
+                        element.click()
+        
+        ## verify download
+        fpath = os.path.join(tmpdir.name, file + ext)
+        time.sleep(wait) # wait for download to finish
         
         ## commit file
         if not os.path.isfile(fpath):
@@ -151,54 +139,42 @@ def dl_ab_cases(url, path, file, ext='.csv', wait=5, attempts=3, verbose=False):
         else:
                 prep_files(name=name, full_name=full_name, fpath=fpath, copy=True)
 
-# function: download and commit csv from AB - "COVID-19 relaunch status map"
-def dl_ab_relaunch(url, path, file, ext='.csv', wait=5, attempts=3, verbose=False):
+# function: download and commit csv from AB - "COVID-19 relaunch status map" or AB - "COVID-19 school status map"
+def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
         global commit_message
         
         ## set names
         name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
         full_name = os.path.join(path, name + ext)        
         
-        ## attempts begin at 0
-        a = 0
+        ## create temporary directory
+        tmpdir = tempfile.TemporaryDirectory()
         
-        ## attempt download        
-        while(a < attempts):
-                ## create temporary directory
-                tmpdir = tempfile.TemporaryDirectory()
-                
-                ## setup webdriver
-                options = Options()
-                if mode != 'localtest':
-                        options.binary_location = os.environ['GOOGLE_CHROME_BIN']
-                options.add_argument("--headless")
-                options.add_argument("--disable-dev-shm-usage")
-                options.add_argument("--no-sandbox")
-                prefs = {'download.default_directory' : tmpdir.name}
-                options.add_experimental_option('prefs', prefs)
-                if mode != 'localtest':
-                        driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
-                else:
-                        driver = webdriver.Chrome(options=options)
-                driver.implicitly_wait(10)
-                
-                ## click to export
-                driver.get(url)
-                elements = driver.find_elements_by_tag_name("button")
-                for element in elements:
-                        if element.text == 'CSV':
-                                element.click()
-                                
-                ## verify download
-                fpath = os.path.join(tmpdir.name, file + ext)
-                time.sleep(wait) # wait for download to finish before checking
-                if not os.path.isfile(fpath):
-                        a += 1
-                        if verbose:
-                                print(color('Attempt ' + str(a) + ' failed...', (150, 150, 150)))
-                        continue
-                else:
-                        break
+        ## setup webdriver
+        options = Options()
+        if mode != 'localtest':
+                options.binary_location = os.environ['GOOGLE_CHROME_BIN']
+        options.add_argument("--headless")
+        options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("--no-sandbox")
+        prefs = {'download.default_directory' : tmpdir.name}
+        options.add_experimental_option('prefs', prefs)
+        if mode != 'localtest':
+                driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
+        else:
+                driver = webdriver.Chrome(options=options)
+        driver.implicitly_wait(10)
+        
+        ## click to export
+        driver.get(url)
+        elements = driver.find_elements_by_tag_name("button")
+        for element in elements:
+                if element.text == 'CSV':
+                        element.click()
+                        
+        ## verify download
+        fpath = os.path.join(tmpdir.name, file + ext)
+        time.sleep(wait) # wait for download to finish
 
         ## commit file
         if not os.path.isfile(fpath):
@@ -213,14 +189,17 @@ def dl_ab_relaunch(url, path, file, ext='.csv', wait=5, attempts=3, verbose=Fals
 # AB - COVID-19 Alberta statistics
 dl_ab_cases('https://www.alberta.ca/stats/covid-19-alberta-statistics.htm',
             'ab/cases/',
-            'covid19dataexport',
-            verbose=True)
+            'covid19dataexport')
 
 # AB - COVID-19 relaunch status map
-dl_ab_relaunch('https://www.alberta.ca/maps/covid-19-status-map.htm',
+dl_ab_oneclick('https://www.alberta.ca/maps/covid-19-status-map.htm',
                'ab/active-cases-by-region/',
-               'covid19dataexport-relaunch',
-               verbose=True)
+               'covid19dataexport-relaunch')
+
+# AB - COVID-19 school status map
+dl_ab_oneclick('https://www.alberta.ca/schools/covid-19-school-status-map.htm',
+               'ab/school-status-by-region/',
+               'covid19dataexport-relaunch')
 
 # AB - COVID-19 in Alberta: Current cases by local geographic area (Edmonton)
 dl_file('https://data.edmonton.ca/api/views/ix8f-s9xp/rows.csv?accessType=DOWNLOAD',
