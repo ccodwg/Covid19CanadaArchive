@@ -121,6 +121,15 @@ The sources and terms of use for each included dataset are linked below.
     * Montréal epidemic curve: qc/montreal-epidemic-curve/courbe.csv
     * Terms of use: TBD
 
+### Other: Non-governmental sources
+
+#### Quebec
+
+* [Covid Écoles Québec: Number of schools](https://www.covidecolesquebec.org/liste-alphabtique)
+    * Screenshot of webpage: other/qc/other/qc/covid-ecoles-quebec-school-list-webpage/liste-alphabtique.png (not automated yet)
+    * [Excel spreadsheet](https://drive.google.com/file/d/1xOl0uhyx9IuHZfJuRH-OR7BcGFuWYUex/view): other/qc/covid-ecoles-quebec-school-list/COVIDECOLESQUEBEC.xlsx (original file name is COVIDECOLESQUEBEC_20200905.xlsx, renamed to avoid confusion)
+    * Terms of use: TBD
+
 ## Acknowledgements
 
 Many people are to thank for contributing archived data and code to this repository.
