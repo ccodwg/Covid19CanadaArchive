@@ -1,5 +1,9 @@
 # temporary files
 temp/
+temp_archive/
+
+# secrets
+.gh/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

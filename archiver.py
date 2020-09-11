@@ -14,7 +14,9 @@ from colorit import *
 
 # allow script to be run in testing mode (no commits written)
 if len(sys.argv) == 1:
-        mode = 'prod'
+        mode = 'prod' # writing files on server
+elif len(sys.argv) == 2 and sys.argv[1] == 'localprod':
+        mode = 'localprod' # writing files on local machine
 elif len(sys.argv) == 2 and sys.argv[1] == 'test':
         mode = 'test' # testing on server
 elif len(sys.argv) == 2 and sys.argv[1] == 'localtest':
@@ -29,13 +31,18 @@ init_colorit()
 t = datetime.now(pytz.timezone('America/Toronto'))
 
 # access repo
-if mode == 'prod':
+if mode == 'prod' or mode == 'localprod':
         ## access token
-        token = os.environ['GH_TOKEN']
-        gh_name = os.environ['GH_NAME']
-        gh_mail = os.environ['GH_MAIL']
+        if mode == 'prod':
+                token = os.environ['GH_TOKEN']
+                gh_name = os.environ['GH_NAME']
+                gh_mail = os.environ['GH_MAIL']
+        elif mode == 'localprod':
+                token = open('.gh/token.txt', 'r').readline().rstrip()
+                gh_name = open('.gh/gh_name.txt', 'r').readline().rstrip()
+                gh_mail = open('.gh/gh_mail.txt', 'r').readline().rstrip()
         ## set repository directory
-        repo_dir = 'archive'
+        repo_dir = 'temp_archive'
         ## shallow clone
         repo_remote = 'https://' + token + ':x-oauth-basic@github.com/jeanpaulrsoucy/covid-19-canada-gov-data'
         repo = Repo.clone_from(repo_remote, repo_dir, depth=1)
@@ -80,9 +87,9 @@ def dl_file(url, path, file, user=False, ext='.csv'):
         full_name = os.path.join(path, name + ext)
         if not req.ok:
                 print(background('Error downloading: ' + full_name, Colors.red))
-                if mode == 'prod':
+                if mode == 'prod' or mode == 'localprod':
                         commit_message = commit_message + 'Failure: ' + full_name + '\n'
-        elif mode != 'prod':
+        elif mode != 'prod' and mode != 'localprod':
                 print(color('Test download successful: ' + full_name, Colors.green))
         else:
                 data = req.content
@@ -101,14 +108,14 @@ def dl_ab_cases(url, path, file, ext='.csv', wait=5):
         
         ## setup webdriver
         options = Options()
-        if mode != 'localtest':
+        if mode == 'prod' or mode == 'test':
                 options.binary_location = os.environ['GOOGLE_CHROME_BIN']
         options.add_argument("--headless")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--no-sandbox")
         prefs = {'download.default_directory' : tmpdir.name}
         options.add_experimental_option('prefs', prefs)
-        if mode != 'localtest':
+        if mode == 'prod' or mode == 'test':
                 driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
         else:
                 driver = webdriver.Chrome(options=options)
@@ -132,9 +139,9 @@ def dl_ab_cases(url, path, file, ext='.csv', wait=5):
         ## commit file
         if not os.path.isfile(fpath):
                 print(background('Error downloading: ' + full_name, Colors.red))
-                if mode == 'prod':
+                if mode == 'prod' or mode == 'localprod':
                         commit_message = commit_message + 'Failure: ' + full_name + '\n'                
-        elif mode != 'prod':
+        elif mode != 'prod' and mode != 'localprod':
                 print(color('Test download successful: ' + full_name, Colors.green))
         else:
                 prep_files(name=name, full_name=full_name, fpath=fpath, copy=True)
@@ -152,14 +159,14 @@ def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
         
         ## setup webdriver
         options = Options()
-        if mode != 'localtest':
+        if mode == 'prod' or mode == 'test':
                 options.binary_location = os.environ['GOOGLE_CHROME_BIN']
         options.add_argument("--headless")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--no-sandbox")
         prefs = {'download.default_directory' : tmpdir.name}
         options.add_experimental_option('prefs', prefs)
-        if mode != 'localtest':
+        if mode == 'prod' or mode == 'test':
                 driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
         else:
                 driver = webdriver.Chrome(options=options)
@@ -179,9 +186,9 @@ def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
         ## commit file
         if not os.path.isfile(fpath):
                 print(background('Error downloading: ' + full_name, Colors.red))
-                if mode == 'prod':
+                if mode == 'prod' or mode == 'localprod':
                         commit_message = commit_message + 'Failure: ' + full_name + '\n'                
-        elif mode != 'prod':
+        elif mode != 'prod' and mode != 'localprod':
                 print(color('Test download successful: ' + full_name, Colors.green))
         else:
                 prep_files(name=name, full_name=full_name, fpath=fpath, copy=True)
