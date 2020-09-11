@@ -50,7 +50,7 @@ The sources and terms of use for each included dataset are linked below.
         library(dplyr)
         dat <- read.csv("http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Case_Details.csv") %>%
           mutate(
-            Reported_Date = coalesce(as.Date(Reported_Date), as.Date(Reported_Date, "%m/%d/%Y")),
+            Reported_Date = coalesce(as.Date(Reported_Date, "%Y-%m-%d"), as.Date(Reported_Date, "%m/%d/%Y")),
             Age_Group = recode(Age_Group, "19-Oct" = "10-19")
           )
         ```        
