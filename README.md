@@ -60,7 +60,8 @@ The sources and terms of use for each included dataset are linked below.
 ### Canada
 
 * [Epidemiological summary of COVID-19 cases in Canada](https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html) / [COVID-19 Situational Awareness Dashboard](https://health-infobase.canada.ca/covid-19/dashboard/)
-    * Epidemiology update: can/epidemiology-update/covid19.csv
+    * Epidemiology update / [Data on COVID-19 in Canada](https://open.canada.ca/data/en/dataset/261c32ab-4cfd-4f81-9dea-7b64065690dc): can/epidemiology-update/covid19.csv
+    	* Includes supplementary material: [Data dictionary (English)](https://open.canada.ca/data/en/dataset/261c32ab-4cfd-4f81-9dea-7b64065690dc) and [data dictionary (French)](https://open.canada.ca/data/en/dataset/261c32ab-4cfd-4f81-9dea-7b64065690dc)
     * Epidemiology summary statements: can/epidemiology-summary-statements/covid19-epiSummary-statements.csv
     * NML summary: can/nml-summary/covid19-epiSummary-NML.csv
     * NML weekly testing: can/nml-weekly-testing/NML_weekly_testing.csv
@@ -75,7 +76,7 @@ The sources and terms of use for each included dataset are linked below.
     * Cases by probable exposure setting: can/cases-by-probable-exposure-setting/covid19-epiSummary-probableexposure2.csv
     * Symptoms summary: can/symptoms-summary/covid19-epiSummary-symptoms.csv
     * Situational awareness dashboard update time: can/situational-awareness-dashboard-update-time/covid19-updateTime.csv
-    * Terms of use: Assumed to be [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
+    * Terms of use: [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
 
 ### Nova Scotia
 

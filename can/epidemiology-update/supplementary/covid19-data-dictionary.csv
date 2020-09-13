@@ -1,0 +1,40 @@
+Column Header,Variable Name,Description
+pruid,Provincial ID,"1=Canada 
+10=Newfoundland and Labrador
+11=Prince Edward Island
+12=Nova Scotia
+13=New Brunswick
+24=Quebec
+35=Ontario
+46=Manitoba
+47=Saskatchewan
+48=Alberta
+59=British Colombia
+60=Yukon
+61=Northwest Territories
+62=Nunavut
+99=Repatriated Travellers"
+prname,Province name,Name of P/T (English)
+prnameFR,Province name,Name of P/T (French) 
+date,Report date,Date reported by P/T
+numconf,Number of confirmed cases,Number of confirmed cases in each P/T (Canada= sum of all P/Ts)
+numprob,Number of probable cases,Number of probable cases in each P/T (Canada= sum of all P/Ts) 
+numdeaths,Number of deaths,Number of deaths in each P/T (Canada= sum of all P/Ts)
+numtotal,Total number of cases,"Calculated by number of confirmed cases plus number of probable cases 
+(numconf+numprob) "
+numtested,Number of individuals tested,"Number of individuals tested in each P/T, as reported from the National Microbiology Laboratory  "
+numrecover,Number of recovered cases,Number of recovered cases in each P/T (Canada=sum of all P/Ts) 
+percentrecover,Percentage of recovered cases,"Calculated by the number of recovered cases for a P/T divided by the total number of confirmed cases for that P/T
+[(numrecover/numtotal) x100]"
+ratetested,Testing rate per  one million population,"Calculated by the number of individuals tested for a P/T divided by the population of that P/T
+[(numtested/population) x1,000,000]"
+numtoday,Number of new cases since last update,Number of total counts from last update subtracted from total counts of current update
+percentoday,Percent change since last update,"Calculated by the number of new cases divided by the previous update's total number of cases
+[(numtoday/numtotal of previous update)x100]"
+ratetotal,Case rate per one hundred thousand population,"Calculated by the total number of cases for a P/T divided by the population of that P/T
+[(numtotal/population) x100,000]"
+P/T = province or territory,,
+Notes: ,,
+"1) Case, death, and recovery numbers are found from individual provincial and territorial websites. A complete list of web sources can be found at the bottom of the Epidemiological Summary: https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html.",,
+2) The denominator for rate calculations is determined using Statistics Canada 2019 Q3 population estimates unless otherwise specified.,,
+"3) These data are updated once daily, at 19:00 EST. ",,
