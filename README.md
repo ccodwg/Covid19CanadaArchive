@@ -78,6 +78,17 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Situational awareness dashboard update time: can/situational-awareness-dashboard-update-time/covid19-updateTime.csv
     * Terms of use: [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
 
+### Manitoba
+
+* [COVID-19 By-law Enforcement (Winnipeg)](https://data.winnipeg.ca/Neighbourhood-Liveability-Property-Standards-Licen/COVID-19-By-law-Enforcement/ndr6-96vi)
+    * mb/winnipeg-by-law-enforcement/COVID-19_By-law_Enforcement.csv
+    * Terms of use: [Open Government Licence - Winnipeg](https://data.winnipeg.ca/open-data-licence)
+    Not included as part of the nightly update, as it does not seem to be receiving regular updates (last new data: June 5, 2020)
+* [COVID-19 Designated Active Transportation Route Counts (Winnipeg)](https://data.winnipeg.ca/Transportation-Planning-Traffic-Management/COVID-19-Designated-Active-Transportation-Route-Co/aqka-nz2g)
+    * mb/winnipeg-active-transportation/COVID-19_Designated_Active_Transportation_Route_Counts.csv
+    * Terms of use: [Open Government Licence - Winnipeg](https://data.winnipeg.ca/open-data-licence)
+    * Not included as part of the nightly update, as it does not seem to be receiving regular updates (last updated: June 29, 2020)
+
 ### Nova Scotia
 
 * [Coronavirus (COVID-19): case data](https://novascotia.ca/coronavirus/data/)
