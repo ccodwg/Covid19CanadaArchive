@@ -80,6 +80,11 @@ The sources and terms of use for each included dataset are linked below. Supplem
 
 ### Manitoba
 
+* [Cases and Risk of COVID-19 in Manitoba]
+    * Cases by status and RHA (Regional Health Authority): mb/cases-by-status-and-rha/cases-by-status-and-rha.csv
+    * Manitoba Five-Day Test Positivity Rate: mb/five-day-test-positivity/five-day-test-positivity.csv
+    * Terms of use: TBD
+    * Data have been converted from JSON queries to CSV
 * [COVID-19 By-law Enforcement (Winnipeg)](https://data.winnipeg.ca/Neighbourhood-Liveability-Property-Standards-Licen/COVID-19-By-law-Enforcement/ndr6-96vi)
     * mb/winnipeg-by-law-enforcement/COVID-19_By-law_Enforcement.csv
     * Terms of use: [Open Government Licence - Winnipeg](https://data.winnipeg.ca/open-data-licence)
@@ -166,3 +171,4 @@ Many people are to thank for contributing archived data and code to this reposit
 * [Farbod Abolhassani](https://github.com/farbodab)
 * [Shelby L. Sturrock](https://twitter.com/shelbysturrock)
 * [Safa Ahmad](https://twitter.com/birdseye47)
+* [Jacques Marcoux](https://twitter.com/jacquesmarcoux)
