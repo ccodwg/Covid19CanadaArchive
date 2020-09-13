@@ -20,9 +20,9 @@ Community members may contribute to this repository in three ways:
 
 COVID-19 Canada Open Data Working Group. Archive of COVID-19 Data from Canadian Government Sources. https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data. (Access date).
 
-## Data sources/terms of use
+## Data sources/terms of use/supplementary material
 
-The sources and terms of use for each included dataset are linked below.
+The sources and terms of use for each included dataset are linked below. Supplementary material such as data dictionaries and codebooks are also included in the list below, if available. These files are included with the relevant datasets in a directory named `supplementary`.
 
 ### Alberta
 
