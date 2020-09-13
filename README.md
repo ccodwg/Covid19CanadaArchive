@@ -157,7 +157,6 @@ The sources and terms of use for each included dataset are linked below. Supplem
 #### Quebec
 
 * [Covid Écoles Québec: Number of schools](https://www.covidecolesquebec.org/liste-alphabtique)
-    * Screenshot of webpage: other/qc/other/qc/covid-ecoles-quebec-school-list-webpage/liste-alphabtique.png (not automated yet)
     * [Excel spreadsheet](https://drive.google.com/file/d/1xOl0uhyx9IuHZfJuRH-OR7BcGFuWYUex/view): other/qc/covid-ecoles-quebec-school-list/COVIDECOLESQUEBEC.xlsx (original file name is COVIDECOLESQUEBEC_20200905.xlsx, renamed to avoid confusion)
     * Terms of use: TBD
 
