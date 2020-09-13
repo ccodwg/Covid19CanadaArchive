@@ -206,7 +206,7 @@ dl_ab_oneclick('https://www.alberta.ca/maps/covid-19-status-map.htm',
 # AB - COVID-19 school status map
 dl_ab_oneclick('https://www.alberta.ca/schools/covid-19-school-status-map.htm',
                'ab/school-status-by-region/',
-               'covid19dataexport-relaunch')
+               'covid19dataexport-schools')
 
 # AB - COVID-19 in Alberta: Current cases by local geographic area (Edmonton)
 dl_file('https://data.edmonton.ca/api/views/ix8f-s9xp/rows.csv?accessType=DOWNLOAD',
