@@ -5,6 +5,7 @@ import os
 from shutil import copyfile
 from datetime import datetime, timedelta
 import json
+import re
 import pandas as pd
 import pytz
 from git import Repo
@@ -427,12 +428,14 @@ dl_file('https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/si
         user=True)
 
 # SK - Saskatchewan's Dashboard - Total Cases
-dl_file('https://dashboard.saskatchewan.ca/export/cases/1557.csv',
+sk_url_cases = 'https://dashboard.saskatchewan.ca' + re.search('(?<=href=\").*(?=\">CSV)', requests.get('https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases').text).group(0)
+dl_file(sk_url_cases,
         'sk/cases-by-region/',
         'cases')
 
-# BC - Saskatchewan's Dashboard - Total Tests
-dl_file('https://dashboard.saskatchewan.ca/export/tests/1556.csv',
+# SK - Saskatchewan's Dashboard - Total Tests
+sk_url_tests = 'https://dashboard.saskatchewan.ca' + re.search('(?<=href=\").*(?=\">CSV)', requests.get('https://dashboard.saskatchewan.ca/health-wellness/covid-19/tests').text).group(0)
+dl_file(sk_url_tests,
         'sk/tests-by-region/',
         'tests')
 
