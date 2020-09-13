@@ -88,9 +88,11 @@ The sources and terms of use for each included dataset are linked below.
 
 * [Confirmed positive cases of COVID19 in Ontario](https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario/resource/455fd63b-603d-4608-8216-7d8647f43350)
     * on/confirmed-positive-cases/conposcovidloc.csv
+    * Includes supplementary material: [Data dictionary (English and French)](https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario/resource/a2ea0536-1eae-4a17-aa04-e5a1ab89ca9a)
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 * [Status of COVID-19 cases in Ontario](https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/ed270bb8-340b-41f9-a7c6-e8ef587e6d11)
     * on/status-of-cases/covidtesting.csv
+    * Includes supplementary material: [Data dictionary (English and French)](https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario/resource/7be0a14c-bf50-4340-9304-2b189d507541)
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 * [City of Toronto COVID-19 Summary](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-status-of-cases-in-toronto/)
     * on/toronto-covid-summary/CityofToronto_COVID-19_Data.xlsx
