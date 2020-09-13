@@ -401,6 +401,16 @@ dl_file('https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/si
         'courbe',
         user=True)
 
+# SK - Saskatchewan's Dashboard - Total Cases
+dl_file('https://dashboard.saskatchewan.ca/export/cases/1557.csv',
+        'sk/cases-by-region/',
+        'cases')
+
+# BC - Saskatchewan's Dashboard - Total Tests
+dl_file('https://dashboard.saskatchewan.ca/export/tests/1556.csv',
+        'sk/tests-by-region/',
+        'tests')
+
 # Other: QC - Covid Écoles Québec (Excel)
 dl_file('https://drive.google.com/uc?export=download&id=1xOl0uhyx9IuHZfJuRH-OR7BcGFuWYUex',
         'other/qc/covid-ecoles-quebec-school-list/',
