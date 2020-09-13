@@ -124,6 +124,15 @@ The sources and terms of use for each included dataset are linked below.
     * Montréal epidemic curve: qc/montreal-epidemic-curve/courbe.csv
     * Terms of use: TBD
 
+### Saskatchewan
+
+* [Saskatchewan's Dashboard - Total Cases](https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases)
+    * sk/cases-by-region/cases.csv
+    * Terms of use: TBD
+* [Saskatchewan's Dashboard - Total Tests](https://dashboard.saskatchewan.ca/health-wellness/covid-19/tests)
+    * sk/tests-by-region/tests.csv
+    * Terms of use: TBD
+
 ### Other: Non-governmental sources
 
 #### Quebec
