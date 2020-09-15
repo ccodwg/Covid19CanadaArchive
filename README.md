@@ -1,8 +1,15 @@
 # Archive of COVID-19 Data from Canadian Government Sources
 
+This repository provides automated, daily backups of COVID-19 data from various Canadian government sources.
+
+**File name timestamps are given in ET (America/Toronto) in the following format: %Y%-m-%d_%H-%M.** The script is run nightly around 23:00 ET.
+
+All code in this repository is covered by the [MIT License](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/blob/master/LICENSE). Licenses and terms of use for each archived dataset are given below.
+
+This repository is maintained by [Jean-Paul R. Soucy](https://jeanpaulsoucy.com/) on behalf of the [COVID-19 Open Data Working Group](https://opencovid.ca/).
+
 Table of contents:
 
-* [Introduction](#introduction)
 * [Contributing](#contributing)
 * [Recommended citation](#recommended-citation)
 * [Running archiver.py](#running-archiverpy)
@@ -17,16 +24,6 @@ Table of contents:
   * [Saskatchewan](#saskatchewan)
   * [Other: Non-governmental sources](#other-non-governmental-sources)
      * [Quebec](#quebec-1)
-
-## Introduction
-
-This repository provides automated, daily backups of COVID-19 data from various Canadian government sources.
-
-**File name timestamps are given in ET (America/Toronto) in the following format: %Y%-m-%d_%H-%M.** The script is run nightly around 23:00 ET.
-
-All code in this repository is covered by the [MIT License](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/blob/master/LICENSE). Licenses and terms of use for each archived dataset are given below.
-
-This repository is maintained by [Jean-Paul R. Soucy](https://jeanpaulsoucy.com/) on behalf of the [COVID-19 Open Data Working Group](https://opencovid.ca/).
 
 ## Contributing
 
