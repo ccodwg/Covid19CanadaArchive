@@ -1,3 +1,7 @@
+# archiver.py: Automated, daily backups of COVID-19 data from Canadian government sources #
+# https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data #
+# Maintainer: Jean-Paul R. Soucy #
+
 # import modules
 import sys
 import time
@@ -15,28 +19,39 @@ from selenium import webdriver # requires ChromeDriver and Chromium/Chrome
 from selenium.webdriver.chrome.options import Options
 from colorit import *
 
-# allow script to be run in testing mode (no commits written)
+# list of environmental variables used in this script
+## GH_TOKEN: personal access token for the GitHub API (used when mode = prod)
+## GH_NAME: name to use for GitHub commits (used when mode = prod)
+## GH_MAIL: email address to use for GitHub commits (used when mode = prod)
+## GOOGLE_CHROME_BIN: path to binary in heroku-buildpack-google-chrome (used when mode = server)
+## CHROMEDRIVER_PATH: path to binary in heroku-buildpack-chromedriver (used when mode = server)
+
+# set mode (server vs. local and prod vs. test)
+## server: read environmental variables from Heroku config variables
+## local: read environmental variables from local text files
+## prod: download GitHub repo so that downloaded files can be added via commit
+## test: don't download GitHub repo, just test that files can be successfully downloaded
 if len(sys.argv) == 1:
-        mode = 'prod' # writing files on server
+        mode = 'serverprod' # server / prod
 elif len(sys.argv) == 2 and sys.argv[1] == 'localprod':
-        mode = 'localprod' # writing files on local machine
-elif len(sys.argv) == 2 and sys.argv[1] == 'test':
-        mode = 'test' # testing on server
+        mode = 'localprod' # local / prod
+elif len(sys.argv) == 2 and sys.argv[1] == 'servertest':
+        mode = 'servertest' # server / test
 elif len(sys.argv) == 2 and sys.argv[1] == 'localtest':
-        mode = 'localtest' # testing on local machine
+        mode = 'localtest' # local / test
 else:
         sys.exit("Error: Invalid arguments.")
 
-# print with colour
+# enable printing with colour
 init_colorit()
 
-# define date in America/Toronto time zone
+# define date and time in America/Toronto time zone
 t = datetime.now(pytz.timezone('America/Toronto'))
 
 # access repo
-if mode == 'prod' or mode == 'localprod':
+if mode == 'serverprod' or mode == 'localprod':
         ## access token
-        if mode == 'prod':
+        if mode == 'serverprod':
                 token = os.environ['GH_TOKEN']
                 gh_name = os.environ['GH_NAME']
                 gh_mail = os.environ['GH_MAIL']
@@ -46,33 +61,41 @@ if mode == 'prod' or mode == 'localprod':
                 gh_mail = open('.gh/gh_mail.txt', 'r').readline().rstrip()
         ## set repository directory
         repo_dir = 'temp_archive'
-        ## shallow clone
+        ## shallow clone (minimize download size while still allowing a commit to be made)
         repo_remote = 'https://' + token + ':x-oauth-basic@github.com/jeanpaulrsoucy/covid-19-canada-gov-data'
         repo = Repo.clone_from(repo_remote, repo_dir, depth=1)
         origin = repo.remote('origin')
-        ### set identity
+        ### set GitHub identity
         repo.config_writer().set_value("user", "name", gh_name).release()
         repo.config_writer().set_value("user", "email", gh_mail).release()
-        ## initialize file list
+        ## initialize file list for commit
         file_list = []
-        ## initialize commit message
+        ## initialize commit message for commit
         commit_message = 'Nightly update: ' + str(t.date()) + '\n\n'
 
 # function: prepare file(s) for commit
 def prep_files(name, full_name, data = None, fpath=None, copy=False):
         global commit_message
+        ## define path to save file
         spath = os.path.join(repo_dir, full_name)
+        ## create directory if necessary
         os.makedirs(os.path.dirname(spath), exist_ok=True)
+        ## copy == True: downloaded file exists as a file in a temporary directory,
+        ## need to copy it to the save path
         if copy:
                 copyfile(fpath, spath)
+        ## copy == False: downloaded file exists as an object in Python,
+        ## need to write it to the save path
         else:
                 with open(spath, mode='wb') as local_file:
                         local_file.write(data)
+        ## append file to the list of files in the commit
         file_list.append(full_name)
+        ## append name of file to the commit message
         commit_message = commit_message + 'Success: ' + full_name + '\n'
         print(color('Copy successful: ' + full_name, Colors.blue))
 
-# function: commit files
+# function: commit files to GitHub
 def commit_files(file_list, commit_message):
         repo.index.add(file_list)
         repo.index.commit(commit_message)
@@ -90,9 +113,9 @@ def dl_file(url, path, file, user=False, ext='.csv', mb_json_to_csv=None):
         full_name = os.path.join(path, name + ext)
         if not req.ok:
                 print(background('Error downloading: ' + full_name, Colors.red))
-                if mode == 'prod' or mode == 'localprod':
+                if mode == 'serverprod' or mode == 'localprod':
                         commit_message = commit_message + 'Failure: ' + full_name + '\n'
-        elif mode != 'prod' and mode != 'localprod':
+        elif mode != 'serverprod' and mode != 'localprod':
                 print(color('Test download successful: ' + full_name, Colors.green))
         else:
                 if mb_json_to_csv:
@@ -123,14 +146,14 @@ def dl_ab_cases(url, path, file, ext='.csv', wait=5):
         
         ## setup webdriver
         options = Options()
-        if mode == 'prod' or mode == 'test':
+        if mode == 'serverprod' or mode == 'servertest':
                 options.binary_location = os.environ['GOOGLE_CHROME_BIN']
         options.add_argument("--headless")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--no-sandbox")
         prefs = {'download.default_directory' : tmpdir.name}
         options.add_experimental_option('prefs', prefs)
-        if mode == 'prod' or mode == 'test':
+        if mode == 'serverprod' or mode == 'servertest':
                 driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
         else:
                 driver = webdriver.Chrome(options=options)
@@ -154,9 +177,9 @@ def dl_ab_cases(url, path, file, ext='.csv', wait=5):
         ## commit file
         if not os.path.isfile(fpath):
                 print(background('Error downloading: ' + full_name, Colors.red))
-                if mode == 'prod' or mode == 'localprod':
+                if mode == 'serverprod' or mode == 'localprod':
                         commit_message = commit_message + 'Failure: ' + full_name + '\n'                
-        elif mode != 'prod' and mode != 'localprod':
+        elif mode != 'serverprod' and mode != 'localprod':
                 print(color('Test download successful: ' + full_name, Colors.green))
         else:
                 prep_files(name=name, full_name=full_name, fpath=fpath, copy=True)
@@ -174,14 +197,14 @@ def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
         
         ## setup webdriver
         options = Options()
-        if mode == 'prod' or mode == 'test':
+        if mode == 'serverprod' or mode == 'servertest':
                 options.binary_location = os.environ['GOOGLE_CHROME_BIN']
         options.add_argument("--headless")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--no-sandbox")
         prefs = {'download.default_directory' : tmpdir.name}
         options.add_experimental_option('prefs', prefs)
-        if mode == 'prod' or mode == 'test':
+        if mode == 'serverprod' or mode == 'servertest':
                 driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
         else:
                 driver = webdriver.Chrome(options=options)
@@ -201,9 +224,9 @@ def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
         ## commit file
         if not os.path.isfile(fpath):
                 print(background('Error downloading: ' + full_name, Colors.red))
-                if mode == 'prod' or mode == 'localprod':
+                if mode == 'serverprod' or mode == 'localprod':
                         commit_message = commit_message + 'Failure: ' + full_name + '\n'                
-        elif mode != 'prod' and mode != 'localprod':
+        elif mode != 'serverprod' and mode != 'localprod':
                 print(color('Test download successful: ' + full_name, Colors.green))
         else:
                 prep_files(name=name, full_name=full_name, fpath=fpath, copy=True)
@@ -446,7 +469,7 @@ dl_file('https://drive.google.com/uc?export=download&id=1xOl0uhyx9IuHZfJuRH-OR7B
         ext = '.xlsx')
 
 # Commit files
-if mode == 'prod':
+if mode == 'serverprod':
         print("Commiting files...")
         try:
                 commit_files(file_list, commit_message)
