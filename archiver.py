@@ -362,6 +362,51 @@ dl_file('https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/re
         'on/status-of-cases/',
         'covidtesting')
 
+# ON - Testing of inmates in provincial correctional institutions
+dl_file('https://data.ontario.ca/dataset/c4022f0f-6f3d-4e16-bd28-5312333a4bac/resource/d0d6ccc7-fc60-4a18-ac96-7f9493e9f10e/download/inmatetesting.csv',
+        'on/correctional-institutions-inmates-testing/',
+        'inmatetesting')
+
+# ON - Status of cases in provincial correctional institutions
+dl_file('https://data.ontario.ca/dataset/ecb75ea0-8b72-4f46-a14a-9bd54841d6ab/resource/1f95eda9-53b5-448e-abe0-afc0b71581ed/download/correctionsinmatecases.csv',
+        'on/correctional-institutions-status/',
+        'correctionsinmatecases')
+
+# ON - Long term care homes: Summary data
+dl_file('https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/resource/0f8b343e-fc28-4ca5-9aab-c3a1d2c919f1/download/ltccovidsummary.csv',
+        'on/long-term-care-home/',
+        'ltccovidsummary')
+
+# ON - Long term care homes: Active outbreaks
+dl_file('https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/resource/4b64488a-0523-4ebb-811a-fac2f07e6d59/download/activeltcoutbreak.csv',
+        'on/long-term-care-home/',
+        'activeltcoutbreak')
+
+# ON - Long term care homes: Resolved outbreaks
+dl_file('https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/resource/0cf2f01e-d4e1-48ed-8027-2133d059ec8b/download/resolvedltc.csv',
+        'on/long-term-care-home/',
+        'resolvedltc')
+
+# ON - Schools: Summary of cases in schools
+dl_file('https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/7fbdbb48-d074-45d9-93cb-f7de58950418/download/schoolcovidsummary.csv',
+        'on/schools/',
+        'schoolcovidsummary')
+
+# ON - Schools: Schools with active COVID-19 cases
+dl_file('https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/8b6d22e2-7065-4b0f-966f-02640be366f2/download/schoolsactivecovid.csv',
+        'on/schools/',
+        'schoolsactivecovid')
+
+# ON - Licensed child care settings: Summary of cases in licensed child care settings
+dl_file('https://data.ontario.ca/dataset/5bf54477-6147-413f-bab0-312f06fcb388/resource/74f9ac9f-7ca8-4860-b2c3-189a2c25e30c/download/lccovidsummary.csv',
+        'on/licensed-child-care-settings/',
+        'lccovidsummary')
+
+# ON - Licensed child care settings: Licensed child care centres and agencies with active COVID-19 cases
+dl_file('https://data.ontario.ca/dataset/5bf54477-6147-413f-bab0-312f06fcb388/resource/eee282d3-01e6-43ac-9159-4ba694757aea/download/lccactivecovid.csv',
+        'on/licensed-child-care-settings/',
+        'lccactivecovid')
+
 # ON - City of Toronto COVID-19 Summary
 dl_file('https://docs.google.com/spreadsheets/d/1euhrML0rkV_hHF1thiA0G5vSSeZCqxHY/export?format=xlsx&id=1euhrML0rkV_hHF1thiA0G5vSSeZCqxHY',
         'on/toronto-covid-summary/',
