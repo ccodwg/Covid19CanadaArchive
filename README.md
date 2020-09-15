@@ -110,6 +110,27 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * on/status-of-cases/covidtesting.csv
     * Includes supplementary material: [Data dictionary (English and French)](https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario/resource/7be0a14c-bf50-4340-9304-2b189d507541)
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
+* [COVID-19 testing of inmates in Ontario’s Provincial Correctional Institutions](https://data.ontario.ca/dataset/covid-19-testing-of-inmates-in-ontario-s-correctional-institutions)
+    * on/correctional-institutions-inmates-testing/inmatetesting.csv
+    * Includes supplementary material: [Technical documentation (English and French)](https://data.ontario.ca/dataset/covid-19-testing-of-inmates-in-ontario-s-correctional-institutions/resource/6e2868ab-a242-48d6-9f73-235d19a6668e)
+    * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
+* [Status of COVID-19 cases in Ontario’s Provincial Correctional Institutions](https://data.ontario.ca/dataset/ecb75ea0-8b72-4f46-a14a-9bd54841d6ab/resource/1f95eda9-53b5-448e-abe0-afc0b71581ed/download/correctionsinmatecases.csv)
+    * on/correctional-institutions-status/correctionsinmatecases.csv
+    * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
+* [Long-Term Care Home COVID-19 Data](https://data.ontario.ca/dataset/long-term-care-home-covid-19-data)
+    * Summary data: on/long-term-care-home/ltccovidsummary.csv
+    * Active outbreaks: on/long-term-care-home/activeltcoutbreak.csv
+    * Resolved outbreaks: on/long-term-care-home/resolvedltc.csv
+    * Includes supplementary material: [Data dictionary (English and French)](https://data.ontario.ca/dataset/long-term-care-home-covid-19-data/resource/adbcf9f8-e473-4f27-b85f-0f05f686067b)
+    * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
+* [Schools COVID-19 data](https://data.ontario.ca/dataset/summary-of-cases-in-schools)
+    * Summary of cases in schools: on/schools/schoolcovidsummary.csv
+    * Schools with active COVID-19 cases: on/schools/schoolsactivecovid.csv
+    * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
+* [Licensed child care settings COVID-19 data](https://data.ontario.ca/dataset/summary-of-cases-in-licensed-child-care-settings)
+    * Summary of cases in licensed child care settings: on/licensed-child-care-settings/lccovidsummary.csv
+    * Licensed child care centres and agencies with active COVID-19 cases: on/licensed-child-care-settings/lccactivecovid.csv
+    * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 * [City of Toronto COVID-19 Summary](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-status-of-cases-in-toronto/)
     * on/toronto-covid-summary/CityofToronto_COVID-19_Data.xlsx
     * Terms of use: Assumed to be [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
