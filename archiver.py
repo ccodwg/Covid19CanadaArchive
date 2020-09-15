@@ -3,6 +3,8 @@
 # Maintainer: Jean-Paul R. Soucy #
 
 # import modules
+
+## core utilities
 import sys
 import time
 import os
@@ -10,14 +12,20 @@ from shutil import copyfile
 from datetime import datetime, timedelta
 import json
 import re
-import pandas as pd
-import pytz
-from git import Repo
-import requests
 import tempfile
+
+## other utilities
+import pandas as pd # better data processing
+import pytz # better time zones
+from colorit import * # colourful printing
+
+## git
+from git import Repo
+
+## web-scraping
+import requests
 from selenium import webdriver # requires ChromeDriver and Chromium/Chrome
 from selenium.webdriver.chrome.options import Options
-from colorit import *
 
 # list of environmental variables used in this script
 ## GH_TOKEN: personal access token for the GitHub API (used when mode = prod)
@@ -28,10 +36,10 @@ from colorit import *
 
 # set mode (server vs. local and prod vs. test)
 ## server: read environmental variables from Heroku config variables
-## local: read environmental variables from local text files
+## local: read environmental variables from local files (in directory .gh/) or from system environmental variables
 ## prod: download GitHub repo so that downloaded files can be added via commit
 ## test: don't download GitHub repo, just test that files can be successfully downloaded
-if len(sys.argv) == 1:
+if len(sys.argv) == 1 or ((len(sys.argv) == 2) and (sys.argv[1] == 'serverprod')):
         mode = 'serverprod' # server / prod
 elif len(sys.argv) == 2 and sys.argv[1] == 'localprod':
         mode = 'localprod' # local / prod
@@ -80,11 +88,11 @@ def prep_files(name, full_name, data = None, fpath=None, copy=False):
         spath = os.path.join(repo_dir, full_name)
         ## create directory if necessary
         os.makedirs(os.path.dirname(spath), exist_ok=True)
-        ## copy == True: downloaded file exists as a file in a temporary directory,
+        ## copy is True: downloaded file exists as a file in a temporary directory,
         ## need to copy it to the save path
         if copy:
                 copyfile(fpath, spath)
-        ## copy == False: downloaded file exists as an object in Python,
+        ## copy is False: downloaded file exists as an object in Python,
         ## need to write it to the save path
         else:
                 with open(spath, mode='wb') as local_file:
@@ -104,40 +112,56 @@ def commit_files(file_list, commit_message):
 # function: download and commit file
 def dl_file(url, path, file, user=False, ext='.csv', mb_json_to_csv=None):
         global commit_message
-        if user == True:
+        
+        ## set names with timestamp and file ext
+        name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
+        full_name = os.path.join(path, name + ext)        
+        
+        ## some websites will reject the request unless you look like a normal web browser
+        ## user is True provides a normal-looking user agent string to bypass this
+        if user is True:
                 headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0"}
                 req = requests.get(url, headers=headers)
         else:
                 req = requests.get(url)
-        name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
-        full_name = os.path.join(path, name + ext)
+        
+        ## check if request was successful
         if not req.ok:
+                ## print failure
                 print(background('Error downloading: ' + full_name, Colors.red))
+                ## write failure to commit message if mode == prod
                 if mode == 'serverprod' or mode == 'localprod':
                         commit_message = commit_message + 'Failure: ' + full_name + '\n'
-        elif mode != 'serverprod' and mode != 'localprod':
+        ## successful request: if mode == test, print success and end
+        elif mode == 'servertest' or mode == 'localtest':
+                ## print success
                 print(color('Test download successful: ' + full_name, Colors.green))
+        ## successful request: mode == prod, prepare files for commit
         else:
                 if mb_json_to_csv:
+                        ## for Manitoba JSON data only: convert JSON to CSV and save as temporary file
                         name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
                         full_name = os.path.join(path, name + ext)                          
                         tmpdir = tempfile.TemporaryDirectory()
                         fpath = os.path.join(tmpdir.name, file + ext)
                         data = pd.json_normalize(json.loads(req.content)['features'])
                         data.columns = data.columns.str.lstrip('attributes.') # strip prefix
-                        # replace timestamps with actual dates
+                        ## replace timestamps with actual dates
                         data.Date = pd.to_datetime(data.Date / 1000, unit='s').dt.date
                         data = data.to_csv(fpath, index=None)
+                        ## prepare file for commit
                         prep_files(name=name, full_name=full_name, fpath=fpath, copy=True)
                 else:
+                        ## all other data: grab content from request as an object
                         data = req.content
+                        ## prepare file for commit
                         prep_files(name=name, full_name=full_name, data=data)
 
-# function: download and commit csv from AB - "COVID-19 Alberta statistics"
+# function: download and commit CSV from AB - "COVID-19 Alberta statistics"
 def dl_ab_cases(url, path, file, ext='.csv', wait=5):
         global commit_message
         
-        ## set names
+        ## set names with timestamp and file ext
         name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
         full_name = os.path.join(path, name + ext)           
         
@@ -151,7 +175,7 @@ def dl_ab_cases(url, path, file, ext='.csv', wait=5):
         options.add_argument("--headless")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--no-sandbox")
-        prefs = {'download.default_directory' : tmpdir.name}
+        prefs = {'download.default_directory' : tmpdir.name} # download to temporary directory
         options.add_experimental_option('prefs', prefs)
         if mode == 'serverprod' or mode == 'servertest':
                 driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
@@ -159,7 +183,7 @@ def dl_ab_cases(url, path, file, ext='.csv', wait=5):
                 driver = webdriver.Chrome(options=options)
         driver.implicitly_wait(10)
         
-        ## click to export
+        ## click to correct tab then click CSV button to export
         driver.get(url)
         elements = driver.find_elements_by_tag_name("li")
         for element in elements:
@@ -173,22 +197,26 @@ def dl_ab_cases(url, path, file, ext='.csv', wait=5):
         ## verify download
         fpath = os.path.join(tmpdir.name, file + ext)
         time.sleep(wait) # wait for download to finish
-        
-        ## commit file
         if not os.path.isfile(fpath):
+                ## print failure
                 print(background('Error downloading: ' + full_name, Colors.red))
+                ## write failure to commit message if mode == prod
                 if mode == 'serverprod' or mode == 'localprod':
-                        commit_message = commit_message + 'Failure: ' + full_name + '\n'                
-        elif mode != 'serverprod' and mode != 'localprod':
+                        commit_message = commit_message + 'Failure: ' + full_name + '\n'
+        ## successful request: if mode == test, print success and end
+        elif mode == 'servertest' or mode == 'localtest':
+                ## print success
                 print(color('Test download successful: ' + full_name, Colors.green))
+        ## successful request: mode == prod, prepare files for commit
         else:
+                ## prepare file for commit
                 prep_files(name=name, full_name=full_name, fpath=fpath, copy=True)
 
-# function: download and commit csv from AB - "COVID-19 relaunch status map" or AB - "COVID-19 school status map"
+# function: download and commit CSV from AB - "COVID-19 relaunch status map" or AB - "COVID-19 school status map"
 def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
         global commit_message
         
-        ## set names
+        ## set names with timestamp and file ext
         name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
         full_name = os.path.join(path, name + ext)        
         
@@ -202,7 +230,7 @@ def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
         options.add_argument("--headless")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--no-sandbox")
-        prefs = {'download.default_directory' : tmpdir.name}
+        prefs = {'download.default_directory' : tmpdir.name} # download to temporary directory
         options.add_experimental_option('prefs', prefs)
         if mode == 'serverprod' or mode == 'servertest':
                 driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
@@ -210,7 +238,7 @@ def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
                 driver = webdriver.Chrome(options=options)
         driver.implicitly_wait(10)
         
-        ## click to export
+        ## click CSV button to export
         driver.get(url)
         elements = driver.find_elements_by_tag_name("button")
         for element in elements:
@@ -220,22 +248,26 @@ def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
         ## verify download
         fpath = os.path.join(tmpdir.name, file + ext)
         time.sleep(wait) # wait for download to finish
-
-        ## commit file
         if not os.path.isfile(fpath):
+                ## print failure
                 print(background('Error downloading: ' + full_name, Colors.red))
+                ## write failure to commit message if mode == prod
                 if mode == 'serverprod' or mode == 'localprod':
-                        commit_message = commit_message + 'Failure: ' + full_name + '\n'                
-        elif mode != 'serverprod' and mode != 'localprod':
+                        commit_message = commit_message + 'Failure: ' + full_name + '\n'
+        ## successful request: if mode == test, print success and end
+        elif mode == 'servertest' or mode == 'localtest':
+                ## print success
                 print(color('Test download successful: ' + full_name, Colors.green))
+        ## successful request: mode == prod, prepare files for commit
         else:
+                ## prepare file for commit
                 prep_files(name=name, full_name=full_name, fpath=fpath, copy=True)
 
-## function: take a screenshot of a webpage and commit file
+## function: take a screenshot of a webpage and commit PNG
 def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
         global commit_message
         
-        ## set names
+        ## set names with timestamp and file ext
         name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
         full_name = os.path.join(path, name + ext)        
         
@@ -249,10 +281,12 @@ def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
         options.add_argument("--headless")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--no-sandbox")
-        prefs = {'download.default_directory' : tmpdir.name}
+        prefs = {'download.default_directory' : tmpdir.name} # download to temporary directory
         options.add_experimental_option('prefs', prefs)
+        ## successful screenshot: if mode == test, print success and end
         if mode == 'serverprod' or mode == 'servertest':
                 driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
+        ## successful screenshot: mode == prod, prepare files for commit
         else:
                 driver = webdriver.Chrome(options=options)
         driver.implicitly_wait(10)
@@ -263,21 +297,29 @@ def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
                         
         ## take screenshot
         fpath = os.path.join(tmpdir.name, file + ext)
+        ## get total width of the page if it is not set by the user
         if width is None:
                 width = driver.execute_script('return document.body.parentNode.scrollWidth')
+        ## get total height of the page if it is not set by the user
         if height is None:
                 height = driver.execute_script('return document.body.parentNode.scrollHeight')
+        ## set window size
         driver.set_window_size(width, height)
+        ## take screenshot
         driver.find_element_by_tag_name('body').screenshot(fpath) # remove scrollbar
 
-        ## commit file
+        ## verify screenshot
         if not os.path.isfile(fpath):
+                ## print failure
                 print(background('Error downloading: ' + full_name, Colors.red))
+                ## write failure to commit message if mode == prod
                 if mode == 'serverprod' or mode == 'localprod':
                         commit_message = commit_message + 'Failure: ' + full_name + '\n'                
-        elif mode != 'serverprod' and mode != 'localprod':
+        elif mode == 'servertest' or mode == 'localtest':
+                ## print success
                 print(color('Test download successful: ' + full_name, Colors.green))
         else:
+                ## prepare file for commit
                 prep_files(name=name, full_name=full_name, fpath=fpath, copy=True)
 
 # AB - COVID-19 Alberta statistics
