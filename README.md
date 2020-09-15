@@ -114,7 +114,7 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * on/correctional-institutions-inmates-testing/inmatetesting.csv
     * Includes supplementary material: [Technical documentation (English and French)](https://data.ontario.ca/dataset/covid-19-testing-of-inmates-in-ontario-s-correctional-institutions/resource/6e2868ab-a242-48d6-9f73-235d19a6668e)
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
-* [Status of COVID-19 cases in Ontario’s Provincial Correctional Institutions](https://data.ontario.ca/dataset/ecb75ea0-8b72-4f46-a14a-9bd54841d6ab/resource/1f95eda9-53b5-448e-abe0-afc0b71581ed/download/correctionsinmatecases.csv)
+* [Status of COVID-19 cases in Ontario’s Provincial Correctional Institutions](https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario-s-correctional-institutions)
     * on/correctional-institutions-status/correctionsinmatecases.csv
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 * [Long-Term Care Home COVID-19 Data](https://data.ontario.ca/dataset/long-term-care-home-covid-19-data)
@@ -151,9 +151,15 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Deaths by RSS (health region) and living environment: qc/deaths-by-rss-and-living-environment/tableau-rpa.csv
     * Cases by RSS (health region) and RLS (local service network): Cases qc/cases-by-rss-and-rls/tableau-rls.csv
     * Terms of use: TBD
-* [Liste des écoles ayant au moins un cas rapporté de la COVID-19 depuis le 1er septembre 2020](https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/liste-ecole-cas-rapportes.pdf)
-    * qc/list-of-schools-with-reported-cases/liste-ecole-cas-rapportes.pdf
-    * Formerly [Situation dans les établissements scolaires relative à la COVID-19](https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_ecole.pdf): qc/situation-in-schools/etat_situation_ecole.pdf
+* [Situation dans les milieux de vie pour personnes aînées et vulnérables](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
+    * Status report on confirmed cases and deaths by RPA (private residences for seniors): qc/status-report-cases-and-deaths-by-rpa/etat_situation_rpa.pdf
+    * Status report on confirmed cases and deaths by CHSLD (residential and long-term care centres): qc/status-report-cases-and-deaths-by-chsld/etat_situation_chsld.pdf
+    * Terms of use: TBD
+* [Situation dans les établissements scolaires](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
+    * Highlights - public and private school system: qc/schools-highlights/reseauScolaire_faitsSaillants.pdf
+    * List of schools - public and private school system: qc/schools-list-of-schools/reseauScolaire_listeEcoles.pdf
+    * Formerly [Situation dans les établissements scolaires relative à la COVID-19](https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_ecole.pdf): qc/schools-list-of-schools/etat_situation_ecole_2020-09-04_2020-09-06/etat_situation_ecole.pdf
+    * Formerly [Liste des écoles ayant au moins un cas rapporté de la COVID-19 depuis le 1er septembre 2020](https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/liste-ecole-cas-rapportes.pdf): qc/schools-list-of-schools/liste-ecole-cas-rapportes_2020-09-08_2020-09-09/liste-ecole-cas-rapportes.pdf
     * Terms of use: TBD
 * [Situation du coronavirus (COVID-19) à Montréal](https://santemontreal.qc.ca/population/coronavirus-covid-19/situation-du-coronavirus-covid-19-a-montreal/)
     * **Note that these files are actually semicolon-separated since they use a comma as the decimal marker (rather than a period) and are encoded as ISO 8859-15 (rather than UTF-8)**

@@ -459,17 +459,35 @@ dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/tableau-rls.c
         'tableau-rls',
         user=True)
 
-# QC - List of schools with at least one reported case since September 1, 2020
-dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/liste-ecole-cas-rapportes.pdf',
-        'qc/list-of-schools-with-reported-cases/',
-        'liste-ecole-cas-rapportes',
-        ext = '.pdf')
-
 # QC - Montréal cases and deaths by CIUSSS (integrated health and social services centres)
 dl_file('https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/ciusss.csv',
         'qc/montreal-cases-and-deaths-by-ciusss/',
         'ciusss',
         user=True)
+
+# QC - Status report on confirmed cases and deaths by RPA
+dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_rpa.pdf',
+        'qc/status-report-cases-and-deaths-by-rpa/',
+        'etat_situation_rpa',
+        ext = '.pdf')
+
+# QC - Status report on confirmed cases and deaths by CHSLD
+dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_chsld.pdf',
+        'qc/status-report-cases-and-deaths-by-chsld/',
+        'etat_situation_chsld',
+        ext = '.pdf')
+
+# QC - Highlights - public and private school system
+dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/education/publications-adm/covid-19/reseauScolaire_faitsSaillants.pdf',
+        'qc/schools-highlights/',
+        'reseauScolaire_faitsSaillants',
+        ext = '.pdf')
+
+# QC - List of schools - public and private school system
+dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/education/publications-adm/covid-19/reseauScolaire_listeEcoles.pdf',
+        'qc/schools-list-of-schools/',
+        'reseauScolaire_listeEcoles',
+        ext = '.pdf')
 
 # QC - Montréal cases by area
 dl_file('https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/municipal.csv',
