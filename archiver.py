@@ -81,8 +81,22 @@ if mode == 'serverprod' or mode == 'localprod':
         ## initialize commit message for commit
         commit_message = 'Nightly update: ' + str(t.date()) + '\n\n'
 
-# function: prepare file(s) for commit
-def prep_files(name, full_name, data = None, fpath=None, copy=False):
+# define functions
+
+def prep_file(repo_dir, name, full_name, data = None, fpath=None, copy=False):
+        """Prepare file for commit.
+        
+        File is either written into the git repository (when copy is False) or copied from a temporary directory into the git repository (when copy is True).
+        
+        Parameters:
+        repo_dir (str): Directory containing the git repository.
+        name (str): Output file name with timestamp and no extension.
+        full_name (str): Output filename with timestamp, extension, and relative path.
+        data (bytes): The file as a bytes object (provide only when copy is False).
+        fpath (str): The path of the file in the temporary directory (provide only when copy is True).
+        copy (bool): Is the file already written and needs to be copied? (Default: False, see fpath and data)
+        
+        """
         global commit_message
         ## define path to save file
         spath = os.path.join(repo_dir, full_name)
@@ -103,14 +117,39 @@ def prep_files(name, full_name, data = None, fpath=None, copy=False):
         commit_message = commit_message + 'Success: ' + full_name + '\n'
         print(color('Copy successful: ' + full_name, Colors.blue))
 
-# function: commit files to GitHub
-def commit_files(file_list, commit_message):
-        repo.index.add(file_list)
-        repo.index.commit(commit_message)
-        origin.push()
+def commit_files(repo, origin, file_list, commit_message):
+        """Commit files to git repository and push to remote.
+        
+        Parameters:
+        repo: Repo object from gitpython.
+        origin: Remote object from gitpython.
+        file_list (list): List of paths to files to commit.
+        commit_message (str): Commit message.
+        
+        """
+        print("Commiting files...")
+        try:
+                repo.index.add(file_list)
+                repo.index.commit(commit_message)
+                origin.push()
+                print(color('Commit successful!', Colors.green))
+        except:
+                print(background('Commit failed!', Colors.red))
 
-# function: download and commit file
 def dl_file(url, path, file, user=False, ext='.csv', mb_json_to_csv=None):
+        """Download file (generic).
+        
+        Used to download most file types (when Selenium is not required).
+        
+        Parameters:
+        url (str): URL to download file from.
+        path (str): Path to output file (excluding file name). Example: 'can/epidemiology-update/'
+        file (str): Output file name (excluding extension). Example: 'covid19'
+        user (bool): Should the request impersonate a normal browser? Needed to access some data. Default: False.
+        ext (str): Extension of the output file. Defaults to '.csv'.
+        mb_json_to_csv (bool): If True, this is a Manitoba JSON file that that should be converted to CSV. Default: None.
+        
+        """
         global commit_message
         
         ## set names with timestamp and file ext
@@ -150,15 +189,27 @@ def dl_file(url, path, file, user=False, ext='.csv', mb_json_to_csv=None):
                         data.Date = pd.to_datetime(data.Date / 1000, unit='s').dt.date
                         data = data.to_csv(fpath, index=None)
                         ## prepare file for commit
-                        prep_files(name=name, full_name=full_name, fpath=fpath, copy=True)
+                        prep_file(repo_dir, name=name, full_name=full_name, fpath=fpath, copy=True)
                 else:
                         ## all other data: grab content from request as an object
                         data = req.content
                         ## prepare file for commit
-                        prep_files(name=name, full_name=full_name, data=data)
+                        prep_file(repo_dir, name=name, full_name=full_name, data=data)
 
-# function: download and commit CSV from AB - "COVID-19 Alberta statistics"
 def dl_ab_cases(url, path, file, ext='.csv', wait=5):
+        """Download CSV file: AB - "COVID-19 Alberta statistics".
+        https://www.alberta.ca/stats/covid-19-alberta-statistics.htm
+        
+        The file requires Selenium to click a tab then click a CSV button.
+        
+        Parameters:
+        url (str): URL to download file from.
+        path (str): Path to output file (excluding file name). Example: 'can/epidemiology-update/'
+        file (str): Output file name (excluding extension). Example: 'covid19'
+        ext (str): Extension of the output file. Defaults to '.csv'.
+        wait (int): Time in seconds that the function should wait. Should be > 0 to ensure the download is successful.
+        
+        """
         global commit_message
         
         ## set names with timestamp and file ext
@@ -210,10 +261,23 @@ def dl_ab_cases(url, path, file, ext='.csv', wait=5):
         ## successful request: mode == prod, prepare files for commit
         else:
                 ## prepare file for commit
-                prep_files(name=name, full_name=full_name, fpath=fpath, copy=True)
+                prep_file(repo_dir, name=name, full_name=full_name, fpath=fpath, copy=True)
 
-# function: download and commit CSV from AB - "COVID-19 relaunch status map" or AB - "COVID-19 school status map"
 def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
+        """Download CSV file: AB - "COVID-19 relaunch status map" or AB - "COVID-19 school status map"
+        https://www.alberta.ca/maps/covid-19-status-map.htm
+        https://www.alberta.ca/schools/covid-19-school-status-map.htm
+        
+        The file requires Selenium to click a CSV button.
+        
+        Parameters:
+        url (str): URL to download file from.
+        path (str): Path to output file (excluding file name). Example: 'can/epidemiology-update/'
+        file (str): Output file name (excluding extension). Example: 'covid19'
+        ext (str): Extension of the output file. Defaults to '.csv'.
+        wait (int): Time in seconds that the function should wait. Should be > 0 to ensure the download is successful.
+        
+        """        
         global commit_message
         
         ## set names with timestamp and file ext
@@ -261,10 +325,24 @@ def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
         ## successful request: mode == prod, prepare files for commit
         else:
                 ## prepare file for commit
-                prep_files(name=name, full_name=full_name, fpath=fpath, copy=True)
+                prep_file(repo_dir, name=name, full_name=full_name, fpath=fpath, copy=True)
 
-## function: take a screenshot of a webpage and commit PNG
 def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
+        """Take a screenshot of a webpage.
+        
+        By default, Selenium attempts to capture the entire page.
+        
+        Parameters:
+        
+        url (str): URL to screenshot.
+        path (str): Path to output file (excluding file name). Example: 'can/epidemiology-update/'
+        file (str): Output file name (excluding extension). Example: 'covid19'
+        ext (str): Extension of the output file. Defaults to '.png'.
+        wait (int): Time in seconds that the function should wait. Should be > 0 to ensure the entire page is captured.
+        width (int): Width of the output screenshot. Default: None. If not set, the function attempts to detect the maximum width.
+        height (int): Height of the output screenshot. Default: None. If not set, the function attempts to detect the maximum height.
+        
+        """
         global commit_message
         
         ## set names with timestamp and file ext
@@ -320,7 +398,7 @@ def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
                 print(color('Test download successful: ' + full_name, Colors.green))
         else:
                 ## prepare file for commit
-                prep_files(name=name, full_name=full_name, fpath=fpath, copy=True)
+                prep_file(repo_dir, name=name, full_name=full_name, fpath=fpath, copy=True)
 
 # AB - COVID-19 Alberta statistics
 dl_ab_cases('https://www.alberta.ca/stats/covid-19-alberta-statistics.htm',
@@ -641,10 +719,5 @@ dl_file('https://drive.google.com/uc?export=download&id=1xOl0uhyx9IuHZfJuRH-OR7B
         ext = '.xlsx')
 
 # Commit files
-if mode == 'serverprod':
-        print("Commiting files...")
-        try:
-                commit_files(file_list, commit_message)
-                print(color('Commit successful!', Colors.green))
-        except:
-                print(background('Commit failed!', Colors.red))
+if mode == 'serverprod' or mode == 'localprod':
+        commit_files(repo, origin, file_list, commit_message)
