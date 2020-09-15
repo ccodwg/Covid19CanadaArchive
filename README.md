@@ -154,6 +154,7 @@ The sources and terms of use for each included dataset are linked below. Supplem
 * [Situation dans les milieux de vie pour personnes aînées et vulnérables](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
     * Status report on confirmed cases and deaths by RPA (private residences for seniors): qc/status-report-cases-and-deaths-by-rpa/etat_situation_rpa.pdf
     * Status report on confirmed cases and deaths by CHSLD (residential and long-term care centres): qc/status-report-cases-and-deaths-by-chsld/etat_situation_chsld.pdf
+    * Supplementary material: [Canadian Armed Forces report on their presence in CHSLDs](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec)
     * Terms of use: TBD
 * [Situation dans les établissements scolaires](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
     * Highlights - public and private school system: qc/schools-highlights/reseauScolaire_faitsSaillants.pdf
