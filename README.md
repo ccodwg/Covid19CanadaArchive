@@ -1,5 +1,25 @@
 # Archive of COVID-19 Data from Canadian Government Sources
 
+Table of contents:
+
+* [Introduction](#introduction)
+* [Contributing](#contributing)
+* [Recommended citation](#recommended-citation)
+* [Running archiver.py](#running-archiverpy)
+* [Data sources/terms of use/supplementary material](#data-sourcesterms-of-usesupplementary-material)
+  * [Alberta](#alberta)
+  * [British Columbia](#british-columbia)
+  * [Canada](#canada)
+  * [Manitoba](#manitoba)
+  * [Nova Scotia](#nova-scotia)
+  * [Ontario](#ontario)
+  * [Quebec](#quebec)
+  * [Saskatchewan](#saskatchewan)
+  * [Other: Non-governmental sources](#other-non-governmental-sources)
+     * [Quebec](#quebec-1)
+
+## Introduction
+
 This repository provides automated, daily backups of COVID-19 data from various Canadian government sources.
 
 **File name timestamps are given in ET (America/Toronto) in the following format: %Y%-m-%d_%H-%M.** The script is run nightly around 23:00 ET.
@@ -20,22 +40,19 @@ Community members may contribute to this repository in three ways:
 
 COVID-19 Canada Open Data Working Group. Archive of COVID-19 Data from Canadian Government Sources. https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data. (Access date).
 
+## Running archiver.py
+
+*archiver.py* can run in four modes:
+* `python archiver.py serverprod`: Download and commit files, running on the Heroku server.
+* `python archiver.py localprod`: Download and commit files, running on a local machine.
+* `python archiver.py servertest`: Download but do not commit files, running on the Heroku server.
+* `python archiver.py localtest`: Download but do not commit files, running on a local machine.
+
+See *archiver.py* for more details.
+
 ## Data sources/terms of use/supplementary material
 
 The sources and terms of use for each included dataset are linked below. Supplementary material such as data dictionaries and codebooks are also included in the list below, if available. These files are included with the relevant datasets in a directory named `supplementary`.
-
-Jump straight to a province:
-
-* [Alberta](#alberta)
-* [British Columbia](#british-columbia)
-* [Canada](#canada)
-* [Manitoba](#manitoba)
-* [Nova Scotia](#nova-scotia)
-* [Ontario](#ontario)
-* [Quebec](#quebec)
-* [Saskatchewan](#saskatchewan)
-* [Other: Non-governmental sources](#other-non-governmental-sources)
-   * [Quebec](#quebec-1)
 
 ### Alberta
 
