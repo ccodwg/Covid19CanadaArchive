@@ -24,6 +24,19 @@ COVID-19 Canada Open Data Working Group. Archive of COVID-19 Data from Canadian 
 
 The sources and terms of use for each included dataset are linked below. Supplementary material such as data dictionaries and codebooks are also included in the list below, if available. These files are included with the relevant datasets in a directory named `supplementary`.
 
+Jump straight to a province:
+
+* [Alberta](#alberta)
+* [British Columbia](#british-columbia)
+* [Canada](#canada)
+* [Manitoba](#manitoba)
+* [Nova Scotia](#nova-scotia)
+* [Ontario](#ontario)
+* [Quebec](#quebec)
+* [Saskatchewan](#saskatchewan)
+* [Other: Non-governmental sources](#other-non-governmental-sources)
+   * [Quebec](#quebec-1)
+
 ### Alberta
 
 * [COVID-19 Alberta statistics](https://www.alberta.ca/stats/covid-19-alberta-statistics.htm)
@@ -80,7 +93,7 @@ The sources and terms of use for each included dataset are linked below. Supplem
 
 ### Manitoba
 
-* [Cases and Risk of COVID-19 in Manitoba]
+* [Cases and Risk of COVID-19 in Manitoba](https://www.gov.mb.ca/covid19/updates/cases.html)
     * Cases by status and RHA (Regional Health Authority): mb/cases-by-status-and-rha/cases-by-status-and-rha.csv
     * Manitoba Five-Day Test Positivity Rate: mb/five-day-test-positivity/five-day-test-positivity.csv
     * Terms of use: TBD
