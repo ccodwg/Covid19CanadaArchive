@@ -102,6 +102,9 @@ The sources and terms of use for each included dataset are linked below. Supplem
 
 ### Ontario
 
+* [How Ontario is responding to COVID-19](https://www.ontario.ca/page/how-ontario-is-responding-covid-19)
+    * Webpage screenshot: on/ontario-webpage/ontario-screenshot.png
+    * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 * [Confirmed positive cases of COVID19 in Ontario](https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario/resource/455fd63b-603d-4608-8216-7d8647f43350)
     * on/confirmed-positive-cases/conposcovidloc.csv
     * Includes supplementary material: [Data dictionary (English and French)](https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario/resource/a2ea0536-1eae-4a17-aa04-e5a1ab89ca9a)
@@ -174,10 +177,12 @@ The sources and terms of use for each included dataset are linked below. Supplem
 ### Saskatchewan
 
 * [Saskatchewan's Dashboard - Total Cases](https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases)
-    * sk/cases-by-region/cases.csv
+    * CSV: sk/cases-by-region/cases.csv
+    * Webpage: sk/cases-by-region-webpage/cases-screenshot.png
     * Terms of use: TBD
 * [Saskatchewan's Dashboard - Total Tests](https://dashboard.saskatchewan.ca/health-wellness/covid-19/tests)
-    * sk/tests-by-region/tests.csv
+    * CSV: sk/tests-by-region/tests.csv
+    * Webpage: sk/tests-by-region-webpage/tests-screenshot.png
     * Terms of use: TBD
 
 ### Other: Non-governmental sources

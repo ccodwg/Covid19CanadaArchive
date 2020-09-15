@@ -231,6 +231,55 @@ def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
         else:
                 prep_files(name=name, full_name=full_name, fpath=fpath, copy=True)
 
+## function: take a screenshot of a webpage and commit file
+def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
+        global commit_message
+        
+        ## set names
+        name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
+        full_name = os.path.join(path, name + ext)        
+        
+        ## create temporary directory
+        tmpdir = tempfile.TemporaryDirectory()
+        
+        ## setup webdriver
+        options = Options()
+        if mode == 'serverprod' or mode == 'servertest':
+                options.binary_location = os.environ['GOOGLE_CHROME_BIN']
+        options.add_argument("--headless")
+        options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("--no-sandbox")
+        prefs = {'download.default_directory' : tmpdir.name}
+        options.add_experimental_option('prefs', prefs)
+        if mode == 'serverprod' or mode == 'servertest':
+                driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
+        else:
+                driver = webdriver.Chrome(options=options)
+        driver.implicitly_wait(10)
+        
+        ## load page and wait
+        driver.get(url)
+        time.sleep(wait) # wait for page to load      
+                        
+        ## take screenshot
+        fpath = os.path.join(tmpdir.name, file + ext)
+        if width is None:
+                width = driver.execute_script('return document.body.parentNode.scrollWidth')
+        if height is None:
+                height = driver.execute_script('return document.body.parentNode.scrollHeight')
+        driver.set_window_size(width, height)
+        driver.find_element_by_tag_name('body').screenshot(fpath) # remove scrollbar
+
+        ## commit file
+        if not os.path.isfile(fpath):
+                print(background('Error downloading: ' + full_name, Colors.red))
+                if mode == 'serverprod' or mode == 'localprod':
+                        commit_message = commit_message + 'Failure: ' + full_name + '\n'                
+        elif mode != 'serverprod' and mode != 'localprod':
+                print(color('Test download successful: ' + full_name, Colors.green))
+        else:
+                prep_files(name=name, full_name=full_name, fpath=fpath, copy=True)
+
 # AB - COVID-19 Alberta statistics
 dl_ab_cases('https://www.alberta.ca/stats/covid-19-alberta-statistics.htm',
             'ab/cases/',
@@ -351,6 +400,12 @@ dl_file('https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_co
 dl_file('https://novascotia.ca/coronavirus/data/ns-covid19-data.csv',
         'ns/case-data/',
         'ns-covid19-data')
+
+# ON - How Ontario is responding to COVID-19 (webpage screenshot)
+ss_page('https://www.ontario.ca/page/how-ontario-is-responding-covid-19',
+        'on/ontario-webpage/',
+        'ontario-screenshot',
+        width=1920)
 
 # ON - Confirmed positive cases of COVID19 in Ontario
 dl_file('https://data.ontario.ca/dataset/f4112442-bdc8-45d2-be3c-12efae72fb27/resource/455fd63b-603d-4608-8216-7d8647f43350/download/conposcovidloc.csv',
@@ -519,11 +574,23 @@ dl_file(sk_url_cases,
         'sk/cases-by-region/',
         'cases')
 
+# SK - Saskatchewan's Dashboard - Total Cases (webpage screenshot)
+ss_page('https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases',
+        'sk/cases-by-region-webpage/',
+        'cases-screenshot',
+        width=1526)
+
 # SK - Saskatchewan's Dashboard - Total Tests
 sk_url_tests = 'https://dashboard.saskatchewan.ca' + re.search('(?<=href=\").*(?=\">CSV)', requests.get('https://dashboard.saskatchewan.ca/health-wellness/covid-19/tests').text).group(0)
 dl_file(sk_url_tests,
         'sk/tests-by-region/',
         'tests')
+
+# SK - Saskatchewan's Dashboard - Total Tests (webpage screenshot)
+ss_page('https://dashboard.saskatchewan.ca/health-wellness/covid-19/tests',
+        'sk/tests-by-region-webpage/',
+        'tests-screenshot',
+        width=1526)
 
 # Other: QC - Covid Écoles Québec (Excel)
 dl_file('https://drive.google.com/uc?export=download&id=1xOl0uhyx9IuHZfJuRH-OR7BcGFuWYUex',
