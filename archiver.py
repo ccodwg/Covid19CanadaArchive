@@ -367,7 +367,6 @@ def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
         ## successful screenshot: mode == prod, prepare files for commit
         else:
                 driver = webdriver.Chrome(options=options)
-        driver.implicitly_wait(10)
         
         ## load page and wait
         driver.get(url)
@@ -383,22 +382,29 @@ def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
                 height = driver.execute_script('return document.body.parentNode.scrollHeight')
         ## set window size
         driver.set_window_size(width, height)
-        ## take screenshot
-        driver.find_element_by_tag_name('body').screenshot(fpath) # remove scrollbar
-
-        ## verify screenshot
-        if not os.path.isfile(fpath):
+        ## take screenshot (and don't stop the script if it fails)
+        try:
+                driver.find_element_by_tag_name('body').screenshot(fpath) # remove scrollbar
+                
+                ## verify screenshot
+                if not os.path.isfile(fpath):
+                        ## print failure
+                        print(background('Error downloading: ' + full_name, Colors.red))
+                        ## write failure to commit message if mode == prod
+                        if mode == 'serverprod' or mode == 'localprod':
+                                commit_message = commit_message + 'Failure: ' + full_name + '\n'
+                elif mode == 'servertest' or mode == 'localtest':
+                        ## print success
+                        print(color('Test download successful: ' + full_name, Colors.green))
+                else:
+                        ## prepare file for commit
+                        prep_file(repo_dir, name=name, full_name=full_name, fpath=fpath, copy=True)                
+        except:
                 ## print failure
                 print(background('Error downloading: ' + full_name, Colors.red))
                 ## write failure to commit message if mode == prod
                 if mode == 'serverprod' or mode == 'localprod':
-                        commit_message = commit_message + 'Failure: ' + full_name + '\n'                
-        elif mode == 'servertest' or mode == 'localtest':
-                ## print success
-                print(color('Test download successful: ' + full_name, Colors.green))
-        else:
-                ## prepare file for commit
-                prep_file(repo_dir, name=name, full_name=full_name, fpath=fpath, copy=True)
+                        commit_message = commit_message + 'Failure: ' + full_name + '\n'
 
 # AB - COVID-19 Alberta statistics
 dl_ab_cases('https://www.alberta.ca/stats/covid-19-alberta-statistics.htm',
