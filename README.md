@@ -83,6 +83,21 @@ The sources and terms of use for each included dataset are linked below. Supplem
         ```        
     * Laboratory data: bc/laboratory-data/BCCDC_COVID19_Dashboard_Lab_Information.csv
     * Terms of use: [Disclaimer and data notes](http://www.bccdc.ca/Health-Info-Site/Documents/BC_COVID-19_Disclaimer_Data_Notes.pdf)
+* [COVID-19 Public Exposures](http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures)
+    * Public exposures webpage screenshot: bc/public-exposures-webpage/public-exposures-screenshot.png
+    * Public exposures - flights: bc/public-exposures-flights/public-exposures-flights-tables-Current.pdf
+    * [Public exposures - cruises, long distance bus, train, work sites, public events](http://www.bccdc.ca/Health-Info-Site/Documents/Archived_COVID-19_Exposures.pdf): bc/public-exposures-cruises-bus-train-work-public/Archived_COVID-19_Exposures.pdf (Not included as part of the nightly update, as it is archived)
+    * Public exposures Fraser webpage screenshot: bc/regional-exposure-events-fraser-webpage/regional-exposure-events-fraser-screenshot.png
+    * Public exposures Interior webpage screenshot: bc/regional-exposure-events-interior-webpage/regional-exposure-events-interior-screenshot.png (warning: results may be truncated due to default table size of 10 rows)
+    * Public exposures Island webpage screenshot: bc/regional-exposure-events-island-webpage/regional-exposure-events-island-screenshot.png
+    * Public exposures Northern webpage screenshot: bc/regional-exposure-events-northern-webpage/regional-exposure-events-northern-screenshot.png (warning: some results are not displayed properly)
+    * Public exposures Vancouver Coastal webpage screenshot: bc/regional-exposure-events-vancouver-coastal-webpage/regional-exposure-events-vancouver-coastal-screenshot.png (Warning: results are not displayed properly)
+    * School exposures Fraser webpage screenshot: bc/school-exposures-fraser-webpage/school-exposures-fraser-screenshot.png (warning: results are not displayed properly)
+    * School exposures Interior webpage screenshot: bc/school-exposures-interior-webpage/school-exposures-interior-screenshot.png
+    * School exposures Island webpage screenshot: bc/school-exposures-island-webpage/school-exposures-island-screenshot.png
+    * School exposures Northern webpage screenshot: bc/school-exposures-northern-webpage/school-exposures-northern-screenshot.png
+    * School exposures Vancouver Coastal webpage screenshot: bc/school-exposures-vancouver-coastal-webpage/school-exposures-vancouver-coastal-screenshot.png
+    * Terms of use: TBD
 
 ### Canada
 
@@ -152,6 +167,9 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Active outbreaks: on/long-term-care-home-active/activeltcoutbreak.csv
     * Resolved outbreaks: on/long-term-care-home-resolved/resolvedltc.csv
     * Includes supplementary material: [Data dictionary (English and French)](https://data.ontario.ca/dataset/long-term-care-home-covid-19-data/resource/adbcf9f8-e473-4f27-b85f-0f05f686067b)
+    * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
+* [COVID-19 cases in schools and child care centres](https://www.ontario.ca/page/covid-19-cases-schools-and-child-care-centres)
+    * Webpage screenshot: on/cases-schools-and-child-care-centres-webpage/cases-schools-and-child-care-centres-screenshot.png
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 * [Schools COVID-19 data](https://data.ontario.ca/dataset/summary-of-cases-in-schools)
     * Summary of cases in schools: on/schools-summary/schoolcovidsummary.csv

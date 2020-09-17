@@ -10,6 +10,7 @@ import time
 import os
 from shutil import copyfile
 from datetime import datetime, timedelta
+from array import *
 import json
 import re
 import tempfile
@@ -436,6 +437,39 @@ dl_file('http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_
         'bc/laboratory-data/',
         'BCCDC_COVID19_Dashboard_Lab_Information')
 
+# BC - Public exposures (webpage)
+ss_page('http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures',
+        'bc/public-exposures-webpage/',
+        'public-exposures-screenshot',
+        width=1920,
+        height=5500) # set height otherwise truncated
+
+# BC - Public exposures: flights
+dl_file('http://www.bccdc.ca/Health-Info-Site/Documents/public-exposures-flights-tables-Current.pdf',
+        'bc/public-exposures-flights/',
+        'public-exposures-flights-tables-Current',
+        ext = '.pdf')
+
+# BC - Public exposures by setting and regional health authority
+bc_exposures = [
+        ['https://www.fraserhealth.ca/covid19exposure', 'bc/regional-exposure-events-fraser-webpage', 'regional-exposure-events-fraser-screenshot', None],
+        ['https://news.interiorhealth.ca/news/public-exposures/', 'bc/regional-exposure-events-interior-webpage', 'regional-exposure-events-interior-screenshot', None], # table only displays 10 results by default
+        ['https://www.islandhealth.ca/learn-about-health/covid-19/outbreaks-and-exposures', 'bc/regional-exposure-events-island-webpage', 'regional-exposure-events-island-screenshot', None],
+        ['https://www.northernhealth.ca/health-topics/public-exposures-and-outbreaks#covid-19-public-exposures', 'bc/regional-exposure-events-northern-webpage', 'regional-exposure-events-northern-screenshot', None], # some elements not collapsed by default
+        ['http://www.vch.ca/covid-19/public-exposures', 'bc/regional-exposure-events-vancouver-coastal-webpage', 'regional-exposure-events-vancouver-coastal-screenshot', 4000], # set height otherwise truncated, not collapsed by default
+        ['https://www.fraserhealth.ca/schoolexposures', 'bc/school-exposures-fraser-webpage', 'school-exposures-fraser-screenshot', None], # not collapsed by default
+        ['https://news.interiorhealth.ca/news/school-exposures/', 'bc/school-exposures-interior-webpage', 'school-exposures-interior-screenshot', None],
+        ['https://www.islandhealth.ca/learn-about-health/covid-19/exposures-schools', 'bc/school-exposures-island-webpage', 'school-exposures-island-screenshot', None],
+        ['https://www.northernhealth.ca/health-topics/public-exposures-and-outbreaks#covid-19-school-exposures', 'bc/school-exposures-northern-webpage', 'school-exposures-northern-screenshot', None],
+        ['http://www.vch.ca/covid-19/school-outbreaks', 'bc/school-exposures-vancouver-coastal-webpage', 'school-exposures-vancouver-coastal-screenshot', 4000] # set height otherwise truncated
+]
+for i in range(0, 9 + 1):
+        ss_page(bc_exposures[i][0],
+                bc_exposures[i][1],
+                bc_exposures[i][2],
+                width=1920,
+                height=bc_exposures[i][3])
+
 # CAN - COVID-19 Situational Awareness Dashboard (Epidemiology update)
 dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19.csv',
         'can/epidemiology-update/',
@@ -567,6 +601,12 @@ dl_file('https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/re
 dl_file('https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/resource/0cf2f01e-d4e1-48ed-8027-2133d059ec8b/download/resolvedltc.csv',
         'on/long-term-care-home-resolved/',
         'resolvedltc')
+
+# ON - Cases in schools and childcare centres (webpage)
+ss_page('https://www.ontario.ca/page/covid-19-cases-schools-and-child-care-centres',
+        'on/cases-schools-and-child-care-centres-webpage/',
+        'cases-schools-and-child-care-centres-screenshot',
+        width=1920)
 
 # ON - Schools: Summary of cases in schools
 dl_file('https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/7fbdbb48-d074-45d9-93cb-f7de58950418/download/schoolcovidsummary.csv',
