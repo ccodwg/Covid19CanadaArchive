@@ -57,6 +57,10 @@ init_colorit()
 # define date and time in America/Toronto time zone
 t = datetime.now(pytz.timezone('America/Toronto'))
 
+# initialize success and failure counters
+success = 0
+failure = 0
+
 # access repo
 if mode == 'serverprod' or mode == 'localprod':
         ## access token
@@ -80,7 +84,7 @@ if mode == 'serverprod' or mode == 'localprod':
         ## initialize file list for commit
         file_list = []
         ## initialize commit message for commit
-        commit_message = 'Nightly update: ' + str(t.date()) + '\n\n'
+        commit_message = ''
 
 # define functions
 
@@ -98,7 +102,7 @@ def prep_file(repo_dir, name, full_name, data = None, fpath=None, copy=False):
         copy (bool): Is the file already written and needs to be copied? (Default: False, see fpath and data)
         
         """
-        global commit_message
+        global commit_message, success, failure
         ## define path to save file
         spath = os.path.join(repo_dir, full_name)
         ## create directory if necessary
@@ -113,12 +117,18 @@ def prep_file(repo_dir, name, full_name, data = None, fpath=None, copy=False):
                 with open(spath, mode='wb') as local_file:
                         local_file.write(data)
         ## append file to the list of files in the commit
-        file_list.append(full_name)
-        ## append name of file to the commit message
-        commit_message = commit_message + 'Success: ' + full_name + '\n'
-        print(color('Copy successful: ' + full_name, Colors.blue))
+        try:
+                file_list.append(full_name)
+                ## append name of file to the commit message
+                commit_message = commit_message + 'Success: ' + full_name + '\n'
+                print(color('Copy successful: ' + full_name, Colors.blue))
+                success+=1
+        except:
+                commit_message = commit_message + 'Failure: ' + full_name + '\n'
+                print(background('Error copying: ' + full_name, Colors.red))
+                failure+=1
 
-def commit_files(repo, origin, file_list, commit_message):
+def commit_files(repo, origin, file_list, commit_message, success, failure, t):
         """Commit files to git repository and push to remote.
         
         Parameters:
@@ -126,10 +136,16 @@ def commit_files(repo, origin, file_list, commit_message):
         origin: Remote object from gitpython.
         file_list (list): List of paths to files to commit.
         commit_message (str): Commit message.
+        success (int): The number of files successfully downloaded.
+        failure (int): The number of files unsuccessfully downloaded.
+        t (datetime): Date and time script began running (America/Toronto).
         
         """
         print("Commiting files...")
         try:
+                total_files = str(success + failure)
+                commit_message = 'Successful downloads : ' + str(success) + '/' + total_files + '\n' + 'Failed downloads: ' + str(failure) + '/' + total_files + '\n\n' + commit_message
+                commit_message = 'Nightly update: ' + str(t.date()) + '\n\n' + commit_message
                 repo.index.add(file_list)
                 repo.index.commit(commit_message)
                 origin.push()
@@ -151,7 +167,7 @@ def dl_file(url, path, file, user=False, ext='.csv', mb_json_to_csv=None):
         mb_json_to_csv (bool): If True, this is a Manitoba JSON file that that should be converted to CSV. Default: None.
         
         """
-        global commit_message
+        global commit_message, success, failure
         
         ## set names with timestamp and file ext
         name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
@@ -169,6 +185,7 @@ def dl_file(url, path, file, user=False, ext='.csv', mb_json_to_csv=None):
         if not req.ok:
                 ## print failure
                 print(background('Error downloading: ' + full_name, Colors.red))
+                failure+=1
                 ## write failure to commit message if mode == prod
                 if mode == 'serverprod' or mode == 'localprod':
                         commit_message = commit_message + 'Failure: ' + full_name + '\n'
@@ -176,6 +193,7 @@ def dl_file(url, path, file, user=False, ext='.csv', mb_json_to_csv=None):
         elif mode == 'servertest' or mode == 'localtest':
                 ## print success
                 print(color('Test download successful: ' + full_name, Colors.green))
+                success+=1
         ## successful request: mode == prod, prepare files for commit
         else:
                 if mb_json_to_csv:
@@ -211,7 +229,7 @@ def dl_ab_cases(url, path, file, ext='.csv', wait=5):
         wait (int): Time in seconds that the function should wait. Should be > 0 to ensure the download is successful.
         
         """
-        global commit_message
+        global commit_message, success, failure
         
         ## set names with timestamp and file ext
         name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
@@ -252,6 +270,7 @@ def dl_ab_cases(url, path, file, ext='.csv', wait=5):
         if not os.path.isfile(fpath):
                 ## print failure
                 print(background('Error downloading: ' + full_name, Colors.red))
+                failure+=1
                 ## write failure to commit message if mode == prod
                 if mode == 'serverprod' or mode == 'localprod':
                         commit_message = commit_message + 'Failure: ' + full_name + '\n'
@@ -259,6 +278,7 @@ def dl_ab_cases(url, path, file, ext='.csv', wait=5):
         elif mode == 'servertest' or mode == 'localtest':
                 ## print success
                 print(color('Test download successful: ' + full_name, Colors.green))
+                success+=1
         ## successful request: mode == prod, prepare files for commit
         else:
                 ## prepare file for commit
@@ -282,7 +302,7 @@ def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
         wait (int): Time in seconds that the function should wait. Should be > 0 to ensure the download is successful.
         
         """        
-        global commit_message
+        global commit_message, success, failure
         
         ## set names with timestamp and file ext
         name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
@@ -319,6 +339,7 @@ def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
         if not os.path.isfile(fpath):
                 ## print failure
                 print(background('Error downloading: ' + full_name, Colors.red))
+                failure+=1
                 ## write failure to commit message if mode == prod
                 if mode == 'serverprod' or mode == 'localprod':
                         commit_message = commit_message + 'Failure: ' + full_name + '\n'
@@ -326,6 +347,7 @@ def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
         elif mode == 'servertest' or mode == 'localtest':
                 ## print success
                 print(color('Test download successful: ' + full_name, Colors.green))
+                success+=1
         ## successful request: mode == prod, prepare files for commit
         else:
                 ## prepare file for commit
@@ -350,7 +372,7 @@ def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
         height (int): Height of the output screenshot. Default: None. If not set, the function attempts to detect the maximum height.
         
         """
-        global commit_message
+        global commit_message, success, failure
         
         ## set names with timestamp and file ext
         name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
@@ -397,18 +419,21 @@ def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
                 if not os.path.isfile(fpath):
                         ## print failure
                         print(background('Error downloading: ' + full_name, Colors.red))
+                        failure+=1
                         ## write failure to commit message if mode == prod
                         if mode == 'serverprod' or mode == 'localprod':
                                 commit_message = commit_message + 'Failure: ' + full_name + '\n'
                 elif mode == 'servertest' or mode == 'localtest':
                         ## print success
                         print(color('Test download successful: ' + full_name, Colors.green))
+                        success+=1
                 else:
                         ## prepare file for commit
                         prep_file(repo_dir, name=name, full_name=full_name, fpath=fpath, copy=True)                
         except:
                 ## print failure
                 print(background('Error downloading: ' + full_name, Colors.red))
+                failure+=1
                 ## write failure to commit message if mode == prod
                 if mode == 'serverprod' or mode == 'localprod':
                         commit_message = commit_message + 'Failure: ' + full_name + '\n'
@@ -774,6 +799,11 @@ dl_file('https://drive.google.com/uc?export=download&id=1xOl0uhyx9IuHZfJuRH-OR7B
         'COVIDECOLESQUEBEC',
         ext = '.xlsx')
 
+# Summarize successes and failures
+total_files = str(success + failure)
+print(background('Successful downloads: ' + str(success) + '/' + total_files, Colors.blue))
+print(background('Failed downloads: ' + str(failure) + '/' + total_files, Colors.red))
+
 # Commit files
 if mode == 'serverprod' or mode == 'localprod':
-        commit_files(repo, origin, file_list, commit_message)
+        commit_files(repo, origin, file_list, commit_message, success, failure, t)
