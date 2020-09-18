@@ -263,6 +263,9 @@ def dl_ab_cases(url, path, file, ext='.csv', wait=5):
         else:
                 ## prepare file for commit
                 prep_file(repo_dir, name=name, full_name=full_name, fpath=fpath, copy=True)
+        
+        ## quit webdriver
+        driver.quit()
 
 def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
         """Download CSV file: AB - "COVID-19 relaunch status map" or AB - "COVID-19 school status map"
@@ -327,6 +330,9 @@ def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
         else:
                 ## prepare file for commit
                 prep_file(repo_dir, name=name, full_name=full_name, fpath=fpath, copy=True)
+        
+        ## quit webdriver
+        driver.quit()
 
 def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
         """Take a screenshot of a webpage.
@@ -406,6 +412,9 @@ def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
                 ## write failure to commit message if mode == prod
                 if mode == 'serverprod' or mode == 'localprod':
                         commit_message = commit_message + 'Failure: ' + full_name + '\n'
+        
+        ## quit webdriver
+        driver.quit()
 
 # AB - COVID-19 Alberta statistics
 dl_ab_cases('https://www.alberta.ca/stats/covid-19-alberta-statistics.htm',
