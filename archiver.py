@@ -574,6 +574,7 @@ dl_file('https://novascotia.ca/coronavirus/data/ns-covid19-data.csv',
 ss_page('https://www.ontario.ca/page/how-ontario-is-responding-covid-19',
         'on/ontario-webpage/',
         'ontario-screenshot',
+        wait=15, # very long page
         width=1920)
 
 # ON - Confirmed positive cases of COVID19 in Ontario
