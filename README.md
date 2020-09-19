@@ -208,6 +208,16 @@ The sources and terms of use for each included dataset are linked below. Supplem
 * [https://www.inspq.qc.ca/covid-19/donnees/age-sexe](https://www.inspq.qc.ca/covid-19/donnees/age-sexe)
     * COVID-19 data by age group and sex: qc/covid-data-by-age-and-sex/PL_AGE_SEXE.csv
     * Terms of use: TBD
+* [Situation du coronavirus (COVID-19) au Québec](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
+    * Deaths time series by living environment: qc/deaths-time-series-by-living-environment/decesquotidien.csv
+    * Recent daily cases by region: qc/recent-daily-cases-by-region/cas-region.csv
+    * Cumulative deaths by region: qc/cumulative-deaths-by-region/deces-region.csv
+    * Situation in Quebec: qc/situation-in-quebec/situation-au-quebec.csv
+    * Cases percentage by age group: qc/cases-percentage-by-age-group/pourcentage-cas-age.csv
+    * Deaths percentage by age group: qc/deaths-percentage-by-age-group/pourcentage-deces-age.csv
+    * COVID-19 daily data 7 days: qc/covid-data-daily-7-days/synthese-7jours.csv
+    * Cases by region 7 days: qc/cases-by-region-7-days/cas-region-7jours.csv
+    * Terms of use: TBD
 * [Situation dans les milieux de vie pour personnes aînées et vulnérables](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
     * Status report on confirmed cases and deaths by RPA (private residences for seniors): qc/status-report-cases-and-deaths-by-rpa/etat_situation_rpa.pdf
     * Status report on confirmed cases and deaths by CHSLD (residential and long-term care centres): qc/status-report-cases-and-deaths-by-chsld/etat_situation_chsld.pdf
