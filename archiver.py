@@ -691,30 +691,6 @@ dl_file('https://www.arcgis.com/sharing/rest/content/items/02c99319ef44488e85cd4
         'on/ottawa-hospitalization/',
         'Hospitalizations_of_Ottawa_residents_with_confirmed_COVID-19')
 
-# QC - COVID-19 data
-dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/combine.csv',
-        'qc/covid-data/',
-        'combine',
-        user=True)
-
-# QC - COVID-19 data (charts)
-dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/combine2.csv',
-        'qc/covid-data-charts/',
-        'combine2',
-        user=True)
-
-# QC - Deaths by RSS (health region) and living environment
-dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/tableau-rpa.csv',
-        'qc/deaths-by-rss-and-living-environment/',
-        'tableau-rpa',
-        user=True)
-
-# QC - Cases by RSS (health region) and RLS (local service network)
-dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/tableau-rls.csv',
-        'qc/cases-by-rss-and-rls/',
-        'tableau-rls',
-        user=True)
-
 # QC - Montréal cases and deaths by CIUSSS (integrated health and social services centres)
 dl_file('https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/ciusss.csv',
         'qc/montreal-cases-and-deaths-by-ciusss/',
