@@ -1,0 +1,84 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Detailed preliminary information on cases of COVID-19: 4 Dimensions (Aggregated data), Public Health Agency of Canada",13100775,,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310077501",1;2;3;4;5,"CURRENT - a cube available to the public and that is current",Occasional,2020-01-01,2020-01-01,4
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+1,Geography,,
+2,Gender,,
+3,"Age group",,
+4,Statistics,,
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+1,Canada,[11124],1,,,,
+1,"Atlantic Region",[1],2,1,,5;6,
+1,"Quebec Region",[2],3,1,,,
+1,"Ontario and Nunavut Region",,4,1,,,
+1,"Prairies and Northwest Territories Region",,5,1,,7,
+1,"British Columbia and Yukon Region",,6,1,,5,
+2,"Total, all genders",,1,,,,
+2,Male,,2,1,,,
+2,Female,,3,1,,,
+2,"Not stated, gender",,4,1,,8,
+3,"Total, all age groups",,1,,,,
+3,"0 to 19 years",,2,1,,,
+3,"20 to 29 years",,3,1,,,
+3,"30 to 39 years",,4,1,,,
+3,"40 to 49 years",,5,1,,,
+3,"50 to 59 years",,6,1,,,
+3,"60 to 69 years",,7,1,,,
+3,"70 to 79 years",,8,1,,,
+3,"80 years and over",,9,1,,,
+3,"Not stated, age group",,10,1,,,
+4,"Total, by transmission",,1,,,9,
+4,"Community exposures",,2,1,,9,
+4,"Travel exposures",,3,1,,9,
+4,"Not stated, transmission",,4,1,,9,
+4,"Total, by hospitalization status",,5,,,,
+4,"Yes, hospitalized",,6,5,,,
+4,"No, hospitalized",,7,5,,,
+4,"Not stated, hospitalized",,8,5,,,
+4,"Total, by intensive care unit admittance",,9,,,,
+4,"Yes, intensive care unit",,10,9,,,
+4,"No, intensive care unit",,11,9,,,
+4,"Not stated, intensive care unit",,12,9,,,
+4,"Total, by death status",,13,,,,
+4,"Yes, deceased",,14,13,,,
+4,"No, not deceased",,15,13,,,
+4,"Not stated, deceased",,16,13,,,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period",..
+"less than the limit of detection",<LOD
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded",0s
+"data quality: excellent",A
+"data quality: very good",B
+"data quality: good",C
+"data quality: acceptable",D
+"use with caution",E
+"too unreliable to be published",F
+"not applicable",...
+preliminary,p
+revised,r
+"suppressed to meet the confidentiality requirements of the Statistics Act",x
+terminated,t
+
+"Survey Code","Survey Name"
+5319,"COVID-19 epidemiological reports"
+
+"Subject Code","Subject Name"
+13,Health
+
+"Note ID",Note
+1,"Source: Public Health Agency of Canada (PHAC), COVID-19 epidemiological reports, with contribution from Provincial/Territorial Ministries of Health. <a href=""https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html"" rel=""external noopener noreferrer"" target=""_blank"">Map: Provincial and territorial case numbers (opens new window)</a>"
+2,"Given that the COVID-19 pandemic is rapidly evolving, these data are considered preliminary. The data published by Statistics Canada only account for those where a detailed case report was provided by the provincial or territorial jurisdiction to the Public Health Agency of Canada (PHAC). Statistics Canada’s detailed preliminary confirmed cases will not match the total case reporting done at the provincial and territorial levels which are reported daily by each jurisdiction and compiled by the PHAC.  The discrepancy is due to delays associated with the submission of the detailed information, its capture and coding. Hence, Statistics Canada’s file on detailed case reporting is a subset of the total counts reported by the health authorities across Canada."
+3,"Confirmed cases are laboratory confirmed cases for which a case report form has been received by the Public Health Agency of Canada (PHAC) from provincial or territorial partners."
+4,"Routine updates on health outcome status are not uniformly made across Canada, and therefore the data may underestimate the number of hospitalizations, admissions to intensive care units and deaths. "
+5,"On September 17th, new cases were added to the Atlantic region and grouped in Episode week = 32 to preserve confidentiality. No updates were made to the Quebec region. "
+6,"Atlantic Region (New Brunswick, Nova Scotia, Prince Edward Island and Newfoundland and Labrador)."
+7,"Prairies Region (Alberta, Saskatchewan and Manitoba)."
+8,"All responses not specified as ""male"" or ""female"" were reclassified as ""not stated""."
+9,"Travel exposure indicates cases that had travelled outside of Canada in the 14 days prior to illness onset. Community exposure indicates cases that had contact with a domestic COVID-19 case, had contact with a travel related COVID-19 case, or had contact with an unknown source. Not stated indicates confirmation on exposure setting is pending, or case information is missing."
+
+"Correction ID","Correction Date","Correction Note"
+
+

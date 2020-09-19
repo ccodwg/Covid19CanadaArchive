@@ -153,7 +153,7 @@ def commit_files(repo, origin, file_list, commit_message, success, failure, t):
         except:
                 print(background('Commit failed!', Colors.red))
 
-def dl_file(url, path, file, user=False, ext='.csv', mb_json_to_csv=None):
+def dl_file(url, path, file, user=False, ext='.csv', unzip=False, mb_json_to_csv=False):
         """Download file (generic).
         
         Used to download most file types (when Selenium is not required).
@@ -164,7 +164,8 @@ def dl_file(url, path, file, user=False, ext='.csv', mb_json_to_csv=None):
         file (str): Output file name (excluding extension). Example: 'covid19'
         user (bool): Should the request impersonate a normal browser? Needed to access some data. Default: False.
         ext (str): Extension of the output file. Defaults to '.csv'.
-        mb_json_to_csv (bool): If True, this is a Manitoba JSON file that that should be converted to CSV. Default: None.
+        unzip (bool): If True, this file requires unzipping. Default: False.
+        mb_json_to_csv (bool): If True, this is a Manitoba JSON file that that should be converted to CSV. Default: False.
         
         """
         global commit_message, success, failure
@@ -196,7 +197,20 @@ def dl_file(url, path, file, user=False, ext='.csv', mb_json_to_csv=None):
                 success+=1
         ## successful request: mode == prod, prepare files for commit
         else:
-                if mb_json_to_csv:
+                if unzip:
+                        ## unzip data
+                        name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
+                        full_name = os.path.join(path, name + ext)
+                        tmpdir = tempfile.TemporaryDirectory()
+                        zpath = os.path.join(tmpdir.name, 'zip_file.zip')
+                        with open(zpath, mode='wb') as local_file:
+                                local_file.write(req.content)                        
+                        with ZipFile(zpath, 'r') as zip_file:
+                                zip_file.extractall(tmpdir.name)
+                        fpath = os.path.join(tmpdir.name, file + ext)
+                        ## prepare file for commit
+                        prep_file(repo_dir, name=name, full_name=full_name, fpath=fpath, copy=True)                        
+                elif mb_json_to_csv:
                         ## for Manitoba JSON data only: convert JSON to CSV and save as temporary file
                         name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
                         full_name = os.path.join(path, name + ext)                          
@@ -579,6 +593,24 @@ dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary
 dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-updateTime.csv',
         'can/situational-awareness-dashboard-update-time/',
         'covid19-updateTime')
+
+# CAN - Detailed preliminary information on cases of COVID-19: 6 Dimensions (Aggregated data)
+dl_file('https://www150.statcan.gc.ca/n1/tbl/csv/13100774-eng.zip',
+        'can/detailed-preliminary-case-info-aggregated-6-dimensions/',
+        '13100774',
+        unzip=True)
+
+# CAN - Detailed preliminary information on cases of COVID-19: 4 Dimensions (Aggregated data)
+dl_file('https://www150.statcan.gc.ca/n1/tbl/csv/13100775-eng.zip',
+        'can/detailed-preliminary-case-info-aggregated-4-dimensions/',
+        '13100775',
+        unzip=True)
+
+## CAN - Detailed preliminary information on confirmed cases of COVID-19 (Revised)
+#dl_file('https://www150.statcan.gc.ca/n1/tbl/csv/13100781-eng.zip',
+        #'can/detailed-preliminary-confirmed-case-info-revised/',
+        #'13100781',
+        #unzip=True)
 
 # MB - COVID-19 data by RHA and district
 dl_file('https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_summary_stats_geography/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
