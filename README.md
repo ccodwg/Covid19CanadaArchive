@@ -123,8 +123,10 @@ The sources and terms of use for each included dataset are linked below. Supplem
 ### Manitoba
 
 * [Cases and Risk of COVID-19 in Manitoba](https://www.gov.mb.ca/covid19/updates/cases.html)
+    * COVID-19 data by RHA and district: mb/covid-data-by-rha-and-district/covid-data-by-rha-and-district.csv
+    * Cases by demographics and RHA: mb/cases-demographics-by-rha/cases-demographics-by-rha.csv
     * Cases by status and RHA (Regional Health Authority): mb/cases-by-status-and-rha/cases-by-status-and-rha.csv
-    * Manitoba Five-Day Test Positivity Rate: mb/five-day-test-positivity/five-day-test-positivity.csv
+    * Manitoba five-day test positivity rate: mb/five-day-test-positivity/five-day-test-positivity.csv
     * Terms of use: TBD
     * Data have been converted from JSON queries to CSV
 * [COVID-19 By-law Enforcement (Winnipeg)](https://data.winnipeg.ca/Neighbourhood-Liveability-Property-Standards-Licen/COVID-19-By-law-Enforcement/ndr6-96vi)
