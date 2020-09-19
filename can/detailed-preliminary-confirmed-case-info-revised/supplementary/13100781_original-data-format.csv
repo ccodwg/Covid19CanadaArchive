@@ -1,0 +1,30 @@
+REF_DATE,GEO,DGUID,Case identifier number,Case information,UOM,UOM_ID,SCALAR_FACTOR,SCALAR_ID,VECTOR,COORDINATE,VALUE,STATUS,SYMBOL,TERMINATED,DECIMALS
+2020,Canada,2016A000011124,1,Region,Number,223,units,0,v1158536291,1.1.1,2,,,,0
+2020,Canada,2016A000011124,1,Episode week,Number,223,units,0,v1158536292,1.1.2,18,,,,0
+2020,Canada,2016A000011124,1,Episode week group,Number,223,units,0,v1203603035,1.1.29,0,,,,0
+2020,Canada,2016A000011124,1,Episode year,Number,223,units,0,v1158536293,1.1.3,20,,,,0
+2020,Canada,2016A000011124,1,Gender,Number,223,units,0,v1158536294,1.1.4,2,,,,0
+2020,Canada,2016A000011124,1,Age group,Number,223,units,0,v1158536295,1.1.5,7,,,,0
+2020,Canada,2016A000011124,1,Occupation,Number,223,units,0,v1158536296,1.1.6,4,,,,0
+2020,Canada,2016A000011124,1,Asymptomatic,Number,223,units,0,v1158536297,1.1.7,9,,,,0
+2020,Canada,2016A000011124,1,Onset week of symptoms,Number,223,units,0,v1158536298,1.1.8,99,,,,0
+2020,Canada,2016A000011124,1,Onset year of symptoms,Number,223,units,0,v1158536299,1.1.9,99,,,,0
+2020,Canada,2016A000011124,1,"Symptom, cough",Number,223,units,0,v1158536300,1.1.10,9,,,,0
+2020,Canada,2016A000011124,1,"Symptom, fever",Number,223,units,0,v1158536301,1.1.11,9,,,,0
+2020,Canada,2016A000011124,1,"Symptom, chills",Number,223,units,0,v1158536302,1.1.12,9,,,,0
+2020,Canada,2016A000011124,1,"Symptom, sore throat",Number,223,units,0,v1158536303,1.1.13,9,,,,0
+2020,Canada,2016A000011124,1,"Symptom, runny nose",Number,223,units,0,v1158536304,1.1.14,9,,,,0
+2020,Canada,2016A000011124,1,"Symptom, shortness of breath",Number,223,units,0,v1158536305,1.1.15,9,,,,0
+2020,Canada,2016A000011124,1,"Symptom, nausea",Number,223,units,0,v1158536306,1.1.16,9,,,,0
+2020,Canada,2016A000011124,1,"Symptom, headache",Number,223,units,0,v1158536307,1.1.17,9,,,,0
+2020,Canada,2016A000011124,1,"Symptom, weakness",Number,223,units,0,v1158536308,1.1.18,9,,,,0
+2020,Canada,2016A000011124,1,"Symptom, pain",Number,223,units,0,v1158536309,1.1.19,9,,,,0
+2020,Canada,2016A000011124,1,"Symptom, irritability",Number,223,units,0,v1158536310,1.1.20,9,,,,0
+2020,Canada,2016A000011124,1,"Symptom, diarrhea",Number,223,units,0,v1158536311,1.1.21,9,,,,0
+2020,Canada,2016A000011124,1,"Symptom, other",Number,223,units,0,v1158536312,1.1.22,9,,,,0
+2020,Canada,2016A000011124,1,Hospital status,Number,223,units,0,v1158536313,1.1.23,9,,,,0
+2020,Canada,2016A000011124,1,Recovered,Number,223,units,0,v1158536314,1.1.24,1,,,,0
+2020,Canada,2016A000011124,1,Recovery week,Number,223,units,0,v1158536315,1.1.25,99,,,,0
+2020,Canada,2016A000011124,1,Recovery year,Number,223,units,0,v1158536316,1.1.26,99,,,,0
+2020,Canada,2016A000011124,1,Death,Number,223,units,0,v1158536317,1.1.27,2,,,,0
+2020,Canada,2016A000011124,1,Transmission,Number,223,units,0,v1158536318,1.1.28,1,,,,0

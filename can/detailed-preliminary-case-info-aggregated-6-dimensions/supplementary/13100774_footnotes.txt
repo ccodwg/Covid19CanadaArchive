@@ -1,0 +1,24 @@
+Detailed preliminary information on cases of COVID-19: 6 Dimensions (Aggregated data), Public Health Agency of Canada
+1 - Source: Public Health Agency of Canada (PHAC), COVID-19 epidemiological reports, with contribution from Provincial/Territorial Ministries of Health. Map: Provincial and territorial case numbers (opens new window)
+2 - Given that the COVID-19 pandemic is rapidly evolving, these data are considered preliminary. The data published by Statistics Canada only account for those where a detailed case report was provided by the provincial or territorial jurisdiction to the Public Health Agency of Canada (PHAC). Statistics Canada’s detailed preliminary confirmed cases will not match the total case reporting done at the provincial and territorial levels which are reported daily by each jurisdiction and compiled by the PHAC. The discrepancy is due to delays associated with the submission of the detailed information, its capture and coding. Hence, Statistics Canada’s file on detailed case reporting is a subset of the total counts reported by the health authorities across Canada.
+3 - Confirmed cases are laboratory confirmed cases for which a case report form has been received by the Public Health Agency of Canada (PHAC) from provincial or territorial partners.
+4 - Routine updates on health outcome status are not uniformly made across Canada, and therefore the data may underestimate the number of hospitalizations, admissions to intensive care units and deaths.
+5 - On September 17th, new cases were added to the Atlantic region and grouped in Episode week = 32 to preserve confidentiality. No updates were made to the Quebec region.
+
+Total, by transmission
+6 - Travel exposure indicates cases that had travelled outside of Canada in the 14 days prior to illness onset. Community exposure indicates cases that had contact with a domestic COVID-19 case, had contact with a travel related COVID-19 case, or had contact with an unknown source. Not stated indicates confirmation on exposure setting is pending, or case information is missing.
+
+Community exposures
+6 - Travel exposure indicates cases that had travelled outside of Canada in the 14 days prior to illness onset. Community exposure indicates cases that had contact with a domestic COVID-19 case, had contact with a travel related COVID-19 case, or had contact with an unknown source. Not stated indicates confirmation on exposure setting is pending, or case information is missing.
+
+Travel exposures
+6 - Travel exposure indicates cases that had travelled outside of Canada in the 14 days prior to illness onset. Community exposure indicates cases that had contact with a domestic COVID-19 case, had contact with a travel related COVID-19 case, or had contact with an unknown source. Not stated indicates confirmation on exposure setting is pending, or case information is missing.
+
+Not stated, transmission
+6 - Travel exposure indicates cases that had travelled outside of Canada in the 14 days prior to illness onset. Community exposure indicates cases that had contact with a domestic COVID-19 case, had contact with a travel related COVID-19 case, or had contact with an unknown source. Not stated indicates confirmation on exposure setting is pending, or case information is missing.
+
+Yes, hospitalized and ICU admitted
+7 - ICU = Intensive care unit.
+
+Yes, hospitalized but not ICU admitted
+7 - ICU = Intensive care unit.

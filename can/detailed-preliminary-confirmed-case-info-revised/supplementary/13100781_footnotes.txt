@@ -1,0 +1,48 @@
+Detailed preliminary information on confirmed cases of COVID-19 (Revised), Public Health Agency of Canada
+1 - Source: Public Health Agency of Canada (PHAC), COVID-19 epidemiological reports, with contribution from Provincial/Territorial Ministries of Health. For more information about this table please see the website: User Guide and Data Dictionary for Preliminary COVID-19 Data (opens new window).
+2 - Given that the COVID-19 pandemic is rapidly evolving, these data are considered preliminary. The data published by Statistics Canada only account for those where a detailed case report was provided by the provincial or territorial jurisdiction to the Public Health Agency of Canada (PHAC). Statistics Canada’s detailed preliminary confirmed cases will not match the total case reporting done at the provincial and territorial levels which are reported daily by each jurisdiction and compiled by the PHAC. The discrepancy is due to delays associated with the submission of the detailed information, its capture and coding. Hence, Statistics Canada’s file on detailed case reporting is a subset of the total counts reported by the health authorities across Canada.
+3 - Confirmed cases are laboratory confirmed cases for which a case report form has been received by the Public Health Agency of Canada (PHAC) from provincial or territorial partners.
+4 - On May 22nd, 2020, this data file of detailed confirmed cases from the Public Health Agency of Canada (PHAC) replaced data published in table 13-10-0766-01. This covers all of the detailed confirmed cases up to June 7th, but with new Statistics Canada Case identifier numbers.
+5 - On September 17th, new cases were added to the Atlantic region and grouped in Episode week = 32 to preserve confidentiality. No updates were made to the Quebec region.
+
+Case identifier number
+6 - Statistics Canada generated case identifier number.
+
+Region
+7 - Region: 1 = Atlantic (New Brunswick, Nova Scotia, Prince Edward Island, Newfoundland and Labrador), 2 = Quebec, 3 = Ontario and Nunavut, 4 = Prairies (Alberta, Saskatchewan, and Manitoba) and the Northwest Territories, 5 = British Columbia and Yukon.
+
+Episode week
+8 - The episode week and episode year are derived from the episode date. The episode date is created from the earliest date available from the following series: Symptom Onset Date, Specimen Collection Date and Laboratory Testing Date. When no date is available, this field is considered 'Not stated' and given the value 99. These values are corrected as Public Health Agency of Canada (PHAC) receives new information.
+9 - "0" represents the first days of the year leading up to, but not including the first Sunday. "1" represents the first full week of the year, beginning on the first Sunday, and so on.
+
+Gender
+10 - Gender codes: 1 = Male, 2 = Female, 9 = Not stated. These values are corrected as the Public Health Agency of Canada (PHAC) receives new information. It should be noted that the French form uses the term 'sex' contrary to the English form that uses the term 'gender'. In the context of this table, the term gender is also used in French. The cases that have reported 'other' for sex or 'non-binary' for gender have been reclassified as 'not stated' gender.
+
+Age group
+11 - Age group codes: 1 = 0 to 19 years, 2 = 20 to 29 years, 3 = 30 to 39 years, 4 = 40 to 49 years, 5 = 50 to 59 years, 6 = 60 to 69 years, 7 = 70 to 79 years, 8 = 80 years or older, 99 = Not stated. These values are corrected as the Public Health Agency of Canada (PHAC) receives new information.
+
+Occupation
+12 - Occupation: 1 = Health care worker, 2 = School or daycare worker/attendee, 3 = Long term care resident, 4 = Other, 9 = Not stated.
+
+Asymptomatic
+13 - Asymptomatic: 1= Yes, 2 = No, 9 = Not Stated.
+
+Onset week of symptoms
+9 - "0" represents the first days of the year leading up to, but not including the first Sunday. "1" represents the first full week of the year, beginning on the first Sunday, and so on.
+14 - Week of symptom(s) onset.
+
+Hospital status
+15 - Hospitalization status: 1 = Hospitalized and in Intensive care unit 2 = Hospitalized, but not in intensive care unit, 3= Not hospitalized, 9 = Not Stated/Unknown.
+
+Recovered
+16 - Indicates if the case has recovered. 1 = Yes, 2 = No, 9 = Not Stated/Unknown.
+
+Recovery week
+9 - "0" represents the first days of the year leading up to, but not including the first Sunday. "1" represents the first full week of the year, beginning on the first Sunday, and so on.
+17 - Week of recovery date.
+
+Death
+18 - Death: 1 = Yes, 2 = No, 9 = Not stated.
+
+Transmission
+19 - Transmission: 1 = Domestic acquisition - Contact of COVID case, contact with traveller, or unknown source, 2 = International travel, 9 = Not stated.

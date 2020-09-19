@@ -14,6 +14,8 @@ from array import *
 import json
 import re
 import tempfile
+import csv
+from zipfile import ZipFile
 
 ## other utilities
 import pandas as pd # better data processing
@@ -164,7 +166,7 @@ def dl_file(url, path, file, user=False, ext='.csv', unzip=False, mb_json_to_csv
         file (str): Output file name (excluding extension). Example: 'covid19'
         user (bool): Should the request impersonate a normal browser? Needed to access some data. Default: False.
         ext (str): Extension of the output file. Defaults to '.csv'.
-        unzip (bool): If True, this file requires unzipping. Default: False.
+        unzip (bool): If True, this file requires unzipping. Default: False. Note that file = '13100781' is handled uniquely due to the extra processing required.
         mb_json_to_csv (bool): If True, this is a Manitoba JSON file that that should be converted to CSV. Default: False.
         
         """
@@ -208,6 +210,19 @@ def dl_file(url, path, file, user=False, ext='.csv', unzip=False, mb_json_to_csv
                         with ZipFile(zpath, 'r') as zip_file:
                                 zip_file.extractall(tmpdir.name)
                         fpath = os.path.join(tmpdir.name, file + ext)
+                        if file == '13100781':
+                                ## read CSV
+                                data = pd.read_csv(fpath)
+                                ## drop non-informative columns
+                                data = data.drop(columns=['UOM', 'UOM_ID', 'SCALAR_FACTOR', 'SCALAR_ID', 'VECTOR', 'COORDINATE', 'STATUS', 'SYMBOL', 'TERMINATED', 'DECIMALS'])
+                                ## save original order of column values
+                                col_order = data['Case information'].unique()
+                                ## pivot long to wide
+                                data = data.pivot(index=['REF_DATE', 'GEO', 'DGUID', 'Case identifier number'], columns='Case information', values='VALUE').reset_index()
+                                ## use original column order
+                                data = data[['REF_DATE', 'GEO', 'DGUID', 'Case identifier number'] + col_order.tolist()]
+                                ## write CSV
+                                data.to_csv(fpath, index=None, quoting=csv.QUOTE_NONNUMERIC)
                         ## prepare file for commit
                         prep_file(repo_dir, name=name, full_name=full_name, fpath=fpath, copy=True)                        
                 elif mb_json_to_csv:
@@ -606,11 +621,11 @@ dl_file('https://www150.statcan.gc.ca/n1/tbl/csv/13100775-eng.zip',
         '13100775',
         unzip=True)
 
-## CAN - Detailed preliminary information on confirmed cases of COVID-19 (Revised)
-#dl_file('https://www150.statcan.gc.ca/n1/tbl/csv/13100781-eng.zip',
-        #'can/detailed-preliminary-confirmed-case-info-revised/',
-        #'13100781',
-        #unzip=True)
+# CAN - Detailed preliminary information on confirmed cases of COVID-19 (Revised)
+dl_file('https://www150.statcan.gc.ca/n1/tbl/csv/13100781-eng.zip',
+        'can/detailed-preliminary-confirmed-case-info-revised/',
+        '13100781',
+        unzip=True)
 
 # MB - COVID-19 data by RHA and district
 dl_file('https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_summary_stats_geography/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
