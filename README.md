@@ -194,10 +194,19 @@ The sources and terms of use for each included dataset are linked below. Supplem
 ### Quebec
 
 * [Données COVID-19 au Québec](https://www.inspq.qc.ca/covid-19/donnees)
+    * COVID-19 time series by region: qc/covid-time-series-by-region/PL_DATE.csv
+        * [Advice for data process by Simon Coulombe](https://gist.github.com/SimonCoulombe/9a329052ac4cefd421febd8650ed84e2)
+    * COVID-19 data (charts - summary, time series, and hospitalization by age): qc/covid-data-charts-summary-time-series-hosp-by-age/manual-data.csv
+    * Summary by region: qc/summary-by-region/regions.csv
+    * Deaths by RSS (health region) and living environment: qc/deaths-by-rss-and-living-environment/tableau-rpa-new.csv (Renamed from tableau-rpa.csv after 2020-09-16)
+    * Cases by RSS (health region) and RLS (local service network): qc/cases-by-rss-and-rls/tableau-rls-new.csv (Renamed from tableau-rls.csv after 2020-09-16)
+    * Comparisons (provinces): qc/comparisons-provinces/comparaisons_prov.csv
+    * Comparisons (countries): qc/comparisons-countries/comparaisons_pays.csv
     * COVID-19 data: qc/covid-data/combine.csv (Archived as of 2020-09-16, no longer part of the nightly update)
     * COVID-19 data (charts): qc/covid-data-charts/combine2.csv (Archived as of 2020-09-16, no longer part of the nightly update)
-    * Deaths by RSS (health region) and living environment: qc/deaths-by-rss-and-living-environment/tableau-rpa.csv (Archived as of 2020-09-16, no longer part of the nightly update)
-    * Cases by RSS (health region) and RLS (local service network): Cases qc/cases-by-rss-and-rls/tableau-rls.csv (Archived as of 2020-09-16, no longer part of the nightly update)
+    * Terms of use: TBD
+* [https://www.inspq.qc.ca/covid-19/donnees/age-sexe](https://www.inspq.qc.ca/covid-19/donnees/age-sexe)
+    * COVID-19 data by age group and sex: qc/covid-data-by-age-and-sex/PL_AGE_SEXE.csv
     * Terms of use: TBD
 * [Situation dans les milieux de vie pour personnes aînées et vulnérables](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
     * Status report on confirmed cases and deaths by RPA (private residences for seniors): qc/status-report-cases-and-deaths-by-rpa/etat_situation_rpa.pdf
