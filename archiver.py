@@ -205,7 +205,8 @@ def dl_file(url, path, file, user=False, ext='.csv', mb_json_to_csv=None):
                         data = pd.json_normalize(json.loads(req.content)['features'])
                         data.columns = data.columns.str.lstrip('attributes.') # strip prefix
                         ## replace timestamps with actual dates
-                        data.Date = pd.to_datetime(data.Date / 1000, unit='s').dt.date
+                        if 'Date' in data.columns:
+                                data.Date = pd.to_datetime(data.Date / 1000, unit='s').dt.date
                         data = data.to_csv(fpath, index=None)
                         ## prepare file for commit
                         prep_file(repo_dir, name=name, full_name=full_name, fpath=fpath, copy=True)
@@ -578,14 +579,27 @@ dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary
 dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-updateTime.csv',
         'can/situational-awareness-dashboard-update-time/',
         'covid19-updateTime')
+
+# MB - COVID-19 data by RHA and district
+dl_file('https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_summary_stats_geography/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
+        'mb/covid-data-by-rha-and-district/',
+        'covid-data-by-rha-and-district',
+        mb_json_to_csv=True)
+
+# MB - Cases by demographics and RHA
+dl_file('https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_by_demographics_rha_all/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&groupByFieldsForStatistics=Age_Group%2CGender&orderByFields=Age_Group%20desc',
+        'mb/cases-demographics-by-rha/',
+        'cases-demographics-by-rha',
+        mb_json_to_csv=True)
+
 # MB - Cases by status and RHA
 dl_file('https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_by_status_daily_rha/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&groupByFieldsForStatistics=Date%2CRHA',
         'mb/cases-by-status-and-rha/',
         'cases-by-status-and-rha',
         mb_json_to_csv=True)
 
-# MB - Manitoba Five-Day Test Positivity Rate
-dl_file('https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_5_day_positivity_rate/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Date%20asc&resultOffset=0&resultRecordCount=32000&resultType=standard&cacheHint=true',
+# MB - Manitoba five-day test positivity rate
+dl_file('https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_5_day_positivity_rate/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Date%20asc',
         'mb/five-day-test-positivity/',
         'five-day-test-positivity',
         mb_json_to_csv=True)
