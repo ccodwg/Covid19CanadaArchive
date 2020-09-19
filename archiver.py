@@ -691,11 +691,45 @@ dl_file('https://www.arcgis.com/sharing/rest/content/items/02c99319ef44488e85cd4
         'on/ottawa-hospitalization/',
         'Hospitalizations_of_Ottawa_residents_with_confirmed_COVID-19')
 
-# QC - Montréal cases and deaths by CIUSSS (integrated health and social services centres)
-dl_file('https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/ciusss.csv',
-        'qc/montreal-cases-and-deaths-by-ciusss/',
-        'ciusss',
-        user=True)
+# QC - COVID-19 time series by region
+dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/PL_DATE.csv',
+        'qc/covid-time-series-by-region/',
+        'PL_DATE')
+
+# QC - COVID-19 data (charts - summary, time series, and hospitalization by age)
+dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/manual-data.csv',
+        'qc/covid-data-charts-summary-time-series-hosp-by-age/',
+        'manual-data')
+
+# QC - Summary by region
+dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/regions.csv',
+        'qc/summary-by-region/',
+        'regions')
+
+# QC - Deaths by RSS (health region) and living environment
+dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/tableau-rpa-new.csv',
+        'qc/deaths-by-rss-and-living-environment/',
+        'tableau-rpa-new')
+
+# QC - Cases by RSS (health region) and RLS (local service network)
+dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/tableau-rls-new.csv',
+        'qc/cases-by-rss-and-rls/',
+        'tableau-rls-new')
+
+# QC - Comparisons (provinces)
+dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/comparaisons_prov.csv',
+        'qc/comparisons-provinces/',
+        'comparaisons_prov')
+
+# QC - Comparisons (countries)
+dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/comparaisons_pays.csv',
+        'qc/comparisons-countries/',
+        'comparaisons_pays')
+
+# QC - COVID-19 data by age group and sex
+dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/PL_AGE_SEXE.csv',
+        'qc/covid-data-by-age-and-sex/',
+        'PL_AGE_SEXE')
 
 # QC - Status report on confirmed cases and deaths by RPA
 dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_rpa.pdf',
@@ -720,6 +754,12 @@ dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/education/publication
         'qc/schools-list-of-schools/',
         'reseauScolaire_listeEcoles',
         ext = '.pdf')
+
+# QC - Montréal cases and deaths by CIUSSS (integrated health and social services centres)
+dl_file('https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/ciusss.csv',
+        'qc/montreal-cases-and-deaths-by-ciusss/',
+        'ciusss',
+        user=True)
 
 # QC - Montréal cases by area
 dl_file('https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/municipal.csv',
