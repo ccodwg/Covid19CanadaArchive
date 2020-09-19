@@ -121,16 +121,20 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Terms of use: [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
 * [Detailed preliminary information on cases of COVID-19: 6 Dimensions (Aggregated data)](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310077401)
     * can/detailed-preliminary-case-info-aggregated-6-dimensions/13100774.csv
-    * Includes supplementary material: Metadata
+    * Includes supplementary material: Footnotes, metadata
     * Terms of use: [Statistics Canada Open Licence](https://www.statcan.gc.ca/eng/reference/licence)
 * [Detailed preliminary information on cases of COVID-19: 4 Dimensions (Aggregated data)](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310077501)
     * can/detailed-preliminary-case-info-aggregated-4-dimensions/13100775.csv
-    * Includes supplementary material: Metadata
+    * Includes supplementary material: Footnotes, metadata
     * Terms of use: [Statistics Canada Open Licence](https://www.statcan.gc.ca/eng/reference/licence)
 * [Detailed preliminary information on confirmed cases of COVID-19 (Revised)](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310078101)
-    * **Currently unable to include due to GitHub's strict 100mb file size limit.** (File exceeds 400mb)
     * can/detailed-preliminary-confirmed-case-info-revised/13100781.csv
-    * Includes supplementary material: Metadata
+    * Variable value definitions are given in footnotes (see supplementary material).
+    * **This file has been processed to avoid the 100mb file limit on GitHub.** (Base file size is > 400mb)
+        * Dataset has been pivoted from long to wide (names from: 'Case information', values from: 'VALUE').
+        * Columns containing no information have been dropped (UOM, UOM_ID, SCALAR_FACTOR, SCALAR_ID, VECTOR, COORDINATE, STATUS, SYMBOL, TERMINATED, DECIMALS).
+        * Example of original data format is preserved (see supplementary material).
+    * Includes supplementary material: Footnotes, example of original data format, metadata
     * Terms of use: [Statistics Canada Open Licence](https://www.statcan.gc.ca/eng/reference/licence)
 
 ### Manitoba
