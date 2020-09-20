@@ -156,7 +156,6 @@ def commit_files(repo, origin, file_list, commit_message, success, failure, t):
                 print(background('Commit failed!', Colors.red))
 
 def dl_file(url, path, file, user=False, ext='.csv', unzip=False, mb_json_to_csv=False):
-def dl_file(url, path, file, user=False, ext='.csv', unzip=False, mb_json_to_csv=False):
         """Download file (generic).
         
         Used to download most file types (when Selenium is not required).
@@ -518,7 +517,7 @@ bc_exposures = [
         ['https://www.fraserhealth.ca/covid19exposure', 'bc/regional-exposure-events-fraser-webpage', 'regional-exposure-events-fraser-screenshot', None],
         ['https://news.interiorhealth.ca/news/public-exposures/', 'bc/regional-exposure-events-interior-webpage', 'regional-exposure-events-interior-screenshot', None], # table only displays 10 results by default
         ['https://www.islandhealth.ca/learn-about-health/covid-19/outbreaks-and-exposures', 'bc/regional-exposure-events-island-webpage', 'regional-exposure-events-island-screenshot', None],
-        ['https://www.northernhealth.ca/health-topics/public-exposures-and-outbreaks#covid-19-public-exposures#covid-19-communityfacility-outbreaks#non-covid-19-communityfacility-outbreaks', 'bc/regional-exposure-events-northern-webpage', 'regional-exposure-events-northern-screenshot', None], # some elements not collapsed by default
+        ['https://www.northernhealth.ca/health-topics/public-exposures-and-outbreaks#covid-19-public-exposures#covid-19-communityfacility-outbreaks#non-covid-19-communityfacility-outbreaks', 'bc/regional-exposure-events-northern-webpage', 'regional-exposure-events-northern-screenshot', None]
         ['http://www.vch.ca/covid-19/public-exposures', 'bc/regional-exposure-events-vancouver-coastal-webpage', 'regional-exposure-events-vancouver-coastal-screenshot', 4000], # set height otherwise truncated, not collapsed by default
         ['https://www.fraserhealth.ca/schoolexposures', 'bc/school-exposures-fraser-webpage', 'school-exposures-fraser-screenshot', None], # not collapsed by default
         ['https://news.interiorhealth.ca/news/school-exposures/', 'bc/school-exposures-interior-webpage', 'school-exposures-interior-screenshot', None],
