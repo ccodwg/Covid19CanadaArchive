@@ -132,7 +132,7 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Variable value definitions are given in footnotes (see supplementary material).
     * **This file has been processed to avoid the 100mb file limit on GitHub.** (Base file size is > 400mb)
         * Dataset has been pivoted from long to wide (names from: 'Case information', values from: 'VALUE').
-        * Columns containing no information have been dropped (UOM, UOM_ID, SCALAR_FACTOR, SCALAR_ID, VECTOR, COORDINATE, STATUS, SYMBOL, TERMINATED, DECIMALS).
+        * Columns containing no information have been dropped (GEO, DGUID, UOM, UOM_ID, SCALAR_FACTOR, SCALAR_ID, VECTOR, COORDINATE, STATUS, SYMBOL, TERMINATED, DECIMALS).
         * Example of original data format is preserved (see supplementary material).
     * Includes supplementary material: Footnotes, example of original data format, metadata
     * Terms of use: [Statistics Canada Open Licence](https://www.statcan.gc.ca/eng/reference/licence)

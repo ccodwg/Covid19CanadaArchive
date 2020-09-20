@@ -156,6 +156,7 @@ def commit_files(repo, origin, file_list, commit_message, success, failure, t):
                 print(background('Commit failed!', Colors.red))
 
 def dl_file(url, path, file, user=False, ext='.csv', unzip=False, mb_json_to_csv=False):
+def dl_file(url, path, file, user=False, ext='.csv', unzip=False, mb_json_to_csv=False):
         """Download file (generic).
         
         Used to download most file types (when Selenium is not required).
@@ -211,16 +212,14 @@ def dl_file(url, path, file, user=False, ext='.csv', unzip=False, mb_json_to_csv
                                 zip_file.extractall(tmpdir.name)
                         fpath = os.path.join(tmpdir.name, file + ext)
                         if file == '13100781':
-                                ## read CSV
-                                data = pd.read_csv(fpath)
-                                ## drop non-informative columns
-                                data = data.drop(columns=['UOM', 'UOM_ID', 'SCALAR_FACTOR', 'SCALAR_ID', 'VECTOR', 'COORDINATE', 'STATUS', 'SYMBOL', 'TERMINATED', 'DECIMALS'])
+                                ## read CSV (informative columns only)
+                                data = pd.read_csv(fpath, usecols=['REF_DATE', 'Case identifier number', 'Case information', 'VALUE'])
                                 ## save original order of column values
                                 col_order = data['Case information'].unique()
                                 ## pivot long to wide
-                                data = data.pivot(index=['REF_DATE', 'GEO', 'DGUID', 'Case identifier number'], columns='Case information', values='VALUE').reset_index()
+                                data = data.pivot(index=['REF_DATE', 'Case identifier number'], columns='Case information', values='VALUE').reset_index()
                                 ## use original column order
-                                data = data[['REF_DATE', 'GEO', 'DGUID', 'Case identifier number'] + col_order.tolist()]
+                                data = data[['REF_DATE', 'Case identifier number'] + col_order.tolist()]
                                 ## write CSV
                                 data.to_csv(fpath, index=None, quoting=csv.QUOTE_NONNUMERIC)
                         ## prepare file for commit
