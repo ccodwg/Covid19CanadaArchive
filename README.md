@@ -90,9 +90,9 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Public exposures Fraser webpage screenshot: bc/regional-exposure-events-fraser-webpage/regional-exposure-events-fraser-screenshot.png
     * Public exposures Interior webpage screenshot: bc/regional-exposure-events-interior-webpage/regional-exposure-events-interior-screenshot.png (warning: results may be truncated due to default table size of 10 rows)
     * Public exposures Island webpage screenshot: bc/regional-exposure-events-island-webpage/regional-exposure-events-island-screenshot.png
-    * Public exposures Northern webpage screenshot: bc/regional-exposure-events-northern-webpage/regional-exposure-events-northern-screenshot.png (warning: some results are not displayed properly)
-    * Public exposures Vancouver Coastal webpage screenshot: bc/regional-exposure-events-vancouver-coastal-webpage/regional-exposure-events-vancouver-coastal-screenshot.png (Warning: results are not displayed properly)
-    * School exposures Fraser webpage screenshot: bc/school-exposures-fraser-webpage/school-exposures-fraser-screenshot.png (warning: results are not displayed properly)
+    * Public exposures Northern webpage screenshot: bc/regional-exposure-events-northern-webpage/regional-exposure-events-northern-screenshot.png
+    * Public exposures Vancouver Coastal webpage screenshot: bc/regional-exposure-events-vancouver-coastal-webpage/regional-exposure-events-vancouver-coastal-screenshot.png (Warning: some early files are .pdf and formatted differently)
+    * School exposures Fraser webpage screenshot: bc/school-exposures-fraser-webpage/school-exposures-fraser-screenshot.png
     * School exposures Interior webpage screenshot: bc/school-exposures-interior-webpage/school-exposures-interior-screenshot.png
     * School exposures Island webpage screenshot: bc/school-exposures-island-webpage/school-exposures-island-screenshot.png
     * School exposures Northern webpage screenshot: bc/school-exposures-northern-webpage/school-exposures-northern-screenshot.png

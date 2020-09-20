@@ -158,7 +158,10 @@ def commit_files(repo, origin, file_list, commit_message, success, failure, t):
 def dl_file(url, path, file, user=False, ext='.csv', unzip=False, mb_json_to_csv=False):
         """Download file (generic).
         
-        Used to download most file types (when Selenium is not required).
+        Used to download most file types (when Selenium is not required). Some files are handled with file-specific code:
+        
+        - unzip=True and file='13100781' has unique code.
+        - Each instance of mb_json_to_csv=True has unique code.
         
         Parameters:
         url (str): URL to download file from.
@@ -166,7 +169,7 @@ def dl_file(url, path, file, user=False, ext='.csv', unzip=False, mb_json_to_csv
         file (str): Output file name (excluding extension). Example: 'covid19'
         user (bool): Should the request impersonate a normal browser? Needed to access some data. Default: False.
         ext (str): Extension of the output file. Defaults to '.csv'.
-        unzip (bool): If True, this file requires unzipping. Default: False. Note that file = '13100781' is handled uniquely due to the extra processing required.
+        unzip (bool): If True, this file requires unzipping. Default: False.
         mb_json_to_csv (bool): If True, this is a Manitoba JSON file that that should be converted to CSV. Default: False.
         
         """
@@ -387,7 +390,10 @@ def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
 def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
         """Take a screenshot of a webpage.
         
-        By default, Selenium attempts to capture the entire page.
+        By default, Selenium attempts to capture the entire page. Some websites are handled with website-specific code:
+        
+        - 'https://www.fraserhealth.ca/schoolexposures'
+        - 'http://www.vch.ca/covid-19/public-exposures'
         
         Parameters:
         
@@ -431,6 +437,20 @@ def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
                         
         ## take screenshot
         fpath = os.path.join(tmpdir.name, file + ext)
+        
+        ## special code
+        if url=='https://www.fraserhealth.ca/schoolexposures':
+                ## expand each school district
+                elements = driver.find_elements_by_class_name('toggle-header')
+                for element in elements:
+                        driver.execute_script("arguments[0].click();", element) 
+                        time.sleep(5)
+        elif url=='http://www.vch.ca/covid-19/public-exposures':
+                ## expand current and archived exposures
+                driver.find_element_by_xpath("//a[@href='#9184']").click()
+                time.sleep(5) # ensure all elements are clicked properly
+                driver.find_element_by_xpath("//a[@href='#5998']").click()
+        
         ## get total width of the page if it is not set by the user
         if width is None:
                 width = driver.execute_script('return document.body.parentNode.scrollWidth')
@@ -517,15 +537,15 @@ bc_exposures = [
         ['https://www.fraserhealth.ca/covid19exposure', 'bc/regional-exposure-events-fraser-webpage', 'regional-exposure-events-fraser-screenshot', None],
         ['https://news.interiorhealth.ca/news/public-exposures/', 'bc/regional-exposure-events-interior-webpage', 'regional-exposure-events-interior-screenshot', None], # table only displays 10 results by default
         ['https://www.islandhealth.ca/learn-about-health/covid-19/outbreaks-and-exposures', 'bc/regional-exposure-events-island-webpage', 'regional-exposure-events-island-screenshot', None],
-        ['https://www.northernhealth.ca/health-topics/public-exposures-and-outbreaks#covid-19-public-exposures#covid-19-communityfacility-outbreaks#non-covid-19-communityfacility-outbreaks', 'bc/regional-exposure-events-northern-webpage', 'regional-exposure-events-northern-screenshot', None]
-        ['http://www.vch.ca/covid-19/public-exposures', 'bc/regional-exposure-events-vancouver-coastal-webpage', 'regional-exposure-events-vancouver-coastal-screenshot', 4000], # set height otherwise truncated, not collapsed by default
-        ['https://www.fraserhealth.ca/schoolexposures', 'bc/school-exposures-fraser-webpage', 'school-exposures-fraser-screenshot', None], # not collapsed by default
+        ['https://www.northernhealth.ca/health-topics/public-exposures-and-outbreaks#covid-19-public-exposures#covid-19-communityfacility-outbreaks#non-covid-19-communityfacility-outbreaks', 'bc/regional-exposure-events-northern-webpage', 'regional-exposure-events-northern-screenshot', None],
+        ['http://www.vch.ca/covid-19/public-exposures', 'bc/regional-exposure-events-vancouver-coastal-webpage', 'regional-exposure-events-vancouver-coastal-screenshot', 10000], # set height otherwise truncated
+        ['https://www.fraserhealth.ca/schoolexposures', 'bc/school-exposures-fraser-webpage', 'school-exposures-fraser-screenshot', None],
         ['https://news.interiorhealth.ca/news/school-exposures/', 'bc/school-exposures-interior-webpage', 'school-exposures-interior-screenshot', None],
         ['https://www.islandhealth.ca/learn-about-health/covid-19/exposures-schools', 'bc/school-exposures-island-webpage', 'school-exposures-island-screenshot', None],
         ['https://www.northernhealth.ca/health-topics/public-exposures-and-outbreaks#covid-19-school-exposures', 'bc/school-exposures-northern-webpage', 'school-exposures-northern-screenshot', None],
         ['http://www.vch.ca/covid-19/school-outbreaks', 'bc/school-exposures-vancouver-coastal-webpage', 'school-exposures-vancouver-coastal-screenshot', 4000] # set height otherwise truncated
 ]
-for i in range(0, 9 + 1):
+for i in range(0, len(bc_exposures)):
         ss_page(bc_exposures[i][0],
                 bc_exposures[i][1],
                 bc_exposures[i][2],
