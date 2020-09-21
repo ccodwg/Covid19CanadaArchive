@@ -933,6 +933,12 @@ ss_page('https://dashboard.saskatchewan.ca/health-wellness/covid-19/tests',
         'tests-screenshot',
         width=1526)
 
+# Other: CAN - Unofficial COVID Alert Dashboard
+dl_file('https://kappel.cs.uwaterloo.ca/uhengart/diagnosis-keys/estimated_infections_per_day.txt',
+        'other/can/unofficial-covid-alert-dashboard/',
+        'estimated_infections_per_day',
+        ext = '.txt')
+
 # Other: QC - Covid Écoles Québec (Excel)
 dl_file('https://drive.google.com/uc?export=download&id=1xOl0uhyx9IuHZfJuRH-OR7BcGFuWYUex',
         'other/qc/covid-ecoles-quebec-school-list/',
