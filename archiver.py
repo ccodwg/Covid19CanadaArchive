@@ -732,6 +732,11 @@ dl_file('https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/re
         'on/schools-active/',
         'schoolsactivecovid')
 
+# ON - Schools: Cases in school board partners
+dl_file('https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/245479eb-db0a-4ec4-97af-459d61da0801/download/schoolpartnersactivecovid.csv',
+        'on/school-board-partners/',
+        'schoolpartnersactivecovid')
+
 # ON - Licensed child care settings: Summary of cases in licensed child care settings
 dl_file('https://data.ontario.ca/dataset/5bf54477-6147-413f-bab0-312f06fcb388/resource/74f9ac9f-7ca8-4860-b2c3-189a2c25e30c/download/lccovidsummary.csv',
         'on/licensed-child-care-settings-summary/',
