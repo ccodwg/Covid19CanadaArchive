@@ -23,6 +23,7 @@ Table of contents:
   * [Quebec](#quebec)
   * [Saskatchewan](#saskatchewan)
   * [Other: Non-governmental sources](#other-non-governmental-sources)
+     * [Canada](#canada-1)
      * [Quebec](#quebec-1)
 * [Acknowledgements](#acknowledgements)
 
@@ -272,6 +273,13 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Terms of use: TBD
 
 ### Other: Non-governmental sources
+
+#### Canada
+
+* [Unofficial COVID Alert Dashboard](https://github.com/uhengart/covid-alert-dashboard)
+    * [other/can/unofficial-covid-alert-dashboard/estimated_infections_per_day.txt](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/other/can/unofficial-covid-alert-dashboard)
+    * Terms of use: TBD
+    
 
 #### Quebec
 
