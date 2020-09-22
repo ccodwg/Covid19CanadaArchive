@@ -1,0 +1,8 @@
+Collected_Date,Report_Date,New_Total_School_Related_Cases,New_School_Related_Student_Cases,New_School_Related_Staff_Cases,New_School_Related_Unspecified_Cases,Current_Schools_w_Cases,Current_Schools_Closed,Current_Total_Number_Schools,Cumulative_School_Related_Cases,Cumulative_School_Related_Student_Cases,Cumulative_School_Related_Staff_Cases,Cumulative_School_Related_Unspecified_Cases
+2020-09-10,2020-09-11,0,0,0,,13,0,4828,13,4,9,
+2020-09-11,2020-09-14,2,1,1,,15,0,4828,15,5,10,
+2020-09-14,2020-09-15,14,4,4,6,27,0,4828,29,9,14,6
+2020-09-15,2020-09-16,12,6,4,2,35,0,4828,41,15,18,8
+2020-09-16,2020-09-17,21,5,4,12,51,1,4828,62,20,22,20
+2020-09-17,2020-09-18,11,5,0,6,60,1,4828,72,25,22,25
+2020-09-18,2020-09-21,18,8,4,6,75,1,4828,90,33,26,31
