@@ -1,6 +1,6 @@
 # Archive of COVID-19 Data from Canadian Government Sources
 
-This repository provides automated, daily backups of COVID-19 data from various Canadian government sources.
+This repository provides automated, daily backups of COVID-19 data from various Canadian government sources. Selected non-governmental sources are also included.
 
 **File name timestamps are given in ET (America/Toronto) in the following format: %Y%-m-%d_%H-%M.** The script is run nightly around 23:00 ET.
 
