@@ -753,6 +753,18 @@ dl_file('https://docs.google.com/spreadsheets/d/1euhrML0rkV_hHF1thiA0G5vSSeZCqxH
         'CityofToronto_COVID-19_Data',
         ext='.xlsx')
 
+# ON - City of Toronto COVID-19 Neighbourhood Data
+dl_file('https://docs.google.com/spreadsheets/d/1jzH64LvFQ-UsDibXO0MOtvjbL2CvnV3N/export?format=xlsx&id=1jzH64LvFQ-UsDibXO0MOtvjbL2CvnV3N',
+        'on/toronto-neighbourhood-data/',
+        'CityofToronto_COVID-19_NeighbourhoodData',
+        ext='.xlsx')
+
+# ON - City of Toronto COVID-19 Monitoring Dashboard
+dl_file('https://docs.google.com/spreadsheets/d/1-7j48S_KQY-I-4Qu3N3lsEOALXON2StG/export?format=xlsx&id=1-7j48S_KQY-I-4Qu3N3lsEOALXON2StG',
+        'on/toronto-monitoring-dashboard/',
+        'CityofToronto_COVID-19_RecoveryData',
+        ext='.xlsx')
+
 # ON - COVID-19 Cases in Toronto
 # run only on Wednesdays
 if t.weekday() == 2:
