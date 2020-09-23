@@ -772,20 +772,35 @@ if t.weekday() == 2:
                 'on/toronto-cases/',
                 'COVID19_cases')
 
-# ON - Ottawa cases and deaths
-dl_file('https://www.arcgis.com/sharing/rest/content/items/cf9abb0165b34220be8f26790576a5e7/data',
-        'on/ottawa-cases-and-deaths/',
-        'COVID-19_Cases_and_Deaths_in_Ottawa_EN')
+# ON - Ottawa Demographics and Source of Infection for Cases, Deaths, and Hospitalizations
+dl_file('https://www.arcgis.com/sharing/rest/content/items/6bfe7832017546e5b30c5cc6a201091b/data',
+        'on/ottawa-cases-deaths-hosp-demographics-source-of-infection/',
+        'COVID-19_Cases_and_Deaths_Ottawa_EN')
 
-# ON - Ottawa outbreaks in healthcare institutions
-dl_file('https://www.arcgis.com/sharing/rest/content/items/77078920fea8499dbb6f54cc69c03a90/data',
-        'on/ottawa-outbreaks-in-healthcare-institutions/',
-        'COVID-19_Outbreaks_in_Ottawa_Healthcare_Institutions_EN')
+# ON - Ottawa Outbreaks in Healthcare Institutions, Childcare, Summer Camps, and Educational Establishments
+dl_file('https://www.arcgis.com/sharing/rest/content/items/5b24f70482fe4cf1824331d89483d3d3/data',
+        'on/ottawa-outbreaks-healthcare-childcare-camps-schools/',
+        'COVID-19_Institutional_Outbreaks')
 
-# ON - Ottawa hospitalization data
-dl_file('https://www.arcgis.com/sharing/rest/content/items/02c99319ef44488e85cd4f96f5061f20/data',
-        'on/ottawa-hospitalization/',
-        'Hospitalizations_of_Ottawa_residents_with_confirmed_COVID-19')
+# ON - Ottawa Community Outbreaks
+dl_file('https://opendata.arcgis.com/datasets/0df365456c254fbc942fe3d85c3dbf83_0.csv',
+        'on/ottawa-community-outbreaks/',
+        'COVID-19_Community_Outbreaks_in_Ottawa')
+
+# ON - Ottawa Weekly Rates
+dl_file('https://www.arcgis.com/sharing/rest/content/items/734a327141b14a55b666953c9141abf3/data',
+        'on/ottawa-weekly-rates/',
+        'COVID-19_Weekly_Cases_and_Rates_by_Age_in_Ottawa_EN')
+
+# ON - Ottawa Estimated Reproduction Number in Ottawa
+dl_file('https://www.arcgis.com/sharing/rest/content/items/d010a848b6e54f4990d60a202f2f2f99/data',
+        'on/ottawa-estimated-rt/',
+        'EN_-_Covid-19_Reproduction_Number,_R(t)')
+
+# ON - Ottawa Testing - Ottawa Residents
+dl_file('https://www.arcgis.com/sharing/rest/content/items/26c902bf1da44d3d90b099392b544b81/data',
+        'on/ottawa-residents-tested/',
+        'COVID-19_Ottawa_Residents_Tested_EN')
 
 # QC - COVID-19 time series by region
 dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/PL_DATE.csv',
