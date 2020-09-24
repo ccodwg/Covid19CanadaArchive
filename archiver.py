@@ -478,7 +478,9 @@ def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
                 else:
                         ## prepare file for commit
                         prep_file(repo_dir, name=name, full_name=full_name, fpath=fpath, copy=True)                
-        except:
+        except Exception as e:
+                ## print exception
+                print(e)
                 ## print failure
                 print(background('Error downloading: ' + full_name, Colors.red))
                 failure+=1
