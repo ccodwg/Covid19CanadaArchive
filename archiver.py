@@ -972,6 +972,12 @@ dl_file('https://drive.google.com/uc?export=download&id=1xOl0uhyx9IuHZfJuRH-OR7B
         'COVIDECOLESQUEBEC',
         ext = '.xlsx')
 
+# Other: CAN - Canada COVID-19 School Case Tracker (KML)
+dl_file('https://www.google.com/maps/d/u/0/kml?mid=1blA_H3Hv5S9Ii_vyudgDk-j6SfJQil9S&forcekml=1',
+        'other/can/canada-covid-19-school-case-tracker/',
+        'Canada_COVID-19_School_Report_Tracker',
+        ext = '.kml')
+
 # Summarize successes and failures
 total_files = str(success + failure)
 print(background('Successful downloads: ' + str(success) + '/' + total_files, Colors.blue))
