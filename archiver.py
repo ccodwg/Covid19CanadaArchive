@@ -720,6 +720,7 @@ dl_file('https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/re
 ss_page('https://www.ontario.ca/page/covid-19-cases-schools-and-child-care-centres',
         'on/cases-schools-and-child-care-centres-webpage/',
         'cases-schools-and-child-care-centres-screenshot',
+        wait = 25, # very long page
         width=1920)
 
 # ON - Schools: Summary of cases in schools
