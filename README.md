@@ -93,7 +93,7 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Public exposures Interior webpage screenshot: [bc/regional-exposure-events-interior-webpage/regional-exposure-events-interior-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/regional-exposure-events-interior-webpage) (warning: results may be truncated due to default table size of 10 rows)
     * Public exposures Island webpage screenshot: [bc/regional-exposure-events-island-webpage/regional-exposure-events-island-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/regional-exposure-events-island-webpage)
     * Public exposures Northern webpage screenshot: [bc/regional-exposure-events-northern-webpage/regional-exposure-events-northern-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/regional-exposure-events-northern-webpage)
-    * Public exposures Vancouver Coastal webpage screenshot: [bc/regional-exposure-events-vancouver-coastal-webpage/regional-exposure-events-vancouver-coastal-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/regional-exposure-events-vancouver-coastal-webpage) (Warning: some early files are .pdf and formatted differently)
+    * Public exposures Vancouver Coastal webpage screenshot: [bc/regional-exposure-events-vancouver-coastal-webpage/regional-exposure-events-vancouver-coastal-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/regional-exposure-events-vancouver-coastal-webpage) (warning: some early files are .pdf and formatted differently)
     * School exposures Fraser webpage screenshot: [bc/school-exposures-fraser-webpage/school-exposures-fraser-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/school-exposures-fraser-webpage)
     * School exposures Interior webpage screenshot: [bc/school-exposures-interior-webpage/school-exposures-interior-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/school-exposures-interior-webpage)
     * School exposures Island webpage screenshot: [bc/school-exposures-island-webpage/school-exposures-island-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/school-exposures-island-webpage)
@@ -292,10 +292,12 @@ The sources and terms of use for each included dataset are linked below. Supplem
 
 #### Canada
 
+* [Canada COVID-19 School Case Tracker](https://masks4canada.org/canada-covid-19-school-case-tracker/)
+    * [other/can/canada-covid-19-school-case-tracker/Canada_COVID-19_School_Report_Tracker.kml](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/other/can/canada-covid-19-school-case-tracker) (original file name is Canada COVID-19 School Report Tracker.kml, renamed to avoid spaces in file name; warning: some early files are in .kmz format, which is compressed but handled almost identically to .kml)
+    * Terms of use: TBD
 * [Unofficial COVID Alert Dashboard](https://github.com/uhengart/covid-alert-dashboard)
     * [other/can/unofficial-covid-alert-dashboard/estimated_infections_per_day.txt](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/other/can/unofficial-covid-alert-dashboard)
-    * Terms of use: TBD
-    
+    * Terms of use: TBD   
 
 #### Quebec
 
@@ -314,3 +316,4 @@ Many people are to thank for contributing archived data and code to this reposit
 * [Shelby L. Sturrock](https://twitter.com/shelbysturrock)
 * [Safa Ahmad](https://twitter.com/birdseye47)
 * [Jacques Marcoux](https://twitter.com/jacquesmarcoux)
+* [Shraddha Pai](https://twitter.com/spaiglass)
