@@ -676,12 +676,12 @@ dl_file('https://novascotia.ca/coronavirus/data/ns-covid19-data.csv',
         'ns/case-data/',
         'ns-covid19-data')
 
-# ON - How Ontario is responding to COVID-19 (webpage screenshot)
-ss_page('https://www.ontario.ca/page/how-ontario-is-responding-covid-19',
-        'on/ontario-webpage/',
-        'ontario-screenshot',
-        wait=25, # very long page
-        width=1920)
+## ON - How Ontario is responding to COVID-19 (webpage screenshot)
+#ss_page('https://www.ontario.ca/page/how-ontario-is-responding-covid-19',
+        #'on/ontario-webpage/',
+        #'ontario-screenshot',
+        #wait=25, # very long page
+        #width=1920)
 
 # ON - Confirmed positive cases of COVID19 in Ontario
 dl_file('https://data.ontario.ca/dataset/f4112442-bdc8-45d2-be3c-12efae72fb27/resource/455fd63b-603d-4608-8216-7d8647f43350/download/conposcovidloc.csv',
@@ -718,12 +718,12 @@ dl_file('https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/re
         'on/long-term-care-home-resolved/',
         'resolvedltc')
 
-# ON - Cases in schools and childcare centres (webpage)
-ss_page('https://www.ontario.ca/page/covid-19-cases-schools-and-child-care-centres',
-        'on/cases-schools-and-child-care-centres-webpage/',
-        'cases-schools-and-child-care-centres-screenshot',
-        wait = 25, # very long page
-        width=1920)
+## ON - Cases in schools and childcare centres (webpage)
+#ss_page('https://www.ontario.ca/page/covid-19-cases-schools-and-child-care-centres',
+        #'on/cases-schools-and-child-care-centres-webpage/',
+        #'cases-schools-and-child-care-centres-screenshot',
+        #wait = 25, # very long page
+        #width=1920)
 
 # ON - Schools: Summary of cases in schools
 dl_file('https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/7fbdbb48-d074-45d9-93cb-f7de58950418/download/schoolcovidsummary.csv',
