@@ -775,6 +775,11 @@ if t.weekday() == 2:
                 'on/toronto-cases/',
                 'COVID19_cases')
 
+# ON - University of Toronto COVID-19 tracking
+ss_page('https://www.utoronto.ca/utogether2020/covid19-dashboard',
+        'on/u-of-t-covid-tracking-webpage/',
+        'u-of-t-covid-tracking-screenshot')
+
 # ON - Ottawa Demographics and Source of Infection for Cases, Deaths, and Hospitalizations
 dl_file('https://www.arcgis.com/sharing/rest/content/items/6bfe7832017546e5b30c5cc6a201091b/data',
         'on/ottawa-cases-deaths-hosp-demographics-source-of-infection/',
