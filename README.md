@@ -217,6 +217,10 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * [on/toronto-cases/COVID19_cases.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/on/toronto-cases)
     * Data are extracted at 3 PM on the Monday of a given week and posted by Wednesday [dataset is updated only on Wednesdays]
     * Terms of use: Assumed to be [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
+* [University of Toronto COVID-19 tracking](https://www.utoronto.ca/utogether2020/covid19-dashboard)
+    * [on/u-of-t-covid-tracking-webpage/u-of-t-covid-tracking-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/on/u-of-t-covid-tracking-webpage)
+    * Data are reported every Monday with cumulative cases through the previous Friday [screenshots will be take every day in case the update frequency increases]
+    * Terms of use: TBD
 * [Daily COVID-19 Dashboard (Ottawa)](https://www.ottawapublichealth.ca/en/reports-research-and-statistics/daily-covid19-dashboard.aspx)
     * [Demographics and Source of Infection for Cases, Deaths, and Hospitalizations](https://www.arcgis.com/home/item.html?id=6bfe7832017546e5b30c5cc6a201091b): [on/ottawa-cases-deaths-hosp-demographics-source-of-infection/COVID-19_Cases_and_Deaths_Ottawa_EN.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/on/ottawa-cases-deaths-hosp-demographics-source-of-infection)
     * [Outbreaks in Healthcare Institutions, Childcare, Summer Camps, and Educational Establishments](https://www.arcgis.com/home/item.html?id=5b24f70482fe4cf1824331d89483d3d3): [on/ottawa-outbreaks-healthcare-childcare-camps-schools/COVID-19_Institutional_Outbreaks.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/on/ottawa-outbreaks-healthcare-childcare-camps-schools)
