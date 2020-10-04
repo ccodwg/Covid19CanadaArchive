@@ -15,12 +15,17 @@ Table of contents:
 * [Running archiver.py](#running-archiverpy)
 * [Data sources/terms of use/supplementary material](#data-sourcesterms-of-usesupplementary-material)
   * [Alberta](#alberta)
+     * [Edmonton](#edmonton)
   * [British Columbia](#british-columbia)
   * [Canada](#canada)
   * [Manitoba](#manitoba)
+     * [Winnipeg](#winnipeg)
   * [Nova Scotia](#nova-scotia)
   * [Ontario](#ontario)
+     * [Toronto](#toronto)
+     * [Ottawa](#ottawa)
   * [Quebec](#quebec)
+     * [Montreal](#montreal)
   * [Saskatchewan](#saskatchewan)
   * [Other: Non-governmental sources](#other-non-governmental-sources)
      * [Canada](#canada-1)
@@ -64,6 +69,9 @@ The sources and terms of use for each included dataset are linked below. Supplem
 * [COVID-19 school status map](https://www.alberta.ca/schools/covid-19-school-status-map.htm)
     * [ab/school-status-by-region/covid19dataexport-schools.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/ab/school-status-by-region)
     * Terms of use: Assumed to be [Open Government Licence - Alberta](https://open.alberta.ca/licence)
+
+#### Edmonton
+
 * [COVID-19 in Alberta: Current cases by local geographic area (Edmonton)](https://data.edmonton.ca/Community-Services/COVID-19-in-Alberta-Current-cases-by-local-geograp/ix8f-s9xp)
     * [ab/edmonton-cases-by-area/COVID-19_in_Alberta__Current_cases_by_local_geographic_area.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/ab/edmonton-cases-by-area)
     * Terms of use: Assumed to be [City of Edmonton Open Data Terms of Use](https://data.edmonton.ca/stories/s/City-of-Edmonton-Open-Data-Terms-of-Use/msh8-if28/)
@@ -148,6 +156,9 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Manitoba five-day test positivity rate: [mb/five-day-test-positivity/five-day-test-positivity.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/mb/five-day-test-positivity)
     * Terms of use: TBD
     * Data have been converted from JSON queries to CSV
+
+#### Winnipeg
+
 * [COVID-19 By-law Enforcement (Winnipeg)](https://data.winnipeg.ca/Neighbourhood-Liveability-Property-Standards-Licen/COVID-19-By-law-Enforcement/ndr6-96vi)
     * [mb/winnipeg-by-law-enforcement/COVID-19_By-law_Enforcement.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/mb/winnipeg-by-law-enforcement)
     * Terms of use: [Open Government Licence - Winnipeg](https://data.winnipeg.ca/open-data-licence)
@@ -201,6 +212,9 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Summary of cases in licensed child care settings: [on/licensed-child-care-settings-summary/lccovidsummary.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/on/licensed-child-care-settings-summary)
     * Licensed child care centres and agencies with active COVID-19 cases: [on/licensed-child-care-settings-active/lccactivecovid.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/on/licensed-child-care-settings-active)
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
+
+#### Toronto
+
 * [City of Toronto COVID-19 Summary](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-status-of-cases-in-toronto/)
     * [on/toronto-covid-summary/CityofToronto_COVID-19_Data.xlsx](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/on/toronto-covid-summary)
     * Include supplementary material: Technical notes
@@ -221,6 +235,9 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * [on/u-of-t-covid-tracking-webpage/u-of-t-covid-tracking-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/on/u-of-t-covid-tracking-webpage)
     * Data are reported every Monday with cumulative cases through the previous Friday [screenshots will be take every day in case the update frequency increases]
     * Terms of use: TBD
+
+#### Ottawa
+
 * [Daily COVID-19 Dashboard (Ottawa)](https://www.ottawapublichealth.ca/en/reports-research-and-statistics/daily-covid19-dashboard.aspx)
     * [Demographics and Source of Infection for Cases, Deaths, and Hospitalizations](https://www.arcgis.com/home/item.html?id=6bfe7832017546e5b30c5cc6a201091b): [on/ottawa-cases-deaths-hosp-demographics-source-of-infection/COVID-19_Cases_and_Deaths_Ottawa_EN.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/on/ottawa-cases-deaths-hosp-demographics-source-of-infection)
     * [Outbreaks in Healthcare Institutions, Childcare, Summer Camps, and Educational Establishments](https://www.arcgis.com/home/item.html?id=5b24f70482fe4cf1824331d89483d3d3): [on/ottawa-outbreaks-healthcare-childcare-camps-schools/COVID-19_Institutional_Outbreaks.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/on/ottawa-outbreaks-healthcare-childcare-camps-schools)
@@ -272,6 +289,9 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Formerly [Situation dans les établissements scolaires relative à la COVID-19](https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_ecole.pdf): [qc/schools-list-of-schools/etat_situation_ecole_2020-09-04_2020-09-06/etat_situation_ecole.pdf](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/schools-list-of-schools/etat_situation_ecole_2020-09-04_2020-09-06)
     * Formerly [Liste des écoles ayant au moins un cas rapporté de la COVID-19 depuis le 1er septembre 2020](https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/liste-ecole-cas-rapportes.pdf): [qc/schools-list-of-schools/liste-ecole-cas-rapportes_2020-09-08_2020-09-09/liste-ecole-cas-rapportes.pdf](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/schools-list-of-schools/liste-ecole-cas-rapportes_2020-09-08_2020-09-09)
     * Terms of use: TBD
+
+#### Montreal
+
 * [Situation du coronavirus (COVID-19) à Montréal](https://santemontreal.qc.ca/population/coronavirus-covid-19/situation-du-coronavirus-covid-19-a-montreal/)
     * **Note that these files are actually semicolon-separated since they use a comma as the decimal marker (rather than a period) and are encoded as ISO 8859-15 (rather than UTF-8)**
     * Montréal cases and deaths by CIUSSS (integrated health and social services centres): [qc/montreal-cases-and-deaths-by-ciusss/ciusss.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/montreal-cases-and-deaths-by-ciusss)
