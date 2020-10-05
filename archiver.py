@@ -750,6 +750,12 @@ dl_file('https://data.ontario.ca/dataset/5bf54477-6147-413f-bab0-312f06fcb388/re
         'on/licensed-child-care-settings-active/',
         'lccactivecovid')
 
+# ON - City of Toronto Daily Status of COVID-19 Cases
+dl_file('https://docs.google.com/spreadsheets/d/11KF1DuN5tntugNc10ogQDzFnW05ruzLH/export?format=xlsx&id=11KF1DuN5tntugNc10ogQDzFnW05ruzLH',
+        'on/toronto-daily-status/',
+        'CityofToronto_COVID-19_Daily_Public_Reporting',
+        ext='.xlsx')
+
 # ON - City of Toronto COVID-19 Summary
 dl_file('https://docs.google.com/spreadsheets/d/1euhrML0rkV_hHF1thiA0G5vSSeZCqxHY/export?format=xlsx&id=1euhrML0rkV_hHF1thiA0G5vSSeZCqxHY',
         'on/toronto-covid-summary/',
