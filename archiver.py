@@ -394,6 +394,7 @@ def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
         
         - 'https://www.fraserhealth.ca/schoolexposures'
         - 'http://www.vch.ca/covid-19/public-exposures'
+        - 'http://www.vch.ca/covid-19/school-outbreaks'
         
         Parameters:
         
@@ -450,6 +451,10 @@ def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
                 driver.find_element_by_xpath("//a[@href='#9184']").click()
                 time.sleep(5) # ensure all elements are clicked properly
                 driver.find_element_by_xpath("//a[@href='#5998']").click()
+        elif url=='http://www.vch.ca/covid-19/school-outbreaks':
+                ## expand current school exposures
+                driver.find_element_by_xpath("//a[@href='#809']").click()
+                time.sleep(5)
         
         ## get total width of the page if it is not set by the user
         if width is None:
@@ -545,7 +550,7 @@ bc_exposures = [
         ['https://news.interiorhealth.ca/news/school-exposures/', 'bc/school-exposures-interior-webpage', 'school-exposures-interior-screenshot', None],
         ['https://www.islandhealth.ca/learn-about-health/covid-19/exposures-schools', 'bc/school-exposures-island-webpage', 'school-exposures-island-screenshot', None],
         ['https://www.northernhealth.ca/health-topics/public-exposures-and-outbreaks#covid-19-school-exposures', 'bc/school-exposures-northern-webpage', 'school-exposures-northern-screenshot', None],
-        ['http://www.vch.ca/covid-19/school-outbreaks', 'bc/school-exposures-vancouver-coastal-webpage', 'school-exposures-vancouver-coastal-screenshot', 4000] # set height otherwise truncated
+        ['http://www.vch.ca/covid-19/school-outbreaks', 'bc/school-exposures-vancouver-coastal-webpage', 'school-exposures-vancouver-coastal-screenshot', 8000] # set height otherwise truncated
 ]
 for i in range(0, len(bc_exposures)):
         ss_page(bc_exposures[i][0],

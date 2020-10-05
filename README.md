@@ -107,6 +107,7 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * School exposures Island webpage screenshot: [bc/school-exposures-island-webpage/school-exposures-island-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/school-exposures-island-webpage)
     * School exposures Northern webpage screenshot: [bc/school-exposures-northern-webpage/school-exposures-northern-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/school-exposures-northern-webpage)
     * School exposures Vancouver Coastal webpage screenshot: [bc/school-exposures-vancouver-coastal-webpage/school-exposures-vancouver-coastal-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/school-exposures-vancouver-coastal-webpage)
+    * Vancouver Coastal reported its first school outbreak on 2020-09-22. However, due to a change in the page format, the first day these data were captured in the dataset was 2020-10-05. Screenshots prior to this date ommit the list of schools. However, it is unlikely that any schools were removed from the list prior to it first being captured on 2020-10-05.
     * Terms of use: TBD
 
 ### Canada
