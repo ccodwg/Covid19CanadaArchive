@@ -215,6 +215,10 @@ The sources and terms of use for each included dataset are linked below. Supplem
 
 #### Toronto
 
+* [City of Toronto Daily Status of COVID-19 Cases](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-status-of-cases-in-toronto/)
+    * [on/toronto-daily-status/CityofToronto_COVID-19_Daily_Public_Reporting.xlsx](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/on/toronto-daily-status)
+    * Include supplementary material: Technical notes
+    * Terms of use: Assumed to be [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
 * [City of Toronto COVID-19 Summary](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-status-of-cases-in-toronto/)
     * [on/toronto-covid-summary/CityofToronto_COVID-19_Data.xlsx](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/on/toronto-covid-summary)
     * Include supplementary material: Technical notes
