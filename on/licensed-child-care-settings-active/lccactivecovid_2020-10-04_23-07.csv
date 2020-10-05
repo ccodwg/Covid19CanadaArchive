@@ -1,0 +1,619 @@
+collected_date,reported_date,lcc_name,municipality,confirmed_child_cases,confirmed_staff_provider_cases,confirmed_unspecified_cases,total_confirmed_cases
+2020-09-10,2020-09-11,Agincourt Temple Day Care (Governing Council of the Salvation Army),Toronto,0,1,,1
+2020-09-10,2020-09-11,Andrew Fleck Home Child Care (two locations),Ottawa,2,1,,7
+2020-09-10,2020-09-11,Beacon Learning Centre,Ottawa,0,1,,1
+2020-09-10,2020-09-11,Centre de l’enfant Aux 4 vents,Ottawa,0,1,,1
+2020-09-10,2020-09-11,Centre des Petits d’Ottawa (2005) Inc.,Ottawa,0,1,,1
+2020-09-10,2020-09-11,Centre éducatif Coeur des Jeunes Roger-Saint-Denis,Kanata,0,1,,1
+2020-09-10,2020-09-11,Centrepointe Home Care Agency,Nepean,5,0,,5
+2020-09-10,2020-09-11,Children’s Village of Ottawa-Carleton Home Child Care Program (two locations),Ottawa,0,0,,2
+2020-09-10,2020-09-11,Esther By Child Care Centre,Ottawa,0,0,,1
+2020-09-10,2020-09-11,Imaginarium For Kids,Richmond Hill,0,0,,1
+2020-09-10,2020-09-11,Kids Zone Childcare Centre,Mississauga,1,1,,2
+2020-09-10,2020-09-11,K-W YMCA Child Care - Edna Staebler,Waterloo,0,0,,1
+2020-09-10,2020-09-11,Le Ballon Rouge Brantford,Brantford,0,1,,1
+2020-09-10,2020-09-11,Matthew-John Early Learning Centre,Toronto,0,0,,1
+2020-09-10,2020-09-11,McKinnon Park Child Care Centre,Caledonia,1,0,,1
+2020-09-10,2020-09-11,Northwest Childhood Learning Centre Inc.,Toronto,0,0,,1
+2020-09-10,2020-09-11,PLP Early Learning Centre at St. Mark (op: Park Lawn Preschool Inc.),Toronto,0,1,,1
+2020-09-10,2020-09-11,Rexdale Home Child Care Agency (PHDC) (3 locations),Toronto,1,3,,7
+2020-09-10,2020-09-11,Sunnyside - Keele,Toronto,1,2,,4
+2020-09-10,2020-09-11,The Alderbuds Child Care Centre of Etobicoke,Toronto,1,0,,1
+2020-09-10,2020-09-11,Trillium School Age Program,Orleans,1,0,,1
+2020-09-10,2020-09-11,Waterdown District School Age Program – Guy Brown Location,Waterdown,0,1,,1
+2020-09-11,2020-09-14,Agincourt Temple Day Care (Governing Council of the Salvation Army),Toronto,0,1,,1
+2020-09-11,2020-09-14,Andrew Fleck Home Child Care (two locations),Ottawa,2,1,,7
+2020-09-11,2020-09-14,Beacon Learning Centre,Ottawa,0,1,,1
+2020-09-11,2020-09-14,Centre de l’enfant Aux 4 vents,Ottawa,0,1,,1
+2020-09-11,2020-09-14,Centre des Petits d’Ottawa (2005) Inc.,Ottawa,0,1,,1
+2020-09-11,2020-09-14,Centre éducatif Coeur des Jeunes Roger-Saint-Denis,Kanata,0,1,,1
+2020-09-11,2020-09-14,Centrepointe Home Care Agency,Nepean,5,0,,5
+2020-09-11,2020-09-14,Children’s Village of Ottawa-Carleton Home Child Care Program (two locations),Ottawa,0,0,,2
+2020-09-11,2020-09-14,Cumberland Hub Day Care,Orléans,1,0,,1
+2020-09-11,2020-09-14,Esther By Child Care Centre,Ottawa,0,0,,1
+2020-09-11,2020-09-14,Imaginarium For Kids,Richmond Hill,0,0,,1
+2020-09-11,2020-09-14,Kids Zone Childcare Centre,Mississauga,1,1,,2
+2020-09-11,2020-09-14,K-W YMCA Child Care - Edna Staebler,Waterloo,0,0,,1
+2020-09-11,2020-09-14,Le Ballon Rouge Brantford,Brantford,0,1,,1
+2020-09-11,2020-09-14,Matthew-John Early Learning Centre,Toronto,0,0,,1
+2020-09-11,2020-09-14,McKinnon Park Child Care Centre,Caledonia,1,0,,1
+2020-09-11,2020-09-14,Northwest Childhood Learning Centre Inc.,Toronto,0,0,,1
+2020-09-11,2020-09-14,PLP Early Learning Centre at St. Mark (op: Park Lawn Preschool Inc.),Toronto,0,1,,1
+2020-09-11,2020-09-14,Rexdale Home Child Care Agency (PHDC) (three locations),Toronto,1,3,,7
+2020-09-11,2020-09-14,St. Veronica Children's Centre,Woodbridge,0,0,,1
+2020-09-11,2020-09-14,Sunnyside - Keele,Toronto,1,2,,4
+2020-09-11,2020-09-14,The Alderbuds Child Care Centre of Etobicoke,Toronto,1,0,,1
+2020-09-11,2020-09-14,Trillium School Age Program,Orleans,1,0,,1
+2020-09-11,2020-09-14,Waterdown District School Age Program – Guy Brown Location,Waterdown,0,1,,1
+2020-09-14,2020-09-15,Agincourt Temple Day Care (Governing Council of the Salvation Army),Toronto,0,1,0,1
+2020-09-14,2020-09-15,Andrew Fleck Home Child Care (two locations),Ottawa,2,1,0,7
+2020-09-14,2020-09-15,Centre des Petits d’Ottawa (2005) Inc.,Ottawa,0,1,0,1
+2020-09-14,2020-09-15,Centre éducatif Coeur des Jeunes Roger-Saint-Denis,Kanata,0,1,0,1
+2020-09-14,2020-09-15,Centrepointe Home Care Agency (one location),Nepean,5,0,0,5
+2020-09-14,2020-09-15,Children’s Village of Ottawa-Carleton Home Child Care Program (two locations),Ottawa,0,0,0,2
+2020-09-14,2020-09-15,Cumberland Hub Day Care,Orléans,1,0,0,1
+2020-09-14,2020-09-15,Fenside Drive Children's Centre Inc.,Toronto,1,0,0,1
+2020-09-14,2020-09-15,Global Home Child Care (one location),Ottawa,0,0,0,1
+2020-09-14,2020-09-15,Kids Zone Childcare Centre,Mississauga,1,1,0,2
+2020-09-14,2020-09-15,Le Ballon Rouge Brantford,Brantford,0,1,0,1
+2020-09-14,2020-09-15,Our Lady of Fatima School Age,Woodbridge,0,1,0,1
+2020-09-14,2020-09-15,PLP Early Learning Centre at St. Mark (op: Park Lawn Preschool Inc.),Toronto,0,1,0,1
+2020-09-14,2020-09-15,Rexdale Home Child Care Agency (PHDC) (three locations),Toronto,2,3,0,8
+2020-09-14,2020-09-15,Sunnyside - Keele,Toronto,1,2,0,3
+2020-09-14,2020-09-15,The Alderbuds Child Care Centre of Etobicoke,Toronto,1,0,0,1
+2020-09-14,2020-09-15,Toronto Home Child Care Agency (#0000415) (City of Toronto) (one location),Toronto,0,0,0,1
+2020-09-14,2020-09-15,Trillium School Age Program,Orleans,1,0,0,1
+2020-09-14,2020-09-15,Woodgreen Community Services (Enderby Child Care),Toronto,1,0,0,1
+2020-09-15,2020-09-16,Agincourt Temple Day Care (Governing Council of the Salvation Army),Toronto,0,1,0,1
+2020-09-15,2020-09-16,Andrew Fleck Home Child Care (two locations),Ottawa,2,1,0,7
+2020-09-15,2020-09-16,Centre des Petits d’Ottawa (2005) Inc.,Ottawa,0,1,0,1
+2020-09-15,2020-09-16,Centre éducatif Coeur des Jeunes Roger-Saint-Denis,Kanata,0,1,0,1
+2020-09-15,2020-09-16,Children’s Village of Ottawa-Carleton Home Child Care Program (two locations),Ottawa,0,0,0,2
+2020-09-15,2020-09-16,Cumberland Hub Day Care,Orléans,1,0,0,1
+2020-09-15,2020-09-16,Fenside Drive Children's Centre Inc.,Toronto,0,1,0,1
+2020-09-15,2020-09-16,Global Home Child Care (one location),Ottawa,0,0,0,1
+2020-09-15,2020-09-16,Kids Zone Childcare Centre,Mississauga,1,1,0,2
+2020-09-15,2020-09-16,"La Coccinelle, Arc-en-Ciel",Cumberland,0,1,0,1
+2020-09-15,2020-09-16,Le Ballon Rouge Brantford,Brantford,0,1,0,1
+2020-09-15,2020-09-16,Macaulay Child Development Centre (The) (PHDC) (one location),Toronto,0,0,0,1
+2020-09-15,2020-09-16,MIFO école St. Joseph d'Orléans,Orleans,0,1,0,1
+2020-09-15,2020-09-16,Network Child Care Services - PHDC (one location),Toronto,0,0,0,1
+2020-09-15,2020-09-16,Our Lady of Fatima School Age,Woodbridge,0,1,0,1
+2020-09-15,2020-09-16,Rexdale Home Child Care Agency (PHDC) (three locations),Toronto,2,3,0,8
+2020-09-15,2020-09-16,Sunnyside - Keele,Toronto,1,2,0,3
+2020-09-15,2020-09-16,The Alderbuds Child Care Centre of Etobicoke,Toronto,1,0,0,1
+2020-09-15,2020-09-16,Toronto Home Child Care Agency (#0000415) (City of Toronto) (one location),Toronto,0,0,0,1
+2020-09-15,2020-09-16,Trillium School Age Program,Orleans,1,0,0,1
+2020-09-15,2020-09-16,Woodgreen Community Services (Enderby Child Care),Toronto,1,0,0,1
+2020-09-16,2020-09-17,Agincourt Temple Day Care (Governing Council of the Salvation Army),Toronto,0,1,0,1
+2020-09-16,2020-09-17,Andrew Fleck Home Child Care (one location),Ottawa,0,1,0,1
+2020-09-16,2020-09-17,Centre des Petits d'Ottawa (2005) Inc.,Ottawa,0,1,0,1
+2020-09-16,2020-09-17,City View Centre for Child & Family Services (Group Care) (one location),Ottawa,0,1,0,1
+2020-09-16,2020-09-17,Cumberland Hub Day Care,Orléans,1,0,0,1
+2020-09-16,2020-09-17,Fenside Drive Children's Centre Inc.,Toronto,0,1,0,1
+2020-09-16,2020-09-17,Kids Zone Childcare Centre,Mississauga,1,1,0,2
+2020-09-16,2020-09-17,"La Coccinelle, Arc-en-Ciel",Cumberland,0,1,0,1
+2020-09-16,2020-09-17,MIFO école St. Joseph d'Orléans,Orléans,0,1,0,1
+2020-09-16,2020-09-17,Nottingham YMCA Schoolage,Ajax,1,0,0,1
+2020-09-16,2020-09-17,Our Lady of Fatima School Age,Woodbridge,0,1,0,1
+2020-09-16,2020-09-17,Rexdale Home Child Care Agency (PHDC) (three locations),Toronto,2,3,0,5
+2020-09-16,2020-09-17,The Alderbuds Child Care Centre of Etobicoke,Toronto,1,0,0,1
+2020-09-16,2020-09-17,Trillium School Age Program,Orleans,1,0,0,1
+2020-09-16,2020-09-17,Woodgreen Community Services (Enderby Child Care),Toronto,1,0,0,1
+2020-09-17,2020-09-18,Agincourt Temple Day Care (Governing Council of the Salvation Army),Toronto,0,1,0,1
+2020-09-17,2020-09-18,Andrew Fleck Home Child Care,Ottawa,0,1,0,1
+2020-09-17,2020-09-18,Brian W. Fleming Early Learning and Child Care Centre ,Mississauga,0,1,0,1
+2020-09-17,2020-09-18,Centre des Petits d'Ottawa (2005) Inc.,Ottawa,0,1,0,1
+2020-09-17,2020-09-18,City View Centre for Child & Family Services (Group Care),Ottawa,0,1,0,1
+2020-09-17,2020-09-18,Cumberland Hub Day Care,Orléans,1,0,0,1
+2020-09-17,2020-09-18,Family Day Care Services - St. Valentine Before & After School Program,Mississauga,0,1,0,1
+2020-09-17,2020-09-18,Fenside Drive Children's Centre Inc.,Toronto,0,1,0,1
+2020-09-17,2020-09-18,Garderie Tunney's Day Care,Ottawa,0,1,0,1
+2020-09-17,2020-09-18,Kids Zone Childcare Centre,Mississauga,1,1,0,2
+2020-09-17,2020-09-18,"La Coccinelle, Arc-en-Ciel",Cumberland,0,1,0,1
+2020-09-17,2020-09-18,MIFO école St. Joseph d'Orléans,Orléans,0,1,0,1
+2020-09-17,2020-09-18,Nottingham YMCA Schoolage,Ajax,1,0,0,1
+2020-09-17,2020-09-18,Our Lady of Fatima School Age,Woodbridge,0,1,0,1
+2020-09-17,2020-09-18,PLASP - Dixie Public School,Mississauga,0,1,0,1
+2020-09-17,2020-09-18,Rexdale Home Child Care Agency (PHDC),Toronto,2,3,0,5
+2020-09-17,2020-09-18,The Alderbuds Child Care Centre of Etobicoke,Toronto,1,0,0,1
+2020-09-17,2020-09-18,Trillium School Age Program,Orleans,1,0,0,1
+2020-09-17,2020-09-18,Wee Watch Private Home Daycare - Kanata / Hunt Club,Nepean,1,0,0,1
+2020-09-17,2020-09-18,Woodgreen Community Services (Enderby Child Care),Toronto,1,0,0,1
+2020-09-18,2020-09-21,Agincourt Temple Day Care (Governing Council of the Salvation Army),Toronto,0,1,0,1
+2020-09-18,2020-09-21,Andrew Fleck Home Child Care (one location),Ottawa,0,1,0,1
+2020-09-18,2020-09-21,Brian W. Fleming Early Learning and Child Care Centre ,Mississauga,0,1,0,1
+2020-09-18,2020-09-21,Centre des Petits d'Ottawa (2005) Inc.,Ottawa,0,1,0,1
+2020-09-18,2020-09-21,City View Centre for Child & Family Services (Group Care) (one location),Ottawa,0,1,0,1
+2020-09-18,2020-09-21,Cumberland Hub Day Care,Orléans,1,0,0,1
+2020-09-18,2020-09-21,Family Day Care Services - St. Valentine Before & After School Program,Mississauga,0,1,0,1
+2020-09-18,2020-09-21,Fenside Drive Children's Centre Inc.,Toronto,0,1,0,1
+2020-09-18,2020-09-21,Garderie Tunney's Day Care,Ottawa,0,1,0,1
+2020-09-18,2020-09-21,Kids Zone Childcare Centre,Mississauga,1,1,0,2
+2020-09-18,2020-09-21,"La Coccinelle, Arc-en-Ciel",Cumberland,0,1,0,1
+2020-09-18,2020-09-21,MIFO école St. Joseph d'Orléans,Orléans,0,1,0,1
+2020-09-18,2020-09-21,Montessori School House Inc,Maple,1,0,0,1
+2020-09-18,2020-09-21,Nottingham YMCA Schoolage,Ajax,1,0,0,1
+2020-09-18,2020-09-21,Our Lady of Fatima School Age,Woodbridge,0,1,0,1
+2020-09-18,2020-09-21,Palmerston Community Daycare,Toronto,1,0,0,1
+2020-09-18,2020-09-21,PLASP - Dixie Public School,Mississauga,0,1,0,1
+2020-09-18,2020-09-21,Rexdale Home Child Care Agency (PHDC) (three locations),Toronto,2,3,0,5
+2020-09-18,2020-09-21,The Alderbuds Child Care Centre of Etobicoke,Toronto,1,0,0,1
+2020-09-18,2020-09-21,Toronto Home Child Care Agency (#0000415) (City of Toronto) (one location),Toronto,1,0,0,1
+2020-09-18,2020-09-21,Trillium School Age Program,Orleans,1,0,0,1
+2020-09-18,2020-09-21,Umbrella Family - Templemead,Hamilton,0,1,0,1
+2020-09-18,2020-09-21,Wee Watch Private Home Daycare - Kanata / Hunt Club (one location),Nepean,1,0,0,1
+2020-09-18,2020-09-21,Woodgreen Community Services (Enderby Child Care),Toronto,1,0,0,1
+2020-09-21,2020-09-22,Agincourt Temple Day Care (Governing Council of the Salvation Army),Toronto,0,1,0,1
+2020-09-21,2020-09-22,Andrew Fleck Home Child Care (one location),Ottawa,0,1,0,1
+2020-09-21,2020-09-22,Brian W. Fleming Early Learning and Child Care Centre ,Mississauga,0,1,0,1
+2020-09-21,2020-09-22,BrightPath Eglinton,Toronto,1,0,0,1
+2020-09-21,2020-09-22,Centre des Petits d'Ottawa (2005) Inc.,Ottawa,0,1,0,1
+2020-09-21,2020-09-22,Childventures Early Learning Academy Aurora,Aurora,0,1,0,1
+2020-09-21,2020-09-22,City View Centre for Child & Family Services (Group Care) (one location),Ottawa,0,1,0,1
+2020-09-21,2020-09-22,Cumberland Hub Day Care,Orléans,1,0,0,1
+2020-09-21,2020-09-22,Family Day Care Services - St. Valentine Before & After School Program,Mississauga,0,1,0,1
+2020-09-21,2020-09-22,Fenside Drive Children's Centre Inc.,Toronto,0,1,0,1
+2020-09-21,2020-09-22,FunCare Learning Centre,Elmira,1,0,0,1
+2020-09-21,2020-09-22,Garderie Éducative Renée Tassé,Ottawa,1,1,0,2
+2020-09-21,2020-09-22,Garderie Tunney's Day Care,Ottawa,0,1,0,1
+2020-09-21,2020-09-22,Glebe Parents' Daycare First Avenue Campus,Ottawa,1,0,0,1
+2020-09-21,2020-09-22,Helping Hands - Whitby,Whitby,1,0,0,1
+2020-09-21,2020-09-22,Kiddies Lodge Daycare Centre,Toronto,1,0,0,1
+2020-09-21,2020-09-22,"La Coccinelle, Arc-en-Ciel",Cumberland,0,1,0,1
+2020-09-21,2020-09-22,"Le Cerf-Volant, George-Étienne-Cartier",Ottawa,0,1,0,1
+2020-09-21,2020-09-22,Locomotion Day Care Centre - Full Day ,Tottenham,1,0,0,1
+2020-09-21,2020-09-22,MIFO école St. Joseph d'Orléans,Orléans,0,1,0,1
+2020-09-21,2020-09-22,Montessori School House Inc,Maple,1,0,0,1
+2020-09-21,2020-09-22,Nottingham YMCA Schoolage,Ajax,1,0,0,1
+2020-09-21,2020-09-22,Our Lady of Fatima School Age,Woodbridge,0,1,0,1
+2020-09-21,2020-09-22,Palmerston Community Daycare,Toronto,1,0,0,1
+2020-09-21,2020-09-22,PLASP - Dixie Public School,Mississauga,0,1,0,1
+2020-09-21,2020-09-22,Progress Childcare (Scarborough Inc. #1)  (3 Glamorgan),Toronto,0,1,0,1
+2020-09-21,2020-09-22,Rexdale Home Child Care Agency (PHDC) (3 locations),Toronto,2,3,0,5
+2020-09-21,2020-09-22,Silver Creek Pre-School (Silver Creek Centre for Early Learning & Development),Toronto,2,0,0,2
+2020-09-21,2020-09-22,The Alderbuds Child Care Centre of Etobicoke,Toronto,1,0,0,1
+2020-09-21,2020-09-22,Toronto Home Child Care Agency (#0000415) (City of Toronto) (one location),Toronto,1,0,0,1
+2020-09-21,2020-09-22,Trillium School Age Program,Orleans,1,0,0,1
+2020-09-21,2020-09-22,Umbrella Family - Templemead,Hamilton,0,1,0,1
+2020-09-21,2020-09-22,Walnut St. Junior School,Whitby,1,0,0,1
+2020-09-21,2020-09-22,Wee Watch Private Home Daycare - Kanata / Hunt Club (one location),Nepean,1,0,0,1
+2020-09-21,2020-09-22,Woodgreen Community Services (Enderby Child Care),Toronto,1,0,0,1
+2020-09-21,2020-09-22,YWCA KW St. Paul Childcare,Kitchener,1,0,0,1
+2020-09-22,2020-09-23,Agincourt Temple Day Care (Governing Council of the Salvation Army),Toronto,0,1,0,1
+2020-09-22,2020-09-23,Andrew Fleck Home Child Care (one location),Ottawa,0,1,0,1
+2020-09-22,2020-09-23,Brian W. Fleming Early Learning and Child Care Centre ,Mississauga,0,1,0,1
+2020-09-22,2020-09-23,BrightPath Eglinton,Toronto,1,0,0,1
+2020-09-22,2020-09-23,Cardinal Leger Child Care Centre (Scarborough),Toronto,0,1,0,1
+2020-09-22,2020-09-23,Centre des Petits d'Ottawa (2005) Inc.,Ottawa,0,1,0,1
+2020-09-22,2020-09-23,Centre éducatif Brin de Soleil - Horizon Jeunesse,Ottawa,1,0,0,1
+2020-09-22,2020-09-23,Childventures Early Learning Academy Aurora,Aurora,0,1,0,1
+2020-09-22,2020-09-23,City View Centre for Child & Family Services (Group Care) (one location),Ottawa,0,1,0,1
+2020-09-22,2020-09-23,Cumberland Hub Day Care,Orléans,1,0,0,1
+2020-09-22,2020-09-23,Family Day Care Services - St. Valentine Before & After School Program,Mississauga,0,1,0,1
+2020-09-22,2020-09-23,Fenside Drive Children's Centre Inc.,Toronto,0,1,0,1
+2020-09-22,2020-09-23,FunCare Learning Centre,Elmira,1,0,0,1
+2020-09-22,2020-09-23,Garderie Éducative Renée Tassé,Ottawa,1,1,0,2
+2020-09-22,2020-09-23,Garderie Tunney's Day Care,Ottawa,0,1,0,1
+2020-09-22,2020-09-23,Glebe Parents' Daycare First Avenue Campus,Ottawa,1,0,0,1
+2020-09-22,2020-09-23,Global Home Child Care (one location),Ottawa,0,1,0,1
+2020-09-22,2020-09-23,Inspiring Minds Early Learning Centre,Wellesley,0,1,0,1
+2020-09-22,2020-09-23,Kiddies Lodge Daycare Centre,Toronto,1,0,0,1
+2020-09-22,2020-09-23,"La Coccinelle, Arc-en-Ciel",Cumberland,0,1,0,1
+2020-09-22,2020-09-23,"Le Cerf-Volant, George-Étienne-Cartier",Ottawa,0,1,0,1
+2020-09-22,2020-09-23,Locomotion Day Care Centre - Full Day ,Tottenham,1,0,0,1
+2020-09-22,2020-09-23,MIFO école des Voyageurs,Orléans,0,3,0,3
+2020-09-22,2020-09-23,MIFO école St. Joseph d'Orléans,Orléans,0,1,0,1
+2020-09-22,2020-09-23,Montessori School House Inc,Maple,1,0,0,1
+2020-09-22,2020-09-23,Nottingham YMCA Schoolage,Ajax,1,0,0,1
+2020-09-22,2020-09-23,OAKVILLE FAMILY YMCA SACC - SUNNINGDALE,Oakville,2,0,0,2
+2020-09-22,2020-09-23,Our Lady of Fatima School Age,Woodbridge,0,1,0,1
+2020-09-22,2020-09-23,Palmerston Community Daycare,Toronto,1,0,0,1
+2020-09-22,2020-09-23,PLASP - Dixie Public School,Mississauga,0,1,0,1
+2020-09-22,2020-09-23,PLASP - ST. Raphael Catholic School,Mississauga,0,1,0,1
+2020-09-22,2020-09-23,Progress Childcare (Scarborough Inc. #1)  (3 Glamorgan),Toronto,0,1,0,1
+2020-09-22,2020-09-23,Rexdale Home Child Care Agency (PHDC) (three locations),Toronto,2,3,0,5
+2020-09-22,2020-09-23,Silver Creek Pre-School (Silver Creek Centre for Early Learning & Development),Toronto,2,0,0,2
+2020-09-22,2020-09-23,The Alderbuds Child Care Centre of Etobicoke,Toronto,1,0,0,1
+2020-09-22,2020-09-23,Toronto Home Child Care Agency (#0000415) (City of Toronto) (one location),Toronto,1,0,0,1
+2020-09-22,2020-09-23,Trillium School Age Program,Orleans,1,0,0,1
+2020-09-22,2020-09-23,Umbrella Family - Templemead,Hamilton,0,1,0,1
+2020-09-22,2020-09-23,Wee Watch Private Home Day Care-East (one location),Russell ,0,1,0,1
+2020-09-22,2020-09-23,Wee Watch Private Home Daycare - Kanata / Hunt Club (one location),Nepean,1,0,0,1
+2020-09-22,2020-09-23,Woodgreen Community Services (Enderby Child Care),Toronto,1,0,0,1
+2020-09-22,2020-09-23,YWCA KW St. Paul Childcare,Kitchener,1,0,0,1
+2020-09-23,2020-09-24,Agincourt Temple Day Care (Governing Council of the Salvation Army),Toronto,0,1,0,1
+2020-09-23,2020-09-24,Andrew Fleck Home Child Care,Ottawa,0,1,0,1
+2020-09-23,2020-09-24,Brian W. Fleming Early Learning and Child Care Centre ,Mississauga,0,1,0,1
+2020-09-23,2020-09-24,BrightPath Eglinton,Toronto,1,0,0,1
+2020-09-23,2020-09-24,Bruce Trail Early Learning and Child Care Centre,Milton,0,1,0,1
+2020-09-23,2020-09-24,Cardinal Leger Child Care Centre (Scarborough),Toronto,0,1,0,1
+2020-09-23,2020-09-24,Centre des Petits d'Ottawa (2005) Inc.,Ottawa,0,1,0,1
+2020-09-23,2020-09-24,Centre éducatif Brin de Soleil - Horizon Jeunesse,Ottawa,1,0,0,1
+2020-09-23,2020-09-24,Childventures Early Learning Academy Aurora,Aurora,0,1,0,1
+2020-09-23,2020-09-24,City View Centre for Child & Family Services (Group Care),Ottawa,0,1,0,1
+2020-09-23,2020-09-24,Cumberland Hub Day Care,Orléans,1,0,0,1
+2020-09-23,2020-09-24,Family Day Care Services - St. Valentine Before & After School Program,Mississauga,0,1,0,1
+2020-09-23,2020-09-24,Fenside Drive Children's Centre Inc.,Toronto,0,1,0,1
+2020-09-23,2020-09-24,FunCare Learning Centre,Elmira,1,0,0,1
+2020-09-23,2020-09-24,Garderie Éducative Renée Tassé,Ottawa,1,1,0,2
+2020-09-23,2020-09-24,Garderie Tunney's Day Care,Ottawa,0,1,0,1
+2020-09-23,2020-09-24,Glebe Parents' Daycare First Avenue Campus,Ottawa,1,0,0,1
+2020-09-23,2020-09-24,Global Home Child Care,Ottawa,0,1,0,1
+2020-09-23,2020-09-24,Inspiring Minds Early Learning Centre,Wellesley,0,1,0,1
+2020-09-23,2020-09-24,Kiddies Lodge Daycare Centre,Toronto,1,0,0,1
+2020-09-23,2020-09-24,"La Coccinelle, Arc-en-Ciel",Cumberland,0,1,0,1
+2020-09-23,2020-09-24,Le Cerf-Volant - Édouard-Bond,Ottawa,1,0,0,1
+2020-09-23,2020-09-24,"Le Cerf-Volant, George-Étienne-Cartier",Ottawa,0,1,0,1
+2020-09-23,2020-09-24,Locomotion Day Care Centre - Full Day ,Tottenham,1,0,0,1
+2020-09-23,2020-09-24,MIFO école des Voyageurs,Orléans,0,3,0,3
+2020-09-23,2020-09-24,MIFO école St. Joseph d'Orléans,Orléans,0,1,0,1
+2020-09-23,2020-09-24,Montessori School House Inc,Maple,1,0,0,1
+2020-09-23,2020-09-24,Nottingham YMCA Schoolage,Ajax,1,0,0,1
+2020-09-23,2020-09-24,OAKVILLE FAMILY YMCA SACC - SUNNINGDALE,Oakville,2,0,0,2
+2020-09-23,2020-09-24,Our Lady of Fatima School Age,Woodbridge,0,1,0,1
+2020-09-23,2020-09-24,Palmerston Community Daycare,Toronto,1,0,0,1
+2020-09-23,2020-09-24,PLASP - Dixie Public School,Mississauga,0,1,0,1
+2020-09-23,2020-09-24,PLASP - ST. Raphael Catholic School,Mississauga,0,1,0,1
+2020-09-23,2020-09-24,Progress Childcare (Scarborough Inc. #1)  (3 Glamorgan),Toronto,0,1,0,1
+2020-09-23,2020-09-24,Rexdale Home Child Care Agency (PHDC),Toronto,3,3,0,6
+2020-09-23,2020-09-24,Silver Creek Pre-School (Silver Creek Centre for Early Learning & Development),Toronto,2,0,0,2
+2020-09-23,2020-09-24,The Alderbuds Child Care Centre of Etobicoke,Toronto,1,0,0,1
+2020-09-23,2020-09-24,Toronto Home Child Care Agency (#0000415) (City of Toronto),Toronto,1,0,0,1
+2020-09-23,2020-09-24,Trillium School Age Program,Orleans,1,0,0,1
+2020-09-23,2020-09-24,Umbrella Family - Templemead,Hamilton,0,1,0,1
+2020-09-23,2020-09-24,Wee Watch Private Home Day Care-East,Russell ,0,1,0,1
+2020-09-23,2020-09-24,Wee Watch Private Home Daycare - Kanata / Hunt Club,Nepean,1,0,0,1
+2020-09-23,2020-09-24,Woodgreen Community Services (Enderby Child Care),Toronto,1,0,0,1
+2020-09-23,2020-09-24,YWCA KW St. Paul Childcare,Kitchener,1,0,0,1
+2020-09-24,2020-09-25,Andrew Fleck Home Child Care,Ottawa,0,1,0,1
+2020-09-24,2020-09-25,Brian W. Fleming Early Learning and Child Care Centre ,Mississauga,0,1,0,1
+2020-09-24,2020-09-25,BrightPath Eglinton,Toronto,1,0,0,1
+2020-09-24,2020-09-25,Bruce Trail Early Learning and Child Care Centre,Milton,0,1,0,1
+2020-09-24,2020-09-25,Cardinal Leger Child Care Centre (Scarborough),Toronto,0,1,0,1
+2020-09-24,2020-09-25,Centre des Petits d'Ottawa (2005) Inc.,Ottawa,0,1,0,1
+2020-09-24,2020-09-25,Centre éducatif Brin de Soleil - Horizon Jeunesse,Ottawa,1,0,0,1
+2020-09-24,2020-09-25,Childventures Early Learning Academy Aurora,Aurora,0,1,0,1
+2020-09-24,2020-09-25,City View Centre for Child & Family Services (Group Care),Ottawa,0,1,0,1
+2020-09-24,2020-09-25,Cumberland Hub Day Care,Orléans,1,0,0,1
+2020-09-24,2020-09-25,Family Day Care Services - St. Valentine Before & After School Program,Mississauga,0,1,0,1
+2020-09-24,2020-09-25,Fenside Drive Children's Centre Inc.,Toronto,0,1,0,1
+2020-09-24,2020-09-25,FunCare Learning Centre,Elmira,1,0,0,1
+2020-09-24,2020-09-25,Garderie Éducative Renée Tassé,Ottawa,1,1,0,2
+2020-09-24,2020-09-25,Garderie Tunney's Day Care,Ottawa,0,1,0,1
+2020-09-24,2020-09-25,Glebe Parents' Daycare First Avenue Campus,Ottawa,1,0,0,1
+2020-09-24,2020-09-25,Global Home Child Care,Ottawa,0,1,0,1
+2020-09-24,2020-09-25,Inspiring Minds Early Learning Centre,Wellesley,0,1,0,1
+2020-09-24,2020-09-25,Kiddies Lodge Daycare Centre,Toronto,1,0,0,1
+2020-09-24,2020-09-25,"La Coccinelle, Arc-en-Ciel",Cumberland,0,1,0,1
+2020-09-24,2020-09-25,Le Cerf-Volant - Édouard-Bond,Ottawa,1,0,0,1
+2020-09-24,2020-09-25,"Le Cerf-Volant, George-Étienne-Cartier",Ottawa,0,1,0,1
+2020-09-24,2020-09-25,Locomotion Day Care Centre - Full Day ,Tottenham,1,0,0,1
+2020-09-24,2020-09-25,MIFO école des Voyageurs,Orléans,0,3,0,3
+2020-09-24,2020-09-25,MIFO école St. Joseph d'Orléans,Orléans,0,1,0,1
+2020-09-24,2020-09-25,Montessori School House Inc,Maple,1,0,0,1
+2020-09-24,2020-09-25,Nottingham YMCA Schoolage,Ajax,1,0,0,1
+2020-09-24,2020-09-25,OAKVILLE FAMILY YMCA SACC - SUNNINGDALE,Oakville,2,0,0,2
+2020-09-24,2020-09-25,Our Lady of Fatima School Age,Woodbridge,0,1,0,1
+2020-09-24,2020-09-25,Palmerston Community Daycare,Toronto,1,0,0,1
+2020-09-24,2020-09-25,PLASP - San Lorenzo Ruiz,Mississauga,1,0,0,1
+2020-09-24,2020-09-25,PLASP - ST. Raphael Catholic School,Mississauga,0,1,0,1
+2020-09-24,2020-09-25,Progress Childcare (Scarborough Inc. #1)  (3 Glamorgan),Toronto,0,1,0,1
+2020-09-24,2020-09-25,Rexdale Home Child Care Agency (PHDC),Toronto,3,3,0,6
+2020-09-24,2020-09-25,Silver Creek Pre-School (Silver Creek Centre for Early Learning & Development),Toronto,2,0,0,2
+2020-09-24,2020-09-25,The Alderbuds Child Care Centre of Etobicoke,Toronto,1,0,0,1
+2020-09-24,2020-09-25,Toronto Home Child Care Agency (#0000415) (City of Toronto),Toronto,1,0,0,1
+2020-09-24,2020-09-25,Umbrella Family - Templemead,Hamilton,0,1,0,1
+2020-09-24,2020-09-25,Wee Watch,Brampton,1,0,0,1
+2020-09-24,2020-09-25,Wee Watch Private Home Day Care-East,Russell ,0,1,0,1
+2020-09-24,2020-09-25,Wee Watch Private Home Daycare - Kanata / Hunt Club,Nepean,1,0,0,1
+2020-09-24,2020-09-25,Woodgreen Community Services (Enderby Child Care),Toronto,1,0,0,1
+2020-09-24,2020-09-25,YWCA KW St. Paul Childcare,Kitchener,1,0,0,1
+2020-09-25,2020-09-28,Andrew Fleck Home Child Care,Ottawa,0,1,0,1
+2020-09-25,2020-09-28,Brian W. Fleming Early Learning and Child Care Centre ,Mississauga,0,1,0,1
+2020-09-25,2020-09-28,BrightPath Eglinton,Toronto,1,0,0,1
+2020-09-25,2020-09-28,Bruce Trail Early Learning and Child Care Centre,Milton,0,1,0,1
+2020-09-25,2020-09-28,Cardinal Leger Child Care Centre (Scarborough),Toronto,0,1,0,1
+2020-09-25,2020-09-28,Centre des Petits d'Ottawa (2005) Inc.,Ottawa,0,1,0,1
+2020-09-25,2020-09-28,Centre éducatif Brin de Soleil - Horizon Jeunesse,Ottawa,1,0,0,1
+2020-09-25,2020-09-28,Childventures Early Learning Academy Aurora,Aurora,0,1,0,1
+2020-09-25,2020-09-28,City View Centre for Child & Family Services (Group Care),Ottawa,0,1,0,1
+2020-09-25,2020-09-28,Clara Hughes Early Learning and Child Care Centre,Oshawa,0,1,0,1
+2020-09-25,2020-09-28,Downtown Montessori at Concord City Place,Toronto,1,0,0,1
+2020-09-25,2020-09-28,Family Day Care Services - St. Valentine Before & After School Program,Mississauga,0,1,0,1
+2020-09-25,2020-09-28,Fenside Drive Children's Centre Inc.,Toronto,0,1,0,1
+2020-09-25,2020-09-28,FunCare Learning Centre,Elmira,1,0,0,1
+2020-09-25,2020-09-28,Garderie Éducative Renée Tassé,Ottawa,1,1,0,2
+2020-09-25,2020-09-28,Garderie Tunney's Day Care,Ottawa,0,1,0,1
+2020-09-25,2020-09-28,Glebe Parents' Daycare First Avenue Campus,Ottawa,1,0,0,1
+2020-09-25,2020-09-28,Global Home Child Care,Ottawa,0,1,0,1
+2020-09-25,2020-09-28,Halton Hills Child Care Centre,Georgetown,1,0,0,1
+2020-09-25,2020-09-28,Inspiring Minds Early Learning Centre,Wellesley,0,1,0,1
+2020-09-25,2020-09-28,Kiddies Lodge Daycare Centre,Toronto,1,0,0,1
+2020-09-25,2020-09-28,La Coccinelle,Orléans,0,1,0,1
+2020-09-25,2020-09-28,"La Coccinelle, Arc-en-Ciel",Cumberland,0,1,0,1
+2020-09-25,2020-09-28,Le Cerf-Volant - Édouard-Bond,Ottawa,1,0,0,1
+2020-09-25,2020-09-28,"Le Cerf-Volant, George-Étienne-Cartier",Ottawa,0,1,0,1
+2020-09-25,2020-09-28,Locomotion Day Care Centre - Full Day ,Tottenham,1,0,0,1
+2020-09-25,2020-09-28,MIFO école des Voyageurs,Orléans,0,3,0,3
+2020-09-25,2020-09-28,MIFO école St. Joseph d'Orléans,Orléans,0,1,0,1
+2020-09-25,2020-09-28,Montessori School House Inc,Maple,1,0,0,1
+2020-09-25,2020-09-28,My Little School - (Victoria Village Children's Services) - 1492 Victoria Park,Toronto,1,0,0,1
+2020-09-25,2020-09-28,Nottingham YMCA Schoolage,Ajax,1,0,0,1
+2020-09-25,2020-09-28,OAKVILLE FAMILY YMCA SACC - SUNNINGDALE,Oakville,2,0,0,2
+2020-09-25,2020-09-28,Our Lady of Fatima School Age,Woodbridge,0,1,0,1
+2020-09-25,2020-09-28,Palmerston Community Daycare,Toronto,1,0,0,1
+2020-09-25,2020-09-28,PLASP - Birchbank P.S.,Brampton,1,0,0,1
+2020-09-25,2020-09-28,PLASP - San Lorenzo Ruiz,Mississauga,1,0,0,1
+2020-09-25,2020-09-28,PLASP - ST. Raphael Catholic School,Mississauga,0,1,0,1
+2020-09-25,2020-09-28,Progress Childcare (Scarborough Inc. #1)  (3 Glamorgan),Toronto,0,1,0,1
+2020-09-25,2020-09-28,Rexdale Home Child Care Agency (PHDC),Toronto,3,3,0,6
+2020-09-25,2020-09-28,Silver Creek Pre-School (Silver Creek Centre for Early Learning & Development),Toronto,2,0,0,2
+2020-09-25,2020-09-28,The Alderbuds Child Care Centre of Etobicoke,Toronto,1,0,0,1
+2020-09-25,2020-09-28,Toronto Home Child Care Agency (#0000415) (City of Toronto),Toronto,1,0,0,1
+2020-09-25,2020-09-28,Umbrella Family - Templemead,Hamilton,0,1,0,1
+2020-09-25,2020-09-28,Wee Watch,Brampton,1,0,0,1
+2020-09-25,2020-09-28,Wee Watch Private Home Day Care-East,Russell ,0,1,0,1
+2020-09-25,2020-09-28,Wee Watch Private Home Daycare - Kanata / Hunt Club,Nepean,1,0,0,1
+2020-09-25,2020-09-28,YWCA KW St. Paul Childcare,Kitchener,1,0,0,1
+2020-09-28,2020-09-29,Andrew Fleck Home Child Care,Ottawa,0,1,0,1
+2020-09-28,2020-09-29,Brian W. Fleming Early Learning and Child Care Centre ,Mississauga,0,1,0,1
+2020-09-28,2020-09-29,BrightPath Eglinton,Toronto,1,0,0,1
+2020-09-28,2020-09-29,Bruce Trail Early Learning and Child Care Centre,Milton,0,1,0,1
+2020-09-28,2020-09-29,Cardinal Leger Child Care Centre (Scarborough),Toronto,0,1,0,1
+2020-09-28,2020-09-29,Centre des Petits d'Ottawa (2005) Inc.,Ottawa,0,1,0,1
+2020-09-28,2020-09-29,Centre éducatif Brin de Soleil - Horizon Jeunesse,Ottawa,1,0,0,1
+2020-09-28,2020-09-29,Centro-Clinton Day Care Centre,Toronto,0,1,0,1
+2020-09-28,2020-09-29,Children's Circle Montessori School,Brampton,1,0,0,1
+2020-09-28,2020-09-29,Childventures Early Learning Academy Aurora,Aurora,0,1,0,1
+2020-09-28,2020-09-29,City View Centre for Child & Family Services (Group Care),Ottawa,0,1,0,1
+2020-09-28,2020-09-29,Clara Hughes Early Learning and Child Care Centre,Oshawa,0,1,0,1
+2020-09-28,2020-09-29,Downtown Montessori at Concord City Place,Toronto,1,0,0,1
+2020-09-28,2020-09-29,Family Day Care Services - St. Valentine Before & After School Program,Mississauga,0,1,0,1
+2020-09-28,2020-09-29,Fenside Drive Children's Centre Inc.,Toronto,0,1,0,1
+2020-09-28,2020-09-29,FunCare Learning Centre,Elmira,1,0,0,1
+2020-09-28,2020-09-29,Garderie Éducative Renée Tassé,Ottawa,1,1,0,2
+2020-09-28,2020-09-29,Garderie Tunney's Day Care,Ottawa,0,1,0,1
+2020-09-28,2020-09-29,Glebe Parents' Daycare First Avenue Campus,Ottawa,1,0,0,1
+2020-09-28,2020-09-29,Global Home Child Care,Ottawa,0,1,0,1
+2020-09-28,2020-09-29,Halton Hills Child Care Centre,Georgetown,1,0,0,1
+2020-09-28,2020-09-29,Happy Tots Day Nursery,Oshawa,0,1,0,1
+2020-09-28,2020-09-29,Hillfield Strathallan College,Hamilton,1,0,0,1
+2020-09-28,2020-09-29,Inspiring Minds Early Learning Centre,Wellesley,0,1,0,1
+2020-09-28,2020-09-29,Kiddies Lodge Daycare Centre,Toronto,1,0,0,1
+2020-09-28,2020-09-29,La Coccinelle,Orléans,0,1,0,1
+2020-09-28,2020-09-29,"La Coccinelle, Arc-en-Ciel",Cumberland,0,1,0,1
+2020-09-28,2020-09-29,Le Cerf-Volant - Édouard-Bond,Ottawa,1,0,0,1
+2020-09-28,2020-09-29,"Le Cerf-Volant, George-Étienne-Cartier",Ottawa,0,1,0,1
+2020-09-28,2020-09-29,Le Club - Bond Lake,Richmond Hill,0,1,0,1
+2020-09-28,2020-09-29,Locomotion Day Care Centre - Full Day ,Tottenham,1,0,0,1
+2020-09-28,2020-09-29,MIFO école des Voyageurs,Orléans,0,3,0,3
+2020-09-28,2020-09-29,MIFO école St. Joseph d'Orléans,Orléans,0,1,0,1
+2020-09-28,2020-09-29,Montessori School House Inc,Maple,1,0,0,1
+2020-09-28,2020-09-29,My Little School - (Victoria Village Children's Services) - 1492 Victoria Park,Toronto,1,0,0,1
+2020-09-28,2020-09-29,Nottingham YMCA Schoolage,Ajax,1,0,0,1
+2020-09-28,2020-09-29,OAKVILLE FAMILY YMCA SACC - SUNNINGDALE,Oakville,2,0,0,2
+2020-09-28,2020-09-29,Our Lady of Fatima School Age,Woodbridge,0,1,0,1
+2020-09-28,2020-09-29,Palmerston Community Daycare,Toronto,1,0,0,1
+2020-09-28,2020-09-29,PLASP - Birchbank P.S.,Brampton,1,0,0,1
+2020-09-28,2020-09-29,PLASP - Dixie Public School,Mississauga,0,1,0,1
+2020-09-28,2020-09-29,PLASP - San Lorenzo Ruiz,Mississauga,1,0,0,1
+2020-09-28,2020-09-29,PLASP - St. Josephine Bakhita,Brampton,1,0,0,1
+2020-09-28,2020-09-29,PLASP - ST. Raphael Catholic School,Mississauga,0,1,0,1
+2020-09-28,2020-09-29,Progress Childcare (Scarborough Inc. #1)  (3 Glamorgan),Toronto,0,1,0,1
+2020-09-28,2020-09-29,R L Hyslop Before and After School Program,Hamilton,1,0,0,1
+2020-09-28,2020-09-29,Rexdale Home Child Care Agency (PHDC),Toronto,3,3,0,6
+2020-09-28,2020-09-29,Riverside Montessori Pre-School,Ottawa,1,0,0,1
+2020-09-28,2020-09-29,Silver Creek Pre-School (Silver Creek Centre for Early Learning & Development),Toronto,2,0,0,2
+2020-09-28,2020-09-29,The Alderbuds Child Care Centre of Etobicoke,Toronto,2,0,0,2
+2020-09-28,2020-09-29,Toronto Home Child Care Agency (#0000415) (City of Toronto),Toronto,1,0,0,1
+2020-09-28,2020-09-29,Umbrella Family - Templemead,Hamilton,0,1,0,1
+2020-09-28,2020-09-29,Vincent Massey Academy- Franklin Horner Campus,Toronto,0,1,0,1
+2020-09-28,2020-09-29,Wee Watch,Brampton,1,0,0,1
+2020-09-28,2020-09-29,Wee Watch Private Home Day Care-East,Russell ,0,1,0,1
+2020-09-28,2020-09-29,Wee Watch Private Home Daycare - Kanata / Hunt Club,Nepean,1,0,0,1
+2020-09-28,2020-09-29,YMCA Toronto - Ellwood YMCA School Age,Bolton,1,0,0,1
+2020-09-28,2020-09-29,YWCA KW St. Paul Childcare,Kitchener,1,0,0,1
+2020-09-29,2020-09-30,Andrew Fleck Home Child Care (one location),Ottawa,0,1,0,1
+2020-09-29,2020-09-30,Brian W. Fleming Early Learning and Child Care Centre,Mississauga,0,1,0,1
+2020-09-29,2020-09-30,BrightPath Eglinton,Toronto,1,0,0,1
+2020-09-29,2020-09-30,Bruce Trail Early Learning and Child Care Centre,Milton,0,1,0,1
+2020-09-29,2020-09-30,Cardinal Leger Child Care Centre (Scarborough),Toronto,0,1,0,1
+2020-09-29,2020-09-30,Centre des Petits d'Ottawa (2005) Inc.,Ottawa,0,1,0,1
+2020-09-29,2020-09-30,Centre éducatif Brin de Soleil - Horizon Jeunesse,Ottawa,1,0,0,1
+2020-09-29,2020-09-30,Centro-Clinton Day Care Centre,Toronto,0,1,0,1
+2020-09-29,2020-09-30,Children's Circle Montessori School,Brampton,1,0,0,1
+2020-09-29,2020-09-30,Childventures Early Learning Academy Aurora,Aurora,0,1,0,1
+2020-09-29,2020-09-30,City View Centre for Child & Family Services (Group Care),Ottawa,0,1,0,1
+2020-09-29,2020-09-30,Clara Hughes Early Learning and Child Care Centre,Oshawa,0,1,0,1
+2020-09-29,2020-09-30,Downtown Montessori at Concord City Place,Toronto,1,0,0,1
+2020-09-29,2020-09-30,Fenside Drive Children's Centre Inc.,Toronto,0,1,0,1
+2020-09-29,2020-09-30,FunCare Learning Centre,Elmira,1,0,0,1
+2020-09-29,2020-09-30,Garderie Éducative Renée Tassé,Ottawa,1,1,0,2
+2020-09-29,2020-09-30,Garderie Tunney's Day Care,Ottawa,0,1,0,1
+2020-09-29,2020-09-30,Glebe Parents' Daycare First Avenue Campus,Ottawa,1,0,0,1
+2020-09-29,2020-09-30,Global Home Child Care (one location),Ottawa,0,1,0,1
+2020-09-29,2020-09-30,Halton Hills Child Care Centre,Georgetown,1,0,0,1
+2020-09-29,2020-09-30,Happy Tots Day Nursery,Oshawa,0,1,0,1
+2020-09-29,2020-09-30,Hillfield Strathallan College,Hamilton,1,0,0,1
+2020-09-29,2020-09-30,Inspiring Minds Early Learning Centre,Wellesley,0,1,0,1
+2020-09-29,2020-09-30,Kiddies Lodge Daycare Centre,Toronto,1,0,0,1
+2020-09-29,2020-09-30,La Coccinelle,Orléans,0,1,0,1
+2020-09-29,2020-09-30,"La Coccinelle, Arc-en-Ciel",Cumberland,0,1,0,1
+2020-09-29,2020-09-30,Le Cerf-Volant - Édouard-Bond,Ottawa,1,0,0,1
+2020-09-29,2020-09-30,"Le Cerf-Volant, George-Étienne-Cartier",Ottawa,1,1,0,2
+2020-09-29,2020-09-30,Le Club - Bond Lake,Richmond Hill,0,1,0,1
+2020-09-29,2020-09-30,Locomotion Day Care Centre - Full Day,Tottenham,1,0,0,1
+2020-09-29,2020-09-30,Metcalfe Home Day Care (one location),Metcalfe,1,0,0,1
+2020-09-29,2020-09-30,MIFO école des Voyageurs,Orléans,0,3,0,3
+2020-09-29,2020-09-30,MIFO école St. Joseph d'Orléans,Orléans,0,1,0,1
+2020-09-29,2020-09-30,Montessori School House Inc,Maple,1,0,0,1
+2020-09-29,2020-09-30,My Little School - (Victoria Village Children's Services) - 1492 Victoria Park,Toronto,1,0,0,1
+2020-09-29,2020-09-30,Netivot HaTorah - South Campus,Toronto,1,0,0,2
+2020-09-29,2020-09-30,Nottingham YMCA Schoolage,Ajax,1,0,0,1
+2020-09-29,2020-09-30,OAKVILLE FAMILY YMCA SACC - SUNNINGDALE,Oakville,2,0,0,2
+2020-09-29,2020-09-30,Palmerston Community Daycare,Toronto,1,0,0,1
+2020-09-29,2020-09-30,PLASP - Birchbank P.S.,Brampton,1,0,0,1
+2020-09-29,2020-09-30,PLASP - Dixie Public School,Mississauga,0,1,0,1
+2020-09-29,2020-09-30,PLASP - San Lorenzo Ruiz,Mississauga,1,0,0,1
+2020-09-29,2020-09-30,PLASP - St. Josephine Bakhita,Brampton,1,0,0,1
+2020-09-29,2020-09-30,PLASP - ST. Raphael Catholic School,Mississauga,0,1,0,1
+2020-09-29,2020-09-30,Progress Childcare (Scarborough Inc. #1) (3 Glamorgan),Toronto,0,1,0,1
+2020-09-29,2020-09-30,Rexdale Home Child Care Agency (PHDC) (one location),Toronto,1,1,0,2
+2020-09-29,2020-09-30,Riverside Montessori Pre-School,Ottawa,1,0,0,1
+2020-09-29,2020-09-30,R L Hyslop Before and After School Program,Hamilton,1,0,0,1
+2020-09-29,2020-09-30,Schoolhouse Playcare - Cadarackque,Ajax,1,0,0,1
+2020-09-29,2020-09-30,Service à l'enfance Aladin Childcare Services,Ottawa,1,0,0,1
+2020-09-29,2020-09-30,Silver Creek Pre-School (Silver Creek Centre for Early Learning & Development),Toronto,2,0,0,2
+2020-09-29,2020-09-30,St. Boniface YMCA Childcare (YMCA),Toronto,0,1,0,1
+2020-09-29,2020-09-30,St. Columba YMCA Child Care,Toronto,2,0,0,2
+2020-09-29,2020-09-30,St. Gregory's Before and After School Club (North York Little Prints),Toronto,1,0,0,1
+2020-09-29,2020-09-30,The Alderbuds Child Care Centre of Etobicoke,Toronto,2,0,0,2
+2020-09-29,2020-09-30,Toronto Home Child Care Agency (#0000415) (City of Toronto) (one location),Toronto,1,0,0,1
+2020-09-29,2020-09-30,Umbrella Family - Templemead,Hamilton,0,1,0,1
+2020-09-29,2020-09-30,Vincent Massey Academy- Franklin Horner Campus,Toronto,0,1,0,1
+2020-09-29,2020-09-30,Wee Watch (one location),Brampton,1,0,0,1
+2020-09-29,2020-09-30,Wee Watch Private Home Day Care-East (one location),Russell,0,1,0,1
+2020-09-29,2020-09-30,Wee Watch Private Home Daycare - Kanata / Hunt Club (one location),Nepean,1,0,0,1
+2020-09-29,2020-09-30,Woodgreen Community Services (Leslieville Child Care),Toronto,1,0,0,1
+2020-09-29,2020-09-30,YMCA Toronto - Ellwood YMCA School Age,Bolton,1,0,0,1
+2020-09-29,2020-09-30,YWCA KW St. Paul Childcare,Kitchener,1,0,0,1
+2020-09-30,2020-10-01,Andrew Fleck Home Child Care (one location),Ottawa,0,1,0,1
+2020-09-30,2020-10-01,Brian W. Fleming Early Learning and Child Care Centre ,Mississauga,0,1,0,1
+2020-09-30,2020-10-01,BrightPath Eglinton,Toronto,1,0,0,1
+2020-09-30,2020-10-01,Bruce Trail Early Learning and Child Care Centre,Milton,0,1,0,1
+2020-09-30,2020-10-01,Cardinal Leger Child Care Centre (Scarborough),Toronto,0,1,0,1
+2020-09-30,2020-10-01,Centre éducatif Brin de Soleil - Horizon Jeunesse,Ottawa,1,0,0,1
+2020-09-30,2020-10-01,Centro-Clinton Day Care Centre,Toronto,0,1,0,1
+2020-09-30,2020-10-01,Children's Circle Montessori School,Brampton,1,0,0,1
+2020-09-30,2020-10-01,Childventures Early Learning Academy Aurora,Aurora,0,1,0,1
+2020-09-30,2020-10-01,City View Centre for Child & Family Services (Group Care),Ottawa,0,1,0,1
+2020-09-30,2020-10-01,Clara Hughes Early Learning and Child Care Centre,Oshawa,0,1,0,1
+2020-09-30,2020-10-01,Community Centre 55,Toronto,1,0,0,1
+2020-09-30,2020-10-01,Downtown Montessori at Concord City Place,Toronto,1,0,0,1
+2020-09-30,2020-10-01,FunCare Learning Centre,Elmira,1,0,0,1
+2020-09-30,2020-10-01,Garderie Éducative Renée Tassé,Ottawa,1,1,0,2
+2020-09-30,2020-10-01,Garderie Tunney's Day Care,Ottawa,0,1,0,1
+2020-09-30,2020-10-01,Glebe Parents' Daycare First Avenue Campus,Ottawa,1,0,0,1
+2020-09-30,2020-10-01,Global Home Child Care (one location),Ottawa,0,1,0,1
+2020-09-30,2020-10-01,Halton Hills Child Care Centre,Georgetown,1,0,0,1
+2020-09-30,2020-10-01,Happy Tots Day Nursery,Oshawa,0,1,0,1
+2020-09-30,2020-10-01,Hillfield Strathallan College,Hamilton,1,0,0,1
+2020-09-30,2020-10-01,Inspiring Minds Early Learning Centre,Wellesley,0,1,0,1
+2020-09-30,2020-10-01,Kiddies Lodge Daycare Centre,Toronto,1,0,0,1
+2020-09-30,2020-10-01,La Coccinelle,Orléans,1,1,0,2
+2020-09-30,2020-10-01,La Coccinelle Reine des Bois,Ottawa,1,0,0,1
+2020-09-30,2020-10-01,Le Cerf-Volant - Édouard-Bond,Ottawa,1,0,0,1
+2020-09-30,2020-10-01,"Le Cerf-Volant, George-Étienne-Cartier",Ottawa,1,1,0,2
+2020-09-30,2020-10-01,Le Club - Bond Lake,Richmond Hill,0,1,0,1
+2020-09-30,2020-10-01,Locomotion Day Care Centre - Full Day ,Tottenham,1,0,0,1
+2020-09-30,2020-10-01,MCDC/St. John,Toronto,0,1,0,1
+2020-09-30,2020-10-01,Metcalfe Home Day Care (one location),Metcalfe,1,1,0,2
+2020-09-30,2020-10-01,MIFO école des Voyageurs,Orléans,0,3,0,3
+2020-09-30,2020-10-01,MIFO- école Notre Dame des Champs,Ottawa,0,1,0,1
+2020-09-30,2020-10-01,MIFO école St. Joseph d'Orléans,Orléans,0,1,0,1
+2020-09-30,2020-10-01,Montessori School House Inc,Maple,1,0,0,1
+2020-09-30,2020-10-01,My Little School - (Victoria Village Children's Services) - 1492 Victoria Park,Toronto,1,0,0,1
+2020-09-30,2020-10-01,Netivot HaTorah  - South Campus,Toronto,1,0,0,1
+2020-09-30,2020-10-01,Nottingham YMCA Schoolage,Ajax,1,0,0,1
+2020-09-30,2020-10-01,OAKVILLE FAMILY YMCA SACC - SUNNINGDALE,Oakville,2,0,0,2
+2020-09-30,2020-10-01,Palmerston Community Daycare,Toronto,1,0,0,1
+2020-09-30,2020-10-01,PLASP - Birchbank P.S.,Brampton,1,0,0,1
+2020-09-30,2020-10-01,PLASP - Dixie Public School,Mississauga,0,1,0,1
+2020-09-30,2020-10-01,PLASP - San Lorenzo Ruiz,Mississauga,1,0,0,1
+2020-09-30,2020-10-01,PLASP - St. Charles Garnier Catholic School,Mississauga,1,0,0,1
+2020-09-30,2020-10-01,PLASP - St. Josephine Bakhita,Brampton,1,0,0,1
+2020-09-30,2020-10-01,PLASP - ST. Raphael Catholic School,Mississauga,0,1,0,1
+2020-09-30,2020-10-01,Princess Elizabeth YMCA,Orangeville,1,0,0,1
+2020-09-30,2020-10-01,Progress Childcare (Scarborough Inc. #1)  (3 Glamorgan),Toronto,0,1,0,1
+2020-09-30,2020-10-01,R L Hyslop Before and After School Program,Hamilton,1,0,0,1
+2020-09-30,2020-10-01,Rexdale Home Child Care Agency (PHDC) (one location),Toronto,1,1,0,2
+2020-09-30,2020-10-01,Riverside Montessori Pre-School,Ottawa,1,0,0,1
+2020-09-30,2020-10-01,Schoolhouse Playcare - Cadarackque,Ajax,1,0,0,1
+2020-09-30,2020-10-01,Service à l'enfance Aladin Childcare Services,Ottawa,1,0,0,1
+2020-09-30,2020-10-01,Silver Creek Pre-School (Silver Creek Centre for Early Learning & Development),Toronto,2,0,0,2
+2020-09-30,2020-10-01,St. Boniface YMCA Childcare (YMCA),Toronto,0,1,0,1
+2020-09-30,2020-10-01,St. Columba YMCA Child Care,Toronto,2,0,0,2
+2020-09-30,2020-10-01,St. Gregory's Before and After School Club (North York Little Prints),Toronto,1,0,0,1
+2020-09-30,2020-10-01,The Alderbuds Child Care Centre of Etobicoke,Toronto,2,0,0,2
+2020-09-30,2020-10-01,Toronto Home Child Care Agency (#0000415) (City of Toronto) (one location),Toronto,1,0,0,1
+2020-09-30,2020-10-01,Umbrella Family - Templemead,Hamilton,0,1,0,1
+2020-09-30,2020-10-01,Vincent Massey Academy- Franklin Horner Campus,Toronto,0,1,0,1
+2020-09-30,2020-10-01,Wee Watch (one location),Brampton,1,0,0,1
+2020-09-30,2020-10-01,Wee Watch Private Home Day Care-East (one location),Russell ,0,1,0,1
+2020-09-30,2020-10-01,Woodgreen Community Services (Leslieville Child Care),Toronto,1,0,0,1
+2020-09-30,2020-10-01,YMCA Toronto - Ellwood YMCA School Age,Bolton,1,0,0,1
+2020-09-30,2020-10-01,YWCA KW St. Paul Childcare,Kitchener,1,0,0,1
+2020-10-01,2020-10-02,Andrew Fleck Home Child Care (one location),Ottawa,0,1,0,1
+2020-10-01,2020-10-02,Bowmore Child Enrichment Centre (Operator: Earl Haig) (80 Bowmore Road),Toronto,1,0,0,1
+2020-10-01,2020-10-02,BrightPath Eglinton,Toronto,1,0,0,1
+2020-10-01,2020-10-02,Bruce Trail Early Learning and Child Care Centre,Milton,0,1,0,1
+2020-10-01,2020-10-02,Cardinal Leger Child Care Centre (Scarborough),Toronto,0,1,0,1
+2020-10-01,2020-10-02,Centre éducatif Brin de Soleil - Horizon Jeunesse,Ottawa,1,0,0,1
+2020-10-01,2020-10-02,Centre éducatif Les Petits Tresors - Pavillon Alfred,Alfred,1,0,0,1
+2020-10-01,2020-10-02,Centro-Clinton Day Care Centre,Toronto,0,1,0,1
+2020-10-01,2020-10-02,Children's Circle Montessori School,Brampton,1,0,0,1
+2020-10-01,2020-10-02,Childventures Early Learning Academy Aurora,Aurora,0,1,0,1
+2020-10-01,2020-10-02,City View Centre for Child & Family Services (Group Care),Ottawa,0,1,0,1
+2020-10-01,2020-10-02,Clara Hughes Early Learning and Child Care Centre,Oshawa,0,1,0,1
+2020-10-01,2020-10-02,Community Centre 55,Toronto,1,0,0,1
+2020-10-01,2020-10-02,Downtown Montessori at Coatsworth  (formerly Ward Nine -Coatsworth),Toronto,0,1,0,1
+2020-10-01,2020-10-02,Downtown Montessori at Concord City Place,Toronto,1,0,0,1
+2020-10-01,2020-10-02,FunCare Learning Centre,Elmira,1,0,0,1
+2020-10-01,2020-10-02,Garderie Éducative Renée Tassé,Ottawa,1,1,0,2
+2020-10-01,2020-10-02,Garderie Tunney's Day Care,Ottawa,0,1,0,1
+2020-10-01,2020-10-02,Glebe Parents' Daycare First Avenue Campus,Ottawa,1,0,0,1
+2020-10-01,2020-10-02,Global Home Child Care (one location),Ottawa,0,1,0,1
+2020-10-01,2020-10-02,Halton Hills Child Care Centre,Georgetown,1,0,0,1
+2020-10-01,2020-10-02,Happy Tots Day Nursery,Oshawa,0,1,0,1
+2020-10-01,2020-10-02,Hillfield Strathallan College,Hamilton,1,0,0,1
+2020-10-01,2020-10-02,Inspiring Minds Early Learning Centre,Wellesley,0,1,0,1
+2020-10-01,2020-10-02,Kiddies Lodge Daycare Centre,Toronto,1,0,0,1
+2020-10-01,2020-10-02,KIDS COME FIRST CHILD CARE CENTRE,Guelph,1,0,0,1
+2020-10-01,2020-10-02,La Coccinelle,Orléans,1,2,0,3
+2020-10-01,2020-10-02,La Coccinelle Reine des Bois,Ottawa,1,0,0,1
+2020-10-01,2020-10-02,L'Arche des amis de Russell,Russell,1,0,0,1
+2020-10-01,2020-10-02,Lawrence Heights Community Day Care Centre,Toronto,0,1,0,1
+2020-10-01,2020-10-02,Le Cerf-Volant - Édouard-Bond,Ottawa,1,0,0,1
+2020-10-01,2020-10-02,"Le Cerf-Volant, George-Étienne-Cartier",Ottawa,1,1,0,2
+2020-10-01,2020-10-02,Le Club - Bond Lake,Richmond Hill,0,1,0,1
+2020-10-01,2020-10-02,Locomotion Day Care Centre - Full Day ,Tottenham,1,0,0,1
+2020-10-01,2020-10-02,MCDC/St. John,Toronto,0,1,0,1
+2020-10-01,2020-10-02,Metcalfe Home Day Care (two locations),Metcalfe,1,1,0,2
+2020-10-01,2020-10-02,MIFO- école Notre Dame des Champs,Ottawa,0,1,0,1
+2020-10-01,2020-10-02,MIFO école St. Joseph d'Orléans,Orléans,0,1,0,1
+2020-10-01,2020-10-02,MIFO-école des Pionniers,Orléans,1,0,0,1
+2020-10-01,2020-10-02,Montessori School House Inc,Maple,1,0,0,1
+2020-10-01,2020-10-02,My Little School - (Victoria Village Children's Services) - 1492 Victoria Park,Toronto,1,0,0,1
+2020-10-01,2020-10-02,Netivot HaTorah  - South Campus,Toronto,1,0,0,1
+2020-10-01,2020-10-02,OAKVILLE FAMILY YMCA SACC - SUNNINGDALE,Oakville,2,0,0,2
+2020-10-01,2020-10-02,Palmerston Community Daycare,Toronto,1,0,0,1
+2020-10-01,2020-10-02,PLASP - Birchbank P.S.,Brampton,1,0,0,1
+2020-10-01,2020-10-02,PLASP - San Lorenzo Ruiz,Mississauga,1,0,0,1
+2020-10-01,2020-10-02,PLASP - St. Charles Garnier Catholic School,Mississauga,1,0,0,1
+2020-10-01,2020-10-02,PLASP - St. Josephine Bakhita,Brampton,1,0,0,1
+2020-10-01,2020-10-02,PLASP - ST. Raphael Catholic School,Mississauga,0,1,0,1
+2020-10-01,2020-10-02,PLASP Steelesview Public School,North York ,1,0,0,1
+2020-10-01,2020-10-02,Princess Elizabeth YMCA,Orangeville,1,0,0,1
+2020-10-01,2020-10-02,Progress Childcare (Scarborough Inc. #1)  (3 Glamorgan),Toronto,0,1,0,1
+2020-10-01,2020-10-02,R L Hyslop Before and After School Program,Hamilton,1,0,0,1
+2020-10-01,2020-10-02,Rexdale Home Child Care Agency (PHDC) (one location),Toronto,1,1,0,2
+2020-10-01,2020-10-02,Riverside Montessori Pre-School,Ottawa,1,0,0,1
+2020-10-01,2020-10-02,Schoolhouse Playcare - Cadarackque,Ajax,1,0,0,1
+2020-10-01,2020-10-02,Service à l'enfance Aladin Childcare Services,Ottawa,1,0,0,1
+2020-10-01,2020-10-02,Silver Creek Pre-School (Silver Creek Centre for Early Learning & Development),Toronto,2,0,0,2
+2020-10-01,2020-10-02,St. Boniface YMCA Childcare (YMCA),Toronto,0,1,0,1
+2020-10-01,2020-10-02,St. Columba YMCA Child Care,Toronto,2,0,0,2
+2020-10-01,2020-10-02,St. Gregory's Before and After School Club (North York Little Prints),Toronto,1,0,0,1
+2020-10-01,2020-10-02,St. Jacobs Day Care Inc.,St. Jacobs,1,0,0,1
+2020-10-01,2020-10-02,The Alderbuds Child Care Centre of Etobicoke,Toronto,2,0,0,2
+2020-10-01,2020-10-02,The Little School Daycare - Orleans,Orléans,0,1,0,1
+2020-10-01,2020-10-02,Toronto Home Child Care Agency (#0000415) (City of Toronto) (one location),Toronto,1,0,0,1
+2020-10-01,2020-10-02,Umbrella Family - Templemead,Hamilton,0,1,0,1
+2020-10-01,2020-10-02,Vincent Massey Academy- Franklin Horner Campus,Toronto,0,1,0,1
+2020-10-01,2020-10-02,Wee Watch (one location),Brampton,1,0,0,1
+2020-10-01,2020-10-02,Wee Watch Private Home Day Care-East (one location),Russell ,0,1,0,1
+2020-10-01,2020-10-02,Woodgreen Community Services (Leslieville Child Care),Toronto,1,0,0,1
+2020-10-01,2020-10-02,YMCA Toronto - Ellwood YMCA School Age,Bolton,1,0,0,1
+2020-10-01,2020-10-02,YMCA-YWCA Guelph - Woodland Glen 'Y' Child Care,Guelph,1,0,0,1
+2020-10-01,2020-10-02,YWCA KW St. Paul Childcare,Kitchener,1,0,0,1
