@@ -823,6 +823,11 @@ dl_file('https://www.arcgis.com/sharing/rest/content/items/26c902bf1da44d3d90b09
         'on/ottawa-residents-tested/',
         'COVID-19_Ottawa_Residents_Tested_EN')
 
+# QC - COVID-19 detailed time series by region
+dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/covid19-hist.csv',
+        'qc/covid-time-series-by-region-and-demographics/',
+        'covid19-hist')
+
 # QC - COVID-19 time series by region
 dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/PL_DATE.csv',
         'qc/covid-time-series-by-region/',

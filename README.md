@@ -259,6 +259,7 @@ The sources and terms of use for each included dataset are linked below. Supplem
 ### Quebec
 
 * [Données COVID-19 au Québec](https://www.inspq.qc.ca/covid-19/donnees)
+    * COVID-19 time series by region and demographics: [qc/covid-time-series-by-region-and-demographics/covid19-hist.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/covid-time-series-by-region-and-demographics)
     * COVID-19 time series by region: [qc/covid-time-series-by-region/PL_DATE.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/covid-time-series-by-region)
         * [Advice for data process by Simon Coulombe](https://gist.github.com/SimonCoulombe/9a329052ac4cefd421febd8650ed84e2)
     * COVID-19 data (charts - summary, time series, and hospitalization by age): [qc/covid-data-charts-summary-time-series-hosp-by-age/manual-data.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/covid-data-charts-summary-time-series-hosp-by-age)
