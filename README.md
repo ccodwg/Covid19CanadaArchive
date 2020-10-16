@@ -260,14 +260,14 @@ The sources and terms of use for each included dataset are linked below. Supplem
 
 * [Données COVID-19 au Québec](https://www.inspq.qc.ca/covid-19/donnees)
     * COVID-19 time series by region and demographics: [qc/covid-time-series-by-region-and-demographics/covid19-hist.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/covid-time-series-by-region-and-demographics)
-    * COVID-19 time series by region: [qc/covid-time-series-by-region/PL_DATE.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/covid-time-series-by-region)
-        * [Advice for data process by Simon Coulombe](https://gist.github.com/SimonCoulombe/9a329052ac4cefd421febd8650ed84e2)
     * COVID-19 data (charts - summary, time series, and hospitalization by age): [qc/covid-data-charts-summary-time-series-hosp-by-age/manual-data.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/covid-data-charts-summary-time-series-hosp-by-age)
     * Summary by region: [qc/summary-by-region/regions.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/summary-by-region)
     * Deaths by RSS (health region) and living environment: [qc/deaths-by-rss-and-living-environment/tableau-rpa-new.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/deaths-by-rss-and-living-environment) (Renamed from tableau-rpa.csv after 2020-09-16)
     * Cases by RSS (health region) and RLS (local service network): [qc/cases-by-rss-and-rls/tableau-rls-new.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/cases-by-rss-and-rls) (Renamed from tableau-rls.csv after 2020-09-16)
     * Comparisons (provinces): [qc/comparisons-provinces/comparaisons_prov.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/comparisons-provinces)
     * Comparisons (countries): [qc/comparisons-countries/comparaisons_pays.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/comparisons-countries)
+    * COVID-19 time series by region: [qc/covid-time-series-by-region/PL_DATE.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/covid-time-series-by-region) (Archived as of 2020-10-15, no longer part of the nightly update)
+        * [Advice for data process by Simon Coulombe](https://gist.github.com/SimonCoulombe/9a329052ac4cefd421febd8650ed84e2)
     * COVID-19 data: [qc/covid-data/combine.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/covid-data) (Archived as of 2020-09-16, no longer part of the nightly update)
     * COVID-19 data (charts): [qc/covid-data-charts/combine2.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/covid-data-charts) (Archived as of 2020-09-16, no longer part of the nightly update)
     * Terms of use: TBD
