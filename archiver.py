@@ -769,10 +769,16 @@ dl_file('https://docs.google.com/spreadsheets/d/1euhrML0rkV_hHF1thiA0G5vSSeZCqxH
         'CityofToronto_COVID-19_Data',
         ext='.xlsx')
 
-# ON - City of Toronto COVID-19 Neighbourhood Data
+# ON - City of Toronto COVID-19 Neighbourhood Case Data
 dl_file('https://docs.google.com/spreadsheets/d/1jzH64LvFQ-UsDibXO0MOtvjbL2CvnV3N/export?format=xlsx&id=1jzH64LvFQ-UsDibXO0MOtvjbL2CvnV3N',
         'on/toronto-neighbourhood-data/',
         'CityofToronto_COVID-19_NeighbourhoodData',
+        ext='.xlsx')
+
+# ON - City of Toronto COVID-19 Neighbourhood Testing Data
+dl_file('https://docs.google.com/spreadsheets/d/1xI6ckKQIOt_RNCuI0HXs7WJsgqFP015c/export?format=xlsx&id=1xI6ckKQIOt_RNCuI0HXs7WJsgqFP015c',
+        'on/toronto-neighbourhood-test-data/',
+        'CityofToronto_COVID-19_Testing',
         ext='.xlsx')
 
 # ON - City of Toronto COVID-19 Monitoring Dashboard
