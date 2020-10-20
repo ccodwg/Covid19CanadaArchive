@@ -224,8 +224,12 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * [on/toronto-covid-summary/CityofToronto_COVID-19_Data.xlsx](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/on/toronto-covid-summary)
     * Include supplementary material: Technical notes
     * Terms of use: Assumed to be [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
-* [City of Toronto COVID-19 Neighbourhood Data](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-status-of-cases-in-toronto/)
+* [City of Toronto COVID-19 Neighbourhood Case Data](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-status-of-cases-in-toronto/)
     * [on/toronto-neighbourhood-data/CityofToronto_COVID-19_NeighbourhoodData.xlsx](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/on/toronto-neighbourhood-data)
+    * Include supplementary material: Technical notes
+    * Terms of use: Assumed to be [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
+* [City of Toronto COVID-19 Neighbourhood Testing Data](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-status-of-cases-in-toronto/)
+    * [on/toronto-neighbourhood-test-data/CityofToronto_COVID-19_Testing.xlsx](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/on/toronto-neighbourhood-test-data)
     * Include supplementary material: Technical notes
     * Terms of use: Assumed to be [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
 * [City of Toronto COVID-19 Monitoring Dashboard](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-status-of-cases-in-toronto/)
