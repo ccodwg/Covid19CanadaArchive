@@ -1,0 +1,420 @@
+Jurisdiction,Week2,week_FR,Week_patients_tested,Week_confirmed_positive,Percent_positive
+Alberta,Mar 15-21,15 au 21 mar,17813,164,0.0092067591
+Alberta,Mar 22-28,22 au 28 mar,18631,285,0.0152970855
+Alberta,Mar 29-04,29 au 04 mar,20829,408,0.0195880743
+Alberta,Apr 05-11,06 au 11 avr,10259,210,0.0204698314
+Alberta,Apr 12-18,12 au 18 avr,20183,806,0.0399345984
+Alberta,Apr 26-02,26 au 02 avr,27513,1365,0.0496129103
+Alberta,May 03-9,03 au 9 mai,20658,505,0.0244457353
+Alberta,May 10-16,10 au 16 mai,23683,449,0.0189587468
+Alberta,May 17-23,17 au 23 mai,19626,239,0.0121777234
+Alberta,May 24-30,24 au 30 mai,19978,173,0.0086595255
+Alberta,May 31-06,31 au 06 mai,26329,165,0.006266854
+Alberta,Jun 07-13,07 au 13 jun,38077,239,0.006276755
+Alberta,Jun 14-20,14 au 20 jun,42057,288,0.0068478493
+Alberta,Jun 21-27,21 au 27 jun,39464,272,0.0068923576
+Alberta,Jun 28-04,28 au 04 jun,38862,334,0.0085945139
+Alberta,Jul 05-11,05 au 11 jui,35301,352,0.0099713889
+Alberta,Jul 12-18,12 au 18 jui,40131,706,0.0175923849
+Alberta,Jul 19-25,19 au 25 jui,41885,795,0.018980542
+Alberta,Jul 26-1,26 au 1 jui,45172,735,0.0162711414
+Alberta,Aug 02-08,2 au 8 août,39270,580,0.0147695442
+Alberta,Aug 09-15,9 au 15 août,40897,677,0.0165537815
+Alberta,Aug 16-22,16 au 22 aoû,44490,590,0.0132614071
+Alberta,Aug 23-29,23 au 29 aoû,46173,767,0.0166114396
+Alberta,Aug 30-05,30 au 5 sep,49752,992,0.0199388969
+Alberta,Sep 06-12,6 au 12 sep,54182,887,0.0163707504
+Alberta,Sep 13-19,13 au 19 sep,62966,948,0.0150557444
+Alberta,Sep 20-26,20 au 26 sep,60817,876,0.0144038673
+Alberta,Sep 27-3,27 au 2 oct,33609,477,0.014192627
+Alberta,Oct 04-10,4 au 10 oct,75271,1305,0.0173373544
+Alberta,Oct 11-17,11 au 17 oct,98628,1731,0.0175507969
+British Columbia,Mar 15-21,15 au 21 mar,13384,325,0.0242827256
+British Columbia,Mar 22-28,22 au 28 mar,11174,403,0.0360658672
+British Columbia,Mar 29-04,29 au 04 mar,9180,382,0.0416122004
+British Columbia,Apr 05-11,06 au 11 avr,5465,196,0.0358645929
+British Columbia,Apr 12-18,12 au 18 avr,7333,248,0.0338197191
+British Columbia,Apr 26-02,26 au 02 avr,13204,292,0.0221145108
+British Columbia,May 03-9,03 au 9 mai,13764,170,0.0123510607
+British Columbia,May 10-16,10 au 16 mai,11358,92,0.0081000176
+British Columbia,May 17-23,17 au 23 mai,8520,100,0.0117370892
+British Columbia,May 24-30,24 au 30 mai,10027,55,0.00548519
+British Columbia,May 31-06,31 au 06 mai,11214,66,0.0058855003
+British Columbia,Jun 07-13,07 au 13 jun,8843,76,0.0085943684
+British Columbia,Jun 14-20,14 au 20 jun,9996,80,0.0080032013
+British Columbia,Jun 21-27,21 au 27 jun,10337,87,0.0084163684
+British Columbia,Jun 28-04,28 au 04 jun,10796,68,0.0062986291
+British Columbia,Jul 05-11,05 au 11 jui,10106,105,0.0103898674
+British Columbia,Jul 12-18,12 au 18 jui,16654,141,0.0084664345
+British Columbia,Jul 19-25,19 au 25 jui,14406,212,0.0147160905
+British Columbia,Jul 26-1,26 au 1 jui,14870,212,0.0142568931
+British Columbia,Aug 02-08,2 au 8 août,11050,283,0.0256108597
+British Columbia,Aug 09-15,9 au 15 août,20762,419,0.0201811001
+British Columbia,Aug 16-22,16 au 22 aoû,21573,546,0.0253094145
+British Columbia,Aug 23-29,23 au 29 aoû,23015,569,0.0247230067
+British Columbia,Aug 30-05,30 au 5 sep,24431,651,0.0266464737
+British Columbia,Sep 06-12,6 au 12 sep,21583,782,0.0362322198
+British Columbia,Sep 13-19,13 au 19 sep,32055,861,0.0268600842
+British Columbia,Sep 20-26,20 au 26 sep,35482,767,0.0216165943
+British Columbia,Sep 27-3,27 au 2 oct,41051,725,0.0176609583
+British Columbia,Oct 04-10,4 au 10 oct,41699,787,0.0188733543
+British Columbia,Oct 11-17,11 au 17 oct,42295,983,0.0232415179
+Canada,Mar 15-21,15 au 21 mar,67897,978,0.014404171
+Canada,Mar 22-28,22 au 28 mar,101787,4367,0.0429033177
+Canada,Mar 29-04,29 au 04 mar,120700,8114,0.0672245236
+Canada,Apr 05-11,06 au 11 avr,93467,9060,0.0969326072
+Canada,Apr 12-18,12 au 18 avr,131300,8460,0.0644325971
+Canada,Apr 26-02,26 au 02 avr,184801,10650,0.0576295583
+Canada,May 03-9,03 au 9 mai,205588,10159,0.0494143627
+Canada,May 10-16,10 au 16 mai,191338,7861,0.0410843638
+Canada,May 17-23,17 au 23 mai,151879,6675,0.0439494598
+Canada,May 24-30,24 au 30 mai,204045,6218,0.03047367
+Canada,May 31-06,31 au 06 mai,235025,4762,0.0202616743
+Canada,Jun 07-13,07 au 13 jun,242932,3297,0.0135716991
+Canada,Jun 14-20,14 au 20 jun,269109,2720,0.0101074286
+Canada,Jun 21-27,21 au 27 jun,268554,2148,0.0079983914
+Canada,Jun 28-04,28 au 04 jun,269828,2017,0.0074751323
+Canada,Jul 05-11,05 au 11 jui,269921,2112,0.0078245116
+Canada,Jul 12-18,12 au 18 jui,300572,2677,0.0089063519
+Canada,Jul 19-25,19 au 25 jui,280572,3485,0.0124210541
+Canada,Jul 26-1,26 au 1 jui,337573,3571,0.0105784527
+Canada,Aug 02-08,2 au 8 août,301128,2588,0.0085943519
+Canada,Aug 09-15,9 au 15 août,340997,2795,0.008196553
+Canada,Aug 16-22,16 au 22 aoû,335904,2239,0.0066655949
+Canada,Aug 23-29,23 au 29 aoû,325775,3111,0.0095495357
+Canada,Aug 30-05,30 au 5 sep,334647,3798,0.0113492725
+Canada,Sep 06-12,6 au 12 sep,329779,4508,0.0136697607
+Canada,Sep 13-19,13 au 19 sep,489774,6718,0.0137165305
+Canada,Sep 20-26,20 au 26 sep,499687,8737,0.0174849456
+Canada,Sep 27-3,27 au 2 oct,501652,12400,0.0247183306
+Canada,Oct 04-10,4 au 10 oct,551408,14520,0.0263325886
+Canada,Oct 11-17,11 au 17 oct,523034,16185,0.030944451
+Manitoba,Mar 15-21,15 au 21 mar,2831,12,0.0042387849
+Manitoba,Mar 22-28,22 au 28 mar,3263,52,0.015936255
+Manitoba,Mar 29-04,29 au 04 mar,5260,124,0.0235741445
+Manitoba,Apr 05-11,06 au 11 avr,4029,37,0.0091834202
+Manitoba,Apr 12-18,12 au 18 avr,3192,18,0.0056390977
+Manitoba,Apr 26-02,26 au 02 avr,3028,9,0.0029722589
+Manitoba,May 03-9,03 au 9 mai,3702,9,0.0024311183
+Manitoba,May 10-16,10 au 16 mai,3857,3,0.0007778066
+Manitoba,May 17-23,17 au 23 mai,3730,3,0.0008042895
+Manitoba,May 24-30,24 au 30 mai,6064,5,0.0008245383
+Manitoba,May 31-06,31 au 06 mai,5222,6,0.0011489851
+Manitoba,Jun 07-13,07 au 13 jun,3737,3,0.000802783
+Manitoba,Jun 14-20,14 au 20 jun,4099,9,0.0021956575
+Manitoba,Jun 21-27,21 au 27 jun,4339,7,0.0016132749
+Manitoba,Jun 28-04,28 au 04 jun,3371,3,0.0008899436
+Manitoba,Jul 05-11,05 au 11 jui,5677,0,0
+Manitoba,Jul 12-18,12 au 18 jui,2800,11,0.0039285714
+Manitoba,Jul 19-25,19 au 25 jui,6860,48,0.0069970845
+Manitoba,Jul 26-1,26 au 1 jui,7381,29,0.0039290069
+Manitoba,Aug 02-08,2 au 8 août,9978,91,0.0091200641
+Manitoba,Aug 09-15,9 au 15 août,11372,153,0.0134540978
+Manitoba,Aug 16-22,16 au 22 aoû,11635,193,0.0165878814
+Manitoba,Aug 23-29,23 au 29 aoû,10154,279,0.0274768564
+Manitoba,Aug 30-05,30 au 5 sep,8095,134,0.016553428
+Manitoba,Sep 06-12,6 au 12 sep,10517,129,0.0122658553
+Manitoba,Sep 13-19,13 au 19 sep,8745,161,0.0184105203
+Manitoba,Sep 20-26,20 au 26 sep,11566,280,0.0242088881
+Manitoba,Sep 27-3,27 au 2 oct,13626,292,0.0214296198
+Manitoba,Oct 04-10,4 au 10 oct,15287,420,0.0274743246
+Manitoba,Oct 11-17,11 au 17 oct,16057,749,0.0466463225
+New Brunswick,Mar 15-21,15 au 21 mar,783,7,0.0089399745
+New Brunswick,Mar 22-28,22 au 28 mar,1946,58,0.0298047276
+New Brunswick,Mar 29-04,29 au 04 mar,2486,34,0.0136765889
+New Brunswick,Apr 05-11,06 au 11 avr,2203,12,0.0054471176
+New Brunswick,Apr 12-18,12 au 18 avr,2530,6,0.0023715415
+New Brunswick,Apr 26-02,26 au 02 avr,1973,0,0
+New Brunswick,May 03-9,03 au 9 mai,2165,2,0.0009237875
+New Brunswick,May 10-16,10 au 16 mai,2358,0,0
+New Brunswick,May 17-23,17 au 23 mai,1788,1,0.0005592841
+New Brunswick,May 24-30,24 au 30 mai,2594,7,0.0026985351
+New Brunswick,May 31-06,31 au 06 mai,7926,8,0.0010093364
+New Brunswick,Jun 07-13,07 au 13 jun,2676,21,0.0078475336
+New Brunswick,Jun 14-20,14 au 20 jun,2425,7,0.0028865979
+New Brunswick,Jun 21-27,21 au 27 jun,1530,1,0.0006535948
+New Brunswick,Jun 28-04,28 au 04 jun,1337,0,0
+New Brunswick,Jul 05-11,05 au 11 jui,1830,1,0.0005464481
+New Brunswick,Jul 12-18,12 au 18 jui,1954,2,0.0010235415
+New Brunswick,Jul 19-25,19 au 25 jui,1973,2,0.0010136847
+New Brunswick,Jul 26-1,26 au 1 jui,1590,0,0
+New Brunswick,Aug 02-08,2 au 8 août,1513,6,0.0039656312
+New Brunswick,Aug 09-15,9 au 15 août,1615,8,0.0049535604
+New Brunswick,Aug 16-22,16 au 22 aoû,1761,4,0.0022714367
+New Brunswick,Aug 23-29,23 au 29 aoû,2036,3,0.0014734774
+New Brunswick,Aug 30-05,30 au 5 sep,2227,1,0.0004490346
+New Brunswick,Sep 06-12,6 au 12 sep,2094,1,0.0004775549
+New Brunswick,Sep 13-19,13 au 19 sep,2630,1,0.0003802281
+New Brunswick,Sep 20-26,20 au 26 sep,3875,6,0.0015483871
+New Brunswick,Sep 27-3,27 au 2 oct,4725,1,0.0002116402
+New Brunswick,Oct 04-10,4 au 10 oct,3760,57,0.0151595745
+New Brunswick,Oct 11-17,11 au 17 oct,5174,47,0.0090838809
+Newfoundland and Labrador,Mar 15-21,15 au 21 mar,237,3,0.0126582278
+Newfoundland and Labrador,Mar 22-28,22 au 28 mar,1608,131,0.0814676617
+Newfoundland and Labrador,Mar 29-04,29 au 04 mar,1438,67,0.0465924896
+Newfoundland and Labrador,Apr 05-11,06 au 11 avr,1368,40,0.0292397661
+Newfoundland and Labrador,Apr 12-18,12 au 18 avr,1157,16,0.0138288678
+Newfoundland and Labrador,Apr 26-02,26 au 02 avr,1384,1,0.0007225434
+Newfoundland and Labrador,May 03-9,03 au 9 mai,983,2,0.002034588
+Newfoundland and Labrador,May 10-16,10 au 16 mai,825,0,0
+Newfoundland and Labrador,May 17-23,17 au 23 mai,683,0,0
+Newfoundland and Labrador,May 24-30,24 au 30 mai,866,1,0.0011547344
+Newfoundland and Labrador,May 31-06,31 au 06 mai,1119,0,0
+Newfoundland and Labrador,Jun 07-13,07 au 13 jun,1227,0,0
+Newfoundland and Labrador,Jun 14-20,14 au 20 jun,1281,0,0
+Newfoundland and Labrador,Jun 21-27,21 au 27 jun,1465,0,0
+Newfoundland and Labrador,Jun 28-04,28 au 04 jun,1296,0,0
+Newfoundland and Labrador,Jul 05-11,05 au 11 jui,1678,1,0.0005959476
+Newfoundland and Labrador,Jul 12-18,12 au 18 jui,1584,0,0
+Newfoundland and Labrador,Jul 19-25,19 au 25 jui,1638,3,0.0018315018
+Newfoundland and Labrador,Jul 26-1,26 au 1 jui,1695,1,0.0005899705
+Newfoundland and Labrador,Aug 02-08,2 au 8 août,1573,1,0.0006357279
+Newfoundland and Labrador,Aug 09-15,9 au 15 août,1638,1,0.0006105006
+Newfoundland and Labrador,Aug 16-22,16 au 22 aoû,1632,0,0
+Newfoundland and Labrador,Aug 23-29,23 au 29 aoû,1668,1,0.0005995204
+Newfoundland and Labrador,Aug 30-05,30 au 5 sep,1613,1,0.0006199628
+Newfoundland and Labrador,Sep 06-12,6 au 12 sep,1785,1,0.0005602241
+Newfoundland and Labrador,Sep 13-19,13 au 19 sep,2304,1,0.0004340278
+Newfoundland and Labrador,Sep 20-26,20 au 26 sep,3244,0,0
+Newfoundland and Labrador,Sep 27-3,27 au 2 oct,3201,4,0.0012496095
+Newfoundland and Labrador,Oct 04-10,4 au 10 oct,2645,3,0.0011342155
+Newfoundland and Labrador,Oct 11-17,11 au 17 oct,2012,8,0.0039761431
+Northwest Territories,Mar 15-21,15 au 21 mar,225,1,0.0044444444
+Northwest Territories,Mar 22-28,22 au 28 mar,439,0,0
+Northwest Territories,Mar 29-04,29 au 04 mar,429,3,0.006993007
+Northwest Territories,Apr 05-11,06 au 11 avr,201,1,0.0049751244
+Northwest Territories,Apr 12-18,12 au 18 avr,89,0,0
+Northwest Territories,Apr 26-02,26 au 02 avr,128,0,0
+Northwest Territories,May 03-9,03 au 9 mai,108,0,0
+Northwest Territories,May 10-16,10 au 16 mai,75,0,0
+Northwest Territories,May 17-23,17 au 23 mai,41,0,0
+Northwest Territories,May 24-30,24 au 30 mai,95,0,0
+Northwest Territories,May 31-06,31 au 06 mai,96,0,0
+Northwest Territories,Jun 07-13,07 au 13 jun,80,0,0
+Northwest Territories,Jun 14-20,14 au 20 jun,62,0,0
+Northwest Territories,Jun 21-27,21 au 27 jun,102,0,0
+Northwest Territories,Jun 28-04,28 au 04 jun,71,0,0
+Northwest Territories,Jul 05-11,05 au 11 jui,107,0,0
+Northwest Territories,Jul 12-18,12 au 18 jui,125,0,0
+Northwest Territories,Jul 19-25,19 au 25 jui,96,0,0
+Northwest Territories,Jul 26-1,26 au 1 jui,138,0,0
+Northwest Territories,Aug 02-08,2 au 8 août,139,0,0
+Northwest Territories,Aug 09-15,9 au 15 août,109,0,0
+Northwest Territories,Aug 16-22,16 au 22 aoû,175,0,0
+Northwest Territories,Aug 23-29,23 au 29 aoû,126,0,0
+Northwest Territories,Aug 30-05,30 au 5 sep,121,0,0
+Northwest Territories,Sep 06-12,6 au 12 sep,130,0,0
+Northwest Territories,Sep 13-19,13 au 19 sep,266,0,0
+Northwest Territories,Sep 20-26,20 au 26 sep,460,0,0
+Northwest Territories,Sep 27-3,27 au 2 oct,245,0,0
+Northwest Territories,Oct 04-10,4 au 10 oct,137,0,0
+Northwest Territories,Oct 11-17,11 au 17 oct,189,0,0
+Nova Scotia,Mar 15-21,15 au 21 mar,1475,8,0.0054237288
+Nova Scotia,Mar 22-28,22 au 28 mar,2522,93,0.0368754956
+Nova Scotia,Mar 29-04,29 au 04 mar,5244,135,0.0257437071
+Nova Scotia,Apr 05-11,06 au 11 avr,4789,192,0.0400918772
+Nova Scotia,Apr 12-18,12 au 18 avr,6852,221,0.0322533567
+Nova Scotia,Apr 26-02,26 au 02 avr,4454,98,0.0220026942
+Nova Scotia,May 03-9,03 au 9 mai,3757,48,0.0127761512
+Nova Scotia,May 10-16,10 au 16 mai,2385,26,0.0109014675
+Nova Scotia,May 17-23,17 au 23 mai,2056,12,0.0058365759
+Nova Scotia,May 24-30,24 au 30 mai,3932,7,0.0017802645
+Nova Scotia,May 31-06,31 au 06 mai,3475,2,0.0005755396
+Nova Scotia,Jun 07-13,07 au 13 jun,3265,3,0.0009188361
+Nova Scotia,Jun 14-20,14 au 20 jun,2299,0,0
+Nova Scotia,Jun 21-27,21 au 27 jun,1987,0,0
+Nova Scotia,Jun 28-04,28 au 04 jun,2000,3,0.0015
+Nova Scotia,Jul 05-11,05 au 11 jui,2170,2,0.000921659
+Nova Scotia,Jul 12-18,12 au 18 jui,2446,1,0.0004088307
+Nova Scotia,Jul 19-25,19 au 25 jui,2494,0,0
+Nova Scotia,Jul 26-1,26 au 1 jui,2002,2,0.000999001
+Nova Scotia,Aug 02-08,2 au 8 août,2038,2,0.0009813543
+Nova Scotia,Aug 09-15,9 au 15 août,2174,3,0.0013799448
+Nova Scotia,Aug 16-22,16 au 22 aoû,2506,4,0.0015961692
+Nova Scotia,Aug 23-29,23 au 29 aoû,3888,8,0.0020576132
+Nova Scotia,Aug 30-05,30 au 5 sep,4571,4,0.000875082
+Nova Scotia,Sep 06-12,6 au 12 sep,3691,0,0
+Nova Scotia,Sep 13-19,13 au 19 sep,4105,0,0
+Nova Scotia,Sep 20-26,20 au 26 sep,4603,1,0.0002172496
+Nova Scotia,Sep 27-3,27 au 2 oct,5245,2,0.0003813155
+Nova Scotia,Oct 04-10,4 au 10 oct,3845,4,0.0010403121
+Nova Scotia,Oct 11-17,11 au 17 oct,3853,2,0.000519076
+Nunavut,Mar 15-21,15 au 21 mar,1,0,0
+Nunavut,Mar 22-28,22 au 28 mar,118,0,0
+Nunavut,Mar 29-04,29 au 04 mar,82,0,0
+Nunavut,Apr 05-11,06 au 11 avr,54,0,0
+Nunavut,Apr 12-18,12 au 18 avr,43,0,0
+Nunavut,Apr 26-02,26 au 02 avr,60,1,0.0166666667
+Nunavut,May 03-9,03 au 9 mai,147,-1,-0.006802721
+Nunavut,May 10-16,10 au 16 mai,80,0,0
+Nunavut,May 17-23,17 au 23 mai,50,0,0
+Nunavut,May 24-30,24 au 30 mai,74,0,0
+Nunavut,May 31-06,31 au 06 mai,58,0,0
+Nunavut,Jun 07-13,07 au 13 jun,67,0,0
+Nunavut,Jun 14-20,14 au 20 jun,86,0,0
+Nunavut,Jun 21-27,21 au 27 jun,64,0,0
+Nunavut,Jun 28-04,28 au 04 jun,65,0,0
+Nunavut,Jul 05-11,05 au 11 jui,62,0,0
+Nunavut,Jul 12-18,12 au 18 jui,69,0,0
+Nunavut,Jul 19-25,19 au 25 jui,53,0,0
+Nunavut,Jul 26-1,26 au 1 jui,108,0,0
+Nunavut,Aug 02-08,2 au 8 août,54,0,0
+Nunavut,Aug 09-15,9 au 15 août,104,0,0
+Nunavut,Aug 16-22,16 au 22 aoû,80,0,0
+Nunavut,Aug 23-29,23 au 29 aoû,132,0,0
+Nunavut,Aug 30-05,30 au 5 sep,120,0,0
+Nunavut,Sep 06-12,6 au 12 sep,136,0,0
+Nunavut,Sep 13-19,13 au 19 sep,168,0,0
+Nunavut,Sep 20-26,20 au 26 sep,164,0,0
+Nunavut,Sep 27-3,27 au 2 oct,143,0,0
+Nunavut,Oct 04-10,4 au 10 oct,180,0,0
+Nunavut,Oct 11-17,11 au 17 oct,82,0,0
+Ontario,Mar 15-21,15 au 21 mar,18824,269,0.0142902677
+Ontario,Mar 22-28,22 au 28 mar,20366,892,0.0437984877
+Ontario,Mar 29-04,29 au 04 mar,26838,2368,0.0882331023
+Ontario,Apr 05-11,06 au 11 avr,25164,3018,0.119933238
+Ontario,Apr 12-18,12 au 18 avr,50268,3362,0.0668815151
+Ontario,Apr 26-02,26 au 02 avr,94667,3558,0.0375843747
+Ontario,May 03-9,03 au 9 mai,103006,2685,0.0260664427
+Ontario,May 10-16,10 au 16 mai,91521,2075,0.0226723921
+Ontario,May 17-23,17 au 23 mai,69043,2727,0.039497125
+Ontario,May 24-30,24 au 30 mai,98028,2493,0.0254315094
+Ontario,May 31-06,31 au 06 mai,126552,2669,0.0210901448
+Ontario,Jun 07-13,07 au 13 jun,143464,1790,0.0124769977
+Ontario,Jun 14-20,14 au 20 jun,165261,1309,0.0079208041
+Ontario,Jun 21-27,21 au 27 jun,170716,1175,0.0068827761
+Ontario,Jun 28-04,28 au 04 jun,169776,1180,0.0069503346
+Ontario,Jul 05-11,05 au 11 jui,157072,938,0.0059717836
+Ontario,Jul 12-18,12 au 18 jui,167961,846,0.0050368836
+Ontario,Jul 19-25,19 au 25 jui,173611,1103,0.0063532841
+Ontario,Jul 26-1,26 au 1 jui,180345,790,0.0043804929
+Ontario,Aug 02-08,2 au 8 août,161720,634,0.0039203562
+Ontario,Aug 09-15,9 au 15 août,180303,598,0.0033166392
+Ontario,Aug 16-22,16 au 22 aoû,174825,722,0.0041298441
+Ontario,Aug 23-29,23 au 29 aoû,170922,796,0.004657095
+Ontario,Aug 30-05,30 au 5 sep,175254,920,0.0052495235
+Ontario,Sep 06-12,6 au 12 sep,143532,1065,0.0074199482
+Ontario,Sep 13-19,13 au 19 sep,254038,2416,0.0095103882
+Ontario,Sep 20-26,20 au 26 sep,248832,2856,0.0114776235
+Ontario,Sep 27-3,27 au 2 oct,274463,4293,0.0156414526
+Ontario,Oct 04-10,4 au 10 oct,291026,4857,0.0166892305
+Ontario,Oct 11-17,11 au 17 oct,258502,5223,0.0202048727
+Prince Edward Island,Mar 22-28,22 au 28 mar,416,8,0.0192307692
+Prince Edward Island,Mar 29-04,29 au 04 mar,417,5,0.0119904077
+Prince Edward Island,Apr 05-11,06 au 11 avr,734,11,0.014986376
+Prince Edward Island,Apr 12-18,12 au 18 avr,513,1,0.0019493177
+Prince Edward Island,Apr 26-02,26 au 02 avr,398,0,0
+Prince Edward Island,May 03-9,03 au 9 mai,691,0,0
+Prince Edward Island,May 10-16,10 au 16 mai,842,1,0.0011876485
+Prince Edward Island,May 17-23,17 au 23 mai,761,0,0
+Prince Edward Island,May 24-30,24 au 30 mai,922,0,0
+Prince Edward Island,May 31-06,31 au 06 mai,895,0,0
+Prince Edward Island,Jun 07-13,07 au 13 jun,1044,0,0
+Prince Edward Island,Jun 14-20,14 au 20 jun,1406,0,0
+Prince Edward Island,Jun 21-27,21 au 27 jun,1404,0,0
+Prince Edward Island,Jun 28-04,28 au 04 jun,1317,3,0.0022779043
+Prince Edward Island,Jul 05-11,05 au 11 jui,1963,3,0.0015282731
+Prince Edward Island,Jul 12-18,12 au 18 jui,2557,3,0.0011732499
+Prince Edward Island,Jul 19-25,19 au 25 jui,1629,0,0
+Prince Edward Island,Jul 26-1,26 au 1 jui,1312,0,0
+Prince Edward Island,Aug 02-08,2 au 8 août,1429,0,0
+Prince Edward Island,Aug 09-15,9 au 15 août,2055,5,0.00243309
+Prince Edward Island,Aug 16-22,16 au 22 aoû,2098,3,0.0014299333
+Prince Edward Island,Aug 23-29,23 au 29 aoû,1933,0,0
+Prince Edward Island,Aug 30-05,30 au 5 sep,1839,2,0.0010875476
+Prince Edward Island,Sep 06-12,6 au 12 sep,1920,9,0.0046875
+Prince Edward Island,Sep 13-19,13 au 19 sep,2276,2,0.0008787346
+Prince Edward Island,Sep 20-26,20 au 26 sep,2924,1,0.0003419973
+Prince Edward Island,Sep 27-3,27 au 2 oct,2366,2,0.0008453085
+Prince Edward Island,Oct 04-10,4 au 10 oct,2239,1,0.000446628
+Prince Edward Island,Oct 11-17,11 au 17 oct,2205,2,0.0009070295
+Quebec,Mar 15-21,15 au 21 mar,8000,157,0.019625
+Quebec,Mar 22-28,22 au 28 mar,36664,2317,0.0631955051
+Quebec,Mar 29-04,29 au 04 mar,44140,4499,0.101925691
+Quebec,Apr 05-11,06 au 11 avr,33716,5295,0.1570470993
+Quebec,Apr 12-18,12 au 18 avr,34827,3763,0.1080483533
+Quebec,Apr 26-02,26 au 02 avr,34066,5240,0.1538190571
+Quebec,May 03-9,03 au 9 mai,51956,6609,0.1272037878
+Quebec,May 10-16,10 au 16 mai,50995,5187,0.1017158545
+Quebec,May 17-23,17 au 23 mai,43038,3553,0.0825549514
+Quebec,May 24-30,24 au 30 mai,58075,3463,0.0596297891
+Quebec,May 31-06,31 au 06 mai,48842,1842,0.0377134433
+Quebec,Jun 07-13,07 au 13 jun,37131,1150,0.0309714255
+Quebec,Jun 14-20,14 au 20 jun,36484,947,0.0259565837
+Quebec,Jun 21-27,21 au 27 jun,33313,575,0.0172605289
+Quebec,Jun 28-04,28 au 04 jun,37422,402,0.0107423441
+Quebec,Jul 05-11,05 au 11 jui,49637,675,0.0135987268
+Quebec,Jul 12-18,12 au 18 jui,58286,864,0.0148234567
+Quebec,Jul 19-25,19 au 25 jui,27803,1084,0.0389885984
+Quebec,Jul 26-1,26 au 1 jui,73256,1639,0.022373594
+Quebec,Aug 02-08,2 au 8 août,64427,887,0.0137675198
+Quebec,Aug 09-15,9 au 15 août,71181,796,0.0111827594
+Quebec,Aug 16-22,16 au 22 aoû,68150,157,0.0023037417
+Quebec,Aug 23-29,23 au 29 aoû,58842,673,0.0114374087
+Quebec,Aug 30-05,30 au 5 sep,58773,1058,0.0180014633
+Quebec,Sep 06-12,6 au 12 sep,82450,1562,0.018944815
+Quebec,Sep 13-19,13 au 19 sep,109423,2247,0.0205349881
+Quebec,Sep 20-26,20 au 26 sep,116644,3880,0.0332636055
+Quebec,Sep 27-3,27 au 2 oct,112486,6524,0.0579983287
+Quebec,Oct 04-10,4 au 10 oct,104302,6953,0.0666621925
+Quebec,Oct 11-17,11 au 17 oct,84292,7226,0.0857258103
+Saskatchewan,Mar 15-21,15 au 21 mar,3908,32,0.0081883316
+Saskatchewan,Mar 22-28,22 au 28 mar,4415,123,0.0278595696
+Saskatchewan,Mar 29-04,29 au 04 mar,4233,87,0.0205527994
+Saskatchewan,Apr 05-11,06 au 11 avr,5444,47,0.0086333578
+Saskatchewan,Apr 12-18,12 au 18 avr,4260,18,0.0042253521
+Saskatchewan,Apr 26-02,26 au 02 avr,3801,86,0.0226256248
+Saskatchewan,May 03-9,03 au 9 mai,4595,130,0.0282916213
+Saskatchewan,May 10-16,10 au 16 mai,3310,28,0.0084592145
+Saskatchewan,May 17-23,17 au 23 mai,2522,40,0.0158604282
+Saskatchewan,May 24-30,24 au 30 mai,3359,14,0.0041679071
+Saskatchewan,May 31-06,31 au 06 mai,3272,4,0.0012224939
+Saskatchewan,Jun 07-13,07 au 13 jun,3287,15,0.0045634317
+Saskatchewan,Jun 14-20,14 au 20 jun,3638,80,0.0219901045
+Saskatchewan,Jun 21-27,21 au 27 jun,3811,31,0.0081343479
+Saskatchewan,Jun 28-04,28 au 04 jun,3492,24,0.0068728522
+Saskatchewan,Jul 05-11,05 au 11 jui,4286,35,0.0081661223
+Saskatchewan,Jul 12-18,12 au 18 jui,5941,103,0.0173371486
+Saskatchewan,Jul 19-25,19 au 25 jui,8027,235,0.0292761928
+Saskatchewan,Jul 26-1,26 au 1 jui,9580,163,0.0170146138
+Saskatchewan,Aug 02-08,2 au 8 août,7713,103,0.0133540775
+Saskatchewan,Aug 09-15,9 au 15 août,8467,135,0.0159442542
+Saskatchewan,Aug 16-22,16 au 22 aoû,6800,20,0.0029411765
+Saskatchewan,Aug 23-29,23 au 29 aoû,6703,15,0.002237804
+Saskatchewan,Aug 30-05,30 au 5 sep,7649,35,0.0045757615
+Saskatchewan,Sep 06-12,6 au 12 sep,7596,72,0.009478673
+Saskatchewan,Sep 13-19,13 au 19 sep,10632,81,0.0076185102
+Saskatchewan,Sep 20-26,20 au 26 sep,10845,70,0.0064545874
+Saskatchewan,Sep 27-3,27 au 2 oct,10320,80,0.007751938
+Saskatchewan,Oct 04-10,4 au 10 oct,10881,133,0.0122231413
+Saskatchewan,Oct 11-17,11 au 17 oct,9616,214,0.0222545757
+Yukon,Mar 15-21,15 au 21 mar,416,0,0
+Yukon,Mar 22-28,22 au 28 mar,225,5,0.0222222222
+Yukon,Mar 29-04,29 au 04 mar,124,2,0.0161290323
+Yukon,Apr 05-11,06 au 11 avr,41,1,0.0243902439
+Yukon,Apr 12-18,12 au 18 avr,53,1,0.0188679245
+Yukon,Apr 26-02,26 au 02 avr,125,0,0
+Yukon,May 03-9,03 au 9 mai,56,0,0
+Yukon,May 10-16,10 au 16 mai,49,0,0
+Yukon,May 17-23,17 au 23 mai,21,0,0
+Yukon,May 24-30,24 au 30 mai,31,0,0
+Yukon,May 31-06,31 au 06 mai,25,0,0
+Yukon,Jun 07-13,07 au 13 jun,34,0,0
+Yukon,Jun 14-20,14 au 20 jun,15,0,0
+Yukon,Jun 21-27,21 au 27 jun,22,0,0
+Yukon,Jun 28-04,28 au 04 jun,23,0,0
+Yukon,Jul 05-11,05 au 11 jui,32,0,0
+Yukon,Jul 12-18,12 au 18 jui,64,0,0
+Yukon,Jul 19-25,19 au 25 jui,97,3,0.0309278351
+Yukon,Jul 26-1,26 au 1 jui,124,0,0
+Yukon,Aug 02-08,2 au 8 août,224,1,0.0044642857
+Yukon,Aug 09-15,9 au 15 août,320,0,0
+Yukon,Aug 16-22,16 au 22 aoû,179,0,0
+Yukon,Aug 23-29,23 au 29 aoû,183,0,0
+Yukon,Aug 30-05,30 au 5 sep,202,0,0
+Yukon,Sep 06-12,6 au 12 sep,163,0,0
+Yukon,Sep 13-19,13 au 19 sep,166,0,0
+Yukon,Sep 20-26,20 au 26 sep,231,0,0
+Yukon,Sep 27-3,27 au 2 oct,172,0,0
+Yukon,Oct 04-10,4 au 10 oct,136,0,0
+Yukon,Oct 11-17,11 au 17 oct,129,0,0
