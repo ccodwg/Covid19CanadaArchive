@@ -1,0 +1,44 @@
+collected_date,reported_date,school_board,municipality,confirmed_school_partner_cases
+2020-09-16,2020-09-17,Dufferin Peel Catholic District School Board; Peel District School Board,Brampton; Mississauga,1
+2020-09-16,2020-09-17,Peel District School Board; Dufferin-Peel District School Board,Brampton,1
+2020-09-17,2020-09-18,Dufferin Peel Catholic District School Board; Peel District School Board,Peel Region,2
+2020-09-18,2020-09-21,Dufferin Peel Catholic District School Board; Peel District School Board,Peel Region,2
+2020-09-21,2020-09-22,Dufferin Peel Catholic District School Board; Peel District School Board,Peel Region,2
+2020-09-22,2020-09-23,Dufferin Peel Catholic District School Board; Peel District School Board,Peel Region,2
+2020-09-23,2020-09-24,Dufferin Peel Catholic District School Board; Peel District School Board,Peel Region,2
+2020-09-24,2020-09-25,Dufferin Peel Catholic District School Board; Peel District School Board,Peel Region,2
+2020-09-25,2020-09-28,Dufferin Peel Catholic District School Board; Peel District School Board,Peel Region,2
+2020-09-28,2020-09-29,Dufferin Peel Catholic District School Board; Peel District School Board,Peel Region,2
+2020-10-07,2020-10-08,Dufferin Peel Catholic District School and Peel District School Board,Brampton,1
+2020-10-08,2020-10-09,Dufferin Peel Catholic District School and Peel District School Board,Brampton,1
+2020-10-14,2020-10-15,Simcoe Muskoka Catholic District School Board,Bradford West Gwillimbury,1
+2020-10-15,2020-10-16,Simcoe Muskoka Catholic District School Board,Bradford West Gwillimbury,1
+2020-10-16,2020-10-19,Simcoe Muskoka Catholic District School Board,Bradford West Gwillimbury,1
+2020-10-16,2020-10-19,York Region District School Board and York Catholic District School Board,Vaughan,1
+2020-10-19,2020-10-20,Simcoe Muskoka Catholic District School Board,Bradford West Gwillimbury,1
+2020-10-19,2020-10-20,York Region District School Board and York Catholic District School Board,Vaughan,1
+2020-10-20,2020-10-21,Simcoe Muskoka Catholic District School Board,Bradford West Gwillimbury,1
+2020-10-20,2020-10-21,York Region District School Board and York Catholic District School Board,Vaughan,1
+2020-10-20,2020-10-21,Le Conseil scolaire catholique MonAvenir,Toronto,1
+2020-10-21,2020-10-22,Simcoe Muskoka Catholic District School Board,Bradford West Gwillimbury,1
+2020-10-21,2020-10-22,York Region District School Board and York Catholic District School Board,Vaughan,1
+2020-10-21,2020-10-22,Le Conseil scolaire catholique MonAvenir,Toronto,1
+2020-10-21,2020-10-22,Toronto District School Board,Toronto,1
+2020-10-22,2020-10-23,Simcoe Muskoka Catholic District School Board,Bradford West Gwillimbury,1
+2020-10-22,2020-10-23,York Region District School Board and York Catholic District School Board,Vaughan,1
+2020-10-22,2020-10-23,Le Conseil scolaire catholique MonAvenir,Toronto,1
+2020-10-22,2020-10-23,Toronto District School Board,Toronto,1
+2020-10-23,2020-10-26,Simcoe Muskoka Catholic District School Board,Bradford West Gwillimbury,1
+2020-10-23,2020-10-26,York Region District School Board and York Catholic District School Board,Vaughan,1
+2020-10-23,2020-10-26,Le Conseil scolaire catholique MonAvenir,Toronto,2
+2020-10-23,2020-10-26,Toronto District School Board,Toronto,1
+2020-10-26,2020-10-27,Simcoe Muskoka Catholic District School Board,Bradford West Gwillimbury,1
+2020-10-26,2020-10-27,York Region District School Board and York Catholic District School Board,Vaughan,1
+2020-10-26,2020-10-27,Le Conseil scolaire catholique MonAvenir,Toronto,2
+2020-10-26,2020-10-27,Toronto District School Board,Toronto,2
+2020-10-27,2020-10-28,York Region District School Board and York Catholic District School Board,Vaughan,1
+2020-10-27,2020-10-28,Le Conseil scolaire catholique MonAvenir,Toronto,2
+2020-10-27,2020-10-28,Toronto District School Board,Toronto,2
+2020-10-28,2020-10-29,York Region District School Board and York Catholic District School Board,Vaughan,1
+2020-10-28,2020-10-29,Le Conseil scolaire catholique MonAvenir,Toronto,2
+2020-10-28,2020-10-29,Toronto District School Board,Toronto,2
