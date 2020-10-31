@@ -386,6 +386,57 @@ def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
         ## quit webdriver
         driver.quit()
 
+def html_page(url, path, file, ext='.html'):
+        """Save HTML of a webpage.
+        
+        Parameters:
+        url (str): URL to screenshot.
+        path (str): Path to output file (excluding file name). Example: 'can/epidemiology-update/'
+        file (str): Output file name (excluding extension). Example: 'covid19'
+        ext (str): Extension of the output file. Defaults to '.html'.
+        
+        """
+        global commit_message, success, failure
+        
+        ## set names with timestamp and file ext
+        name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
+        full_name = os.path.join(path, name + ext)        
+        
+        ## create temporary directory
+        tmpdir = tempfile.TemporaryDirectory()
+        
+        ## load webdriver
+        driver = load_webdriver(mode, tmpdir)
+        
+        ## load page
+        driver.get(url)
+        
+        ## save HTML of webpage
+        fpath = os.path.join(tmpdir.name, file + ext)
+        with open(fpath, 'w') as local_file:
+                local_file.write(driver.page_source)
+                
+        ## verify download
+        if not os.path.isfile(fpath):
+                ## print failure
+                print(background('Error downloading: ' + full_name, Colors.red))
+                failure+=1
+                ## write failure to commit message if mode == prod
+                if mode == 'serverprod' or mode == 'localprod':
+                        commit_message = commit_message + 'Failure: ' + full_name + '\n'
+        ## successful request: if mode == test, print success and end
+        elif mode == 'servertest' or mode == 'localtest':
+                ## print success
+                print(color('Test download successful: ' + full_name, Colors.green))
+                success+=1
+        ## successful request: mode == prod, prepare files for commit
+        else:
+                ## prepare file for commit
+                prep_file(repo_dir, name=name, full_name=full_name, fpath=fpath, copy=True)
+        
+        ## quit webdriver
+        driver.quit()      
+
 def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
         """Take a screenshot of a webpage.
         
@@ -396,7 +447,6 @@ def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
         - 'http://www.vch.ca/covid-19/school-outbreaks'
         
         Parameters:
-        
         url (str): URL to screenshot.
         path (str): Path to output file (excluding file name). Example: 'can/epidemiology-update/'
         file (str): Output file name (excluding extension). Example: 'covid19'
@@ -527,25 +577,23 @@ dl_file('http://www.bccdc.ca/Health-Info-Site/Documents/public-exposures-flights
         'public-exposures-flights-tables-Current',
         ext = '.pdf')
 
-# BC - Public exposures by setting and regional health authority
+# BC - Public exposures by setting and regional health authority (webpage)
 bc_exposures = [
-        ['https://www.fraserhealth.ca/covid19exposure', 'bc/regional-exposure-events-fraser-webpage', 'regional-exposure-events-fraser-screenshot', None],
-        ['https://news.interiorhealth.ca/news/public-exposures/', 'bc/regional-exposure-events-interior-webpage', 'regional-exposure-events-interior-screenshot', None], # table only displays 10 results by default
-        ['https://www.islandhealth.ca/learn-about-health/covid-19/outbreaks-and-exposures', 'bc/regional-exposure-events-island-webpage', 'regional-exposure-events-island-screenshot', None],
-        ['https://www.northernhealth.ca/health-topics/public-exposures-and-outbreaks#covid-19-public-exposures#covid-19-communityfacility-outbreaks#non-covid-19-communityfacility-outbreaks', 'bc/regional-exposure-events-northern-webpage', 'regional-exposure-events-northern-screenshot', None],
-        ['http://www.vch.ca/covid-19/public-exposures', 'bc/regional-exposure-events-vancouver-coastal-webpage', 'regional-exposure-events-vancouver-coastal-screenshot', 10000], # set height otherwise truncated
-        ['https://www.fraserhealth.ca/schoolexposures', 'bc/school-exposures-fraser-webpage', 'school-exposures-fraser-screenshot', None],
-        ['https://news.interiorhealth.ca/news/school-exposures/', 'bc/school-exposures-interior-webpage', 'school-exposures-interior-screenshot', None],
-        ['https://www.islandhealth.ca/learn-about-health/covid-19/exposures-schools', 'bc/school-exposures-island-webpage', 'school-exposures-island-screenshot', None],
-        ['https://www.northernhealth.ca/health-topics/public-exposures-and-outbreaks#covid-19-school-exposures', 'bc/school-exposures-northern-webpage', 'school-exposures-northern-screenshot', None],
-        ['http://www.vch.ca/covid-19/school-outbreaks', 'bc/school-exposures-vancouver-coastal-webpage', 'school-exposures-vancouver-coastal-screenshot', 10000] # set height otherwise truncated
+    ['https://www.fraserhealth.ca/covid19exposure', 'bc/regional-exposure-events-fraser-webpage', 'regional-exposure-events-fraser-webpage'],
+    ['https://news.interiorhealth.ca/news/public-exposures/', 'bc/regional-exposure-events-interior-webpage', 'regional-exposure-events-interior-webpage'],
+    ['https://www.islandhealth.ca/learn-about-health/covid-19/outbreaks-and-exposures', 'bc/regional-exposure-events-island-webpage', 'regional-exposure-events-island-webpage'],
+    ['https://www.northernhealth.ca/health-topics/public-exposures-and-outbreaks#covid-19-public-exposures#covid-19-communityfacility-outbreaks#non-covid-19-communityfacility-outbreaks', 'bc/regional-exposure-events-northern-webpage', 'regional-exposure-events-northern-webpage'],
+    ['http://www.vch.ca/covid-19/public-exposures', 'bc/regional-exposure-events-vancouver-coastal-webpage', 'regional-exposure-events-vancouver-coastal-webpage'],
+    ['https://www.fraserhealth.ca/schoolexposures', 'bc/school-exposures-fraser-webpage', 'school-exposures-fraser-webpage'],
+    ['https://news.interiorhealth.ca/news/school-exposures/', 'bc/school-exposures-interior-webpage', 'school-exposures-interior-webpage'],
+    ['https://www.islandhealth.ca/learn-about-health/covid-19/exposures-schools', 'bc/school-exposures-island-webpage', 'school-exposures-island-webpage'],
+    ['https://www.northernhealth.ca/health-topics/public-exposures-and-outbreaks#covid-19-school-exposures', 'bc/school-exposures-northern-webpage', 'school-exposures-northern-webpage'],
+    ['http://www.vch.ca/covid-19/school-outbreaks', 'bc/school-exposures-vancouver-coastal-webpage', 'school-exposures-vancouver-coastal-webpage']
 ]
 for i in range(0, len(bc_exposures)):
-        ss_page(bc_exposures[i][0],
-                bc_exposures[i][1],
-                bc_exposures[i][2],
-                width=1920,
-                height=bc_exposures[i][3])
+        html_page(bc_exposures[i][0],
+                  bc_exposures[i][1],
+                  bc_exposures[i][2])
 
 # CAN - COVID-19 Situational Awareness Dashboard (Epidemiology update)
 dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19.csv',
@@ -780,10 +828,10 @@ if t.weekday() == 2:
                 'on/toronto-cases/',
                 'COVID19_cases')
 
-# ON - University of Toronto COVID-19 tracking
-ss_page('https://www.utoronto.ca/utogether2020/covid19-dashboard',
-        'on/u-of-t-covid-tracking-webpage/',
-        'u-of-t-covid-tracking-screenshot')
+# ON - University of Toronto COVID-19 tracking (webpage)
+html_page('https://www.utoronto.ca/utogether2020/covid19-dashboard',
+          'on/u-of-t-covid-tracking-webpage/',
+          'u-of-t-covid-tracking-webpage')
 
 # ON - Ottawa Demographics and Source of Infection for Cases, Deaths, and Hospitalizations
 dl_file('https://www.arcgis.com/sharing/rest/content/items/6bfe7832017546e5b30c5cc6a201091b/data',
@@ -955,11 +1003,10 @@ dl_file(sk_url_cases,
         'sk/cases-by-region/',
         'cases')
 
-# SK - Saskatchewan's Dashboard - Total Cases (webpage screenshot)
-ss_page('https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases',
-        'sk/cases-by-region-webpage/',
-        'cases-screenshot',
-        width=1526)
+# SK - Saskatchewan's Dashboard - Total Cases (webpage)
+html_page('https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases',
+          'sk/cases-by-region-webpage/',
+          'cases-webpage')
 
 # SK - Saskatchewan's Dashboard - Total Tests
 sk_url_tests = 'https://dashboard.saskatchewan.ca' + re.search('(?<=href=\").*(?=\">CSV)', requests.get('https://dashboard.saskatchewan.ca/health-wellness/covid-19/tests').text).group(0)
@@ -967,11 +1014,10 @@ dl_file(sk_url_tests,
         'sk/tests-by-region/',
         'tests')
 
-# SK - Saskatchewan's Dashboard - Total Tests (webpage screenshot)
-ss_page('https://dashboard.saskatchewan.ca/health-wellness/covid-19/tests',
-        'sk/tests-by-region-webpage/',
-        'tests-screenshot',
-        width=1526)
+# SK - Saskatchewan's Dashboard - Total Tests (webpage)
+html_page('https://dashboard.saskatchewan.ca/health-wellness/covid-19/tests',
+          'sk/tests-by-region-webpage/',
+          'tests-webpage')
 
 # Other: CAN - Unofficial COVID Alert Dashboard
 dl_file('https://kappel.cs.uwaterloo.ca/uhengart/diagnosis-keys/estimated_infections_per_day.txt',
