@@ -246,6 +246,27 @@ def dl_file(url, path, file, user=False, ext='.csv', unzip=False, mb_json_to_csv
                         ## prepare file for commit
                         prep_file(repo_dir, name=name, full_name=full_name, data=data)
 
+def load_webdriver(mode, tmpdir):
+        """Load Chromium headless webdriver for Selenium.
+        
+        Parameters:
+        mode (str): One of serverprod, localprod, servertest, localtest. Defines how the webdriver is loaded.
+        tmpdir (TemporaryDirectory): A temporary directory for saving files.
+        
+        """
+        options = Options()
+        if mode == 'serverprod' or mode == 'servertest':
+                options.binary_location = os.environ['GOOGLE_CHROME_BIN']
+        options.add_argument("--headless")
+        options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("--no-sandbox")
+        prefs = {'download.default_directory' : tmpdir.name}
+        options.add_experimental_option('prefs', prefs)
+        if mode == 'serverprod' or mode == 'servertest':
+                return webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
+        else:
+                return webdriver.Chrome(options=options)
+
 def dl_ab_cases(url, path, file, ext='.csv', wait=5):
         """Download CSV file: AB - "COVID-19 Alberta statistics".
         https://www.alberta.ca/stats/covid-19-alberta-statistics.htm
@@ -269,19 +290,8 @@ def dl_ab_cases(url, path, file, ext='.csv', wait=5):
         ## create temporary directory
         tmpdir = tempfile.TemporaryDirectory()
         
-        ## setup webdriver
-        options = Options()
-        if mode == 'serverprod' or mode == 'servertest':
-                options.binary_location = os.environ['GOOGLE_CHROME_BIN']
-        options.add_argument("--headless")
-        options.add_argument("--disable-dev-shm-usage")
-        options.add_argument("--no-sandbox")
-        prefs = {'download.default_directory' : tmpdir.name} # download to temporary directory
-        options.add_experimental_option('prefs', prefs)
-        if mode == 'serverprod' or mode == 'servertest':
-                driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
-        else:
-                driver = webdriver.Chrome(options=options)
+        ## load webdriver
+        driver = load_webdriver(mode, tmpdir)
         driver.implicitly_wait(10)
         
         ## click to correct tab then click CSV button to export
@@ -342,19 +352,8 @@ def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
         ## create temporary directory
         tmpdir = tempfile.TemporaryDirectory()
         
-        ## setup webdriver
-        options = Options()
-        if mode == 'serverprod' or mode == 'servertest':
-                options.binary_location = os.environ['GOOGLE_CHROME_BIN']
-        options.add_argument("--headless")
-        options.add_argument("--disable-dev-shm-usage")
-        options.add_argument("--no-sandbox")
-        prefs = {'download.default_directory' : tmpdir.name} # download to temporary directory
-        options.add_experimental_option('prefs', prefs)
-        if mode == 'serverprod' or mode == 'servertest':
-                driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
-        else:
-                driver = webdriver.Chrome(options=options)
+        ## load webdriver
+        driver = load_webdriver(mode, tmpdir)
         driver.implicitly_wait(10)
         
         ## click CSV button to export
@@ -416,21 +415,8 @@ def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
         ## create temporary directory
         tmpdir = tempfile.TemporaryDirectory()
         
-        ## setup webdriver
-        options = Options()
-        if mode == 'serverprod' or mode == 'servertest':
-                options.binary_location = os.environ['GOOGLE_CHROME_BIN']
-        options.add_argument("--headless")
-        options.add_argument("--disable-dev-shm-usage")
-        options.add_argument("--no-sandbox")
-        prefs = {'download.default_directory' : tmpdir.name} # download to temporary directory
-        options.add_experimental_option('prefs', prefs)
-        ## successful screenshot: if mode == test, print success and end
-        if mode == 'serverprod' or mode == 'servertest':
-                driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
-        ## successful screenshot: mode == prod, prepare files for commit
-        else:
-                driver = webdriver.Chrome(options=options)
+        ## load webdriver
+        driver = load_webdriver(mode, tmpdir)
         
         ## load page and wait
         driver.get(url)
