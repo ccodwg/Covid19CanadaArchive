@@ -97,16 +97,16 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Public exposures webpage screenshot: [bc/public-exposures-webpage/public-exposures-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/public-exposures-webpage)
     * Public exposures - flights: [bc/public-exposures-flights/public-exposures-flights-tables-Current.pdf](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/public-exposures-flights)
     * [Public exposures - cruises, long distance bus, train, work sites, public events](http://www.bccdc.ca/Health-Info-Site/Documents/Archived_COVID-19_Exposures.pdf): [bc/public-exposures-cruises-bus-train-work-public/Archived_COVID-19_Exposures.pdf](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/public-exposures-cruises-bus-train-work-public) (Not included as part of the nightly update, as it is archived)
-    * Public exposures Fraser webpage screenshot: [bc/regional-exposure-events-fraser-webpage/regional-exposure-events-fraser-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/regional-exposure-events-fraser-webpage)
-    * Public exposures Interior webpage screenshot: [bc/regional-exposure-events-interior-webpage/regional-exposure-events-interior-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/regional-exposure-events-interior-webpage) (warning: results may be truncated due to default table size of 10 rows)
-    * Public exposures Island webpage screenshot: [bc/regional-exposure-events-island-webpage/regional-exposure-events-island-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/regional-exposure-events-island-webpage)
-    * Public exposures Northern webpage screenshot: [bc/regional-exposure-events-northern-webpage/regional-exposure-events-northern-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/regional-exposure-events-northern-webpage)
-    * Public exposures Vancouver Coastal webpage screenshot: [bc/regional-exposure-events-vancouver-coastal-webpage/regional-exposure-events-vancouver-coastal-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/regional-exposure-events-vancouver-coastal-webpage) (warning: some early files are .pdf and formatted differently)
-    * School exposures Fraser webpage screenshot: [bc/school-exposures-fraser-webpage/school-exposures-fraser-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/school-exposures-fraser-webpage)
-    * School exposures Interior webpage screenshot: [bc/school-exposures-interior-webpage/school-exposures-interior-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/school-exposures-interior-webpage)
-    * School exposures Island webpage screenshot: [bc/school-exposures-island-webpage/school-exposures-island-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/school-exposures-island-webpage)
-    * School exposures Northern webpage screenshot: [bc/school-exposures-northern-webpage/school-exposures-northern-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/school-exposures-northern-webpage)
-    * School exposures Vancouver Coastal webpage screenshot: [bc/school-exposures-vancouver-coastal-webpage/school-exposures-vancouver-coastal-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/school-exposures-vancouver-coastal-webpage)
+    * Public exposures Fraser webpage: [bc/regional-exposure-events-fraser-webpage/regional-exposure-events-fraser-webpage.html](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/regional-exposure-events-fraser-webpage) (warning: some early files are .png screenshots and named differently)
+    * Public exposures Interior webpage: [bc/regional-exposure-events-interior-webpage/regional-exposure-events-interior-webpage.html](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/regional-exposure-events-interior-webpage) (warning: some early files are .png screenshots and named differently)
+    * Public exposures Island webpage: [bc/regional-exposure-events-island-webpage/regional-exposure-events-island-webpage.html](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/regional-exposure-events-island-webpage) (warning: some early files are .png screenshots and named differently)
+    * Public exposures Northern webpage: [bc/regional-exposure-events-northern-webpage/regional-exposure-events-northern-webpage.html](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/regional-exposure-events-northern-webpage) (warning: some early files are .png screenshots and named differently)
+    * Public exposures Vancouver Coastal webpage: [bc/regional-exposure-events-vancouver-coastal-webpage/regional-exposure-events-vancouver-coastal-webpage.html](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/regional-exposure-events-vancouver-coastal-webpage) (warning: some early files are .png screenshots or .pdf files and named differently and/or formatted differently)
+    * School exposures Fraser webpage: [bc/school-exposures-fraser-webpage/school-exposures-fraser-webpage.html](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/school-exposures-fraser-webpage) (warning: some early files are .png screenshots and named differently)
+    * School exposures Interior webpage: [bc/school-exposures-interior-webpage/school-exposures-interior-webpage.html](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/school-exposures-interior-webpage) (warning: some early files are .png screenshots and named differently)
+    * School exposures Island webpage: [bc/school-exposures-island-webpage/school-exposures-island-webpage.html](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/school-exposures-island-webpage) (warning: some early files are .png screenshots and named differently)
+    * School exposures Northern webpage: [bc/school-exposures-northern-webpage/school-exposures-northern-webpage.html](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/school-exposures-northern-webpage) (warning: some early files are .png screenshots and named differently)
+    * School exposures Vancouver Coastal webpage: [bc/school-exposures-vancouver-coastal-webpage/school-exposures-vancouver-coastal-webpage.html](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/school-exposures-vancouver-coastal-webpage) (warning: some early files are .png screenshots and named differently)
     * Vancouver Coastal reported its first school outbreak on 2020-09-22. However, due to a change in the page format, the first day these data were captured in the dataset was 2020-10-05. Screenshots prior to this date ommit the list of schools. However, it is unlikely that any schools were removed from the list prior to it first being captured on 2020-10-05.
     * Terms of use: TBD
 
@@ -241,7 +241,7 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Data are extracted at 3 PM on the Monday of a given week and posted by Wednesday [dataset is updated only on Wednesdays]
     * Terms of use: Assumed to be [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
 * [University of Toronto COVID-19 tracking](https://www.utoronto.ca/utogether2020/covid19-dashboard)
-    * [on/u-of-t-covid-tracking-webpage/u-of-t-covid-tracking-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/on/u-of-t-covid-tracking-webpage)
+    * [on/u-of-t-covid-tracking-webpage/u-of-t-covid-tracking-webpage.html](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/on/u-of-t-covid-tracking-webpage) (warning: some early files are .png screenshots and named differently)
     * Data are reported every Monday with cumulative cases through the previous Friday [screenshots will be take every day in case the update frequency increases]
     * Terms of use: TBD
 
@@ -315,11 +315,11 @@ The sources and terms of use for each included dataset are linked below. Supplem
 
 * [Saskatchewan's Dashboard - Total Cases](https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases)
     * CSV: [sk/cases-by-region/cases.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/sk/cases-by-region)
-    * Webpage: [sk/cases-by-region-webpage/cases-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/sk/cases-by-region-webpage)
+    * Webpage: [sk/cases-by-region-webpage/cases-webpage.html](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/sk/cases-by-region-webpage) (warning: some early files are .png screenshots and named differently)
     * Terms of use: TBD
 * [Saskatchewan's Dashboard - Total Tests](https://dashboard.saskatchewan.ca/health-wellness/covid-19/tests)
     * CSV: [sk/tests-by-region/tests.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/sk/tests-by-region)
-    * Webpage: [sk/tests-by-region-webpage/tests-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/sk/tests-by-region-webpage)
+    * Webpage: [sk/tests-by-region-webpage/tests-webpage.html](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/sk/tests-by-region-webpage) (warning: some early files are .png screenshots and named differently)
     * Terms of use: TBD
 
 ### Other: Non-governmental sources
