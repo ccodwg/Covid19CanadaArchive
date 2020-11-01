@@ -386,7 +386,7 @@ def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
         ## quit webdriver
         driver.quit()
 
-def html_page(url, path, file, ext='.html'):
+def html_page(url, path, file, ext='.html', js=False, wait=None):
         """Save HTML of a webpage.
         
         Parameters:
@@ -394,6 +394,8 @@ def html_page(url, path, file, ext='.html'):
         path (str): Path to output file (excluding file name). Example: 'can/epidemiology-update/'
         file (str): Output file name (excluding extension). Example: 'covid19'
         ext (str): Extension of the output file. Defaults to '.html'.
+        js (bool): Is the HTML source rendered by JavaScript?
+        wait (int): Used only if js = True. Time in seconds that the function should wait for the page to render. If the time is too short, the source code may not be captured.
         
         """
         global commit_message, success, failure
@@ -413,8 +415,13 @@ def html_page(url, path, file, ext='.html'):
         
         ## save HTML of webpage
         fpath = os.path.join(tmpdir.name, file + ext)
-        with open(fpath, 'w') as local_file:
-                local_file.write(driver.page_source)
+        if js:
+                time.sleep(wait)
+                with open(fpath, 'w') as local_file:
+                        local_file.write(driver.find_element_by_tag_name('html').get_attribute('innerHTML'))
+        else:
+                with open(fpath, 'w') as local_file:
+                        local_file.write(driver.page_source)
                 
         ## verify download
         if not os.path.isfile(fpath):
@@ -694,12 +701,12 @@ dl_file('https://novascotia.ca/coronavirus/data/ns-covid19-data.csv',
         'ns/case-data/',
         'ns-covid19-data')
 
-## ON - How Ontario is responding to COVID-19 (webpage screenshot)
-#ss_page('https://www.ontario.ca/page/how-ontario-is-responding-covid-19',
-        #'on/ontario-webpage/',
-        #'ontario-screenshot',
-        #wait=25, # very long page
-        #width=1920)
+# ON - How Ontario is responding to COVID-19 (webpage)
+html_page('https://www.ontario.ca/page/how-ontario-is-responding-covid-19',
+          'on/ontario-webpage/',
+          'ontario-webpage',
+          js=True,
+          wait=10)
 
 # ON - Confirmed positive cases of COVID19 in Ontario
 dl_file('https://data.ontario.ca/dataset/f4112442-bdc8-45d2-be3c-12efae72fb27/resource/455fd63b-603d-4608-8216-7d8647f43350/download/conposcovidloc.csv',
@@ -736,12 +743,12 @@ dl_file('https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/re
         'on/long-term-care-home-resolved/',
         'resolvedltc')
 
-## ON - Cases in schools and childcare centres (webpage)
-#ss_page('https://www.ontario.ca/page/covid-19-cases-schools-and-child-care-centres',
-        #'on/cases-schools-and-child-care-centres-webpage/',
-        #'cases-schools-and-child-care-centres-screenshot',
-        #wait = 25, # very long page
-        #width=1920)
+# ON - Cases in schools and childcare centres (webpage)
+html_page('https://www.ontario.ca/page/covid-19-cases-schools-and-child-care-centres',
+          'on/cases-schools-and-child-care-centres-webpage/',
+          'cases-schools-and-child-care-centres-webpage',
+          js=True,
+          wait=10)
 
 # ON - Schools: Summary of cases in schools
 dl_file('https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/7fbdbb48-d074-45d9-93cb-f7de58950418/download/schoolcovidsummary.csv',
