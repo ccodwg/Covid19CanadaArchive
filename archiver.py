@@ -440,11 +440,7 @@ def html_page(url, path, file, ext='.html'):
 def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
         """Take a screenshot of a webpage.
         
-        By default, Selenium attempts to capture the entire page. Some websites are handled with website-specific code:
-        
-        - 'https://www.fraserhealth.ca/schoolexposures'
-        - 'http://www.vch.ca/covid-19/public-exposures'
-        - 'http://www.vch.ca/covid-19/school-outbreaks'
+        By default, Selenium attempts to capture the entire page.
         
         Parameters:
         url (str): URL to screenshot.
@@ -474,25 +470,6 @@ def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
                         
         ## take screenshot
         fpath = os.path.join(tmpdir.name, file + ext)
-        
-        ## special code
-        if url=='https://www.fraserhealth.ca/schoolexposures':
-                ## expand each school district
-                elements = driver.find_elements_by_class_name('toggle-header')
-                for element in elements:
-                        driver.execute_script("arguments[0].click();", element) 
-                        time.sleep(5)
-        elif url=='http://www.vch.ca/covid-19/public-exposures':
-                ## expand current and archived exposures
-                driver.find_element_by_xpath("//a[@href='#9184']").click()
-                time.sleep(5) # ensure all elements are clicked properly
-                driver.find_element_by_xpath("//a[@href='#5998']").click()
-        elif url=='http://www.vch.ca/covid-19/school-outbreaks':
-                ## expand each school district
-                elements = driver.find_elements_by_class_name('panel')
-                for element in elements:
-                        element.click()
-                        time.sleep(5)
         
         ## get total width of the page if it is not set by the user
         if width is None:
