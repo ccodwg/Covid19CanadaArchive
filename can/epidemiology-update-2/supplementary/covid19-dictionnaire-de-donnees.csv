@@ -1,0 +1,40 @@
+En-tête de la colonne,Nom de la variable,Description
+pruid,Identifiant provincial,"1 = Canada 
+10 = Terre-Neuve-et-Labrador
+11 = Île-du-Prince-Édouard
+12 = Nouvelle-Écosse
+13 = Nouveau-Brunswick
+24 = Québec
+35 = Ontario
+46 = Manitoba
+47 = Saskatchewan
+48 = Alberta
+59 = Colombie-Britannique
+60 = Yukon
+61 = Territoires du Nord-Ouest
+62 = Nunavut
+99 = Voyageurs rapatriés"
+prname,Nom de la province,Nom de la province/du territore (anglais)
+prnameFR,Nom de la province,Nom de la province/du territoire (français)
+date,Date de déclaration,Date à laquelle la province/le territoire a déclaré les cas
+numconf,Nombre de cas confirmés,Nombre de cas confirmés dans chaque P/T (Canada = somme de tous les P/T) 
+numprob,Nombre de cas probables,Nombre de cas probables dans chaque P/T (Canada = somme de tous les P/T) 
+numdeaths,Nombre de décès,Number de décès dans chaque P/T (Canada = somme de tous les P/T) 
+numtotal,Nombre total de cas,"Calculé par le nombre de cas confirmés plus le nombre de cas probables
+(numconf + numprob) "
+numtested,Nombre d'individus testés,"Nombre d'individus testés dans chaque P/T, tel que signalé par le Laboratoire national de microbiologie"
+numrecover,Nombre de cas récupérés,Nombre de cas récupérés dans chaque P/T (Canada = somme de tous les P/T)
+percentrecover,Pourcentage de cas rétablis,"Calculé par le nombre de cas rétablis pour un(e) P/T divisé par le nombre total de cas confirmés pour ce(tte) P/T
+[(numrecover/numtotal) x 100]"
+ratetested,Taux de dépistage pour un million de personnes,"Calculé par le nombre d'individus testés pour un(e) P/T divisé par la population de ce(tte) P/T 
+[(numtested/population) x 1 000 000]"
+numtoday,Nombre de nouveaux cas depuis la dernière mise à jour,Nombre total de cas de la dernière mise à jour moins le nombre total de cas de la mise à jour actuelle
+percentoday,Variation en pourcentage depuis la dernière mise à jour,"Calculé par le nombre de nouveaux cas divisé par le nombre total de cas de la mise à jour précédente
+[(numtoday/numtotal de la dernière mise à jour) x 100]"
+ratetotal,Taux de cas pour cent mille personnes,"Calculé par le nombre total de cas pour un(e) P/T divisé par la population de ce(tte) P/T
+[(numtotal/population) x 100 000]"
+P/T = province ou territoire,,
+Notes: ,,
+"1) Les nombres de cas, de décès et de rétablissements proviennent des sites Web provinciaux et territoriaux. Une liste complète des sources Web se trouve au bas du résumé épidémiologique: https://sante-infobase.canada.ca/covid-19/resume-epidemiologique-cas-covid-19.html",,
+"2) Le dénominateur pour les calculs de taux est déterminé à l'aide des estimations de population de Statistique Canada pour le troisième trimestre de 2019, sauf indication contraire.",,
+"3) Ces données sont mises à jour une fois par jour, à 19h00 HNE.",,

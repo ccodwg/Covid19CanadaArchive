@@ -584,6 +584,11 @@ dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19.csv',
         'can/epidemiology-update/',
         'covid19')
 
+# CAN - COVID-19 Situational Awareness Dashboard (Epidemiology update - as above but different date format)
+dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-download.csv',
+        'can/epidemiology-update-2/',
+        'covid19-download')
+
 # CAN - COVID-19 Situational Awareness Dashboard (Epidemiology summary statements)
 dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-statements.csv',
         'can/epidemiology-summary-statements/',
