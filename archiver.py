@@ -852,6 +852,16 @@ dl_file('https://www.arcgis.com/sharing/rest/content/items/26c902bf1da44d3d90b09
         'on/ottawa-residents-tested/',
         'COVID-19_Ottawa_Residents_Tested_EN')
 
+# QC - Data on COVID-19 in Quebec (webpage EN)
+html_page('https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/',
+          'qc/qc-webpage-en/',
+          'qc-webpage-en')
+
+# QC - Données sur la COVID-19 au Québec (webpage FR)
+html_page('https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/',
+          'qc/qc-webpage-fr/',
+          'qc-webpage-fr')
+
 # QC - COVID-19 time series by region and demographics
 dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/covid19-hist.csv',
         'qc/covid-time-series-by-region-and-demographics/',
