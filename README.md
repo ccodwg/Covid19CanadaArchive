@@ -266,7 +266,10 @@ The sources and terms of use for each included dataset are linked below. Supplem
 
 ### Quebec
 
-* [Données COVID-19 au Québec](https://www.inspq.qc.ca/covid-19/donnees)
+* [Data on COVID-19 in Québec (province)](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
+    * [Webpage EN](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/): [qc/qc-webpage-en/qc-webpage-en.html](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/qc-webpage-en)
+    * [Webpage FR](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/): [qc/qc-webpage-fr/qc-webpage-fr.html](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/qc-webpage-fr)
+* [Données COVID-19 au Québec (INSPQ)](https://www.inspq.qc.ca/covid-19/donnees)
     * COVID-19 time series by region and demographics: [qc/covid-time-series-by-region-and-demographics/covid19-hist.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/covid-time-series-by-region-and-demographics)
     * COVID-19 data (charts - summary, time series, and hospitalization by age): [qc/covid-data-charts-summary-time-series-hosp-by-age/manual-data.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/covid-data-charts-summary-time-series-hosp-by-age)
     * Summary by region: [qc/summary-by-region/regions.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/summary-by-region)
