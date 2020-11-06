@@ -282,7 +282,7 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * COVID-19 data: [qc/covid-data/combine.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/covid-data) (Archived as of 2020-09-16, no longer part of the nightly update)
     * COVID-19 data (charts): [qc/covid-data-charts/combine2.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/covid-data-charts) (Archived as of 2020-09-16, no longer part of the nightly update)
     * Terms of use: TBD
-* [https://www.inspq.qc.ca/covid-19/donnees/age-sexe](https://www.inspq.qc.ca/covid-19/donnees/age-sexe)
+* [Données COVID-19 par âge et sexe au Québec ](https://www.inspq.qc.ca/covid-19/donnees/age-sexe)
     * COVID-19 data by age group and sex: [qc/covid-data-by-age-and-sex/PL_AGE_SEXE.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/covid-data-by-age-and-sex)
     * Terms of use: TBD
 * [Situation du coronavirus (COVID-19) au Québec](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
