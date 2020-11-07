@@ -132,6 +132,7 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Cases by age group and sex: [can/cases-by-age-and-sex/covid19-epiSummary-agegroups2.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/can/cases-by-age-and-sex)
     * Cases by probable exposure setting: [can/cases-by-probable-exposure-setting/covid19-epiSummary-probableexposure2.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/can/cases-by-probable-exposure-setting)
     * Symptoms summary: [can/symptoms-summary/covid19-epiSummary-symptoms.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/can/symptoms-summary)
+    * Hospitalizaiton, intensive care (ICU), mechanical ventilation: [can/hospitalizations-icu-mechanical-ventilation/covid19-epiSummary-hospVentICU.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/can/hospitalizations-icu-mechanical-ventilation)
     * Situational awareness dashboard update time: [can/situational-awareness-dashboard-update-time/covid19-updateTime.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/can/situational-awareness-dashboard-update-time)
     * Terms of use: [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
 * [Detailed preliminary information on cases of COVID-19: 6 Dimensions (Aggregated data)](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310077401)

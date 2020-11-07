@@ -654,7 +654,6 @@ dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary
         'can/symptoms-summary/',
         'covid19-epiSummary-symptoms')
 
-
 # CAN - COVID-19 Situational Awareness Dashboard (Hospitalizations, intensive care unit (ICU), mechanical ventilation)
 dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-hospVentICU.csv',
         'can/hospitalizations-icu-mechanical-ventilation/',
