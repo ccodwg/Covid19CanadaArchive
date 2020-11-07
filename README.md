@@ -360,3 +360,4 @@ Many people are to thank for contributing archived data and code to this reposit
 * [Jacques Marcoux](https://twitter.com/jacquesmarcoux)
 * [Shraddha Pai](https://twitter.com/spaiglass)
 * [Matti Aleve](https://twitter.com/maleve)
+* [Scott van Millingen](https://github.com/svmillin)
