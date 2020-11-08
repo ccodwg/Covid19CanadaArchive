@@ -1,0 +1,8 @@
+Probable exposure setting,Contexte d'exposition probable,Proportion of cases,Number of cases,domestic,graph
+Cases with probable exposure data,,,189422,TRUE,0
+Spread,,91.4,173105,TRUE,0
+Domestic acquisition: Contact with COVID case,,57.6,109146,TRUE,1
+Domestic acquisition: Contact with traveller,,1.2,2206,TRUE,1
+Domestic acquisition: Unknown source,,32.6,61753,TRUE,1
+International travel,,2.9,5518,FALSE,1
+Information pending,,5.7,10799,FALSE,1
