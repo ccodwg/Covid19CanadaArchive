@@ -241,6 +241,11 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * [on/toronto-monitoring-dashboard/CityofToronto_COVID-19_RecoveryData.xlsx](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/on/toronto-monitoring-dashboard)
     * Include supplementary material: Technical notes
     * Terms of use: Assumed to be [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
+* [City of Toronto Ethno-Racial Group, Income, & Infection](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-status-of-cases-in-toronto/)
+    * [on/toronto-ethno-racial-income/Ethno-Racial_Group,_Income,_and_COVID-19_Infection.xlsx](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/on/toronto-ethno-racial-income) (original file name is Ethno-Racial Group, Income, and COVID-19 Infection.xlsx, renamed to avoid spaces in file name)
+    * Include supplementary material: Technical notes
+    * Terms of use: Assumed to be [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
+    * Not included as part of the nightly update, as it does not seem to be receiving regular updates (data as of September 30, 2020)
 * [COVID-19 Cases in Toronto](https://open.toronto.ca/dataset/covid-19-cases-in-toronto/)
     * [on/toronto-cases/COVID19_cases.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/on/toronto-cases)
     * Data are extracted at 3 PM on the Monday of a given week and posted by Wednesday [dataset is updated only on Wednesdays]
