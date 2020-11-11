@@ -291,14 +291,14 @@ The sources and terms of use for each included dataset are linked below. Supplem
 * [Données COVID-19 par âge et sexe au Québec ](https://www.inspq.qc.ca/covid-19/donnees/age-sexe)
     * COVID-19 data by age group and sex: [qc/covid-data-by-age-and-sex/PL_AGE_SEXE.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/covid-data-by-age-and-sex)
     * Terms of use: TBD
-* [Situation du coronavirus (COVID-19) au Québec](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
+* [Données sur la COVID-19 au Québec](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
     * Deaths time series by living environment: [qc/deaths-time-series-by-living-environment/decesquotidien.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/deaths-time-series-by-living-environment)
     * Recent daily cases by region: [qc/recent-daily-cases-by-region/cas-region.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/recent-daily-cases-by-region)
     * Cumulative deaths by region: [qc/cumulative-deaths-by-region/deces-region.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/cumulative-deaths-by-region)
     * Situation in Quebec: [qc/situation-in-quebec/situation-au-quebec.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/situation-in-quebec)
     * Cases percentage by age group: [qc/cases-percentage-by-age-group/pourcentage-cas-age.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/cases-percentage-by-age-group)
     * Deaths percentage by age group: [qc/deaths-percentage-by-age-group/pourcentage-deces-age.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/deaths-percentage-by-age-group)
-    * COVID-19 daily data 7 days: [qc/covid-data-daily-7-days/synthese-7jours.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/covid-data-daily-7-days)
+    * COVID-19 daily data 7 days: [qc/covid-data-daily-7-days/synthese-7joursV2.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/covid-data-daily-7-days) (Renamed from synthese-7jours.csv after 2020-11-09)
     * Cases by region 7 days: [qc/cases-by-region-7-days/cas-region-7jours.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/qc/cases-by-region-7-days)
     * Terms of use: TBD
 * [Situation dans les milieux de vie pour personnes aînées et vulnérables](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
