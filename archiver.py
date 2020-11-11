@@ -938,9 +938,9 @@ dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_
         'pourcentage-deces-age')
 
 # QC - COVID-19 daily data 7 days
-dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/synthese-7jours.csv',
+dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/synthese-7joursV2.csv',
         'qc/covid-data-daily-7-days/',
-        'synthese-7jours')
+        'synthese-7joursV2')
 
 # QC - Cases by region 7 days
 dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/apercu/cas-region-7jours.csv',
