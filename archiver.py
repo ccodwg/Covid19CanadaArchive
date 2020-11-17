@@ -1029,6 +1029,12 @@ dl_file('https://kappel.cs.uwaterloo.ca/uhengart/diagnosis-keys/estimated_infect
         'estimated_infections_per_day',
         ext = '.txt')
 
+# Other: CAN - Unofficial COVID Alert Dashboard - Diagnosis Keys Analysis
+dl_file('https://kappel.cs.uwaterloo.ca/uhengart/diagnosis-keys/DiagnosisKeysAnalysis.csv',
+        'other/can/unofficial-covid-alert-dashboard-analysis/',
+        'DiagnosisKeysAnalysis',
+        ext = '.csv')
+
 # Other: QC - Covid Écoles Québec (Excel)
 dl_file('https://drive.google.com/uc?export=download&id=1xOl0uhyx9IuHZfJuRH-OR7BcGFuWYUex',
         'other/qc/covid-ecoles-quebec-school-list/',
