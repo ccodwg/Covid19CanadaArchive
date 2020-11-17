@@ -92,6 +92,7 @@ The sources and terms of use for each included dataset are linked below. Supplem
           )
         ```        
     * Laboratory data: [bc/laboratory-data/BCCDC_COVID19_Dashboard_Lab_Information.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/laboratory-data)
+    * On 2020-11-16 (a Monday), BCCDC retracted their daily datasets from their website and replaced them with datasets from the previous Friday (2020-11-13). These datasets have been saved as "BCCDC_COVID19_Dashboard_Case_Details_2020-11-16_23-05.csv" and "BCCDC_COVID19_Dashboard_Lab_Information_2020-11-16_23-05", whereas the retracted datasets have been preserved as "BCCDC_COVID19_Dashboard_Case_Details_2020-11-16_19-27" and "BCCDC_COVID19_Dashboard_Lab_Information_2020-11-16_19-27".
     * Terms of use: [Disclaimer and data notes](http://www.bccdc.ca/Health-Info-Site/Documents/BC_COVID-19_Disclaimer_Data_Notes.pdf)
 * [COVID-19 Public Exposures](http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures)
     * Public exposures webpage screenshot: [bc/public-exposures-webpage/public-exposures-screenshot.png](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/bc/public-exposures-webpage)
