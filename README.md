@@ -344,6 +344,7 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Terms of use: TBD
 * [Unofficial COVID Alert Dashboard](https://github.com/uhengart/covid-alert-dashboard)
     * [other/can/unofficial-covid-alert-dashboard/estimated_infections_per_day.txt](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/other/can/unofficial-covid-alert-dashboard)
+    * [other/can/unofficial-covid-alert-dashboard-analysis/DiagnosisKeysAnalysis.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/other/can/unofficial-covid-alert-dashboard-analysis)
     * Terms of use: TBD   
 
 #### Quebec
