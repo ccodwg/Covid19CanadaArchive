@@ -344,7 +344,7 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * [other/can/canada-covid-19-school-case-tracker/Canada_COVID-19_School_Report_Tracker.kml](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/other/can/canada-covid-19-school-case-tracker) (original file name is Canada COVID-19 School Report Tracker.kml, renamed to avoid spaces in file name; warning: some early files are in .kmz format, which is compressed but handled almost identically to .kml)
     * Terms of use: TBD
 * [Unofficial COVID Alert Dashboard](https://github.com/uhengart/covid-alert-dashboard)
-    * [other/can/unofficial-covid-alert-dashboard/estimated_infections_per_day.txt](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/other/can/unofficial-covid-alert-dashboard)
+    * [other/can/unofficial-covid-alert-dashboard/estimated_infections_per_day.txt](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/other/can/unofficial-covid-alert-dashboard) (Replaced after 2020-11-14 by unofficial-covid-alert-dashboard-analysis, no longer part of the nightly update)
     * [other/can/unofficial-covid-alert-dashboard-analysis/DiagnosisKeysAnalysis.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/other/can/unofficial-covid-alert-dashboard-analysis)
     * Terms of use: TBD   
 
