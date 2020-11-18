@@ -1023,14 +1023,8 @@ html_page('https://dashboard.saskatchewan.ca/health-wellness/covid-19/tests',
           'sk/tests-by-region-webpage/',
           'tests-webpage')
 
-# Other: CAN - Unofficial COVID Alert Dashboard
-dl_file('https://kappel.cs.uwaterloo.ca/uhengart/diagnosis-keys/estimated_infections_per_day.txt',
-        'other/can/unofficial-covid-alert-dashboard/',
-        'estimated_infections_per_day',
-        ext = '.txt')
-
 # Other: CAN - Unofficial COVID Alert Dashboard - Diagnosis Keys Analysis
-dl_file('https://kappel.cs.uwaterloo.ca/uhengart/diagnosis-keys/DiagnosisKeysAnalysis.csv',
+dl_file('https://raw.githubusercontent.com/uhengart/covid-alert-dashboard/master/DiagnosisKeysAnalysis.csv',
         'other/can/unofficial-covid-alert-dashboard-analysis/',
         'DiagnosisKeysAnalysis',
         ext = '.csv')
