@@ -728,6 +728,42 @@ dl_file('https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/re
         'on/status-of-cases/',
         'covidtesting')
 
+# ON - Status of COVID-19 cases in Ontario by Public Health Unit (PHU)
+dl_file('https://data.ontario.ca/dataset/1115d5fe-dd84-4c69-b5ed-05bf0c0a0ff9/resource/d1bfe1ad-6575-4352-8302-09ca81f7ddfc/download/cases_by_status_and_phu.csv',
+        'on/status-of-cases-by-phu/',
+        'cases_by_status_and_phu')
+
+# ON - Ontario COVID-19 testing metrics by Public Health Unit (PHU)
+dl_file('https://data.ontario.ca/dataset/a2dfa674-a173-45b3-9964-1e3d2130b40f/resource/07bc0e21-26b5-4152-b609-c1958cb7b227/download/testing_metrics_by_phu.csv',
+        'on/testing-metrics-by-phu/',
+        'testing_metrics_by_phu')
+
+# ON - Ontario COVID-19 testing percent positive by age group
+dl_file('https://data.ontario.ca/dataset/ab5f4a2b-7219-4dc7-9e4d-aa4036c5bf36/resource/05214a0d-d8d9-4ea4-8d2a-f6e3833ba471/download/percent_positive_by_agegrp.csv',
+        'on/percent-positive-by-age-group/',
+        'percent_positive_by_agegrp')
+
+# ON - Effective reproduction number (Re) for COVID-19 in Ontario
+dl_file('https://data.ontario.ca/dataset/8da73272-8078-4cbd-ae35-1b5c60c57796/resource/1ffdf824-2712-4f64-b7fc-f8b2509f9204/download/effective_reproduction_number_ontario.csv',
+        'on/effective-reproduction-number/',
+        'effective_reproduction_number_ontario')
+
+# ON - COVID Alert Impact Data (COVID Alert downloads - Canada)
+dl_file('https://data.ontario.ca/dataset/06a61019-62c1-48d8-8d4d-2267ae0f1144/resource/37cfeca2-059e-4a5f-a228-249f6ab1b771/download/covid_alert_downloads_canada.csv',
+        'on/covid_alert_downloads_canada/',
+        'covid_alert_downloads_canada')
+
+# ON - COVID Alert Impact Data (Uploads of COVID-19 diagnosis to COVID Alert - Ontario)
+dl_file('https://data.ontario.ca/dataset/06a61019-62c1-48d8-8d4d-2267ae0f1144/resource/b792e734-9c69-47d5-8451-40fc85c2f3c6/download/covid_alert_positive_uploads_ontario.csv',
+        'on/covid-alert-uploads-ontario/',
+        'covid_alert_positive_uploads_ontario')
+
+# ON - COVID-19 testing locations
+dl_file('https://covid-19.ontario.ca/covid-19-ac-assets/data/locations.json',
+        'on/testing-locations/',
+        'locations',
+        ext='json')
+
 # ON - Testing of inmates in provincial correctional institutions
 dl_file('https://data.ontario.ca/dataset/c4022f0f-6f3d-4e16-bd28-5312333a4bac/resource/d0d6ccc7-fc60-4a18-ac96-7f9493e9f10e/download/inmatetesting.csv',
         'on/correctional-institutions-inmates-testing/',
