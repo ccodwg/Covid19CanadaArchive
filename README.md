@@ -30,6 +30,7 @@ Table of contents:
   * [Other: Non-governmental sources](#other-non-governmental-sources)
      * [Canada](#canada-1)
      * [Quebec](#quebec-1)
+* [Data notes](#data-notes)
 * [Acknowledgements](#acknowledgements)
 
 ## Contributing
@@ -372,6 +373,15 @@ The sources and terms of use for each included dataset are linked below. Supplem
 * [Covid Écoles Québec: Number of schools](https://www.covidecolesquebec.org/liste-alphabtique)
     * [Excel spreadsheet](https://drive.google.com/file/d/1xOl0uhyx9IuHZfJuRH-OR7BcGFuWYUex/view): [other/qc/covid-ecoles-quebec-school-list/COVIDECOLESQUEBEC.xlsx](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/other/qc/covid-ecoles-quebec-school-list) (original file name is COVIDECOLESQUEBEC_20200905.xlsx, renamed to avoid confusion)
     * Terms of use: TBD
+
+## Data notes
+
+On several occasions, the nightly archival script has failed to run. Depending on when the failure was identified, this may have resulted in a partial or total loss of archival data for that day. A list of these days is provided below:
+
+* Wednesday, October 21, 2020
+* Thursday, November 19, 2020
+
+In the future, a package will be provided to more easily access the data provided in this archive and to document missing or incomplete data.
 
 ## Acknowledgements
 
