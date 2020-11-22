@@ -20,13 +20,16 @@ Table of contents:
   * [Canada](#canada)
   * [Manitoba](#manitoba)
      * [Winnipeg](#winnipeg)
+  * [Northwest Territories](#northwest-territories)
   * [Nova Scotia](#nova-scotia)
+  * [Nunavut](#nunavut)
   * [Ontario](#ontario)
      * [Toronto](#toronto)
      * [Ottawa](#ottawa)
   * [Quebec](#quebec)
      * [Montreal](#montreal)
   * [Saskatchewan](#saskatchewan)
+  * [Yukon](#yukon)
   * [Other: Non-governmental sources](#other-non-governmental-sources)
      * [Canada](#canada-1)
      * [Quebec](#quebec-1)
@@ -176,11 +179,23 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Terms of use: [Open Government Licence - Winnipeg](https://data.winnipeg.ca/open-data-licence)
     * Not included as part of the nightly update, as it does not seem to be receiving regular updates (last updated: June 29, 2020)
 
+### Northwest Territories
+
+* [https://www.gov.nt.ca/covid-19/](https://www.gov.nt.ca/covid-19/)
+    * Webpage: [nt/nwt-webpage/nwt-webpage.html](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/nt/nwt-webpage)
+    * Terms of use: TBD
+
 ### Nova Scotia
 
 * [Coronavirus (COVID-19): case data](https://novascotia.ca/coronavirus/data/)
     * [ns/case-data/ns-covid19-data.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/ns/case-data)
     * Terms of use: Assumed to be [Open Government Licence – Nova Scotia](https://novascotia.ca/opendata/licence.asp)
+
+### Nunavut
+
+* [COVID-19 (Novel Coronavirus)](https://gov.nu.ca/health/information/covid-19-novel-coronavirus)
+    * Webpage: [nu/nunavut-webpage/nunavut-webpage.html](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/nu/nunavut-webpage)
+    * Terms of use: TBD
 
 ### Ontario
 
@@ -354,6 +369,16 @@ The sources and terms of use for each included dataset are linked below. Supplem
 * [Saskatchewan's Dashboard - Total Tests](https://dashboard.saskatchewan.ca/health-wellness/covid-19/tests)
     * CSV: [sk/tests-by-region/tests.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/sk/tests-by-region)
     * Webpage: [sk/tests-by-region-webpage/tests-webpage.html](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/sk/tests-by-region-webpage) (warning: some early files are .png screenshots and named differently)
+    * Terms of use: TBD
+
+### Yukon
+
+* [Case counts: COVID-19](https://yukon.ca/en/case-counts-covid-19)
+    * Webpage: [yt/yukon-case-counts-webpage/yukon-case-counts-webpage.html](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/yt/yukon-case-counts-webpage)
+    * Terms of use: TBD
+
+* [Current COVID-19 situation](https://yukon.ca/en/health-and-wellness/covid-19-information/latest-updates-covid-19/current-covid-19-situation)
+    * Webpage: [yt/yukon-current-situation-webpage/yukon-current-situation-webpage.html](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/yt/yukon-current-situation-webpage)
     * Terms of use: TBD
 
 ### Other: Non-governmental sources

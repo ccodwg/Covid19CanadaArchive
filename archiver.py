@@ -706,6 +706,16 @@ dl_file('https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_co
         'five-day-test-positivity',
         mb_json_to_csv=True)
 
+# NT - GNWT's Response to COVID-19 (webpage)
+html_page('https://www.gov.nt.ca/covid-19/',
+          'nu/nwt-webpage/',
+          'nwt-webpage')
+
+# NU - COVID-19 (Novel Coronavirus) (webpage)
+html_page('https://gov.nu.ca/health/information/covid-19-novel-coronavirus',
+          'nu/nunavut-webpage/',
+          'nunavut-webpage')
+
 # NS - Coronavirus (COVID-19): case data
 dl_file('https://novascotia.ca/coronavirus/data/ns-covid19-data.csv',
         'ns/case-data/',
@@ -1058,6 +1068,16 @@ dl_file(sk_url_tests,
 html_page('https://dashboard.saskatchewan.ca/health-wellness/covid-19/tests',
           'sk/tests-by-region-webpage/',
           'tests-webpage')
+
+# YT - Case counts: COVID-19 (webpage)
+html_page('https://yukon.ca/en/case-counts-covid-19',
+          'yt/yukon-case-counts-webpage/',
+          'yukon-case-counts-webpage')
+
+# YT - Current COVID-19 situation (webpage)
+html_page('https://yukon.ca/en/health-and-wellness/covid-19-information/latest-updates-covid-19/current-covid-19-situation',
+          'yt/yukon-current-situation-webpage/',
+          'yukon-current-situation-webpage')
 
 # Other: CAN - Unofficial COVID Alert Dashboard - Diagnosis Keys Analysis
 dl_file('https://raw.githubusercontent.com/uhengart/covid-alert-dashboard/master/DiagnosisKeysAnalysis.csv',
