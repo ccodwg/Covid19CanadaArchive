@@ -160,6 +160,9 @@ The sources and terms of use for each included dataset are linked below. Supplem
 
 ### Manitoba
 
+* [COVID-19 Updates](https://www.gov.mb.ca/covid19/updates/index.html)
+    * Webpage: mb/manitoba-webpage/manitoba-webpage.html](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/mb/manitoba-webpage)
+    * Terms of use: TBD
 * [Cases and Risk of COVID-19 in Manitoba](https://www.gov.mb.ca/covid19/updates/cases.html)
     * COVID-19 data by RHA and district: [mb/covid-data-by-rha-and-district/covid-data-by-rha-and-district.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/mb/covid-data-by-rha-and-district)
     * Cases by demographics and RHA: [mb/cases-demographics-by-rha/cases-demographics-by-rha.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/mb/cases-demographics-by-rha)
