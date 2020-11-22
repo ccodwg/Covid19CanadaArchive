@@ -777,7 +777,7 @@ dl_file('https://data.ontario.ca/dataset/06a61019-62c1-48d8-8d4d-2267ae0f1144/re
 dl_file('https://covid-19.ontario.ca/covid-19-ac-assets/data/locations.json',
         'on/testing-locations/',
         'locations',
-        ext='json')
+        ext='.json')
 
 # ON - Testing of inmates in provincial correctional institutions
 dl_file('https://data.ontario.ca/dataset/c4022f0f-6f3d-4e16-bd28-5312333a4bac/resource/d0d6ccc7-fc60-4a18-ac96-7f9493e9f10e/download/inmatetesting.csv',
