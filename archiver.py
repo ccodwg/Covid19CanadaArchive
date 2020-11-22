@@ -682,6 +682,11 @@ dl_file('https://www150.statcan.gc.ca/n1/tbl/csv/13100781-eng.zip',
         '13100781',
         unzip=True)
 
+# MB - COVID 19 Updates
+html_page('https://www.gov.mb.ca/covid19/updates/index.html',
+          'mb/manitoba-webpage/',
+          'manitoba-webpage')
+
 # MB - COVID-19 data by RHA and district
 dl_file('https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_summary_stats_geography/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
         'mb/covid-data-by-rha-and-district/',
