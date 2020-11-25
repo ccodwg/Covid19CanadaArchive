@@ -779,6 +779,16 @@ dl_file('https://covid-19.ontario.ca/covid-19-ac-assets/data/locations.json',
         'locations',
         ext='.json')
 
+# ON - Ongoing outbreaks
+dl_file('https://data.ontario.ca/dataset/5472ffc1-88e2-48ca-bc9f-4aa249c1298d/resource/66d15cce-bfee-4f91-9e6e-0ea79ec52b3d/download/ongoing_outbreaks.csv',
+        'on/ongoing-outbreaks/',
+        'ongoing_outbreaks')
+
+# ON - Summary of cases associated with outbreaks
+dl_file('https://data.ontario.ca/dataset/5472ffc1-88e2-48ca-bc9f-4aa249c1298d/resource/d5d8f478-765c-4246-b8a7-c3b13a4a1a41/download/outbreak_cases.csv',
+        'on/summary-outbreak-cases/',
+        'outbreak_cases')
+
 # ON - Testing of inmates in provincial correctional institutions
 dl_file('https://data.ontario.ca/dataset/c4022f0f-6f3d-4e16-bd28-5312333a4bac/resource/d0d6ccc7-fc60-4a18-ac96-7f9493e9f10e/download/inmatetesting.csv',
         'on/correctional-institutions-inmates-testing/',
