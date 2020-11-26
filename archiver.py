@@ -521,17 +521,20 @@ def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
 # AB - COVID-19 Alberta statistics
 dl_ab_cases('https://www.alberta.ca/stats/covid-19-alberta-statistics.htm',
             'ab/cases/',
-            'covid19dataexport')
+            'covid19dataexport',
+            wait=30)
 
 # AB - COVID-19 relaunch status map
 dl_ab_oneclick('https://www.alberta.ca/maps/covid-19-status-map.htm',
                'ab/active-cases-by-region/',
-               'covid19dataexport-relaunch')
+               'covid19dataexport-relaunch',
+               wait=15)
 
 # AB - COVID-19 school status map
 dl_ab_oneclick('https://www.alberta.ca/schools/covid-19-school-status-map.htm',
                'ab/school-status-by-region/',
-               'covid19dataexport-schools')
+               'covid19dataexport-schools',
+               wait=15)
 
 # AB - COVID-19 in Alberta: Current cases by local geographic area (Edmonton)
 dl_file('https://data.edmonton.ca/api/views/ix8f-s9xp/rows.csv?accessType=DOWNLOAD',
