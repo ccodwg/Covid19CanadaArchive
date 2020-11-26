@@ -1,0 +1,24 @@
+date,outbreak_group,outbreak_subgroup,number_ongoing_outbreaks
+11/24/2020,1 Congregate Care,1 Long-Term Care Homes,101
+11/24/2020,1 Congregate Care,2 Hospitals,29
+11/24/2020,1 Congregate Care,3 Retirement Homes,62
+11/24/2020,2 Congregate Living,4 Group Home/Supportive Housing,29
+11/24/2020,2 Congregate Living,5 Correctional Facility,3
+11/24/2020,2 Congregate Living,6 Shelter,10
+11/24/2020,2 Congregate Living,18 Short-term accommodations,2
+11/24/2020,2 Congregate Living,22 Congregate other,11
+11/24/2020,3 Education,7 School - Elementary,75
+11/24/2020,3 Education,8 School - Secondary,23
+11/24/2020,3 Education,9 School - Elementary/Secondary,4
+11/24/2020,3 Education,10 School - Post-Secondary,2
+11/24/2020,3 Education,11 Child care,50
+11/24/2020,4 Workplace,12 Workplace - Farm,4
+11/24/2020,4 Workplace,13 Workplace - Food Processing,18
+11/24/2020,4 Workplace,14 Workplace - Other,144
+11/24/2020,4 Workplace,15 Retail,22
+11/24/2020,4 Workplace,16 Medical/Health Service,7
+11/24/2020,5 Recreational,17 Bar/restaurant/nightclub,24
+11/24/2020,5 Recreational,19 Recreational fitness,11
+11/24/2020,5 Recreational,21 Other recreation,24
+11/24/2020,6 Other/Unknown,23 Other,20
+11/24/2020,6 Other/Unknown,24 Unknown,4

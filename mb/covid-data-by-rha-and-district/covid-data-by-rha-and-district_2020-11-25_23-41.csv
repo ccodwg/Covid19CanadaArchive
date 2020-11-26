@@ -1,0 +1,91 @@
+Date,Last_Update,RHA,Area,Area_Name,Total_Tests,Daily_Tests,Total_Cases,Active_Cases,Recovered,Deaths,New_Cases,Current_Hospitalizations,Current_ICU_Patients,Population,Rate,ObjectId
+2020-11-25,"November 25, 2020",All,All,All,340151.0,2614.0,14907,8758,5893,256,349.0,303.0,50.0,,1087.14,1
+2020-11-25,"November 25, 2020",Interlake-Eastern,Interlake-Eastern,Interlake-Eastern,,,1025,551,463,11,22.0,23.0,6.0,,817.05,2
+2020-11-25,"November 25, 2020",Northern,Northern,Northern,,,814,443,365,6,30.0,12.0,1.0,,1060.28,3
+2020-11-25,"November 25, 2020",Prairie Mountain Health,Prairie Mountain Health,Prairie Mountain Health,,,973,296,667,10,11.0,5.0,1.0,,568.83,4
+2020-11-25,"November 25, 2020",Southern Health-Santé Sud,Southern Health-Santé Sud,Southern Health-Santé Sud,,,2875,1174,1651,50,73.0,67.0,9.0,,1384.75,5
+2020-11-25,"November 25, 2020",Winnipeg,Winnipeg,Winnipeg,,,9220,6294,2747,179,213.0,196.0,33.0,,1166.61,6
+2020-11-25,"November 25, 2020",Interlake-Eastern,IE11,Selkirk,,,33,24,8,1,,,,,309.22,7
+2020-11-25,"November 25, 2020",Interlake-Eastern,IE21,Stonewall/Teulon,,,107,53,52,2,,,,,639.65,8
+2020-11-25,"November 25, 2020",Interlake-Eastern,IE22,Wpg Beach/St. Andrews,,,85,50,34,1,,,,,498.33,9
+2020-11-25,"November 25, 2020",Interlake-Eastern,IE23,St. Clements,,,40,21,19,0,,,,,476.08,10
+2020-11-25,"November 25, 2020",Interlake-Eastern,IE24,Springfield,,,91,46,45,0,,,,,744.56,11
+2020-11-25,"November 25, 2020",Interlake-Eastern,IE31,Beausejour,,,36,17,19,0,,,,,367.65,12
+2020-11-25,"November 25, 2020",Interlake-Eastern,IE32,Pinawa/Lac du Bonnet,,,29,20,9,0,,,,,358.96,13
+2020-11-25,"November 25, 2020",Interlake-Eastern,IE33,Whiteshell,,,8,7,1,0,,,,,286.12,14
+2020-11-25,"November 25, 2020",Interlake-Eastern,IE41,Gimli,,,9,7,2,0,,,,,143.27,15
+2020-11-25,"November 25, 2020",Interlake-Eastern,IE42,Arborg/Riverton,,,42,16,26,0,,,,,788.58,16
+2020-11-25,"November 25, 2020",Interlake-Eastern,IE43,St. Laurent,,,9,2,7,0,,,,,231.48,17
+2020-11-25,"November 25, 2020",Interlake-Eastern,IE51,Powerview/Pine Falls,,,21,9,12,0,,,,,340.41,18
+2020-11-25,"November 25, 2020",Interlake-Eastern,IE52,Fisher/Peguis,,,268,117,149,2,,,,,3843.95,19
+2020-11-25,"November 25, 2020",Interlake-Eastern,IE53,Eriksdale/Ashern,,,98,78,16,4,,,,,1407.44,20
+2020-11-25,"November 25, 2020",Interlake-Eastern,IE61,Northern Remote,,,82,36,45,1,,,,,1998.05,21
+2020-11-25,"November 25, 2020",Northern,NO11,The Pas/OCN/Kelsey,,,342,197,143,2,,,,,3071.12,22
+2020-11-25,"November 25, 2020",Northern,NO12,Flin Flon/Snow Lake/Cranberry/Sherridon,,,12,4,8,0,,,,,157.67,23
+2020-11-25,"November 25, 2020",Northern,NO13,Lynn/MC FN/Leaf/O-P FN (SIL)/PN FN (Granville),,,10,5,5,0,,,,,423.55,24
+2020-11-25,"November 25, 2020",Northern,NO14,Thompson/Mystery Lake,,,86,26,60,0,,,,,584.48,25
+2020-11-25,"November 25, 2020",Northern,NO15,Bay Line,,,3,0,3,0,,,,,248.14,26
+2020-11-25,"November 25, 2020",Northern,NO16,Gillam/Fox Lake CN,,,2,0,2,0,,,,,149.37,27
+2020-11-25,"November 25, 2020",Northern,NO21,GR/Misipawistik CN/ML/Mosakahiken CN/Eas/Chemawawin FN,,,119,75,42,2,,,,,2853.72,28
+2020-11-25,"November 25, 2020",Northern,NO22,Pukatawagan/Mathias Colomb CN,,,6,6,0,0,,,,,317.63,29
+2020-11-25,"November 25, 2020",Northern,NO23,Sayisi Dene/Tadoule/Barren Lands/Brochet/Northlands/Lac Br,,,5,3,2,0,,,,,306.75,30
+2020-11-25,"November 25, 2020",Northern,NO24,Nelson House/Nisichawayasihk Cree Nation,,,9,1,8,0,,,,,337.96,31
+2020-11-25,"November 25, 2020",Northern,NO25,Shamattawa FN/York Factory FN/Tataskweyak CN/Split Lake,,,37,25,12,0,,,,,1065.05,32
+2020-11-25,"November 25, 2020",Northern,NO26,Bunibonibee/Oxford House/Manto Sipi/God's River/God's Lake,,,8,2,5,1,,,,,184.25,33
+2020-11-25,"November 25, 2020",Northern,NO27,Cross Lake/Pimicikamak CN,,,81,46,35,0,,,,,1502.23,34
+2020-11-25,"November 25, 2020",Northern,NO28,Norway House/Norway House CN,,,1,0,1,0,,,,,17.14,35
+2020-11-25,"November 25, 2020",Northern,NO31,Island Lake,,,51,46,4,1,,,,,566.16,36
+2020-11-25,"November 25, 2020",Southern Health-Santé Sud,SO11,Seven Regions,,,18,4,14,0,,,,,286.44,37
+2020-11-25,"November 25, 2020",Southern Health-Santé Sud,SO12,North Norfolk,,,17,3,14,0,,,,,369.48,38
+2020-11-25,"November 25, 2020",Southern Health-Santé Sud,SO13,Rural Portage,,,49,11,36,2,,,,,749.58,39
+2020-11-25,"November 25, 2020",Southern Health-Santé Sud,SO14,Cartier/St. Francçois Xavier,,,209,34,175,0,,,,,2343.57,40
+2020-11-25,"November 25, 2020",Southern Health-Santé Sud,SO15,City of Portage La Prairie,,,87,26,60,1,,,,,523.31,41
+2020-11-25,"November 25, 2020",Southern Health-Santé Sud,SO21,Grey,,,12,2,8,2,,,,,414.79,42
+2020-11-25,"November 25, 2020",Southern Health-Santé Sud,SO22,Carman,,,35,13,21,1,,,,,597.07,43
+2020-11-25,"November 25, 2020",Southern Health-Santé Sud,SO23,MacDonald,,,41,12,29,0,,,,,500.73,44
+2020-11-25,"November 25, 2020",Southern Health-Santé Sud,SO24,Morris,,,37,18,19,0,,,,,687.48,45
+2020-11-25,"November 25, 2020",Southern Health-Santé Sud,SO25,St. Pierre,,,55,28,27,0,,,,,1337.22,46
+2020-11-25,"November 25, 2020",Southern Health-Santé Sud,SO26,Red River South,,,25,12,13,0,,,,,558.16,47
+2020-11-25,"November 25, 2020",Southern Health-Santé Sud,SO31,Lorne/Louise/Pembina,,,61,19,42,0,,,,,742.36,48
+2020-11-25,"November 25, 2020",Southern Health-Santé Sud,SO32,Stanley,,,24,9,15,0,,,,,548.07,49
+2020-11-25,"November 25, 2020",Southern Health-Santé Sud,SO33,Altona,,,117,65,52,0,,,,,1178.72,50
+2020-11-25,"November 25, 2020",Southern Health-Santé Sud,SO34,Morden,,,71,47,24,0,,,,,644.34,51
+2020-11-25,"November 25, 2020",Southern Health-Santé Sud,SO35,Winkler,,,158,94,62,2,,,,,836.95,52
+2020-11-25,"November 25, 2020",Southern Health-Santé Sud,SO36,Roland/Thompson,,,25,5,19,1,,,,,1185.96,53
+2020-11-25,"November 25, 2020",Southern Health-Santé Sud,SO41,Niverville/Ritchot,,,179,53,125,1,,,,,1264.93,54
+2020-11-25,"November 25, 2020",Southern Health-Santé Sud,SO42,Tache,,,99,44,54,1,,,,,945.65,55
+2020-11-25,"November 25, 2020",Southern Health-Santé Sud,SO43,Ste Anne/La Broquerie,,,221,110,105,6,,,,,1687.54,56
+2020-11-25,"November 25, 2020",Southern Health-Santé Sud,SO44,Steinbach,,,805,338,443,24,,,,,3668.43,57
+2020-11-25,"November 25, 2020",Southern Health-Santé Sud,SO45,Hanover,,,365,171,189,5,,,,,2370.28,58
+2020-11-25,"November 25, 2020",Southern Health-Santé Sud,SO46,Rural East,,,46,27,17,2,,,,,1108.43,59
+2020-11-25,"November 25, 2020",Winnipeg,Unknown Community Area,Unknown Community Area,,,220,150,68,2,,,,,,60
+2020-11-25,"November 25, 2020",Southern Health-Santé Sud,Unknown District,Unknown District,,,119,29,88,2,,,,,,61
+2020-11-25,"November 25, 2020",Interlake-Eastern,Unknown District,Unknown District,,,67,48,19,0,,,,,,62
+2020-11-25,"November 25, 2020",Northern,Unknown District,Unknown District,,,42,7,35,0,,,,,,63
+2020-11-25,"November 25, 2020",Prairie Mountain Health,Unknown District,Unknown District,,,23,7,16,0,,,,,,64
+2020-11-25,"November 25, 2020",Winnipeg,W01,St. James - Assiniboia,,,489,340,143,6,,,,,791.49,65
+2020-11-25,"November 25, 2020",Winnipeg,W02,Assiniboine South,,,274,165,103,6,,,,,740.3,66
+2020-11-25,"November 25, 2020",Winnipeg,W03,Fort Garry,,,968,648,301,19,,,,,977.63,67
+2020-11-25,"November 25, 2020",Winnipeg,W04,St. Vital,,,664,460,189,15,,,,,937.59,68
+2020-11-25,"November 25, 2020",Winnipeg,W05,St. Boniface,,,585,410,168,7,,,,,907.68,69
+2020-11-25,"November 25, 2020",Winnipeg,W06,Transcona,,,356,235,117,4,,,,,752.59,70
+2020-11-25,"November 25, 2020",Winnipeg,W07,River East,,,1027,658,357,12,,,,,1015.99,71
+2020-11-25,"November 25, 2020",Winnipeg,W08,Seven Oaks,,,1285,872,373,40,,,,,1563.28,72
+2020-11-25,"November 25, 2020",Winnipeg,W09,Inkster,,,517,366,148,3,,,,,1326.46,73
+2020-11-25,"November 25, 2020",Winnipeg,W10,Point Douglas,,,790,579,200,11,,,,,1606.54,74
+2020-11-25,"November 25, 2020",Winnipeg,W11,Downtown,,,1590,1097,448,45,,,,,2029.59,75
+2020-11-25,"November 25, 2020",Winnipeg,W12,River Heights,,,454,313,132,9,,,,,796.64,76
+2020-11-25,"November 25, 2020",Prairie Mountain Health,WE11,Duck Mountain,,,18,13,5,0,,,,,324.5,77
+2020-11-25,"November 25, 2020",Prairie Mountain Health,WE12,Porcupine Mountain,,,13,9,4,0,,,,,165.21,78
+2020-11-25,"November 25, 2020",Prairie Mountain Health,WE13,Riding Mountain,,,29,20,5,4,,,,,593.41,79
+2020-11-25,"November 25, 2020",Prairie Mountain Health,WE14,Agassiz Mountain,,,3,1,1,1,,,,,42.39,80
+2020-11-25,"November 25, 2020",Prairie Mountain Health,WE15,Dauphin,,,18,6,11,1,,,,,189.14,81
+2020-11-25,"November 25, 2020",Prairie Mountain Health,WE16,Swan River,,,14,8,6,0,,,,,241.67,82
+2020-11-25,"November 25, 2020",Prairie Mountain Health,WE31,Asessippi,,,100,9,91,0,,,,,900.25,83
+2020-11-25,"November 25, 2020",Prairie Mountain Health,WE32,Little Saskatchewan,,,30,9,21,0,,,,,232.99,84
+2020-11-25,"November 25, 2020",Prairie Mountain Health,WE33,Turtle Mountain,,,32,11,21,0,,,,,292.53,85
+2020-11-25,"November 25, 2020",Prairie Mountain Health,WE34,Souris River,,,44,29,15,0,,,,,334.86,86
+2020-11-25,"November 25, 2020",Prairie Mountain Health,WE35,Whitemud,,,78,24,53,1,,,,,627.01,87
+2020-11-25,"November 25, 2020",Prairie Mountain Health,WE36,Spruce Woods,,,62,18,43,1,,,,,405.79,88
+2020-11-25,"November 25, 2020",Prairie Mountain Health,WEBR,Brandon,,,509,132,375,2,,,,,932.56,89
+2020-11-25,"November 25, 2020",Winnipeg,WP21,Winnipeg - Churchill,,,1,1,0,0,,,,,110.38,90
