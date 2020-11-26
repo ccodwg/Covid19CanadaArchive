@@ -2,7 +2,7 @@
 
 This repository provides automated, daily backups of COVID-19 data from various Canadian government sources. Selected non-governmental sources are also included.
 
-**File name timestamps are given in ET (America/Toronto) in the following format: %Y%-m-%d_%H-%M.** The script is run nightly around 23:00 ET.
+**File name timestamps are given in ET (America/Toronto) in the following format: %Y-%m-%d_%H-%M.** The script is run nightly around 23:00 ET.
 
 All code in this repository is covered by the [MIT License](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/blob/master/LICENSE). Licenses and terms of use for each archived dataset are given below.
 
