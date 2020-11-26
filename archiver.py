@@ -761,6 +761,11 @@ dl_file('https://data.ontario.ca/dataset/ab5f4a2b-7219-4dc7-9e4d-aa4036c5bf36/re
         'on/percent-positive-by-age-group/',
         'percent_positive_by_agegrp')
 
+# ON - COVID-19 hospital metrics in Ontario by Local Health Integration Network (LHIN) regions
+dl_file('https://data.ontario.ca/dataset/8f3a449b-bde5-4631-ada6-8bd94dbc7d15/resource/e760480e-1f95-4634-a923-98161cfb02fa/download/lhin_hospital_icu_covid_data.csv',
+        'on/hosp-icu-by-lhin/',
+        'lhin_hospital_icu_covid_data')
+
 # ON - Effective reproduction number (Re) for COVID-19 in Ontario
 dl_file('https://data.ontario.ca/dataset/8da73272-8078-4cbd-ae35-1b5c60c57796/resource/1ffdf824-2712-4f64-b7fc-f8b2509f9204/download/effective_reproduction_number_ontario.csv',
         'on/effective-reproduction-number/',
