@@ -1,0 +1,133 @@
+Gender,Age_Group,RHA,Total_Cases,ObjectId
+Female,99+,All,17,121
+Female,99+,Interlake-Eastern,0,122
+Female,99+,Northern,0,123
+Female,99+,Prairie Mountain Health,2,124
+Female,99+,Southern Health-Santé Sud,2,125
+Female,99+,Winnipeg,13,126
+Male,99+,All,4,127
+Male,99+,Interlake-Eastern,0,128
+Male,99+,Northern,0,129
+Male,99+,Prairie Mountain Health,0,130
+Male,99+,Southern Health-Santé Sud,1,131
+Male,99+,Winnipeg,3,132
+Female,90-99,All,258,109
+Female,90-99,Interlake-Eastern,2,110
+Female,90-99,Northern,2,111
+Female,90-99,Prairie Mountain Health,18,112
+Female,90-99,Southern Health-Santé Sud,45,113
+Female,90-99,Winnipeg,191,114
+Male,90-99,All,92,115
+Male,90-99,Interlake-Eastern,0,116
+Male,90-99,Northern,1,117
+Male,90-99,Prairie Mountain Health,6,118
+Male,90-99,Southern Health-Santé Sud,18,119
+Male,90-99,Winnipeg,67,120
+Female,80-89,All,329,97
+Female,80-89,Interlake-Eastern,9,98
+Female,80-89,Northern,2,99
+Female,80-89,Prairie Mountain Health,28,100
+Female,80-89,Southern Health-Santé Sud,69,101
+Female,80-89,Winnipeg,221,102
+Male,80-89,All,285,103
+Male,80-89,Interlake-Eastern,11,104
+Male,80-89,Northern,4,105
+Male,80-89,Prairie Mountain Health,20,106
+Male,80-89,Southern Health-Santé Sud,71,107
+Male,80-89,Winnipeg,179,108
+Female,70-79,All,400,85
+Female,70-79,Interlake-Eastern,32,86
+Female,70-79,Northern,18,87
+Female,70-79,Prairie Mountain Health,19,88
+Female,70-79,Southern Health-Santé Sud,116,89
+Female,70-79,Winnipeg,215,90
+Male,70-79,All,390,91
+Male,70-79,Interlake-Eastern,31,92
+Male,70-79,Northern,18,93
+Male,70-79,Prairie Mountain Health,22,94
+Male,70-79,Southern Health-Santé Sud,123,95
+Male,70-79,Winnipeg,196,96
+Female,60-69,All,673,73
+Female,60-69,Interlake-Eastern,67,74
+Female,60-69,Northern,41,75
+Female,60-69,Prairie Mountain Health,24,76
+Female,60-69,Southern Health-Santé Sud,162,77
+Female,60-69,Winnipeg,379,78
+Male,60-69,All,703,79
+Male,60-69,Interlake-Eastern,62,80
+Male,60-69,Northern,39,81
+Male,60-69,Prairie Mountain Health,33,82
+Male,60-69,Southern Health-Santé Sud,151,83
+Male,60-69,Winnipeg,418,84
+Female,50-59,All,1075,61
+Female,50-59,Interlake-Eastern,81,62
+Female,50-59,Northern,61,63
+Female,50-59,Prairie Mountain Health,54,64
+Female,50-59,Southern Health-Santé Sud,234,65
+Female,50-59,Winnipeg,645,66
+Male,50-59,All,995,67
+Male,50-59,Interlake-Eastern,70,68
+Male,50-59,Northern,43,69
+Male,50-59,Prairie Mountain Health,56,70
+Male,50-59,Southern Health-Santé Sud,182,71
+Male,50-59,Winnipeg,644,72
+Female,40-49,All,1079,49
+Female,40-49,Interlake-Eastern,75,50
+Female,40-49,Northern,56,51
+Female,40-49,Prairie Mountain Health,67,52
+Female,40-49,Southern Health-Santé Sud,218,53
+Female,40-49,Winnipeg,663,54
+Male,40-49,All,1027,55
+Male,40-49,Interlake-Eastern,59,56
+Male,40-49,Northern,64,57
+Male,40-49,Prairie Mountain Health,76,58
+Male,40-49,Southern Health-Santé Sud,220,59
+Male,40-49,Winnipeg,608,60
+Female,30-39,All,1162,37
+Female,30-39,Interlake-Eastern,79,38
+Female,30-39,Northern,66,39
+Female,30-39,Prairie Mountain Health,92,40
+Female,30-39,Southern Health-Santé Sud,209,41
+Female,30-39,Winnipeg,716,42
+Male,30-39,All,1249,43
+Male,30-39,Interlake-Eastern,78,44
+Male,30-39,Northern,72,45
+Male,30-39,Prairie Mountain Health,101,46
+Male,30-39,Southern Health-Santé Sud,236,47
+Male,30-39,Winnipeg,762,48
+Female,20-29,All,1435,25
+Female,20-29,Interlake-Eastern,91,26
+Female,20-29,Northern,75,27
+Female,20-29,Prairie Mountain Health,74,28
+Female,20-29,Southern Health-Santé Sud,253,29
+Female,20-29,Winnipeg,942,30
+Male,20-29,All,1496,31
+Male,20-29,Interlake-Eastern,79,32
+Male,20-29,Northern,81,33
+Male,20-29,Prairie Mountain Health,91,34
+Male,20-29,Southern Health-Santé Sud,317,35
+Male,20-29,Winnipeg,928,36
+Female,10-19,All,790,13
+Female,10-19,Interlake-Eastern,63,14
+Female,10-19,Northern,55,15
+Female,10-19,Prairie Mountain Health,58,16
+Female,10-19,Southern Health-Santé Sud,120,17
+Female,10-19,Winnipeg,494,18
+Male,10-19,All,914,19
+Male,10-19,Interlake-Eastern,71,20
+Male,10-19,Northern,57,21
+Male,10-19,Prairie Mountain Health,85,22
+Male,10-19,Southern Health-Santé Sud,147,23
+Male,10-19,Winnipeg,554,24
+Female,0-9,All,431,1
+Female,0-9,Interlake-Eastern,45,2
+Female,0-9,Northern,41,3
+Female,0-9,Prairie Mountain Health,26,4
+Female,0-9,Southern Health-Santé Sud,41,5
+Female,0-9,Winnipeg,278,6
+Male,0-9,All,484,7
+Male,0-9,Interlake-Eastern,45,8
+Male,0-9,Northern,47,9
+Male,0-9,Prairie Mountain Health,35,10
+Male,0-9,Southern Health-Santé Sud,55,11
+Male,0-9,Winnipeg,302,12
