@@ -1,0 +1,859 @@
+﻿Case_Reported_Date,Case_number,Age_Group,Client_Gender,Case_AcquisitionInfo,Travel_location,Outcome1,Reporting_PHU,Reporting_PHU_Address,Reporting_PHU_City,Reporting_PHU_Postal_Code,Reporting_PHU_Website,Reporting_PHU_Latitude,Reporting_PHU_Longitude
+01/25/2020,1,not reported,male,travel,China,isolation,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+01/27/2020,2,not reported,female,travel,China,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+01/31/2020,3,20s,female,not reported,,not reported,not reported,,,,,,
+02/23/2020,4,not reported,female,travel,China,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+02/26/2020,5,60s,female,travel,Iran,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+02/27/2020,6,60s,male,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+02/28/2020,7,50s,male,travel,Iran,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+02/28/2020,8,80s,male,travel,Egypt,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+02/29/2020,9,30s,female,travel,Iran,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+02/29/2020,10,50s,female,travel,Iran,not reported,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+02/29/2020,11,60s,male,travel,Iran,not reported,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/01/2020,12,50s,male,travel,Iran,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/01/2020,13,40s,male,travel,Iran,not reported,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/01/2020,14,60s,male,travel,Iran,not reported,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/01/2020,15,70s,female,travel,Egypt,not reported,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/02/2020,16,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/02/2020,17,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/02/2020,18,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/03/2020,19,70s,female,not reported,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/03/2020,20,50s,male,travel,Iran,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/05/2020,21,50s,female,travel,Italy,self-isolating,"Region of Waterloo, Public Health",99 Regina Street South,Waterloo,N2J 4V3,www.chd.region.waterloo.on.ca,43.46287573,-80.52091315
+03/05/2020,22,60s,male,travel,Iran,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/06/2020,23,60s,male,travel,cruise; California; Mexico,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/06/2020,24,60s,female,travel,cruise; California; Mexico,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/06/2020,25,50s,male,travel,Iran,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/06/2020,26,40s,male,travel,Nevada,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/06/2020,27,20s,male,travel,Italy,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/06/2020,28,60s,female,travel,Iran,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/08/2020,29,40s,female,travel,Colorado,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/08/2020,30,60s,female,travel,France,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/08/2020,31,60s,male,travel,D.C.,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/09/2020,32,50s,male,travel,Germany,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/09/2020,33,80s,male,travel,Iran,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/09/2020,34,70s,female,travel,Iran,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/09/2020,35,30s,female,close contact,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/10/2020,36,40s,male,travel,Switzerland,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/11/2020,37,50s,male,not reported,,self-isolating,Sudbury & District Health Unit,1300 Paris Street,Sudbury,P3E 3A3,www.phsd.ca,46.46609195,-80.99805884
+03/11/2020,38,30s,female,travel,Egypt,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/11/2020,39,30s,male,travel,USA,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/11/2020,40,40s,male,travel,Austria,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/11/2020,41,30s,female,travel,USA,self-isolating,Halton Region Health Department,1151 Bronte Road,Oakville,L6M 3Ll,www.halton.ca/For-Residents/Public-Health/ ,43.41399692,-79.74479581
+03/11/2020,42,40s,female,travel,USA,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/12/2020,43,50s,male,travel,not reported,self-isolating,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/12/2020,44,<18,female,close contact,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/12/2020,45,20s,male,close contact,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/12/2020,46,70s,male,travel,USA,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/12/2020,47,40s,male,travel,USA,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/12/2020,48,60s,female,travel,Puerto Rico,self-isolating,"Region of Waterloo, Public Health",99 Regina Street South,Waterloo,N2J 4V3,www.chd.region.waterloo.on.ca,43.46287573,-80.52091315
+03/12/2020,49,40s,female,travel,Italy,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/12/2020,50,20s,female,travel,Europe,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/12/2020,51,40s,female,travel,USA; Costa Rica,self-isolating,Halton Region Health Department,1151 Bronte Road,Oakville,L6M 3Ll,www.halton.ca/For-Residents/Public-Health/ ,43.41399692,-79.74479581
+03/12/2020,52,<18,male,close contact,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/12/2020,53,30s,male,close contact,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/12/2020,54,20s,male,travel,USA,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/12/2020,55,60s,male,travel,USA,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/12/2020,56,60s,female,travel,USA,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/12/2020,57,20s,female,travel,not reported,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/12/2020,58,40s,male,travel,USA,self-isolating,"Region of Waterloo, Public Health",99 Regina Street South,Waterloo,N2J 4V3,www.chd.region.waterloo.on.ca,43.46287573,-80.52091315
+03/12/2020,59,40s,male,travel,Spain,self-isolating,Simcoe Muskoka District Health Unit,15 Sperling Drive,Barrie,L4M 6K9,www.simcoemuskokahealth.org,44.41071258,-79.68630597
+03/13/2020,60,20s,female,travel,not reported,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/13/2020,61,20s,female,close contact,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/13/2020,62,60s,female,travel; close contact,not reported,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/13/2020,63,70s,male,travel,Egypt,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/13/2020,64,70s,female,travel,Egypt,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/13/2020,65,40s,male,travel; close contact,USA,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/13/2020,66,40s,female,travel,England,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/13/2020,67,80s,male,not reported,,hospitalized,Niagara Region Public Health Department,1815 Sir Isaac Brock Way,Thorold,L2V 4T7,www.niagararegion.ca/health,43.1165366,-79.2412197
+03/13/2020,68,60s,male,travel,USA,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/13/2020,69,20s,female,travel,USA,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/13/2020,70,60s,female,travel,USA,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/13/2020,71,20s,male,close contact,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/13/2020,72,20s,male,travel,not reported,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/13/2020,73,50s,female,travel; close contact,not reported,self-isolating,"Region of Waterloo, Public Health",99 Regina Street South,Waterloo,N2J 4V3,www.chd.region.waterloo.on.ca,43.46287573,-80.52091315
+03/13/2020,74,20s,female,travel,not reported,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/13/2020,75,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/13/2020,76,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/13/2020,77,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/13/2020,78,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/13/2020,79,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/14/2020,80,not reported,not reported,not reported,,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/14/2020,81,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/14/2020,82,not reported,not reported,not reported,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/14/2020,83,60s,male,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/14/2020,84,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/14/2020,85,40s,male,travel,USA; Caribbean cruise,self-isolating,"Region of Waterloo, Public Health",99 Regina Street South,Waterloo,N2J 4V3,www.chd.region.waterloo.on.ca,43.46287573,-80.52091315
+03/14/2020,86,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/14/2020,87,70s,female,travel,multiple locations including Egypt,self-isolating,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/14/2020,88,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/14/2020,89,not reported,not reported,not reported,,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/14/2020,90,not reported,not reported,not reported,,self-isolating,"Region of Waterloo, Public Health",99 Regina Street South,Waterloo,N2J 4V3,www.chd.region.waterloo.on.ca,43.46287573,-80.52091315
+03/14/2020,91,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/14/2020,92,50s,female,not reported,,self-isolating,Middlesex-London Health Unit,50 King Street,London,N6A 5L7,www.healthunit.com,42.98146842,-81.25401572
+03/14/2020,93,60s,female,travel,Spain; Portugal,self-isolating,"Haliburton, Kawartha, Pine Ridge District Health Unit",200 Rose Glen Road,Port Hope,L1A 3V6,www.hkpr.on.ca/,43.96817279,-78.28579239
+03/14/2020,94,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/14/2020,95,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/14/2020,96,50s,male,travel,Asia,self-isolating,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/14/2020,97,60s,female,travel,Asia,self-isolating,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/14/2020,98,not reported,not reported,not reported,,self-isolating,Huron Perth District Health Unit,653 West Gore Street,Stratford,N5A 1L4,www.hpph.ca,43.3686615,-81.00191283
+03/14/2020,99,50s,female,travel,USA,self-isolating,Halton Region Health Department,1151 Bronte Road,Oakville,L6M 3Ll,www.halton.ca/For-Residents/Public-Health/ ,43.41399692,-79.74479581
+03/14/2020,100,not reported,not reported,not reported,,self-isolating,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/14/2020,101,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/14/2020,102,not reported,not reported,travel,not reported,self-isolating,Northwestern Health Unit,210 First Street North ,Kenora,P9N 2K4,www.nwhu.on.ca,49.76961482,-94.48825435
+03/14/2020,103,30s,female,travel,USA,self-isolating,Eastern Ontario Health Unit,1000 Pitt Street,Cornwall,K6J 5T1,www.eohu.ca,45.02915233,-74.73629779
+03/15/2020,104,not reported,not reported,not reported,,self-isolating,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/15/2020,105,not reported,not reported,not reported,,self-isolating,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/15/2020,106,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/15/2020,107,not reported,not reported,not reported,,self-isolating,"Region of Waterloo, Public Health",99 Regina Street South,Waterloo,N2J 4V3,www.chd.region.waterloo.on.ca,43.46287573,-80.52091315
+03/15/2020,108,not reported,not reported,not reported,,self-isolating,"Region of Waterloo, Public Health",99 Regina Street South,Waterloo,N2J 4V3,www.chd.region.waterloo.on.ca,43.46287573,-80.52091315
+03/15/2020,109,not reported,not reported,not reported,,self-isolating,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/15/2020,110,not reported,not reported,not reported,,self-isolating,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/15/2020,111,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/15/2020,112,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/15/2020,113,not reported,not reported,not reported,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/15/2020,114,not reported,not reported,not reported,,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/15/2020,115,not reported,not reported,not reported,,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/15/2020,116,not reported,not reported,not reported,,self-isolating,"Haliburton, Kawartha, Pine Ridge District Health Unit",200 Rose Glen Road,Port Hope,L1A 3V6,www.hkpr.on.ca/,43.96817279,-78.28579239
+03/15/2020,117,not reported,not reported,not reported,,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/15/2020,118,50s,female,travel,Egypt,self-isolating,Niagara Region Public Health Department,1815 Sir Isaac Brock Way,Thorold,L2V 4T7,www.niagararegion.ca/health,43.1165366,-79.2412197
+03/15/2020,119,not reported,not reported,not reported,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/15/2020,120,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/15/2020,121,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/15/2020,122,not reported,not reported,not reported,,self-isolating,Simcoe Muskoka District Health Unit,15 Sperling Drive,Barrie,L4M 6K9,www.simcoemuskokahealth.org,44.41071258,-79.68630597
+03/15/2020,123,not reported,not reported,not reported,,self-isolating,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/15/2020,124,not reported,not reported,not reported,,self-isolating,not reported,,,,,,
+03/15/2020,125,not reported,not reported,not reported,,hospitalized,Simcoe Muskoka District Health Unit,15 Sperling Drive,Barrie,L4M 6K9,www.simcoemuskokahealth.org,44.41071258,-79.68630597
+03/15/2020,126,not reported,not reported,not reported,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/15/2020,127,not reported,not reported,not reported,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/15/2020,128,not reported,not reported,not reported,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/15/2020,129,not reported,not reported,not reported,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/15/2020,130,not reported,not reported,not reported,,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/15/2020,131,not reported,not reported,not reported,,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/15/2020,132,not reported,not reported,not reported,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/15/2020,133,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/15/2020,134,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/15/2020,135,not reported,not reported,not reported,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/15/2020,136,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/15/2020,137,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/15/2020,138,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/15/2020,139,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/15/2020,140,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/15/2020,141,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/15/2020,142,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/15/2020,143,50s,male,travel,cruise,self-isolating,Grey Bruce Health Unit,101 17th Street East,Owen Sound,N4K 0A5,www.publichealthgreybruce.on.ca/,44.57619612,-80.94097993
+03/15/2020,144,50s,female,travel,cruise,self-isolating,Grey Bruce Health Unit,101 17th Street East,Owen Sound,N4K 0A5,www.publichealthgreybruce.on.ca/,44.57619612,-80.94097993
+03/15/2020,145,30s,male,travel,Spain; Portugal,self-isolating,Peterborough Public Health,185 King Street,Peterborough,K9J 2R8,www.peterboroughpublichealth.ca,44.30163229,-78.32134748
+03/16/2020,146,not reported,not reported,not reported,,self-isolating,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/16/2020,147,not reported,not reported,not reported,,self-isolating,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/16/2020,148,not reported,not reported,not reported,,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/16/2020,149,40s,male,travel,USA,self-isolating,Wellington-Dufferin-Guelph Public Health,160 Chancellors Way,Guelph,N1G 0E1,www.wdgpublichealth.ca,43.5248813,-80.2337433
+03/16/2020,150,50s,female,close contact,,self-isolating,Sudbury & District Health Unit,1300 Paris Street,Sudbury,P3E 3A3,www.phsd.ca,46.46609195,-80.99805884
+03/16/2020,151,not reported,not reported,not reported,,self-isolating,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/16/2020,152,not reported,not reported,not reported,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/16/2020,153,not reported,not reported,not reported,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/16/2020,154,not reported,not reported,not reported,,self-isolating,Niagara Region Public Health Department,1815 Sir Isaac Brock Way,Thorold,L2V 4T7,www.niagararegion.ca/health,43.1165366,-79.2412197
+03/16/2020,155,not reported,not reported,not reported,,self-isolating,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/16/2020,156,not reported,not reported,not reported,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/16/2020,157,30s,male,travel,USA,self-isolating,Halton Region Health Department,1151 Bronte Road,Oakville,L6M 3Ll,www.halton.ca/For-Residents/Public-Health/ ,43.41399692,-79.74479581
+03/16/2020,158,not reported,not reported,not reported,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/16/2020,159,not reported,not reported,not reported,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/16/2020,160,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/16/2020,161,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/16/2020,162,not reported,not reported,not reported,,self-isolating,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/16/2020,163,not reported,not reported,not reported,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/16/2020,164,not reported,not reported,not reported,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/16/2020,165,not reported,not reported,not reported,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/16/2020,166,not reported,not reported,not reported,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/16/2020,167,not reported,not reported,not reported,,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/16/2020,168,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/16/2020,169,not reported,not reported,not reported,,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/16/2020,170,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/16/2020,171,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/16/2020,172,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/16/2020,173,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/16/2020,174,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/16/2020,175,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/16/2020,176,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/16/2020,177,not reported,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/17/2020,178,not reported,not reported,not reported,,self-isolating,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/17/2020,179,not reported,not reported,not reported,,self-isolating,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/17/2020,180,not reported,not reported,not reported,,self-isolating,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/17/2020,181,not reported,not reported,not reported,,self-isolating,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/17/2020,182,not reported,not reported,not reported,,self-isolating,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/17/2020,183,not reported,not reported,not reported,,self-isolating,Middlesex-London Health Unit,50 King Street,London,N6A 5L7,www.healthunit.com,42.98146842,-81.25401572
+03/17/2020,184,not reported,not reported,not reported,,self-isolating,Middlesex-London Health Unit,50 King Street,London,N6A 5L7,www.healthunit.com,42.98146842,-81.25401572
+03/17/2020,185,60s,male,travel,Costa Rica,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/17/2020,186,70s,male,close contact,,deceased,Simcoe Muskoka District Health Unit,15 Sperling Drive,Barrie,L4M 6K9,www.simcoemuskokahealth.org,44.41071258,-79.68630597
+03/17/2020,187,40s,female,travel,Spain,self-isolating,"Kingston, Frontenac and Lennox & Addington Public Health",221 Portsmouth Avenue,Kingston,K7M 1V5,www.kflaph.ca,44.2278735,-76.5252108
+03/17/2020,188,60s,female,travel,Barbados,self-isolating,"Kingston, Frontenac and Lennox & Addington Public Health",221 Portsmouth Avenue,Kingston,K7M 1V5,www.kflaph.ca,44.2278735,-76.5252108
+03/17/2020,189,40s,male,travel,UK,self-isolating,"Kingston, Frontenac and Lennox & Addington Public Health",221 Portsmouth Avenue,Kingston,K7M 1V5,www.kflaph.ca,44.2278735,-76.5252108
+03/18/2020,190,50s,female,travel,Caribbean,self-isolating,Halton Region Health Department,1151 Bronte Road,Oakville,L6M 3Ll,www.halton.ca/For-Residents/Public-Health/ ,43.41399692,-79.74479581
+03/18/2020,191,20s,female,close contact,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/18/2020,192,20s,male,travel; close contact,Europe,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/18/2020,193,50s,female,travel; close contact,USA,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/18/2020,194,30s,male,travel,Brazil,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/18/2020,195,50s,female,travel,USA; Caribbean,self-isolating,Halton Region Health Department,1151 Bronte Road,Oakville,L6M 3Ll,www.halton.ca/For-Residents/Public-Health/ ,43.41399692,-79.74479581
+03/18/2020,196,50s,female,travel; close contact,USA,self-isolating,Halton Region Health Department,1151 Bronte Road,Oakville,L6M 3Ll,www.halton.ca/For-Residents/Public-Health/ ,43.41399692,-79.74479581
+03/18/2020,197,60s,female,close contact,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/18/2020,198,50s,male,travel,Japan; UK; Germany,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/18/2020,199,40s,male,not reported,,self-isolating,Halton Region Health Department,1151 Bronte Road,Oakville,L6M 3Ll,www.halton.ca/For-Residents/Public-Health/ ,43.41399692,-79.74479581
+03/18/2020,200,40s,female,travel,Pakistan; Turkey,self-isolating,"Region of Waterloo, Public Health",99 Regina Street South,Waterloo,N2J 4V3,www.chd.region.waterloo.on.ca,43.46287573,-80.52091315
+03/18/2020,201,70s,male,travel,Mexico,self-isolating,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/18/2020,202,20s,male,travel,USA,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/18/2020,203,60s,female,not reported,,self-isolating,Middlesex-London Health Unit,50 King Street,London,N6A 5L7,www.healthunit.com,42.98146842,-81.25401572
+03/18/2020,204,30s,female,travel,Caribbean,self-isolating,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/18/2020,205,50s,male,travel,Caribbean,self-isolating,Chatham-Kent Health Unit,435 Grand Avenue West,Chatham,N7M 5L8,www.ckphu.com,42.403861,-82.208561
+03/18/2020,206,60s,male,travel,India,self-isolating,Grey Bruce Health Unit,101 17th Street East,Owen Sound,N4K 0A5,www.publichealthgreybruce.on.ca/,44.57619612,-80.94097993
+03/18/2020,207,60s,male,travel,Austria,self-isolating,Simcoe Muskoka District Health Unit,15 Sperling Drive,Barrie,L4M 6K9,www.simcoemuskokahealth.org,44.41071258,-79.68630597
+03/18/2020,208,40s,female,travel,Mexico,self-isolating,Brant County Health Unit,194 Terrace Hill Street,Brantford,N3R 1G7,www.bchu.org/,43.151811,-80.27437415
+03/18/2020,209,50s,female,travel,USA,self-isolating,Algoma Public Health Unit,294 Willow Avenue,Sault Ste. Marie,P6B 0A9,www.algomapublichealth.com,46.5323728,-84.3148358
+03/18/2020,210,not reported,not reported,not reported,,self-isolating,not reported,,,,,,
+03/18/2020,211,not reported,not reported,not reported,,self-isolating,not reported,,,,,,
+03/18/2020,212,not reported,not reported,not reported,,self-isolating,not reported,,,,,,
+03/18/2020,213,50s,male,travel,not reported,not reported,Niagara Region Public Health Department,1815 Sir Isaac Brock Way,Thorold,L2V 4T7,www.niagararegion.ca/health,43.1165366,-79.2412197
+03/18/2020,214,80s,female,travel,USA,not reported,Chatham-Kent Health Unit,435 Grand Avenue West,Chatham,N7M 5L8,www.ckphu.com,42.403861,-82.208561
+03/19/2020,215,40s,male,travel; close contact,Spain; Belgium; Canary Islands,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/19/2020,216,60s,female,travel,Germany; Malta,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/19/2020,217,60s,male,travel,UK,self-isolating,Eastern Ontario Health Unit,1000 Pitt Street,Cornwall,K6J 5T1,www.eohu.ca,45.02915233,-74.73629779
+03/19/2020,218,50s,female,travel,Spain; Finlnd,self-isolating,Halton Region Health Department,1151 Bronte Road,Oakville,L6M 3Ll,www.halton.ca/For-Residents/Public-Health/ ,43.41399692,-79.74479581
+03/19/2020,219,50s,male,travel,USA; San Juan,self-isolating,Halton Region Health Department,1151 Bronte Road,Oakville,L6M 3Ll,www.halton.ca/For-Residents/Public-Health/ ,43.41399692,-79.74479581
+03/19/2020,220,50s,female,travel; close contact,cruise,not reported,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/19/2020,221,60s,female,travel,USA,self-isolating,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/19/2020,222,20s,male,travel,England,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/19/2020,223,60s,male,travel; close contact,USA,self-isolating,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/19/2020,224,20s,male,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/19/2020,225,20s,female,close contact,,self-isolating,"Region of Waterloo, Public Health",99 Regina Street South,Waterloo,N2J 4V3,www.chd.region.waterloo.on.ca,43.46287573,-80.52091315
+03/19/2020,226,40s,male,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/19/2020,227,30s,female,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/19/2020,228,20s,female,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/19/2020,229,20s,male,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/19/2020,230,80s,male,not reported,,hospitalized,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/19/2020,231,40s,male,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/19/2020,232,30s,female,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/19/2020,233,50s,female,travel,Manila,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/19/2020,234,50s,female,travel,cruise,not reported,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/19/2020,235,70s,male,travel,Europe,not reported,"Haliburton, Kawartha, Pine Ridge District Health Unit",200 Rose Glen Road,Port Hope,L1A 3V6,www.hkpr.on.ca/,43.96817279,-78.28579239
+03/19/2020,236,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/19/2020,237,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/19/2020,238,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/19/2020,239,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/19/2020,240,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/19/2020,241,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/19/2020,242,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/19/2020,243,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/19/2020,244,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/19/2020,245,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/19/2020,246,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/19/2020,247,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/19/2020,248,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/19/2020,249,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/19/2020,250,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/19/2020,251,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/19/2020,252,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/19/2020,252,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/19/2020,254,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/19/2020,255,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/19/2020,256,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/19/2020,257,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/19/2020,258,50s,male,not reported,,deceased,Halton Region Health Department,1151 Bronte Road,Oakville,L6M 3Ll,www.halton.ca/For-Residents/Public-Health/ ,43.41399692,-79.74479581
+03/20/2020,259,40s,male,travel,USA,self-isolating,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/20/2020,260,30s,male,close contact,,self-isolating,Peterborough Public Health,185 King Street,Peterborough,K9J 2R8,www.peterboroughpublichealth.ca,44.30163229,-78.32134748
+03/20/2020,261,60s,female,travel,cruise,self-isolating,"Haliburton, Kawartha, Pine Ridge District Health Unit",200 Rose Glen Road,Port Hope,L1A 3V6,www.hkpr.on.ca/,43.96817279,-78.28579239
+03/20/2020,262,60s,male,travel,cruise,self-isolating,"Haliburton, Kawartha, Pine Ridge District Health Unit",200 Rose Glen Road,Port Hope,L1A 3V6,www.hkpr.on.ca/,43.96817279,-78.28579239
+03/20/2020,263,70s,female,travel,Caribbean cruise,self-isolating,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/20/2020,264,80s,male,travel,Bahamas,self-isolating,Hastings and Prince Edward Counties Health Unit,179 North Park Street,Belleville,K8P 4P1,www.hpePublicHealth.ca,44.18667362,-77.39144554
+03/20/2020,265,60s,male,not reported,,LTCH,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/20/2020,266,90s,female,not reported,,LTCH,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/20/2020,267,80s,female,not reported,,LTCH,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/20/2020,268,70s,male,not reported,,LTCH,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/20/2020,269,80s,male,travel,Portugal,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/20/2020,270,40s,male,close contact,,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/20/2020,271,40s,male,close contact,,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/20/2020,272,70s,female,travel,Caribbean cruise,self-isolating,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/20/2020,273,70s,male,not reported,,hospitalized,"Region of Waterloo, Public Health",99 Regina Street South,Waterloo,N2J 4V3,www.chd.region.waterloo.on.ca,43.46287573,-80.52091315
+03/20/2020,274,20s,female,close contact,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/20/2020,275,40s,female,close contact,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/20/2020,276,40s,male,not reported,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/20/2020,277,20s,female,close contact,,self-isolating,"Region of Waterloo, Public Health",99 Regina Street South,Waterloo,N2J 4V3,www.chd.region.waterloo.on.ca,43.46287573,-80.52091315
+03/20/2020,278,50s,female,travel,Caribbean cruise,self-isolating,"Region of Waterloo, Public Health",99 Regina Street South,Waterloo,N2J 4V3,www.chd.region.waterloo.on.ca,43.46287573,-80.52091315
+03/20/2020,279,20s,male,close contact,,self-isolating,"Region of Waterloo, Public Health",99 Regina Street South,Waterloo,N2J 4V3,www.chd.region.waterloo.on.ca,43.46287573,-80.52091315
+03/20/2020,280,50s,female,close contact,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/20/2020,281,50s,female,close contact,,hospitalized,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/20/2020,282,30s,male,travel,Caribbean,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/20/2020,283,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,284,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,285,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,286,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,287,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,288,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,289,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,290,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,291,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,292,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,293,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,294,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,295,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,296,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,297,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,298,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,299,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,300,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,301,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,302,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,303,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,304,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,305,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,306,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,307,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,308,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/20/2020,309,not reported,not reported,not reported,,self-isolating,Middlesex-London Health Unit,50 King Street,London,N6A 5L7,www.healthunit.com,42.98146842,-81.25401572
+03/20/2020,310,not reported,not reported,not reported,,self-isolating,Middlesex-London Health Unit,50 King Street,London,N6A 5L7,www.healthunit.com,42.98146842,-81.25401572
+03/20/2020,311,not reported,not reported,not reported,,self-isolating,Middlesex-London Health Unit,50 King Street,London,N6A 5L7,www.healthunit.com,42.98146842,-81.25401572
+03/20/2020,312,not reported,not reported,not reported,,self-isolating,Middlesex-London Health Unit,50 King Street,London,N6A 5L7,www.healthunit.com,42.98146842,-81.25401572
+03/20/2020,313,not reported,not reported,not reported,,self-isolating,Middlesex-London Health Unit,50 King Street,London,N6A 5L7,www.healthunit.com,42.98146842,-81.25401572
+03/20/2020,314,not reported,not reported,not reported,,self-isolating,Middlesex-London Health Unit,50 King Street,London,N6A 5L7,www.healthunit.com,42.98146842,-81.25401572
+03/20/2020,315,80s,male,not reported,,isolation in nursing home,"Haliburton, Kawartha, Pine Ridge District Health Unit",200 Rose Glen Road,Port Hope,L1A 3V6,www.hkpr.on.ca/,43.96817279,-78.28579239
+03/20/2020,316,90s,female,not reported,,isolation in nursing home,"Haliburton, Kawartha, Pine Ridge District Health Unit",200 Rose Glen Road,Port Hope,L1A 3V6,www.hkpr.on.ca/,43.96817279,-78.28579239
+03/20/2020,317,60s,male,not reported,,isolation in nursing home,"Haliburton, Kawartha, Pine Ridge District Health Unit",200 Rose Glen Road,Port Hope,L1A 3V6,www.hkpr.on.ca/,43.96817279,-78.28579239
+03/20/2020,318,50s,male,travel,not reported,self-isolating,Porcupine Health Unit,169 Pine Street South,Timmins,P4N 8B7,www.porcupinehu.on.ca,48.47251,-81.32875
+03/21/2020,319,20s,male,travel,USA,self-isolating,Hastings and Prince Edward Counties Health Unit,179 North Park Street,Belleville,K8P 4P1,www.hpePublicHealth.ca,44.18667362,-77.39144554
+03/21/2020,320,50s,male,close contact,,self-isolating,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/21/2020,321,50s,female,travel,Germany,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/21/2020,322,50s,male,travel,USA,self-isolating,Simcoe Muskoka District Health Unit,15 Sperling Drive,Barrie,L4M 6K9,www.simcoemuskokahealth.org,44.41071258,-79.68630597
+03/21/2020,323,20s,male,travel,Ecuador,self-isolating,Simcoe Muskoka District Health Unit,15 Sperling Drive,Barrie,L4M 6K9,www.simcoemuskokahealth.org,44.41071258,-79.68630597
+03/21/2020,324,<18,female,close contact,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/21/2020,325,50s,female,travel,Germany; Austria,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/21/2020,326,40s,female,travel,London,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/21/2020,327,50s,male,travel,Philippines,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/21/2020,328,50s,female,close contact,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/21/2020,329,50s,female,not reported,,not reported,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/21/2020,330,40s,male,travel,England,hospitalized,Simcoe Muskoka District Health Unit,15 Sperling Drive,Barrie,L4M 6K9,www.simcoemuskokahealth.org,44.41071258,-79.68630597
+03/21/2020,331,40s,female,not reported,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/21/2020,332,60s,male,travel,Europe,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/21/2020,333,40s,female,not reported,,not reported,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/21/2020,334,70s,female,close contact,,not reported,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/21/2020,335,30s,male,close contact,,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/21/2020,336,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,337,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,338,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,339,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,340,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,341,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,342,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,343,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,344,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,345,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,346,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,347,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,348,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,349,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,350,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,351,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,352,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,353,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,354,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,355,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,356,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,357,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,358,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,359,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,360,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,361,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,362,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,363,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,364,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,365,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,366,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,367,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,368,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,369,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,370,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,371,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,372,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,373,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,374,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,375,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,376,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/21/2020,377,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,378,20s,female,not reported,,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/22/2020,379,30s,male,not reported,,self-isolating,Eastern Ontario Health Unit,1000 Pitt Street,Cornwall,K6J 5T1,www.eohu.ca,45.02915233,-74.73629779
+03/22/2020,380,70s,male,not reported,,not reported,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/22/2020,381,20s,female,close contact,,self-isolating,"Region of Waterloo, Public Health",99 Regina Street South,Waterloo,N2J 4V3,www.chd.region.waterloo.on.ca,43.46287573,-80.52091315
+03/22/2020,382,50s,male,travel,Caribbean cruise,self-isolating,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/22/2020,383,60s,male,travel,Caribbean,self-isolating,Windsor-Essex County Health Unit,1005 Ouellette Avenue,Windsor,N9A 4J8,www.wechu.org,42.3087965,-83.0336705
+03/22/2020,384,30s,male,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/22/2020,385,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,386,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,387,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,388,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,389,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,390,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,391,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,392,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,393,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,394,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,395,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,396,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,397,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,398,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,399,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,400,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,401,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,402,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,403,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,404,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,405,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,406,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,407,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,408,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,409,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,410,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,411,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,412,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,413,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,414,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,415,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,416,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,417,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,418,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,419,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,420,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,421,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,422,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,423,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,424,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/22/2020,425,70s,Female,travel,,deceased,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/23/2020,426,80s,male,not reported,,deceased,"Haliburton, Kawartha, Pine Ridge District Health Unit",200 Rose Glen Road,Port Hope,L1A 3V6,www.hkpr.on.ca/,43.96817279,-78.28579239
+03/23/2020,427,30s,male,close contact,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/23/2020,428,50s,male,close contact,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/23/2020,429,20s,female,close contact,,self-isolating,Hastings and Prince Edward Counties Health Unit,179 North Park Street,Belleville,K8P 4P1,www.hpePublicHealth.ca,44.18667362,-77.39144554
+03/23/2020,430,40s,male,close contact,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/23/2020,431,50s,male,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/23/2020,432,30s,female,not reported,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/23/2020,433,40s,not reported,travel,USA,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/23/2020,434,40s,female,travel,Switzerland,self-isolating,Sudbury & District Health Unit,1300 Paris Street,Sudbury,P3E 3A3,www.phsd.ca,46.46609195,-80.99805884
+03/23/2020,435,<18,female,travel,,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/23/2020,436,50s,male,travel,Puerto Rico; St Thomas; Barbados,self-isolating,Halton Region Health Department,1151 Bronte Road,Oakville,L6M 3Ll,www.halton.ca/For-Residents/Public-Health/ ,43.41399692,-79.74479581
+03/23/2020,437,60s,female,travel,Egypt; Israel; London,self-isolating,Simcoe Muskoka District Health Unit,15 Sperling Drive,Barrie,L4M 6K9,www.simcoemuskokahealth.org,44.41071258,-79.68630597
+03/23/2020,438,not reported,male,close contact,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/23/2020,439,50s,male,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/23/2020,440,60s,male,not reported,,institution,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/23/2020,441,20s,female,travel,USA,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/23/2020,442,40s,male,travel,Jamaica,self-isolating,Halton Region Health Department,1151 Bronte Road,Oakville,L6M 3Ll,www.halton.ca/For-Residents/Public-Health/ ,43.41399692,-79.74479581
+03/23/2020,443,90s,male,not reported,,institution,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/23/2020,444,60s,male,not reported,,self-isolating,Wellington-Dufferin-Guelph Public Health,160 Chancellors Way,Guelph,N1G 0E1,www.wdgpublichealth.ca,43.5248813,-80.2337433
+03/23/2020,445,20s,female,not reported,,not reported,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/23/2020,446,70s,female,not reported,,hospitalized,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/23/2020,447,20s,male,travel,USA,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/23/2020,448,80s,female,not reported,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/23/2020,449,40s,male,close contact,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/23/2020,450,50s,female,travel,USA,hospitalized,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/23/2020,451,80s,male,not reported,,self-isolating,"Haliburton, Kawartha, Pine Ridge District Health Unit",200 Rose Glen Road,Port Hope,L1A 3V6,www.hkpr.on.ca/,43.96817279,-78.28579239
+03/23/2020,452,40s,male,not reported,,institution,"Region of Waterloo, Public Health",99 Regina Street South,Waterloo,N2J 4V3,www.chd.region.waterloo.on.ca,43.46287573,-80.52091315
+03/23/2020,453,50s,female,close contact,,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/23/2020,454,20s,female,travel,London; Dubai,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/23/2020,455,90s,female,not reported,,institution,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/23/2020,456,40s,not reported,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/23/2020,457,60s,female,close contact,,self-isolating,Eastern Ontario Health Unit,1000 Pitt Street,Cornwall,K6J 5T1,www.eohu.ca,45.02915233,-74.73629779
+03/23/2020,458,70s,male,travel,Italy,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/23/2020,459,60s,male,close contact,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/23/2020,460,70s,female,not reported,,hospitalized,"Kingston, Frontenac and Lennox & Addington Public Health",221 Portsmouth Avenue,Kingston,K7M 1V5,www.kflaph.ca,44.2278735,-76.5252108
+03/23/2020,461,30s,male,travel,USA,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/23/2020,462,50s,male,not reported,,hospitalized,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/23/2020,463,90s,not reported,not reported,,institution,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/23/2020,464,40s,male,not reported,,hospitalized,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/23/2020,465,30s,female,not reported,,hospitalized,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/23/2020,466,40s,male,close contact,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/23/2020,467,40s,female,close contact,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/23/2020,468,20s,female,travel,Spain,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/23/2020,469,40s,male,travel,Costa Rica,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/23/2020,470,60s,female,close contact,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/23/2020,471,70s,male,close contact,,self-isolating,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/23/2020,472,70s,female,close contact,,self-isolating,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/23/2020,473,70s,male,close contact,,self-isolating,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/23/2020,474,40s,male,close contact,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/23/2020,475,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,476,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,477,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,478,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,479,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,480,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,481,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,482,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,483,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,484,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,485,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,486,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,487,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,488,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,489,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,490,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,491,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,492,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,493,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,494,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,495,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,496,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,497,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,498,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,499,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,500,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,501,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,502,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/23/2020,503,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,504,30s,male,travel ,UK,self-isolating,"Kingston, Frontenac and Lennox & Addington Public Health",221 Portsmouth Avenue,Kingston,K7M 1V5,www.kflaph.ca,44.2278735,-76.5252108
+03/24/2020,505,70s,female,travel ,Singapore,self-isolating,"Kingston, Frontenac and Lennox & Addington Public Health",221 Portsmouth Avenue,Kingston,K7M 1V5,www.kflaph.ca,44.2278735,-76.5252108
+03/24/2020,506,70s,male,travel ,Singapore,self-isolating,"Kingston, Frontenac and Lennox & Addington Public Health",221 Portsmouth Avenue,Kingston,K7M 1V5,www.kflaph.ca,44.2278735,-76.5252108
+03/24/2020,507,40s,female,not reported,,self-isolating,"Region of Waterloo, Public Health",99 Regina Street South,Waterloo,N2J 4V3,www.chd.region.waterloo.on.ca,43.46287573,-80.52091315
+03/24/2020,508,30s,female,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/24/2020,509,40s,female,not reported,,self-isolating,Brant County Health Unit,194 Terrace Hill Street,Brantford,N3R 1G7,www.bchu.org/,43.151811,-80.27437415
+03/24/2020,510,20s,female,not reported,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/24/2020,511,30s,female,travel ,UK,self-isolating,Halton Region Health Department,1151 Bronte Road,Oakville,L6M 3Ll,www.halton.ca/For-Residents/Public-Health/ ,43.41399692,-79.74479581
+03/24/2020,512,80s,male,not reported,,hospitalized,Wellington-Dufferin-Guelph Public Health,160 Chancellors Way,Guelph,N1G 0E1,www.wdgpublichealth.ca,43.5248813,-80.2337433
+03/24/2020,513,30s,female,travel ,Italy,self-isolating,Grey Bruce Health Unit,101 17th Street East,Owen Sound,N4K 0A5,www.publichealthgreybruce.on.ca/,44.57619612,-80.94097993
+03/24/2020,514,40s,male,travel ,USA,self-isolating,Windsor-Essex County Health Unit,1005 Ouellette Avenue,Windsor,N9A 4J8,www.wechu.org,42.3087965,-83.0336705
+03/24/2020,515,50s,female,not reported,,not reported,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/24/2020,516,30s,female,close contact,,self-isolating,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/24/2020,517,60s,male,not reported,,not reported,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/24/2020,518,40s,male,not reported,,not reported,Niagara Region Public Health Department,1815 Sir Isaac Brock Way,Thorold,L2V 4T7,www.niagararegion.ca/health,43.1165366,-79.2412197
+03/24/2020,519,60s,male,not reported,,hospitalized,"Region of Waterloo, Public Health",99 Regina Street South,Waterloo,N2J 4V3,www.chd.region.waterloo.on.ca,43.46287573,-80.52091315
+03/24/2020,520,30s,female,close contact,,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/24/2020,521,40s,male,close contact,,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/24/2020,522,30s,male,close contact,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/24/2020,523,80s,male,not reported,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/24/2020,524,40s,male,not reported,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/24/2020,525,60s,female,close contact,,not reported,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/24/2020,526,60s,male,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/24/2020,527,50s,female,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/24/2020,528,70s,female,travel ,USA,self-isolating,Sudbury & District Health Unit,1300 Paris Street,Sudbury,P3E 3A3,www.phsd.ca,46.46609195,-80.99805884
+03/24/2020,529,50s,female,travel ,Dubai,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/24/2020,530,50s,male,travel ,USA,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/24/2020,531,30s,male,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/24/2020,532,70s,male,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/24/2020,533,50s,male,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/24/2020,534,70s,male,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/24/2020,535,20s,female,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/24/2020,536,60s,male,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/24/2020,537,50s,female,travel ,USA,self-isolating,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/24/2020,538,70s,male,travel ,USA,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/24/2020,539,40s,male,travel,,self-isolating,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/24/2020,540,50s,male,travel ,USA,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/24/2020,541,50s,male,travel ,Austria,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/24/2020,542,30s,female,travel ,USA,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/24/2020,543,60s,male,not reported,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/24/2020,544,60s,female,travel ,Dubai,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/24/2020,545,50s,female,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/24/2020,546,50s,male,travel ,Austria,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/24/2020,547,50s,female,travel ,Austria,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/24/2020,548,30s,male,travel ,Brazil,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/24/2020,549,90s,female,not reported,,deceased,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/24/2020,550,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,551,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,552,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,553,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,554,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,555,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,556,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,557,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,558,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,559,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,560,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,561,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,562,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,563,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,564,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,565,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,566,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,567,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,568,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,569,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,570,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,571,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,572,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,573,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,574,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,575,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,576,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,577,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,578,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,579,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,580,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,581,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,582,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,583,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,584,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,585,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,586,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,587,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/24/2020,588,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,589,70s,male,travel ,Spain; France,self-isolating,Wellington-Dufferin-Guelph Public Health,160 Chancellors Way,Guelph,N1G 0E1,www.wdgpublichealth.ca,43.5248813,-80.2337433
+03/25/2020,590,20s,female,travel ,Dominican,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/25/2020,591,40s,female,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/25/2020,592,30s,male,not reported,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/25/2020,593,60s,male,travel ,UK,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/25/2020,594,30s,male,close contact,,self-isolating,Halton Region Health Department,1151 Bronte Road,Oakville,L6M 3Ll,www.halton.ca/For-Residents/Public-Health/ ,43.41399692,-79.74479581
+03/25/2020,595,60s,male,not reported,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/25/2020,596,50s,female,not reported,,hospitalized,Porcupine Health Unit,169 Pine Street South,Timmins,P4N 8B7,www.porcupinehu.on.ca,48.47251,-81.32875
+03/25/2020,597,50s,male,close contact,,hospitalized,Porcupine Health Unit,169 Pine Street South,Timmins,P4N 8B7,www.porcupinehu.on.ca,48.47251,-81.32875
+03/25/2020,598,30s,male,close contact,,self-isolating,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/25/2020,599,40s,male,close contact,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/25/2020,600,30s,male,close contact,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/25/2020,601,50s,female,close contact,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/25/2020,602,70s,male,travel ,USA,self-isolating,Porcupine Health Unit,169 Pine Street South,Timmins,P4N 8B7,www.porcupinehu.on.ca,48.47251,-81.32875
+03/25/2020,603,60s,male,travel ,USA,self-isolating,Windsor-Essex County Health Unit,1005 Ouellette Avenue,Windsor,N9A 4J8,www.wechu.org,42.3087965,-83.0336705
+03/25/2020,604,80s,female,close contact,,hospitalized,Middlesex-London Health Unit,50 King Street,London,N6A 5L7,www.healthunit.com,42.98146842,-81.25401572
+03/25/2020,605,70s,female,travel ,Philippines,self-isolating,Middlesex-London Health Unit,50 King Street,London,N6A 5L7,www.healthunit.com,42.98146842,-81.25401572
+03/25/2020,606,50s,female,not reported,,not reported,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/25/2020,607,30s,male,not reported,,not reported,Halton Region Health Department,1151 Bronte Road,Oakville,L6M 3Ll,www.halton.ca/For-Residents/Public-Health/ ,43.41399692,-79.74479581
+03/25/2020,608,40s,female,not reported,,not reported,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/25/2020,609,70s,female,not reported,,not reported,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/25/2020,610,70s,female,not reported,,not reported,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/25/2020,611,70s,female,travel ,Spain,hospitalized,Halton Region Health Department,1151 Bronte Road,Oakville,L6M 3Ll,www.halton.ca/For-Residents/Public-Health/ ,43.41399692,-79.74479581
+03/25/2020,612,20s,male,not reported,,self-isolating,Simcoe Muskoka District Health Unit,15 Sperling Drive,Barrie,L4M 6K9,www.simcoemuskokahealth.org,44.41071258,-79.68630597
+03/25/2020,613,40s,male,not reported,,not reported,Windsor-Essex County Health Unit,1005 Ouellette Avenue,Windsor,N9A 4J8,www.wechu.org,42.3087965,-83.0336705
+03/25/2020,614,20s,male,travel ,Mexico,self-isolating,"Kingston, Frontenac and Lennox & Addington Public Health",221 Portsmouth Avenue,Kingston,K7M 1V5,www.kflaph.ca,44.2278735,-76.5252108
+03/25/2020,615,50s,female,travel ,USA,self-isolating,Hastings and Prince Edward Counties Health Unit,179 North Park Street,Belleville,K8P 4P1,www.hpePublicHealth.ca,44.18667362,-77.39144554
+03/25/2020,616,50s,female,travel ,Spain,self-isolating,"Haliburton, Kawartha, Pine Ridge District Health Unit",200 Rose Glen Road,Port Hope,L1A 3V6,www.hkpr.on.ca/,43.96817279,-78.28579239
+03/25/2020,617,<18,female,close contact,,self-isolating,"Kingston, Frontenac and Lennox & Addington Public Health",221 Portsmouth Avenue,Kingston,K7M 1V5,www.kflaph.ca,44.2278735,-76.5252108
+03/25/2020,618,<18,male,close contact,,self-isolating,"Kingston, Frontenac and Lennox & Addington Public Health",221 Portsmouth Avenue,Kingston,K7M 1V5,www.kflaph.ca,44.2278735,-76.5252108
+03/25/2020,619,40s,male,close contact,,not reported,"Kingston, Frontenac and Lennox & Addington Public Health",221 Portsmouth Avenue,Kingston,K7M 1V5,www.kflaph.ca,44.2278735,-76.5252108
+03/25/2020,620,70s,female,travel ,Bahamas,self-isolating,Hastings and Prince Edward Counties Health Unit,179 North Park Street,Belleville,K8P 4P1,www.hpePublicHealth.ca,44.18667362,-77.39144554
+03/25/2020,621,30s,male,travel ,Spain,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/25/2020,622,60s,female,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/25/2020,623,50s,female,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/25/2020,624,60s,male,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/25/2020,625,40s,male,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/25/2020,626,90s,female,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/25/2020,627,40s,female,travel ,USA,self-isolating,Niagara Region Public Health Department,1815 Sir Isaac Brock Way,Thorold,L2V 4T7,www.niagararegion.ca/health,43.1165366,-79.2412197
+03/25/2020,628,30s,female,close contact,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/25/2020,629,30s,male,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/25/2020,630,50s,female,not reported,,not reported,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/25/2020,631,40s,female,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/25/2020,632,30s,female,close contact,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/25/2020,633,20s,female,close contact,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/25/2020,634,70s,female,travel ,USA,self-isolating,Peterborough Public Health,185 King Street,Peterborough,K9J 2R8,www.peterboroughpublichealth.ca,44.30163229,-78.32134748
+03/25/2020,635,50s,female,travel ,Peru,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/25/2020,636,30s,female,close contact,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/25/2020,637,30s,male,travel ,USA,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/25/2020,638,20s,male,close contact,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/25/2020,639,20s,male,travel ,UK,not reported,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/25/2020,640,40s,male,close contact,,not reported,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/25/2020,641,40s,male,close contact,,self-isolating,Halton Region Health Department,1151 Bronte Road,Oakville,L6M 3Ll,www.halton.ca/For-Residents/Public-Health/ ,43.41399692,-79.74479581
+03/25/2020,642,<20,male,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/25/2020,643,70s,male,travel ,USA,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/25/2020,644,20s,male,not reported,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/25/2020,645,30s,female,close contact,,self-isolating,"Kingston, Frontenac and Lennox & Addington Public Health",221 Portsmouth Avenue,Kingston,K7M 1V5,www.kflaph.ca,44.2278735,-76.5252108
+03/25/2020,646,<20,male,not reported,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/25/2020,647,70s,male,travel ,Egypt,not reported,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/25/2020,648,<20,male,not reported,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/25/2020,649,50s,male,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/25/2020,650,30s,male,close contact,,self-isolating,Timiskaming Health Unit,"247 Whitewood Avenue, Unit 43",New Liskeard,P0J 1P0,www.timiskaminghu.com,47.5092835,-79.681632
+03/25/2020,651,80s,female,close contact,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/25/2020,652,60s,male,close contact,,self-isolating,Peterborough Public Health,185 King Street,Peterborough,K9J 2R8,www.peterboroughpublichealth.ca,44.30163229,-78.32134748
+03/25/2020,653,20s,female,travel ,USA,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/25/2020,654,60s,male,close contact,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/25/2020,655,50s,male,travel ,USA,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/25/2020,656,20s,female,not reported,,hospitalized,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/25/2020,657,20s,female,travel ,UK; USA,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/25/2020,658,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,659,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,660,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,661,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,662,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,663,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,664,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,665,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,666,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,667,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,668,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,669,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,670,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,671,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,672,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,673,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,674,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,675,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,676,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,677,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,678,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,679,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,680,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,681,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,682,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,683,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,684,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,685,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,686,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,687,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/25/2020,688,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,689,60s,male,travel ,Spain,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/26/2020,690,60s,female,travel ,Egypt; Dubai,hospitalized,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/26/2020,691,40s,female,not reported,,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/26/2020,692,60s,male,travel ,Spain,hospitalized,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/26/2020,693,40s,female,close contact,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/26/2020,694,60s,female,travel ,Germany,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/26/2020,695,60s,male,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/26/2020,696,20s,male,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/26/2020,697,20s,male,travel ,Denmark,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,698,<20,female,close contact,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,699,40s,female,travel ,UK,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/26/2020,700,30s,male,not reported,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/26/2020,701,30s,male,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/26/2020,702,20s,female,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/26/2020,703,60s,male,travel ,USA,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,704,30s,female,travel ,USA,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/26/2020,705,50s,female,close contact,,not reported,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,706,30s,male,close contact,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/26/2020,707,<20,male,close contact,,self-isolating,"Region of Waterloo, Public Health",99 Regina Street South,Waterloo,N2J 4V3,www.chd.region.waterloo.on.ca,43.46287573,-80.52091315
+03/26/2020,708,30s,male,close contact,,self-isolating,"Region of Waterloo, Public Health",99 Regina Street South,Waterloo,N2J 4V3,www.chd.region.waterloo.on.ca,43.46287573,-80.52091315
+03/26/2020,709,50s,female,not reported,,self-isolating,"Region of Waterloo, Public Health",99 Regina Street South,Waterloo,N2J 4V3,www.chd.region.waterloo.on.ca,43.46287573,-80.52091315
+03/26/2020,710,30s,male,travel ,USA,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,711,70s,female,not reported,,not reported,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,712,60s,female,not reported,,not reported,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,713,40s,female,travel ,Caribbean cruise,self-isolating,Niagara Region Public Health Department,1815 Sir Isaac Brock Way,Thorold,L2V 4T7,www.niagararegion.ca/health,43.1165366,-79.2412197
+03/26/2020,714,40s,male,travel ,USA,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,715,40s,male,not reported,,self-isolating,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/26/2020,716,30s,female,close contact,,not reported,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,717,70s,female,close contact,,not reported,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,718,50s,male,travel ,USA,not reported,Simcoe Muskoka District Health Unit,15 Sperling Drive,Barrie,L4M 6K9,www.simcoemuskokahealth.org,44.41071258,-79.68630597
+03/26/2020,719,50s,male,close contact,,self-isolating,"Haliburton, Kawartha, Pine Ridge District Health Unit",200 Rose Glen Road,Port Hope,L1A 3V6,www.hkpr.on.ca/,43.96817279,-78.28579239
+03/26/2020,720,20s,female,travel ,USA,self-isolating,Halton Region Health Department,1151 Bronte Road,Oakville,L6M 3Ll,www.halton.ca/For-Residents/Public-Health/ ,43.41399692,-79.74479581
+03/26/2020,721,60s,male,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/26/2020,722,60s,male,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/26/2020,723,50s,female,not reported,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/26/2020,724,50s,male,travel ,Jamaica,not reported,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/26/2020,725,40s,male,travel ,USA,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/26/2020,726,<20,female,not reported,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/26/2020,727,60s,female,travel ,Egypt,self-isolating,"Haliburton, Kawartha, Pine Ridge District Health Unit",200 Rose Glen Road,Port Hope,L1A 3V6,www.hkpr.on.ca/,43.96817279,-78.28579239
+03/26/2020,728,50s,female,travel ,USA,self-isolating,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/26/2020,729,50s,male,travel ,Cruise,self-isolating,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/26/2020,730,80s,female,close contact,,self-isolating,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/26/2020,731,30s,male,close contact,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/26/2020,732,30s,female,travel ,Ecuador,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/26/2020,733,50s,male,travel ,Germany; Austria,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,734,60s,male,travel ,London,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,735,30s,female,travel ,Costa Rica,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,736,20s,male,travel ,Colombia,self-isolating,Peterborough Public Health,185 King Street,Peterborough,K9J 2R8,www.peterboroughpublichealth.ca,44.30163229,-78.32134748
+03/26/2020,737,20s,male,travel ,Colombia,self-isolating,Northwestern Health Unit,210 First Street North ,Kenora,P9N 2K4,www.nwhu.on.ca,49.76961482,-94.48825435
+03/26/2020,738,50s,female,travel ,Dubai; Philippines,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/26/2020,739,30s,female,not reported,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/26/2020,740,40s,male,travel ,France,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/26/2020,741,40s,male,close contact,,hospitalized,Simcoe Muskoka District Health Unit,15 Sperling Drive,Barrie,L4M 6K9,www.simcoemuskokahealth.org,44.41071258,-79.68630597
+03/26/2020,742,40s,male,close contact,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/26/2020,743,80s,female,close contact,,not reported,"Haliburton, Kawartha, Pine Ridge District Health Unit",200 Rose Glen Road,Port Hope,L1A 3V6,www.hkpr.on.ca/,43.96817279,-78.28579239
+03/26/2020,744,70s,male,travel ,Egypt,self-isolating,"Haliburton, Kawartha, Pine Ridge District Health Unit",200 Rose Glen Road,Port Hope,L1A 3V6,www.hkpr.on.ca/,43.96817279,-78.28579239
+03/26/2020,745,<20,male,travel ,France,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/26/2020,746,30s,male,close contact,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,747,50s,female,not reported,,not reported,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,748,30s,female,not reported,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/26/2020,749,20s,not reported,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/26/2020,750,40s,not reported,close contact,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/26/2020,751,30s,male,close contact,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,752,20s,female,close contact,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/26/2020,753,20s,female,close contact,,hospitalized,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/26/2020,754,30s,male,close contact,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/26/2020,755,50s,male,close contact,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,756,50s,male,close contact,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,757,50s,male,not reported,,not reported,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,758,20s,female,close contact,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,759,60s,male,close contact,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,760,80s,female,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/26/2020,761,60s,male,not reported,,self-isolating,Durham Region Health Department,605 Rossland Road East,Whitby,L1N 0B2,www.durham.ca/en/health-and-wellness/health-and-wellness.aspx,43.898605,-78.940341
+03/26/2020,762,80s,male,not reported,,hospitalized,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,763,40s,male,close contact,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,764,60s,female,close contact,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,765,30s,male,close contact,,self-isolating,Middlesex-London Health Unit,50 King Street,London,N6A 5L7,www.healthunit.com,42.98146842,-81.25401572
+03/26/2020,766,70s,female,not reported,,hospitalized,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/26/2020,767,70s,male,close contact,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,768,40s,male,close contact,,self-isolating,Simcoe Muskoka District Health Unit,15 Sperling Drive,Barrie,L4M 6K9,www.simcoemuskokahealth.org,44.41071258,-79.68630597
+03/26/2020,769,60s,male,travel ,Austria,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,770,30s,female,close contact,,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/26/2020,771,20s,male,travel ,Austria,self-isolating,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/26/2020,772,30s,female,close contact,,self-isolating,"Haliburton, Kawartha, Pine Ridge District Health Unit",200 Rose Glen Road,Port Hope,L1A 3V6,www.hkpr.on.ca/,43.96817279,-78.28579239
+03/26/2020,773,30s,female,close contact,,self-isolating,"Haliburton, Kawartha, Pine Ridge District Health Unit",200 Rose Glen Road,Port Hope,L1A 3V6,www.hkpr.on.ca/,43.96817279,-78.28579239
+03/26/2020,774,60s,female,close contact,,self-isolating,"Haliburton, Kawartha, Pine Ridge District Health Unit",200 Rose Glen Road,Port Hope,L1A 3V6,www.hkpr.on.ca/,43.96817279,-78.28579239
+03/26/2020,775,50s,female,close contact,,self-isolating,"Haliburton, Kawartha, Pine Ridge District Health Unit",200 Rose Glen Road,Port Hope,L1A 3V6,www.hkpr.on.ca/,43.96817279,-78.28579239
+03/26/2020,776,50s,female,close contact,,self-isolating,"Haliburton, Kawartha, Pine Ridge District Health Unit",200 Rose Glen Road,Port Hope,L1A 3V6,www.hkpr.on.ca/,43.96817279,-78.28579239
+03/26/2020,777,60s,female,close contact,,self-isolating,"Haliburton, Kawartha, Pine Ridge District Health Unit",200 Rose Glen Road,Port Hope,L1A 3V6,www.hkpr.on.ca/,43.96817279,-78.28579239
+03/26/2020,778,60s,female,close contact,,self-isolating,"Haliburton, Kawartha, Pine Ridge District Health Unit",200 Rose Glen Road,Port Hope,L1A 3V6,www.hkpr.on.ca/,43.96817279,-78.28579239
+03/26/2020,779,60s,female,close contact,,self-isolating,"Haliburton, Kawartha, Pine Ridge District Health Unit",200 Rose Glen Road,Port Hope,L1A 3V6,www.hkpr.on.ca/,43.96817279,-78.28579239
+03/26/2020,780,40s,female,close contact,,self-isolating,"Haliburton, Kawartha, Pine Ridge District Health Unit",200 Rose Glen Road,Port Hope,L1A 3V6,www.hkpr.on.ca/,43.96817279,-78.28579239
+03/26/2020,781,40s,female,close contact,,self-isolating,"Haliburton, Kawartha, Pine Ridge District Health Unit",200 Rose Glen Road,Port Hope,L1A 3V6,www.hkpr.on.ca/,43.96817279,-78.28579239
+03/26/2020,782,90s,female,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/26/2020,783,50s,not reported,close contact,,not reported,Grey Bruce Health Unit,101 17th Street East,Owen Sound,N4K 0A5,www.publichealthgreybruce.on.ca/,44.57619612,-80.94097993
+03/26/2020,784,20s,female,close contact,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,785,50s,female,not reported,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,786,40s,male,close contact,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,787,30s,female,close contact,,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/26/2020,788,60s,female,travel ,USA,self-isolating,Peel Public Health,7120 Hurontario Street,Mississauga,L5W 1N4,www.peelregion.ca/health/,43.6474713,-79.7088933
+03/26/2020,789,60s,female,travel ,Egypt,self-isolating,North Bay Parry Sound District Health Unit,345 Oak Street West,North Bay,P1B 2T2,www.myhealthunit.ca ,46.31320706,-79.4678405
+03/26/2020,790,20s,female,travel ,France,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,791,<20,male,close contact,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,792,40s,female,close contact,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,793,50s,female,close contact,,not reported,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,794,20s,male,close contact,,self-isolating,York Region Public Health Services,17250 Yonge Street,Newmarket,L3Y 6Z1,www.york.ca/wps/portal/yorkhome/health/ ,44.048023,-79.480239
+03/26/2020,795,30s,female,travel ,Italy,self-isolating,Simcoe Muskoka District Health Unit,15 Sperling Drive,Barrie,L4M 6K9,www.simcoemuskokahealth.org,44.41071258,-79.68630597
+03/26/2020,796,20s,male,close contact,,self-isolating,Sudbury & District Health Unit,1300 Paris Street,Sudbury,P3E 3A3,www.phsd.ca,46.46609195,-80.99805884
+03/26/2020,797,90s,not reported,not reported,,not reported,Toronto Public Health,"277 Victoria Street, 5th Floor",Toronto,M5B 1W2,www.toronto.ca/community-people/health-wellness-care/,43.65659125,-79.37935801
+03/26/2020,798,20s,male,travel ,Costa Rica; Spain; USA,self-isolating,Niagara Region Public Health Department,1815 Sir Isaac Brock Way,Thorold,L2V 4T7,www.niagararegion.ca/health,43.1165366,-79.2412197
+03/26/2020,799,80s,female,not reported,,not reported,Hamilton Public Health Services,"110 King St. West, 2nd Floor",Hamilton,L8P 4S6,www.hamilton.ca/publichealth,43.2576311,-79.87134089
+03/26/2020,800,20s,male,not reported,,hospitalized,Middlesex-London Health Unit,50 King Street,London,N6A 5L7,www.healthunit.com,42.98146842,-81.25401572
+03/26/2020,801,30s,male,close contact,,self-isolating,Middlesex-London Health Unit,50 King Street,London,N6A 5L7,www.healthunit.com,42.98146842,-81.25401572
+03/26/2020,802,30s,female,close contact,,self-isolating,Southwestern Public Health,1230 Talbot Street,St. Thomas,N5P 1G9,www.swpublichealth.ca,42.77780366,-81.15115646
+03/26/2020,803,30s,female,travel ,USA,self-isolating,Middlesex-London Health Unit,50 King Street,London,N6A 5L7,www.healthunit.com,42.98146842,-81.25401572
+03/26/2020,804,30s,male,close contact,,self-isolating,Southwestern Public Health,1230 Talbot Street,St. Thomas,N5P 1G9,www.swpublichealth.ca,42.77780366,-81.15115646
+03/26/2020,805,80s,male,not reported,,hospitalized,Lambton Public Health,160 Exmouth Street,Point Edward,N7T 7Z6,www.lambtonhealth.on.ca,42.98641646,-82.40480836
+03/26/2020,806,60s,female,not reported,,hospitalized,Lambton Public Health,160 Exmouth Street,Point Edward,N7T 7Z6,www.lambtonhealth.on.ca,42.98641646,-82.40480836
+03/26/2020,807,70s,female,not reported,,hospitalized,Lambton Public Health,160 Exmouth Street,Point Edward,N7T 7Z6,www.lambtonhealth.on.ca,42.98641646,-82.40480836
+03/26/2020,808,70s,male,close contact,,hospitalized,Lambton Public Health,160 Exmouth Street,Point Edward,N7T 7Z6,www.lambtonhealth.on.ca,42.98641646,-82.40480836
+03/26/2020,809,80s,male,not reported,,hospitalized,Lambton Public Health,160 Exmouth Street,Point Edward,N7T 7Z6,www.lambtonhealth.on.ca,42.98641646,-82.40480836
+03/26/2020,810,70s,female,close contact,,self-isolating,Ottawa Public Health,100 Constellation Drive,Ottawa,K2G 6J8,www.ottawapublichealth.ca,45.3456651,-75.7639122
+03/26/2020,811,60s,female,close contact,,self-isolating,Peterborough Public Health,185 King Street,Peterborough,K9J 2R8,www.peterboroughpublichealth.ca,44.30163229,-78.32134748
+03/26/2020,812,50s,female,close contact,,self-isolating,Peterborough Public Health,185 King Street,Peterborough,K9J 2R8,www.peterboroughpublichealth.ca,44.30163229,-78.32134748
+03/26/2020,813,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,814,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,815,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,816,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,817,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,818,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,819,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,820,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,821,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,822,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,823,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,824,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,825,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,826,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,827,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,828,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,829,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,830,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,831,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,832,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,833,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,834,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,835,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,836,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,837,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,838,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,839,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,840,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,841,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,842,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,843,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,844,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,845,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,846,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,847,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,848,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,849,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,850,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,851,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,852,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,853,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,854,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,855,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,856,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,857,not reported,not reported,not reported,,not reported,not reported,,,,,,
+03/26/2020,858,not reported,not reported,not reported,,not reported,not reported,,,,,,
