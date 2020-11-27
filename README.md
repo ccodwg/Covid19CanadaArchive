@@ -434,3 +434,6 @@ Many people are to thank for contributing archived data and code to this reposit
 * [Scott van Millingen](https://github.com/svmillin)
 * [Robson Fletcher](https://twitter.com/CBCFletch)
 * [Les Perreaux](https://twitter.com/perreaux)
+* Christine Hagyard ([Twitter](https://twitter.com/ChrisHagyard)/[LinkedIn](https://www.linkedin.com/in/christine-hagyard/))
+* Amy Bihari ([Twitter](https://twitter.com/AmyBihari)/[LinkedIn](https://www.linkedin.com/in/amy-bihari/))
+* Razieh Faraji ([Twitter](https://twitter.com/raziehfaraji)/[LinkedIn](https://www.linkedin.com/in/raziehfaraji/))
