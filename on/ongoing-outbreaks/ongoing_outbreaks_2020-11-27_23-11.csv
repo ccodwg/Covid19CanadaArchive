@@ -1,0 +1,639 @@
+"date","outbreak_group","outbreak_subgroup","number_ongoing_outbreaks"
+"2020-11-01","1 Congregate Care","1 Long-Term Care Homes",73
+"2020-11-01","1 Congregate Care","2 Hospitals",21
+"2020-11-01","1 Congregate Care","3 Retirement Homes",51
+"2020-11-01","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-01","2 Congregate Living","4 Group Home/Supportive Housing",31
+"2020-11-01","2 Congregate Living","5 Correctional Facility",4
+"2020-11-01","2 Congregate Living","6 Shelter",9
+"2020-11-01","3 Education","10 School - Post-Secondary",2
+"2020-11-01","3 Education","11 Child care",39
+"2020-11-01","3 Education","7 School - Elementary",29
+"2020-11-01","3 Education","8 School - Secondary",7
+"2020-11-01","3 Education","9 School - Elementary/Secondary",7
+"2020-11-01","4 Workplace","12 Workplace - Farm",2
+"2020-11-01","4 Workplace","13 Workplace - Food Processing",11
+"2020-11-01","4 Workplace","14 Workplace - Other",120
+"2020-11-01","4 Workplace","15 Retail",1
+"2020-11-01","4 Workplace","16 Medical/Health Service",3
+"2020-11-01","5 Recreational","17 Bar/restaurant/nightclub",11
+"2020-11-01","5 Recreational","19 Recreational fitness",5
+"2020-11-01","5 Recreational","21 Other recreation",6
+"2020-11-01","6 Other/Unknown","23 Other",20
+"2020-11-01","6 Other/Unknown","24 Unknown",7
+"2020-11-02","1 Congregate Care","1 Long-Term Care Homes",74
+"2020-11-02","1 Congregate Care","2 Hospitals",19
+"2020-11-02","1 Congregate Care","3 Retirement Homes",51
+"2020-11-02","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-02","2 Congregate Living","4 Group Home/Supportive Housing",29
+"2020-11-02","2 Congregate Living","5 Correctional Facility",4
+"2020-11-02","2 Congregate Living","6 Shelter",9
+"2020-11-02","3 Education","10 School - Post-Secondary",3
+"2020-11-02","3 Education","11 Child care",40
+"2020-11-02","3 Education","7 School - Elementary",29
+"2020-11-02","3 Education","8 School - Secondary",6
+"2020-11-02","3 Education","9 School - Elementary/Secondary",6
+"2020-11-02","4 Workplace","12 Workplace - Farm",2
+"2020-11-02","4 Workplace","13 Workplace - Food Processing",11
+"2020-11-02","4 Workplace","14 Workplace - Other",118
+"2020-11-02","4 Workplace","15 Retail",1
+"2020-11-02","4 Workplace","16 Medical/Health Service",3
+"2020-11-02","5 Recreational","17 Bar/restaurant/nightclub",12
+"2020-11-02","5 Recreational","19 Recreational fitness",5
+"2020-11-02","5 Recreational","21 Other recreation",6
+"2020-11-02","6 Other/Unknown","23 Other",23
+"2020-11-02","6 Other/Unknown","24 Unknown",8
+"2020-11-03","1 Congregate Care","1 Long-Term Care Homes",74
+"2020-11-03","1 Congregate Care","2 Hospitals",18
+"2020-11-03","1 Congregate Care","3 Retirement Homes",55
+"2020-11-03","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-03","2 Congregate Living","22 Congregate other",1
+"2020-11-03","2 Congregate Living","4 Group Home/Supportive Housing",31
+"2020-11-03","2 Congregate Living","5 Correctional Facility",4
+"2020-11-03","2 Congregate Living","6 Shelter",8
+"2020-11-03","3 Education","10 School - Post-Secondary",2
+"2020-11-03","3 Education","11 Child care",43
+"2020-11-03","3 Education","7 School - Elementary",36
+"2020-11-03","3 Education","8 School - Secondary",7
+"2020-11-03","3 Education","9 School - Elementary/Secondary",2
+"2020-11-03","4 Workplace","12 Workplace - Farm",2
+"2020-11-03","4 Workplace","13 Workplace - Food Processing",11
+"2020-11-03","4 Workplace","14 Workplace - Other",117
+"2020-11-03","4 Workplace","15 Retail",4
+"2020-11-03","4 Workplace","16 Medical/Health Service",4
+"2020-11-03","5 Recreational","17 Bar/restaurant/nightclub",11
+"2020-11-03","5 Recreational","19 Recreational fitness",9
+"2020-11-03","5 Recreational","21 Other recreation",7
+"2020-11-03","6 Other/Unknown","23 Other",18
+"2020-11-03","6 Other/Unknown","24 Unknown",8
+"2020-11-04","1 Congregate Care","1 Long-Term Care Homes",76
+"2020-11-04","1 Congregate Care","2 Hospitals",19
+"2020-11-04","1 Congregate Care","3 Retirement Homes",57
+"2020-11-04","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-04","2 Congregate Living","22 Congregate other",2
+"2020-11-04","2 Congregate Living","4 Group Home/Supportive Housing",32
+"2020-11-04","2 Congregate Living","5 Correctional Facility",4
+"2020-11-04","2 Congregate Living","6 Shelter",11
+"2020-11-04","3 Education","10 School - Post-Secondary",2
+"2020-11-04","3 Education","11 Child care",43
+"2020-11-04","3 Education","7 School - Elementary",37
+"2020-11-04","3 Education","8 School - Secondary",10
+"2020-11-04","3 Education","9 School - Elementary/Secondary",2
+"2020-11-04","4 Workplace","12 Workplace - Farm",2
+"2020-11-04","4 Workplace","13 Workplace - Food Processing",11
+"2020-11-04","4 Workplace","14 Workplace - Other",117
+"2020-11-04","4 Workplace","15 Retail",6
+"2020-11-04","4 Workplace","16 Medical/Health Service",5
+"2020-11-04","5 Recreational","17 Bar/restaurant/nightclub",12
+"2020-11-04","5 Recreational","19 Recreational fitness",10
+"2020-11-04","5 Recreational","20 Personal service settings",1
+"2020-11-04","5 Recreational","21 Other recreation",16
+"2020-11-04","6 Other/Unknown","23 Other",14
+"2020-11-04","6 Other/Unknown","24 Unknown",1
+"2020-11-05","1 Congregate Care","1 Long-Term Care Homes",76
+"2020-11-05","1 Congregate Care","2 Hospitals",20
+"2020-11-05","1 Congregate Care","3 Retirement Homes",58
+"2020-11-05","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-05","2 Congregate Living","22 Congregate other",3
+"2020-11-05","2 Congregate Living","4 Group Home/Supportive Housing",30
+"2020-11-05","2 Congregate Living","5 Correctional Facility",4
+"2020-11-05","2 Congregate Living","6 Shelter",12
+"2020-11-05","3 Education","10 School - Post-Secondary",2
+"2020-11-05","3 Education","11 Child care",49
+"2020-11-05","3 Education","7 School - Elementary",36
+"2020-11-05","3 Education","8 School - Secondary",11
+"2020-11-05","3 Education","9 School - Elementary/Secondary",2
+"2020-11-05","4 Workplace","12 Workplace - Farm",2
+"2020-11-05","4 Workplace","13 Workplace - Food Processing",10
+"2020-11-05","4 Workplace","14 Workplace - Other",119
+"2020-11-05","4 Workplace","15 Retail",6
+"2020-11-05","4 Workplace","16 Medical/Health Service",6
+"2020-11-05","5 Recreational","17 Bar/restaurant/nightclub",12
+"2020-11-05","5 Recreational","19 Recreational fitness",9
+"2020-11-05","5 Recreational","20 Personal service settings",1
+"2020-11-05","5 Recreational","21 Other recreation",16
+"2020-11-05","6 Other/Unknown","23 Other",15
+"2020-11-05","6 Other/Unknown","24 Unknown",2
+"2020-11-06","1 Congregate Care","1 Long-Term Care Homes",80
+"2020-11-06","1 Congregate Care","2 Hospitals",21
+"2020-11-06","1 Congregate Care","3 Retirement Homes",59
+"2020-11-06","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-06","2 Congregate Living","22 Congregate other",5
+"2020-11-06","2 Congregate Living","4 Group Home/Supportive Housing",32
+"2020-11-06","2 Congregate Living","5 Correctional Facility",4
+"2020-11-06","2 Congregate Living","6 Shelter",11
+"2020-11-06","3 Education","10 School - Post-Secondary",2
+"2020-11-06","3 Education","11 Child care",50
+"2020-11-06","3 Education","7 School - Elementary",34
+"2020-11-06","3 Education","8 School - Secondary",12
+"2020-11-06","3 Education","9 School - Elementary/Secondary",2
+"2020-11-06","4 Workplace","12 Workplace - Farm",2
+"2020-11-06","4 Workplace","13 Workplace - Food Processing",10
+"2020-11-06","4 Workplace","14 Workplace - Other",122
+"2020-11-06","4 Workplace","15 Retail",6
+"2020-11-06","4 Workplace","16 Medical/Health Service",6
+"2020-11-06","5 Recreational","17 Bar/restaurant/nightclub",12
+"2020-11-06","5 Recreational","19 Recreational fitness",9
+"2020-11-06","5 Recreational","20 Personal service settings",1
+"2020-11-06","5 Recreational","21 Other recreation",16
+"2020-11-06","6 Other/Unknown","23 Other",17
+"2020-11-06","6 Other/Unknown","24 Unknown",2
+"2020-11-07","1 Congregate Care","1 Long-Term Care Homes",81
+"2020-11-07","1 Congregate Care","2 Hospitals",21
+"2020-11-07","1 Congregate Care","3 Retirement Homes",64
+"2020-11-07","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-07","2 Congregate Living","22 Congregate other",4
+"2020-11-07","2 Congregate Living","4 Group Home/Supportive Housing",32
+"2020-11-07","2 Congregate Living","5 Correctional Facility",4
+"2020-11-07","2 Congregate Living","6 Shelter",12
+"2020-11-07","3 Education","10 School - Post-Secondary",2
+"2020-11-07","3 Education","11 Child care",54
+"2020-11-07","3 Education","7 School - Elementary",41
+"2020-11-07","3 Education","8 School - Secondary",12
+"2020-11-07","3 Education","9 School - Elementary/Secondary",3
+"2020-11-07","4 Workplace","12 Workplace - Farm",4
+"2020-11-07","4 Workplace","13 Workplace - Food Processing",10
+"2020-11-07","4 Workplace","14 Workplace - Other",131
+"2020-11-07","4 Workplace","15 Retail",7
+"2020-11-07","4 Workplace","16 Medical/Health Service",6
+"2020-11-07","5 Recreational","17 Bar/restaurant/nightclub",13
+"2020-11-07","5 Recreational","19 Recreational fitness",10
+"2020-11-07","5 Recreational","20 Personal service settings",2
+"2020-11-07","5 Recreational","21 Other recreation",15
+"2020-11-07","6 Other/Unknown","23 Other",11
+"2020-11-07","6 Other/Unknown","24 Unknown",1
+"2020-11-08","1 Congregate Care","1 Long-Term Care Homes",78
+"2020-11-08","1 Congregate Care","2 Hospitals",23
+"2020-11-08","1 Congregate Care","3 Retirement Homes",62
+"2020-11-08","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-08","2 Congregate Living","22 Congregate other",5
+"2020-11-08","2 Congregate Living","4 Group Home/Supportive Housing",31
+"2020-11-08","2 Congregate Living","5 Correctional Facility",3
+"2020-11-08","2 Congregate Living","6 Shelter",11
+"2020-11-08","3 Education","10 School - Post-Secondary",2
+"2020-11-08","3 Education","11 Child care",53
+"2020-11-08","3 Education","7 School - Elementary",43
+"2020-11-08","3 Education","8 School - Secondary",13
+"2020-11-08","3 Education","9 School - Elementary/Secondary",3
+"2020-11-08","4 Workplace","12 Workplace - Farm",4
+"2020-11-08","4 Workplace","13 Workplace - Food Processing",10
+"2020-11-08","4 Workplace","14 Workplace - Other",127
+"2020-11-08","4 Workplace","15 Retail",6
+"2020-11-08","4 Workplace","16 Medical/Health Service",6
+"2020-11-08","5 Recreational","17 Bar/restaurant/nightclub",12
+"2020-11-08","5 Recreational","19 Recreational fitness",10
+"2020-11-08","5 Recreational","20 Personal service settings",2
+"2020-11-08","5 Recreational","21 Other recreation",15
+"2020-11-08","6 Other/Unknown","23 Other",11
+"2020-11-08","6 Other/Unknown","24 Unknown",3
+"2020-11-09","1 Congregate Care","1 Long-Term Care Homes",83
+"2020-11-09","1 Congregate Care","2 Hospitals",22
+"2020-11-09","1 Congregate Care","3 Retirement Homes",62
+"2020-11-09","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-09","2 Congregate Living","22 Congregate other",7
+"2020-11-09","2 Congregate Living","4 Group Home/Supportive Housing",31
+"2020-11-09","2 Congregate Living","5 Correctional Facility",3
+"2020-11-09","2 Congregate Living","6 Shelter",11
+"2020-11-09","3 Education","10 School - Post-Secondary",2
+"2020-11-09","3 Education","11 Child care",52
+"2020-11-09","3 Education","7 School - Elementary",46
+"2020-11-09","3 Education","8 School - Secondary",11
+"2020-11-09","3 Education","9 School - Elementary/Secondary",3
+"2020-11-09","4 Workplace","12 Workplace - Farm",4
+"2020-11-09","4 Workplace","13 Workplace - Food Processing",10
+"2020-11-09","4 Workplace","14 Workplace - Other",129
+"2020-11-09","4 Workplace","15 Retail",4
+"2020-11-09","4 Workplace","16 Medical/Health Service",6
+"2020-11-09","5 Recreational","17 Bar/restaurant/nightclub",14
+"2020-11-09","5 Recreational","19 Recreational fitness",10
+"2020-11-09","5 Recreational","20 Personal service settings",2
+"2020-11-09","5 Recreational","21 Other recreation",15
+"2020-11-09","6 Other/Unknown","23 Other",11
+"2020-11-09","6 Other/Unknown","24 Unknown",3
+"2020-11-10","1 Congregate Care","1 Long-Term Care Homes",90
+"2020-11-10","1 Congregate Care","2 Hospitals",21
+"2020-11-10","1 Congregate Care","3 Retirement Homes",61
+"2020-11-10","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-10","2 Congregate Living","22 Congregate other",7
+"2020-11-10","2 Congregate Living","4 Group Home/Supportive Housing",31
+"2020-11-10","2 Congregate Living","5 Correctional Facility",2
+"2020-11-10","2 Congregate Living","6 Shelter",11
+"2020-11-10","3 Education","10 School - Post-Secondary",2
+"2020-11-10","3 Education","11 Child care",54
+"2020-11-10","3 Education","7 School - Elementary",48
+"2020-11-10","3 Education","8 School - Secondary",10
+"2020-11-10","3 Education","9 School - Elementary/Secondary",4
+"2020-11-10","4 Workplace","12 Workplace - Farm",3
+"2020-11-10","4 Workplace","13 Workplace - Food Processing",10
+"2020-11-10","4 Workplace","14 Workplace - Other",133
+"2020-11-10","4 Workplace","15 Retail",4
+"2020-11-10","4 Workplace","16 Medical/Health Service",6
+"2020-11-10","5 Recreational","17 Bar/restaurant/nightclub",15
+"2020-11-10","5 Recreational","19 Recreational fitness",10
+"2020-11-10","5 Recreational","20 Personal service settings",2
+"2020-11-10","5 Recreational","21 Other recreation",15
+"2020-11-10","6 Other/Unknown","23 Other",12
+"2020-11-10","6 Other/Unknown","24 Unknown",1
+"2020-11-11","1 Congregate Care","1 Long-Term Care Homes",92
+"2020-11-11","1 Congregate Care","2 Hospitals",21
+"2020-11-11","1 Congregate Care","3 Retirement Homes",56
+"2020-11-11","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-11","2 Congregate Living","22 Congregate other",8
+"2020-11-11","2 Congregate Living","4 Group Home/Supportive Housing",33
+"2020-11-11","2 Congregate Living","5 Correctional Facility",2
+"2020-11-11","2 Congregate Living","6 Shelter",12
+"2020-11-11","3 Education","10 School - Post-Secondary",2
+"2020-11-11","3 Education","11 Child care",53
+"2020-11-11","3 Education","7 School - Elementary",50
+"2020-11-11","3 Education","8 School - Secondary",12
+"2020-11-11","3 Education","9 School - Elementary/Secondary",4
+"2020-11-11","4 Workplace","12 Workplace - Farm",4
+"2020-11-11","4 Workplace","13 Workplace - Food Processing",11
+"2020-11-11","4 Workplace","14 Workplace - Other",133
+"2020-11-11","4 Workplace","15 Retail",4
+"2020-11-11","4 Workplace","16 Medical/Health Service",6
+"2020-11-11","5 Recreational","17 Bar/restaurant/nightclub",16
+"2020-11-11","5 Recreational","19 Recreational fitness",11
+"2020-11-11","5 Recreational","20 Personal service settings",3
+"2020-11-11","5 Recreational","21 Other recreation",17
+"2020-11-11","6 Other/Unknown","23 Other",3
+"2020-11-11","6 Other/Unknown","24 Unknown",1
+"2020-11-12","1 Congregate Care","1 Long-Term Care Homes",93
+"2020-11-12","1 Congregate Care","2 Hospitals",23
+"2020-11-12","1 Congregate Care","3 Retirement Homes",53
+"2020-11-12","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-12","2 Congregate Living","22 Congregate other",8
+"2020-11-12","2 Congregate Living","4 Group Home/Supportive Housing",32
+"2020-11-12","2 Congregate Living","5 Correctional Facility",2
+"2020-11-12","2 Congregate Living","6 Shelter",13
+"2020-11-12","3 Education","10 School - Post-Secondary",1
+"2020-11-12","3 Education","11 Child care",51
+"2020-11-12","3 Education","7 School - Elementary",55
+"2020-11-12","3 Education","8 School - Secondary",12
+"2020-11-12","3 Education","9 School - Elementary/Secondary",3
+"2020-11-12","4 Workplace","12 Workplace - Farm",4
+"2020-11-12","4 Workplace","13 Workplace - Food Processing",11
+"2020-11-12","4 Workplace","14 Workplace - Other",136
+"2020-11-12","4 Workplace","15 Retail",4
+"2020-11-12","4 Workplace","16 Medical/Health Service",6
+"2020-11-12","5 Recreational","17 Bar/restaurant/nightclub",17
+"2020-11-12","5 Recreational","19 Recreational fitness",10
+"2020-11-12","5 Recreational","20 Personal service settings",1
+"2020-11-12","5 Recreational","21 Other recreation",16
+"2020-11-12","6 Other/Unknown","23 Other",6
+"2020-11-12","6 Other/Unknown","24 Unknown",1
+"2020-11-13","1 Congregate Care","1 Long-Term Care Homes",95
+"2020-11-13","1 Congregate Care","2 Hospitals",23
+"2020-11-13","1 Congregate Care","3 Retirement Homes",55
+"2020-11-13","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-13","2 Congregate Living","22 Congregate other",8
+"2020-11-13","2 Congregate Living","4 Group Home/Supportive Housing",28
+"2020-11-13","2 Congregate Living","5 Correctional Facility",2
+"2020-11-13","2 Congregate Living","6 Shelter",13
+"2020-11-13","3 Education","10 School - Post-Secondary",1
+"2020-11-13","3 Education","11 Child care",51
+"2020-11-13","3 Education","7 School - Elementary",59
+"2020-11-13","3 Education","8 School - Secondary",13
+"2020-11-13","3 Education","9 School - Elementary/Secondary",4
+"2020-11-13","4 Workplace","12 Workplace - Farm",4
+"2020-11-13","4 Workplace","13 Workplace - Food Processing",9
+"2020-11-13","4 Workplace","14 Workplace - Other",134
+"2020-11-13","4 Workplace","15 Retail",3
+"2020-11-13","4 Workplace","16 Medical/Health Service",5
+"2020-11-13","5 Recreational","17 Bar/restaurant/nightclub",17
+"2020-11-13","5 Recreational","19 Recreational fitness",10
+"2020-11-13","5 Recreational","20 Personal service settings",1
+"2020-11-13","5 Recreational","21 Other recreation",18
+"2020-11-13","6 Other/Unknown","23 Other",11
+"2020-11-13","6 Other/Unknown","24 Unknown",2
+"2020-11-14","1 Congregate Care","1 Long-Term Care Homes",97
+"2020-11-14","1 Congregate Care","2 Hospitals",24
+"2020-11-14","1 Congregate Care","3 Retirement Homes",56
+"2020-11-14","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-14","2 Congregate Living","22 Congregate other",7
+"2020-11-14","2 Congregate Living","4 Group Home/Supportive Housing",29
+"2020-11-14","2 Congregate Living","5 Correctional Facility",2
+"2020-11-14","2 Congregate Living","6 Shelter",13
+"2020-11-14","3 Education","10 School - Post-Secondary",2
+"2020-11-14","3 Education","11 Child care",48
+"2020-11-14","3 Education","7 School - Elementary",62
+"2020-11-14","3 Education","8 School - Secondary",18
+"2020-11-14","3 Education","9 School - Elementary/Secondary",4
+"2020-11-14","4 Workplace","12 Workplace - Farm",4
+"2020-11-14","4 Workplace","13 Workplace - Food Processing",9
+"2020-11-14","4 Workplace","14 Workplace - Other",139
+"2020-11-14","4 Workplace","15 Retail",4
+"2020-11-14","4 Workplace","16 Medical/Health Service",3
+"2020-11-14","5 Recreational","17 Bar/restaurant/nightclub",17
+"2020-11-14","5 Recreational","19 Recreational fitness",11
+"2020-11-14","5 Recreational","20 Personal service settings",1
+"2020-11-14","5 Recreational","21 Other recreation",18
+"2020-11-14","6 Other/Unknown","23 Other",18
+"2020-11-14","6 Other/Unknown","24 Unknown",2
+"2020-11-15","1 Congregate Care","1 Long-Term Care Homes",96
+"2020-11-15","1 Congregate Care","2 Hospitals",26
+"2020-11-15","1 Congregate Care","3 Retirement Homes",58
+"2020-11-15","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-15","2 Congregate Living","22 Congregate other",7
+"2020-11-15","2 Congregate Living","4 Group Home/Supportive Housing",28
+"2020-11-15","2 Congregate Living","5 Correctional Facility",2
+"2020-11-15","2 Congregate Living","6 Shelter",13
+"2020-11-15","3 Education","10 School - Post-Secondary",2
+"2020-11-15","3 Education","11 Child care",49
+"2020-11-15","3 Education","7 School - Elementary",65
+"2020-11-15","3 Education","8 School - Secondary",19
+"2020-11-15","3 Education","9 School - Elementary/Secondary",4
+"2020-11-15","4 Workplace","12 Workplace - Farm",4
+"2020-11-15","4 Workplace","13 Workplace - Food Processing",9
+"2020-11-15","4 Workplace","14 Workplace - Other",144
+"2020-11-15","4 Workplace","15 Retail",5
+"2020-11-15","4 Workplace","16 Medical/Health Service",3
+"2020-11-15","5 Recreational","17 Bar/restaurant/nightclub",18
+"2020-11-15","5 Recreational","19 Recreational fitness",11
+"2020-11-15","5 Recreational","20 Personal service settings",1
+"2020-11-15","5 Recreational","21 Other recreation",18
+"2020-11-15","6 Other/Unknown","23 Other",19
+"2020-11-15","6 Other/Unknown","24 Unknown",3
+"2020-11-16","1 Congregate Care","1 Long-Term Care Homes",101
+"2020-11-16","1 Congregate Care","2 Hospitals",26
+"2020-11-16","1 Congregate Care","3 Retirement Homes",60
+"2020-11-16","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-16","2 Congregate Living","22 Congregate other",7
+"2020-11-16","2 Congregate Living","4 Group Home/Supportive Housing",28
+"2020-11-16","2 Congregate Living","5 Correctional Facility",2
+"2020-11-16","2 Congregate Living","6 Shelter",13
+"2020-11-16","3 Education","10 School - Post-Secondary",2
+"2020-11-16","3 Education","11 Child care",49
+"2020-11-16","3 Education","7 School - Elementary",64
+"2020-11-16","3 Education","8 School - Secondary",17
+"2020-11-16","3 Education","9 School - Elementary/Secondary",4
+"2020-11-16","4 Workplace","12 Workplace - Farm",4
+"2020-11-16","4 Workplace","13 Workplace - Food Processing",9
+"2020-11-16","4 Workplace","14 Workplace - Other",143
+"2020-11-16","4 Workplace","15 Retail",5
+"2020-11-16","4 Workplace","16 Medical/Health Service",3
+"2020-11-16","5 Recreational","17 Bar/restaurant/nightclub",18
+"2020-11-16","5 Recreational","19 Recreational fitness",11
+"2020-11-16","5 Recreational","20 Personal service settings",1
+"2020-11-16","5 Recreational","21 Other recreation",18
+"2020-11-16","6 Other/Unknown","23 Other",21
+"2020-11-16","6 Other/Unknown","24 Unknown",3
+"2020-11-17","1 Congregate Care","1 Long-Term Care Homes",96
+"2020-11-17","1 Congregate Care","2 Hospitals",26
+"2020-11-17","1 Congregate Care","3 Retirement Homes",63
+"2020-11-17","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-17","2 Congregate Living","22 Congregate other",8
+"2020-11-17","2 Congregate Living","4 Group Home/Supportive Housing",28
+"2020-11-17","2 Congregate Living","5 Correctional Facility",2
+"2020-11-17","2 Congregate Living","6 Shelter",11
+"2020-11-17","3 Education","10 School - Post-Secondary",2
+"2020-11-17","3 Education","11 Child care",49
+"2020-11-17","3 Education","7 School - Elementary",61
+"2020-11-17","3 Education","8 School - Secondary",20
+"2020-11-17","3 Education","9 School - Elementary/Secondary",5
+"2020-11-17","4 Workplace","12 Workplace - Farm",4
+"2020-11-17","4 Workplace","13 Workplace - Food Processing",10
+"2020-11-17","4 Workplace","14 Workplace - Other",140
+"2020-11-17","4 Workplace","15 Retail",5
+"2020-11-17","4 Workplace","16 Medical/Health Service",4
+"2020-11-17","5 Recreational","17 Bar/restaurant/nightclub",20
+"2020-11-17","5 Recreational","19 Recreational fitness",8
+"2020-11-17","5 Recreational","20 Personal service settings",1
+"2020-11-17","5 Recreational","21 Other recreation",18
+"2020-11-17","6 Other/Unknown","23 Other",25
+"2020-11-17","6 Other/Unknown","24 Unknown",4
+"2020-11-18","1 Congregate Care","1 Long-Term Care Homes",96
+"2020-11-18","1 Congregate Care","2 Hospitals",28
+"2020-11-18","1 Congregate Care","3 Retirement Homes",63
+"2020-11-18","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-18","2 Congregate Living","22 Congregate other",7
+"2020-11-18","2 Congregate Living","4 Group Home/Supportive Housing",29
+"2020-11-18","2 Congregate Living","5 Correctional Facility",2
+"2020-11-18","2 Congregate Living","6 Shelter",12
+"2020-11-18","3 Education","10 School - Post-Secondary",2
+"2020-11-18","3 Education","11 Child care",49
+"2020-11-18","3 Education","7 School - Elementary",63
+"2020-11-18","3 Education","8 School - Secondary",20
+"2020-11-18","3 Education","9 School - Elementary/Secondary",5
+"2020-11-18","4 Workplace","12 Workplace - Farm",5
+"2020-11-18","4 Workplace","13 Workplace - Food Processing",19
+"2020-11-18","4 Workplace","14 Workplace - Other",127
+"2020-11-18","4 Workplace","15 Retail",20
+"2020-11-18","4 Workplace","16 Medical/Health Service",7
+"2020-11-18","5 Recreational","17 Bar/restaurant/nightclub",23
+"2020-11-18","5 Recreational","19 Recreational fitness",10
+"2020-11-18","5 Recreational","20 Personal service settings",1
+"2020-11-18","5 Recreational","21 Other recreation",20
+"2020-11-18","6 Other/Unknown","23 Other",8
+"2020-11-18","6 Other/Unknown","24 Unknown",6
+"2020-11-19","1 Congregate Care","1 Long-Term Care Homes",95
+"2020-11-19","1 Congregate Care","2 Hospitals",28
+"2020-11-19","1 Congregate Care","3 Retirement Homes",63
+"2020-11-19","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-19","2 Congregate Living","22 Congregate other",7
+"2020-11-19","2 Congregate Living","4 Group Home/Supportive Housing",26
+"2020-11-19","2 Congregate Living","5 Correctional Facility",2
+"2020-11-19","2 Congregate Living","6 Shelter",12
+"2020-11-19","3 Education","10 School - Post-Secondary",2
+"2020-11-19","3 Education","11 Child care",50
+"2020-11-19","3 Education","7 School - Elementary",65
+"2020-11-19","3 Education","8 School - Secondary",19
+"2020-11-19","3 Education","9 School - Elementary/Secondary",5
+"2020-11-19","4 Workplace","12 Workplace - Farm",5
+"2020-11-19","4 Workplace","13 Workplace - Food Processing",19
+"2020-11-19","4 Workplace","14 Workplace - Other",128
+"2020-11-19","4 Workplace","15 Retail",19
+"2020-11-19","4 Workplace","16 Medical/Health Service",7
+"2020-11-19","5 Recreational","17 Bar/restaurant/nightclub",22
+"2020-11-19","5 Recreational","19 Recreational fitness",10
+"2020-11-19","5 Recreational","21 Other recreation",22
+"2020-11-19","6 Other/Unknown","23 Other",10
+"2020-11-19","6 Other/Unknown","24 Unknown",6
+"2020-11-20","1 Congregate Care","1 Long-Term Care Homes",96
+"2020-11-20","1 Congregate Care","2 Hospitals",27
+"2020-11-20","1 Congregate Care","3 Retirement Homes",64
+"2020-11-20","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-20","2 Congregate Living","22 Congregate other",7
+"2020-11-20","2 Congregate Living","4 Group Home/Supportive Housing",27
+"2020-11-20","2 Congregate Living","5 Correctional Facility",2
+"2020-11-20","2 Congregate Living","6 Shelter",12
+"2020-11-20","3 Education","10 School - Post-Secondary",2
+"2020-11-20","3 Education","11 Child care",48
+"2020-11-20","3 Education","7 School - Elementary",67
+"2020-11-20","3 Education","8 School - Secondary",18
+"2020-11-20","3 Education","9 School - Elementary/Secondary",5
+"2020-11-20","4 Workplace","12 Workplace - Farm",5
+"2020-11-20","4 Workplace","13 Workplace - Food Processing",18
+"2020-11-20","4 Workplace","14 Workplace - Other",135
+"2020-11-20","4 Workplace","15 Retail",20
+"2020-11-20","4 Workplace","16 Medical/Health Service",8
+"2020-11-20","5 Recreational","17 Bar/restaurant/nightclub",22
+"2020-11-20","5 Recreational","19 Recreational fitness",10
+"2020-11-20","5 Recreational","21 Other recreation",22
+"2020-11-20","6 Other/Unknown","23 Other",12
+"2020-11-20","6 Other/Unknown","24 Unknown",6
+"2020-11-21","1 Congregate Care","1 Long-Term Care Homes",97
+"2020-11-21","1 Congregate Care","2 Hospitals",29
+"2020-11-21","1 Congregate Care","3 Retirement Homes",63
+"2020-11-21","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-21","2 Congregate Living","22 Congregate other",8
+"2020-11-21","2 Congregate Living","4 Group Home/Supportive Housing",29
+"2020-11-21","2 Congregate Living","5 Correctional Facility",2
+"2020-11-21","2 Congregate Living","6 Shelter",11
+"2020-11-21","3 Education","10 School - Post-Secondary",2
+"2020-11-21","3 Education","11 Child care",48
+"2020-11-21","3 Education","7 School - Elementary",66
+"2020-11-21","3 Education","8 School - Secondary",19
+"2020-11-21","3 Education","9 School - Elementary/Secondary",4
+"2020-11-21","4 Workplace","12 Workplace - Farm",5
+"2020-11-21","4 Workplace","13 Workplace - Food Processing",18
+"2020-11-21","4 Workplace","14 Workplace - Other",138
+"2020-11-21","4 Workplace","15 Retail",19
+"2020-11-21","4 Workplace","16 Medical/Health Service",8
+"2020-11-21","5 Recreational","17 Bar/restaurant/nightclub",25
+"2020-11-21","5 Recreational","19 Recreational fitness",11
+"2020-11-21","5 Recreational","21 Other recreation",24
+"2020-11-21","6 Other/Unknown","23 Other",13
+"2020-11-21","6 Other/Unknown","24 Unknown",3
+"2020-11-22","1 Congregate Care","1 Long-Term Care Homes",97
+"2020-11-22","1 Congregate Care","2 Hospitals",28
+"2020-11-22","1 Congregate Care","3 Retirement Homes",63
+"2020-11-22","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-22","2 Congregate Living","22 Congregate other",9
+"2020-11-22","2 Congregate Living","4 Group Home/Supportive Housing",27
+"2020-11-22","2 Congregate Living","5 Correctional Facility",2
+"2020-11-22","2 Congregate Living","6 Shelter",11
+"2020-11-22","3 Education","10 School - Post-Secondary",2
+"2020-11-22","3 Education","11 Child care",48
+"2020-11-22","3 Education","7 School - Elementary",70
+"2020-11-22","3 Education","8 School - Secondary",18
+"2020-11-22","3 Education","9 School - Elementary/Secondary",4
+"2020-11-22","4 Workplace","12 Workplace - Farm",4
+"2020-11-22","4 Workplace","13 Workplace - Food Processing",18
+"2020-11-22","4 Workplace","14 Workplace - Other",143
+"2020-11-22","4 Workplace","15 Retail",20
+"2020-11-22","4 Workplace","16 Medical/Health Service",8
+"2020-11-22","5 Recreational","17 Bar/restaurant/nightclub",25
+"2020-11-22","5 Recreational","19 Recreational fitness",12
+"2020-11-22","5 Recreational","21 Other recreation",23
+"2020-11-22","6 Other/Unknown","23 Other",19
+"2020-11-22","6 Other/Unknown","24 Unknown",5
+"2020-11-23","1 Congregate Care","1 Long-Term Care Homes",97
+"2020-11-23","1 Congregate Care","2 Hospitals",29
+"2020-11-23","1 Congregate Care","3 Retirement Homes",63
+"2020-11-23","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-23","2 Congregate Living","22 Congregate other",11
+"2020-11-23","2 Congregate Living","4 Group Home/Supportive Housing",28
+"2020-11-23","2 Congregate Living","5 Correctional Facility",3
+"2020-11-23","2 Congregate Living","6 Shelter",11
+"2020-11-23","3 Education","10 School - Post-Secondary",3
+"2020-11-23","3 Education","11 Child care",48
+"2020-11-23","3 Education","7 School - Elementary",70
+"2020-11-23","3 Education","8 School - Secondary",19
+"2020-11-23","3 Education","9 School - Elementary/Secondary",4
+"2020-11-23","4 Workplace","12 Workplace - Farm",4
+"2020-11-23","4 Workplace","13 Workplace - Food Processing",18
+"2020-11-23","4 Workplace","14 Workplace - Other",146
+"2020-11-23","4 Workplace","15 Retail",20
+"2020-11-23","4 Workplace","16 Medical/Health Service",7
+"2020-11-23","5 Recreational","17 Bar/restaurant/nightclub",25
+"2020-11-23","5 Recreational","19 Recreational fitness",11
+"2020-11-23","5 Recreational","21 Other recreation",23
+"2020-11-23","6 Other/Unknown","23 Other",19
+"2020-11-23","6 Other/Unknown","24 Unknown",6
+"2020-11-24","1 Congregate Care","1 Long-Term Care Homes",101
+"2020-11-24","1 Congregate Care","2 Hospitals",29
+"2020-11-24","1 Congregate Care","3 Retirement Homes",62
+"2020-11-24","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-24","2 Congregate Living","22 Congregate other",11
+"2020-11-24","2 Congregate Living","4 Group Home/Supportive Housing",29
+"2020-11-24","2 Congregate Living","5 Correctional Facility",3
+"2020-11-24","2 Congregate Living","6 Shelter",10
+"2020-11-24","3 Education","10 School - Post-Secondary",2
+"2020-11-24","3 Education","11 Child care",50
+"2020-11-24","3 Education","7 School - Elementary",75
+"2020-11-24","3 Education","8 School - Secondary",23
+"2020-11-24","3 Education","9 School - Elementary/Secondary",4
+"2020-11-24","4 Workplace","12 Workplace - Farm",4
+"2020-11-24","4 Workplace","13 Workplace - Food Processing",18
+"2020-11-24","4 Workplace","14 Workplace - Other",144
+"2020-11-24","4 Workplace","15 Retail",22
+"2020-11-24","4 Workplace","16 Medical/Health Service",7
+"2020-11-24","5 Recreational","17 Bar/restaurant/nightclub",24
+"2020-11-24","5 Recreational","19 Recreational fitness",11
+"2020-11-24","5 Recreational","21 Other recreation",24
+"2020-11-24","6 Other/Unknown","23 Other",20
+"2020-11-24","6 Other/Unknown","24 Unknown",4
+"2020-11-25","1 Congregate Care","1 Long-Term Care Homes",108
+"2020-11-25","1 Congregate Care","2 Hospitals",30
+"2020-11-25","1 Congregate Care","3 Retirement Homes",60
+"2020-11-25","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-25","2 Congregate Living","22 Congregate other",11
+"2020-11-25","2 Congregate Living","4 Group Home/Supportive Housing",31
+"2020-11-25","2 Congregate Living","5 Correctional Facility",3
+"2020-11-25","2 Congregate Living","6 Shelter",12
+"2020-11-25","3 Education","10 School - Post-Secondary",2
+"2020-11-25","3 Education","11 Child care",50
+"2020-11-25","3 Education","7 School - Elementary",81
+"2020-11-25","3 Education","8 School - Secondary",25
+"2020-11-25","3 Education","9 School - Elementary/Secondary",4
+"2020-11-25","4 Workplace","12 Workplace - Farm",5
+"2020-11-25","4 Workplace","13 Workplace - Food Processing",21
+"2020-11-25","4 Workplace","14 Workplace - Other",150
+"2020-11-25","4 Workplace","15 Retail",24
+"2020-11-25","4 Workplace","16 Medical/Health Service",9
+"2020-11-25","5 Recreational","17 Bar/restaurant/nightclub",22
+"2020-11-25","5 Recreational","19 Recreational fitness",13
+"2020-11-25","5 Recreational","20 Personal service settings",1
+"2020-11-25","5 Recreational","21 Other recreation",28
+"2020-11-25","6 Other/Unknown","23 Other",5
+"2020-11-25","6 Other/Unknown","24 Unknown",2
+"2020-11-26","1 Congregate Care","1 Long-Term Care Homes",109
+"2020-11-26","1 Congregate Care","2 Hospitals",32
+"2020-11-26","1 Congregate Care","3 Retirement Homes",58
+"2020-11-26","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-26","2 Congregate Living","22 Congregate other",11
+"2020-11-26","2 Congregate Living","4 Group Home/Supportive Housing",32
+"2020-11-26","2 Congregate Living","5 Correctional Facility",3
+"2020-11-26","2 Congregate Living","6 Shelter",12
+"2020-11-26","3 Education","10 School - Post-Secondary",2
+"2020-11-26","3 Education","11 Child care",48
+"2020-11-26","3 Education","7 School - Elementary",82
+"2020-11-26","3 Education","8 School - Secondary",25
+"2020-11-26","3 Education","9 School - Elementary/Secondary",4
+"2020-11-26","4 Workplace","12 Workplace - Farm",5
+"2020-11-26","4 Workplace","13 Workplace - Food Processing",21
+"2020-11-26","4 Workplace","14 Workplace - Other",155
+"2020-11-26","4 Workplace","15 Retail",25
+"2020-11-26","4 Workplace","16 Medical/Health Service",7
+"2020-11-26","5 Recreational","17 Bar/restaurant/nightclub",23
+"2020-11-26","5 Recreational","19 Recreational fitness",14
+"2020-11-26","5 Recreational","20 Personal service settings",1
+"2020-11-26","5 Recreational","21 Other recreation",26
+"2020-11-26","6 Other/Unknown","23 Other",16
+"2020-11-26","6 Other/Unknown","24 Unknown",3
+"2020-11-27","1 Congregate Care","1 Long-Term Care Homes",112
+"2020-11-27","1 Congregate Care","2 Hospitals",34
+"2020-11-27","1 Congregate Care","3 Retirement Homes",58
+"2020-11-27","2 Congregate Living","18 Short-term accommodations",2
+"2020-11-27","2 Congregate Living","22 Congregate other",11
+"2020-11-27","2 Congregate Living","4 Group Home/Supportive Housing",32
+"2020-11-27","2 Congregate Living","5 Correctional Facility",3
+"2020-11-27","2 Congregate Living","6 Shelter",12
+"2020-11-27","3 Education","10 School - Post-Secondary",1
+"2020-11-27","3 Education","11 Child care",49
+"2020-11-27","3 Education","7 School - Elementary",84
+"2020-11-27","3 Education","8 School - Secondary",24
+"2020-11-27","3 Education","9 School - Elementary/Secondary",6
+"2020-11-27","4 Workplace","12 Workplace - Farm",5
+"2020-11-27","4 Workplace","13 Workplace - Food Processing",18
+"2020-11-27","4 Workplace","14 Workplace - Other",162
+"2020-11-27","4 Workplace","15 Retail",25
+"2020-11-27","4 Workplace","16 Medical/Health Service",7
+"2020-11-27","5 Recreational","17 Bar/restaurant/nightclub",22
+"2020-11-27","5 Recreational","19 Recreational fitness",14
+"2020-11-27","5 Recreational","20 Personal service settings",1
+"2020-11-27","5 Recreational","21 Other recreation",23
+"2020-11-27","6 Other/Unknown","23 Other",21
+"2020-11-27","6 Other/Unknown","24 Unknown",4
+
