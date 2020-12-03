@@ -1,0 +1,2391 @@
+date,category_grouped,outbreak_subgroup,TOTAL_CASES
+03/06/2020,2 Congregate Living,Shelter,1
+03/08/2020,1 Congregate Care,Long-Term Care Home,1
+03/09/2020,4 Workplace,Workplace - Other,1
+03/11/2020,2 Congregate Living,Group Home/Supportive Housing,1
+03/12/2020,1 Congregate Care,Long-Term Care Home,1
+03/13/2020,1 Congregate Care,Long-Term Care Home,1
+03/14/2020,4 Workplace,Workplace - Other,1
+03/15/2020,4 Workplace,Workplace - Other,1
+03/17/2020,1 Congregate Care,Long-Term Care Home,2
+03/18/2020,4 Workplace,Workplace - Other,2
+03/19/2020,1 Congregate Care,Long-Term Care Home,5
+03/19/2020,1 Congregate Care,Retirement Home,1
+03/19/2020,2 Congregate Living,Group Home/Supportive Housing,1
+03/20/2020,1 Congregate Care,Long-Term Care Home,13
+03/21/2020,1 Congregate Care,Long-Term Care Home,9
+03/21/2020,2 Congregate Living,Group Home/Supportive Housing,1
+03/22/2020,1 Congregate Care,Hospital,1
+03/22/2020,1 Congregate Care,Long-Term Care Home,10
+03/22/2020,2 Congregate Living,Group Home/Supportive Housing,1
+03/22/2020,4 Workplace,Workplace - Other,2
+03/23/2020,1 Congregate Care,Hospital,6
+03/23/2020,1 Congregate Care,Long-Term Care Home,11
+03/23/2020,2 Congregate Living,Group Home/Supportive Housing,1
+03/24/2020,1 Congregate Care,Hospital,3
+03/24/2020,1 Congregate Care,Long-Term Care Home,14
+03/24/2020,1 Congregate Care,Retirement Home,1
+03/24/2020,2 Congregate Living,Group Home/Supportive Housing,1
+03/24/2020,4 Workplace,Medical/Health Service,2
+03/24/2020,4 Workplace,Workplace - Other,1
+03/25/2020,1 Congregate Care,Hospital,2
+03/25/2020,1 Congregate Care,Long-Term Care Home,13
+03/25/2020,1 Congregate Care,Retirement Home,1
+03/25/2020,2 Congregate Living,Group Home/Supportive Housing,1
+03/25/2020,4 Workplace,Workplace - Other,1
+03/26/2020,1 Congregate Care,Hospital,4
+03/26/2020,1 Congregate Care,Long-Term Care Home,6
+03/26/2020,1 Congregate Care,Retirement Home,2
+03/26/2020,4 Workplace,Workplace - Other,6
+03/27/2020,1 Congregate Care,Hospital,8
+03/27/2020,1 Congregate Care,Long-Term Care Home,14
+03/27/2020,1 Congregate Care,Retirement Home,4
+03/27/2020,2 Congregate Living,Group Home/Supportive Housing,1
+03/27/2020,4 Workplace,Medical/Health Service,1
+03/27/2020,4 Workplace,Workplace - Other,3
+03/28/2020,1 Congregate Care,Hospital,6
+03/28/2020,1 Congregate Care,Long-Term Care Home,17
+03/28/2020,1 Congregate Care,Retirement Home,6
+03/28/2020,2 Congregate Living,Group Home/Supportive Housing,2
+03/28/2020,4 Workplace,Workplace - Other,2
+03/29/2020,1 Congregate Care,Hospital,11
+03/29/2020,1 Congregate Care,Long-Term Care Home,19
+03/29/2020,1 Congregate Care,Retirement Home,4
+03/29/2020,2 Congregate Living,Congregate other,1
+03/29/2020,2 Congregate Living,Group Home/Supportive Housing,1
+03/29/2020,4 Workplace,Workplace - Other,1
+03/29/2020,6 Other/Unknown,Unknown,1
+03/30/2020,1 Congregate Care,Hospital,14
+03/30/2020,1 Congregate Care,Long-Term Care Home,25
+03/30/2020,1 Congregate Care,Retirement Home,9
+03/30/2020,2 Congregate Living,Group Home/Supportive Housing,1
+03/30/2020,4 Workplace,Workplace - Other,1
+03/31/2020,1 Congregate Care,Hospital,18
+03/31/2020,1 Congregate Care,Long-Term Care Home,34
+03/31/2020,1 Congregate Care,Retirement Home,10
+03/31/2020,2 Congregate Living,Group Home/Supportive Housing,3
+03/31/2020,4 Workplace,Workplace - Farm,1
+04/01/2020,1 Congregate Care,Hospital,13
+04/01/2020,1 Congregate Care,Long-Term Care Home,66
+04/01/2020,1 Congregate Care,Retirement Home,22
+04/01/2020,2 Congregate Living,Group Home/Supportive Housing,3
+04/01/2020,4 Workplace,Workplace - Other,1
+04/02/2020,1 Congregate Care,Hospital,14
+04/02/2020,1 Congregate Care,Long-Term Care Home,65
+04/02/2020,1 Congregate Care,Retirement Home,29
+04/02/2020,2 Congregate Living,Group Home/Supportive Housing,1
+04/02/2020,4 Workplace,Workplace - Food Processing,1
+04/02/2020,4 Workplace,Workplace - Other,1
+04/02/2020,6 Other/Unknown,Unknown,1
+04/03/2020,1 Congregate Care,Hospital,11
+04/03/2020,1 Congregate Care,Long-Term Care Home,145
+04/03/2020,1 Congregate Care,Retirement Home,21
+04/03/2020,2 Congregate Living,Correctional Facility,1
+04/03/2020,2 Congregate Living,Group Home/Supportive Housing,2
+04/03/2020,2 Congregate Living,Shelter,2
+04/03/2020,2 Congregate Living,Short-term accommodations,1
+04/03/2020,4 Workplace,Workplace - Other,1
+04/03/2020,5 Recreational,Other recreation,1
+04/03/2020,6 Other/Unknown,Unknown,1
+04/04/2020,1 Congregate Care,Hospital,16
+04/04/2020,1 Congregate Care,Long-Term Care Home,90
+04/04/2020,1 Congregate Care,Retirement Home,26
+04/04/2020,2 Congregate Living,Group Home/Supportive Housing,1
+04/04/2020,4 Workplace,Workplace - Other,1
+04/04/2020,5 Recreational,Other recreation,1
+04/04/2020,6 Other/Unknown,Unknown,1
+04/05/2020,1 Congregate Care,Hospital,7
+04/05/2020,1 Congregate Care,Long-Term Care Home,75
+04/05/2020,1 Congregate Care,Retirement Home,29
+04/05/2020,2 Congregate Living,Congregate other,1
+04/05/2020,2 Congregate Living,Group Home/Supportive Housing,1
+04/05/2020,2 Congregate Living,Shelter,3
+04/05/2020,4 Workplace,Workplace - Other,1
+04/05/2020,5 Recreational,Other recreation,1
+04/05/2020,6 Other/Unknown,Unknown,5
+04/06/2020,1 Congregate Care,Hospital,10
+04/06/2020,1 Congregate Care,Long-Term Care Home,157
+04/06/2020,1 Congregate Care,Retirement Home,37
+04/06/2020,2 Congregate Living,Group Home/Supportive Housing,3
+04/06/2020,2 Congregate Living,Shelter,1
+04/06/2020,4 Workplace,Workplace - Other,1
+04/06/2020,5 Recreational,Other recreation,2
+04/06/2020,6 Other/Unknown,Unknown,6
+04/07/2020,1 Congregate Care,Hospital,7
+04/07/2020,1 Congregate Care,Long-Term Care Home,173
+04/07/2020,1 Congregate Care,Retirement Home,38
+04/07/2020,2 Congregate Living,Group Home/Supportive Housing,5
+04/07/2020,2 Congregate Living,Shelter,3
+04/07/2020,4 Workplace,Workplace - Other,1
+04/07/2020,5 Recreational,Other recreation,1
+04/07/2020,6 Other/Unknown,Unknown,2
+04/08/2020,1 Congregate Care,Hospital,15
+04/08/2020,1 Congregate Care,Long-Term Care Home,169
+04/08/2020,1 Congregate Care,Retirement Home,39
+04/08/2020,2 Congregate Living,Congregate other,2
+04/08/2020,2 Congregate Living,Group Home/Supportive Housing,6
+04/08/2020,2 Congregate Living,Shelter,8
+04/08/2020,4 Workplace,Workplace - Other,1
+04/08/2020,5 Recreational,Other recreation,2
+04/08/2020,6 Other/Unknown,Unknown,5
+04/09/2020,1 Congregate Care,Hospital,11
+04/09/2020,1 Congregate Care,Long-Term Care Home,155
+04/09/2020,1 Congregate Care,Retirement Home,31
+04/09/2020,2 Congregate Living,Congregate other,2
+04/09/2020,2 Congregate Living,Group Home/Supportive Housing,17
+04/09/2020,2 Congregate Living,Shelter,4
+04/09/2020,4 Workplace,Workplace - Other,1
+04/09/2020,5 Recreational,Other recreation,4
+04/09/2020,6 Other/Unknown,Unknown,3
+04/10/2020,1 Congregate Care,Hospital,13
+04/10/2020,1 Congregate Care,Long-Term Care Home,133
+04/10/2020,1 Congregate Care,Retirement Home,27
+04/10/2020,2 Congregate Living,Congregate other,3
+04/10/2020,2 Congregate Living,Correctional Facility,1
+04/10/2020,2 Congregate Living,Group Home/Supportive Housing,6
+04/10/2020,2 Congregate Living,Shelter,9
+04/10/2020,4 Workplace,Workplace - Farm,1
+04/10/2020,4 Workplace,Workplace - Other,1
+04/10/2020,6 Other/Unknown,Unknown,7
+04/11/2020,1 Congregate Care,Hospital,14
+04/11/2020,1 Congregate Care,Long-Term Care Home,165
+04/11/2020,1 Congregate Care,Retirement Home,37
+04/11/2020,2 Congregate Living,Congregate other,2
+04/11/2020,2 Congregate Living,Group Home/Supportive Housing,11
+04/11/2020,2 Congregate Living,Shelter,10
+04/11/2020,4 Workplace,Workplace - Food Processing,1
+04/11/2020,6 Other/Unknown,Unknown,3
+04/12/2020,1 Congregate Care,Hospital,12
+04/12/2020,1 Congregate Care,Long-Term Care Home,222
+04/12/2020,1 Congregate Care,Retirement Home,76
+04/12/2020,2 Congregate Living,Congregate other,3
+04/12/2020,2 Congregate Living,Group Home/Supportive Housing,36
+04/12/2020,2 Congregate Living,Shelter,8
+04/12/2020,2 Congregate Living,Short-term accommodations,3
+04/12/2020,4 Workplace,Workplace - Other,5
+04/12/2020,6 Other/Unknown,Unknown,1
+04/13/2020,1 Congregate Care,Hospital,28
+04/13/2020,1 Congregate Care,Long-Term Care Home,258
+04/13/2020,1 Congregate Care,Retirement Home,43
+04/13/2020,2 Congregate Living,Congregate other,1
+04/13/2020,2 Congregate Living,Group Home/Supportive Housing,37
+04/13/2020,2 Congregate Living,Shelter,14
+04/13/2020,2 Congregate Living,Short-term accommodations,1
+04/13/2020,5 Recreational,Other recreation,4
+04/13/2020,6 Other/Unknown,Unknown,1
+04/14/2020,1 Congregate Care,Hospital,27
+04/14/2020,1 Congregate Care,Long-Term Care Home,299
+04/14/2020,1 Congregate Care,Retirement Home,46
+04/14/2020,2 Congregate Living,Congregate other,2
+04/14/2020,2 Congregate Living,Group Home/Supportive Housing,17
+04/14/2020,2 Congregate Living,Shelter,5
+04/14/2020,4 Workplace,Workplace - Other,1
+04/14/2020,6 Other/Unknown,Unknown,2
+04/15/2020,1 Congregate Care,Hospital,29
+04/15/2020,1 Congregate Care,Long-Term Care Home,300
+04/15/2020,1 Congregate Care,Retirement Home,93
+04/15/2020,2 Congregate Living,Congregate other,4
+04/15/2020,2 Congregate Living,Group Home/Supportive Housing,15
+04/15/2020,2 Congregate Living,Shelter,7
+04/15/2020,4 Workplace,Workplace - Farm,1
+04/15/2020,4 Workplace,Workplace - Other,2
+04/15/2020,5 Recreational,Other recreation,2
+04/15/2020,6 Other/Unknown,Unknown,1
+04/16/2020,1 Congregate Care,Hospital,24
+04/16/2020,1 Congregate Care,Long-Term Care Home,283
+04/16/2020,1 Congregate Care,Retirement Home,56
+04/16/2020,2 Congregate Living,Congregate other,3
+04/16/2020,2 Congregate Living,Group Home/Supportive Housing,13
+04/16/2020,2 Congregate Living,Shelter,8
+04/16/2020,4 Workplace,Medical/Health Service,1
+04/16/2020,4 Workplace,Workplace - Other,4
+04/16/2020,5 Recreational,Other recreation,1
+04/16/2020,6 Other/Unknown,Unknown,1
+04/17/2020,1 Congregate Care,Hospital,23
+04/17/2020,1 Congregate Care,Long-Term Care Home,415
+04/17/2020,1 Congregate Care,Retirement Home,39
+04/17/2020,2 Congregate Living,Congregate other,1
+04/17/2020,2 Congregate Living,Correctional Facility,1
+04/17/2020,2 Congregate Living,Group Home/Supportive Housing,14
+04/17/2020,2 Congregate Living,Shelter,28
+04/17/2020,4 Workplace,Workplace - Farm,1
+04/17/2020,4 Workplace,Workplace - Other,5
+04/17/2020,5 Recreational,Other recreation,3
+04/18/2020,1 Congregate Care,Hospital,23
+04/18/2020,1 Congregate Care,Long-Term Care Home,322
+04/18/2020,1 Congregate Care,Retirement Home,27
+04/18/2020,2 Congregate Living,Congregate other,1
+04/18/2020,2 Congregate Living,Correctional Facility,4
+04/18/2020,2 Congregate Living,Group Home/Supportive Housing,13
+04/18/2020,2 Congregate Living,Shelter,11
+04/18/2020,4 Workplace,Workplace - Other,2
+04/18/2020,6 Other/Unknown,Unknown,1
+04/19/2020,1 Congregate Care,Hospital,16
+04/19/2020,1 Congregate Care,Long-Term Care Home,249
+04/19/2020,1 Congregate Care,Retirement Home,47
+04/19/2020,2 Congregate Living,Congregate other,4
+04/19/2020,2 Congregate Living,Correctional Facility,33
+04/19/2020,2 Congregate Living,Group Home/Supportive Housing,17
+04/19/2020,2 Congregate Living,Shelter,17
+04/19/2020,4 Workplace,Medical/Health Service,2
+04/19/2020,4 Workplace,Workplace - Food Processing,1
+04/19/2020,4 Workplace,Workplace - Other,1
+04/20/2020,1 Congregate Care,Hospital,27
+04/20/2020,1 Congregate Care,Long-Term Care Home,195
+04/20/2020,1 Congregate Care,Retirement Home,37
+04/20/2020,2 Congregate Living,Congregate other,2
+04/20/2020,2 Congregate Living,Correctional Facility,23
+04/20/2020,2 Congregate Living,Group Home/Supportive Housing,15
+04/20/2020,2 Congregate Living,Shelter,72
+04/20/2020,4 Workplace,Medical/Health Service,8
+04/20/2020,4 Workplace,Workplace - Farm,1
+04/20/2020,4 Workplace,Workplace - Food Processing,4
+04/20/2020,4 Workplace,Workplace - Other,1
+04/21/2020,1 Congregate Care,Hospital,15
+04/21/2020,1 Congregate Care,Long-Term Care Home,244
+04/21/2020,1 Congregate Care,Retirement Home,20
+04/21/2020,2 Congregate Living,Congregate other,4
+04/21/2020,2 Congregate Living,Correctional Facility,23
+04/21/2020,2 Congregate Living,Group Home/Supportive Housing,7
+04/21/2020,2 Congregate Living,Shelter,25
+04/21/2020,4 Workplace,Medical/Health Service,4
+04/21/2020,4 Workplace,Workplace - Farm,5
+04/21/2020,4 Workplace,Workplace - Food Processing,4
+04/21/2020,4 Workplace,Workplace - Other,3
+04/21/2020,5 Recreational,Other recreation,1
+04/22/2020,1 Congregate Care,Hospital,15
+04/22/2020,1 Congregate Care,Long-Term Care Home,221
+04/22/2020,1 Congregate Care,Retirement Home,40
+04/22/2020,2 Congregate Living,Correctional Facility,10
+04/22/2020,2 Congregate Living,Group Home/Supportive Housing,13
+04/22/2020,2 Congregate Living,Shelter,28
+04/22/2020,4 Workplace,Medical/Health Service,3
+04/22/2020,4 Workplace,Workplace - Farm,1
+04/22/2020,4 Workplace,Workplace - Food Processing,1
+04/22/2020,4 Workplace,Workplace - Other,3
+04/23/2020,1 Congregate Care,Hospital,23
+04/23/2020,1 Congregate Care,Long-Term Care Home,213
+04/23/2020,1 Congregate Care,Retirement Home,31
+04/23/2020,2 Congregate Living,Correctional Facility,6
+04/23/2020,2 Congregate Living,Group Home/Supportive Housing,12
+04/23/2020,2 Congregate Living,Shelter,16
+04/23/2020,4 Workplace,Workplace - Farm,2
+04/23/2020,4 Workplace,Workplace - Food Processing,1
+04/23/2020,4 Workplace,Workplace - Other,2
+04/24/2020,1 Congregate Care,Hospital,16
+04/24/2020,1 Congregate Care,Long-Term Care Home,147
+04/24/2020,1 Congregate Care,Retirement Home,21
+04/24/2020,2 Congregate Living,Correctional Facility,3
+04/24/2020,2 Congregate Living,Group Home/Supportive Housing,12
+04/24/2020,2 Congregate Living,Shelter,11
+04/24/2020,4 Workplace,Medical/Health Service,2
+04/24/2020,4 Workplace,Workplace - Farm,1
+04/24/2020,4 Workplace,Workplace - Food Processing,7
+04/25/2020,1 Congregate Care,Hospital,7
+04/25/2020,1 Congregate Care,Long-Term Care Home,192
+04/25/2020,1 Congregate Care,Retirement Home,22
+04/25/2020,2 Congregate Living,Group Home/Supportive Housing,3
+04/25/2020,2 Congregate Living,Shelter,5
+04/25/2020,4 Workplace,Retail,1
+04/25/2020,4 Workplace,Workplace - Farm,3
+04/25/2020,4 Workplace,Workplace - Food Processing,7
+04/25/2020,4 Workplace,Workplace - Other,6
+04/25/2020,6 Other/Unknown,Unknown,1
+04/26/2020,1 Congregate Care,Hospital,17
+04/26/2020,1 Congregate Care,Long-Term Care Home,156
+04/26/2020,1 Congregate Care,Retirement Home,11
+04/26/2020,2 Congregate Living,Congregate other,1
+04/26/2020,2 Congregate Living,Group Home/Supportive Housing,3
+04/26/2020,3 Education,Child care,2
+04/26/2020,4 Workplace,Workplace - Farm,12
+04/26/2020,4 Workplace,Workplace - Food Processing,6
+04/26/2020,4 Workplace,Workplace - Other,4
+04/27/2020,1 Congregate Care,Hospital,17
+04/27/2020,1 Congregate Care,Long-Term Care Home,193
+04/27/2020,1 Congregate Care,Retirement Home,20
+04/27/2020,2 Congregate Living,Group Home/Supportive Housing,6
+04/27/2020,2 Congregate Living,Shelter,9
+04/27/2020,3 Education,Child care,1
+04/27/2020,4 Workplace,Medical/Health Service,1
+04/27/2020,4 Workplace,Workplace - Farm,20
+04/27/2020,4 Workplace,Workplace - Food Processing,10
+04/27/2020,4 Workplace,Workplace - Other,1
+04/28/2020,1 Congregate Care,Hospital,32
+04/28/2020,1 Congregate Care,Long-Term Care Home,131
+04/28/2020,1 Congregate Care,Retirement Home,15
+04/28/2020,2 Congregate Living,Group Home/Supportive Housing,6
+04/28/2020,2 Congregate Living,Shelter,6
+04/28/2020,4 Workplace,Workplace - Farm,6
+04/28/2020,4 Workplace,Workplace - Food Processing,9
+04/28/2020,4 Workplace,Workplace - Other,1
+04/29/2020,1 Congregate Care,Hospital,18
+04/29/2020,1 Congregate Care,Long-Term Care Home,146
+04/29/2020,1 Congregate Care,Retirement Home,14
+04/29/2020,2 Congregate Living,Group Home/Supportive Housing,4
+04/29/2020,2 Congregate Living,Shelter,4
+04/29/2020,3 Education,Child care,2
+04/29/2020,4 Workplace,Retail,1
+04/29/2020,4 Workplace,Workplace - Farm,2
+04/29/2020,4 Workplace,Workplace - Food Processing,17
+04/30/2020,1 Congregate Care,Hospital,14
+04/30/2020,1 Congregate Care,Long-Term Care Home,190
+04/30/2020,1 Congregate Care,Retirement Home,15
+04/30/2020,2 Congregate Living,Group Home/Supportive Housing,16
+04/30/2020,2 Congregate Living,Shelter,4
+04/30/2020,3 Education,Child care,3
+04/30/2020,4 Workplace,Retail,1
+04/30/2020,4 Workplace,Workplace - Food Processing,11
+04/30/2020,4 Workplace,Workplace - Other,1
+05/01/2020,1 Congregate Care,Hospital,28
+05/01/2020,1 Congregate Care,Long-Term Care Home,145
+05/01/2020,1 Congregate Care,Retirement Home,22
+05/01/2020,2 Congregate Living,Correctional Facility,1
+05/01/2020,2 Congregate Living,Group Home/Supportive Housing,15
+05/01/2020,2 Congregate Living,Shelter,2
+05/01/2020,3 Education,Child care,4
+05/01/2020,4 Workplace,Workplace - Food Processing,15
+05/02/2020,1 Congregate Care,Hospital,16
+05/02/2020,1 Congregate Care,Long-Term Care Home,86
+05/02/2020,1 Congregate Care,Retirement Home,23
+05/02/2020,2 Congregate Living,Congregate other,3
+05/02/2020,2 Congregate Living,Group Home/Supportive Housing,15
+05/02/2020,2 Congregate Living,Shelter,5
+05/02/2020,3 Education,Child care,5
+05/02/2020,4 Workplace,Workplace - Farm,3
+05/02/2020,4 Workplace,Workplace - Food Processing,14
+05/02/2020,4 Workplace,Workplace - Other,1
+05/02/2020,5 Recreational,Other recreation,1
+05/03/2020,1 Congregate Care,Hospital,12
+05/03/2020,1 Congregate Care,Long-Term Care Home,106
+05/03/2020,1 Congregate Care,Retirement Home,22
+05/03/2020,2 Congregate Living,Group Home/Supportive Housing,11
+05/03/2020,2 Congregate Living,Shelter,1
+05/03/2020,3 Education,Child care,1
+05/03/2020,4 Workplace,Retail,1
+05/03/2020,4 Workplace,Workplace - Farm,1
+05/03/2020,4 Workplace,Workplace - Food Processing,12
+05/03/2020,4 Workplace,Workplace - Other,2
+05/04/2020,1 Congregate Care,Hospital,21
+05/04/2020,1 Congregate Care,Long-Term Care Home,71
+05/04/2020,1 Congregate Care,Retirement Home,18
+05/04/2020,2 Congregate Living,Group Home/Supportive Housing,6
+05/04/2020,2 Congregate Living,Shelter,1
+05/04/2020,3 Education,Child care,2
+05/04/2020,4 Workplace,Workplace - Farm,4
+05/04/2020,4 Workplace,Workplace - Food Processing,14
+05/04/2020,4 Workplace,Workplace - Other,2
+05/05/2020,1 Congregate Care,Hospital,29
+05/05/2020,1 Congregate Care,Long-Term Care Home,87
+05/05/2020,1 Congregate Care,Retirement Home,11
+05/05/2020,2 Congregate Living,Congregate other,1
+05/05/2020,2 Congregate Living,Correctional Facility,1
+05/05/2020,2 Congregate Living,Group Home/Supportive Housing,4
+05/05/2020,2 Congregate Living,Shelter,6
+05/05/2020,3 Education,Child care,1
+05/05/2020,4 Workplace,Workplace - Food Processing,7
+05/06/2020,1 Congregate Care,Hospital,13
+05/06/2020,1 Congregate Care,Long-Term Care Home,117
+05/06/2020,1 Congregate Care,Retirement Home,9
+05/06/2020,2 Congregate Living,Group Home/Supportive Housing,2
+05/06/2020,2 Congregate Living,Shelter,6
+05/06/2020,3 Education,Child care,1
+05/06/2020,4 Workplace,Workplace - Farm,1
+05/06/2020,4 Workplace,Workplace - Food Processing,8
+05/06/2020,4 Workplace,Workplace - Other,5
+05/07/2020,1 Congregate Care,Hospital,14
+05/07/2020,1 Congregate Care,Long-Term Care Home,81
+05/07/2020,1 Congregate Care,Retirement Home,25
+05/07/2020,2 Congregate Living,Group Home/Supportive Housing,3
+05/07/2020,2 Congregate Living,Shelter,5
+05/07/2020,4 Workplace,Retail,2
+05/07/2020,4 Workplace,Workplace - Food Processing,2
+05/07/2020,4 Workplace,Workplace - Other,3
+05/08/2020,1 Congregate Care,Hospital,14
+05/08/2020,1 Congregate Care,Long-Term Care Home,64
+05/08/2020,1 Congregate Care,Retirement Home,9
+05/08/2020,2 Congregate Living,Group Home/Supportive Housing,8
+05/08/2020,2 Congregate Living,Shelter,20
+05/08/2020,4 Workplace,Workplace - Food Processing,7
+05/08/2020,4 Workplace,Workplace - Other,5
+05/09/2020,1 Congregate Care,Hospital,14
+05/09/2020,1 Congregate Care,Long-Term Care Home,82
+05/09/2020,1 Congregate Care,Retirement Home,9
+05/09/2020,2 Congregate Living,Correctional Facility,2
+05/09/2020,2 Congregate Living,Group Home/Supportive Housing,10
+05/09/2020,2 Congregate Living,Shelter,4
+05/09/2020,4 Workplace,Workplace - Farm,8
+05/09/2020,4 Workplace,Workplace - Food Processing,10
+05/09/2020,4 Workplace,Workplace - Other,2
+05/10/2020,1 Congregate Care,Hospital,10
+05/10/2020,1 Congregate Care,Long-Term Care Home,122
+05/10/2020,1 Congregate Care,Retirement Home,9
+05/10/2020,2 Congregate Living,Group Home/Supportive Housing,3
+05/10/2020,2 Congregate Living,Shelter,2
+05/10/2020,4 Workplace,Retail,1
+05/10/2020,4 Workplace,Workplace - Farm,7
+05/10/2020,4 Workplace,Workplace - Food Processing,1
+05/10/2020,4 Workplace,Workplace - Other,2
+05/11/2020,1 Congregate Care,Hospital,5
+05/11/2020,1 Congregate Care,Long-Term Care Home,65
+05/11/2020,1 Congregate Care,Retirement Home,11
+05/11/2020,2 Congregate Living,Correctional Facility,1
+05/11/2020,2 Congregate Living,Group Home/Supportive Housing,2
+05/11/2020,2 Congregate Living,Shelter,2
+05/11/2020,4 Workplace,Workplace - Other,1
+05/12/2020,1 Congregate Care,Hospital,9
+05/12/2020,1 Congregate Care,Long-Term Care Home,82
+05/12/2020,1 Congregate Care,Retirement Home,10
+05/12/2020,2 Congregate Living,Group Home/Supportive Housing,9
+05/12/2020,2 Congregate Living,Shelter,2
+05/12/2020,4 Workplace,Retail,1
+05/12/2020,4 Workplace,Workplace - Farm,3
+05/12/2020,4 Workplace,Workplace - Food Processing,6
+05/12/2020,4 Workplace,Workplace - Other,1
+05/12/2020,5 Recreational,Bar/restaurant/nightclub,1
+05/13/2020,1 Congregate Care,Hospital,7
+05/13/2020,1 Congregate Care,Long-Term Care Home,106
+05/13/2020,1 Congregate Care,Retirement Home,15
+05/13/2020,2 Congregate Living,Correctional Facility,2
+05/13/2020,2 Congregate Living,Group Home/Supportive Housing,10
+05/13/2020,2 Congregate Living,Shelter,1
+05/13/2020,3 Education,Child care,1
+05/13/2020,4 Workplace,Retail,1
+05/13/2020,4 Workplace,Workplace - Farm,18
+05/13/2020,4 Workplace,Workplace - Food Processing,2
+05/13/2020,4 Workplace,Workplace - Other,5
+05/14/2020,1 Congregate Care,Hospital,6
+05/14/2020,1 Congregate Care,Long-Term Care Home,122
+05/14/2020,1 Congregate Care,Retirement Home,20
+05/14/2020,2 Congregate Living,Correctional Facility,4
+05/14/2020,2 Congregate Living,Group Home/Supportive Housing,4
+05/14/2020,2 Congregate Living,Shelter,4
+05/14/2020,3 Education,Child care,1
+05/14/2020,4 Workplace,Retail,1
+05/14/2020,4 Workplace,Workplace - Farm,1
+05/14/2020,4 Workplace,Workplace - Food Processing,4
+05/14/2020,4 Workplace,Workplace - Other,4
+05/14/2020,5 Recreational,Bar/restaurant/nightclub,1
+05/15/2020,1 Congregate Care,Hospital,10
+05/15/2020,1 Congregate Care,Long-Term Care Home,99
+05/15/2020,1 Congregate Care,Retirement Home,62
+05/15/2020,2 Congregate Living,Group Home/Supportive Housing,2
+05/15/2020,2 Congregate Living,Shelter,11
+05/15/2020,3 Education,Child care,1
+05/15/2020,4 Workplace,Workplace - Farm,14
+05/15/2020,4 Workplace,Workplace - Food Processing,6
+05/15/2020,4 Workplace,Workplace - Other,4
+05/16/2020,1 Congregate Care,Hospital,11
+05/16/2020,1 Congregate Care,Long-Term Care Home,147
+05/16/2020,1 Congregate Care,Retirement Home,26
+05/16/2020,2 Congregate Living,Group Home/Supportive Housing,8
+05/16/2020,2 Congregate Living,Shelter,2
+05/16/2020,4 Workplace,Medical/Health Service,1
+05/16/2020,4 Workplace,Workplace - Farm,15
+05/16/2020,4 Workplace,Workplace - Food Processing,13
+05/16/2020,4 Workplace,Workplace - Other,4
+05/17/2020,1 Congregate Care,Hospital,1
+05/17/2020,1 Congregate Care,Long-Term Care Home,113
+05/17/2020,1 Congregate Care,Retirement Home,9
+05/17/2020,2 Congregate Living,Group Home/Supportive Housing,6
+05/17/2020,3 Education,Child care,1
+05/17/2020,4 Workplace,Retail,3
+05/17/2020,4 Workplace,Workplace - Farm,4
+05/17/2020,4 Workplace,Workplace - Food Processing,17
+05/17/2020,4 Workplace,Workplace - Other,9
+05/18/2020,1 Congregate Care,Hospital,5
+05/18/2020,1 Congregate Care,Long-Term Care Home,101
+05/18/2020,1 Congregate Care,Retirement Home,19
+05/18/2020,2 Congregate Living,Group Home/Supportive Housing,2
+05/18/2020,2 Congregate Living,Shelter,5
+05/18/2020,4 Workplace,Medical/Health Service,1
+05/18/2020,4 Workplace,Retail,1
+05/18/2020,4 Workplace,Workplace - Farm,3
+05/18/2020,4 Workplace,Workplace - Food Processing,12
+05/18/2020,4 Workplace,Workplace - Other,3
+05/19/2020,1 Congregate Care,Hospital,6
+05/19/2020,1 Congregate Care,Long-Term Care Home,73
+05/19/2020,1 Congregate Care,Retirement Home,4
+05/19/2020,2 Congregate Living,Group Home/Supportive Housing,34
+05/19/2020,2 Congregate Living,Shelter,3
+05/19/2020,4 Workplace,Medical/Health Service,1
+05/19/2020,4 Workplace,Retail,1
+05/19/2020,4 Workplace,Workplace - Farm,6
+05/19/2020,4 Workplace,Workplace - Food Processing,2
+05/19/2020,4 Workplace,Workplace - Other,7
+05/20/2020,1 Congregate Care,Hospital,5
+05/20/2020,1 Congregate Care,Long-Term Care Home,65
+05/20/2020,1 Congregate Care,Retirement Home,4
+05/20/2020,2 Congregate Living,Group Home/Supportive Housing,13
+05/20/2020,2 Congregate Living,Shelter,2
+05/20/2020,4 Workplace,Retail,4
+05/20/2020,4 Workplace,Workplace - Farm,18
+05/20/2020,4 Workplace,Workplace - Food Processing,6
+05/20/2020,4 Workplace,Workplace - Other,8
+05/21/2020,1 Congregate Care,Hospital,3
+05/21/2020,1 Congregate Care,Long-Term Care Home,61
+05/21/2020,1 Congregate Care,Retirement Home,6
+05/21/2020,2 Congregate Living,Shelter,13
+05/21/2020,4 Workplace,Workplace - Farm,11
+05/21/2020,4 Workplace,Workplace - Food Processing,8
+05/21/2020,4 Workplace,Workplace - Other,12
+05/22/2020,1 Congregate Care,Hospital,7
+05/22/2020,1 Congregate Care,Long-Term Care Home,72
+05/22/2020,1 Congregate Care,Retirement Home,17
+05/22/2020,2 Congregate Living,Group Home/Supportive Housing,2
+05/22/2020,2 Congregate Living,Shelter,11
+05/22/2020,4 Workplace,Retail,2
+05/22/2020,4 Workplace,Workplace - Farm,7
+05/22/2020,4 Workplace,Workplace - Food Processing,13
+05/22/2020,4 Workplace,Workplace - Other,16
+05/23/2020,1 Congregate Care,Hospital,9
+05/23/2020,1 Congregate Care,Long-Term Care Home,54
+05/23/2020,1 Congregate Care,Retirement Home,8
+05/23/2020,2 Congregate Living,Group Home/Supportive Housing,1
+05/23/2020,2 Congregate Living,Shelter,4
+05/23/2020,4 Workplace,Retail,1
+05/23/2020,4 Workplace,Workplace - Farm,2
+05/23/2020,4 Workplace,Workplace - Food Processing,18
+05/23/2020,4 Workplace,Workplace - Other,14
+05/23/2020,5 Recreational,Other recreation,1
+05/24/2020,1 Congregate Care,Hospital,6
+05/24/2020,1 Congregate Care,Long-Term Care Home,31
+05/24/2020,1 Congregate Care,Retirement Home,6
+05/24/2020,2 Congregate Living,Group Home/Supportive Housing,1
+05/24/2020,2 Congregate Living,Shelter,4
+05/24/2020,4 Workplace,Medical/Health Service,1
+05/24/2020,4 Workplace,Workplace - Farm,33
+05/24/2020,4 Workplace,Workplace - Food Processing,4
+05/24/2020,4 Workplace,Workplace - Other,8
+05/24/2020,5 Recreational,Other recreation,1
+05/25/2020,1 Congregate Care,Hospital,9
+05/25/2020,1 Congregate Care,Long-Term Care Home,38
+05/25/2020,1 Congregate Care,Retirement Home,6
+05/25/2020,2 Congregate Living,Group Home/Supportive Housing,2
+05/25/2020,2 Congregate Living,Shelter,5
+05/25/2020,4 Workplace,Retail,1
+05/25/2020,4 Workplace,Workplace - Farm,3
+05/25/2020,4 Workplace,Workplace - Food Processing,9
+05/25/2020,4 Workplace,Workplace - Other,6
+05/26/2020,1 Congregate Care,Hospital,6
+05/26/2020,1 Congregate Care,Long-Term Care Home,45
+05/26/2020,1 Congregate Care,Retirement Home,18
+05/26/2020,2 Congregate Living,Group Home/Supportive Housing,3
+05/26/2020,2 Congregate Living,Shelter,11
+05/26/2020,4 Workplace,Workplace - Food Processing,5
+05/26/2020,4 Workplace,Workplace - Other,13
+05/27/2020,1 Congregate Care,Hospital,5
+05/27/2020,1 Congregate Care,Long-Term Care Home,46
+05/27/2020,1 Congregate Care,Retirement Home,9
+05/27/2020,2 Congregate Living,Group Home/Supportive Housing,1
+05/27/2020,2 Congregate Living,Shelter,6
+05/27/2020,4 Workplace,Retail,3
+05/27/2020,4 Workplace,Workplace - Farm,7
+05/27/2020,4 Workplace,Workplace - Food Processing,6
+05/27/2020,4 Workplace,Workplace - Other,13
+05/28/2020,1 Congregate Care,Hospital,5
+05/28/2020,1 Congregate Care,Long-Term Care Home,44
+05/28/2020,1 Congregate Care,Retirement Home,6
+05/28/2020,2 Congregate Living,Group Home/Supportive Housing,4
+05/28/2020,2 Congregate Living,Shelter,3
+05/28/2020,4 Workplace,Workplace - Farm,22
+05/28/2020,4 Workplace,Workplace - Food Processing,15
+05/28/2020,4 Workplace,Workplace - Other,13
+05/28/2020,5 Recreational,Other recreation,1
+05/29/2020,1 Congregate Care,Hospital,7
+05/29/2020,1 Congregate Care,Long-Term Care Home,43
+05/29/2020,1 Congregate Care,Retirement Home,7
+05/29/2020,2 Congregate Living,Group Home/Supportive Housing,6
+05/29/2020,2 Congregate Living,Shelter,5
+05/29/2020,3 Education,Child care,1
+05/29/2020,4 Workplace,Medical/Health Service,1
+05/29/2020,4 Workplace,Retail,1
+05/29/2020,4 Workplace,Workplace - Farm,17
+05/29/2020,4 Workplace,Workplace - Food Processing,17
+05/29/2020,4 Workplace,Workplace - Other,14
+05/29/2020,5 Recreational,Other recreation,1
+05/30/2020,1 Congregate Care,Hospital,3
+05/30/2020,1 Congregate Care,Long-Term Care Home,30
+05/30/2020,1 Congregate Care,Retirement Home,9
+05/30/2020,2 Congregate Living,Shelter,5
+05/30/2020,4 Workplace,Medical/Health Service,1
+05/30/2020,4 Workplace,Workplace - Farm,14
+05/30/2020,4 Workplace,Workplace - Food Processing,15
+05/30/2020,4 Workplace,Workplace - Other,10
+05/31/2020,1 Congregate Care,Hospital,3
+05/31/2020,1 Congregate Care,Long-Term Care Home,44
+05/31/2020,2 Congregate Living,Group Home/Supportive Housing,3
+05/31/2020,2 Congregate Living,Shelter,10
+05/31/2020,4 Workplace,Retail,3
+05/31/2020,4 Workplace,Workplace - Farm,104
+05/31/2020,4 Workplace,Workplace - Food Processing,10
+05/31/2020,4 Workplace,Workplace - Other,15
+06/01/2020,1 Congregate Care,Hospital,3
+06/01/2020,1 Congregate Care,Long-Term Care Home,25
+06/01/2020,1 Congregate Care,Retirement Home,2
+06/01/2020,2 Congregate Living,Group Home/Supportive Housing,2
+06/01/2020,2 Congregate Living,Shelter,12
+06/01/2020,4 Workplace,Retail,1
+06/01/2020,4 Workplace,Workplace - Farm,100
+06/01/2020,4 Workplace,Workplace - Food Processing,5
+06/01/2020,4 Workplace,Workplace - Other,11
+06/01/2020,5 Recreational,Other recreation,1
+06/02/2020,1 Congregate Care,Hospital,3
+06/02/2020,1 Congregate Care,Long-Term Care Home,37
+06/02/2020,1 Congregate Care,Retirement Home,2
+06/02/2020,2 Congregate Living,Group Home/Supportive Housing,4
+06/02/2020,2 Congregate Living,Shelter,11
+06/02/2020,4 Workplace,Workplace - Farm,40
+06/02/2020,4 Workplace,Workplace - Food Processing,5
+06/02/2020,4 Workplace,Workplace - Other,9
+06/03/2020,1 Congregate Care,Hospital,2
+06/03/2020,1 Congregate Care,Long-Term Care Home,41
+06/03/2020,1 Congregate Care,Retirement Home,4
+06/03/2020,2 Congregate Living,Group Home/Supportive Housing,2
+06/03/2020,2 Congregate Living,Shelter,4
+06/03/2020,4 Workplace,Medical/Health Service,1
+06/03/2020,4 Workplace,Workplace - Farm,10
+06/03/2020,4 Workplace,Workplace - Food Processing,6
+06/03/2020,4 Workplace,Workplace - Other,10
+06/04/2020,1 Congregate Care,Hospital,12
+06/04/2020,1 Congregate Care,Long-Term Care Home,29
+06/04/2020,1 Congregate Care,Retirement Home,6
+06/04/2020,2 Congregate Living,Group Home/Supportive Housing,3
+06/04/2020,2 Congregate Living,Shelter,16
+06/04/2020,4 Workplace,Retail,1
+06/04/2020,4 Workplace,Workplace - Farm,1
+06/04/2020,4 Workplace,Workplace - Food Processing,3
+06/04/2020,4 Workplace,Workplace - Other,11
+06/04/2020,5 Recreational,Bar/restaurant/nightclub,1
+06/05/2020,1 Congregate Care,Hospital,1
+06/05/2020,1 Congregate Care,Long-Term Care Home,30
+06/05/2020,1 Congregate Care,Retirement Home,2
+06/05/2020,2 Congregate Living,Group Home/Supportive Housing,1
+06/05/2020,2 Congregate Living,Shelter,9
+06/05/2020,4 Workplace,Retail,1
+06/05/2020,4 Workplace,Workplace - Farm,15
+06/05/2020,4 Workplace,Workplace - Food Processing,3
+06/05/2020,4 Workplace,Workplace - Other,7
+06/06/2020,1 Congregate Care,Hospital,3
+06/06/2020,1 Congregate Care,Long-Term Care Home,21
+06/06/2020,1 Congregate Care,Retirement Home,2
+06/06/2020,2 Congregate Living,Correctional Facility,2
+06/06/2020,2 Congregate Living,Group Home/Supportive Housing,2
+06/06/2020,2 Congregate Living,Shelter,3
+06/06/2020,4 Workplace,Workplace - Farm,3
+06/06/2020,4 Workplace,Workplace - Food Processing,4
+06/06/2020,4 Workplace,Workplace - Other,7
+06/07/2020,1 Congregate Care,Hospital,1
+06/07/2020,1 Congregate Care,Long-Term Care Home,30
+06/07/2020,2 Congregate Living,Shelter,4
+06/07/2020,4 Workplace,Workplace - Farm,7
+06/07/2020,4 Workplace,Workplace - Food Processing,3
+06/07/2020,4 Workplace,Workplace - Other,8
+06/08/2020,1 Congregate Care,Long-Term Care Home,13
+06/08/2020,1 Congregate Care,Retirement Home,4
+06/08/2020,2 Congregate Living,Shelter,9
+06/08/2020,4 Workplace,Retail,2
+06/08/2020,4 Workplace,Workplace - Farm,38
+06/08/2020,4 Workplace,Workplace - Food Processing,1
+06/08/2020,4 Workplace,Workplace - Other,6
+06/08/2020,5 Recreational,Bar/restaurant/nightclub,1
+06/09/2020,1 Congregate Care,Hospital,3
+06/09/2020,1 Congregate Care,Long-Term Care Home,28
+06/09/2020,1 Congregate Care,Retirement Home,2
+06/09/2020,4 Workplace,Medical/Health Service,1
+06/09/2020,4 Workplace,Retail,1
+06/09/2020,4 Workplace,Workplace - Farm,38
+06/09/2020,4 Workplace,Workplace - Food Processing,2
+06/09/2020,4 Workplace,Workplace - Other,9
+06/09/2020,5 Recreational,Other recreation,1
+06/10/2020,1 Congregate Care,Long-Term Care Home,24
+06/10/2020,2 Congregate Living,Group Home/Supportive Housing,1
+06/10/2020,2 Congregate Living,Shelter,3
+06/10/2020,4 Workplace,Retail,2
+06/10/2020,4 Workplace,Workplace - Farm,13
+06/10/2020,4 Workplace,Workplace - Food Processing,1
+06/10/2020,4 Workplace,Workplace - Other,9
+06/10/2020,5 Recreational,Bar/restaurant/nightclub,1
+06/11/2020,1 Congregate Care,Hospital,3
+06/11/2020,1 Congregate Care,Long-Term Care Home,15
+06/11/2020,4 Workplace,Medical/Health Service,2
+06/11/2020,4 Workplace,Retail,1
+06/11/2020,4 Workplace,Workplace - Farm,9
+06/11/2020,4 Workplace,Workplace - Other,1
+06/11/2020,5 Recreational,Bar/restaurant/nightclub,3
+06/12/2020,1 Congregate Care,Long-Term Care Home,11
+06/12/2020,2 Congregate Living,Shelter,7
+06/12/2020,4 Workplace,Retail,3
+06/12/2020,4 Workplace,Workplace - Farm,41
+06/12/2020,4 Workplace,Workplace - Food Processing,3
+06/12/2020,4 Workplace,Workplace - Other,5
+06/12/2020,5 Recreational,Bar/restaurant/nightclub,1
+06/13/2020,1 Congregate Care,Hospital,1
+06/13/2020,1 Congregate Care,Long-Term Care Home,23
+06/13/2020,1 Congregate Care,Retirement Home,2
+06/13/2020,2 Congregate Living,Group Home/Supportive Housing,1
+06/13/2020,2 Congregate Living,Shelter,5
+06/13/2020,4 Workplace,Retail,1
+06/13/2020,4 Workplace,Workplace - Farm,9
+06/13/2020,4 Workplace,Workplace - Food Processing,2
+06/13/2020,4 Workplace,Workplace - Other,6
+06/14/2020,1 Congregate Care,Long-Term Care Home,14
+06/14/2020,1 Congregate Care,Retirement Home,1
+06/14/2020,4 Workplace,Workplace - Farm,9
+06/14/2020,4 Workplace,Workplace - Food Processing,3
+06/14/2020,4 Workplace,Workplace - Other,2
+06/15/2020,1 Congregate Care,Long-Term Care Home,13
+06/15/2020,1 Congregate Care,Retirement Home,2
+06/15/2020,2 Congregate Living,Shelter,1
+06/15/2020,3 Education,Child care,1
+06/15/2020,4 Workplace,Workplace - Farm,15
+06/15/2020,4 Workplace,Workplace - Food Processing,1
+06/15/2020,4 Workplace,Workplace - Other,3
+06/15/2020,5 Recreational,Bar/restaurant/nightclub,1
+06/16/2020,1 Congregate Care,Hospital,2
+06/16/2020,1 Congregate Care,Long-Term Care Home,18
+06/16/2020,2 Congregate Living,Congregate other,1
+06/16/2020,2 Congregate Living,Group Home/Supportive Housing,2
+06/16/2020,4 Workplace,Workplace - Farm,7
+06/16/2020,4 Workplace,Workplace - Food Processing,1
+06/16/2020,4 Workplace,Workplace - Other,3
+06/17/2020,1 Congregate Care,Hospital,2
+06/17/2020,1 Congregate Care,Long-Term Care Home,35
+06/17/2020,2 Congregate Living,Congregate other,1
+06/17/2020,2 Congregate Living,Group Home/Supportive Housing,1
+06/17/2020,4 Workplace,Medical/Health Service,1
+06/17/2020,4 Workplace,Workplace - Farm,8
+06/17/2020,4 Workplace,Workplace - Food Processing,1
+06/17/2020,4 Workplace,Workplace - Other,6
+06/18/2020,1 Congregate Care,Hospital,2
+06/18/2020,1 Congregate Care,Long-Term Care Home,22
+06/18/2020,1 Congregate Care,Retirement Home,1
+06/18/2020,4 Workplace,Retail,2
+06/18/2020,4 Workplace,Workplace - Farm,17
+06/18/2020,4 Workplace,Workplace - Food Processing,12
+06/18/2020,4 Workplace,Workplace - Other,4
+06/19/2020,1 Congregate Care,Hospital,1
+06/19/2020,1 Congregate Care,Long-Term Care Home,15
+06/19/2020,1 Congregate Care,Retirement Home,1
+06/19/2020,2 Congregate Living,Group Home/Supportive Housing,3
+06/19/2020,2 Congregate Living,Shelter,2
+06/19/2020,4 Workplace,Retail,1
+06/19/2020,4 Workplace,Workplace - Farm,33
+06/19/2020,4 Workplace,Workplace - Food Processing,2
+06/19/2020,4 Workplace,Workplace - Other,1
+06/20/2020,1 Congregate Care,Hospital,1
+06/20/2020,1 Congregate Care,Long-Term Care Home,23
+06/20/2020,4 Workplace,Workplace - Farm,3
+06/20/2020,4 Workplace,Workplace - Food Processing,1
+06/20/2020,4 Workplace,Workplace - Other,5
+06/20/2020,5 Recreational,Personal service settings,1
+06/21/2020,1 Congregate Care,Hospital,7
+06/21/2020,1 Congregate Care,Long-Term Care Home,20
+06/21/2020,1 Congregate Care,Retirement Home,1
+06/21/2020,4 Workplace,Workplace - Farm,30
+06/21/2020,4 Workplace,Workplace - Food Processing,1
+06/21/2020,4 Workplace,Workplace - Other,5
+06/22/2020,1 Congregate Care,Long-Term Care Home,17
+06/22/2020,2 Congregate Living,Group Home/Supportive Housing,1
+06/22/2020,4 Workplace,Workplace - Farm,30
+06/22/2020,4 Workplace,Workplace - Food Processing,2
+06/22/2020,4 Workplace,Workplace - Other,4
+06/22/2020,5 Recreational,Other recreation,1
+06/23/2020,1 Congregate Care,Hospital,2
+06/23/2020,1 Congregate Care,Long-Term Care Home,7
+06/23/2020,4 Workplace,Workplace - Farm,2
+06/23/2020,4 Workplace,Workplace - Food Processing,7
+06/23/2020,4 Workplace,Workplace - Other,1
+06/23/2020,5 Recreational,Bar/restaurant/nightclub,1
+06/23/2020,5 Recreational,Personal service settings,1
+06/24/2020,1 Congregate Care,Hospital,2
+06/24/2020,1 Congregate Care,Long-Term Care Home,20
+06/24/2020,4 Workplace,Workplace - Farm,1
+06/24/2020,4 Workplace,Workplace - Other,3
+06/24/2020,5 Recreational,Personal service settings,1
+06/25/2020,1 Congregate Care,Hospital,2
+06/25/2020,1 Congregate Care,Long-Term Care Home,11
+06/25/2020,4 Workplace,Workplace - Farm,2
+06/25/2020,4 Workplace,Workplace - Other,4
+06/25/2020,5 Recreational,Personal service settings,5
+06/26/2020,1 Congregate Care,Hospital,1
+06/26/2020,1 Congregate Care,Long-Term Care Home,16
+06/26/2020,2 Congregate Living,Group Home/Supportive Housing,1
+06/26/2020,2 Congregate Living,Shelter,1
+06/26/2020,4 Workplace,Medical/Health Service,1
+06/26/2020,4 Workplace,Workplace - Farm,12
+06/26/2020,4 Workplace,Workplace - Food Processing,2
+06/26/2020,4 Workplace,Workplace - Other,4
+06/27/2020,1 Congregate Care,Hospital,2
+06/27/2020,1 Congregate Care,Long-Term Care Home,8
+06/27/2020,4 Workplace,Workplace - Farm,95
+06/27/2020,4 Workplace,Workplace - Food Processing,4
+06/27/2020,4 Workplace,Workplace - Other,2
+06/27/2020,5 Recreational,Personal service settings,4
+06/28/2020,1 Congregate Care,Hospital,1
+06/28/2020,1 Congregate Care,Long-Term Care Home,9
+06/28/2020,4 Workplace,Workplace - Farm,87
+06/28/2020,4 Workplace,Workplace - Other,4
+06/28/2020,5 Recreational,Personal service settings,1
+06/29/2020,1 Congregate Care,Hospital,1
+06/29/2020,1 Congregate Care,Long-Term Care Home,3
+06/29/2020,1 Congregate Care,Retirement Home,3
+06/29/2020,2 Congregate Living,Shelter,1
+06/29/2020,4 Workplace,Workplace - Farm,3
+06/29/2020,5 Recreational,Personal service settings,2
+06/30/2020,1 Congregate Care,Hospital,2
+06/30/2020,1 Congregate Care,Long-Term Care Home,10
+06/30/2020,4 Workplace,Workplace - Farm,7
+06/30/2020,4 Workplace,Workplace - Other,4
+07/01/2020,1 Congregate Care,Hospital,1
+07/01/2020,1 Congregate Care,Long-Term Care Home,23
+07/01/2020,2 Congregate Living,Group Home/Supportive Housing,1
+07/01/2020,2 Congregate Living,Shelter,1
+07/01/2020,4 Workplace,Retail,1
+07/01/2020,4 Workplace,Workplace - Farm,2
+07/01/2020,4 Workplace,Workplace - Food Processing,1
+07/01/2020,5 Recreational,Personal service settings,1
+07/02/2020,1 Congregate Care,Hospital,1
+07/02/2020,1 Congregate Care,Long-Term Care Home,11
+07/02/2020,1 Congregate Care,Retirement Home,1
+07/02/2020,2 Congregate Living,Group Home/Supportive Housing,1
+07/02/2020,4 Workplace,Workplace - Farm,18
+07/02/2020,4 Workplace,Workplace - Food Processing,1
+07/02/2020,4 Workplace,Workplace - Other,3
+07/03/2020,1 Congregate Care,Hospital,1
+07/03/2020,1 Congregate Care,Long-Term Care Home,2
+07/03/2020,1 Congregate Care,Retirement Home,1
+07/03/2020,4 Workplace,Medical/Health Service,1
+07/03/2020,4 Workplace,Workplace - Farm,11
+07/03/2020,4 Workplace,Workplace - Other,1
+07/04/2020,1 Congregate Care,Long-Term Care Home,6
+07/04/2020,1 Congregate Care,Retirement Home,1
+07/04/2020,4 Workplace,Workplace - Farm,5
+07/04/2020,4 Workplace,Workplace - Other,1
+07/05/2020,1 Congregate Care,Hospital,2
+07/05/2020,1 Congregate Care,Retirement Home,1
+07/05/2020,2 Congregate Living,Shelter,1
+07/05/2020,4 Workplace,Medical/Health Service,1
+07/05/2020,4 Workplace,Workplace - Other,1
+07/06/2020,1 Congregate Care,Long-Term Care Home,2
+07/06/2020,1 Congregate Care,Retirement Home,1
+07/06/2020,4 Workplace,Medical/Health Service,2
+07/06/2020,4 Workplace,Workplace - Food Processing,1
+07/06/2020,4 Workplace,Workplace - Other,6
+07/07/2020,1 Congregate Care,Long-Term Care Home,21
+07/07/2020,4 Workplace,Workplace - Farm,20
+07/07/2020,4 Workplace,Workplace - Other,3
+07/08/2020,1 Congregate Care,Hospital,3
+07/08/2020,1 Congregate Care,Long-Term Care Home,4
+07/08/2020,2 Congregate Living,Group Home/Supportive Housing,1
+07/08/2020,4 Workplace,Medical/Health Service,1
+07/08/2020,4 Workplace,Workplace - Farm,31
+07/08/2020,4 Workplace,Workplace - Other,6
+07/08/2020,5 Recreational,Bar/restaurant/nightclub,1
+07/09/2020,1 Congregate Care,Hospital,1
+07/09/2020,1 Congregate Care,Long-Term Care Home,9
+07/09/2020,1 Congregate Care,Retirement Home,2
+07/09/2020,2 Congregate Living,Shelter,1
+07/09/2020,4 Workplace,Medical/Health Service,1
+07/09/2020,4 Workplace,Workplace - Farm,2
+07/09/2020,4 Workplace,Workplace - Food Processing,1
+07/09/2020,4 Workplace,Workplace - Other,8
+07/10/2020,1 Congregate Care,Long-Term Care Home,4
+07/10/2020,1 Congregate Care,Retirement Home,1
+07/10/2020,4 Workplace,Retail,1
+07/10/2020,4 Workplace,Workplace - Farm,2
+07/10/2020,4 Workplace,Workplace - Food Processing,1
+07/10/2020,4 Workplace,Workplace - Other,3
+07/11/2020,1 Congregate Care,Hospital,3
+07/11/2020,1 Congregate Care,Long-Term Care Home,8
+07/11/2020,1 Congregate Care,Retirement Home,1
+07/11/2020,2 Congregate Living,Short-term accommodations,1
+07/11/2020,4 Workplace,Workplace - Farm,6
+07/11/2020,4 Workplace,Workplace - Other,3
+07/11/2020,5 Recreational,Bar/restaurant/nightclub,2
+07/12/2020,1 Congregate Care,Long-Term Care Home,2
+07/12/2020,1 Congregate Care,Retirement Home,1
+07/12/2020,4 Workplace,Retail,1
+07/12/2020,4 Workplace,Workplace - Farm,9
+07/12/2020,4 Workplace,Workplace - Other,3
+07/12/2020,5 Recreational,Bar/restaurant/nightclub,1
+07/13/2020,1 Congregate Care,Hospital,1
+07/13/2020,1 Congregate Care,Long-Term Care Home,6
+07/13/2020,4 Workplace,Retail,2
+07/13/2020,4 Workplace,Workplace - Farm,5
+07/13/2020,4 Workplace,Workplace - Other,2
+07/13/2020,6 Other/Unknown,Unknown,1
+07/14/2020,1 Congregate Care,Hospital,1
+07/14/2020,1 Congregate Care,Long-Term Care Home,3
+07/14/2020,2 Congregate Living,Group Home/Supportive Housing,1
+07/14/2020,2 Congregate Living,Shelter,1
+07/14/2020,4 Workplace,Retail,2
+07/14/2020,4 Workplace,Workplace - Farm,4
+07/14/2020,4 Workplace,Workplace - Food Processing,1
+07/14/2020,4 Workplace,Workplace - Other,6
+07/15/2020,1 Congregate Care,Hospital,3
+07/15/2020,1 Congregate Care,Long-Term Care Home,1
+07/15/2020,2 Congregate Living,Shelter,1
+07/15/2020,4 Workplace,Retail,4
+07/15/2020,4 Workplace,Workplace - Farm,10
+07/15/2020,4 Workplace,Workplace - Other,5
+07/16/2020,1 Congregate Care,Hospital,2
+07/16/2020,1 Congregate Care,Long-Term Care Home,4
+07/16/2020,1 Congregate Care,Retirement Home,8
+07/16/2020,4 Workplace,Workplace - Farm,6
+07/16/2020,4 Workplace,Workplace - Other,5
+07/17/2020,1 Congregate Care,Hospital,1
+07/17/2020,1 Congregate Care,Long-Term Care Home,7
+07/17/2020,1 Congregate Care,Retirement Home,2
+07/17/2020,4 Workplace,Workplace - Farm,13
+07/17/2020,4 Workplace,Workplace - Other,4
+07/17/2020,6 Other/Unknown,Unknown,3
+07/18/2020,1 Congregate Care,Hospital,2
+07/18/2020,2 Congregate Living,Group Home/Supportive Housing,1
+07/18/2020,4 Workplace,Retail,1
+07/18/2020,4 Workplace,Workplace - Farm,9
+07/18/2020,4 Workplace,Workplace - Other,19
+07/18/2020,6 Other/Unknown,Unknown,1
+07/19/2020,1 Congregate Care,Long-Term Care Home,3
+07/19/2020,1 Congregate Care,Retirement Home,1
+07/19/2020,4 Workplace,Workplace - Farm,3
+07/19/2020,4 Workplace,Workplace - Other,7
+07/20/2020,1 Congregate Care,Long-Term Care Home,4
+07/20/2020,1 Congregate Care,Retirement Home,2
+07/20/2020,2 Congregate Living,Group Home/Supportive Housing,1
+07/20/2020,3 Education,Child care,5
+07/20/2020,4 Workplace,Workplace - Farm,10
+07/20/2020,4 Workplace,Workplace - Other,6
+07/20/2020,6 Other/Unknown,Unknown,2
+07/21/2020,3 Education,Child care,1
+07/21/2020,4 Workplace,Workplace - Farm,5
+07/21/2020,4 Workplace,Workplace - Other,7
+07/21/2020,5 Recreational,Other recreation,1
+07/22/2020,1 Congregate Care,Long-Term Care Home,1
+07/22/2020,1 Congregate Care,Retirement Home,2
+07/22/2020,4 Workplace,Workplace - Farm,7
+07/22/2020,4 Workplace,Workplace - Other,4
+07/22/2020,6 Other/Unknown,Unknown,1
+07/23/2020,1 Congregate Care,Hospital,1
+07/23/2020,1 Congregate Care,Long-Term Care Home,4
+07/23/2020,1 Congregate Care,Retirement Home,2
+07/23/2020,3 Education,Child care,2
+07/23/2020,4 Workplace,Workplace - Farm,23
+07/23/2020,4 Workplace,Workplace - Other,5
+07/23/2020,5 Recreational,Other recreation,1
+07/23/2020,6 Other/Unknown,Unknown,2
+07/24/2020,1 Congregate Care,Long-Term Care Home,3
+07/24/2020,3 Education,Child care,5
+07/24/2020,4 Workplace,Workplace - Farm,10
+07/24/2020,4 Workplace,Workplace - Other,2
+07/24/2020,5 Recreational,Other recreation,3
+07/24/2020,6 Other/Unknown,Unknown,1
+07/25/2020,1 Congregate Care,Hospital,1
+07/25/2020,1 Congregate Care,Long-Term Care Home,1
+07/25/2020,1 Congregate Care,Retirement Home,2
+07/25/2020,4 Workplace,Workplace - Farm,9
+07/25/2020,4 Workplace,Workplace - Other,2
+07/25/2020,6 Other/Unknown,Unknown,1
+07/26/2020,1 Congregate Care,Long-Term Care Home,2
+07/26/2020,3 Education,Child care,1
+07/26/2020,4 Workplace,Workplace - Farm,21
+07/26/2020,4 Workplace,Workplace - Other,4
+07/26/2020,5 Recreational,Other recreation,1
+07/26/2020,6 Other/Unknown,Unknown,3
+07/27/2020,1 Congregate Care,Hospital,1
+07/27/2020,1 Congregate Care,Long-Term Care Home,2
+07/27/2020,1 Congregate Care,Retirement Home,3
+07/27/2020,2 Congregate Living,Group Home/Supportive Housing,1
+07/27/2020,3 Education,Child care,1
+07/27/2020,4 Workplace,Workplace - Farm,11
+07/27/2020,4 Workplace,Workplace - Other,6
+07/27/2020,6 Other/Unknown,Unknown,4
+07/28/2020,1 Congregate Care,Long-Term Care Home,2
+07/28/2020,3 Education,Child care,1
+07/28/2020,4 Workplace,Workplace - Farm,11
+07/28/2020,4 Workplace,Workplace - Other,7
+07/29/2020,1 Congregate Care,Long-Term Care Home,2
+07/29/2020,4 Workplace,Workplace - Farm,2
+07/29/2020,4 Workplace,Workplace - Food Processing,3
+07/29/2020,4 Workplace,Workplace - Other,2
+07/29/2020,5 Recreational,Other recreation,1
+07/30/2020,1 Congregate Care,Long-Term Care Home,2
+07/30/2020,4 Workplace,Workplace - Farm,7
+07/30/2020,4 Workplace,Workplace - Food Processing,1
+07/30/2020,4 Workplace,Workplace - Other,3
+07/30/2020,5 Recreational,Other recreation,2
+07/30/2020,6 Other/Unknown,Unknown,2
+07/31/2020,1 Congregate Care,Hospital,1
+07/31/2020,1 Congregate Care,Retirement Home,1
+07/31/2020,2 Congregate Living,Shelter,1
+07/31/2020,4 Workplace,Workplace - Food Processing,1
+07/31/2020,4 Workplace,Workplace - Other,5
+08/01/2020,1 Congregate Care,Long-Term Care Home,1
+08/01/2020,2 Congregate Living,Group Home/Supportive Housing,1
+08/01/2020,2 Congregate Living,Shelter,1
+08/01/2020,3 Education,Child care,1
+08/01/2020,4 Workplace,Workplace - Farm,1
+08/01/2020,4 Workplace,Workplace - Other,1
+08/02/2020,1 Congregate Care,Long-Term Care Home,2
+08/02/2020,4 Workplace,Workplace - Farm,1
+08/02/2020,4 Workplace,Workplace - Food Processing,2
+08/02/2020,5 Recreational,Other recreation,2
+08/03/2020,1 Congregate Care,Long-Term Care Home,2
+08/03/2020,1 Congregate Care,Retirement Home,1
+08/03/2020,2 Congregate Living,Group Home/Supportive Housing,3
+08/03/2020,4 Workplace,Workplace - Farm,5
+08/03/2020,4 Workplace,Workplace - Other,1
+08/04/2020,1 Congregate Care,Long-Term Care Home,1
+08/04/2020,1 Congregate Care,Retirement Home,1
+08/04/2020,2 Congregate Living,Group Home/Supportive Housing,2
+08/04/2020,2 Congregate Living,Shelter,1
+08/04/2020,4 Workplace,Workplace - Farm,1
+08/04/2020,4 Workplace,Workplace - Other,1
+08/04/2020,5 Recreational,Other recreation,4
+08/05/2020,1 Congregate Care,Hospital,1
+08/05/2020,2 Congregate Living,Shelter,1
+08/05/2020,4 Workplace,Workplace - Food Processing,2
+08/05/2020,4 Workplace,Workplace - Other,2
+08/06/2020,1 Congregate Care,Hospital,1
+08/06/2020,1 Congregate Care,Long-Term Care Home,4
+08/06/2020,2 Congregate Living,Correctional Facility,1
+08/06/2020,2 Congregate Living,Shelter,1
+08/06/2020,4 Workplace,Workplace - Farm,2
+08/06/2020,4 Workplace,Workplace - Food Processing,1
+08/06/2020,4 Workplace,Workplace - Other,2
+08/07/2020,1 Congregate Care,Long-Term Care Home,1
+08/07/2020,4 Workplace,Workplace - Other,1
+08/07/2020,6 Other/Unknown,Unknown,1
+08/08/2020,1 Congregate Care,Hospital,1
+08/08/2020,1 Congregate Care,Long-Term Care Home,1
+08/08/2020,4 Workplace,Workplace - Farm,2
+08/08/2020,4 Workplace,Workplace - Other,2
+08/08/2020,5 Recreational,Other recreation,2
+08/09/2020,1 Congregate Care,Retirement Home,1
+08/09/2020,2 Congregate Living,Shelter,2
+08/09/2020,4 Workplace,Workplace - Farm,2
+08/09/2020,4 Workplace,Workplace - Other,2
+08/09/2020,5 Recreational,Other recreation,1
+08/10/2020,1 Congregate Care,Retirement Home,1
+08/10/2020,4 Workplace,Workplace - Other,3
+08/11/2020,2 Congregate Living,Shelter,3
+08/12/2020,1 Congregate Care,Long-Term Care Home,1
+08/12/2020,4 Workplace,Workplace - Farm,2
+08/12/2020,4 Workplace,Workplace - Other,2
+08/13/2020,4 Workplace,Workplace - Other,3
+08/13/2020,5 Recreational,Recreational fitness,1
+08/14/2020,1 Congregate Care,Long-Term Care Home,1
+08/14/2020,4 Workplace,Workplace - Other,4
+08/14/2020,5 Recreational,Bar/restaurant/nightclub,1
+08/15/2020,1 Congregate Care,Long-Term Care Home,2
+08/15/2020,4 Workplace,Workplace - Farm,1
+08/15/2020,4 Workplace,Workplace - Food Processing,1
+08/15/2020,4 Workplace,Workplace - Other,1
+08/16/2020,1 Congregate Care,Long-Term Care Home,1
+08/16/2020,1 Congregate Care,Retirement Home,1
+08/16/2020,4 Workplace,Workplace - Other,1
+08/17/2020,1 Congregate Care,Retirement Home,3
+08/17/2020,2 Congregate Living,Group Home/Supportive Housing,1
+08/17/2020,4 Workplace,Workplace - Farm,1
+08/17/2020,4 Workplace,Workplace - Other,1
+08/17/2020,5 Recreational,Bar/restaurant/nightclub,1
+08/17/2020,5 Recreational,Recreational fitness,1
+08/18/2020,1 Congregate Care,Retirement Home,6
+08/18/2020,3 Education,Child care,3
+08/18/2020,4 Workplace,Medical/Health Service,1
+08/18/2020,4 Workplace,Workplace - Farm,6
+08/18/2020,4 Workplace,Workplace - Food Processing,1
+08/18/2020,4 Workplace,Workplace - Other,2
+08/19/2020,1 Congregate Care,Retirement Home,3
+08/19/2020,4 Workplace,Workplace - Other,5
+08/19/2020,5 Recreational,Other recreation,1
+08/20/2020,1 Congregate Care,Retirement Home,1
+08/20/2020,2 Congregate Living,Group Home/Supportive Housing,1
+08/20/2020,4 Workplace,Workplace - Food Processing,1
+08/20/2020,4 Workplace,Workplace - Other,1
+08/20/2020,5 Recreational,Bar/restaurant/nightclub,2
+08/20/2020,5 Recreational,Other recreation,1
+08/21/2020,1 Congregate Care,Long-Term Care Home,2
+08/21/2020,1 Congregate Care,Retirement Home,3
+08/21/2020,4 Workplace,Workplace - Other,1
+08/21/2020,5 Recreational,Other recreation,1
+08/22/2020,1 Congregate Care,Long-Term Care Home,3
+08/22/2020,1 Congregate Care,Retirement Home,8
+08/22/2020,2 Congregate Living,Shelter,1
+08/22/2020,4 Workplace,Retail,2
+08/22/2020,4 Workplace,Workplace - Farm,1
+08/22/2020,4 Workplace,Workplace - Other,1
+08/22/2020,5 Recreational,Other recreation,1
+08/23/2020,1 Congregate Care,Hospital,2
+08/23/2020,1 Congregate Care,Long-Term Care Home,1
+08/23/2020,1 Congregate Care,Retirement Home,3
+08/23/2020,3 Education,Child care,1
+08/23/2020,4 Workplace,Workplace - Farm,1
+08/23/2020,4 Workplace,Workplace - Food Processing,1
+08/24/2020,1 Congregate Care,Long-Term Care Home,1
+08/24/2020,4 Workplace,Workplace - Other,2
+08/24/2020,5 Recreational,Other recreation,2
+08/25/2020,1 Congregate Care,Long-Term Care Home,1
+08/25/2020,1 Congregate Care,Retirement Home,2
+08/25/2020,2 Congregate Living,Shelter,2
+08/25/2020,4 Workplace,Workplace - Farm,1
+08/25/2020,4 Workplace,Workplace - Other,1
+08/25/2020,5 Recreational,Other recreation,2
+08/26/2020,1 Congregate Care,Long-Term Care Home,3
+08/26/2020,1 Congregate Care,Retirement Home,1
+08/26/2020,2 Congregate Living,Shelter,2
+08/26/2020,4 Workplace,Retail,1
+08/26/2020,4 Workplace,Workplace - Other,3
+08/26/2020,5 Recreational,Other recreation,2
+08/27/2020,1 Congregate Care,Long-Term Care Home,5
+08/27/2020,1 Congregate Care,Retirement Home,3
+08/27/2020,2 Congregate Living,Shelter,1
+08/27/2020,4 Workplace,Workplace - Other,1
+08/27/2020,5 Recreational,Other recreation,1
+08/27/2020,5 Recreational,Recreational fitness,1
+08/28/2020,1 Congregate Care,Long-Term Care Home,1
+08/28/2020,1 Congregate Care,Retirement Home,2
+08/28/2020,3 Education,Child care,2
+08/28/2020,4 Workplace,Workplace - Other,3
+08/29/2020,1 Congregate Care,Long-Term Care Home,4
+08/29/2020,1 Congregate Care,Retirement Home,2
+08/29/2020,3 Education,Child care,3
+08/30/2020,1 Congregate Care,Long-Term Care Home,2
+08/30/2020,1 Congregate Care,Retirement Home,3
+08/30/2020,2 Congregate Living,Group Home/Supportive Housing,2
+08/30/2020,3 Education,Child care,1
+08/31/2020,1 Congregate Care,Long-Term Care Home,2
+08/31/2020,1 Congregate Care,Retirement Home,3
+08/31/2020,2 Congregate Living,Group Home/Supportive Housing,1
+08/31/2020,3 Education,Child care,2
+08/31/2020,4 Workplace,Workplace - Food Processing,1
+08/31/2020,4 Workplace,Workplace - Other,2
+09/01/2020,1 Congregate Care,Long-Term Care Home,2
+09/01/2020,1 Congregate Care,Retirement Home,1
+09/01/2020,4 Workplace,Workplace - Other,9
+09/01/2020,5 Recreational,Bar/restaurant/nightclub,1
+09/01/2020,5 Recreational,Personal service settings,1
+09/02/2020,1 Congregate Care,Long-Term Care Home,11
+09/02/2020,2 Congregate Living,Group Home/Supportive Housing,1
+09/02/2020,4 Workplace,Medical/Health Service,1
+09/02/2020,4 Workplace,Workplace - Other,20
+09/02/2020,5 Recreational,Bar/restaurant/nightclub,1
+09/02/2020,5 Recreational,Other recreation,1
+09/03/2020,1 Congregate Care,Long-Term Care Home,3
+09/03/2020,1 Congregate Care,Retirement Home,2
+09/03/2020,2 Congregate Living,Group Home/Supportive Housing,1
+09/03/2020,4 Workplace,Workplace - Food Processing,2
+09/03/2020,4 Workplace,Workplace - Other,17
+09/03/2020,5 Recreational,Bar/restaurant/nightclub,1
+09/03/2020,5 Recreational,Other recreation,4
+09/04/2020,1 Congregate Care,Long-Term Care Home,2
+09/04/2020,1 Congregate Care,Retirement Home,3
+09/04/2020,2 Congregate Living,Group Home/Supportive Housing,1
+09/04/2020,3 Education,Child care,1
+09/04/2020,4 Workplace,Workplace - Food Processing,1
+09/04/2020,4 Workplace,Workplace - Other,5
+09/04/2020,5 Recreational,Bar/restaurant/nightclub,1
+09/04/2020,5 Recreational,Other recreation,13
+09/05/2020,1 Congregate Care,Long-Term Care Home,5
+09/05/2020,1 Congregate Care,Retirement Home,7
+09/05/2020,2 Congregate Living,Shelter,1
+09/05/2020,3 Education,Child care,1
+09/05/2020,4 Workplace,Retail,2
+09/05/2020,4 Workplace,Workplace - Other,3
+09/05/2020,5 Recreational,Bar/restaurant/nightclub,1
+09/05/2020,5 Recreational,Other recreation,9
+09/06/2020,1 Congregate Care,Long-Term Care Home,12
+09/06/2020,1 Congregate Care,Retirement Home,1
+09/06/2020,2 Congregate Living,Group Home/Supportive Housing,2
+09/06/2020,3 Education,Child care,1
+09/06/2020,4 Workplace,Medical/Health Service,1
+09/06/2020,4 Workplace,Workplace - Food Processing,2
+09/06/2020,4 Workplace,Workplace - Other,5
+09/06/2020,5 Recreational,Bar/restaurant/nightclub,1
+09/06/2020,5 Recreational,Other recreation,10
+09/07/2020,1 Congregate Care,Long-Term Care Home,9
+09/07/2020,2 Congregate Living,Group Home/Supportive Housing,1
+09/07/2020,4 Workplace,Workplace - Food Processing,2
+09/07/2020,4 Workplace,Workplace - Other,2
+09/07/2020,5 Recreational,Bar/restaurant/nightclub,2
+09/07/2020,5 Recreational,Other recreation,6
+09/08/2020,1 Congregate Care,Long-Term Care Home,1
+09/08/2020,4 Workplace,Medical/Health Service,1
+09/08/2020,4 Workplace,Workplace - Food Processing,1
+09/08/2020,4 Workplace,Workplace - Other,2
+09/08/2020,5 Recreational,Bar/restaurant/nightclub,2
+09/08/2020,5 Recreational,Other recreation,3
+09/09/2020,1 Congregate Care,Retirement Home,1
+09/09/2020,2 Congregate Living,Shelter,1
+09/09/2020,3 Education,Child care,1
+09/09/2020,4 Workplace,Workplace - Food Processing,2
+09/09/2020,4 Workplace,Workplace - Other,1
+09/09/2020,5 Recreational,Bar/restaurant/nightclub,6
+09/09/2020,5 Recreational,Other recreation,2
+09/10/2020,1 Congregate Care,Long-Term Care Home,5
+09/10/2020,1 Congregate Care,Retirement Home,3
+09/10/2020,4 Workplace,Medical/Health Service,1
+09/10/2020,4 Workplace,Workplace - Food Processing,1
+09/10/2020,4 Workplace,Workplace - Other,7
+09/10/2020,5 Recreational,Bar/restaurant/nightclub,8
+09/10/2020,5 Recreational,Other recreation,4
+09/11/2020,1 Congregate Care,Long-Term Care Home,13
+09/11/2020,1 Congregate Care,Retirement Home,1
+09/11/2020,2 Congregate Living,Group Home/Supportive Housing,1
+09/11/2020,3 Education,Child care,2
+09/11/2020,3 Education,School - Elementary,2
+09/11/2020,3 Education,School - Secondary,1
+09/11/2020,4 Workplace,Retail,1
+09/11/2020,4 Workplace,Workplace - Food Processing,1
+09/11/2020,4 Workplace,Workplace - Other,1
+09/11/2020,5 Recreational,Bar/restaurant/nightclub,7
+09/11/2020,5 Recreational,Recreational fitness,1
+09/12/2020,1 Congregate Care,Long-Term Care Home,7
+09/12/2020,2 Congregate Living,Group Home/Supportive Housing,2
+09/12/2020,2 Congregate Living,Shelter,1
+09/12/2020,3 Education,Child care,1
+09/12/2020,3 Education,School - Elementary,1
+09/12/2020,3 Education,School - Secondary,1
+09/12/2020,4 Workplace,Workplace - Food Processing,5
+09/12/2020,4 Workplace,Workplace - Other,1
+09/12/2020,5 Recreational,Bar/restaurant/nightclub,6
+09/12/2020,5 Recreational,Other recreation,5
+09/12/2020,5 Recreational,Recreational fitness,3
+09/13/2020,1 Congregate Care,Long-Term Care Home,5
+09/13/2020,1 Congregate Care,Retirement Home,2
+09/13/2020,2 Congregate Living,Group Home/Supportive Housing,1
+09/13/2020,2 Congregate Living,Shelter,1
+09/13/2020,3 Education,School - Secondary,1
+09/13/2020,4 Workplace,Workplace - Food Processing,2
+09/13/2020,4 Workplace,Workplace - Other,1
+09/13/2020,5 Recreational,Bar/restaurant/nightclub,5
+09/13/2020,5 Recreational,Other recreation,4
+09/13/2020,5 Recreational,Recreational fitness,1
+09/14/2020,1 Congregate Care,Long-Term Care Home,24
+09/14/2020,1 Congregate Care,Retirement Home,4
+09/14/2020,2 Congregate Living,Group Home/Supportive Housing,2
+09/14/2020,3 Education,School - Secondary,1
+09/14/2020,4 Workplace,Workplace - Food Processing,1
+09/14/2020,4 Workplace,Workplace - Other,1
+09/14/2020,5 Recreational,Bar/restaurant/nightclub,6
+09/14/2020,5 Recreational,Other recreation,2
+09/15/2020,1 Congregate Care,Hospital,1
+09/15/2020,1 Congregate Care,Long-Term Care Home,5
+09/15/2020,2 Congregate Living,Group Home/Supportive Housing,1
+09/15/2020,2 Congregate Living,Shelter,2
+09/15/2020,4 Workplace,Medical/Health Service,1
+09/15/2020,4 Workplace,Workplace - Food Processing,1
+09/15/2020,4 Workplace,Workplace - Other,3
+09/15/2020,5 Recreational,Bar/restaurant/nightclub,6
+09/15/2020,5 Recreational,Other recreation,5
+09/16/2020,1 Congregate Care,Hospital,1
+09/16/2020,1 Congregate Care,Long-Term Care Home,5
+09/16/2020,3 Education,Child care,2
+09/16/2020,3 Education,School - Secondary,1
+09/16/2020,4 Workplace,Medical/Health Service,1
+09/16/2020,4 Workplace,Retail,1
+09/16/2020,4 Workplace,Workplace - Food Processing,3
+09/16/2020,4 Workplace,Workplace - Other,5
+09/16/2020,5 Recreational,Bar/restaurant/nightclub,7
+09/16/2020,5 Recreational,Other recreation,6
+09/16/2020,5 Recreational,Recreational fitness,2
+09/17/2020,1 Congregate Care,Hospital,1
+09/17/2020,1 Congregate Care,Long-Term Care Home,18
+09/17/2020,1 Congregate Care,Retirement Home,1
+09/17/2020,2 Congregate Living,Congregate other,1
+09/17/2020,2 Congregate Living,Shelter,1
+09/17/2020,3 Education,Child care,4
+09/17/2020,3 Education,School - Elementary,2
+09/17/2020,3 Education,School - Secondary,1
+09/17/2020,4 Workplace,Retail,1
+09/17/2020,4 Workplace,Workplace - Food Processing,2
+09/17/2020,4 Workplace,Workplace - Other,1
+09/17/2020,5 Recreational,Bar/restaurant/nightclub,12
+09/17/2020,5 Recreational,Other recreation,11
+09/17/2020,5 Recreational,Recreational fitness,2
+09/18/2020,1 Congregate Care,Long-Term Care Home,10
+09/18/2020,2 Congregate Living,Group Home/Supportive Housing,3
+09/18/2020,3 Education,Child care,2
+09/18/2020,3 Education,School - Elementary,2
+09/18/2020,3 Education,School - Secondary,1
+09/18/2020,4 Workplace,Workplace - Food Processing,6
+09/18/2020,4 Workplace,Workplace - Other,1
+09/18/2020,5 Recreational,Bar/restaurant/nightclub,6
+09/18/2020,5 Recreational,Other recreation,13
+09/19/2020,1 Congregate Care,Long-Term Care Home,17
+09/19/2020,2 Congregate Living,Group Home/Supportive Housing,3
+09/19/2020,3 Education,Child care,2
+09/19/2020,3 Education,School - Elementary,3
+09/19/2020,4 Workplace,Retail,2
+09/19/2020,4 Workplace,Workplace - Food Processing,1
+09/19/2020,4 Workplace,Workplace - Other,1
+09/19/2020,5 Recreational,Bar/restaurant/nightclub,8
+09/19/2020,5 Recreational,Other recreation,4
+09/19/2020,5 Recreational,Recreational fitness,4
+09/20/2020,1 Congregate Care,Hospital,1
+09/20/2020,1 Congregate Care,Long-Term Care Home,6
+09/20/2020,1 Congregate Care,Retirement Home,1
+09/20/2020,3 Education,Child care,2
+09/20/2020,3 Education,School - Elementary,5
+09/20/2020,3 Education,School - Secondary,2
+09/20/2020,4 Workplace,Retail,1
+09/20/2020,4 Workplace,Workplace - Food Processing,2
+09/20/2020,4 Workplace,Workplace - Other,6
+09/20/2020,5 Recreational,Bar/restaurant/nightclub,7
+09/20/2020,5 Recreational,Recreational fitness,3
+09/21/2020,1 Congregate Care,Hospital,1
+09/21/2020,1 Congregate Care,Long-Term Care Home,7
+09/21/2020,1 Congregate Care,Retirement Home,3
+09/21/2020,2 Congregate Living,Group Home/Supportive Housing,1
+09/21/2020,2 Congregate Living,Shelter,2
+09/21/2020,3 Education,Child care,3
+09/21/2020,3 Education,School - Elementary,1
+09/21/2020,3 Education,School - Elementary/Secondary,2
+09/21/2020,3 Education,School - Secondary,2
+09/21/2020,4 Workplace,Workplace - Food Processing,2
+09/21/2020,4 Workplace,Workplace - Other,2
+09/21/2020,5 Recreational,Bar/restaurant/nightclub,15
+09/21/2020,5 Recreational,Other recreation,4
+09/21/2020,5 Recreational,Recreational fitness,1
+09/22/2020,1 Congregate Care,Hospital,1
+09/22/2020,1 Congregate Care,Long-Term Care Home,9
+09/22/2020,1 Congregate Care,Retirement Home,4
+09/22/2020,2 Congregate Living,Group Home/Supportive Housing,2
+09/22/2020,2 Congregate Living,Shelter,1
+09/22/2020,3 Education,Child care,2
+09/22/2020,3 Education,School - Elementary,5
+09/22/2020,3 Education,School - Secondary,2
+09/22/2020,4 Workplace,Retail,2
+09/22/2020,4 Workplace,Workplace - Food Processing,2
+09/22/2020,4 Workplace,Workplace - Other,4
+09/22/2020,5 Recreational,Bar/restaurant/nightclub,8
+09/22/2020,5 Recreational,Other recreation,1
+09/22/2020,5 Recreational,Recreational fitness,1
+09/23/2020,1 Congregate Care,Hospital,2
+09/23/2020,1 Congregate Care,Long-Term Care Home,13
+09/23/2020,1 Congregate Care,Retirement Home,1
+09/23/2020,2 Congregate Living,Group Home/Supportive Housing,2
+09/23/2020,3 Education,Child care,1
+09/23/2020,3 Education,School - Elementary,4
+09/23/2020,3 Education,School - Secondary,2
+09/23/2020,4 Workplace,Medical/Health Service,2
+09/23/2020,4 Workplace,Workplace - Food Processing,1
+09/23/2020,4 Workplace,Workplace - Other,4
+09/23/2020,5 Recreational,Bar/restaurant/nightclub,9
+09/23/2020,5 Recreational,Other recreation,1
+09/23/2020,5 Recreational,Recreational fitness,6
+09/24/2020,1 Congregate Care,Hospital,6
+09/24/2020,1 Congregate Care,Long-Term Care Home,6
+09/24/2020,1 Congregate Care,Retirement Home,3
+09/24/2020,2 Congregate Living,Group Home/Supportive Housing,2
+09/24/2020,2 Congregate Living,Shelter,1
+09/24/2020,3 Education,Child care,4
+09/24/2020,3 Education,School - Elementary,3
+09/24/2020,3 Education,School - Post-secondary,2
+09/24/2020,3 Education,School - Secondary,1
+09/24/2020,4 Workplace,Medical/Health Service,2
+09/24/2020,4 Workplace,Workplace - Other,6
+09/24/2020,5 Recreational,Bar/restaurant/nightclub,7
+09/24/2020,5 Recreational,Other recreation,6
+09/24/2020,5 Recreational,Recreational fitness,2
+09/25/2020,1 Congregate Care,Hospital,6
+09/25/2020,1 Congregate Care,Long-Term Care Home,11
+09/25/2020,1 Congregate Care,Retirement Home,7
+09/25/2020,2 Congregate Living,Congregate other,1
+09/25/2020,2 Congregate Living,Group Home/Supportive Housing,1
+09/25/2020,2 Congregate Living,Shelter,3
+09/25/2020,2 Congregate Living,Short-term accommodations,1
+09/25/2020,3 Education,Child care,4
+09/25/2020,3 Education,School - Elementary,2
+09/25/2020,3 Education,School - Secondary,3
+09/25/2020,4 Workplace,Retail,3
+09/25/2020,4 Workplace,Workplace - Other,6
+09/25/2020,5 Recreational,Bar/restaurant/nightclub,13
+09/25/2020,5 Recreational,Recreational fitness,1
+09/26/2020,1 Congregate Care,Hospital,11
+09/26/2020,1 Congregate Care,Long-Term Care Home,23
+09/26/2020,1 Congregate Care,Retirement Home,6
+09/26/2020,2 Congregate Living,Group Home/Supportive Housing,2
+09/26/2020,3 Education,Child care,1
+09/26/2020,3 Education,School - Elementary,2
+09/26/2020,4 Workplace,Workplace - Other,11
+09/26/2020,5 Recreational,Bar/restaurant/nightclub,4
+09/26/2020,5 Recreational,Other recreation,4
+09/26/2020,5 Recreational,Recreational fitness,3
+09/27/2020,1 Congregate Care,Hospital,11
+09/27/2020,1 Congregate Care,Long-Term Care Home,20
+09/27/2020,1 Congregate Care,Retirement Home,1
+09/27/2020,2 Congregate Living,Group Home/Supportive Housing,4
+09/27/2020,3 Education,Child care,2
+09/27/2020,3 Education,School - Elementary,7
+09/27/2020,4 Workplace,Retail,1
+09/27/2020,4 Workplace,Workplace - Food Processing,2
+09/27/2020,4 Workplace,Workplace - Other,7
+09/27/2020,5 Recreational,Bar/restaurant/nightclub,7
+09/27/2020,5 Recreational,Other recreation,2
+09/28/2020,1 Congregate Care,Hospital,9
+09/28/2020,1 Congregate Care,Long-Term Care Home,7
+09/28/2020,1 Congregate Care,Retirement Home,4
+09/28/2020,2 Congregate Living,Group Home/Supportive Housing,3
+09/28/2020,3 Education,Child care,3
+09/28/2020,3 Education,School - Elementary,7
+09/28/2020,3 Education,School - Secondary,1
+09/28/2020,4 Workplace,Retail,1
+09/28/2020,4 Workplace,Workplace - Food Processing,4
+09/28/2020,4 Workplace,Workplace - Other,7
+09/28/2020,5 Recreational,Bar/restaurant/nightclub,3
+09/28/2020,5 Recreational,Other recreation,4
+09/29/2020,1 Congregate Care,Hospital,9
+09/29/2020,1 Congregate Care,Long-Term Care Home,22
+09/29/2020,1 Congregate Care,Retirement Home,4
+09/29/2020,2 Congregate Living,Group Home/Supportive Housing,1
+09/29/2020,3 Education,Child care,5
+09/29/2020,3 Education,School - Elementary,8
+09/29/2020,3 Education,School - Elementary/Secondary,1
+09/29/2020,3 Education,School - Secondary,1
+09/29/2020,4 Workplace,Retail,1
+09/29/2020,4 Workplace,Workplace - Food Processing,1
+09/29/2020,4 Workplace,Workplace - Other,8
+09/29/2020,5 Recreational,Bar/restaurant/nightclub,11
+09/29/2020,5 Recreational,Recreational fitness,2
+09/30/2020,1 Congregate Care,Hospital,11
+09/30/2020,1 Congregate Care,Long-Term Care Home,21
+09/30/2020,1 Congregate Care,Retirement Home,8
+09/30/2020,2 Congregate Living,Group Home/Supportive Housing,4
+09/30/2020,2 Congregate Living,Shelter,1
+09/30/2020,3 Education,Child care,4
+09/30/2020,3 Education,School - Elementary,5
+09/30/2020,3 Education,School - Elementary/Secondary,1
+09/30/2020,3 Education,School - Secondary,1
+09/30/2020,4 Workplace,Retail,1
+09/30/2020,4 Workplace,Workplace - Food Processing,1
+09/30/2020,4 Workplace,Workplace - Other,4
+09/30/2020,5 Recreational,Bar/restaurant/nightclub,7
+09/30/2020,5 Recreational,Recreational fitness,3
+10/01/2020,1 Congregate Care,Hospital,10
+10/01/2020,1 Congregate Care,Long-Term Care Home,35
+10/01/2020,1 Congregate Care,Retirement Home,5
+10/01/2020,2 Congregate Living,Group Home/Supportive Housing,1
+10/01/2020,2 Congregate Living,Shelter,2
+10/01/2020,3 Education,Child care,4
+10/01/2020,3 Education,School - Elementary,8
+10/01/2020,4 Workplace,Medical/Health Service,1
+10/01/2020,4 Workplace,Retail,2
+10/01/2020,4 Workplace,Workplace - Food Processing,2
+10/01/2020,4 Workplace,Workplace - Other,3
+10/01/2020,5 Recreational,Bar/restaurant/nightclub,1
+10/01/2020,5 Recreational,Recreational fitness,1
+10/02/2020,1 Congregate Care,Hospital,14
+10/02/2020,1 Congregate Care,Long-Term Care Home,26
+10/02/2020,1 Congregate Care,Retirement Home,10
+10/02/2020,2 Congregate Living,Group Home/Supportive Housing,8
+10/02/2020,3 Education,Child care,5
+10/02/2020,3 Education,School - Elementary,8
+10/02/2020,3 Education,School - Secondary,2
+10/02/2020,4 Workplace,Medical/Health Service,1
+10/02/2020,4 Workplace,Retail,1
+10/02/2020,4 Workplace,Workplace - Food Processing,2
+10/02/2020,4 Workplace,Workplace - Other,3
+10/02/2020,5 Recreational,Bar/restaurant/nightclub,1
+10/02/2020,5 Recreational,Other recreation,1
+10/03/2020,1 Congregate Care,Hospital,8
+10/03/2020,1 Congregate Care,Long-Term Care Home,8
+10/03/2020,1 Congregate Care,Retirement Home,17
+10/03/2020,2 Congregate Living,Congregate other,1
+10/03/2020,2 Congregate Living,Group Home/Supportive Housing,3
+10/03/2020,3 Education,Child care,4
+10/03/2020,3 Education,School - Elementary,5
+10/03/2020,3 Education,School - Secondary,1
+10/03/2020,4 Workplace,Medical/Health Service,1
+10/03/2020,4 Workplace,Workplace - Food Processing,1
+10/03/2020,4 Workplace,Workplace - Other,4
+10/03/2020,5 Recreational,Other recreation,2
+10/03/2020,5 Recreational,Recreational fitness,4
+10/04/2020,1 Congregate Care,Hospital,1
+10/04/2020,1 Congregate Care,Long-Term Care Home,29
+10/04/2020,1 Congregate Care,Retirement Home,13
+10/04/2020,2 Congregate Living,Group Home/Supportive Housing,2
+10/04/2020,3 Education,Child care,5
+10/04/2020,3 Education,School - Elementary,11
+10/04/2020,3 Education,School - Elementary/Secondary,1
+10/04/2020,3 Education,School - Secondary,3
+10/04/2020,4 Workplace,Medical/Health Service,2
+10/04/2020,4 Workplace,Workplace - Farm,1
+10/04/2020,4 Workplace,Workplace - Other,2
+10/04/2020,5 Recreational,Bar/restaurant/nightclub,2
+10/04/2020,5 Recreational,Recreational fitness,5
+10/05/2020,1 Congregate Care,Hospital,4
+10/05/2020,1 Congregate Care,Long-Term Care Home,37
+10/05/2020,1 Congregate Care,Retirement Home,7
+10/05/2020,2 Congregate Living,Group Home/Supportive Housing,5
+10/05/2020,3 Education,Child care,1
+10/05/2020,3 Education,School - Elementary,4
+10/05/2020,3 Education,School - Secondary,1
+10/05/2020,4 Workplace,Retail,2
+10/05/2020,4 Workplace,Workplace - Farm,11
+10/05/2020,4 Workplace,Workplace - Other,1
+10/05/2020,5 Recreational,Bar/restaurant/nightclub,2
+10/05/2020,5 Recreational,Recreational fitness,5
+10/06/2020,1 Congregate Care,Hospital,6
+10/06/2020,1 Congregate Care,Long-Term Care Home,14
+10/06/2020,1 Congregate Care,Retirement Home,5
+10/06/2020,2 Congregate Living,Group Home/Supportive Housing,7
+10/06/2020,3 Education,Child care,3
+10/06/2020,3 Education,School - Elementary,9
+10/06/2020,3 Education,School - Elementary/Secondary,1
+10/06/2020,3 Education,School - Secondary,2
+10/06/2020,4 Workplace,Workplace - Food Processing,1
+10/06/2020,4 Workplace,Workplace - Other,10
+10/06/2020,5 Recreational,Bar/restaurant/nightclub,1
+10/06/2020,5 Recreational,Other recreation,1
+10/06/2020,5 Recreational,Recreational fitness,6
+10/07/2020,1 Congregate Care,Hospital,5
+10/07/2020,1 Congregate Care,Long-Term Care Home,30
+10/07/2020,1 Congregate Care,Retirement Home,22
+10/07/2020,2 Congregate Living,Group Home/Supportive Housing,7
+10/07/2020,2 Congregate Living,Shelter,1
+10/07/2020,3 Education,Child care,6
+10/07/2020,3 Education,School - Elementary,8
+10/07/2020,3 Education,School - Secondary,3
+10/07/2020,4 Workplace,Medical/Health Service,2
+10/07/2020,4 Workplace,Workplace - Food Processing,1
+10/07/2020,4 Workplace,Workplace - Other,4
+10/07/2020,5 Recreational,Recreational fitness,10
+10/08/2020,1 Congregate Care,Hospital,1
+10/08/2020,1 Congregate Care,Long-Term Care Home,20
+10/08/2020,1 Congregate Care,Retirement Home,19
+10/08/2020,2 Congregate Living,Congregate other,1
+10/08/2020,2 Congregate Living,Group Home/Supportive Housing,6
+10/08/2020,3 Education,Child care,3
+10/08/2020,3 Education,School - Elementary,5
+10/08/2020,3 Education,School - Elementary/Secondary,1
+10/08/2020,4 Workplace,Medical/Health Service,1
+10/08/2020,4 Workplace,Retail,1
+10/08/2020,4 Workplace,Workplace - Farm,6
+10/08/2020,4 Workplace,Workplace - Food Processing,1
+10/08/2020,4 Workplace,Workplace - Other,6
+10/08/2020,5 Recreational,Other recreation,1
+10/08/2020,5 Recreational,Recreational fitness,21
+10/09/2020,1 Congregate Care,Hospital,5
+10/09/2020,1 Congregate Care,Long-Term Care Home,29
+10/09/2020,1 Congregate Care,Retirement Home,18
+10/09/2020,2 Congregate Living,Group Home/Supportive Housing,3
+10/09/2020,2 Congregate Living,Shelter,1
+10/09/2020,3 Education,Child care,2
+10/09/2020,3 Education,School - Elementary,4
+10/09/2020,3 Education,School - Elementary/Secondary,1
+10/09/2020,4 Workplace,Medical/Health Service,2
+10/09/2020,4 Workplace,Workplace - Farm,1
+10/09/2020,4 Workplace,Workplace - Food Processing,3
+10/09/2020,4 Workplace,Workplace - Other,8
+10/09/2020,5 Recreational,Recreational fitness,24
+10/10/2020,1 Congregate Care,Long-Term Care Home,19
+10/10/2020,1 Congregate Care,Retirement Home,4
+10/10/2020,2 Congregate Living,Congregate other,1
+10/10/2020,2 Congregate Living,Group Home/Supportive Housing,3
+10/10/2020,3 Education,Child care,2
+10/10/2020,3 Education,School - Elementary,3
+10/10/2020,4 Workplace,Medical/Health Service,2
+10/10/2020,4 Workplace,Retail,3
+10/10/2020,4 Workplace,Workplace - Food Processing,2
+10/10/2020,4 Workplace,Workplace - Other,2
+10/10/2020,5 Recreational,Other recreation,2
+10/10/2020,5 Recreational,Recreational fitness,22
+10/11/2020,1 Congregate Care,Hospital,4
+10/11/2020,1 Congregate Care,Long-Term Care Home,21
+10/11/2020,1 Congregate Care,Retirement Home,12
+10/11/2020,2 Congregate Living,Congregate other,4
+10/11/2020,2 Congregate Living,Group Home/Supportive Housing,6
+10/11/2020,2 Congregate Living,Shelter,1
+10/11/2020,3 Education,Child care,2
+10/11/2020,3 Education,School - Elementary,6
+10/11/2020,3 Education,School - Secondary,2
+10/11/2020,4 Workplace,Workplace - Food Processing,2
+10/11/2020,4 Workplace,Workplace - Other,9
+10/11/2020,5 Recreational,Other recreation,5
+10/11/2020,5 Recreational,Recreational fitness,17
+10/12/2020,1 Congregate Care,Hospital,2
+10/12/2020,1 Congregate Care,Long-Term Care Home,14
+10/12/2020,1 Congregate Care,Retirement Home,10
+10/12/2020,2 Congregate Living,Congregate other,1
+10/12/2020,2 Congregate Living,Group Home/Supportive Housing,5
+10/12/2020,2 Congregate Living,Shelter,1
+10/12/2020,3 Education,School - Elementary,7
+10/12/2020,3 Education,School - Elementary/Secondary,2
+10/12/2020,3 Education,School - Secondary,2
+10/12/2020,4 Workplace,Medical/Health Service,1
+10/12/2020,4 Workplace,Workplace - Food Processing,3
+10/12/2020,4 Workplace,Workplace - Other,8
+10/12/2020,5 Recreational,Other recreation,1
+10/12/2020,5 Recreational,Recreational fitness,12
+10/13/2020,1 Congregate Care,Hospital,6
+10/13/2020,1 Congregate Care,Long-Term Care Home,34
+10/13/2020,1 Congregate Care,Retirement Home,12
+10/13/2020,2 Congregate Living,Congregate other,4
+10/13/2020,2 Congregate Living,Group Home/Supportive Housing,7
+10/13/2020,2 Congregate Living,Shelter,1
+10/13/2020,3 Education,Child care,2
+10/13/2020,3 Education,School - Elementary,7
+10/13/2020,3 Education,School - Elementary/Secondary,2
+10/13/2020,3 Education,School - Secondary,2
+10/13/2020,4 Workplace,Retail,1
+10/13/2020,4 Workplace,Workplace - Food Processing,3
+10/13/2020,4 Workplace,Workplace - Other,7
+10/13/2020,5 Recreational,Bar/restaurant/nightclub,3
+10/13/2020,5 Recreational,Other recreation,1
+10/13/2020,5 Recreational,Recreational fitness,10
+10/14/2020,1 Congregate Care,Hospital,6
+10/14/2020,1 Congregate Care,Long-Term Care Home,29
+10/14/2020,1 Congregate Care,Retirement Home,8
+10/14/2020,2 Congregate Living,Group Home/Supportive Housing,10
+10/14/2020,3 Education,Child care,1
+10/14/2020,3 Education,School - Elementary,6
+10/14/2020,3 Education,School - Elementary/Secondary,1
+10/14/2020,3 Education,School - Secondary,3
+10/14/2020,4 Workplace,Workplace - Food Processing,2
+10/14/2020,4 Workplace,Workplace - Other,7
+10/14/2020,5 Recreational,Bar/restaurant/nightclub,1
+10/14/2020,5 Recreational,Recreational fitness,9
+10/15/2020,1 Congregate Care,Hospital,7
+10/15/2020,1 Congregate Care,Long-Term Care Home,26
+10/15/2020,1 Congregate Care,Retirement Home,8
+10/15/2020,2 Congregate Living,Group Home/Supportive Housing,9
+10/15/2020,3 Education,Child care,4
+10/15/2020,3 Education,School - Elementary,3
+10/15/2020,3 Education,School - Elementary/Secondary,1
+10/15/2020,3 Education,School - Secondary,1
+10/15/2020,4 Workplace,Workplace - Farm,2
+10/15/2020,4 Workplace,Workplace - Other,11
+10/15/2020,5 Recreational,Bar/restaurant/nightclub,1
+10/15/2020,5 Recreational,Other recreation,1
+10/15/2020,5 Recreational,Recreational fitness,5
+10/16/2020,1 Congregate Care,Hospital,2
+10/16/2020,1 Congregate Care,Long-Term Care Home,62
+10/16/2020,1 Congregate Care,Retirement Home,10
+10/16/2020,2 Congregate Living,Group Home/Supportive Housing,16
+10/16/2020,2 Congregate Living,Shelter,1
+10/16/2020,2 Congregate Living,Short-term accommodations,1
+10/16/2020,3 Education,Child care,2
+10/16/2020,3 Education,School - Elementary,10
+10/16/2020,3 Education,School - Elementary/Secondary,1
+10/16/2020,3 Education,School - Post-secondary,1
+10/16/2020,3 Education,School - Secondary,2
+10/16/2020,4 Workplace,Workplace - Farm,1
+10/16/2020,4 Workplace,Workplace - Food Processing,1
+10/16/2020,4 Workplace,Workplace - Other,11
+10/16/2020,5 Recreational,Bar/restaurant/nightclub,5
+10/16/2020,5 Recreational,Other recreation,3
+10/16/2020,5 Recreational,Recreational fitness,3
+10/17/2020,1 Congregate Care,Hospital,1
+10/17/2020,1 Congregate Care,Long-Term Care Home,47
+10/17/2020,1 Congregate Care,Retirement Home,10
+10/17/2020,2 Congregate Living,Correctional Facility,1
+10/17/2020,2 Congregate Living,Group Home/Supportive Housing,20
+10/17/2020,2 Congregate Living,Shelter,1
+10/17/2020,3 Education,Child care,6
+10/17/2020,3 Education,School - Elementary,9
+10/17/2020,3 Education,School - Secondary,1
+10/17/2020,4 Workplace,Workplace - Farm,1
+10/17/2020,4 Workplace,Workplace - Food Processing,2
+10/17/2020,4 Workplace,Workplace - Other,13
+10/17/2020,5 Recreational,Bar/restaurant/nightclub,1
+10/17/2020,5 Recreational,Other recreation,1
+10/17/2020,5 Recreational,Recreational fitness,1
+10/18/2020,1 Congregate Care,Hospital,4
+10/18/2020,1 Congregate Care,Long-Term Care Home,33
+10/18/2020,1 Congregate Care,Retirement Home,11
+10/18/2020,2 Congregate Living,Congregate other,1
+10/18/2020,2 Congregate Living,Group Home/Supportive Housing,16
+10/18/2020,3 Education,Child care,7
+10/18/2020,3 Education,School - Elementary,4
+10/18/2020,3 Education,School - Elementary/Secondary,1
+10/18/2020,3 Education,School - Post-secondary,1
+10/18/2020,3 Education,School - Secondary,2
+10/18/2020,4 Workplace,Retail,3
+10/18/2020,4 Workplace,Workplace - Food Processing,2
+10/18/2020,4 Workplace,Workplace - Other,15
+10/18/2020,5 Recreational,Bar/restaurant/nightclub,1
+10/18/2020,5 Recreational,Other recreation,6
+10/18/2020,5 Recreational,Recreational fitness,2
+10/19/2020,1 Congregate Care,Hospital,2
+10/19/2020,1 Congregate Care,Long-Term Care Home,28
+10/19/2020,1 Congregate Care,Retirement Home,10
+10/19/2020,2 Congregate Living,Group Home/Supportive Housing,16
+10/19/2020,3 Education,Child care,1
+10/19/2020,3 Education,School - Elementary,4
+10/19/2020,3 Education,School - Elementary/Secondary,3
+10/19/2020,3 Education,School - Secondary,1
+10/19/2020,4 Workplace,Medical/Health Service,1
+10/19/2020,4 Workplace,Retail,1
+10/19/2020,4 Workplace,Workplace - Farm,1
+10/19/2020,4 Workplace,Workplace - Other,7
+10/19/2020,5 Recreational,Other recreation,5
+10/19/2020,5 Recreational,Recreational fitness,1
+10/20/2020,1 Congregate Care,Hospital,9
+10/20/2020,1 Congregate Care,Long-Term Care Home,16
+10/20/2020,1 Congregate Care,Retirement Home,6
+10/20/2020,2 Congregate Living,Group Home/Supportive Housing,9
+10/20/2020,3 Education,Child care,2
+10/20/2020,3 Education,School - Elementary,1
+10/20/2020,3 Education,School - Secondary,4
+10/20/2020,4 Workplace,Retail,3
+10/20/2020,4 Workplace,Workplace - Food Processing,1
+10/20/2020,4 Workplace,Workplace - Other,11
+10/20/2020,5 Recreational,Other recreation,5
+10/20/2020,5 Recreational,Recreational fitness,4
+10/21/2020,1 Congregate Care,Hospital,9
+10/21/2020,1 Congregate Care,Long-Term Care Home,33
+10/21/2020,1 Congregate Care,Retirement Home,10
+10/21/2020,2 Congregate Living,Group Home/Supportive Housing,8
+10/21/2020,2 Congregate Living,Shelter,1
+10/21/2020,3 Education,Child care,1
+10/21/2020,3 Education,School - Elementary,4
+10/21/2020,3 Education,School - Elementary/Secondary,1
+10/21/2020,4 Workplace,Workplace - Other,10
+10/21/2020,5 Recreational,Other recreation,5
+10/21/2020,5 Recreational,Recreational fitness,1
+10/22/2020,1 Congregate Care,Hospital,11
+10/22/2020,1 Congregate Care,Long-Term Care Home,103
+10/22/2020,1 Congregate Care,Retirement Home,19
+10/22/2020,2 Congregate Living,Correctional Facility,1
+10/22/2020,2 Congregate Living,Group Home/Supportive Housing,8
+10/22/2020,3 Education,School - Elementary,3
+10/22/2020,3 Education,School - Elementary/Secondary,4
+10/22/2020,3 Education,School - Secondary,2
+10/22/2020,4 Workplace,Medical/Health Service,1
+10/22/2020,4 Workplace,Retail,1
+10/22/2020,4 Workplace,Workplace - Food Processing,2
+10/22/2020,4 Workplace,Workplace - Other,11
+10/22/2020,5 Recreational,Bar/restaurant/nightclub,1
+10/22/2020,5 Recreational,Other recreation,10
+10/22/2020,5 Recreational,Recreational fitness,1
+10/23/2020,1 Congregate Care,Hospital,6
+10/23/2020,1 Congregate Care,Long-Term Care Home,88
+10/23/2020,1 Congregate Care,Retirement Home,10
+10/23/2020,2 Congregate Living,Correctional Facility,1
+10/23/2020,2 Congregate Living,Group Home/Supportive Housing,8
+10/23/2020,2 Congregate Living,Shelter,4
+10/23/2020,3 Education,School - Elementary,5
+10/23/2020,3 Education,School - Secondary,2
+10/23/2020,4 Workplace,Retail,3
+10/23/2020,4 Workplace,Workplace - Food Processing,2
+10/23/2020,4 Workplace,Workplace - Other,17
+10/23/2020,5 Recreational,Other recreation,8
+10/23/2020,5 Recreational,Recreational fitness,2
+10/24/2020,1 Congregate Care,Hospital,9
+10/24/2020,1 Congregate Care,Long-Term Care Home,57
+10/24/2020,1 Congregate Care,Retirement Home,18
+10/24/2020,2 Congregate Living,Correctional Facility,1
+10/24/2020,2 Congregate Living,Group Home/Supportive Housing,6
+10/24/2020,2 Congregate Living,Shelter,1
+10/24/2020,3 Education,Child care,1
+10/24/2020,3 Education,School - Elementary,8
+10/24/2020,3 Education,School - Secondary,7
+10/24/2020,4 Workplace,Retail,2
+10/24/2020,4 Workplace,Workplace - Food Processing,2
+10/24/2020,4 Workplace,Workplace - Other,18
+10/24/2020,5 Recreational,Bar/restaurant/nightclub,2
+10/24/2020,5 Recreational,Other recreation,20
+10/25/2020,1 Congregate Care,Hospital,18
+10/25/2020,1 Congregate Care,Long-Term Care Home,60
+10/25/2020,1 Congregate Care,Retirement Home,22
+10/25/2020,2 Congregate Living,Group Home/Supportive Housing,7
+10/25/2020,3 Education,Child care,4
+10/25/2020,3 Education,School - Elementary,9
+10/25/2020,3 Education,School - Elementary/Secondary,3
+10/25/2020,3 Education,School - Secondary,3
+10/25/2020,4 Workplace,Workplace - Food Processing,3
+10/25/2020,4 Workplace,Workplace - Other,16
+10/25/2020,5 Recreational,Other recreation,13
+10/26/2020,1 Congregate Care,Hospital,14
+10/26/2020,1 Congregate Care,Long-Term Care Home,16
+10/26/2020,1 Congregate Care,Retirement Home,19
+10/26/2020,2 Congregate Living,Group Home/Supportive Housing,3
+10/26/2020,2 Congregate Living,Shelter,1
+10/26/2020,3 Education,Child care,8
+10/26/2020,3 Education,School - Elementary,7
+10/26/2020,3 Education,School - Elementary/Secondary,1
+10/26/2020,3 Education,School - Secondary,6
+10/26/2020,4 Workplace,Workplace - Farm,1
+10/26/2020,4 Workplace,Workplace - Food Processing,3
+10/26/2020,4 Workplace,Workplace - Other,5
+10/26/2020,5 Recreational,Bar/restaurant/nightclub,1
+10/26/2020,5 Recreational,Other recreation,8
+10/26/2020,5 Recreational,Personal service settings,1
+10/26/2020,5 Recreational,Recreational fitness,1
+10/27/2020,1 Congregate Care,Hospital,13
+10/27/2020,1 Congregate Care,Long-Term Care Home,31
+10/27/2020,1 Congregate Care,Retirement Home,11
+10/27/2020,2 Congregate Living,Correctional Facility,1
+10/27/2020,2 Congregate Living,Group Home/Supportive Housing,4
+10/27/2020,3 Education,Child care,3
+10/27/2020,3 Education,School - Elementary,12
+10/27/2020,3 Education,School - Secondary,2
+10/27/2020,4 Workplace,Medical/Health Service,1
+10/27/2020,4 Workplace,Retail,2
+10/27/2020,4 Workplace,Workplace - Food Processing,1
+10/27/2020,4 Workplace,Workplace - Other,16
+10/27/2020,5 Recreational,Bar/restaurant/nightclub,2
+10/27/2020,5 Recreational,Other recreation,3
+10/28/2020,1 Congregate Care,Hospital,6
+10/28/2020,1 Congregate Care,Long-Term Care Home,95
+10/28/2020,1 Congregate Care,Retirement Home,26
+10/28/2020,2 Congregate Living,Group Home/Supportive Housing,12
+10/28/2020,2 Congregate Living,Shelter,1
+10/28/2020,3 Education,Child care,6
+10/28/2020,3 Education,School - Elementary,13
+10/28/2020,3 Education,School - Secondary,3
+10/28/2020,4 Workplace,Medical/Health Service,1
+10/28/2020,4 Workplace,Retail,1
+10/28/2020,4 Workplace,Workplace - Farm,1
+10/28/2020,4 Workplace,Workplace - Other,12
+10/28/2020,5 Recreational,Bar/restaurant/nightclub,2
+10/28/2020,5 Recreational,Other recreation,2
+10/28/2020,5 Recreational,Personal service settings,4
+10/29/2020,1 Congregate Care,Hospital,3
+10/29/2020,1 Congregate Care,Long-Term Care Home,76
+10/29/2020,1 Congregate Care,Retirement Home,57
+10/29/2020,2 Congregate Living,Group Home/Supportive Housing,3
+10/29/2020,3 Education,Child care,6
+10/29/2020,3 Education,School - Elementary,8
+10/29/2020,3 Education,School - Elementary/Secondary,1
+10/29/2020,3 Education,School - Secondary,7
+10/29/2020,4 Workplace,Medical/Health Service,1
+10/29/2020,4 Workplace,Workplace - Farm,1
+10/29/2020,4 Workplace,Workplace - Food Processing,2
+10/29/2020,4 Workplace,Workplace - Other,13
+10/29/2020,5 Recreational,Bar/restaurant/nightclub,1
+10/29/2020,5 Recreational,Other recreation,1
+10/30/2020,1 Congregate Care,Hospital,11
+10/30/2020,1 Congregate Care,Long-Term Care Home,91
+10/30/2020,1 Congregate Care,Retirement Home,28
+10/30/2020,2 Congregate Living,Group Home/Supportive Housing,3
+10/30/2020,3 Education,Child care,5
+10/30/2020,3 Education,School - Elementary,8
+10/30/2020,3 Education,School - Elementary/Secondary,1
+10/30/2020,3 Education,School - Post-secondary,1
+10/30/2020,3 Education,School - Secondary,7
+10/30/2020,4 Workplace,Medical/Health Service,2
+10/30/2020,4 Workplace,Retail,2
+10/30/2020,4 Workplace,Workplace - Farm,1
+10/30/2020,4 Workplace,Workplace - Food Processing,4
+10/30/2020,4 Workplace,Workplace - Other,21
+10/30/2020,5 Recreational,Bar/restaurant/nightclub,2
+10/30/2020,5 Recreational,Personal service settings,2
+10/30/2020,5 Recreational,Recreational fitness,1
+10/31/2020,1 Congregate Care,Hospital,9
+10/31/2020,1 Congregate Care,Long-Term Care Home,66
+10/31/2020,1 Congregate Care,Retirement Home,13
+10/31/2020,2 Congregate Living,Group Home/Supportive Housing,1
+10/31/2020,2 Congregate Living,Shelter,1
+10/31/2020,3 Education,Child care,10
+10/31/2020,3 Education,School - Elementary,11
+10/31/2020,3 Education,School - Elementary/Secondary,1
+10/31/2020,3 Education,School - Secondary,5
+10/31/2020,4 Workplace,Retail,1
+10/31/2020,4 Workplace,Workplace - Food Processing,1
+10/31/2020,4 Workplace,Workplace - Other,5
+10/31/2020,5 Recreational,Bar/restaurant/nightclub,5
+10/31/2020,5 Recreational,Other recreation,9
+10/31/2020,5 Recreational,Personal service settings,2
+10/31/2020,5 Recreational,Recreational fitness,1
+11/01/2020,1 Congregate Care,Hospital,10
+11/01/2020,1 Congregate Care,Long-Term Care Home,33
+11/01/2020,1 Congregate Care,Retirement Home,13
+11/01/2020,2 Congregate Living,Group Home/Supportive Housing,8
+11/01/2020,3 Education,School - Elementary,12
+11/01/2020,3 Education,School - Elementary/Secondary,3
+11/01/2020,3 Education,School - Secondary,2
+11/01/2020,4 Workplace,Medical/Health Service,2
+11/01/2020,4 Workplace,Retail,2
+11/01/2020,4 Workplace,Workplace - Farm,21
+11/01/2020,4 Workplace,Workplace - Food Processing,2
+11/01/2020,4 Workplace,Workplace - Other,18
+11/01/2020,5 Recreational,Bar/restaurant/nightclub,1
+11/01/2020,5 Recreational,Other recreation,2
+11/01/2020,5 Recreational,Recreational fitness,6
+11/02/2020,1 Congregate Care,Hospital,8
+11/02/2020,1 Congregate Care,Long-Term Care Home,51
+11/02/2020,1 Congregate Care,Retirement Home,13
+11/02/2020,2 Congregate Living,Group Home/Supportive Housing,1
+11/02/2020,3 Education,Child care,7
+11/02/2020,3 Education,School - Elementary,7
+11/02/2020,3 Education,School - Elementary/Secondary,1
+11/02/2020,3 Education,School - Secondary,1
+11/02/2020,4 Workplace,Medical/Health Service,1
+11/02/2020,4 Workplace,Workplace - Farm,14
+11/02/2020,4 Workplace,Workplace - Food Processing,1
+11/02/2020,4 Workplace,Workplace - Other,12
+11/02/2020,5 Recreational,Bar/restaurant/nightclub,1
+11/02/2020,5 Recreational,Other recreation,2
+11/02/2020,5 Recreational,Personal service settings,1
+11/02/2020,5 Recreational,Recreational fitness,2
+11/03/2020,1 Congregate Care,Hospital,10
+11/03/2020,1 Congregate Care,Long-Term Care Home,58
+11/03/2020,1 Congregate Care,Retirement Home,31
+11/03/2020,2 Congregate Living,Group Home/Supportive Housing,7
+11/03/2020,2 Congregate Living,Shelter,1
+11/03/2020,3 Education,Child care,4
+11/03/2020,3 Education,School - Elementary,10
+11/03/2020,3 Education,School - Elementary/Secondary,3
+11/03/2020,3 Education,School - Secondary,5
+11/03/2020,4 Workplace,Medical/Health Service,1
+11/03/2020,4 Workplace,Workplace - Food Processing,4
+11/03/2020,4 Workplace,Workplace - Other,20
+11/03/2020,5 Recreational,Bar/restaurant/nightclub,3
+11/03/2020,5 Recreational,Other recreation,4
+11/03/2020,5 Recreational,Personal service settings,1
+11/03/2020,5 Recreational,Recreational fitness,1
+11/04/2020,1 Congregate Care,Hospital,9
+11/04/2020,1 Congregate Care,Long-Term Care Home,90
+11/04/2020,1 Congregate Care,Retirement Home,37
+11/04/2020,2 Congregate Living,Group Home/Supportive Housing,1
+11/04/2020,2 Congregate Living,Shelter,3
+11/04/2020,3 Education,Child care,5
+11/04/2020,3 Education,School - Elementary,10
+11/04/2020,3 Education,School - Elementary/Secondary,1
+11/04/2020,3 Education,School - Secondary,5
+11/04/2020,4 Workplace,Medical/Health Service,3
+11/04/2020,4 Workplace,Workplace - Farm,2
+11/04/2020,4 Workplace,Workplace - Other,18
+11/04/2020,5 Recreational,Bar/restaurant/nightclub,2
+11/04/2020,5 Recreational,Other recreation,4
+11/05/2020,1 Congregate Care,Hospital,12
+11/05/2020,1 Congregate Care,Long-Term Care Home,111
+11/05/2020,1 Congregate Care,Retirement Home,34
+11/05/2020,2 Congregate Living,Congregate other,5
+11/05/2020,2 Congregate Living,Group Home/Supportive Housing,3
+11/05/2020,2 Congregate Living,Shelter,1
+11/05/2020,3 Education,Child care,11
+11/05/2020,3 Education,School - Elementary,9
+11/05/2020,3 Education,School - Elementary/Secondary,2
+11/05/2020,3 Education,School - Post-secondary,1
+11/05/2020,3 Education,School - Secondary,2
+11/05/2020,4 Workplace,Retail,3
+11/05/2020,4 Workplace,Workplace - Farm,2
+11/05/2020,4 Workplace,Workplace - Food Processing,3
+11/05/2020,4 Workplace,Workplace - Other,43
+11/05/2020,5 Recreational,Bar/restaurant/nightclub,2
+11/05/2020,5 Recreational,Other recreation,7
+11/05/2020,5 Recreational,Recreational fitness,3
+11/06/2020,1 Congregate Care,Hospital,5
+11/06/2020,1 Congregate Care,Long-Term Care Home,104
+11/06/2020,1 Congregate Care,Retirement Home,46
+11/06/2020,2 Congregate Living,Congregate other,2
+11/06/2020,2 Congregate Living,Group Home/Supportive Housing,7
+11/06/2020,2 Congregate Living,Shelter,1
+11/06/2020,3 Education,Child care,5
+11/06/2020,3 Education,School - Elementary,10
+11/06/2020,3 Education,School - Elementary/Secondary,3
+11/06/2020,3 Education,School - Secondary,9
+11/06/2020,4 Workplace,Retail,1
+11/06/2020,4 Workplace,Workplace - Farm,1
+11/06/2020,4 Workplace,Workplace - Food Processing,2
+11/06/2020,4 Workplace,Workplace - Other,34
+11/06/2020,5 Recreational,Bar/restaurant/nightclub,6
+11/06/2020,5 Recreational,Other recreation,8
+11/06/2020,5 Recreational,Recreational fitness,1
+11/07/2020,1 Congregate Care,Hospital,8
+11/07/2020,1 Congregate Care,Long-Term Care Home,95
+11/07/2020,1 Congregate Care,Retirement Home,30
+11/07/2020,2 Congregate Living,Congregate other,4
+11/07/2020,2 Congregate Living,Group Home/Supportive Housing,15
+11/07/2020,2 Congregate Living,Shelter,1
+11/07/2020,3 Education,Child care,4
+11/07/2020,3 Education,School - Elementary,16
+11/07/2020,3 Education,School - Elementary/Secondary,1
+11/07/2020,3 Education,School - Post-secondary,4
+11/07/2020,3 Education,School - Secondary,8
+11/07/2020,4 Workplace,Medical/Health Service,1
+11/07/2020,4 Workplace,Retail,1
+11/07/2020,4 Workplace,Workplace - Farm,4
+11/07/2020,4 Workplace,Workplace - Food Processing,1
+11/07/2020,4 Workplace,Workplace - Other,23
+11/07/2020,5 Recreational,Bar/restaurant/nightclub,4
+11/07/2020,5 Recreational,Other recreation,14
+11/07/2020,5 Recreational,Recreational fitness,1
+11/08/2020,1 Congregate Care,Hospital,5
+11/08/2020,1 Congregate Care,Long-Term Care Home,79
+11/08/2020,1 Congregate Care,Retirement Home,20
+11/08/2020,2 Congregate Living,Congregate other,4
+11/08/2020,2 Congregate Living,Group Home/Supportive Housing,5
+11/08/2020,3 Education,Child care,2
+11/08/2020,3 Education,School - Elementary,12
+11/08/2020,3 Education,School - Elementary/Secondary,2
+11/08/2020,3 Education,School - Secondary,1
+11/08/2020,4 Workplace,Retail,2
+11/08/2020,4 Workplace,Workplace - Farm,3
+11/08/2020,4 Workplace,Workplace - Food Processing,6
+11/08/2020,4 Workplace,Workplace - Other,36
+11/08/2020,5 Recreational,Bar/restaurant/nightclub,2
+11/08/2020,5 Recreational,Other recreation,2
+11/08/2020,5 Recreational,Personal service settings,1
+11/09/2020,1 Congregate Care,Hospital,8
+11/09/2020,1 Congregate Care,Long-Term Care Home,50
+11/09/2020,1 Congregate Care,Retirement Home,30
+11/09/2020,2 Congregate Living,Congregate other,2
+11/09/2020,2 Congregate Living,Group Home/Supportive Housing,11
+11/09/2020,2 Congregate Living,Shelter,2
+11/09/2020,3 Education,Child care,4
+11/09/2020,3 Education,School - Elementary,6
+11/09/2020,3 Education,School - Elementary/Secondary,2
+11/09/2020,3 Education,School - Post-secondary,1
+11/09/2020,3 Education,School - Secondary,4
+11/09/2020,4 Workplace,Medical/Health Service,2
+11/09/2020,4 Workplace,Retail,2
+11/09/2020,4 Workplace,Workplace - Food Processing,12
+11/09/2020,4 Workplace,Workplace - Other,80
+11/09/2020,5 Recreational,Bar/restaurant/nightclub,6
+11/09/2020,5 Recreational,Other recreation,9
+11/09/2020,5 Recreational,Recreational fitness,3
+11/10/2020,1 Congregate Care,Hospital,4
+11/10/2020,1 Congregate Care,Long-Term Care Home,118
+11/10/2020,1 Congregate Care,Retirement Home,17
+11/10/2020,2 Congregate Living,Congregate other,9
+11/10/2020,2 Congregate Living,Group Home/Supportive Housing,7
+11/10/2020,2 Congregate Living,Shelter,2
+11/10/2020,3 Education,Child care,3
+11/10/2020,3 Education,School - Elementary,18
+11/10/2020,3 Education,School - Elementary/Secondary,5
+11/10/2020,3 Education,School - Secondary,10
+11/10/2020,4 Workplace,Medical/Health Service,1
+11/10/2020,4 Workplace,Retail,2
+11/10/2020,4 Workplace,Workplace - Food Processing,32
+11/10/2020,4 Workplace,Workplace - Other,39
+11/10/2020,5 Recreational,Bar/restaurant/nightclub,11
+11/10/2020,5 Recreational,Other recreation,4
+11/10/2020,5 Recreational,Recreational fitness,3
+11/11/2020,1 Congregate Care,Hospital,12
+11/11/2020,1 Congregate Care,Long-Term Care Home,90
+11/11/2020,1 Congregate Care,Retirement Home,39
+11/11/2020,2 Congregate Living,Congregate other,11
+11/11/2020,2 Congregate Living,Group Home/Supportive Housing,7
+11/11/2020,3 Education,Child care,6
+11/11/2020,3 Education,School - Elementary,18
+11/11/2020,3 Education,School - Elementary/Secondary,2
+11/11/2020,3 Education,School - Post-secondary,1
+11/11/2020,3 Education,School - Secondary,6
+11/11/2020,4 Workplace,Retail,5
+11/11/2020,4 Workplace,Workplace - Farm,2
+11/11/2020,4 Workplace,Workplace - Food Processing,8
+11/11/2020,4 Workplace,Workplace - Other,33
+11/11/2020,5 Recreational,Bar/restaurant/nightclub,6
+11/11/2020,5 Recreational,Other recreation,3
+11/11/2020,5 Recreational,Personal service settings,1
+11/12/2020,1 Congregate Care,Hospital,10
+11/12/2020,1 Congregate Care,Long-Term Care Home,69
+11/12/2020,1 Congregate Care,Retirement Home,32
+11/12/2020,2 Congregate Living,Congregate other,22
+11/12/2020,2 Congregate Living,Group Home/Supportive Housing,4
+11/12/2020,3 Education,Child care,3
+11/12/2020,3 Education,School - Elementary,20
+11/12/2020,3 Education,School - Elementary/Secondary,2
+11/12/2020,3 Education,School - Secondary,6
+11/12/2020,4 Workplace,Medical/Health Service,4
+11/12/2020,4 Workplace,Retail,1
+11/12/2020,4 Workplace,Workplace - Food Processing,6
+11/12/2020,4 Workplace,Workplace - Other,51
+11/12/2020,5 Recreational,Bar/restaurant/nightclub,13
+11/12/2020,5 Recreational,Other recreation,3
+11/12/2020,5 Recreational,Recreational fitness,1
+11/13/2020,1 Congregate Care,Hospital,17
+11/13/2020,1 Congregate Care,Long-Term Care Home,65
+11/13/2020,1 Congregate Care,Retirement Home,22
+11/13/2020,2 Congregate Living,Congregate other,8
+11/13/2020,2 Congregate Living,Group Home/Supportive Housing,5
+11/13/2020,2 Congregate Living,Shelter,1
+11/13/2020,3 Education,Child care,3
+11/13/2020,3 Education,School - Elementary,8
+11/13/2020,3 Education,School - Elementary/Secondary,4
+11/13/2020,3 Education,School - Secondary,4
+11/13/2020,4 Workplace,Medical/Health Service,1
+11/13/2020,4 Workplace,Retail,2
+11/13/2020,4 Workplace,Workplace - Farm,3
+11/13/2020,4 Workplace,Workplace - Food Processing,6
+11/13/2020,4 Workplace,Workplace - Other,42
+11/13/2020,5 Recreational,Bar/restaurant/nightclub,6
+11/13/2020,5 Recreational,Other recreation,7
+11/13/2020,5 Recreational,Recreational fitness,4
+11/14/2020,1 Congregate Care,Hospital,6
+11/14/2020,1 Congregate Care,Long-Term Care Home,125
+11/14/2020,1 Congregate Care,Retirement Home,28
+11/14/2020,2 Congregate Living,Congregate other,9
+11/14/2020,2 Congregate Living,Group Home/Supportive Housing,1
+11/14/2020,2 Congregate Living,Shelter,4
+11/14/2020,3 Education,Child care,5
+11/14/2020,3 Education,School - Elementary,11
+11/14/2020,3 Education,School - Elementary/Secondary,6
+11/14/2020,3 Education,School - Post-secondary,1
+11/14/2020,3 Education,School - Secondary,3
+11/14/2020,4 Workplace,Medical/Health Service,2
+11/14/2020,4 Workplace,Retail,1
+11/14/2020,4 Workplace,Workplace - Food Processing,2
+11/14/2020,4 Workplace,Workplace - Other,58
+11/14/2020,5 Recreational,Bar/restaurant/nightclub,8
+11/14/2020,5 Recreational,Other recreation,8
+11/14/2020,5 Recreational,Recreational fitness,7
+11/15/2020,1 Congregate Care,Hospital,6
+11/15/2020,1 Congregate Care,Long-Term Care Home,47
+11/15/2020,1 Congregate Care,Retirement Home,10
+11/15/2020,2 Congregate Living,Congregate other,6
+11/15/2020,2 Congregate Living,Group Home/Supportive Housing,1
+11/15/2020,3 Education,Child care,2
+11/15/2020,3 Education,School - Elementary,14
+11/15/2020,3 Education,School - Elementary/Secondary,2
+11/15/2020,3 Education,School - Secondary,4
+11/15/2020,4 Workplace,Medical/Health Service,1
+11/15/2020,4 Workplace,Workplace - Food Processing,1
+11/15/2020,4 Workplace,Workplace - Other,40
+11/15/2020,5 Recreational,Bar/restaurant/nightclub,6
+11/15/2020,5 Recreational,Other recreation,2
+11/15/2020,5 Recreational,Recreational fitness,9
+11/16/2020,1 Congregate Care,Hospital,9
+11/16/2020,1 Congregate Care,Long-Term Care Home,26
+11/16/2020,1 Congregate Care,Retirement Home,10
+11/16/2020,2 Congregate Living,Congregate other,15
+11/16/2020,2 Congregate Living,Group Home/Supportive Housing,3
+11/16/2020,3 Education,Child care,2
+11/16/2020,3 Education,School - Elementary,20
+11/16/2020,3 Education,School - Elementary/Secondary,1
+11/16/2020,3 Education,School - Secondary,5
+11/16/2020,4 Workplace,Retail,3
+11/16/2020,4 Workplace,Workplace - Farm,4
+11/16/2020,4 Workplace,Workplace - Food Processing,4
+11/16/2020,4 Workplace,Workplace - Other,55
+11/16/2020,5 Recreational,Bar/restaurant/nightclub,5
+11/16/2020,5 Recreational,Other recreation,4
+11/16/2020,5 Recreational,Recreational fitness,19
+11/17/2020,1 Congregate Care,Hospital,4
+11/17/2020,1 Congregate Care,Long-Term Care Home,71
+11/17/2020,1 Congregate Care,Retirement Home,13
+11/17/2020,2 Congregate Living,Congregate other,2
+11/17/2020,2 Congregate Living,Group Home/Supportive Housing,3
+11/17/2020,3 Education,Child care,2
+11/17/2020,3 Education,School - Elementary,11
+11/17/2020,3 Education,School - Elementary/Secondary,2
+11/17/2020,3 Education,School - Secondary,5
+11/17/2020,4 Workplace,Medical/Health Service,3
+11/17/2020,4 Workplace,Retail,1
+11/17/2020,4 Workplace,Workplace - Food Processing,2
+11/17/2020,4 Workplace,Workplace - Other,30
+11/17/2020,5 Recreational,Other recreation,7
+11/17/2020,5 Recreational,Recreational fitness,8
+11/17/2020,6 Other/Unknown,Other,1
+11/18/2020,1 Congregate Care,Hospital,9
+11/18/2020,1 Congregate Care,Long-Term Care Home,29
+11/18/2020,1 Congregate Care,Retirement Home,14
+11/18/2020,2 Congregate Living,Congregate other,1
+11/18/2020,2 Congregate Living,Group Home/Supportive Housing,7
+11/18/2020,2 Congregate Living,Shelter,1
+11/18/2020,3 Education,Child care,5
+11/18/2020,3 Education,School - Elementary,19
+11/18/2020,3 Education,School - Elementary/Secondary,3
+11/18/2020,3 Education,School - Secondary,2
+11/18/2020,4 Workplace,Medical/Health Service,11
+11/18/2020,4 Workplace,Retail,1
+11/18/2020,4 Workplace,Workplace - Food Processing,4
+11/18/2020,4 Workplace,Workplace - Other,31
+11/18/2020,5 Recreational,Bar/restaurant/nightclub,4
+11/18/2020,5 Recreational,Other recreation,4
+11/18/2020,5 Recreational,Recreational fitness,10
+11/19/2020,1 Congregate Care,Hospital,8
+11/19/2020,1 Congregate Care,Long-Term Care Home,32
+11/19/2020,1 Congregate Care,Retirement Home,20
+11/19/2020,2 Congregate Living,Congregate other,9
+11/19/2020,2 Congregate Living,Group Home/Supportive Housing,1
+11/19/2020,2 Congregate Living,Shelter,2
+11/19/2020,3 Education,Child care,1
+11/19/2020,3 Education,School - Elementary,9
+11/19/2020,3 Education,School - Elementary/Secondary,2
+11/19/2020,3 Education,School - Post-secondary,1
+11/19/2020,3 Education,School - Secondary,3
+11/19/2020,4 Workplace,Medical/Health Service,3
+11/19/2020,4 Workplace,Retail,1
+11/19/2020,4 Workplace,Workplace - Food Processing,3
+11/19/2020,4 Workplace,Workplace - Other,43
+11/19/2020,5 Recreational,Bar/restaurant/nightclub,1
+11/19/2020,5 Recreational,Other recreation,5
+11/19/2020,5 Recreational,Recreational fitness,10
+11/19/2020,6 Other/Unknown,Other,1
+11/20/2020,1 Congregate Care,Hospital,6
+11/20/2020,1 Congregate Care,Long-Term Care Home,37
+11/20/2020,1 Congregate Care,Retirement Home,12
+11/20/2020,2 Congregate Living,Congregate other,7
+11/20/2020,2 Congregate Living,Correctional Facility,1
+11/20/2020,2 Congregate Living,Group Home/Supportive Housing,7
+11/20/2020,2 Congregate Living,Shelter,1
+11/20/2020,3 Education,Child care,1
+11/20/2020,3 Education,School - Elementary,41
+11/20/2020,3 Education,School - Secondary,5
+11/20/2020,4 Workplace,Medical/Health Service,5
+11/20/2020,4 Workplace,Retail,2
+11/20/2020,4 Workplace,Workplace - Farm,2
+11/20/2020,4 Workplace,Workplace - Food Processing,3
+11/20/2020,4 Workplace,Workplace - Other,54
+11/20/2020,5 Recreational,Bar/restaurant/nightclub,2
+11/20/2020,5 Recreational,Other recreation,5
+11/20/2020,5 Recreational,Recreational fitness,3
+11/21/2020,1 Congregate Care,Hospital,9
+11/21/2020,1 Congregate Care,Long-Term Care Home,46
+11/21/2020,1 Congregate Care,Retirement Home,7
+11/21/2020,2 Congregate Living,Congregate other,7
+11/21/2020,2 Congregate Living,Group Home/Supportive Housing,5
+11/21/2020,3 Education,Child care,2
+11/21/2020,3 Education,School - Elementary,23
+11/21/2020,3 Education,School - Elementary/Secondary,1
+11/21/2020,3 Education,School - Secondary,4
+11/21/2020,4 Workplace,Retail,3
+11/21/2020,4 Workplace,Workplace - Farm,3
+11/21/2020,4 Workplace,Workplace - Other,32
+11/21/2020,5 Recreational,Bar/restaurant/nightclub,4
+11/21/2020,5 Recreational,Other recreation,3
+11/21/2020,5 Recreational,Recreational fitness,5
+11/22/2020,1 Congregate Care,Hospital,12
+11/22/2020,1 Congregate Care,Long-Term Care Home,61
+11/22/2020,1 Congregate Care,Retirement Home,7
+11/22/2020,2 Congregate Living,Congregate other,2
+11/22/2020,2 Congregate Living,Group Home/Supportive Housing,2
+11/22/2020,3 Education,School - Elementary,17
+11/22/2020,3 Education,School - Elementary/Secondary,2
+11/22/2020,3 Education,School - Post-secondary,1
+11/22/2020,3 Education,School - Secondary,8
+11/22/2020,4 Workplace,Medical/Health Service,1
+11/22/2020,4 Workplace,Retail,7
+11/22/2020,4 Workplace,Workplace - Farm,1
+11/22/2020,4 Workplace,Workplace - Food Processing,2
+11/22/2020,4 Workplace,Workplace - Other,27
+11/22/2020,5 Recreational,Bar/restaurant/nightclub,1
+11/22/2020,5 Recreational,Other recreation,1
+11/22/2020,5 Recreational,Recreational fitness,6
+11/23/2020,1 Congregate Care,Hospital,14
+11/23/2020,1 Congregate Care,Long-Term Care Home,48
+11/23/2020,1 Congregate Care,Retirement Home,9
+11/23/2020,2 Congregate Living,Congregate other,6
+11/23/2020,2 Congregate Living,Group Home/Supportive Housing,2
+11/23/2020,2 Congregate Living,Shelter,1
+11/23/2020,3 Education,Child care,1
+11/23/2020,3 Education,School - Elementary,16
+11/23/2020,3 Education,School - Secondary,4
+11/23/2020,4 Workplace,Medical/Health Service,6
+11/23/2020,4 Workplace,Retail,11
+11/23/2020,4 Workplace,Workplace - Farm,4
+11/23/2020,4 Workplace,Workplace - Food Processing,3
+11/23/2020,4 Workplace,Workplace - Other,35
+11/23/2020,5 Recreational,Bar/restaurant/nightclub,2
+11/23/2020,5 Recreational,Recreational fitness,6
+11/24/2020,1 Congregate Care,Hospital,20
+11/24/2020,1 Congregate Care,Long-Term Care Home,38
+11/24/2020,1 Congregate Care,Retirement Home,10
+11/24/2020,2 Congregate Living,Congregate other,4
+11/24/2020,2 Congregate Living,Group Home/Supportive Housing,4
+11/24/2020,3 Education,Child care,1
+11/24/2020,3 Education,School - Elementary,12
+11/24/2020,3 Education,School - Elementary/Secondary,1
+11/24/2020,3 Education,School - Secondary,5
+11/24/2020,4 Workplace,Medical/Health Service,2
+11/24/2020,4 Workplace,Retail,10
+11/24/2020,4 Workplace,Workplace - Farm,1
+11/24/2020,4 Workplace,Workplace - Food Processing,2
+11/24/2020,4 Workplace,Workplace - Other,39
+11/24/2020,5 Recreational,Bar/restaurant/nightclub,1
+11/24/2020,5 Recreational,Other recreation,1
+11/24/2020,5 Recreational,Recreational fitness,8
+11/24/2020,6 Other/Unknown,Other,1
+11/24/2020,6 Other/Unknown,Unknown,1
+11/25/2020,1 Congregate Care,Hospital,18
+11/25/2020,1 Congregate Care,Long-Term Care Home,73
+11/25/2020,1 Congregate Care,Retirement Home,8
+11/25/2020,2 Congregate Living,Congregate other,10
+11/25/2020,2 Congregate Living,Group Home/Supportive Housing,5
+11/25/2020,3 Education,School - Elementary,9
+11/25/2020,3 Education,School - Secondary,6
+11/25/2020,4 Workplace,Medical/Health Service,3
+11/25/2020,4 Workplace,Retail,8
+11/25/2020,4 Workplace,Workplace - Food Processing,7
+11/25/2020,4 Workplace,Workplace - Other,25
+11/25/2020,5 Recreational,Bar/restaurant/nightclub,3
+11/25/2020,5 Recreational,Recreational fitness,6
+11/25/2020,6 Other/Unknown,Other,4
+11/26/2020,1 Congregate Care,Hospital,21
+11/26/2020,1 Congregate Care,Long-Term Care Home,104
+11/26/2020,1 Congregate Care,Retirement Home,8
+11/26/2020,2 Congregate Living,Congregate other,3
+11/26/2020,2 Congregate Living,Correctional Facility,1
+11/26/2020,2 Congregate Living,Group Home/Supportive Housing,6
+11/26/2020,3 Education,Child care,1
+11/26/2020,3 Education,School - Elementary,13
+11/26/2020,3 Education,School - Elementary/Secondary,1
+11/26/2020,3 Education,School - Secondary,3
+11/26/2020,4 Workplace,Medical/Health Service,4
+11/26/2020,4 Workplace,Retail,6
+11/26/2020,4 Workplace,Workplace - Farm,3
+11/26/2020,4 Workplace,Workplace - Food Processing,2
+11/26/2020,4 Workplace,Workplace - Other,32
+11/26/2020,5 Recreational,Bar/restaurant/nightclub,2
+11/26/2020,5 Recreational,Recreational fitness,3
+11/27/2020,1 Congregate Care,Hospital,23
+11/27/2020,1 Congregate Care,Long-Term Care Home,78
+11/27/2020,1 Congregate Care,Retirement Home,12
+11/27/2020,2 Congregate Living,Congregate other,6
+11/27/2020,2 Congregate Living,Group Home/Supportive Housing,20
+11/27/2020,3 Education,School - Elementary,10
+11/27/2020,3 Education,School - Secondary,4
+11/27/2020,4 Workplace,Medical/Health Service,3
+11/27/2020,4 Workplace,Retail,5
+11/27/2020,4 Workplace,Workplace - Food Processing,4
+11/27/2020,4 Workplace,Workplace - Other,19
+11/27/2020,5 Recreational,Recreational fitness,4
+11/27/2020,6 Other/Unknown,Other,1
+11/28/2020,1 Congregate Care,Hospital,7
+11/28/2020,1 Congregate Care,Long-Term Care Home,127
+11/28/2020,1 Congregate Care,Retirement Home,5
+11/28/2020,2 Congregate Living,Congregate other,4
+11/28/2020,2 Congregate Living,Group Home/Supportive Housing,5
+11/28/2020,3 Education,School - Elementary,8
+11/28/2020,3 Education,School - Elementary/Secondary,1
+11/28/2020,3 Education,School - Secondary,3
+11/28/2020,4 Workplace,Medical/Health Service,1
+11/28/2020,4 Workplace,Retail,3
+11/28/2020,4 Workplace,Workplace - Farm,1
+11/28/2020,4 Workplace,Workplace - Other,21
+11/28/2020,5 Recreational,Bar/restaurant/nightclub,3
+11/28/2020,5 Recreational,Other recreation,1
+11/28/2020,5 Recreational,Recreational fitness,1
+11/29/2020,1 Congregate Care,Hospital,16
+11/29/2020,1 Congregate Care,Long-Term Care Home,30
+11/29/2020,1 Congregate Care,Retirement Home,13
+11/29/2020,2 Congregate Living,Congregate other,1
+11/29/2020,2 Congregate Living,Correctional Facility,1
+11/29/2020,2 Congregate Living,Group Home/Supportive Housing,2
+11/29/2020,2 Congregate Living,Shelter,1
+11/29/2020,3 Education,Child care,1
+11/29/2020,3 Education,School - Elementary,4
+11/29/2020,3 Education,School - Secondary,3
+11/29/2020,4 Workplace,Retail,2
+11/29/2020,4 Workplace,Workplace - Farm,1
+11/29/2020,4 Workplace,Workplace - Other,13
+11/29/2020,5 Recreational,Bar/restaurant/nightclub,2
+11/29/2020,5 Recreational,Other recreation,1
+11/29/2020,5 Recreational,Recreational fitness,1
+11/29/2020,6 Other/Unknown,Other,1
+11/30/2020,1 Congregate Care,Hospital,13
+11/30/2020,1 Congregate Care,Long-Term Care Home,80
+11/30/2020,1 Congregate Care,Retirement Home,2
+11/30/2020,2 Congregate Living,Congregate other,5
+11/30/2020,2 Congregate Living,Group Home/Supportive Housing,1
+11/30/2020,2 Congregate Living,Shelter,1
+11/30/2020,3 Education,Child care,1
+11/30/2020,3 Education,School - Elementary,5
+11/30/2020,4 Workplace,Medical/Health Service,1
+11/30/2020,4 Workplace,Retail,2
+11/30/2020,4 Workplace,Workplace - Food Processing,1
+11/30/2020,4 Workplace,Workplace - Other,5
+11/30/2020,5 Recreational,Bar/restaurant/nightclub,1
+11/30/2020,6 Other/Unknown,Other,1
+12/01/2020,1 Congregate Care,Hospital,2
+12/01/2020,1 Congregate Care,Long-Term Care Home,41
+12/01/2020,1 Congregate Care,Retirement Home,4
+12/01/2020,2 Congregate Living,Group Home/Supportive Housing,2
+12/01/2020,3 Education,School - Elementary,7
+12/01/2020,3 Education,School - Secondary,1
+12/01/2020,4 Workplace,Workplace - Other,2
+12/01/2020,5 Recreational,Bar/restaurant/nightclub,1

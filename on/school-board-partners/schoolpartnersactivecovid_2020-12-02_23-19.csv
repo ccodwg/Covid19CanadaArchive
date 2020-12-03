@@ -1,0 +1,119 @@
+collected_date,reported_date,school_board,municipality,confirmed_school_partner_cases
+2020-09-16,2020-09-17,Dufferin Peel Catholic District School Board; Peel District School Board,Brampton; Mississauga,1
+2020-09-16,2020-09-17,Peel District School Board; Dufferin-Peel District School Board,Brampton,1
+2020-09-17,2020-09-18,Dufferin Peel Catholic District School Board; Peel District School Board,Peel Region,2
+2020-09-18,2020-09-21,Dufferin Peel Catholic District School Board; Peel District School Board,Peel Region,2
+2020-09-21,2020-09-22,Dufferin Peel Catholic District School Board; Peel District School Board,Peel Region,2
+2020-09-22,2020-09-23,Dufferin Peel Catholic District School Board; Peel District School Board,Peel Region,2
+2020-09-23,2020-09-24,Dufferin Peel Catholic District School Board; Peel District School Board,Peel Region,2
+2020-09-24,2020-09-25,Dufferin Peel Catholic District School Board; Peel District School Board,Peel Region,2
+2020-09-25,2020-09-28,Dufferin Peel Catholic District School Board; Peel District School Board,Peel Region,2
+2020-09-28,2020-09-29,Dufferin Peel Catholic District School Board; Peel District School Board,Peel Region,2
+2020-10-07,2020-10-08,Dufferin Peel Catholic District School and Peel District School Board,Brampton,1
+2020-10-08,2020-10-09,Dufferin Peel Catholic District School and Peel District School Board,Brampton,1
+2020-10-14,2020-10-15,Simcoe Muskoka Catholic District School Board,Bradford West Gwillimbury,1
+2020-10-15,2020-10-16,Simcoe Muskoka Catholic District School Board,Bradford West Gwillimbury,1
+2020-10-16,2020-10-19,Simcoe Muskoka Catholic District School Board,Bradford West Gwillimbury,1
+2020-10-16,2020-10-19,York Region District School Board and York Catholic District School Board,Vaughan,1
+2020-10-19,2020-10-20,Simcoe Muskoka Catholic District School Board,Bradford West Gwillimbury,1
+2020-10-19,2020-10-20,York Region District School Board and York Catholic District School Board,Vaughan,1
+2020-10-20,2020-10-21,Simcoe Muskoka Catholic District School Board,Bradford West Gwillimbury,1
+2020-10-20,2020-10-21,York Region District School Board and York Catholic District School Board,Vaughan,1
+2020-10-20,2020-10-21,Le Conseil scolaire catholique MonAvenir,Toronto,1
+2020-10-21,2020-10-22,Simcoe Muskoka Catholic District School Board,Bradford West Gwillimbury,1
+2020-10-21,2020-10-22,York Region District School Board and York Catholic District School Board,Vaughan,1
+2020-10-21,2020-10-22,Le Conseil scolaire catholique MonAvenir,Toronto,1
+2020-10-21,2020-10-22,Toronto District School Board,Toronto,1
+2020-10-22,2020-10-23,Simcoe Muskoka Catholic District School Board,Bradford West Gwillimbury,1
+2020-10-22,2020-10-23,York Region District School Board and York Catholic District School Board,Vaughan,1
+2020-10-22,2020-10-23,Le Conseil scolaire catholique MonAvenir,Toronto,1
+2020-10-22,2020-10-23,Toronto District School Board,Toronto,1
+2020-10-23,2020-10-26,Simcoe Muskoka Catholic District School Board,Bradford West Gwillimbury,1
+2020-10-23,2020-10-26,York Region District School Board and York Catholic District School Board,Vaughan,1
+2020-10-23,2020-10-26,Le Conseil scolaire catholique MonAvenir,Toronto,2
+2020-10-23,2020-10-26,Toronto District School Board,Toronto,1
+2020-10-26,2020-10-27,Simcoe Muskoka Catholic District School Board,Bradford West Gwillimbury,1
+2020-10-26,2020-10-27,York Region District School Board and York Catholic District School Board,Vaughan,1
+2020-10-26,2020-10-27,Le Conseil scolaire catholique MonAvenir,Toronto,2
+2020-10-26,2020-10-27,Toronto District School Board,Toronto,2
+2020-10-27,2020-10-28,York Region District School Board and York Catholic District School Board,Vaughan,1
+2020-10-27,2020-10-28,Le Conseil scolaire catholique MonAvenir,Toronto,2
+2020-10-27,2020-10-28,Toronto District School Board,Toronto,2
+2020-10-28,2020-10-29,York Region District School Board and York Catholic District School Board,Vaughan,1
+2020-10-28,2020-10-29,Le Conseil scolaire catholique MonAvenir,Toronto,2
+2020-10-28,2020-10-29,Toronto District School Board,Toronto,2
+2020-10-29,2020-10-30,York Region District School Board and York Catholic District School Board,Vaughan,1
+2020-10-29,2020-10-30,Le Conseil scolaire catholique MonAvenir,Toronto,2
+2020-10-29,2020-10-30,Toronto District School Board,Toronto,2
+2020-10-30,2020-11-02,Le Conseil scolaire catholique MonAvenir,Toronto,2
+2020-10-30,2020-11-02,Toronto District School Board,Toronto,2
+2020-11-02,2020-11-03,Le Conseil scolaire catholique MonAvenir,Toronto,2
+2020-11-02,2020-11-03,Toronto District School Board,Toronto,3
+2020-11-03,2020-11-04,Le Conseil scolaire catholique MonAvenir,Toronto,1
+2020-11-03,2020-11-04,Toronto District School Board,Toronto,3
+2020-11-03,2020-11-04,Peel District School Board,Brampton,1
+2020-11-04,2020-11-05,Le Conseil scolaire catholique MonAvenir,Toronto,2
+2020-11-04,2020-11-05,Toronto District School Board,Toronto,2
+2020-11-04,2020-11-05,Peel District School Board,Brampton,1
+2020-11-05,2020-11-06,Le Conseil scolaire catholique MonAvenir,Toronto,2
+2020-11-05,2020-11-06,Peel District School Board,Brampton,1
+2020-11-05,2020-11-06,Toronto District School Board,Toronto,2
+2020-11-06,2020-11-09,Le Conseil scolaire catholique MonAvenir,Toronto,1
+2020-11-06,2020-11-09,Peel District School Board,Brampton,1
+2020-11-06,2020-11-09,Toronto District School Board,Toronto,2
+2020-11-09,2020-11-10,Le Conseil scolaire catholique MonAvenir,Toronto,1
+2020-11-09,2020-11-10,Peel District School Board,Brampton,1
+2020-11-09,2020-11-10,Toronto District School Board,Toronto,1
+2020-11-10,2020-11-11,Le Conseil scolaire catholique MonAvenir,Toronto,1
+2020-11-10,2020-11-11,Peel District School Board,Brampton,2
+2020-11-10,2020-11-11,Toronto District School Board,Toronto,1
+2020-11-10,2020-11-11,Halton District School Board,Oakville,1
+2020-11-11,2020-11-12,Le Conseil scolaire catholique MonAvenir,Toronto,1
+2020-11-11,2020-11-12,Peel District School Board,Brampton,2
+2020-11-11,2020-11-12,Toronto District School Board,Toronto,1
+2020-11-11,2020-11-12,Halton District School Board,Oakville,1
+2020-11-12,2020-11-13,Le Conseil scolaire catholique MonAvenir,Toronto,1
+2020-11-12,2020-11-13,Peel District School Board,Brampton,2
+2020-11-12,2020-11-13,Toronto District School Board,Toronto,1
+2020-11-12,2020-11-13,Halton District School Board,Oakville,1
+2020-11-13,2020-11-16,Halton District School Board,Oakville,1
+2020-11-13,2020-11-16,Le Conseil scolaire catholique MonAvenir,Mississauga,1
+2020-11-13,2020-11-16,Le Conseil scolaire catholique MonAvenir,Toronto,1
+2020-11-13,2020-11-16,Peel District School Board,Brampton,2
+2020-11-13,2020-11-16,Toronto District School Board,Toronto,1
+2020-11-16,2020-11-17,Halton District School Board,Oakville,1
+2020-11-16,2020-11-17,Halton District School Board,Milton,1
+2020-11-16,2020-11-17,Le Conseil scolaire catholique MonAvenir,Mississauga,1
+2020-11-16,2020-11-17,Le Conseil scolaire catholique MonAvenir,Toronto,1
+2020-11-16,2020-11-17,Peel District School Board,Brampton,2
+2020-11-17,2020-11-18,Halton District School Board,Oakville,1
+2020-11-17,2020-11-18,Halton District School Board,Milton,1
+2020-11-17,2020-11-18,Le Conseil scolaire catholique MonAvenir,Mississauga,1
+2020-11-17,2020-11-18,Le Conseil scolaire catholique MonAvenir,Toronto,1
+2020-11-17,2020-11-18,Peel District School Board,Brampton,1
+2020-11-18,2020-11-19,Halton District School Board,Oakville,1
+2020-11-18,2020-11-19,Halton District School Board,Milton,1
+2020-11-18,2020-11-19,Le Conseil scolaire catholique MonAvenir,Mississauga,1
+2020-11-18,2020-11-19,Peel District School Board,Brampton,1
+2020-11-19,2020-11-20,Halton District School Board,Oakville,1
+2020-11-19,2020-11-20,Halton District School Board,Milton,1
+2020-11-19,2020-11-20,Le Conseil scolaire catholique MonAvenir,Mississauga,1
+2020-11-19,2020-11-20,Peel District School Board,Brampton,1
+2020-11-20,2020-11-23,Halton District School Board,Oakville,1
+2020-11-20,2020-11-23,Halton District School Board,Milton,1
+2020-11-20,2020-11-23,Le Conseil scolaire catholique MonAvenir,Mississauga,1
+2020-11-20,2020-11-23,Peel District School Board,Brampton,1
+2020-11-23,2020-11-24,Halton District School Board,Oakville,1
+2020-11-23,2020-11-24,Halton District School Board,Milton,1
+2020-11-23,2020-11-24,Le Conseil scolaire catholique MonAvenir,Mississauga,1
+2020-11-23,2020-11-24,Peel District School Board,Brampton,1
+2020-11-24,2020-11-25,Halton District School Board,Milton,1
+2020-11-24,2020-11-25,Le Conseil scolaire catholique MonAvenir,Mississauga,1
+2020-11-25,2020-11-26,Halton District School Board,Milton,1
+2020-11-25,2020-11-26,Le Conseil scolaire catholique MonAvenir,Mississauga,1
+2020-11-26,2020-11-27,Halton District School Board,Milton,1
+2020-11-26,2020-11-27,Le Conseil scolaire catholique MonAvenir,Mississauga,1
+2020-11-27,2020-11-30,Halton District School Board,Milton,1
+2020-11-27,2020-11-30,York Region District School Board,Vaughan,1
+2020-11-30,2020-12-01,York Region District School Board,Vaughan,1
+2020-12-01,2020-12-02,York Region District School Board,Vaughan,1
