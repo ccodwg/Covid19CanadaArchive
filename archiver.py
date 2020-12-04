@@ -678,7 +678,7 @@ if t.weekday() == 3:
 # run only on Thursdays
 if t.weekday() == 3:
         dl_file('https://health-infobase.canada.ca/src/data/covidLive/covidTrends/fluwatchers.csv',
-                'can/covidtrends-fluwatcher/',
+                'can/covidtrends-fluwatchers/',
                 'fluwatchers')
 
 # CAN - Detailed preliminary information on cases of COVID-19: 6 Dimensions (Aggregated data)

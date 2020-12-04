@@ -140,6 +140,10 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Hospitalizaiton, intensive care (ICU), mechanical ventilation: [can/hospitalizations-icu-mechanical-ventilation/covid19-epiSummary-hospVentICU.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/can/hospitalizations-icu-mechanical-ventilation)
     * Situational awareness dashboard update time: [can/situational-awareness-dashboard-update-time/covid19-updateTime.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/can/situational-awareness-dashboard-update-time)
     * Terms of use: [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
+* [COVIDTrends](https://health-infobase.canada.ca/covid-19/covidtrends/)
+    * Mobility: [can/covidtrends-mobility/mobility.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/can/covidtrends-mobility) [dataset is updated only on Thursdays]
+    * FluWatchers: [can/covidtrends-fluwatchers/fluwatchers.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/can/covidtrends-fluwatchers) [dataset is updated only on Thursdays]
+    * Terms of use: [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
 * [Detailed preliminary information on cases of COVID-19: 6 Dimensions (Aggregated data)](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310077401)
     * [can/detailed-preliminary-case-info-aggregated-6-dimensions/13100774.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/can/detailed-preliminary-case-info-aggregated-6-dimensions)
     * Includes supplementary material: Footnotes, metadata
