@@ -667,6 +667,16 @@ dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-updateTime
         'can/situational-awareness-dashboard-update-time/',
         'covid19-updateTime')
 
+# CAN - COVIDTrends (Mobility Data - Updated Thursdays)
+dl_file('https://health-infobase.canada.ca/src/data/covidLive/covidTrends/mobility.csv',
+        'can/covidtrends-indicators/',
+        'covid19-mobility')
+
+# CAN - COVIDTrends (FluWatchers Data - Updated Thursdays)
+dl_file('https://health-infobase.canada.ca/src/data/covidLive/covidTrends/fluwatchers.csv',
+        'can/covidtrends-indicators/',
+        'covid19-fluwatchers')
+
 # CAN - Detailed preliminary information on cases of COVID-19: 6 Dimensions (Aggregated data)
 dl_file('https://www150.statcan.gc.ca/n1/tbl/csv/13100774-eng.zip',
         'can/detailed-preliminary-case-info-aggregated-6-dimensions/',
