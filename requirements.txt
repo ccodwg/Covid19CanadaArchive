@@ -1,6 +1,7 @@
 pandas
 pytz
-gitpython
 requests
 selenium
 color-it
+oauth2client
+PyDrive

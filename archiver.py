@@ -8,6 +8,7 @@
 import sys
 import time
 import os
+from os.path import dirname, abspath
 from shutil import copyfile
 from datetime import datetime, timedelta
 from array import *
@@ -22,26 +23,26 @@ import pandas as pd # better data processing
 import pytz # better time zones
 from colorit import * # colourful printing
 
-## git
-from git import Repo
-
 ## web-scraping
 import requests
 from selenium import webdriver # requires ChromeDriver and Chromium/Chrome
 from selenium.webdriver.chrome.options import Options
 
+## Google Drive
+from oauth2client import service_account
+from pydrive.auth import GoogleAuth
+from pydrive.drive import GoogleDrive
+
 # list of environmental variables used in this script
-## GH_TOKEN: personal access token for the GitHub API (used when mode = prod)
-## GH_NAME: name to use for GitHub commits (used when mode = prod)
-## GH_MAIL: email address to use for GitHub commits (used when mode = prod)
+## GD_KEY (used when mode = server)
 ## GOOGLE_CHROME_BIN: path to binary in heroku-buildpack-google-chrome (used when mode = server)
 ## CHROMEDRIVER_PATH: path to binary in heroku-buildpack-chromedriver (used when mode = server)
 
 # set mode (server vs. local and prod vs. test)
 ## server: read environmental variables from Heroku config variables
-## local: read environmental variables from local files (in directory .gh/) or from system environmental variables
-## prod: download GitHub repo so that downloaded files can be added via commit
-## test: don't download GitHub repo, just test that files can be successfully downloaded
+## local: read environmental variables from system environmental variables
+## prod: upload files to Google Drive
+## test: don't upload files to Google Drive, just test that files can be successfully downloaded
 if len(sys.argv) == 1 or ((len(sys.argv) == 2) and (sys.argv[1] == 'serverprod')):
         mode = 'serverprod' # server / prod
 elif len(sys.argv) == 2 and sys.argv[1] == 'localprod':
@@ -65,95 +66,127 @@ failure = 0
 
 # access repo
 if mode == 'serverprod' or mode == 'localprod':
-        ## access token
+              
+        ## retrieve google drive credentials
         if mode == 'serverprod':
-                token = os.environ['GH_TOKEN']
-                gh_name = os.environ['GH_NAME']
-                gh_mail = os.environ['GH_MAIL']
+                gd_key = os.environ['GD_KEY']
         elif mode == 'localprod':
-                token = open('.gh/token.txt', 'r').readline().rstrip()
-                gh_name = open('.gh/gh_name.txt', 'r').readline().rstrip()
-                gh_mail = open('.gh/gh_mail.txt', 'r').readline().rstrip()
-        ## set repository directory
-        repo_dir = 'temp_archive'
-        ## shallow clone (minimize download size while still allowing a commit to be made)
-        repo_remote = 'https://' + token + ':x-oauth-basic@github.com/jeanpaulrsoucy/covid-19-canada-gov-data'
-        repo = Repo.clone_from(repo_remote, repo_dir, depth=1)
-        origin = repo.remote('origin')
-        ### set GitHub identity
-        repo.config_writer().set_value("user", "name", gh_name).release()
-        repo.config_writer().set_value("user", "email", gh_mail).release()
-        ## initialize file list for commit
-        file_list = []
-        ## initialize commit message for commit
-        commit_message = ''
-
+                script_path = dirname(abspath(__file__))
+                gd_key = os.path.join(script_path, ".gd", ".gd_key.json")                
+        
+        ## authenticate Google Drive access
+        gauth = GoogleAuth()
+        scope = ['https://www.googleapis.com/auth/drive']
+        gauth.credentials = service_account.ServiceAccountCredentials.from_json_keyfile_name(gd_key, scope)
+        
+        ## initialize Drive object
+        drive = GoogleDrive(gauth)
+        
+        ## create httplib.Http() object
+        ## see https://pypi.org/project/PyDrive/ - "Concurrent access made easy"
+        http = drive.auth.Get_Http_Object()
+        
+        ## set root directory of public file archive in Google Drive
+        archive_dir = 'archive_test'
+        
+        ## initialize log message
+        log_message = ''
+        
+        ## load Google Drive directory IDs
+        dir_id_list = pd.read_csv("https://raw.githubusercontent.com/jeanpaulrsoucy/covid-19-canada-gov-data/master/data_catalogue.csv")
+        
+        ## set log file IDs
+        archive_id = '10ET5FBqO-K8FBdEaXgBjBZwJskIZGKNG'
+        log_id = '10tbxUYVfghhzvoGOi8piHBHHGn0MgU7X'
+        log_recent_id = '1x0zCPzgKRpme5NOxUiYWHCrfiDUbsAFM'
+        
 # define functions
 
-def prep_file(repo_dir, name, full_name, data = None, fpath=None, copy=False):
-        """Prepare file for commit.
-        
-        File is either written into the git repository (when copy is False) or copied from a temporary directory into the git repository (when copy is True).
+def upload_file(full_name, f_path):
+        """Upload local file to Google Drive.
         
         Parameters:
-        repo_dir (str): Directory containing the git repository.
-        name (str): Output file name with timestamp and no extension.
         full_name (str): Output filename with timestamp, extension, and relative path.
-        data (bytes): The file as a bytes object (provide only when copy is False).
-        fpath (str): The path of the file in the temporary directory (provide only when copy is True).
-        copy (bool): Is the file already written and needs to be copied? (Default: False, see fpath and data)
+        f_path (str): The path to the local file to upload.
         
         """
-        global commit_message, success, failure
-        ## define path to save file
-        spath = os.path.join(repo_dir, full_name)
-        ## create directory if necessary
-        os.makedirs(os.path.dirname(spath), exist_ok=True)
-        ## copy is True: downloaded file exists as a file in a temporary directory,
-        ## need to copy it to the save path
-        if copy:
-                copyfile(fpath, spath)
-        ## copy is False: downloaded file exists as an object in Python,
-        ## need to write it to the save path
-        else:
-                with open(spath, mode='wb') as local_file:
-                        local_file.write(data)
-        ## append file to the list of files in the commit
+        global log_message, success, failure, dir_id_list, http
+        
+        ## get Google Drive folder ID        
+        dir_file = os.path.dirname(full_name).split('/')[-1]
+        dir_parent = os.path.dirname(os.path.dirname(full_name))
+        dir_id = dir_id_list.loc[(dir_id_list['dir_parent'] == dir_parent) & (dir_id_list['dir_file'] == dir_file), 'dir_id'].values[0]
+        
+        ## generate file name
+        f_name = os.path.basename(full_name)
+        
+        ## upload file to Google Drive
         try:
-                file_list.append(full_name)
-                ## append name of file to the commit message
-                commit_message = commit_message + 'Success: ' + full_name + '\n'
-                print(color('Copy successful: ' + full_name, Colors.blue))
+                ## file upload
+                drive_file = drive.CreateFile(metadata={'title': f_name, 'parents': [{'id': dir_id}]})
+                drive_file.SetContentFile(f_path)
+                drive_file.Upload(param={"http": http})
+                ## append name of file to the log message
+                log_message = log_message + 'Success: ' + full_name + '\n'
+                print(color('Upload successful: ' + full_name, Colors.blue))
                 success+=1
         except:
-                commit_message = commit_message + 'Failure: ' + full_name + '\n'
-                print(background('Error copying: ' + full_name, Colors.red))
+                log_message = log_message + 'Failure: ' + full_name + '\n'
+                print(background('Upload failed: ' + full_name, Colors.red))
                 failure+=1
 
-def commit_files(repo, origin, file_list, commit_message, success, failure, t):
-        """Commit files to git repository and push to remote.
+def upload_log(archive_id, log_id, log_recent_id, log_message, success, failure, t):
+        """Upload the log of file uploads to Google Drive.
+        
+        The most recent log entry is placed in a separate file for easy access.
         
         Parameters:
-        repo: Repo object from gitpython.
-        origin: Remote object from gitpython.
-        file_list (list): List of paths to files to commit.
-        commit_message (str): Commit message.
-        success (int): The number of files successfully downloaded.
-        failure (int): The number of files unsuccessfully downloaded.
+        archive_id (str): Google Drive ID of the folder containing the logs (root of the archive).
+        log_id (str): Google Drive ID of log.txt.
+        log_recent_id (str): Google Drive ID of log_recent.txt.
+        log_message (str): Log message.
         t (datetime): Date and time script began running (America/Toronto).
         
         """
-        print("Commiting files...")
+        global http
+        print("Uploading recent log...")
         try:
+                ## build most recent log entry
                 total_files = str(success + failure)
-                commit_message = 'Successful downloads : ' + str(success) + '/' + total_files + '\n' + 'Failed downloads: ' + str(failure) + '/' + total_files + '\n\n' + commit_message
-                commit_message = 'Nightly update: ' + str(t.date()) + '\n\n' + commit_message
-                repo.index.add(file_list)
-                repo.index.commit(commit_message)
-                origin.push()
-                print(color('Commit successful!', Colors.green))
+                log_message = 'Successful downloads : ' + str(success) + '/' + total_files + '\n' + 'Failed downloads: ' + str(failure) + '/' + total_files + '\n\n' + log_message
+                log_message = str(t) + '\n\n' + 'Nightly update: ' + str(t.date()) + '\n\n' + log_message
+                
+                ## upload log_recent.txt
+                drive_file = drive.CreateFile({'id': log_recent_id})
+                drive_file.SetContentString(log_message)
+                drive_file.Upload(param={"http": http})
+                
+                ## report success
+                print(color('Recent log upload successful!', Colors.green))
         except:
-                print(background('Commit failed!', Colors.red))
+                print(background('Recent log upload failed!', Colors.red))
+        print("Appending recent log to full log...")
+        try:
+                ## read in full log
+                drive_file = drive.CreateFile({'id': log_id})
+                tmpdir = tempfile.TemporaryDirectory()
+                log_file = os.path.join(tmpdir.name, 'log.txt')
+                drive_file.GetContentFile(log_file)
+                with open(log_file, 'r') as full_log:
+                        full_log = full_log.read()
+                
+                ## append recent log to full log
+                log_message = full_log + '\n\n' + log_message
+                
+                ## upload log.txt
+                drive_file = drive.CreateFile({'id': log_id})
+                drive_file.SetContentString(log_message)
+                drive_file.Upload(param={"http": http})                
+                
+                ## report success
+                print(color('Full log upload successful!', Colors.green))                
+        except:
+                print(background('Full log upload failed!', Colors.red))
 
 def dl_file(url, path, file, user=False, ext='.csv', unzip=False, mb_json_to_csv=False):
         """Download file (generic).
@@ -173,78 +206,84 @@ def dl_file(url, path, file, user=False, ext='.csv', unzip=False, mb_json_to_csv
         mb_json_to_csv (bool): If True, this is a Manitoba JSON file that that should be converted to CSV. Default: False.
         
         """
-        global commit_message, success, failure
+        global log_message, success, failure
         
         ## set names with timestamp and file ext
         name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
-        full_name = os.path.join(path, name + ext)        
+        full_name = os.path.join(path, name + ext)
         
-        ## some websites will reject the request unless you look like a normal web browser
-        ## user is True provides a normal-looking user agent string to bypass this
-        if user is True:
-                headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0"}
-                req = requests.get(url, headers=headers)
-        else:
-                req = requests.get(url)
-        
-        ## check if request was successful
-        if not req.ok:
-                ## print failure
-                print(background('Error downloading: ' + full_name, Colors.red))
-                failure+=1
-                ## write failure to commit message if mode == prod
-                if mode == 'serverprod' or mode == 'localprod':
-                        commit_message = commit_message + 'Failure: ' + full_name + '\n'
-        ## successful request: if mode == test, print success and end
-        elif mode == 'servertest' or mode == 'localtest':
-                ## print success
-                print(color('Test download successful: ' + full_name, Colors.green))
-                success+=1
-        ## successful request: mode == prod, prepare files for commit
-        else:
-                if unzip:
-                        ## unzip data
-                        name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
-                        full_name = os.path.join(path, name + ext)
-                        tmpdir = tempfile.TemporaryDirectory()
-                        zpath = os.path.join(tmpdir.name, 'zip_file.zip')
-                        with open(zpath, mode='wb') as local_file:
-                                local_file.write(req.content)                        
-                        with ZipFile(zpath, 'r') as zip_file:
-                                zip_file.extractall(tmpdir.name)
-                        fpath = os.path.join(tmpdir.name, file + ext)
-                        if file == '13100781':
-                                ## read CSV (informative columns only)
-                                data = pd.read_csv(fpath, usecols=['REF_DATE', 'Case identifier number', 'Case information', 'VALUE'])
-                                ## save original order of column values
-                                col_order = data['Case information'].unique()
-                                ## pivot long to wide
-                                data = data.pivot(index=['REF_DATE', 'Case identifier number'], columns='Case information', values='VALUE').reset_index()
-                                ## use original column order
-                                data = data[['REF_DATE', 'Case identifier number'] + col_order.tolist()]
-                                ## write CSV
-                                data.to_csv(fpath, index=None, quoting=csv.QUOTE_NONNUMERIC)
-                        ## prepare file for commit
-                        prep_file(repo_dir, name=name, full_name=full_name, fpath=fpath, copy=True)                        
-                elif mb_json_to_csv:
-                        ## for Manitoba JSON data only: convert JSON to CSV and save as temporary file
-                        name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
-                        full_name = os.path.join(path, name + ext)                          
-                        tmpdir = tempfile.TemporaryDirectory()
-                        fpath = os.path.join(tmpdir.name, file + ext)
-                        data = pd.json_normalize(json.loads(req.content)['features'])
-                        data.columns = data.columns.str.lstrip('attributes.') # strip prefix
-                        ## replace timestamps with actual dates
-                        if 'Date' in data.columns:
-                                data.Date = pd.to_datetime(data.Date / 1000, unit='s').dt.date
-                        data = data.to_csv(fpath, index=None)
-                        ## prepare file for commit
-                        prep_file(repo_dir, name=name, full_name=full_name, fpath=fpath, copy=True)
+        ## download file
+        try:
+                ## some websites will reject the request unless you look like a normal web browser
+                ## user is True provides a normal-looking user agent string to bypass this
+                if user is True:
+                        headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0"}
+                        req = requests.get(url, headers=headers)
                 else:
-                        ## all other data: grab content from request as an object
-                        data = req.content
-                        ## prepare file for commit
-                        prep_file(repo_dir, name=name, full_name=full_name, data=data)
+                        req = requests.get(url)
+                
+                ## check if request was successful
+                if not req.ok:
+                        ## print failure
+                        print(background('Error downloading: ' + full_name, Colors.red))
+                        failure+=1
+                        ## write failure to log message if mode == prod
+                        if mode == 'serverprod' or mode == 'localprod':
+                                log_message = log_message + 'Failure: ' + full_name + '\n'
+                ## successful request: if mode == test, print success and end
+                elif mode == 'servertest' or mode == 'localtest':
+                        ## print success
+                        print(color('Test download successful: ' + full_name, Colors.green))
+                        success+=1
+                ## successful request: mode == prod, upload file
+                else:
+                        if unzip:
+                                ## unzip data
+                                name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
+                                full_name = os.path.join(path, name + ext)
+                                tmpdir = tempfile.TemporaryDirectory()
+                                zpath = os.path.join(tmpdir.name, 'zip_file.zip')
+                                with open(zpath, mode='wb') as local_file:
+                                        local_file.write(req.content)                        
+                                with ZipFile(zpath, 'r') as zip_file:
+                                        zip_file.extractall(tmpdir.name)
+                                f_path = os.path.join(tmpdir.name, file + ext)
+                                if file == '13100781':
+                                        ## read CSV (informative columns only)
+                                        data = pd.read_csv(f_path, usecols=['REF_DATE', 'Case identifier number', 'Case information', 'VALUE'])
+                                        ## save original order of column values
+                                        col_order = data['Case information'].unique()
+                                        ## pivot long to wide
+                                        data = data.pivot(index=['REF_DATE', 'Case identifier number'], columns='Case information', values='VALUE').reset_index()
+                                        ## use original column order
+                                        data = data[['REF_DATE', 'Case identifier number'] + col_order.tolist()]
+                                        ## write CSV
+                                        data.to_csv(f_path, index=None, quoting=csv.QUOTE_NONNUMERIC)                       
+                        elif mb_json_to_csv:
+                                ## for Manitoba JSON data only: convert JSON to CSV and save as temporary file
+                                name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
+                                full_name = os.path.join(path, name + ext)                          
+                                tmpdir = tempfile.TemporaryDirectory()
+                                f_path = os.path.join(tmpdir.name, file + ext)
+                                data = pd.json_normalize(json.loads(req.content)['features'])
+                                data.columns = data.columns.str.lstrip('attributes.') # strip prefix
+                                ## replace timestamps with actual dates
+                                if 'Date' in data.columns:
+                                        data.Date = pd.to_datetime(data.Date / 1000, unit='s').dt.date
+                                data = data.to_csv(f_path, index=None)
+                        else:
+                                ## all other data: write contents to temporary file
+                                tmpdir = tempfile.TemporaryDirectory()
+                                f_path = os.path.join(tmpdir.name, file + ext)
+                                with open(f_path, mode='wb') as local_file:
+                                        local_file.write(req.content)
+                        ## upload file
+                        upload_file(full_name, f_path)
+        except:
+                if mode == 'serverprod' or mode == 'localprod':
+                        log_message = log_message + 'Failure: ' + full_name + '\n'
+                elif mode == 'servertest' or mode == 'localtest':
+                        print(background('Error downloading: ' + full_name, Colors.red))
 
 def load_webdriver(mode, tmpdir):
         """Load Chromium headless webdriver for Selenium.
@@ -281,52 +320,59 @@ def dl_ab_cases(url, path, file, ext='.csv', wait=5):
         wait (int): Time in seconds that the function should wait. Should be > 0 to ensure the download is successful.
         
         """
-        global commit_message, success, failure
+        global log_message, success, failure
         
         ## set names with timestamp and file ext
         name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
         full_name = os.path.join(path, name + ext)           
         
-        ## create temporary directory
-        tmpdir = tempfile.TemporaryDirectory()
-        
-        ## load webdriver
-        driver = load_webdriver(mode, tmpdir)
-        driver.implicitly_wait(10)
-        
-        ## click to correct tab then click CSV button to export
-        driver.get(url)
-        elements = driver.find_elements_by_tag_name("li")
-        for element in elements:
-                if element.text == 'Data export':
-                        element.click()
-        elements = driver.find_elements_by_tag_name("button")
-        for element in elements:
-                if element.text == 'CSV':
-                        element.click()
-        
-        ## verify download
-        fpath = os.path.join(tmpdir.name, file + ext)
-        time.sleep(wait) # wait for download to finish
-        if not os.path.isfile(fpath):
-                ## print failure
-                print(background('Error downloading: ' + full_name, Colors.red))
-                failure+=1
-                ## write failure to commit message if mode == prod
+        ## download file
+        try:
+                ## create temporary directory
+                tmpdir = tempfile.TemporaryDirectory()
+                
+                ## load webdriver
+                driver = load_webdriver(mode, tmpdir)
+                driver.implicitly_wait(wait + 10)
+                
+                ## click to correct tab then click CSV button to export
+                driver.get(url)
+                elements = driver.find_elements_by_tag_name("li")
+                for element in elements:
+                        if element.text == 'Data export':
+                                element.click()
+                elements = driver.find_elements_by_tag_name("button")
+                for element in elements:
+                        if element.text == 'CSV':
+                                element.click()
+                
+                ## verify download
+                f_path = os.path.join(tmpdir.name, file + ext)
+                time.sleep(wait) # wait for download to finish
+                if not os.path.isfile(f_path):
+                        ## print failure
+                        print(background('Error downloading: ' + full_name, Colors.red))
+                        failure+=1
+                        ## write failure to log message if mode == prod
+                        if mode == 'serverprod' or mode == 'localprod':
+                                log_message = log_message + 'Failure: ' + full_name + '\n'
+                ## successful request: if mode == test, print success and end
+                elif mode == 'servertest' or mode == 'localtest':
+                        ## print success
+                        print(color('Test download successful: ' + full_name, Colors.green))
+                        success+=1
+                ## successful request: mode == prod, prepare files for data upload
+                else:
+                        ## upload file
+                        upload_file(full_name, f_path)
+                
+                ## quit webdriver
+                driver.quit()
+        except:
                 if mode == 'serverprod' or mode == 'localprod':
-                        commit_message = commit_message + 'Failure: ' + full_name + '\n'
-        ## successful request: if mode == test, print success and end
-        elif mode == 'servertest' or mode == 'localtest':
-                ## print success
-                print(color('Test download successful: ' + full_name, Colors.green))
-                success+=1
-        ## successful request: mode == prod, prepare files for commit
-        else:
-                ## prepare file for commit
-                prep_file(repo_dir, name=name, full_name=full_name, fpath=fpath, copy=True)
-        
-        ## quit webdriver
-        driver.quit()
+                        log_message = log_message + 'Failure: ' + full_name + '\n'
+                elif mode == 'servertest' or mode == 'localtest':
+                        print(background('Error downloading: ' + full_name, Colors.red))
 
 def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
         """Download CSV file: AB - "COVID-19 relaunch status map" or AB - "COVID-19 school status map"
@@ -343,48 +389,55 @@ def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
         wait (int): Time in seconds that the function should wait. Should be > 0 to ensure the download is successful.
         
         """        
-        global commit_message, success, failure
+        global log_message, success, failure
         
         ## set names with timestamp and file ext
         name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
         full_name = os.path.join(path, name + ext)        
         
-        ## create temporary directory
-        tmpdir = tempfile.TemporaryDirectory()
-        
-        ## load webdriver
-        driver = load_webdriver(mode, tmpdir)
-        driver.implicitly_wait(10)
-        
-        ## click CSV button to export
-        driver.get(url)
-        elements = driver.find_elements_by_tag_name("button")
-        for element in elements:
-                if element.text == 'CSV':
-                        element.click()
-                        
-        ## verify download
-        fpath = os.path.join(tmpdir.name, file + ext)
-        time.sleep(wait) # wait for download to finish
-        if not os.path.isfile(fpath):
-                ## print failure
-                print(background('Error downloading: ' + full_name, Colors.red))
-                failure+=1
-                ## write failure to commit message if mode == prod
+        ## download file
+        try:
+                ## create temporary directory
+                tmpdir = tempfile.TemporaryDirectory()
+                
+                ## load webdriver
+                driver = load_webdriver(mode, tmpdir)
+                driver.implicitly_wait(wait + 10)
+                
+                ## click CSV button to export
+                driver.get(url)
+                elements = driver.find_elements_by_tag_name("button")
+                for element in elements:
+                        if element.text == 'CSV':
+                                element.click()
+                                
+                ## verify download
+                f_path = os.path.join(tmpdir.name, file + ext)
+                time.sleep(wait) # wait for download to finish
+                if not os.path.isfile(f_path):
+                        ## print failure
+                        print(background('Error downloading: ' + full_name, Colors.red))
+                        failure+=1
+                        ## write failure to log message if mode == prod
+                        if mode == 'serverprod' or mode == 'localprod':
+                                log_message = log_message + 'Failure: ' + full_name + '\n'
+                ## successful request: if mode == test, print success and end
+                elif mode == 'servertest' or mode == 'localtest':
+                        ## print success
+                        print(color('Test download successful: ' + full_name, Colors.green))
+                        success+=1
+                ## successful request: mode == prod, prepare files for data upload
+                else:
+                        ## upload file
+                        upload_file(full_name, f_path)
+                
+                ## quit webdriver
+                driver.quit()
+        except:
                 if mode == 'serverprod' or mode == 'localprod':
-                        commit_message = commit_message + 'Failure: ' + full_name + '\n'
-        ## successful request: if mode == test, print success and end
-        elif mode == 'servertest' or mode == 'localtest':
-                ## print success
-                print(color('Test download successful: ' + full_name, Colors.green))
-                success+=1
-        ## successful request: mode == prod, prepare files for commit
-        else:
-                ## prepare file for commit
-                prep_file(repo_dir, name=name, full_name=full_name, fpath=fpath, copy=True)
-        
-        ## quit webdriver
-        driver.quit()
+                        log_message = log_message + 'Failure: ' + full_name + '\n'
+                elif mode == 'servertest' or mode == 'localtest':
+                        print(background('Error downloading: ' + full_name, Colors.red))
 
 def html_page(url, path, file, ext='.html', js=False, wait=None):
         """Save HTML of a webpage.
@@ -398,51 +451,58 @@ def html_page(url, path, file, ext='.html', js=False, wait=None):
         wait (int): Used only if js = True. Time in seconds that the function should wait for the page to render. If the time is too short, the source code may not be captured.
         
         """
-        global commit_message, success, failure
+        global log_message, success, failure
         
         ## set names with timestamp and file ext
         name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
         full_name = os.path.join(path, name + ext)        
         
-        ## create temporary directory
-        tmpdir = tempfile.TemporaryDirectory()
-        
-        ## load webdriver
-        driver = load_webdriver(mode, tmpdir)
-        
-        ## load page
-        driver.get(url)
-        
-        ## save HTML of webpage
-        fpath = os.path.join(tmpdir.name, file + ext)
-        if js:
-                time.sleep(wait)
-                with open(fpath, 'w') as local_file:
-                        local_file.write(driver.find_element_by_tag_name('html').get_attribute('innerHTML'))
-        else:
-                with open(fpath, 'w') as local_file:
-                        local_file.write(driver.page_source)
+        ## download file
+        try:
+                ## create temporary directory
+                tmpdir = tempfile.TemporaryDirectory()
                 
-        ## verify download
-        if not os.path.isfile(fpath):
-                ## print failure
-                print(background('Error downloading: ' + full_name, Colors.red))
-                failure+=1
-                ## write failure to commit message if mode == prod
+                ## load webdriver
+                driver = load_webdriver(mode, tmpdir)
+                
+                ## load page
+                driver.get(url)
+                
+                ## save HTML of webpage
+                f_path = os.path.join(tmpdir.name, file + ext)
+                if js:
+                        time.sleep(wait)
+                        with open(f_path, 'w') as local_file:
+                                local_file.write(driver.find_element_by_tag_name('html').get_attribute('innerHTML'))
+                else:
+                        with open(f_path, 'w') as local_file:
+                                local_file.write(driver.page_source)
+                        
+                ## verify download
+                if not os.path.isfile(f_path):
+                        ## print failure
+                        print(background('Error downloading: ' + full_name, Colors.red))
+                        failure+=1
+                        ## write failure to log message if mode == prod
+                        if mode == 'serverprod' or mode == 'localprod':
+                                log_message = log_message + 'Failure: ' + full_name + '\n'
+                ## successful request: if mode == test, print success and end
+                elif mode == 'servertest' or mode == 'localtest':
+                        ## print success
+                        print(color('Test download successful: ' + full_name, Colors.green))
+                        success+=1
+                ## successful request: mode == prod, prepare files for data upload
+                else:
+                        ## upload file
+                        upload_file(full_name, f_path)
+                
+                ## quit webdriver
+                driver.quit()
+        except:
                 if mode == 'serverprod' or mode == 'localprod':
-                        commit_message = commit_message + 'Failure: ' + full_name + '\n'
-        ## successful request: if mode == test, print success and end
-        elif mode == 'servertest' or mode == 'localtest':
-                ## print success
-                print(color('Test download successful: ' + full_name, Colors.green))
-                success+=1
-        ## successful request: mode == prod, prepare files for commit
-        else:
-                ## prepare file for commit
-                prep_file(repo_dir, name=name, full_name=full_name, fpath=fpath, copy=True)
-        
-        ## quit webdriver
-        driver.quit()      
+                        log_message = log_message + 'Failure: ' + full_name + '\n'
+                elif mode == 'servertest' or mode == 'localtest':
+                        print(background('Error downloading: ' + full_name, Colors.red))                
 
 def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
         """Take a screenshot of a webpage.
@@ -459,64 +519,71 @@ def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
         height (int): Height of the output screenshot. Default: None. If not set, the function attempts to detect the maximum height.
         
         """
-        global commit_message, success, failure
+        global log_message, success, failure
         
         ## set names with timestamp and file ext
         name = file + '_' + datetime.now(pytz.timezone('America/Toronto')).strftime('%Y-%m-%d_%H-%M')
         full_name = os.path.join(path, name + ext)        
         
-        ## create temporary directory
-        tmpdir = tempfile.TemporaryDirectory()
-        
-        ## load webdriver
-        driver = load_webdriver(mode, tmpdir)
-        
-        ## load page and wait
-        driver.get(url)
-        time.sleep(wait) # wait for page to load      
-                        
-        ## take screenshot
-        fpath = os.path.join(tmpdir.name, file + ext)
-        
-        ## get total width of the page if it is not set by the user
-        if width is None:
-                width = driver.execute_script('return document.body.parentNode.scrollWidth')
-        ## get total height of the page if it is not set by the user
-        if height is None:
-                height = driver.execute_script('return document.body.parentNode.scrollHeight')
-        ## set window size
-        driver.set_window_size(width, height)
-        ## take screenshot (and don't stop the script if it fails)
+        ## download file
         try:
-                driver.find_element_by_tag_name('body').screenshot(fpath) # remove scrollbar
+                ## create temporary directory
+                tmpdir = tempfile.TemporaryDirectory()
                 
-                ## verify screenshot
-                if not os.path.isfile(fpath):
+                ## load webdriver
+                driver = load_webdriver(mode, tmpdir)
+                
+                ## load page and wait
+                driver.get(url)
+                time.sleep(wait) # wait for page to load      
+                                
+                ## take screenshot
+                f_path = os.path.join(tmpdir.name, file + ext)
+                
+                ## get total width of the page if it is not set by the user
+                if width is None:
+                        width = driver.execute_script('return document.body.parentNode.scrollWidth')
+                ## get total height of the page if it is not set by the user
+                if height is None:
+                        height = driver.execute_script('return document.body.parentNode.scrollHeight')
+                ## set window size
+                driver.set_window_size(width, height)
+                ## take screenshot (and don't stop the script if it fails)
+                try:
+                        driver.find_element_by_tag_name('body').screenshot(f_path) # remove scrollbar
+                        
+                        ## verify screenshot
+                        if not os.path.isfile(f_path):
+                                ## print failure
+                                print(background('Error downloading: ' + full_name, Colors.red))
+                                failure+=1
+                                ## write failure to log message if mode == prod
+                                if mode == 'serverprod' or mode == 'localprod':
+                                        log_message = log_message + 'Failure: ' + full_name + '\n'
+                        elif mode == 'servertest' or mode == 'localtest':
+                                ## print success
+                                print(color('Test download successful: ' + full_name, Colors.green))
+                                success+=1
+                        else:
+                                ## upload file
+                                upload_file(full_name, f_path)
+                except Exception as e:
+                        ## print exception
+                        print(e)
                         ## print failure
                         print(background('Error downloading: ' + full_name, Colors.red))
                         failure+=1
-                        ## write failure to commit message if mode == prod
+                        ## write failure to log message if mode == prod
                         if mode == 'serverprod' or mode == 'localprod':
-                                commit_message = commit_message + 'Failure: ' + full_name + '\n'
-                elif mode == 'servertest' or mode == 'localtest':
-                        ## print success
-                        print(color('Test download successful: ' + full_name, Colors.green))
-                        success+=1
-                else:
-                        ## prepare file for commit
-                        prep_file(repo_dir, name=name, full_name=full_name, fpath=fpath, copy=True)                
-        except Exception as e:
-                ## print exception
-                print(e)
-                ## print failure
-                print(background('Error downloading: ' + full_name, Colors.red))
-                failure+=1
-                ## write failure to commit message if mode == prod
+                                log_message = log_message + 'Failure: ' + full_name + '\n'
+                
+                ## quit webdriver
+                driver.quit()
+        except:
                 if mode == 'serverprod' or mode == 'localprod':
-                        commit_message = commit_message + 'Failure: ' + full_name + '\n'
-        
-        ## quit webdriver
-        driver.quit()
+                        log_message = log_message + 'Failure: ' + full_name + '\n'
+                elif mode == 'servertest' or mode == 'localtest':
+                        print(background('Error downloading: ' + full_name, Colors.red))                
 
 # AB - COVID-19 Alberta statistics
 dl_ab_cases('https://www.alberta.ca/stats/covid-19-alberta-statistics.htm',
@@ -1139,6 +1206,6 @@ total_files = str(success + failure)
 print(background('Successful downloads: ' + str(success) + '/' + total_files, Colors.blue))
 print(background('Failed downloads: ' + str(failure) + '/' + total_files, Colors.red))
 
-# Commit files
+## Upload log of file uploads
 if mode == 'serverprod' or mode == 'localprod':
-        commit_files(repo, origin, file_list, commit_message, success, failure, t)
+        upload_log(archive_id, log_id, log_recent_id, log_message, success, failure, t)

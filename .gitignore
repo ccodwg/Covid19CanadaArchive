@@ -2,8 +2,8 @@
 temp/
 temp_archive/
 
-# secrets
-.gh/
+# google drive
+.gd
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
