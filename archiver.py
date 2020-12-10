@@ -189,7 +189,7 @@ def upload_log(archive_id, log_id, log_recent_id, log_message, success, failure,
         except:
                 print(background('Full log upload failed!', Colors.red))
 
-def dl_file(url, path, file, user=False, ext='.csv', unzip=False, mb_json_to_csv=False):
+def dl_file(url, path, file, user=False, ext='.csv', verify=True, unzip=False, mb_json_to_csv=False):
         """Download file (generic).
         
         Used to download most file types (when Selenium is not required). Some files are handled with file-specific code:
@@ -203,6 +203,7 @@ def dl_file(url, path, file, user=False, ext='.csv', unzip=False, mb_json_to_csv
         file (str): Output file name (excluding extension). Example: 'covid19'
         user (bool): Should the request impersonate a normal browser? Needed to access some data. Default: False.
         ext (str): Extension of the output file. Defaults to '.csv'.
+        verify (bool): If False, requests will skip SSL verification. Default: True.
         unzip (bool): If True, this file requires unzipping. Default: False.
         mb_json_to_csv (bool): If True, this is a Manitoba JSON file that that should be converted to CSV. Default: False.
         
@@ -219,9 +220,9 @@ def dl_file(url, path, file, user=False, ext='.csv', unzip=False, mb_json_to_csv
                 ## user is True provides a normal-looking user agent string to bypass this
                 if user is True:
                         headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0"}
-                        req = requests.get(url, headers=headers)
+                        req = requests.get(url, headers=headers, verify=verify)
                 else:
-                        req = requests.get(url)
+                        req = requests.get(url, verify=verify)
                 
                 ## check if request was successful
                 if not req.ok:
@@ -817,7 +818,8 @@ html_page('https://gov.nu.ca/health/information/covid-19-novel-coronavirus',
 # NS - Coronavirus (COVID-19): case data
 dl_file('https://novascotia.ca/coronavirus/data/ns-covid19-data.csv',
         'ns/case-data/',
-        'ns-covid19-data')
+        'ns-covid19-data',
+        verify=False)
 
 # ON - How Ontario is responding to COVID-19 (webpage)
 html_page('https://www.ontario.ca/page/how-ontario-is-responding-covid-19',
