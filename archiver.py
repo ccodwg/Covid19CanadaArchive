@@ -528,7 +528,7 @@ dl_ab_cases('https://www.alberta.ca/stats/covid-19-alberta-statistics.htm',
 dl_ab_oneclick('https://www.alberta.ca/maps/covid-19-status-map.htm',
                'ab/active-cases-by-region/',
                'covid19dataexport-relaunch',
-               wait=15)
+               wait=20)
 
 # AB - COVID-19 school status map
 dl_ab_oneclick('https://www.alberta.ca/schools/covid-19-school-status-map.htm',
@@ -730,7 +730,7 @@ dl_file('https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_co
 
 # NT - GNWT's Response to COVID-19 (webpage)
 html_page('https://www.gov.nt.ca/covid-19/',
-          'nu/nwt-webpage/',
+          'nt/nwt-webpage/',
           'nwt-webpage')
 
 # NU - COVID-19 (Novel Coronavirus) (webpage)
