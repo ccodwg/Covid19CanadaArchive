@@ -34,7 +34,7 @@ from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 
 # list of environmental variables used in this script
-## GD_KEY (used when mode = server)
+## GD_KEY: environmental variable of Google Drive credentials as a simple string (used when mode = server)
 ## GOOGLE_CHROME_BIN: path to binary in heroku-buildpack-google-chrome (used when mode = server)
 ## CHROMEDRIVER_PATH: path to binary in heroku-buildpack-chromedriver (used when mode = server)
 
@@ -67,9 +67,13 @@ failure = 0
 # access repo
 if mode == 'serverprod' or mode == 'localprod':
               
-        ## retrieve google drive credentials
+        ## retrieve Google Drive credentials
         if mode == 'serverprod':
-                gd_key = os.environ['GD_KEY']
+                gd_key_val = json.loads(os.environ['GD_KEY'], strict=False)
+                tmpdir = tempfile.TemporaryDirectory()
+                gd_key = os.path.join(tmpdir.name, ".gd_key.json")
+                with open(gd_key, mode='w', encoding='utf-8') as local_file:
+                        json.dump(gd_key_val, local_file, ensure_ascii=False, indent=4)
         elif mode == 'localprod':
                 script_path = dirname(abspath(__file__))
                 gd_key = os.path.join(script_path, ".gd", ".gd_key.json")                
@@ -85,9 +89,6 @@ if mode == 'serverprod' or mode == 'localprod':
         ## create httplib.Http() object
         ## see https://pypi.org/project/PyDrive/ - "Concurrent access made easy"
         http = drive.auth.Get_Http_Object()
-        
-        ## set root directory of public file archive in Google Drive
-        archive_dir = 'archive_test'
         
         ## initialize log message
         log_message = ''
