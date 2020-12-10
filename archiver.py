@@ -281,10 +281,12 @@ def dl_file(url, path, file, user=False, ext='.csv', unzip=False, mb_json_to_csv
                         ## upload file
                         upload_file(full_name, f_path)
         except:
+                ## print failure
+                print(background('Error downloading: ' + full_name, Colors.red))
+                failure+=1
+                ## write failure to log message if mode == prod
                 if mode == 'serverprod' or mode == 'localprod':
                         log_message = log_message + 'Failure: ' + full_name + '\n'
-                elif mode == 'servertest' or mode == 'localtest':
-                        print(background('Error downloading: ' + full_name, Colors.red))
 
 def load_webdriver(mode, tmpdir):
         """Load Chromium headless webdriver for Selenium.
@@ -435,10 +437,12 @@ def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
                 ## quit webdriver
                 driver.quit()
         except:
+                ## print failure
+                print(background('Error downloading: ' + full_name, Colors.red))
+                failure+=1
+                ## write failure to log message if mode == prod
                 if mode == 'serverprod' or mode == 'localprod':
                         log_message = log_message + 'Failure: ' + full_name + '\n'
-                elif mode == 'servertest' or mode == 'localtest':
-                        print(background('Error downloading: ' + full_name, Colors.red))
 
 def html_page(url, path, file, ext='.html', js=False, wait=None):
         """Save HTML of a webpage.
@@ -500,10 +504,12 @@ def html_page(url, path, file, ext='.html', js=False, wait=None):
                 ## quit webdriver
                 driver.quit()
         except:
+                ## print failure
+                print(background('Error downloading: ' + full_name, Colors.red))
+                failure+=1
+                ## write failure to log message if mode == prod
                 if mode == 'serverprod' or mode == 'localprod':
-                        log_message = log_message + 'Failure: ' + full_name + '\n'
-                elif mode == 'servertest' or mode == 'localtest':
-                        print(background('Error downloading: ' + full_name, Colors.red))                
+                        log_message = log_message + 'Failure: ' + full_name + '\n'             
 
 def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
         """Take a screenshot of a webpage.
@@ -581,10 +587,12 @@ def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
                 ## quit webdriver
                 driver.quit()
         except:
+                ## print failure
+                print(background('Error downloading: ' + full_name, Colors.red))
+                failure+=1
+                ## write failure to log message if mode == prod
                 if mode == 'serverprod' or mode == 'localprod':
-                        log_message = log_message + 'Failure: ' + full_name + '\n'
-                elif mode == 'servertest' or mode == 'localtest':
-                        print(background('Error downloading: ' + full_name, Colors.red))                
+                        log_message = log_message + 'Failure: ' + full_name + '\n'              
 
 # AB - COVID-19 Alberta statistics
 dl_ab_cases('https://www.alberta.ca/stats/covid-19-alberta-statistics.htm',
