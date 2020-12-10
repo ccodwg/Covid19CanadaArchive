@@ -157,13 +157,17 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Includes supplementary material: Footnotes, metadata
     * Terms of use: [Statistics Canada Open Licence](https://www.statcan.gc.ca/eng/reference/licence)
 * [Detailed preliminary information on confirmed cases of COVID-19 (Revised)](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310078101)
-    * [can/detailed-preliminary-confirmed-case-info-revised/13100781.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/can/detailed-preliminary-confirmed-case-info-revised)
+    * [can/detailed-preliminary-confirmed-case-info-revised/13100781.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/can/detailed-preliminary-confirmed-case-info-revised) (Archived as of 2020-12-10, no longer part of the nightly update)
     * Variable value definitions are given in footnotes (see supplementary material).
     * **This file has been processed to avoid the 100mb file limit on GitHub.** (Base file size is > 400mb)
         * Dataset has been pivoted from long to wide (names from: 'Case information', values from: 'VALUE').
         * Columns containing no information have been dropped (GEO, DGUID, UOM, UOM_ID, SCALAR_FACTOR, SCALAR_ID, VECTOR, COORDINATE, STATUS, SYMBOL, TERMINATED, DECIMALS).
         * Example of original data format is preserved (see supplementary material).
     * Includes supplementary material: Footnotes, example of original data format, metadata
+    * Terms of use: [Statistics Canada Open Licence](https://www.statcan.gc.ca/eng/reference/licence)
+* [Preliminary dataset on confirmed cases of COVID-19, Public Health Agency of Canada](https://www150.statcan.gc.ca/n1/pub/13-26-0003/132600032020001-eng.htm)
+    * [can/preliminary-dataset-on-confirmed-cases/COVID19-eng.csv](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/tree/master/can/preliminary-dataset-on-confirmed-cases)
+    * Includes supplementary material: user guide and data dictionary, metadata
     * Terms of use: [Statistics Canada Open Licence](https://www.statcan.gc.ca/eng/reference/licence)
 
 ### Manitoba

@@ -761,10 +761,10 @@ dl_file('https://www150.statcan.gc.ca/n1/tbl/csv/13100775-eng.zip',
         '13100775',
         unzip=True)
 
-# CAN - Detailed preliminary information on confirmed cases of COVID-19 (Revised)
-dl_file('https://www150.statcan.gc.ca/n1/tbl/csv/13100781-eng.zip',
-        'can/detailed-preliminary-confirmed-case-info-revised/',
-        '13100781',
+# CAN - Preliminary dataset on confirmed cases of COVID-19, Public Health Agency of Canada
+dl_file('https://www150.statcan.gc.ca/n1/pub/13-26-0003/2020001/COVID19-eng.zip',
+        'can/preliminary-dataset-on-confirmed-cases/',
+        'COVID19-eng',
         unzip=True)
 
 # MB - COVID 19 Updates
