@@ -1,5 +1,9 @@
 # Archive of COVID-19 Data from Canadian Government Sources
 
+## The data in this archive have moved. They can be accessed at the following link: [https://drive.google.com/drive/folders/10ET5FBqO-K8FBdEaXgBjBZwJskIZGKNG?usp=sharing](https://drive.google.com/drive/folders/10ET5FBqO-K8FBdEaXgBjBZwJskIZGKNG?usp=sharing)
+
+###### From now on, this archive will be used only to store and collorate on archival scripts and metadata. Links to the data will be updated shortly. Other options to explore and download the data will also be created.
+
 This repository provides automated, daily backups of COVID-19 data from various Canadian government sources. Selected non-governmental sources are also included.
 
 **File name timestamps are given in ET (America/Toronto) in the following format: %Y-%m-%d_%H-%M.** The script is run nightly around 23:00 ET.
