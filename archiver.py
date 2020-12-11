@@ -94,7 +94,7 @@ if mode == 'serverprod' or mode == 'localprod':
         log_message = ''
         
         ## load Google Drive directory IDs
-        dir_id_list = pd.read_csv("https://raw.githubusercontent.com/jeanpaulrsoucy/covid-19-canada-gov-data/master/data_catalogue.csv")
+        dir_id_list = pd.read_csv("https://raw.githubusercontent.com/jeanpaulrsoucy/covid-19-canada-gov-data/master/data/data_id.csv")
         
         ## set log file IDs
         archive_id = '10ET5FBqO-K8FBdEaXgBjBZwJskIZGKNG'

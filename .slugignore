@@ -1,19 +1,4 @@
-# ignore data folders
-ab/
-bc/
-can/
-mb/
-nb/
-nl/
-nt/
-ns/
-nu/
-on/
-pe/
-qc/
-sk/
-yt/
-other/
+data/
 .gitignore
 LICENSE
 README.md
