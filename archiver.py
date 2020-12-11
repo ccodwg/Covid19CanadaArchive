@@ -3,6 +3,7 @@
 # Maintainer: Jean-Paul R. Soucy #
 
 # import modules
+print('Importing modules...')
 
 ## core utilities
 import sys
@@ -43,6 +44,7 @@ from pydrive.drive import GoogleDrive
 ## local: read environmental variables from system environmental variables
 ## prod: upload files to Google Drive
 ## test: don't upload files to Google Drive, just test that files can be successfully downloaded
+print('Setting run mode...')
 if len(sys.argv) == 1 or ((len(sys.argv) == 2) and (sys.argv[1] == 'serverprod')):
         mode = 'serverprod' # server / prod
 elif len(sys.argv) == 2 and sys.argv[1] == 'localprod':
@@ -53,6 +55,7 @@ elif len(sys.argv) == 2 and sys.argv[1] == 'localtest':
         mode = 'localtest' # local / test
 else:
         sys.exit("Error: Invalid arguments.")
+print('Run mode set to ' + mode + '.')
 
 # enable printing with colour
 init_colorit()
@@ -64,9 +67,9 @@ t = datetime.now(pytz.timezone('America/Toronto'))
 success = 0
 failure = 0
 
-# access repo
+# access Google Drive
 if mode == 'serverprod' or mode == 'localprod':
-              
+        print('Authenticating with Google Drive...')
         ## retrieve Google Drive credentials
         if mode == 'serverprod':
                 gd_key_val = json.loads(os.environ['GD_KEY'], strict=False)
@@ -89,6 +92,9 @@ if mode == 'serverprod' or mode == 'localprod':
         ## create httplib.Http() object
         ## see https://pypi.org/project/PyDrive/ - "Concurrent access made easy"
         http = drive.auth.Get_Http_Object()
+        
+        ## confirm authentication was successful
+        print('Authentication was successful.')
         
         ## initialize log message
         log_message = ''
@@ -594,6 +600,9 @@ def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
                 ## write failure to log message if mode == prod
                 if mode == 'serverprod' or mode == 'localprod':
                         log_message = log_message + 'Failure: ' + full_name + '\n'              
+
+# announce beginning file uploads
+print('Beginning file downloads...')
 
 # AB - COVID-19 Alberta statistics
 dl_ab_cases('https://www.alberta.ca/stats/covid-19-alberta-statistics.htm',
