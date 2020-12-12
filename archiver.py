@@ -1177,7 +1177,13 @@ dl_file('https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/si
         user=True)
 
 # SK - Saskatchewan's Dashboard - Total Cases
-sk_url_cases = 'https://dashboard.saskatchewan.ca' + re.search('(?<=href=\").*(?=\">CSV)', requests.get('https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases').text).group(0)
+## get url for SK cases file (will throw an error if SK website cannot be accessed)
+sk_url_cases = ''
+try:
+        sk_url_cases = 'https://dashboard.saskatchewan.ca' + re.search('(?<=href=\").*(?=\">CSV)', requests.get('https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases').text).group(0)
+except:
+        print('Could not resolve URL for SK Dashboard.')
+## download file
 dl_file(sk_url_cases,
         'sk/cases-by-region/',
         'cases')
@@ -1188,7 +1194,13 @@ html_page('https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases',
           'cases-webpage')
 
 # SK - Saskatchewan's Dashboard - Total Tests
-sk_url_tests = 'https://dashboard.saskatchewan.ca' + re.search('(?<=href=\").*(?=\">CSV)', requests.get('https://dashboard.saskatchewan.ca/health-wellness/covid-19/tests').text).group(0)
+## get url for SK tests file (will throw an error if SK website cannot be accessed)
+sk_url_test = ''
+try:
+        sk_url_tests = 'https://dashboard.saskatchewan.ca' + re.search('(?<=href=\").*(?=\">CSV)', requests.get('https://dashboard.saskatchewan.ca/health-wellness/covid-19/tests').text).group(0)
+except:
+        print('Could not resolve URL for SK Dashboard.')
+## download file
 dl_file(sk_url_tests,
         'sk/tests-by-region/',
         'tests')
