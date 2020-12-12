@@ -40,8 +40,8 @@ from pydrive.drive import GoogleDrive
 ## CHROMEDRIVER_PATH: path to binary in heroku-buildpack-chromedriver (used when mode = server)
 
 # set mode (server vs. local and prod vs. test)
-## server: read environmental variables from Heroku config variables
-## local: read environmental variables from system environmental variables
+## server: read secrets from Heroku config variables
+## local: read secrets from local files
 ## prod: upload files to Google Drive
 ## test: don't upload files to Google Drive, just test that files can be successfully downloaded
 print('Setting run mode...')
