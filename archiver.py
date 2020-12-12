@@ -637,6 +637,11 @@ dl_file('http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_
         'bc/laboratory-data/',
         'BCCDC_COVID19_Dashboard_Lab_Information')
 
+# BC - BC COVID-19 Data (Regional data)
+dl_file('http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Regional_Summary_Data.csv',
+        'bc/regional-case-summary/',
+        'BCCDC_COVID19_Regional_Summary_Data')
+
 # BC - Public exposures (webpage)
 ss_page('http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures',
         'bc/public-exposures-webpage/',
