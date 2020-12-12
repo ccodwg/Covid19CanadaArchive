@@ -9,7 +9,6 @@ print('Importing modules...')
 import sys
 import time
 import os
-from os.path import dirname, abspath
 from shutil import copyfile
 from datetime import datetime, timedelta
 from array import *
@@ -78,7 +77,7 @@ if mode == 'serverprod' or mode == 'localprod':
                 with open(gd_key, mode='w', encoding='utf-8') as local_file:
                         json.dump(gd_key_val, local_file, ensure_ascii=False, indent=4)
         elif mode == 'localprod':
-                script_path = dirname(abspath(__file__))
+                script_path = os.path.dirname(os.path.abspath(__file__))
                 gd_key = os.path.join(script_path, ".gd", ".gd_key.json")                
         
         ## authenticate Google Drive access
