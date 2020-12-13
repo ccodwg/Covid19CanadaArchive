@@ -1222,8 +1222,12 @@ html_page('https://yukon.ca/en/health-and-wellness/covid-19-information/latest-u
 # Other: CAN - Unofficial COVID Alert Dashboard - Diagnosis Keys Analysis
 dl_file('https://raw.githubusercontent.com/uhengart/covid-alert-dashboard/master/DiagnosisKeysAnalysis.csv',
         'other/can/unofficial-covid-alert-dashboard-analysis/',
-        'DiagnosisKeysAnalysis',
-        ext = '.csv')
+        'DiagnosisKeysAnalysis')
+
+# Other: CAN - Unofficial COVID Alert Dashboard - Upload Delay
+dl_file('https://raw.githubusercontent.com/uhengart/covid-alert-dashboard/master/UploadDelay.csv',
+        'other/can/unofficial-covid-alert-dashboard-upload-delay/',
+        'UploadDelay')
 
 # Other: QC - Covid Écoles Québec (Excel)
 dl_file('https://drive.google.com/uc?export=download&id=1xOl0uhyx9IuHZfJuRH-OR7BcGFuWYUex',
