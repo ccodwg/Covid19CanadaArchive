@@ -8,10 +8,16 @@
 import os
 import tempfile
 
+## web scraping
+from selenium import webdriver # requires ChromeDriver and Chromium/Chrome
+from selenium.webdriver.chrome.options import Options
+
 ## Google Drive
 from oauth2client import service_account
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
+
+# functions for Google Drive
 
 def access_gd(mode):
     """Authenticate with Google Drive and return GoogleDrive object.
@@ -61,3 +67,26 @@ def create_http(drive):
     
     ## return httplib.Http() object
     return(http)
+
+# functions web scraping
+
+def load_webdriver(mode, tmpdir):
+    """Load Chromium headless webdriver for Selenium.
+
+    Parameters:
+    mode (str): One of serverprod, localprod, servertest, localtest. Defines how the webdriver is loaded.
+    tmpdir (TemporaryDirectory): A temporary directory for saving files.
+
+    """
+    options = Options()
+    if mode == 'serverprod' or mode == 'servertest':
+        options.binary_location = os.environ['GOOGLE_CHROME_BIN']
+    options.add_argument("--headless")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--no-sandbox")
+    prefs = {'download.default_directory' : tmpdir.name}
+    options.add_experimental_option('prefs', prefs)
+    if mode == 'serverprod' or mode == 'servertest':
+        return webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
+    else:
+        return webdriver.Chrome(options=options)
