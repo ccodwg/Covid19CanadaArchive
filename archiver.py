@@ -28,10 +28,8 @@ import requests
 from selenium import webdriver # requires ChromeDriver and Chromium/Chrome
 from selenium.webdriver.chrome.options import Options
 
-## Google Drive
-from oauth2client import service_account
-from pydrive.auth import GoogleAuth
-from pydrive.drive import GoogleDrive
+## archivist.py
+import archivist
 
 # list of environmental variables used in this script
 ## GD_KEY: environmental variable of Google Drive credentials as a simple string (used when mode = server)
@@ -68,32 +66,11 @@ failure = 0
 
 # access Google Drive
 if mode == 'serverprod' or mode == 'localprod':
-        print('Authenticating with Google Drive...')
-        ## retrieve Google Drive credentials
-        if mode == 'serverprod':
-                gd_key_val = json.loads(os.environ['GD_KEY'], strict=False)
-                tmpdir = tempfile.TemporaryDirectory()
-                gd_key = os.path.join(tmpdir.name, ".gd_key.json")
-                with open(gd_key, mode='w', encoding='utf-8') as local_file:
-                        json.dump(gd_key_val, local_file, ensure_ascii=False, indent=4)
-        elif mode == 'localprod':
-                script_path = os.path.dirname(os.path.abspath(__file__))
-                gd_key = os.path.join(script_path, ".gd", ".gd_key.json")                
-        
-        ## authenticate Google Drive access
-        gauth = GoogleAuth()
-        scope = ['https://www.googleapis.com/auth/drive']
-        gauth.credentials = service_account.ServiceAccountCredentials.from_json_keyfile_name(gd_key, scope)
-        
-        ## initialize Drive object
-        drive = GoogleDrive(gauth)
+        ## access Google Drive
+        drive = archivist.access_gd(mode)
         
         ## create httplib.Http() object
-        ## see https://pypi.org/project/PyDrive/ - "Concurrent access made easy"
-        http = drive.auth.Get_Http_Object()
-        
-        ## confirm authentication was successful
-        print('Authentication was successful.')
+        http = archivist.create_http(drive)
         
         ## initialize log message
         log_message = ''
