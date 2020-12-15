@@ -14,6 +14,7 @@ import pytz  # better time zones
 from shutil import copyfile
 import tempfile
 import csv
+import json
 from zipfile import ZipFile
 from array import *
 
@@ -40,19 +41,22 @@ globals()['mode', 'success', 'failure', 'log_text'] = [mode, success, failure, l
 
 # misc functions
 
-def set_mode(run_args=sys.argv):
+def set_mode(run_args=sys.argv, manual=None):
     global mode
     print('Setting run mode...')
-    if len(run_args) == 1 or ((len(run_args) == 2) and (sys.argv[1] == 'serverprod')):
-        mode = 'serverprod'  # server / prod
-    elif len(run_args) == 2 and run_args[1] == 'localprod':
-        mode = 'localprod'  # local / prod
-    elif len(run_args) == 2 and run_args[1] == 'servertest':
-        mode = 'servertest'  # server / test
-    elif len(run_args) == 2 and run_args[1] == 'localtest':
-        mode = 'localtest'  # local / test
+    if manual is None:
+        if len(run_args) == 1 or ((len(run_args) == 2) and (sys.argv[1] == 'serverprod')):
+            mode = 'serverprod'  # server / prod
+        elif len(run_args) == 2 and run_args[1] == 'localprod':
+            mode = 'localprod'  # local / prod
+        elif len(run_args) == 2 and run_args[1] == 'servertest':
+            mode = 'servertest'  # server / test
+        elif len(run_args) == 2 and run_args[1] == 'localtest':
+            mode = 'localtest'  # local / test
+        else:
+            sys.exit("Error: Invalid arguments.")
     else:
-        sys.exit("Error: Invalid arguments.")
+        mode=manual
     print('Run mode set to ' + mode + '.')    
 
 def get_datetime(tz):
@@ -77,17 +81,19 @@ def access_gd():
     """
     global mode
     print('Authenticating with Google Drive...')
-    
     ## retrieve Google Drive credentials
     if mode == 'serverprod' or mode == 'servertest':
-            gd_key_val = json.loads(os.environ['GD_KEY'], strict=False)
-            tmpdir = tempfile.TemporaryDirectory()
-            gd_key = os.path.join(tmpdir.name, ".gd_key.json")
-            with open(gd_key, mode='w', encoding='utf-8') as local_file:
-                    json.dump(gd_key_val, local_file, ensure_ascii=False, indent=4)
+        gd_key_val = json.loads(os.environ['GD_KEY'], strict=False)
+        tmpdir = tempfile.TemporaryDirectory()
+        d_key = os.path.join(tmpdir.name, ".gd_key.json")
+        with open(gd_key, mode='w', encoding='utf-8') as local_file:
+            json.dump(gd_key_val, local_file, ensure_ascii=False, indent=4)
     elif mode == 'localprod' or mode == 'localtest':
+        if '__file__' in globals():
             script_path = os.path.dirname(os.path.abspath(__file__))
-            gd_key = os.path.join(script_path, ".gd", ".gd_key.json")                
+        else:
+            script_path = os.getcwd()
+        gd_key = os.path.join(script_path, ".gd", ".gd_key.json")                
     
     ## authenticate Google Drive access
     gauth = GoogleAuth()
