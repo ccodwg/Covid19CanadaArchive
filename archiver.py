@@ -9,44 +9,22 @@ print('Importing modules...')
 import os
 
 ## other utilities
+import pandas as pd
 from colorit import *  # colourful printing
 
 ## archivist.py
-import archivist # import functions
-from archivist import mode, success, failure, log_text # import global variables
+import archivist
 
 # list of environmental variables used in this script
 # GD_KEY: environmental variable of Google Drive credentials as a simple string (used when mode = server)
 # GOOGLE_CHROME_BIN: path to binary in heroku-buildpack-google-chrome (used when mode = server)
 # CHROMEDRIVER_PATH: path to binary in heroku-buildpack-chromedriver (used when mode = server)
 
-# set mode from argument when running the script (server vs. local and prod vs. test)
-# server: read secrets from Heroku config variables
-# local: read secrets from local files
-# prod: upload files to Google Drive
-# test: don't upload files to Google Drive, just test that files can be successfully downloaded
-archivist.set_mode()
-
 # enable printing with colour
 init_colorit()
 
 # define time script started running in America/Toronto time zone
 t = archivist.get_datetime('America/Toronto')
-
-# access Google Drive
-if mode == 'serverprod' or mode == 'localprod':
-        # access Google Drive
-        drive = archivist.access_gd()
-
-        # create httplib.Http() object
-        http = archivist.create_http(drive)
-
-        # load Google Drive directory IDs
-        dir_ids = pd.read_csv("https://raw.githubusercontent.com/jeanpaulrsoucy/covid-19-canada-gov-data/master/data/data_id.csv")
-
-        # set log file IDs
-        log_id = '10tbxUYVfghhzvoGOi8piHBHHGn0MgU7X'  # ID of log.txt
-        log_recent_id = '1x0zCPzgKRpme5NOxUiYWHCrfiDUbsAFM'  # ID of log_recent.txt
 
 # announce beginning file uploads
 print('Beginning file downloads...')
@@ -693,5 +671,5 @@ archivist.dl_file('https://www.google.com/maps/d/u/0/kml?mid=1blA_H3Hv5S9Ii_vyud
 archivist.print_success_failure()
 
 # Upload log of file uploads
-if mode == 'serverprod' or mode == 'localprod':
-        archivist.upload_log(log_id, log_recent_id, log_text, success, failure, t)
+if archivist.mode == 'serverprod' or archivist.mode == 'localprod':
+        archivist.upload_log(t)

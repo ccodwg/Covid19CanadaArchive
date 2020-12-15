@@ -32,14 +32,9 @@ from oauth2client import service_account
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 
-# initialize global variables
-mode = '' # run mode
-success = 0 # success counter
-failure = 0 # failure counter
-log_text = '' # recent log
-globals()['mode', 'success', 'failure', 'log_text'] = [mode, success, failure, log_text]
+# define functions
 
-# misc functions
+## misc functions
 
 def set_mode(run_args=sys.argv, manual=None):
     global mode
@@ -57,7 +52,7 @@ def set_mode(run_args=sys.argv, manual=None):
             sys.exit("Error: Invalid arguments.")
     else:
         mode=manual
-    print('Run mode set to ' + mode + '.')    
+    print('Run mode set to ' + mode + '.')
 
 def get_datetime(tz):
     t = datetime.now(pytz.timezone(tz))
@@ -73,7 +68,7 @@ def find_url(search_url, regex, base_url):
     url = base_url + re.search(regex, requests.get(search_url).text).group(0)
     return url
 
-# functions for Google Drive
+## functions for Google Drive
 
 def access_gd():
     """Authenticate with Google Drive and return GoogleDrive object.
@@ -132,16 +127,16 @@ def upload_file(full_name, f_path):
     f_path (str): The path to the local file to upload.
 
     """
-    global log_text, success, failure, dir_ids, http
+    global drive, http, log_text, success, failure, dir_ids
 
     ## get Google Drive folder ID        
     dir_file = os.path.dirname(full_name).split('/')[-1]
     dir_parent = os.path.dirname(os.path.dirname(full_name))
     dir_id = dir_ids.loc[(dir_ids['dir_parent'] == dir_parent) & (dir_ids['dir_file'] == dir_file), 'dir_id'].values[0]
-
+    
     ## generate file name
     f_name = os.path.basename(full_name)
-
+    
     ## upload file to Google Drive
     try:
         ## file upload
@@ -157,26 +152,23 @@ def upload_file(full_name, f_path):
         print(background('Upload failed: ' + full_name, Colors.red))
         failure+=1
 
-def upload_log(log_id, log_recent_id, log_text, success, failure, t):
+def upload_log(t):
     """Upload the log of file uploads to Google Drive.
 
     The most recent log entry is placed in a separate file for easy access.
 
     Parameters:
-    log_id (str): Google Drive ID of log.txt.
-    log_recent_id (str): Google Drive ID of log_recent.txt.
-    log_text (str): Log message.
     t (datetime): Date and time script began running (America/Toronto).
 
     """
-    global http
+    global drive, http, log_id, log_recent_id, log_text, success, failure
     print("Uploading recent log...")
     try:
         ## build most recent log entry
         total_files = str(success + failure)
         log_text = 'Successful downloads : ' + str(success) + '/' + total_files + '\n' + 'Failed downloads: ' + str(failure) + '/' + total_files + '\n\n' + log_text
         log_text = str(t) + '\n\n' + 'Nightly update: ' + str(t.date()) + '\n\n' + log_text
-
+        
         ## upload log_recent.txt
         drive_file = drive.CreateFile({'id': log_recent_id})
         drive_file.SetContentString(log_text)
@@ -209,9 +201,9 @@ def upload_log(log_id, log_recent_id, log_text, success, failure, t):
     except:
         print(background('Full log upload failed!', Colors.red))
 
-# functions for GitHub
+## functions for GitHub
 
-# functions for web scraping
+## functions for web scraping
 
 def dl_file(url, path, file, user=False, ext='.csv', verify=True, unzip=False, mb_json_to_csv=False):
     """Download file (generic).
@@ -304,7 +296,7 @@ def dl_file(url, path, file, user=False, ext='.csv', verify=True, unzip=False, m
                 with open(f_path, mode='wb') as local_file:
                     local_file.write(req.content)
             ## upload file
-            archivist.upload_file(full_name, f_path)
+            upload_file(full_name, f_path)
     except:
         ## print failure
         print(background('Error downloading: ' + full_name, Colors.red))
@@ -393,7 +385,7 @@ def dl_ab_cases(url, path, file, ext='.csv', wait=5):
         ## successful request: mode == prod, prepare files for data upload
         else:
             ## upload file
-            archivist.upload_file(full_name, f_path)
+            upload_file(full_name, f_path)
 
         ## quit webdriver
         driver.quit()
@@ -458,7 +450,7 @@ def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
         ## successful request: mode == prod, prepare files for data upload
         else:
             ## upload file
-            archivist.upload_file(full_name, f_path)
+            upload_file(full_name, f_path)
 
         ## quit webdriver
         driver.quit()
@@ -525,7 +517,7 @@ def html_page(url, path, file, ext='.html', js=False, wait=None):
         ## successful request: mode == prod, prepare files for data upload
         else:
             ## upload file
-            archivist.upload_file(full_name, f_path)
+            upload_file(full_name, f_path)
 
         ## quit webdriver
         driver.quit()
@@ -599,7 +591,7 @@ def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
                 success+=1
             else:
                 ## upload file
-                archivist.upload_file(full_name, f_path)
+                upload_file(full_name, f_path)
         except Exception as e:
             ## print exception
             print(e)
@@ -619,3 +611,28 @@ def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
         ## write failure to log message if mode == prod
         if mode == 'serverprod' or mode == 'localprod':
             log_text = log_text + 'Failure: ' + full_name + '\n'
+
+# initialize global variables
+success = 0 # success counter
+failure = 0 # failure counter
+log_text = '' # recent log
+dir_ids = pd.read_csv("https://raw.githubusercontent.com/jeanpaulrsoucy/covid-19-canada-gov-data/master/data/data_id.csv")
+
+# set mode from argument when running the script (server vs. local and prod vs. test)
+# server: read secrets from Heroku config variables
+# local: read secrets from local files
+# prod: upload files to Google Drive
+# test: don't upload files to Google Drive, just test that files can be successfully downloaded
+set_mode()
+
+# access Google Drive
+if mode == 'serverprod' or mode == 'localprod':
+    # access Google Drive
+    drive = access_gd()
+
+    # create httplib.Http() object
+    http = create_http(drive)
+
+    # set log file IDs
+    log_id = '10tbxUYVfghhzvoGOi8piHBHHGn0MgU7X'  # ID of log.txt
+    log_recent_id = '1x0zCPzgKRpme5NOxUiYWHCrfiDUbsAFM'  # ID of log_recent.txt
