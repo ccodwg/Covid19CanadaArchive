@@ -19,8 +19,8 @@ from zipfile import ZipFile
 from array import *
 
 ## other utilities
-import pandas as pd  # better data processing
-from colorit import *  # colourful printing
+import pandas as pd # better data processing
+from colorit import * # colourful printing
 
 ## web scraping
 import requests
@@ -31,6 +31,9 @@ from selenium.webdriver.chrome.options import Options
 from oauth2client import service_account
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
+
+## GitHub
+from git import Repo
 
 # define functions
 
@@ -202,6 +205,30 @@ def upload_log(t):
         print(background('Full log upload failed!', Colors.red))
 
 ## functions for GitHub
+
+def clone_gh(tmpdir, repo_name='github.com/jeanpaulrsoucy/covid-19-canada-gov-data'):
+    """ Clone GitHub repository into temporary directory. Returns a Repo object.
+    
+    Parameters:
+    tmpdir (TemporaryDirectory): A temporary directory to clone the repository into.
+    repo_name (str): The URL of the GitHub repository. Defaults to: 'github.com/jeanpaulrsoucy/covid-19-canada-gov-data'.
+    
+    """
+    global mode, gh_token
+    ## set repository directory
+    repo_dir = tmpdir.name
+    ## shallow clone (minimize download size while still allowing a commit to be made)
+    repo_remote = 'https://' + gh_token + ':x-oauth-basic@' + repo_name
+    repo = Repo.clone_from(repo_remote, repo_dir, depth=1)
+    return repo
+
+def commit_gh(repo, file_list, commit_message):
+    global mode, gh_name, gh_mail
+    # origin = repo.remote('origin')
+    ### set GitHub identity
+    #repo.config_writer().set_value("user", "name", gh_name).release()
+    #repo.config_writer().set_value("user", "email", gh_mail).release()
+    return(None)
 
 ## functions for web scraping
 
@@ -636,3 +663,18 @@ if mode == 'serverprod' or mode == 'localprod':
     # set log file IDs
     log_id = '10tbxUYVfghhzvoGOi8piHBHHGn0MgU7X'  # ID of log.txt
     log_recent_id = '1x0zCPzgKRpme5NOxUiYWHCrfiDUbsAFM'  # ID of log_recent.txt
+
+# clone GitHub repo
+if mode == 'serverprod' or mode == 'localprod':
+    ## get GitHub access token, name, mail
+    if mode == 'serverprod':
+        gh_token = os.environ['GH_TOKEN']
+        gh_name = os.environ['GH_NAME']
+        gh_mail = os.environ['GH_MAIL']
+    elif mode == 'localprod':
+        gh_token = open('.gh/.gh_token.txt', 'r').readline().rstrip()
+        gh_name = open('.gh/.gh_name.txt', 'r').readline().rstrip()
+        gh_mail = open('.gh/.gh_mail.txt', 'r').readline().rstrip()
+    ## clone repo to temporary directory
+    repo_tmpdir = tempfile.TemporaryDirectory()
+    repo = clone_gh(repo_tmpdir)

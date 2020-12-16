@@ -5,6 +5,9 @@ temp_archive/
 # google drive
 .gd
 
+# github
+.gh
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

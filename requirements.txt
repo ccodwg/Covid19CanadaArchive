@@ -5,3 +5,4 @@ selenium
 color-it
 oauth2client
 PyDrive
+gitpython
