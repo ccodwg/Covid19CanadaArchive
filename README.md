@@ -389,7 +389,7 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * CSV: [sk/cases-by-region/cases.csv](https://drive.google.com/drive/folders/1BKhWul6Vo2FZXK5dVmn9frIaMicFLfzD)
     * Webpage: [sk/cases-by-region-webpage/cases-webpage.html](hhttps://drive.google.com/drive/folders/1m7_t1qB0x-yVpOb6e1Rzfk5uUQ6iFmqO) (warning: some early files are .png screenshots and named differently)
     * Terms of use: TBD
-* [Saskatchewan's Dashboard - Total Tests](https://dashboard.saskatchewan.ca/health-wellness/covid-19/tests)
+* [Saskatchewan's Dashboard - Total Tests](https://dashboard.saskatchewan.ca/health-wellness/covid-19-tests/tests)
     * CSV: [sk/tests-by-region/tests.csv](https://drive.google.com/drive/folders/1iOdc5ij_1xWNrkwWWe1qwbW3GM5wbq1Y)
     * Webpage: [sk/tests-by-region-webpage/tests-webpage.html](https://drive.google.com/drive/folders/1ixZJWXkMMV3Mftb51_sRGtGwJ3RV-QXX) (warning: some early files are .png screenshots and named differently)
     * Terms of use: TBD

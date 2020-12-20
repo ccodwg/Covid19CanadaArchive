@@ -15,7 +15,7 @@ from colorit import *  # colourful printing
 ## archivist.py
 import archivist
 
-# list of environmental variables used in this script
+# list of environmental variables used in this script (through functions in archivist.py)
 # GD_KEY: environmental variable of Google Drive credentials as a simple string (used when mode = server)
 # GH_TOKEN: personal access token for the GitHub API (used when mode = server)
 # GH_NAME: name to use for GitHub commits (used when mode = server)
@@ -625,7 +625,7 @@ archivist.html_page('https://dashboard.saskatchewan.ca/health-wellness/covid-19/
 ## get url for SK tests file (will throw an error if SK website cannot be accessed)
 sk_url_tests = ''
 try:
-        sk_url_tests = archivist.find_url('https://dashboard.saskatchewan.ca/health-wellness/covid-19/tests', '(?<=href=\").*(?=\">CSV)', 'https://dashboard.saskatchewan.ca')
+        sk_url_tests = archivist.find_url('https://dashboard.saskatchewan.ca/health-wellness/covid-19-tests/tests', '(?<=href=\").*(?=\">CSV)', 'https://dashboard.saskatchewan.ca')
 except:
         print('Could not resolve URL for SK Dashboard.')
 ## download file
