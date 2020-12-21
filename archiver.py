@@ -16,12 +16,12 @@ from colorit import *  # colourful printing
 import archivist
 
 # list of environmental variables used in this script (through functions in archivist.py)
-# GD_KEY: environmental variable of Google Drive credentials as a simple string (used when mode = server)
-# GH_TOKEN: personal access token for the GitHub API (used when mode = server)
-# GH_NAME: name to use for GitHub commits (used when mode = server)
-# GH_MAIL: email address to use for GitHub commits (used when mode = server)
-# GOOGLE_CHROME_BIN: path to binary in heroku-buildpack-google-chrome (used when mode = server): /app/.chromedriver/bin/chromedriver
-# CHROMEDRIVER_PATH: path to binary in heroku-buildpack-chromedriver (used when mode = server): /app/.apt/usr/bin/google-chrome
+## GD_KEY: environmental variable of Google Drive credentials as a simple string (used when mode = server)
+## GH_TOKEN: personal access token for the GitHub API (used when mode = server)
+## GH_NAME: name to use for GitHub commits (used when mode = server)
+## GH_MAIL: email address to use for GitHub commits (used when mode = server)
+## GOOGLE_CHROME_BIN: path to binary in heroku-buildpack-google-chrome (used when mode = server): /app/.chromedriver/bin/chromedriver
+## CHROMEDRIVER_PATH: path to binary in heroku-buildpack-chromedriver (used when mode = server): /app/.apt/usr/bin/google-chrome
 
 # enable printing with colour
 init_colorit()

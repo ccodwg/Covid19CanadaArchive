@@ -9,7 +9,7 @@ import sys
 import os
 import re
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 import pytz  # better time zones
 from shutil import copyfile
 import tempfile
@@ -20,6 +20,7 @@ from array import *
 
 ## other utilities
 import pandas as pd # better data processing
+import numpy as np # better data processing
 from colorit import * # colourful printing
 
 ## web scraping
@@ -218,8 +219,10 @@ def clone_gh(tmpdir, repo_name='github.com/jeanpaulrsoucy/covid-19-canada-gov-da
     ## set repository directory
     repo_dir = tmpdir.name
     ## shallow clone (minimize download size while still allowing a commit to be made)
+    print('Cloning repo: ' + repo_name)
     repo_remote = 'https://' + gh_token + ':x-oauth-basic@' + repo_name
     repo = Repo.clone_from(repo_remote, repo_dir, depth=1)
+    print('Clone successful: ' + repo_name)
     return repo
 
 def commit_gh(repo, file_list, commit_message):
@@ -639,6 +642,76 @@ def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
         if mode == 'serverprod' or mode == 'localprod':
             log_text = log_text + 'Failure: ' + full_name + '\n'
 
+## indexing
+
+def create_index():
+    global drive
+    ## load Google Drive directory IDs from GitHub
+    dir_ids = pd.read_csv("https://raw.githubusercontent.com/jeanpaulrsoucy/covid-19-canada-gov-data/master/data/data_id.csv")
+    
+    ## intialize index
+    index = pd.DataFrame(columns = ['dir_parent', 'dir_file', 'dir_id', 'file_name', 'file_timestamp', 'file_date', 'file_date_true', 'file_id', 'file_mime_type', 'file_size', 'file_md5', 'file_md5_duplicate', 'file_url'])
+
+    ## define request template
+    drive_template = "'{dir_id}' in parents and mimeType != 'application/vnd.google-apps.folder' and trashed=false"
+    
+    ## loop through each dir_id
+    for i in dir_ids.index.to_list():
+        ## fetch list of files
+        d = drive.ListFile({'q': drive_template.format(dir_id=dir_ids.loc[i, 'dir_id'])}).GetList()
+        ## turn into DataFrame
+        d = pd.DataFrame(d)
+        ## keep only necessary columns
+        d = d[['id', 'title', 'mimeType', 'webContentLink', 'md5Checksum', 'fileSize']]
+        ## rename columns
+        d = d.rename(columns={'id': 'file_id', 'title': 'file_name', 'mimeType': 'file_mime_type', 'webContentLink': 'file_url', 'md5Checksum': 'file_md5', 'fileSize': 'file_size'})
+        ## extract timestamp from file
+        d['file_timestamp'] = d['file_name'].str.extract('(?<=_)(\d{4}-\d{2}-\d{2}_\d{2}-\d{2}).*$', expand=True)
+        d['file_timestamp'] = pd.to_datetime(d['file_timestamp'], format='%Y-%m-%d_%H-%M')
+        ## sort files by timestamp in ascending order
+        d = d.sort_values(by=['file_timestamp'])
+        ## extract file date from timestamp
+        d['file_date'] = d['file_timestamp'].dt.date
+        ## set initial values for true date
+        d['file_date_true'] = d['file_date']
+        ## check if there are multiple hashes on the first date of data
+        d_first_date = d[d['file_date'] == d['file_date'].min()].drop_duplicates(['file_md5'])
+        if (len(d_first_date) > 1):
+            ## if there multiple hashes on the first date, assume the earliest file is actually from the previous date
+            d.loc[d['file_name'] == d_first_date.iloc[0]['file_name'], 'file_date_true'] = d.loc[d['file_name'] == d_first_date.iloc[0]['file_name'], 'file_date'] - timedelta(days=1)
+        ## generate list of all possible dates: from first true date to last true date
+        d_dates_seq = pd.date_range(d['file_date_true'].min(), d['file_date'].max()).tolist()
+        ## generate list of all dates in the dataset
+        d_dates = d['file_date_true'].unique().tolist()
+        ## are any expected dates are missing?
+        d_dates_missing = np.setdiff1d(d_dates_seq, d_dates)
+        if (len(d_dates_missing) > 0):
+            ## if there are any missing dates, check if there are multiple hashes in the following day
+            for j in d_dates_missing:
+                d_dates_next = d[d['file_date_true'] == j + timedelta(days=1)].drop_duplicates(['file_md5'])
+                if len(d_dates_next) > 1:
+                    ## if there are more than 0 or 1 hashes on the previous date, assume the earliest hash actually corresponds to the missing day
+                    d.loc[d['file_name'] == d_dates_next.iloc[0]['file_name'], 'file_date_true'] = d.loc[d['file_name'] == d_dates_next.iloc[0]['file_name'], 'file_date_true'] - timedelta(days=1)
+        ## using true date, keep only the final hash of each date ('definitive file' for that date)
+        d = d.drop_duplicates(['file_date_true'], keep='last')
+        ## using hash, mark duplicates appearing after the first instance (e.g., duplicate hashes of Friday value for weekend versions of files updated only on weekdays)
+        d['file_md5_duplicate'] = d['file_md5'].duplicated()
+        ### add columns: dir_parent, dir_file, dir_id
+        d['dir_parent'] = dir_ids.loc[i, 'dir_parent']
+        d['dir_file'] = dir_ids.loc[i, 'dir_file']
+        d['dir_id'] = dir_ids.loc[i, 'dir_id']
+        index = index.append(d)
+        ## print progress
+        print(dir_ids.loc[i, 'dir_parent'] + '/' + dir_ids.loc[i, 'dir_file'])
+    
+    ## return index
+    return(index)
+
+def write_index(index):
+    print('Writing data index...')
+    index.to_csv('data/data_index.csv', index=False)
+    print('Data index written.')
+
 # initialize global variables
 success = 0 # success counter
 failure = 0 # failure counter
@@ -646,10 +719,10 @@ log_text = '' # recent log
 dir_ids = pd.read_csv("https://raw.githubusercontent.com/jeanpaulrsoucy/covid-19-canada-gov-data/master/data/data_id.csv")
 
 # set mode from argument when running the script (server vs. local and prod vs. test)
-# server: read secrets from Heroku config variables
-# local: read secrets from local files
-# prod: upload files to Google Drive
-# test: don't upload files to Google Drive, just test that files can be successfully downloaded
+# server - read secrets from Heroku config variables
+# local - read secrets from local files
+# prod - archiver.py: upload files to Google Drive
+# test - archiver.py: don't upload files to Google Drive, just test that files can be successfully downloaded
 set_mode()
 
 # access Google Drive
