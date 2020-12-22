@@ -336,6 +336,7 @@ When both French and English data files are available, French files should be co
 * [Data on COVID-19 in Québec (province)](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
     * [Webpage EN](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/): [qc/qc-webpage-en/qc-webpage-en.html](https://drive.google.com/drive/folders/1dpolshJwFvHWZQxOG58LY-l0pztntYdi)
     * [Webpage FR](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/): [qc/qc-webpage-fr/qc-webpage-fr.html](https://drive.google.com/drive/folders/1nQvnGfZdxIkhibJZHyp4ahbn27q_z3ll)
+    * Situation in Quebec: [qc/situation-in-quebec/situation-au-quebec.csv](https://drive.google.com/drive/folders/1en-wC4O6X6CGKJjBWuyqcP9NRT9O8D61)
     * Correctional facilities - cases among employees (FR): [qc/correctional-cases-employees/donnees_covid_detention_employes_FR.csv](https://drive.google.com/drive/u/2/folders/1FZ8Edx6Xv2cx1mOsh7a5FFY1nI3UGLYE)
     * Correctional facilities - cases among employees (EN): [qc/correctional-cases-employees-en/donnees_covid_detention_employes_EN.csv](https://drive.google.com/drive/u/2/folders/18PcQcnuS0gPLi7D2Tnd40l7VOMeJm4hf)
     * Correctional facilities - cases among detainees (FR): [qc/correctional-cases-detainees/](https://drive.google.com/drive/u/2/folders/1WjUeIALF5440iKvvEUvm6cyDav4rYDcq)
@@ -374,7 +375,6 @@ When both French and English data files are available, French files should be co
     * Terms of use: TBD
 * [Données sur la COVID-19 au Québec](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
     * Deaths time series by living environment: [qc/deaths-time-series-by-living-environment/decesquotidien.csv](https://drive.google.com/drive/folders/1Pb1yqZsQsq40EBH0MVPGIJtS_Uoe1Fj2)
-    * Situation in Quebec: [qc/situation-in-quebec/situation-au-quebec.csv](https://drive.google.com/drive/folders/1en-wC4O6X6CGKJjBWuyqcP9NRT9O8D61)
     * Terms of use: TBD
 * [Situation dans les milieux de vie pour personnes aînées et vulnérables](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
     * Status report on confirmed cases and deaths by RPA (private residences for seniors): [qc/status-report-cases-and-deaths-by-rpa/etat_situation_rpa.pdf](https://drive.google.com/drive/folders/1nkDpCrXj6Y9Qc-E2fWzRznZx97HXAE6Y)

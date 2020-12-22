@@ -470,6 +470,11 @@ archivist.html_page('https://www.quebec.ca/en/health/health-issues/a-z/2019-coro
                     'qc/qc-webpage-en/',
                     'qc-webpage-en')
 
+# QC - Situation in Quebec
+archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/situation-au-quebec.csv',
+                  'qc/situation-in-quebec/',
+                  'situation-au-quebec')
+
 # QC - Correctional facilities - cases among employees (FR)
 archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/donnees-covid/donnees_covid_detention_employes_FR.csv',
                   'qc/correctional-cases-employees/',
@@ -526,9 +531,9 @@ archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Pro
                   'pourcentage-deces-age')
 
 # QC - Deaths percentage by age group (EN)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-deces-age.csv',
-                  'qc/deaths-percentage-by-age-group/',
-                  'pourcentage-deces-age')
+archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-deces-age-en.csv',
+                  'qc/deaths-percentage-by-age-group-en/',
+                  'pourcentage-deces-age-en')
 
 # QC - Cumulative deaths by region (FR)
 archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/deces-region.csv',
@@ -550,7 +555,25 @@ archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Pro
                   'qc/recent-daily-cases-by-region-en/',
                   'cas-region-en')
 
+# QC - COVID-19 daily data 7 days (FR)
+archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/synthese-7jours.csv',
+                  'qc/covid-data-daily-7-days/',
+                  'synthese-7jours')
 
+# QC - COVID-19 daily data 7 days (EN)
+archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/synthese-7jours-en.csv',
+                  'qc/covid-data-daily-7-days-en/',
+                  'synthese-7jours-en')
+
+# QC - Cases by region 7 days (FR)
+archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/apercu/cas-region-7jours.csv',
+                  'qc/cases-by-region-7-days/',
+                  'cas-region-7jours')
+
+# QC - Cases by region 7 days (EN)
+archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/cas-region-7jours-en.csv',
+                  'qc/cases-by-region-7-days-en/',
+                  'cas-region-7jours-en')
 
 # QC - COVID-19 time series by region and demographics
 archivist.dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/covid19-hist.csv',
@@ -596,21 +619,6 @@ archivist.dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/PL_
 archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/decesquotidien.csv',
                   'qc/deaths-time-series-by-living-environment/',
                   'decesquotidien')
-
-# QC - Situation in Quebec
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/situation-au-quebec.csv',
-                  'qc/situation-in-quebec/',
-                  'situation-au-quebec')
-
-# QC - COVID-19 daily data 7 days
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/synthese-7jours.csv',
-                  'qc/covid-data-daily-7-days/',
-                  'synthese-7jours')
-
-# QC - Cases by region 7 days
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/apercu/cas-region-7jours.csv',
-                  'qc/cases-by-region-7-days/',
-                  'cas-region-7jours')
 
 # QC - Status report on confirmed cases and deaths by RPA
 archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_rpa.pdf',
