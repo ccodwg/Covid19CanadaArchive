@@ -37,6 +37,7 @@ Table of contents:
   * [Other: Non-governmental sources](#other-non-governmental-sources)
      * [Canada](#canada-1)
      * [Quebec](#quebec-1)
+  * [COVID-19 Canada Open Data Working Group](#covid-19-canada-open-data-working-group)
 * [Data notes](#data-notes)
 * [Acknowledgements](#acknowledgements)
 
@@ -438,6 +439,10 @@ When both French and English data files are available, French files should be co
 * [Covid Écoles Québec: Number of schools](https://www.covidecolesquebec.org/liste-alphabtique)
     * [Excel spreadsheet](https://drive.google.com/file/d/1xOl0uhyx9IuHZfJuRH-OR7BcGFuWYUex/view): [other/qc/covid-ecoles-quebec-school-list/COVIDECOLESQUEBEC.xlsx](https://drive.google.com/drive/folders/1wOEm8a6HsHXbCwp0dVCe9iwDa1kymS5o) (original file name is COVIDECOLESQUEBEC_20200905.xlsx, renamed to avoid confusion)
     * Terms of use: TBD
+
+### COVID-19 Canada Open Data Working Group
+
+[Data from the COVID-19 Canada Open Data Working Group](https://opencovid.ca/) is being added on an experimental basis. The full catalogue of historical data will be available in the future.
 
 ## Data notes
 
