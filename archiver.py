@@ -460,15 +460,97 @@ archivist.dl_file('https://www.arcgis.com/sharing/rest/content/items/26c902bf1da
                   'on/ottawa-residents-tested/',
                   'COVID-19_Ottawa_Residents_Tested_EN')
 
+# QC - Données sur la COVID-19 au Québec (webpage FR)
+archivist.html_page('https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/',
+                    'qc/qc-webpage-fr/',
+                    'qc-webpage-fr')
+
 # QC - Data on COVID-19 in Quebec (webpage EN)
 archivist.html_page('https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/',
                     'qc/qc-webpage-en/',
                     'qc-webpage-en')
 
-# QC - Données sur la COVID-19 au Québec (webpage FR)
-archivist.html_page('https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/',
-                    'qc/qc-webpage-fr/',
-                    'qc-webpage-fr')
+# QC - Correctional facilities - cases among employees (FR)
+archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/donnees-covid/donnees_covid_detention_employes_FR.csv',
+                  'qc/correctional-cases-employees/',
+                  'donnees_covid_detention_employes_FR')
+
+# QC - Correctional facilities - cases among employees (EN)
+archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/donnees-covid/donnees_covid_detention_employes_EN.csv',
+                  'qc/correctional-cases-employees-en/',
+                  'donnees_covid_detention_employes_EN')
+
+# QC - Correctional facilities - cases among detainees (FR)
+archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/donnees-covid/donnees_covid_detention_personnes_incarcerees_FR.csv',
+                  'qc/correctional-cases-detainees/',
+                  'donnees_covid_detention_personnes_incarcerees_FR')
+
+# QC - Correctional facilities - cases among detainees (EN)
+archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/donnees-covid/donnees_covid_detention_personnes_incarcerees_EN.csv',
+                  'qc/correctional-cases-detainees-en/',
+                  'donnees_covid_detention_personnes_incarcerees_EN')
+
+# QC - Vaccine doses administered by RSS (FR)
+archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/doses-vaccins.csv',
+                  'qc/vaccine-doses-admin-by-rss/',
+                  'doses-vaccins')
+
+# QC - Vaccine doses administered by RSS (EN)
+archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/doses-vaccins-en.csv',
+                  'qc/vaccine-doses-admin-by-rss-en/',
+                  'doses-vaccins-en')
+
+# QC - Outbreaks by setting (FR)
+archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/eclosions-par-milieu.csv',
+                  'qc/outbreaks-by-setting/',
+                  'eclosions-par-milieu')
+
+# QC - Outbreaks by setting (EN)
+archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/eclosions-par-milieu-en.csv',
+                  'qc/outbreaks-by-setting-en/',
+                  'eclosions-par-milieu-en')
+
+# QC - Cases percentage by age group (FR)
+archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-cas-age.csv',
+                  'qc/cases-percentage-by-age-group/',
+                  'pourcentage-cas-age')
+
+# QC - Cases percentage by age group (EN)
+archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-cas-age-en.csv',
+                  'qc/cases-percentage-by-age-group-en/',
+                  'pourcentage-cas-age-en')
+
+# QC - Deaths percentage by age group (FR)
+archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-deces-age.csv',
+                  'qc/deaths-percentage-by-age-group/',
+                  'pourcentage-deces-age')
+
+# QC - Deaths percentage by age group (EN)
+archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-deces-age.csv',
+                  'qc/deaths-percentage-by-age-group/',
+                  'pourcentage-deces-age')
+
+# QC - Cumulative deaths by region (FR)
+archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/deces-region.csv',
+                  'qc/cumulative-deaths-by-region/',
+                  'deces-region')
+
+# QC - Cumulative deaths by region (EN)
+archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/deces-region-en.csv',
+                  'qc/cumulative-deaths-by-region-en/',
+                  'deces-region-en')
+
+# QC - Recent daily cases by region (FR)
+archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/cas-region.csv',
+                  'qc/recent-daily-cases-by-region/',
+                  'cas-region')
+
+# QC - Recent daily cases by region (EN)
+archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/cas-region-en.csv',
+                  'qc/recent-daily-cases-by-region-en/',
+                  'cas-region-en')
+
+
 
 # QC - COVID-19 time series by region and demographics
 archivist.dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/covid19-hist.csv',
@@ -515,35 +597,15 @@ archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Pro
                   'qc/deaths-time-series-by-living-environment/',
                   'decesquotidien')
 
-# QC - Recent daily cases by region
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/cas-region.csv',
-                  'qc/recent-daily-cases-by-region/',
-                  'cas-region')
-
-# QC - Cumulative deaths by region
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/deces-region.csv',
-                  'qc/cumulative-deaths-by-region/',
-                  'deces-region')
-
 # QC - Situation in Quebec
 archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/situation-au-quebec.csv',
                   'qc/situation-in-quebec/',
                   'situation-au-quebec')
 
-# QC - Cases percentage by age group
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-cas-age.csv',
-                  'qc/cases-percentage-by-age-group/',
-                  'pourcentage-cas-age')
-
-# QC - Deaths percentage by age group
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-deces-age.csv',
-                  'qc/deaths-percentage-by-age-group/',
-                  'pourcentage-deces-age')
-
 # QC - COVID-19 daily data 7 days
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/synthese-7joursV2.csv',
+archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/synthese-7jours.csv',
                   'qc/covid-data-daily-7-days/',
-                  'synthese-7joursV2')
+                  'synthese-7jours')
 
 # QC - Cases by region 7 days
 archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/apercu/cas-region-7jours.csv',

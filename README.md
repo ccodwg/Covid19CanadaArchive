@@ -331,9 +331,31 @@ The sources and terms of use for each included dataset are linked below. Supplem
 
 ### Quebec
 
+When both French and English data files are available, French files should be considered definitive (and in many cases, these files have been captured in the archive for a longer duration). The English versions of files avaiable in both languages will always have their directories marked with "-en" at the end.
+
 * [Data on COVID-19 in Québec (province)](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
     * [Webpage EN](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/): [qc/qc-webpage-en/qc-webpage-en.html](https://drive.google.com/drive/folders/1dpolshJwFvHWZQxOG58LY-l0pztntYdi)
     * [Webpage FR](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/): [qc/qc-webpage-fr/qc-webpage-fr.html](https://drive.google.com/drive/folders/1nQvnGfZdxIkhibJZHyp4ahbn27q_z3ll)
+    * Correctional facilities - cases among employees (FR): [qc/correctional-cases-employees/donnees_covid_detention_employes_FR.csv](https://drive.google.com/drive/u/2/folders/1FZ8Edx6Xv2cx1mOsh7a5FFY1nI3UGLYE)
+    * Correctional facilities - cases among employees (EN): [qc/correctional-cases-employees-en/donnees_covid_detention_employes_EN.csv](https://drive.google.com/drive/u/2/folders/18PcQcnuS0gPLi7D2Tnd40l7VOMeJm4hf)
+    * Correctional facilities - cases among detainees (FR): [qc/correctional-cases-detainees/](https://drive.google.com/drive/u/2/folders/1WjUeIALF5440iKvvEUvm6cyDav4rYDcq)
+    * Correctional facilities - cases among detainees (EN): [qc/correctional-cases-detainees/donnees_covid_detention_personnes_incarcerees_EN.csv](https://drive.google.com/drive/u/2/folders/1aBEKVOBqMqpqShE_feXQTvHDgZC3M1dl)
+    * Vaccine doses administered by RSS (FR): [qc/vaccine-doses-admin-by-rss/doses-vaccins.csv](https://drive.google.com/drive/u/2/folders/1-ileQelY2aoJFcCSJSu3JG6bZrGWFFbS)
+    * Vaccine doses administered by RSS (EN): [qc/vaccine-doses-admin-by-rss-en/doses-vaccins-en.csv](https://drive.google.com/drive/u/2/folders/1MWPkSGMfOMGqJNNv7LEJzWA1AAB3h3yI)
+    * Outbreaks by setting (FR): [qc/outbreaks-by-setting/eclosions-par-milieu.csv](https://drive.google.com/drive/u/2/folders/1tz41XR2Y0ToSW4fAFU5qf7HP3E4u3AFw)
+    * Outbreaks by setting (EN): [qc/outbreaks-by-setting-en/eclosions-par-milieu-en.csv](https://drive.google.com/drive/u/2/folders/1p4EFQ_r4x4wjp76zOwlW9gD7-3sKX4z4)
+    * Cases percentage by age group (FR): [qc/cases-percentage-by-age-group/pourcentage-cas-age.csv](https://drive.google.com/drive/folders/1lJhiUMKOoDUwltflhOhtmDnjKpD8-zll)
+    * Cases percentage by age group (EN): [qc/cases-percentage-by-age-group-en/pourcentage-cas-age-en.csv](https://drive.google.com/drive/u/2/folders/1tIW1eONhV1tvhYbappJ44zfvzTpb2RSA)
+    * Deaths percentage by age group (FR): [qc/deaths-percentage-by-age-group/pourcentage-deces-age.csv](https://drive.google.com/drive/folders/1Ef1oPsTMGckPZu3sG87zDRjJRWdp864t)
+    * Deaths percentage by age group (EN): [qc/deaths-percentage-by-age-group-en/pourcentage-deces-age-en.csv](https://drive.google.com/drive/u/2/folders/1CPP_HMuwljqcktPUgM8TaZK3DF7fRJP9)
+    * Cumulative deaths by region (FR): [qc/cumulative-deaths-by-region/deces-region.csv](https://drive.google.com/drive/folders/1RH4vu1SlIefnk-tr1qaKueJrVsSDUrk7)
+    * Cumulative deaths by region (EN): [qc/cumulative-deaths-by-region-en/deces-region-en.csv](https://drive.google.com/drive/u/2/folders/1uL2HHOqEDTl3GoBJDo2EAxkzl2OFw34F)
+    * Recent daily cases by region (FR): [qc/recent-daily-cases-by-region/cas-region.csv](https://drive.google.com/drive/folders/1_HAaI1p-gB7cEOKNXOo2-A-TaBiD79WB)
+    * Recent daily cases by region (EN): [qc/recent-daily-cases-by-region-en/cas-region-en.csv](https://drive.google.com/drive/u/2/folders/18sAMq1Rv5NkxJPUP__Kc4uUWkvllHoAR)
+    * COVID-19 daily data 7 days (FR): [qc/covid-data-daily-7-days/synthese-7jours.csv](https://drive.google.com/drive/folders/1-1Y6dKczLPQU5Rm48eTzJVf9Vpio2pas) (Renamed to synthese-7joursV2.csv from synthese-7jours.csv after 2020-11-09; later renamed again to synthese-7jours.csv - a substantial number of files from November and December are missing due to this change)
+    * COVID-19 daily data 7 days (EN): [qc/covid-data-daily-7-days-en/synthese-7jours-en.csv](https://drive.google.com/drive/u/2/folders/1hiLaw3OLYZK9FIHs68iBheGdJXGRy-9E)
+    * Cases by region 7 days (FR): [qc/cases-by-region-7-days/cas-region-7jours.csv](https://drive.google.com/drive/folders/1FMpdMDozL9ywLrOR-i0ZF7TAiq5rozqF)
+    * Cases by region 7 days (EN): [qc/cases-by-region-7-days-en/cas-region-7jours-en.csv](https://drive.google.com/drive/u/2/folders/10xY0nXr1_kDzeMh-duCepokVg7zSX6I6)
 * [Données COVID-19 au Québec (INSPQ)](https://www.inspq.qc.ca/covid-19/donnees)
     * COVID-19 time series by region and demographics: [qc/covid-time-series-by-region-and-demographics/covid19-hist.csv](https://drive.google.com/drive/folders/18IVG9ivYK-kQ7joEZptyje6fu0rf4T7M)
     * COVID-19 data (charts - summary, time series, and hospitalization by age): [qc/covid-data-charts-summary-time-series-hosp-by-age/manual-data.csv](https://drive.google.com/drive/folders/1imkAJIUffYtI5KaYZxgiAtagXXDwckoX)
@@ -347,18 +369,12 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * COVID-19 data: [qc/covid-data/combine.csv](https://drive.google.com/drive/folders/1Mx9H2AfYncQGifc_lNcUWr32MrPIepc7) (Archived as of 2020-09-16, no longer part of the nightly update)
     * COVID-19 data (charts): [qc/covid-data-charts/combine2.csv](https://drive.google.com/drive/folders/11lkpfIvQW6tVH4c7w6ZlQ36R4mMudbxX) (Archived as of 2020-09-16, no longer part of the nightly update)
     * Terms of use: TBD
-* [Données COVID-19 par âge et sexe au Québec ](https://www.inspq.qc.ca/covid-19/donnees/age-sexe)
+* [Données COVID-19 par âge et sexe au Québec](https://www.inspq.qc.ca/covid-19/donnees/age-sexe)
     * COVID-19 data by age group and sex: [qc/covid-data-by-age-and-sex/PL_AGE_SEXE.csv](https://drive.google.com/drive/folders/1o7tM8U8BiLufnEecVEZthKHactdv1UfY)
     * Terms of use: TBD
 * [Données sur la COVID-19 au Québec](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
     * Deaths time series by living environment: [qc/deaths-time-series-by-living-environment/decesquotidien.csv](https://drive.google.com/drive/folders/1Pb1yqZsQsq40EBH0MVPGIJtS_Uoe1Fj2)
-    * Recent daily cases by region: [qc/recent-daily-cases-by-region/cas-region.csv](https://drive.google.com/drive/folders/1_HAaI1p-gB7cEOKNXOo2-A-TaBiD79WB)
-    * Cumulative deaths by region: [qc/cumulative-deaths-by-region/deces-region.csv](https://drive.google.com/drive/folders/1RH4vu1SlIefnk-tr1qaKueJrVsSDUrk7)
     * Situation in Quebec: [qc/situation-in-quebec/situation-au-quebec.csv](https://drive.google.com/drive/folders/1en-wC4O6X6CGKJjBWuyqcP9NRT9O8D61)
-    * Cases percentage by age group: [qc/cases-percentage-by-age-group/pourcentage-cas-age.csv](https://drive.google.com/drive/folders/1lJhiUMKOoDUwltflhOhtmDnjKpD8-zll)
-    * Deaths percentage by age group: [qc/deaths-percentage-by-age-group/pourcentage-deces-age.csv](https://drive.google.com/drive/folders/1Ef1oPsTMGckPZu3sG87zDRjJRWdp864t)
-    * COVID-19 daily data 7 days: [qc/covid-data-daily-7-days/synthese-7joursV2.csv](https://drive.google.com/drive/folders/1-1Y6dKczLPQU5Rm48eTzJVf9Vpio2pas) (Renamed from synthese-7jours.csv after 2020-11-09)
-    * Cases by region 7 days: [qc/cases-by-region-7-days/cas-region-7jours.csv](https://drive.google.com/drive/folders/1FMpdMDozL9ywLrOR-i0ZF7TAiq5rozqF)
     * Terms of use: TBD
 * [Situation dans les milieux de vie pour personnes aînées et vulnérables](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
     * Status report on confirmed cases and deaths by RPA (private residences for seniors): [qc/status-report-cases-and-deaths-by-rpa/etat_situation_rpa.pdf](https://drive.google.com/drive/folders/1nkDpCrXj6Y9Qc-E2fWzRznZx97HXAE6Y)

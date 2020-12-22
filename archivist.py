@@ -712,6 +712,7 @@ def write_index(index):
     index.to_csv('data/data_index.csv', index=False)
     print('Data index written.')
 
+
 # initialize global variables
 success = 0 # success counter
 failure = 0 # failure counter
