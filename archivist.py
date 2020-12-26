@@ -108,6 +108,10 @@ def access_gd():
     ## return Google Drive object
     return drive  
 
+def load_dir_ids():
+    dir_ids = pd.read_csv("https://raw.githubusercontent.com/jeanpaulrsoucy/covid-19-canada-gov-data/master/data/data_id.csv")
+    return dir_ids
+
 def create_http(drive):
     """Create httplib.Http() object for re-use when uploading using PyDrive.
     
@@ -711,44 +715,3 @@ def write_index(index):
     print('Writing data index...')
     index.to_csv('data/data_index.csv', index=False)
     print('Data index written.')
-
-
-# initialize global variables
-success = 0 # success counter
-failure = 0 # failure counter
-log_text = '' # recent log
-dir_ids = pd.read_csv("https://raw.githubusercontent.com/jeanpaulrsoucy/covid-19-canada-gov-data/master/data/data_id.csv")
-
-# set mode from argument when running the script (server vs. local and prod vs. test)
-# server - read secrets from Heroku config variables
-# local - read secrets from local files
-# prod - archiver.py: upload files to Google Drive
-# test - archiver.py: don't upload files to Google Drive, just test that files can be successfully downloaded
-set_mode()
-
-# access Google Drive
-if mode == 'serverprod' or mode == 'localprod':
-    # access Google Drive
-    drive = access_gd()
-
-    # create httplib.Http() object
-    http = create_http(drive)
-
-    # set log file IDs
-    log_id = '10tbxUYVfghhzvoGOi8piHBHHGn0MgU7X'  # ID of log.txt
-    log_recent_id = '1x0zCPzgKRpme5NOxUiYWHCrfiDUbsAFM'  # ID of log_recent.txt
-
-# clone GitHub repo
-if mode == 'serverprod' or mode == 'localprod':
-    ## get GitHub access token, name, mail
-    if mode == 'serverprod':
-        gh_token = os.environ['GH_TOKEN']
-        gh_name = os.environ['GH_NAME']
-        gh_mail = os.environ['GH_MAIL']
-    elif mode == 'localprod':
-        gh_token = open('.gh/.gh_token.txt', 'r').readline().rstrip()
-        gh_name = open('.gh/.gh_name.txt', 'r').readline().rstrip()
-        gh_mail = open('.gh/.gh_mail.txt', 'r').readline().rstrip()
-    ## clone repo to temporary directory
-    repo_tmpdir = tempfile.TemporaryDirectory()
-    repo = clone_gh(repo_tmpdir)

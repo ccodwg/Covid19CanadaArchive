@@ -9,8 +9,8 @@ print('Importing modules...')
 import os
 
 ## other utilities
-import pandas as pd
 from colorit import *  # colourful printing
+init_colorit() # enable printing with colour
 
 ## archivist.py
 import archivist
@@ -23,8 +23,47 @@ import archivist
 ## GOOGLE_CHROME_BIN: path to binary in heroku-buildpack-google-chrome (used when mode = server): /app/.chromedriver/bin/chromedriver
 ## CHROMEDRIVER_PATH: path to binary in heroku-buildpack-chromedriver (used when mode = server): /app/.apt/usr/bin/google-chrome
 
-# enable printing with colour
-init_colorit()
+# set mode from argv (server vs. local and prod vs. test)
+## server - read secrets from Heroku config variables
+## local - read secrets from local files
+## prod - archiver.py: upload files to Google Drive
+## test - archiver.py: don't upload files to Google Drive, just test that files can be successfully downloaded
+archivist.set_mode()
+
+# initialize global variables
+archivist.success = 0 # success counter
+archivist.failure = 0 # failure counter
+archivist.log_text = '' # recent log
+
+# access Google Drive
+if archivist.mode == 'serverprod' or archivist.mode == 'localprod':
+        ## access Google Drive
+        archivist.drive = archivist.access_gd()
+
+        ## create httplib.Http() object
+        archivist.http = archivist.create_http(archivist.drive)
+
+        ## set log file IDs
+        archivist.log_id = '10tbxUYVfghhzvoGOi8piHBHHGn0MgU7X'  # ID of log.txt
+        archivist.log_recent_id = '1x0zCPzgKRpme5NOxUiYWHCrfiDUbsAFM'  # ID of log_recent.txt
+
+# load directory ID list
+archivist.dir_ids = archivist.load_dir_ids()
+
+# clone GitHub repo
+if archivist.mode == 'serverprod' or archivist.mode == 'localprod':
+        ## get GitHub access token, name, mail
+        if archivist.mode == 'serverprod':
+                archivist.gh_token = os.environ['GH_TOKEN']
+                archivist.gh_name = os.environ['GH_NAME']
+                archivist.gh_mail = os.environ['GH_MAIL']
+        elif archivist.mode == 'localprod':
+                archivist.gh_token = open('.gh/.gh_token.txt', 'r').readline().rstrip()
+                archivist.gh_name = open('.gh/.gh_name.txt', 'r').readline().rstrip()
+                archivist.gh_mail = open('.gh/.gh_mail.txt', 'r').readline().rstrip()
+        ## clone repo to temporary directory
+        repo_tmpdir = archivist.tempfile.TemporaryDirectory()
+        archivist.repo = archivist.clone_gh(repo_tmpdir)
 
 # define time script started running in America/Toronto time zone
 t = archivist.get_datetime('America/Toronto')
