@@ -700,7 +700,9 @@ def create_index():
         d = d.drop_duplicates(['file_date_true'], keep='last')
         ## using hash, mark duplicates appearing after the first instance (e.g., duplicate hashes of Friday value for weekend versions of files updated only on weekdays)
         d['file_md5_duplicate'] = d['file_md5'].duplicated()
-        ### add columns: dir_parent, dir_file, dir_id
+        ## mark duplicates using 1 and 0 rather than True and False
+        d['file_md5_duplicate'] = np.where(d['file_md5_duplicate']==True, 1, 0)
+        ## add columns: dir_parent, dir_file, dir_id
         d['dir_parent'] = dir_ids.loc[i, 'dir_parent']
         d['dir_file'] = dir_ids.loc[i, 'dir_file']
         d['dir_id'] = dir_ids.loc[i, 'dir_id']
