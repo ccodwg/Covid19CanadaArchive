@@ -205,7 +205,7 @@ The sources and terms of use for each included dataset are linked below. Supplem
 ### Nova Scotia
 
 * [Coronavirus (COVID-19): case data](https://novascotia.ca/coronavirus/data/)
-    * [ns/case-data/ns-covid19-data.csv](hhttps://drive.google.com/drive/folders/1topV_6XkI2uz-Amwlibi8V_jbnHx4MG5)
+    * [ns/case-data/ns-covid19-data.csv](https://drive.google.com/drive/folders/1topV_6XkI2uz-Amwlibi8V_jbnHx4MG5)
     * Terms of use: Assumed to be [Open Government Licence – Nova Scotia](https://novascotia.ca/opendata/licence.asp)
 
 ### Nunavut
