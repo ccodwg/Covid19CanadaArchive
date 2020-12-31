@@ -499,6 +499,11 @@ archivist.dl_file('https://www.arcgis.com/sharing/rest/content/items/26c902bf1da
                   'on/ottawa-residents-tested/',
                   'COVID-19_Ottawa_Residents_Tested_EN')
 
+# ON - COVID-19 Vaccine Data in Ontario
+archivist.dl_file('https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/8a89caa9-511c-4568-af89-7f2174b4378c/download/vaccine_doses.csv',
+                  'on/vaccine-data/',
+                  'vaccine_doses')
+
 # QC - Données sur la COVID-19 au Québec (webpage FR)
 archivist.html_page('https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/',
                     'qc/qc-webpage-fr/',

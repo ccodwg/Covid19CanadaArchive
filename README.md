@@ -278,6 +278,9 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Summary of cases in licensed child care settings: [on/licensed-child-care-settings-summary/lccovidsummary.csv](https://drive.google.com/drive/folders/1Z0Z5nA1CjkqhJyQlIXDHXFJi4H4d_xQG)
     * Licensed child care centres and agencies with active COVID-19 cases: [on/licensed-child-care-settings-active/lccactivecovid.csv](https://drive.google.com/drive/folders/1CFmQCx6Q0GKTqyyKK-UOSvoMb3VgpaNk)
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
+* [COVID-19 Vaccine Data in Ontario](https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario)
+    * [on/vaccine-data/vaccine_doses.csv](https://drive.google.com/drive/u/2/folders/1lHHwSqkW_ZZpcdBaNiUM-H-Q_ynod3jq)
+    * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 
 #### Toronto
 
