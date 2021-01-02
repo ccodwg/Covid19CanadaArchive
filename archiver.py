@@ -239,6 +239,11 @@ if t.weekday() == 3:
                           'can/covidtrends-fluwatchers/',
                           'fluwatchers')
 
+# CAN - Vaccines and treatments for COVID-19: Vaccine rollout
+archivist.html_page('https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks/covid-19-vaccine-treatment/vaccine-rollout.html',
+                    'can/vaccine-rollout-webpage/',
+                    'vaccine-rollout-webpage')
+
 # CAN - Detailed preliminary information on cases of COVID-19: 6 Dimensions (Aggregated data)
 archivist.dl_file('https://www150.statcan.gc.ca/n1/tbl/csv/13100774-eng.zip',
                   'can/detailed-preliminary-case-info-aggregated-6-dimensions/',

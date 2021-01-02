@@ -150,6 +150,9 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Mobility: [can/covidtrends-mobility/mobility.csv](https://drive.google.com/drive/folders/1rywSZlhHQzv7L9r8dIo7_hWgquTG7U45) [dataset is updated only on Thursdays]
     * FluWatchers: [can/covidtrends-fluwatchers/fluwatchers.csv](https://drive.google.com/drive/folders/1l9C7WppFIIc-hSxKRLd8i0dAon6YfbAs) [dataset is updated only on Thursdays]
     * Terms of use: [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
+* [Vaccines and treatments for COVID-19: Vaccine rollout](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks/covid-19-vaccine-treatment/vaccine-rollout.html)
+    * [can/vaccine-rollout-webpage/vaccine-rollout-webpage.html](https://drive.google.com/drive/folders/1Z1E3rh96IgCUBRiABOfvt9Vf-cx2T7Kk)
+    * Terms of use: [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
 * [Detailed preliminary information on cases of COVID-19: 6 Dimensions (Aggregated data)](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310077401)
     * [can/detailed-preliminary-case-info-aggregated-6-dimensions/13100774.csv](https://drive.google.com/drive/folders/1i_r1VTTylcwFUJU5Z2NxyDj58evLdICt)
     * Includes supplementary material: Footnotes, metadata
