@@ -462,6 +462,12 @@ archivist.dl_file('https://docs.google.com/spreadsheets/d/1-7j48S_KQY-I-4Qu3N3ls
                   'CityofToronto_COVID-19_RecoveryData',
                   ext='.xlsx')
 
+# ON - City of Toronto COVID-19 Outbreak Data
+archivist.dl_file('https://docs.google.com/spreadsheets/d/1pYoXchhmnpiOrFBY7WP9rxGRJNgnerMN/export?format=xlsx&id=1pYoXchhmnpiOrFBY7WP9rxGRJNgnerMN',
+                  'on/toronto-active-outbreaks/',
+                  'CityofToronto_COVID-19_OutbreakData',
+                  ext='.xlsx')
+
 # ON - COVID-19 Cases in Toronto
 # run only on Wednesdays
 if t.weekday() == 2:

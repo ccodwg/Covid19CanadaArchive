@@ -307,6 +307,11 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * [on/toronto-monitoring-dashboard/CityofToronto_COVID-19_RecoveryData.xlsx](https://drive.google.com/drive/folders/1fHmGdLjTGoQXVuyGnTfMZ1UbMrQrnQ6P)
     * Include supplementary material: Technical notes
     * Terms of use: Assumed to be [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
+* [City of Toronto COVID-19 Active Outbreaks](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-status-of-cases-in-toronto/)
+    * [on/toronto-active-outbreaks/CityofToronto_COVID-19_OutbreakData.xlsx](https://drive.google.com/drive/folders/1Hhnpqrh8AnfIhH80Ss0kY1WWkkxuLeh0
+)
+    * Include supplementary material: Technical notes - COVID-19 Active Outbreaks - Community and Workplace Settings
+    * Terms of use: Assumed to be [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
 * [City of Toronto Ethno-Racial Group, Income, & Infection](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-status-of-cases-in-toronto/)
     * [on/toronto-ethno-racial-income/Ethno-Racial_Group,_Income,_and_COVID-19_Infection.xlsx](https://drive.google.com/drive/folders/1Q4esWyxm6SstZGQr-kR_32bpichsICYo) (original file name is Ethno-Racial Group, Income, and COVID-19 Infection.xlsx, renamed to avoid spaces in file name)
     * Include supplementary material: Technical notes
