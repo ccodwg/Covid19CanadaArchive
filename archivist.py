@@ -239,12 +239,13 @@ def commit_gh(repo, file_list, commit_message):
 
 ## functions for web scraping
 
-def dl_file(url, path, file, user=False, ext='.csv', verify=True, unzip=False, mb_json_to_csv=False):
+def dl_file(url, path, file, user=False, ext='.csv', verify=True, unzip=False, ab_json_to_csv=False, mb_json_to_csv=False):
     """Download file (generic).
 
     Used to download most file types (when Selenium is not required). Some files are handled with file-specific code:
 
     - unzip=True and file='13100781' has unique code.
+    - Each instance of ab_json_to_csv=True has unique code.
     - Each instance of mb_json_to_csv=True has unique code.
 
     Parameters:
@@ -255,6 +256,7 @@ def dl_file(url, path, file, user=False, ext='.csv', verify=True, unzip=False, m
     ext (str): Extension of the output file. Defaults to '.csv'.
     verify (bool): If False, requests will skip SSL verification. Default: True.
     unzip (bool): If True, this file requires unzipping. Default: False.
+    ab_json_to_csv (bool): If True, this is an Alberta JSON file embedded in a webpage that should be converted to CSV. Default: False.
     mb_json_to_csv (bool): If True, this is a Manitoba JSON file that that should be converted to CSV. Default: False.
 
     """
@@ -310,7 +312,20 @@ def dl_file(url, path, file, user=False, ext='.csv', verify=True, unzip=False, m
                     ## use original column order
                     data = data[['REF_DATE', 'Case identifier number'] + col_order.tolist()]
                     ## write CSV
-                    data.to_csv(f_path, index=None, quoting=csv.QUOTE_NONNUMERIC)                       
+                    data.to_csv(f_path, index=None, quoting=csv.QUOTE_NONNUMERIC)
+            elif ab_json_to_csv:
+                ## for Alberta JSON data only: extract JSON from webpage, convert JSON to CSV and save as temporary file
+                name = file + '_' + get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
+                full_name = os.path.join(path, name + ext)                          
+                tmpdir = tempfile.TemporaryDirectory()
+                f_path = os.path.join(tmpdir.name, file + ext)
+                re.search("(?<=\"data\"\:)\[\[.*\]\]", req.text).group(0)
+                data = pd.read_json(dat).transpose()
+                if url == "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm":
+                    data = data.rename(columns={0: "", 1: "Date reported", 2: "Alberta Health Services Zone", 3: "Gender", 4: "Age group", 5: "Case status", 6: "Case type"})
+                    data = data.to_csv(None, quoting=csv.QUOTE_ALL, index=False) # to match website output: quote all lines, don't terminate with new line
+                with open(f_path, 'w') as local_file:
+                    local_file.write(data[:-1])                
             elif mb_json_to_csv:
                 ## for Manitoba JSON data only: convert JSON to CSV and save as temporary file
                 name = file + '_' + get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
@@ -322,7 +337,7 @@ def dl_file(url, path, file, user=False, ext='.csv', verify=True, unzip=False, m
                 ## replace timestamps with actual dates
                 if 'Date' in data.columns:
                     data.Date = pd.to_datetime(data.Date / 1000, unit='s').dt.date
-                data = data.to_csv(f_path, index=None)
+                data.to_csv(f_path, index=None)
             else:
                 ## all other data: write contents to temporary file
                 tmpdir = tempfile.TemporaryDirectory()
@@ -360,74 +375,6 @@ def load_webdriver(tmpdir):
         return webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
     else:
         return webdriver.Chrome(options=options)
-
-def dl_ab_cases(url, path, file, ext='.csv', wait=5):
-    """Download CSV file: AB - "COVID-19 Alberta statistics".
-    https://www.alberta.ca/stats/covid-19-alberta-statistics.htm
-
-    The file requires Selenium to click a tab then click a CSV button.
-
-    Parameters:
-    url (str): URL to download file from.
-    path (str): Path to output file (excluding file name). Example: 'can/epidemiology-update/'
-    file (str): Output file name (excluding extension). Example: 'covid19'
-    ext (str): Extension of the output file. Defaults to '.csv'.
-    wait (int): Time in seconds that the function should wait. Should be > 0 to ensure the download is successful.
-
-    """
-    global mode, log_text, success, failure
-
-    ## set names with timestamp and file ext
-    name = file + '_' + get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
-    full_name = os.path.join(path, name + ext)           
-
-    ## download file
-    try:
-        ## create temporary directory
-        tmpdir = tempfile.TemporaryDirectory()
-
-        ## load webdriver
-        driver = load_webdriver(tmpdir)
-        driver.implicitly_wait(wait + 10)
-
-        ## click to correct tab then click CSV button to export
-        driver.get(url)
-        elements = driver.find_elements_by_tag_name("li")
-        for element in elements:
-            if element.text == 'Data export':
-                element.click()
-        elements = driver.find_elements_by_tag_name("button")
-        for element in elements:
-            if element.text == 'CSV':
-                element.click()
-
-        ## verify download
-        f_path = os.path.join(tmpdir.name, file + ext)
-        time.sleep(wait) # wait for download to finish
-        if not os.path.isfile(f_path):
-            ## print failure
-            print(background('Error downloading: ' + full_name, Colors.red))
-            failure+=1
-            ## write failure to log message if mode == prod
-            if mode == 'serverprod' or mode == 'localprod':
-                log_text = log_text + 'Failure: ' + full_name + '\n'
-        ## successful request: if mode == test, print success and end
-        elif mode == 'servertest' or mode == 'localtest':
-            ## print success
-            print(color('Test download successful: ' + full_name, Colors.green))
-            success+=1
-        ## successful request: mode == prod, prepare files for data upload
-        else:
-            ## upload file
-            upload_file(full_name, f_path)
-
-        ## quit webdriver
-        driver.quit()
-    except:
-        if mode == 'serverprod' or mode == 'localprod':
-            log_text = log_text + 'Failure: ' + full_name + '\n'
-        elif mode == 'servertest' or mode == 'localtest':
-            print(background('Error downloading: ' + full_name, Colors.red))
 
 def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
     """Download CSV file: AB - "COVID-19 relaunch status map" or AB - "COVID-19 school status map"

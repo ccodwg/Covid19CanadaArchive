@@ -72,10 +72,10 @@ t = archivist.get_datetime('America/Toronto')
 print('Beginning file downloads...')
 
 # AB - COVID-19 Alberta statistics
-archivist.dl_ab_cases('https://www.alberta.ca/stats/covid-19-alberta-statistics.htm',
-                      'ab/cases/',
-                      'covid19dataexport',
-                      wait=30)
+archivist.dl_file('https://www.alberta.ca/stats/covid-19-alberta-statistics.htm',
+                  'ab/cases/',
+                  'covid19dataexport',
+                  ab_json_to_csv=True)
 
 # AB - COVID-19 relaunch status map
 archivist.dl_ab_oneclick('https://www.alberta.ca/maps/covid-19-status-map.htm',
