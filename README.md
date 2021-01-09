@@ -343,7 +343,7 @@ The sources and terms of use for each included dataset are linked below. Supplem
 
 ### Quebec
 
-When both French and English data files are available, French files should be considered definitive (and in many cases, these files have been captured in the archive for a longer duration). The English versions of files avaiable in both languages will always have their directories marked with "-en" at the end.
+When both French and English data files are available, French files should generally be considered definitive (and in many cases, these files have been captured in the archive for a longer duration). The English versions of files avaiable in both languages will always have their directories marked with "-en" at the end.
 
 * [Data on COVID-19 in Québec (province)](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
     * [Webpage EN](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/): [qc/qc-webpage-en/qc-webpage-en.html](https://drive.google.com/drive/folders/1dpolshJwFvHWZQxOG58LY-l0pztntYdi)
@@ -354,7 +354,7 @@ When both French and English data files are available, French files should be co
     * Correctional facilities - cases among detainees (FR): [qc/correctional-cases-detainees/](https://drive.google.com/drive/u/2/folders/1WjUeIALF5440iKvvEUvm6cyDav4rYDcq)
     * Correctional facilities - cases among detainees (EN): [qc/correctional-cases-detainees/donnees_covid_detention_personnes_incarcerees_EN.csv](https://drive.google.com/drive/u/2/folders/1aBEKVOBqMqpqShE_feXQTvHDgZC3M1dl)
     * Vaccine doses administered by RSS (FR): [qc/vaccine-doses-admin-by-rss/doses-vaccins.csv](https://drive.google.com/drive/u/2/folders/1-ileQelY2aoJFcCSJSu3JG6bZrGWFFbS)
-    * Vaccine doses administered by RSS (EN): [qc/vaccine-doses-admin-by-rss-en/doses-vaccins-en.csv](https://drive.google.com/drive/u/2/folders/1MWPkSGMfOMGqJNNv7LEJzWA1AAB3h3yI)
+    * Vaccine doses administered by RSS (EN): [qc/vaccine-doses-admin-by-rss-en/doses-vaccins-en.csv](https://drive.google.com/drive/u/2/folders/1MWPkSGMfOMGqJNNv7LEJzWA1AAB3h3yI) (note: the first file in this dataset is only available as a screenshot)
     * Outbreaks by setting (FR): [qc/outbreaks-by-setting/eclosions-par-milieu.csv](https://drive.google.com/drive/u/2/folders/1tz41XR2Y0ToSW4fAFU5qf7HP3E4u3AFw)
     * Outbreaks by setting (EN): [qc/outbreaks-by-setting-en/eclosions-par-milieu-en.csv](https://drive.google.com/drive/u/2/folders/1p4EFQ_r4x4wjp76zOwlW9gD7-3sKX4z4)
     * Cases percentage by age group (FR): [qc/cases-percentage-by-age-group/pourcentage-cas-age.csv](https://drive.google.com/drive/folders/1lJhiUMKOoDUwltflhOhtmDnjKpD8-zll)
