@@ -319,8 +319,8 @@ def dl_file(url, path, file, user=False, ext='.csv', verify=True, unzip=False, a
                 full_name = os.path.join(path, name + ext)                          
                 tmpdir = tempfile.TemporaryDirectory()
                 f_path = os.path.join(tmpdir.name, file + ext)
-                re.search("(?<=\"data\"\:)\[\[.*\]\]", req.text).group(0)
-                data = pd.read_json(dat).transpose()
+                data = re.search("(?<=\"data\"\:)\[\[.*\]\]", req.text).group(0)
+                data = pd.read_json(data).transpose()
                 if url == "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm":
                     data = data.rename(columns={0: "", 1: "Date reported", 2: "Alberta Health Services Zone", 3: "Gender", 4: "Age group", 5: "Case status", 6: "Case type"})
                     data = data.to_csv(None, quoting=csv.QUOTE_ALL, index=False) # to match website output: quote all lines, don't terminate with new line
