@@ -78,16 +78,16 @@ archivist.dl_file('https://www.alberta.ca/stats/covid-19-alberta-statistics.htm'
                   ab_json_to_csv=True)
 
 # AB - COVID-19 relaunch status map
-archivist.dl_ab_oneclick('https://www.alberta.ca/maps/covid-19-status-map.htm',
-                         'ab/active-cases-by-region/',
-                         'covid19dataexport-relaunch',
-                         wait=20)
+archivist.dl_file('https://www.alberta.ca/maps/covid-19-status-map.htm',
+                  'ab/active-cases-by-region/',
+                  'covid19dataexport-relaunch',
+                  ab_json_to_csv=True)
 
 # AB - COVID-19 school status map
-archivist.dl_ab_oneclick('https://www.alberta.ca/schools/covid-19-school-status-map.htm',
-                         'ab/school-status-by-region/',
-                         'covid19dataexport-schools',
-                         wait=15)
+archivist.dl_file('https://www.alberta.ca/schools/covid-19-school-status-map.htm',
+                  'ab/school-status-by-region/',
+                  'covid19dataexport-schools',
+                  ab_json_to_csv=True)
 
 # AB - COVID-19 in Alberta: Current cases by local geographic area (Edmonton)
 archivist.dl_file('https://data.edmonton.ca/api/views/ix8f-s9xp/rows.csv?accessType=DOWNLOAD',

@@ -27,6 +27,7 @@ from colorit import * # colourful printing
 import requests
 from selenium import webdriver # requires ChromeDriver and Chromium/Chrome
 from selenium.webdriver.chrome.options import Options
+from bs4 import BeautifulSoup
 
 ## Google Drive
 from oauth2client import service_account
@@ -320,12 +321,24 @@ def dl_file(url, path, file, user=False, ext='.csv', verify=True, unzip=False, a
                 tmpdir = tempfile.TemporaryDirectory()
                 f_path = os.path.join(tmpdir.name, file + ext)
                 data = re.search("(?<=\"data\"\:)\[\[.*\]\]", req.text).group(0)
-                data = pd.read_json(data).transpose()
                 if url == "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm":
+                    data = pd.read_json(data).transpose()
                     data = data.rename(columns={0: "", 1: "Date reported", 2: "Alberta Health Services Zone", 3: "Gender", 4: "Age group", 5: "Case status", 6: "Case type"})
-                    data = data.to_csv(None, quoting=csv.QUOTE_ALL, index=False) # to match website output: quote all lines, don't terminate with new line
+                elif url == "https://www.alberta.ca/maps/covid-19-status-map.htm":
+                    data = BeautifulSoup(data, features="html.parser")
+                    data = data.get_text() # strip HTML tags
+                    ## this regex may need some tweaking if measures column changes in the future
+                    data = re.sub("<\\\/a><\\\/li><\\\/ul>", "", data) # strip remaining tags
+                    data = re.sub("(?<=\") ", "", data) # strip whitespace
+                    data = re.sub(" (?=\")", "", data) # strip whitespace
+                    data = pd.read_json(data).transpose()
+                    data = data.rename(columns={0: "", 1: "Region name", 2: "Region classification", 3: "Measures", 4: "Active case rate (per 100,000 population)", 5: "Active cases", 6: "Population"})
+                elif url == "https://www.alberta.ca/schools/covid-19-school-status-map.htm":
+                    data = pd.read_json(data).transpose()
+                    data = data.rename(columns={0: "", 1: "Region name", 2: "School status", 3: "Schools details"})
+                data = data.to_csv(None, quoting=csv.QUOTE_ALL, index=False) # to match website output: quote all lines, don't terminate with new line
                 with open(f_path, 'w') as local_file:
-                    local_file.write(data[:-1])                
+                    local_file.write(data[:-1])
             elif mb_json_to_csv:
                 ## for Manitoba JSON data only: convert JSON to CSV and save as temporary file
                 name = file + '_' + get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
@@ -375,73 +388,6 @@ def load_webdriver(tmpdir):
         return webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
     else:
         return webdriver.Chrome(options=options)
-
-def dl_ab_oneclick(url, path, file, ext='.csv', wait=5):
-    """Download CSV file: AB - "COVID-19 relaunch status map" or AB - "COVID-19 school status map"
-    https://www.alberta.ca/maps/covid-19-status-map.htm
-    https://www.alberta.ca/schools/covid-19-school-status-map.htm
-
-    The file requires Selenium to click a CSV button.
-
-    Parameters:
-    url (str): URL to download file from.
-    path (str): Path to output file (excluding file name). Example: 'can/epidemiology-update/'
-    file (str): Output file name (excluding extension). Example: 'covid19'
-    ext (str): Extension of the output file. Defaults to '.csv'.
-    wait (int): Time in seconds that the function should wait. Should be > 0 to ensure the download is successful.
-
-    """        
-    global mode, log_text, success, failure
-
-    ## set names with timestamp and file ext
-    name = file + '_' + get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
-    full_name = os.path.join(path, name + ext)        
-
-    ## download file
-    try:
-        ## create temporary directory
-        tmpdir = tempfile.TemporaryDirectory()
-
-        ## load webdriver
-        driver = load_webdriver(tmpdir)
-        driver.implicitly_wait(wait + 10)
-
-        ## click CSV button to export
-        driver.get(url)
-        elements = driver.find_elements_by_tag_name("button")
-        for element in elements:
-            if element.text == 'CSV':
-                element.click()
-
-        ## verify download
-        f_path = os.path.join(tmpdir.name, file + ext)
-        time.sleep(wait) # wait for download to finish
-        if not os.path.isfile(f_path):
-            ## print failure
-            print(background('Error downloading: ' + full_name, Colors.red))
-            failure+=1
-            ## write failure to log message if mode == prod
-            if mode == 'serverprod' or mode == 'localprod':
-                log_text = log_text + 'Failure: ' + full_name + '\n'
-        ## successful request: if mode == test, print success and end
-        elif mode == 'servertest' or mode == 'localtest':
-            ## print success
-            print(color('Test download successful: ' + full_name, Colors.green))
-            success+=1
-        ## successful request: mode == prod, prepare files for data upload
-        else:
-            ## upload file
-            upload_file(full_name, f_path)
-
-        ## quit webdriver
-        driver.quit()
-    except:
-        ## print failure
-        print(background('Error downloading: ' + full_name, Colors.red))
-        failure+=1
-        ## write failure to log message if mode == prod
-        if mode == 'serverprod' or mode == 'localprod':
-            log_text = log_text + 'Failure: ' + full_name + '\n'
 
 def html_page(url, path, file, ext='.html', js=False, wait=None):
     """Save HTML of a webpage.
