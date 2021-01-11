@@ -788,6 +788,11 @@ archivist.html_page('https://news.mcdonalds.ca/covid-19-tracker',
                     'other/can/mcdonalds-tracker/',
                     'mcdonalds-tracker-webpage')
 
+# Other: CAN - COVID-19 - Loblaw Companies Ltd.
+archivist.html_page('https://www.loblaw.ca/en/covid-19/',
+                    'other/can/loblaw-companies-tracker/',
+                    'loblaw-companies-tracker')
+
 # Other: QC - Covid Écoles Québec (Excel)
 archivist.dl_file('https://drive.google.com/uc?export=download&id=1xOl0uhyx9IuHZfJuRH-OR7BcGFuWYUex',
                   'other/qc/covid-ecoles-quebec-school-list/',
