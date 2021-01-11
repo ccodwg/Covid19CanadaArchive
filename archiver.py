@@ -783,6 +783,11 @@ archivist.dl_file('https://raw.githubusercontent.com/uhengart/covid-alert-dashbo
                   'other/can/unofficial-covid-alert-dashboard-upload-delay/',
                   'UploadDelay')
 
+# Other: CAN - McDonald's Tracker
+archivist.html_page('https://news.mcdonalds.ca/covid-19-tracker',
+                    'other/can/mcdonalds-tracker/',
+                    'mcdonalds-tracker-webpage')
+
 # Other: QC - Covid Écoles Québec (Excel)
 archivist.dl_file('https://drive.google.com/uc?export=download&id=1xOl0uhyx9IuHZfJuRH-OR7BcGFuWYUex',
                   'other/qc/covid-ecoles-quebec-school-list/',

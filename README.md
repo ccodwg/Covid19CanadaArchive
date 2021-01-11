@@ -439,6 +439,9 @@ When both French and English data files are available, French files should gener
 * [Canada COVID-19 School Case Tracker](https://masks4canada.org/canada-covid-19-school-case-tracker/)
     * [other/can/canada-covid-19-school-case-tracker/Canada_COVID-19_School_Report_Tracker.kml](https://drive.google.com/drive/folders/1Ssj8EcPDd-yQpCKvDuokrRpwQLkgWUEG) (original file name is Canada COVID-19 School Report Tracker.kml, renamed to avoid spaces in file name; warning: some early files are in .kmz format, which is compressed but handled almost identically to .kml)
     * Terms of use: TBD
+* [COVID-19 - McDonald's Tracker](https://news.mcdonalds.ca/covid-19-tracker)
+    * [other/can/mcdonalds-tracker/mcdonalds-tracker-webpage.html](https://drive.google.com/drive/folders/1gFfSvLQ6DY66YTZtYBMtdiC3wmPgcl2w)
+    * Terms of use: TBD
 * [Unofficial COVID Alert Dashboard](https://github.com/uhengart/covid-alert-dashboard)
     * Estimated infections per day: [other/can/unofficial-covid-alert-dashboard/estimated_infections_per_day.txt](https://drive.google.com/drive/folders/1tCtgZArFKt1jOwzSvBLguJz2r5TUScPd) (Replaced after 2020-11-14 by unofficial-covid-alert-dashboard-analysis, no longer part of the nightly update)
     * Diagnosis key analysis: [other/can/unofficial-covid-alert-dashboard-analysis/DiagnosisKeysAnalysis.csv](https://drive.google.com/drive/folders/1u02hYgE98Mm731AGYm85Iq5nreMX8E3S)
