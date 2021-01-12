@@ -786,7 +786,8 @@ archivist.dl_file('https://raw.githubusercontent.com/uhengart/covid-alert-dashbo
 # Other: CAN - McDonald's Tracker
 archivist.html_page('https://news.mcdonalds.ca/covid-19-tracker',
                     'other/can/mcdonalds-tracker/',
-                    'mcdonalds-tracker-webpage')
+                    'mcdonalds-tracker-webpage',
+                    user=True)
 
 # Other: CAN - COVID-19 - Loblaw Companies Ltd.
 archivist.html_page('https://www.loblaw.ca/en/covid-19/',

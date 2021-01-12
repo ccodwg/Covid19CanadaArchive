@@ -367,12 +367,12 @@ def dl_file(url, path, file, user=False, ext='.csv', verify=True, unzip=False, a
         if mode == 'serverprod' or mode == 'localprod':
             log_text = log_text + 'Failure: ' + full_name + '\n'
 
-def load_webdriver(tmpdir):
+def load_webdriver(tmpdir, user=False):
     """Load Chromium headless webdriver for Selenium.
 
     Parameters:
     tmpdir (TemporaryDirectory): A temporary directory for saving files downloaded by the headless browser.
-
+    user (bool): Should the request impersonate a normal browser? Needed to access some data. Default: False.
     """
     global mode
     
@@ -384,12 +384,14 @@ def load_webdriver(tmpdir):
     options.add_argument("--no-sandbox")
     prefs = {'download.default_directory' : tmpdir.name}
     options.add_experimental_option('prefs', prefs)
+    if user:
+        options.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0")
     if mode == 'serverprod' or mode == 'servertest':
         return webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
     else:
         return webdriver.Chrome(options=options)
 
-def html_page(url, path, file, ext='.html', js=False, wait=None):
+def html_page(url, path, file, ext='.html', user=False, js=False, wait=None):
     """Save HTML of a webpage.
 
     Parameters:
@@ -397,6 +399,7 @@ def html_page(url, path, file, ext='.html', js=False, wait=None):
     path (str): Path to output file (excluding file name). Example: 'can/epidemiology-update/'
     file (str): Output file name (excluding extension). Example: 'covid19'
     ext (str): Extension of the output file. Defaults to '.html'.
+    user (bool): Should the request impersonate a normal browser? Needed to access some data. Default: False.
     js (bool): Is the HTML source rendered by JavaScript?
     wait (int): Used only if js = True. Time in seconds that the function should wait for the page to render. If the time is too short, the source code may not be captured.
 
@@ -413,7 +416,7 @@ def html_page(url, path, file, ext='.html', js=False, wait=None):
         tmpdir = tempfile.TemporaryDirectory()
 
         ## load webdriver
-        driver = load_webdriver(tmpdir)
+        driver = load_webdriver(tmpdir, user=user)
 
         ## load page
         driver.get(url)
@@ -456,7 +459,7 @@ def html_page(url, path, file, ext='.html', js=False, wait=None):
         if mode == 'serverprod' or mode == 'localprod':
             log_text = log_text + 'Failure: ' + full_name + '\n'             
 
-def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
+def ss_page(url, path, file, ext='.png', user=False, wait=5, width=None, height=None):
     """Take a screenshot of a webpage.
 
     By default, Selenium attempts to capture the entire page.
@@ -466,6 +469,7 @@ def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
     path (str): Path to output file (excluding file name). Example: 'can/epidemiology-update/'
     file (str): Output file name (excluding extension). Example: 'covid19'
     ext (str): Extension of the output file. Defaults to '.png'.
+    user (bool): Should the request impersonate a normal browser? Needed to access some data. Default: False.
     wait (int): Time in seconds that the function should wait. Should be > 0 to ensure the entire page is captured.
     width (int): Width of the output screenshot. Default: None. If not set, the function attempts to detect the maximum width.
     height (int): Height of the output screenshot. Default: None. If not set, the function attempts to detect the maximum height.
@@ -483,7 +487,7 @@ def ss_page(url, path, file, ext='.png', wait=5, width=None, height=None):
         tmpdir = tempfile.TemporaryDirectory()
 
         ## load webdriver
-        driver = load_webdriver(tmpdir)
+        driver = load_webdriver(tmpdir, user)
 
         ## load page and wait
         driver.get(url)
