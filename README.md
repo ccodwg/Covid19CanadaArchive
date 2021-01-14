@@ -348,6 +348,8 @@ When both French and English data files are available, French files should gener
 * [Data on COVID-19 in Québec (province)](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
     * [Webpage EN](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/): [qc/qc-webpage-en/qc-webpage-en.html](https://drive.google.com/drive/folders/1dpolshJwFvHWZQxOG58LY-l0pztntYdi)
     * [Webpage FR](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/): [qc/qc-webpage-fr/qc-webpage-fr.html](https://drive.google.com/drive/folders/1nQvnGfZdxIkhibJZHyp4ahbn27q_z3ll)
+    * [Vaccination Data Webpage EN](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/covid-19-vaccination-data/): `qc/qc-vaccination-webpage-en/`
+    * [Vaccination Data Webpage FR](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/donnees-sur-la-vaccination-covid-19/): `qc/qc-vaccination-webpage-fr/`
     * Situation in Quebec: [qc/situation-in-quebec/situation-au-quebec.csv](https://drive.google.com/drive/folders/1en-wC4O6X6CGKJjBWuyqcP9NRT9O8D61)
     * Correctional facilities - cases among employees (FR): [qc/correctional-cases-employees/donnees_covid_detention_employes_FR.csv](https://drive.google.com/drive/u/2/folders/1FZ8Edx6Xv2cx1mOsh7a5FFY1nI3UGLYE)
     * Correctional facilities - cases among employees (EN): [qc/correctional-cases-employees-en/donnees_covid_detention_employes_EN.csv](https://drive.google.com/drive/u/2/folders/18PcQcnuS0gPLi7D2Tnd40l7VOMeJm4hf)
