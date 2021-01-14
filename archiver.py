@@ -525,6 +525,16 @@ archivist.html_page('https://www.quebec.ca/en/health/health-issues/a-z/2019-coro
                     'qc/qc-webpage-en/',
                     'qc-webpage-en')
 
+# QC - COVID-19 vaccination data (webpage FR)
+archivist.html_page('https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/donnees-sur-la-vaccination-covid-19/,
+                    'qc/qc-vaccination-webpage-fr/',
+                    'qc-vaccination-webpage-fr')
+
+# QC - COVID-19 vaccination data (webpage EN)
+archivist.html_page('https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/covid-19-vaccination-data/',
+                    'qc/qc-vaccination-webpage-en/',
+                    'qc-vaccination-webpage-en')
+
 # QC - Situation in Quebec
 archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/situation-au-quebec.csv',
                   'qc/situation-in-quebec/',
