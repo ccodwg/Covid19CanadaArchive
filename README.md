@@ -348,8 +348,6 @@ When both French and English data files are available, French files should gener
 * [Data on COVID-19 in Québec (province)](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
     * [Webpage EN](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/): [qc/qc-webpage-en/qc-webpage-en.html](https://drive.google.com/drive/folders/1dpolshJwFvHWZQxOG58LY-l0pztntYdi)
     * [Webpage FR](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/): [qc/qc-webpage-fr/qc-webpage-fr.html](https://drive.google.com/drive/folders/1nQvnGfZdxIkhibJZHyp4ahbn27q_z3ll)
-    * [Vaccination Data Webpage EN](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/covid-19-vaccination-data/): `qc/qc-vaccination-webpage-en/`
-    * [Vaccination Data Webpage FR](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/donnees-sur-la-vaccination-covid-19/): `qc/qc-vaccination-webpage-fr/`
     * Situation in Quebec: [qc/situation-in-quebec/situation-au-quebec.csv](https://drive.google.com/drive/folders/1en-wC4O6X6CGKJjBWuyqcP9NRT9O8D61)
     * Correctional facilities - cases among employees (FR): [qc/correctional-cases-employees/donnees_covid_detention_employes_FR.csv](https://drive.google.com/drive/u/2/folders/1FZ8Edx6Xv2cx1mOsh7a5FFY1nI3UGLYE)
     * Correctional facilities - cases among employees (EN): [qc/correctional-cases-employees-en/donnees_covid_detention_employes_EN.csv](https://drive.google.com/drive/u/2/folders/18PcQcnuS0gPLi7D2Tnd40l7VOMeJm4hf)
@@ -371,6 +369,9 @@ When both French and English data files are available, French files should gener
     * COVID-19 daily data 7 days (EN): [qc/covid-data-daily-7-days-en/synthese-7jours-en.csv](https://drive.google.com/drive/u/2/folders/1hiLaw3OLYZK9FIHs68iBheGdJXGRy-9E)
     * Cases by region 7 days (FR): [qc/cases-by-region-7-days/cas-region-7jours.csv](https://drive.google.com/drive/folders/1FMpdMDozL9ywLrOR-i0ZF7TAiq5rozqF)
     * Cases by region 7 days (EN): [qc/cases-by-region-7-days-en/cas-region-7jours-en.csv](https://drive.google.com/drive/u/2/folders/10xY0nXr1_kDzeMh-duCepokVg7zSX6I6)
+* [COVID-19 vaccination data](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/covid-19-vaccination-data/)
+    * [Webpage EN](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/covid-19-vaccination-data/): [qc/qc-vaccination-webpage-en/qc-vaccination-webpage-en.html](https://drive.google.com/drive/folders/1h-b5MPDH3BpwP2mFdZfagrWx1x704AMR)
+    * [Webpage FR](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/donnees-sur-la-vaccination-covid-19/): [qc/qc-vaccination-webpage-fr/qc-vaccination-webpage-fr.html](https://drive.google.com/drive/folders/1DXrSwretQqG8RU-Dzhd-eODxCjlEnIIk)
 * [Données COVID-19 au Québec (INSPQ)](https://www.inspq.qc.ca/covid-19/donnees)
     * COVID-19 time series by region and demographics: [qc/covid-time-series-by-region-and-demographics/covid19-hist.csv](https://drive.google.com/drive/folders/18IVG9ivYK-kQ7joEZptyje6fu0rf4T7M)
     * COVID-19 data (charts - summary, time series, and hospitalization by age): [qc/covid-data-charts-summary-time-series-hosp-by-age/manual-data.csv](https://drive.google.com/drive/folders/1imkAJIUffYtI5KaYZxgiAtagXXDwckoX)
@@ -493,3 +494,4 @@ Many people are to thank for contributing archived data and code to this reposit
 * Amy Bihari ([Twitter](https://twitter.com/AmyBihari)/[LinkedIn](https://www.linkedin.com/in/amy-bihari/))
 * Razieh Faraji ([Twitter](https://twitter.com/raziehfaraji)/[LinkedIn](https://www.linkedin.com/in/raziehfaraji/))
 * [David Lussier](https://twitter.com/LussiD)
+* [Matthias Schoettle](https://github.com/mschoettle)

@@ -526,7 +526,7 @@ archivist.html_page('https://www.quebec.ca/en/health/health-issues/a-z/2019-coro
                     'qc-webpage-en')
 
 # QC - COVID-19 vaccination data (webpage FR)
-archivist.html_page('https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/donnees-sur-la-vaccination-covid-19/,
+archivist.html_page('https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/donnees-sur-la-vaccination-covid-19/',
                     'qc/qc-vaccination-webpage-fr/',
                     'qc-vaccination-webpage-fr')
 
