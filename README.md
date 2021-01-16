@@ -371,7 +371,7 @@ When both French and English data files are available, French files should gener
     * [Webpage EN](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/covid-19-vaccination-data/): [qc/qc-vaccination-webpage-en/qc-vaccination-webpage-en.html](https://drive.google.com/drive/folders/1h-b5MPDH3BpwP2mFdZfagrWx1x704AMR)
     * [Webpage FR](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/donnees-sur-la-vaccination-covid-19/): [qc/qc-vaccination-webpage-fr/qc-vaccination-webpage-fr.html](https://drive.google.com/drive/folders/1DXrSwretQqG8RU-Dzhd-eODxCjlEnIIk)
     * Vaccine doses administered by RSS (FR): [qc/vaccine-doses-admin-by-rss/doses-vaccins.csv](https://drive.google.com/drive/folders/1-ileQelY2aoJFcCSJSu3JG6bZrGWFFbS)
-    * Vaccine doses administered by RSS (EN): [qc/vaccine-doses-admin-by-rss-en/doses-vaccins-en.csv](https://drive.google.com/drive/folders/1MWPkSGMfOMGqJNNv7LEJzWA1AAB3h3yI) (note: the first file in this dataset is only available as a screenshot)
+    * Vaccine doses administered by RSS (EN): [qc/vaccine-doses-admin-by-rss-en/doses-vaccins-en.csv](https://drive.google.com/drive/folders/1MWPkSGMfOMGqJNNv7LEJzWA1AAB3h3yI) (note: the first file in this dataset is only available as a screenshot; archived as of 2021-01-14, no longer part of the nightly update)
     * Vaccine doses received (FR): [qc/vaccine-doses-received-7-days/doses-vaccins-7jours.csv](https://drive.google.com/drive/folders/1z-N_RuVWOqKO3pyCM8skkdhf_tkapPPE
 )
 * [Données COVID-19 au Québec (INSPQ)](https://www.inspq.qc.ca/covid-19/donnees)
@@ -497,3 +497,4 @@ Many people are to thank for contributing archived data and code to this reposit
 * Razieh Faraji ([Twitter](https://twitter.com/raziehfaraji)/[LinkedIn](https://www.linkedin.com/in/raziehfaraji/))
 * [David Lussier](https://twitter.com/LussiD)
 * [Matthias Schoettle](https://github.com/mschoettle)
+* [Jeremy Moreau](https://github.com/jeremymoreau)
