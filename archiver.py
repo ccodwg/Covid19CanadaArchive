@@ -565,11 +565,6 @@ archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Pro
                   'qc/vaccine-doses-admin-by-rss/',
                   'doses-vaccins')
 
-# QC - Vaccine doses administered by RSS (EN)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/doses-vaccins-en.csv',
-                  'qc/vaccine-doses-admin-by-rss-en/',
-                  'doses-vaccins-en')
-
 # QC - Vaccine doses received (FR)
 archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/doses-vaccins-7jours.csv',
                   'qc/vaccine-doses-received-7-days/',
