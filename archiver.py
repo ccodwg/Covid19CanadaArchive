@@ -572,7 +572,7 @@ archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Pro
 
 # QC - Vaccine doses received (FR)
 archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/doses-vaccins-7jours.csv',
-                  'qc/vaccine-doses-received/',
+                  'qc/vaccine-doses-received-7-days/',
                   'doses-vaccins-7jours')
 
 # QC - Outbreaks by setting (FR)
