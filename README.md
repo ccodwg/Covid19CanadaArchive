@@ -207,6 +207,18 @@ The sources and terms of use for each included dataset are linked below. Supplem
 
 ### Nova Scotia
 
+* [Nova Scotia COVID-19 Dashboard](https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad)
+    * Cases by zone: [ns/cases-by-zone/cases-by-zone.json](https://drive.google.com/drive/folders/1lcPbkf58IXjx1hmTgOfaRDEQ-vHRjpcz)
+    * Zone summary: [ns/zone-summary/zone-summary.json](https://drive.google.com/drive/folders/1y6uhTk3LrK9wlgPlOlG40UWADYfIiY6d)
+    * Zone summary cases: [ns/zone-summary-cases/zone-summary-cases.json](https://drive.google.com/drive/folders/1EevtFYqWQJ-h5Zt2oJgr7_PM_Gn7XwAd)
+    * Community health network summary cases: [ns/chn-summary-cases/chn-summary-cases.json](https://drive.google.com/drive/folders/1fsyLS_dN-VkFDjtxAHxffOeG33pN92S3)
+    * Serious outcomes: [ns/serious-outcomes/serious-outcomes.json](https://drive.google.com/drive/folders/1hgspEEG8vBQIIg6-R0S7Vd6TISXqMza0)
+    * Lab testing: [ns/lab-testing/lab-testing.json](https://drive.google.com/drive/folders/1-So7itIA8sLbcs-8bTKUgkM6SiTeGodm)
+    * Lab testing, hospitalization, ICU summary: [ns/lab-testing-summary/lab-testing-summary.json](https://drive.google.com/drive/folders/1R7X8e_MOgY33l7FGzy5ezGk9EMIdrRB9)
+    * Demographics summary: [ns/demographics-summary/demographics-summary.json](https://drive.google.com/drive/folders/1gS3LN9cclLE3i-3c439Hwq3ibpgISfak)
+    * Immunizations: [ns/immunizations/immunizations.json](https://drive.google.com/drive/folders/1OHIZDhIRzEjqnsqJNbU4yjXkjptLphan)
+    * Health boundaries: [ns/health-boundaries/health-boundaries.json](https://drive.google.com/drive/folders/1Hb9zYPpkbblHpABKdOLnvjMj7LZhywrF)
+    * Terms of use: Assumed to be [Open Government Licence – Nova Scotia](https://novascotia.ca/opendata/licence.asp)
 * [Coronavirus (COVID-19): case data](https://novascotia.ca/coronavirus/data/)
     * [ns/case-data/ns-covid19-data.csv](https://drive.google.com/drive/folders/1topV_6XkI2uz-Amwlibi8V_jbnHx4MG5)
     * Terms of use: Assumed to be [Open Government Licence – Nova Scotia](https://novascotia.ca/opendata/licence.asp)

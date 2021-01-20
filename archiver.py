@@ -301,6 +301,66 @@ archivist.html_page('https://gov.nu.ca/health/information/covid-19-novel-coronav
                     'nu/nunavut-webpage/',
                     'nunavut-webpage')
 
+# NS - Nova Scotia COVID-19 Dashboard: Cases by zone
+archivist.dl_file('https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Zones_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=date%20asc',
+                  'ns/cases-by-zone/',
+                  'cases-by-zone',
+                  ext='.json')
+
+# NS - Nova Scotia COVID-19 Dashboard: Zone summary
+archivist.dl_file('https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/BND_NSH_MZones_V4_Join_PROD/FeatureServer/1/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
+                  'ns/zone-summary/',
+                  'zone-summary',
+                  ext='.json')
+
+# NS - Nova Scotia COVID-19 Dashboard: Zone summary cases
+archivist.dl_file('https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Zones_MaxDate_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
+                  'ns/zone-summary-cases/',
+                  'zone-summary-cases',
+                  ext='.json')
+
+# NS - Nova Scotia COVID-19 Dashboard: Community health network summary cases
+archivist.dl_file('https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/BND_NS_CommunityHealthNetworks_Join_PROD/FeatureServer/1/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
+                  'ns/chn-summary-cases/',
+                  'chn-summary-cases',
+                  ext='.json')
+
+# NS - Nova Scotia COVID-19 Dashboard: Serious outcomes
+archivist.dl_file('https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Serious_Outcomes_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
+                  'ns/serious-outcomes/',
+                  'serious-outcomes',
+                  ext='.json')
+
+# NS - Nova Scotia COVID-19 Dashboard: Lab testing
+archivist.dl_file('https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Lab_Testing_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=tests_date%20asc',
+                  'ns/lab-testing/',
+                  'lab-testing',
+                  ext='.json')
+
+# NS - Nova Scotia COVID-19 Dashboard: Lab testing, hospitalization, ICU summary
+archivist.dl_file('https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Lab_Testing_MaxDate_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
+                  'ns/lab-testing-summary/',
+                  'lab-testing-hos-icu-summary',
+                  ext='.json')
+
+# NS - Nova Scotia COVID-19 Dashboard: Demographics summary
+archivist.dl_file('https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Demographics_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
+                  'ns/demographics-summary/',
+                  'demographics-summary',
+                  ext='.json')
+
+# NS - Nova Scotia COVID-19 Dashboard: Immunizations
+archivist.dl_file('https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Immunizations_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
+                  'ns/immunizations/',
+                  'immunizations',
+                  ext='.json')
+
+# NS - Nova Scotia COVID-19 Dashboard: Health boundaries
+archivist.dl_file('https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Health_Boundaries_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
+                  'ns/health-boundaries/',
+                  'health-boundaries',
+                  ext='.json')
+
 # NS - Coronavirus (COVID-19): case data
 archivist.dl_file('https://novascotia.ca/coronavirus/data/ns-covid19-data.csv',
                   'ns/case-data/',
