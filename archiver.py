@@ -301,6 +301,17 @@ archivist.html_page('https://gov.nu.ca/health/information/covid-19-novel-coronav
                     'nu/nunavut-webpage/',
                     'nunavut-webpage')
 
+# NS - Nova Scotia (COVID-19): cases (webpage)
+archivist.html_page('https://novascotia.ca/coronavirus/data/',
+                    'ns/ns-webpage/',
+                    'ns-webpage')
+
+# NS - Coronavirus (COVID-19): case data
+archivist.dl_file('https://novascotia.ca/coronavirus/data/ns-covid19-data.csv',
+                  'ns/case-data/',
+                  'ns-covid19-data',
+                  verify=False)
+
 # NS - Nova Scotia COVID-19 Dashboard: Cases by zone
 archivist.dl_file('https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Zones_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=date%20asc',
                   'ns/cases-by-zone/',
@@ -360,12 +371,6 @@ archivist.dl_file('https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/ser
                   'ns/health-boundaries/',
                   'health-boundaries',
                   ext='.json')
-
-# NS - Coronavirus (COVID-19): case data
-archivist.dl_file('https://novascotia.ca/coronavirus/data/ns-covid19-data.csv',
-                  'ns/case-data/',
-                  'ns-covid19-data',
-                  verify=False)
 
 # ON - How Ontario is responding to COVID-19 (webpage)
 archivist.html_page('https://www.ontario.ca/page/how-ontario-is-responding-covid-19',

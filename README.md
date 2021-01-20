@@ -207,6 +207,10 @@ The sources and terms of use for each included dataset are linked below. Supplem
 
 ### Nova Scotia
 
+* [Coronavirus (COVID-19): case data](https://novascotia.ca/coronavirus/data/)
+    * Webpage: [ns/ns-webpage/ns-webpage.html](https://drive.google.com/drive/folders/1g2hcxNxn6IYMDYWv71DKmH53561ADuuc)
+    * Cases data: [ns/case-data/ns-covid19-data.csv](https://drive.google.com/drive/folders/1topV_6XkI2uz-Amwlibi8V_jbnHx4MG5)
+    * Terms of use: Assumed to be [Open Government Licence – Nova Scotia](https://novascotia.ca/opendata/licence.asp)
 * [Nova Scotia COVID-19 Dashboard](https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad)
     * Cases by zone: [ns/cases-by-zone/cases-by-zone.json](https://drive.google.com/drive/folders/1lcPbkf58IXjx1hmTgOfaRDEQ-vHRjpcz)
     * Zone summary: [ns/zone-summary/zone-summary.json](https://drive.google.com/drive/folders/1y6uhTk3LrK9wlgPlOlG40UWADYfIiY6d)
@@ -218,9 +222,6 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Demographics summary: [ns/demographics-summary/demographics-summary.json](https://drive.google.com/drive/folders/1gS3LN9cclLE3i-3c439Hwq3ibpgISfak)
     * Immunizations: [ns/immunizations/immunizations.json](https://drive.google.com/drive/folders/1OHIZDhIRzEjqnsqJNbU4yjXkjptLphan)
     * Health boundaries: [ns/health-boundaries/health-boundaries.json](https://drive.google.com/drive/folders/1Hb9zYPpkbblHpABKdOLnvjMj7LZhywrF)
-    * Terms of use: Assumed to be [Open Government Licence – Nova Scotia](https://novascotia.ca/opendata/licence.asp)
-* [Coronavirus (COVID-19): case data](https://novascotia.ca/coronavirus/data/)
-    * [ns/case-data/ns-covid19-data.csv](https://drive.google.com/drive/folders/1topV_6XkI2uz-Amwlibi8V_jbnHx4MG5)
     * Terms of use: Assumed to be [Open Government Licence – Nova Scotia](https://novascotia.ca/opendata/licence.asp)
 
 ### Nunavut
