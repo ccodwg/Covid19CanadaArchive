@@ -432,7 +432,8 @@ When both French and English data files are available, French files should gener
 
 ### Prince Edward Island
 
-* 
+* [PEI COVID-19 Case Data](https://www.princeedwardisland.ca/en/information/health-and-wellness/pei-covid-19-case-data)
+    * Webpage: [pe/pei-webpage/pei-webpage.html](https://drive.google.com/drive/folders/14iUe-GdFPZP5giYtx5zckAgXoZq86LvT)
 
 ### Saskatchewan
 
