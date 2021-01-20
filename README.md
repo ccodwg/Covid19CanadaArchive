@@ -32,6 +32,7 @@ Table of contents:
      * [Ottawa](#ottawa)
   * [Quebec](#quebec)
      * [Montreal](#montreal)
+  * [Prince Edward Island](#prince-edward-island)
   * [Saskatchewan](#saskatchewan)
   * [Yukon](#yukon)
   * [Other: Non-governmental sources](#other-non-governmental-sources)
@@ -428,6 +429,10 @@ When both French and English data files are available, French files should gener
     * Montréal cases and deaths by sex: [qc/montreal-cases-and-deaths-by-sex/sexe.csv](https://drive.google.com/drive/folders/1Lmo64ITgPBcDhsYqM7s7J2xyGlTfLpj8)
     * Montréal epidemic curve: [qc/montreal-epidemic-curve/courbe.csv](https://drive.google.com/drive/folders/1kF-aOahhGJzAyZv0KAlwyi_l-HPoaETi)
     * Terms of use: TBD
+
+### Prince Edward Island
+
+* 
 
 ### Saskatchewan
 

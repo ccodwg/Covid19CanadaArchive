@@ -580,6 +580,11 @@ archivist.dl_file('https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf
                   'on/vaccine-data/',
                   'vaccine_doses')
 
+# PE - PEI COVID-19 Case Data
+archivist.html_page('https://www.princeedwardisland.ca/en/information/health-and-wellness/pei-covid-19-case-data',
+                    'pe/pei-webpage/',
+                    'pei-webpage')
+
 # QC - Données sur la COVID-19 au Québec (webpage FR)
 archivist.html_page('https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/',
                     'qc/qc-webpage-fr/',
