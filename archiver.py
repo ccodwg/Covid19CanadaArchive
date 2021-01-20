@@ -350,7 +350,7 @@ archivist.dl_file('https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/ser
 
 # NS - Nova Scotia COVID-19 Dashboard: Lab testing, hospitalization, ICU summary
 archivist.dl_file('https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Lab_Testing_MaxDate_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
-                  'ns/lab-testing-summary/',
+                  'ns/lab-testing-hos-icu-summary/',
                   'lab-testing-hos-icu-summary',
                   ext='.json')
 
