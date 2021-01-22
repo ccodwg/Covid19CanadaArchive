@@ -244,6 +244,56 @@ archivist.html_page('https://www.canada.ca/en/public-health/services/diseases/20
                     'can/vaccine-rollout-webpage/',
                     'vaccine-rollout-webpage')
 
+# CAN - Vaccines administered: Vaccination administration
+archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/vaccination-administration.csv',
+                  'can/vaccination-administration/',
+                  'vaccination-administration')
+
+# CAN - Vaccines administered: Vaccination administration update date
+archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/vaccination-administration-updateDate.csv',
+                  'can/vaccination-administration-update-date/',
+                  'vaccination-administration-updateDate')
+
+# CAN - Vaccines distributed: Vaccination distribution
+archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/vaccination-distribution.csv',
+                  'can/vaccination-distribution/',
+                  'vaccination-distribution')
+
+# CAN - Vaccination coverage: Vaccination coverage overall
+archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-overall.csv',
+                  'can/vaccination-coverage-overall/',
+                  'vaccination-coverage-overall')
+
+# CAN - Vaccination coverage: Vaccination coverage for key populations
+archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-keypops.csv',
+                  'can/vaccination-coverage-keypops/',
+                  'vaccination-coverage-keypops')
+
+# CAN - Vaccination coverage: Vaccination coverage by age and sex
+archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-byAgeAndSex.csv',
+                  'can/vaccination-coverage-by-age-sex/',
+                  'vaccination-coverage-byAgeAndSex')
+
+# CAN - Vaccination coverage: Vaccination coverage by vaccine type
+archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-byVaccineType.csv',
+                  'can/vaccination-coverage-by-vaccine-type/',
+                  'vaccination-coverage-byVaccineType')
+
+# CAN - Vaccination coverage: Vaccination coverage by province
+archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-map.csv',
+                  'can/vaccination-coverage-by-prov/',
+                  'vaccination-coverage-map')
+
+# CAN - COVID-19 vaccination in Canada: Technical notes (webpage)
+archivist.html_page('https://health-infobase.canada.ca/covid-19/vaccination-coverage/technical-notes.html',
+                    'can/vaccination-technical-notes-webpage/',
+                    'vaccination-technical-notes-webpage')
+
+# CAN - COVID 19 vaccination in Canada: Vaccination coverage data availability by week
+archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-dataAvailability.csv',
+                  'can/vaccination-coverage-data-availability-by-week/',
+                  'vaccination-coverage-dataAvailability')
+
 # CAN - Detailed preliminary information on cases of COVID-19: 6 Dimensions (Aggregated data)
 archivist.dl_file('https://www150.statcan.gc.ca/n1/tbl/csv/13100774-eng.zip',
                   'can/detailed-preliminary-case-info-aggregated-6-dimensions/',
