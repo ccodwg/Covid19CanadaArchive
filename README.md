@@ -79,6 +79,9 @@ The sources and terms of use for each included dataset are linked below. Supplem
 * [COVID-19 school status map](https://www.alberta.ca/schools/covid-19-school-status-map.htm)
     * [ab/school-status-by-region/covid19dataexport-schools.csv](https://drive.google.com/drive/folders/1x1VYSe39dymoyLWy0ZhwR01cbk0pzL2y)
     * Terms of use: Assumed to be [Open Government Licence - Alberta](https://open.alberta.ca/licence)
+* [COVID-19 vaccine distribution](https://www.alberta.ca/covid19-vaccine.aspx)
+    * Webpage: [ab/ab-vaccine-distribution-webpage](https://drive.google.com/drive/folders/17iX-9kz0mu0ksT-htxSD_8CCa4xFhtDx)
+    * Terms of use: Assumed to be [Open Government Licence - Alberta](https://open.alberta.ca/licence)
 
 #### Edmonton
 

@@ -94,6 +94,11 @@ archivist.dl_file('https://data.edmonton.ca/api/views/ix8f-s9xp/rows.csv?accessT
                   'ab/edmonton-cases-by-area/',
                   'COVID-19_in_Alberta__Current_cases_by_local_geographic_area')
 
+# AB - COVID-19 vaccine distribution webpage
+archivist.html_page('https://www.alberta.ca/covid19-vaccine.aspx',
+                    'ab/ab-vaccine-distribution-webpage/',
+                    'ab-vaccine-distribution-webpage')
+
 # BC - BC COVID-19 Data (Case data)
 archivist.dl_file('http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Case_Details.csv',
                   'bc/case-data/',
