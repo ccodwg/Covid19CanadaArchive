@@ -700,11 +700,6 @@ archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Pro
                   'qc/outbreaks-by-setting/',
                   'eclosions-par-milieu')
 
-# QC - Outbreaks by setting (EN)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/eclosions-par-milieu-en.csv',
-                  'qc/outbreaks-by-setting-en/',
-                  'eclosions-par-milieu-en')
-
 # QC - Cases percentage by age group (FR)
 archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-cas-age.csv',
                   'qc/cases-percentage-by-age-group/',
@@ -730,11 +725,6 @@ archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Pro
                   'qc/cumulative-deaths-by-region/',
                   'deces-region')
 
-# QC - Cumulative deaths by region (EN)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/deces-region-en.csv',
-                  'qc/cumulative-deaths-by-region-en/',
-                  'deces-region-en')
-
 # QC - Recent daily cases by region (FR)
 archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/cas-region.csv',
                   'qc/recent-daily-cases-by-region/',
@@ -749,11 +739,6 @@ archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Pro
 archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/synthese-7jours.csv',
                   'qc/covid-data-daily-7-days/',
                   'synthese-7jours')
-
-# QC - COVID-19 daily data 7 days (EN)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/synthese-7jours-en.csv',
-                  'qc/covid-data-daily-7-days-en/',
-                  'synthese-7jours-en')
 
 # QC - Cases by region 7 days (FR)
 archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/apercu/cas-region-7jours.csv',
