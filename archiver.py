@@ -685,6 +685,16 @@ archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/do
                   'qc/correctional-cases-detainees-en/',
                   'donnees_covid_detention_personnes_incarcerees_EN')
 
+# QC - Vaccination situation (FR)
+archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/situation-vaccination.csv',
+                  'qc/vaccination-situation/',
+                  'situation-vaccination')
+
+# QC - Vaccination situation (EN)
+archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/situation-vaccination-en.csv',
+                  'qc/vaccination-situation-en/',
+                  'situation-vaccination-en')
+
 # QC - Vaccine doses administered by RSS (FR)
 archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/doses-vaccins.csv',
                   'qc/vaccine-doses-admin-by-rss/',
