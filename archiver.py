@@ -849,6 +849,16 @@ archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/education/p
                   'reseauScolaire_listeEcoles',
                   ext='.pdf')
 
+# QC - Daily hospitalizations by RSS (health region) and care unit
+archivist.dl_file('https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_HistoHospit.csv',
+                  'qc/daily-hosp-by-rss-and-care-unit/',
+                  'COVID19_Qc_HistoHospit')
+
+# QC - Daily hospitalizations by age group
+archivist.dl_file('https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_HospitCatAge.csv',
+                  'qc/daily-hosp-by-age-group/',
+                  'COVID19_Qc_HospitCatAge')
+
 # QC - Montréal cases and deaths by CIUSSS (integrated health and social services centres)
 archivist.dl_file('https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/ciusss.csv',
                   'qc/montreal-cases-and-deaths-by-ciusss/',

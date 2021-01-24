@@ -442,6 +442,11 @@ When both French and English data files are available, French files should gener
     * Formerly [Situation dans les établissements scolaires relative à la COVID-19](https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_ecole.pdf): qc/schools-list-of-schools/etat_situation_ecole_2020-09-04_2020-09-06/etat_situation_ecole.pdf
     * Formerly [Liste des écoles ayant au moins un cas rapporté de la COVID-19 depuis le 1er septembre 2020](https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/liste-ecole-cas-rapportes.pdf): qc/schools-list-of-schools/liste-ecole-cas-rapportes_2020-09-08_2020-09-09/liste-ecole-cas-rapportes.pdf
     * Terms of use: TBD
+* [Portrait quotidien des hospitalisations](https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-des-hospitalisations)
+    * Daily hospitalizations by RSS (health region) and care unit: [qc/daily-hosp-by-rss-and-care-unit/COVID19_Qc_HistoHospit.csv](https://drive.google.com/drive/folders/1iAAOv5A4fVfJBaRMJlzkWSAEp5o4NefB)
+    * Daily hospitalizations by age group: [qc/daily-hosp-by-age-group/COVID19_Qc_HospitCatAge.csv](https://drive.google.com/drive/folders/1YRDa_YB6Vm9fsmOKSmnV2pkuinVcqmP5)
+    * Supplementary material: List of variables/methodological notes
+    * Terms of use: CC-BY-4.0
 
 #### Montreal
 
