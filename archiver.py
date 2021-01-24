@@ -810,6 +810,11 @@ archivist.dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/com
                   'qc/comparisons-countries/',
                   'comparaisons_pays')
 
+# QC - Deaths by RSS (health region) and number of pre-existing conditions
+archivist.dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/comorbidite.csv',
+                  'qc/deaths-by-rss-and-pre-existing-conditions/',
+                  'comorbidite')
+
 # QC - COVID-19 data by age group and sex
 archivist.dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/PL_AGE_SEXE.csv',
                   'qc/covid-data-by-age-and-sex/',

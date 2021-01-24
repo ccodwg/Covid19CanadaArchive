@@ -419,6 +419,7 @@ When both French and English data files are available, French files should gener
     * Cases by RSS (health region) and RLS (local service network): [qc/cases-by-rss-and-rls/tableau-rls-new.csv](https://drive.google.com/drive/folders/1bv4tNVmKUhoRUYsMIubKwEdy7U3fmsF2) (Renamed from tableau-rls.csv after 2020-09-16)
     * Comparisons (provinces): [qc/comparisons-provinces/comparaisons_prov.csv](https://drive.google.com/drive/folders/1060dqZQJ2SMkygJHNSEsl3FSTXE6TMIX)
     * Comparisons (countries): [qc/comparisons-countries/comparaisons_pays.csv](https://drive.google.com/drive/folders/1x0RZUSKCk7Ou6Z9i7udfuxe7WgQDfZwU)
+    * Deaths by RSS (health region) and number of pre-existing conditions: [qc/deaths-by-rss-and-pre-existing-conditions](https://drive.google.com/drive/folders/1MzQH4PRRrU9sMpjIYq-WVY9S9LL3g6m9)
     * COVID-19 time series by region: [qc/covid-time-series-by-region/PL_DATE.csv](https://drive.google.com/drive/folders/11scpEF8GUwV_qRCLTn-y9-po6PHiZYmW) (Archived as of 2020-10-15, no longer part of the nightly update)
         * [Advice for data process by Simon Coulombe](https://gist.github.com/SimonCoulombe/9a329052ac4cefd421febd8650ed84e2)
     * COVID-19 data: [qc/covid-data/combine.csv](https://drive.google.com/drive/folders/1Mx9H2AfYncQGifc_lNcUWr32MrPIepc7) (Archived as of 2020-09-16, no longer part of the nightly update)
