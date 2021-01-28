@@ -1786,7 +1786,7 @@
   },
     {
   	"id_name": "SK - Saskatchewan's Dashboard - Total Cases",
-  	"url_fun_python": "",
+  	"url_fun_python": "import re; import requests; 'https://dashboard.saskatchewan.ca' + re.search('(?<=href=\").*(?=\">CSV)', requests.get('https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases').text).group(0)",
   	"url_fun_r": "",
   	"dir_parent": "sk",
   	"dir_file": "cases-by-region",
@@ -1809,7 +1809,7 @@
   },
     {
   	"id_name": "SK - Saskatchewan's Dashboard - Total Tests",
-  	"url_fun_python": "",
+  	"url_fun_python": "import re; import requests; 'https://dashboard.saskatchewan.ca' + re.search('(?<=href=\").*(?=\">CSV)', requests.get('https://dashboard.saskatchewan.ca/health-wellness/covid-19-tests/tests').text).group(0)",
   	"url_fun_r": "",
   	"dir_parent": "sk",
   	"dir_file": "tests-by-region",
