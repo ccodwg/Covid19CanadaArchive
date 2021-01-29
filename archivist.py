@@ -1,5 +1,5 @@
-# archivist.py: Helper functions for covid-19-canada-gov-data archive #
-# https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data #
+# archivist.py: Helper functions for Covid19CanadaArchive #
+# https://github.com/ccodwg/Covid19CanadaArchive #
 # Maintainer: Jean-Paul R. Soucy #
 
 # import modules

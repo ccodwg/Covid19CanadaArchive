@@ -1,5 +1,5 @@
-# sync.py: Sync to local directory files from Google Drive in the covid-19-canada-gov-data archive using rclone #
-# https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data #
+# sync.py: Sync to local directory files from Google Drive in Covid19CanadaArchive using rclone #
+# https://github.com/ccodwg/Covid19CanadaArchive #
 # Maintainer: Jean-Paul R. Soucy #
 
 # Note: This script requires that rclone already be configured locally to interface with Google Drive #

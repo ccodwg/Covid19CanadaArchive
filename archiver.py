@@ -1,5 +1,5 @@
-# archiver.py: Automated, daily backups of COVID-19 data from Canadian government sources #
-# https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data #
+# archiver.py: Automated, daily backups of COVID-19 data from Canadian governmental and non-governmental sources #
+# https://github.com/ccodwg/Covid19CanadaArchive #
 # Maintainer: Jean-Paul R. Soucy #
 
 # import modules

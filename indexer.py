@@ -1,5 +1,5 @@
-# indexer.py: Index files included in the covid-19-canada-gov-data archive #
-# https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data #
+# indexer.py: Index files included in Covid19CanadaArchive #
+# https://github.com/ccodwg/Covid19CanadaArchive #
 # Maintainer: Jean-Paul R. Soucy #
 
 # import modules
@@ -42,3 +42,76 @@ index = archivist.create_index()
 
 # write index to CSV
 archivist.write_index(index)
+
+#d = index.set_index(['dir_parent', 'dir_file', 'file_name'])
+#{level0: { level1: {level2: d.xs([level0, level1, level2]).to_dict('index') for level2 in d.index.levels[2]} for level1 in d.index.levels[1]} for level0 in d.index.levels[0]}
+
+#d = {k: f.groupby('dir_file')['file_name'].apply(list).to_dict()
+     #for k, f in index.groupby('dir_parent')}
+
+#ppdict = {n: grp.loc[n].to_dict('index')
+ #for n, grp in index.set_index(['dir_parent', 'dir_file']).groupby(level='dir_parent')}
+#print (json.dumps(ppdict, indent=2))
+#import json
+#with open('data.json', 'w', encoding='utf-8') as f:
+    #json.dump(d, f, ensure_ascii=False, indent=4)
+
+#def split_dir_parent(index):
+    #for (dir_parent), index_dir_parent in index.groupby(["dir_parent"]):
+        #yield {
+            #dir_parent: list(split_dir_file(index_dir_parent))
+        #}
+
+#def split_dir_file(index_dir_parent):
+    #for (dir_file), index_dir_file in index_dir_parent.groupby(["dir_file"]):
+        #yield {
+            #"dir_file": dir_file,
+            #"file_name": list(split_file_name(index_dir_file))
+        #}
+
+#def split_file_name(index_dir_file):
+    #for (file_name), index_file_name in index_dir_file.groupby(["file_name"]):
+        #yield {
+            #"file_name": file_name,
+            #"file_info": list(split_file_info(index_file_name))
+        #}    
+
+#def split_file_info(index_dir_file):
+    #for row in index_dir_file.itertuples():
+        #yield {
+            #"file_md5": row.file_md5
+        #}
+
+#with open('data.json', 'w', encoding='utf-8') as f:
+    #json.dump(list(split_dir_parent(index)), f, ensure_ascii=False, indent=4)
+
+#list(split_dir_parent(index))
+
+#def split_category(df_vendor):
+    #for (category, count), df_category in df_vendor.groupby(
+        #["Categories", "Category_Count"]
+    #):
+        #yield {
+            #"name": category,
+            #"count": count,
+            #"subCategories": list(split_subcategory(df_category)),
+        #}
+
+#def split_subcategory(df_category):
+    #for row in df.itertuples():
+        #yield {"name": row.Subcategory, "count": row.Subcategory_Count}
+
+#list(split_df(df))
+
+
+#j = (index.groupby(['dir_parent', 'dir_file', 'dir_id', 'file_name'], as_index=False)
+             #.apply(lambda x: x[['file_timestamp', 'file_date', 'file_date_true']].to_dict('r'))#,
+                                 ##'file_id', 'file_mime_type', 'file_size',
+                                 ##'file_md5', 'file_md5_duplicate', 'file_url']].to_dict('r'))
+             #.reset_index()
+             #.rename(columns={0:'file_info'})
+             #.to_json(orient='records'))
+
+
+#index2 = index.set_index(['dir_parent', 'dir_file', 'dir_id', 'file_name'])
+#index2.to_json("data.json", orient = "index")
