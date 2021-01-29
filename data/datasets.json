@@ -47,7 +47,7 @@
   	}
   },
     {
-  	"id_name": "COVID-19 vaccine distribution webpage",
+  	"id_name": "AB - COVID-19 vaccine distribution webpage",
   	"url": "https://www.alberta.ca/covid19-vaccine.aspx",
   	"dir_parent": "ab",
   	"dir_file": "ab-vaccine-distribution-webpage",
@@ -91,7 +91,7 @@
   	}
   },
     {
-  	"id_name": "Public exposures (webpage)",
+  	"id_name": "BC - Public exposures (webpage)",
   	"url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
   	"dir_parent": "bc",
   	"dir_file": "public-exposures-webpage",
@@ -115,7 +115,7 @@
   	}
   },
     {
-  	"id_name": "Public exposures: regional exposure events (Fraser webpage)",
+  	"id_name": "BC - Public exposures: regional exposure events (Fraser webpage)",
   	"url": "https://www.fraserhealth.ca/covid19exposure",
   	"dir_parent": "bc",
   	"dir_file": "regional-exposure-events-fraser-webpage",
@@ -126,7 +126,7 @@
   	}
   },
     {
-  	"id_name": "Public exposures: regional exposure events (Interior webpage)",
+  	"id_name": "BC - Public exposures: regional exposure events (Interior webpage)",
   	"url": "https://news.interiorhealth.ca/news/public-exposures/",
   	"dir_parent": "bc",
   	"dir_file": "regional-exposure-events-interior-webpage",
@@ -137,7 +137,7 @@
   	}
   },
     {
-  	"id_name": "Public exposures: regional exposure events (Island webpage)",
+  	"id_name": "BC - Public exposures: regional exposure events (Island webpage)",
   	"url": "https://www.islandhealth.ca/learn-about-health/covid-19/outbreaks-and-exposures",
   	"dir_parent": "bc",
   	"dir_file": "regional-exposure-events-island-webpage",
@@ -148,7 +148,7 @@
   	}
   },
     {
-  	"id_name": "Public exposures: regional exposure events (Northern webpage)",
+  	"id_name": "BC - Public exposures: regional exposure events (Northern webpage)",
   	"url": "https://www.northernhealth.ca/health-topics/public-exposures-and-outbreaks#covid-19-public-exposures#covid-19-communityfacility-outbreaks#non-covid-19-communityfacility-outbreaks",
   	"dir_parent": "bc",
   	"dir_file": "regional-exposure-events-northern-webpage",
@@ -159,7 +159,7 @@
   	}
   },
     {
-  	"id_name": "Public exposures: regional exposure events (Vancouver Coastal webpage)",
+  	"id_name": "BC - Public exposures: regional exposure events (Vancouver Coastal webpage)",
   	"url": "http://www.vch.ca/covid-19/public-exposures",
   	"dir_parent": "bc",
   	"dir_file": "regional-exposure-events-vancouver-coastal-webpage",
@@ -170,7 +170,7 @@
   	}
   },
     {
-  	"id_name": "Public exposures: school exposures (Fraser webpage)",
+  	"id_name": "BC - Public exposures: school exposures (Fraser webpage)",
   	"url": "https://www.fraserhealth.ca/schoolexposures",
   	"dir_parent": "bc",
   	"dir_file": "school-exposures-fraser-webpage",
@@ -181,7 +181,7 @@
   	}
   },
     {
-  	"id_name": "Public exposures: school exposures (Interior webpage)",
+  	"id_name": "BC - Public exposures: school exposures (Interior webpage)",
   	"url": "https://news.interiorhealth.ca/news/school-exposures/",
   	"dir_parent": "bc",
   	"dir_file": "bc/school-exposures-interior-webpage",
@@ -192,7 +192,7 @@
   	}
   },
     {
-  	"id_name": "Public exposures: school exposures (Island webpage)",
+  	"id_name": "BC - Public exposures: school exposures (Island webpage)",
   	"url": "ttps://www.islandhealth.ca/learn-about-health/covid-19/exposures-schools",
   	"dir_parent": "bc",
   	"dir_file": "school-exposures-island-webpage",
@@ -203,7 +203,7 @@
   	}
   },
     {
-  	"id_name": "Public exposures: school exposures (Northern webpage)",
+  	"id_name": "BC - Public exposures: school exposures (Northern webpage)",
   	"url": "https://www.northernhealth.ca/health-topics/public-exposures-and-outbreaks#covid-19-school-exposures",
   	"dir_parent": "bc",
   	"dir_file": "school-exposures-northern-webpage",
@@ -214,7 +214,7 @@
   	}
   },
     {
-  	"id_name": "Public exposures: school exposures (Vancouver Coastal webpage)",
+  	"id_name": "BC - Public exposures: school exposures (Vancouver Coastal webpage)",
   	"url": "http://www.vch.ca/covid-19/school-outbreaks",
   	"dir_parent": "bc",
   	"dir_file": "school-exposures-vancouver-coastal-webpage",
@@ -586,8 +586,8 @@
   	"dir_parent": "can",
   	"dir_file": "preliminary-dataset-on-confirmed-cases",
   	"file_name": "COVID19-eng",
-  	"file_ext": "",
-  	"dl_fun": "",
+  	"file_ext": "csv",
+  	"dl_fun": "dl_file",
   	"args": {
   		"unzip": "True"
   	}
@@ -1786,7 +1786,7 @@
   },
     {
   	"id_name": "SK - Saskatchewan's Dashboard - Total Cases",
-  	"url_fun_python": "import re; import requests; 'https://dashboard.saskatchewan.ca' + re.search('(?<=href=\").*(?=\">CSV)', requests.get('https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases').text).group(0)",
+  	"url_fun_python": "import re; import requests; global url_current; url_current = 'https://dashboard.saskatchewan.ca' + re.search('(?<=href=\").*(?=\">CSV)', requests.get('https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases').text).group(0)",
   	"url_fun_r": "",
   	"dir_parent": "sk",
   	"dir_file": "cases-by-region",
@@ -1809,7 +1809,7 @@
   },
     {
   	"id_name": "SK - Saskatchewan's Dashboard - Total Tests",
-  	"url_fun_python": "import re; import requests; 'https://dashboard.saskatchewan.ca' + re.search('(?<=href=\").*(?=\">CSV)', requests.get('https://dashboard.saskatchewan.ca/health-wellness/covid-19-tests/tests').text).group(0)",
+  	"url_fun_python": "import re; import requests; global url_current; url_current = 'https://dashboard.saskatchewan.ca' + re.search('(?<=href=\").*(?=\">CSV)', requests.get('https://dashboard.saskatchewan.ca/health-wellness/covid-19-tests/tests').text).group(0)",
   	"url_fun_r": "",
   	"dir_parent": "sk",
   	"dir_file": "tests-by-region",

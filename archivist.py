@@ -240,7 +240,7 @@ def commit_gh(repo, file_list, commit_message):
 
 ## functions for web scraping
 
-def dl_file(url, path, file, user=False, ext='.csv', verify=True, unzip=False, ab_json_to_csv=False, mb_json_to_csv=False):
+def dl_file(url, path, file, ext='.csv', user=False, verify=True, unzip=False, ab_json_to_csv=False, mb_json_to_csv=False):
     """Download file (generic).
 
     Used to download most file types (when Selenium is not required). Some files are handled with file-specific code:
@@ -253,8 +253,8 @@ def dl_file(url, path, file, user=False, ext='.csv', verify=True, unzip=False, a
     url (str): URL to download file from.
     path (str): Path to output file (excluding file name). Example: 'can/epidemiology-update/'
     file (str): Output file name (excluding extension). Example: 'covid19'
-    user (bool): Should the request impersonate a normal browser? Needed to access some data. Default: False.
     ext (str): Extension of the output file. Defaults to '.csv'.
+    user (bool): Should the request impersonate a normal browser? Needed to access some data. Default: False.
     verify (bool): If False, requests will skip SSL verification. Default: True.
     unzip (bool): If True, this file requires unzipping. Default: False.
     ab_json_to_csv (bool): If True, this is an Alberta JSON file embedded in a webpage that should be converted to CSV. Default: False.
@@ -405,7 +405,7 @@ def html_page(url, path, file, ext='.html', user=False, js=False, wait=None):
 
     """
     global mode, log_text, success, failure
-
+    
     ## set names with timestamp and file ext
     name = file + '_' + get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
     full_name = os.path.join(path, name + ext)        
