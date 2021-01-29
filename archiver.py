@@ -105,6 +105,11 @@ print('Beginning file downloads...')
 # loop through all datasets
 for key in ds:
         
+        ## skip if dataset is not active
+        if ds[key]['active'] != "True":
+                print('Skipping inactive dataset...')
+                continue
+        
         ## print key
         print(key)
         
@@ -113,7 +118,7 @@ for key in ds:
                 day_to_run = int(ds[key]['day_to_run'])
                 if t.weekday() != day_to_run:
                         print('This dataset downloads only on when weekday is: ' + str(day_to_run) + '. Skipping...')
-                        continue # throws an error if final item in loop
+                        continue
         
         ## if URL is not static, get URL
         if 'url' not in ds[key]:
