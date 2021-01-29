@@ -7,6 +7,7 @@ print('Importing modules...')
 
 ## core utilities
 import os
+import json
 
 ## other utilities
 from colorit import *  # colourful printing
@@ -68,903 +69,104 @@ if archivist.mode == 'serverprod' or archivist.mode == 'localprod':
 # define time script started running in America/Toronto time zone
 t = archivist.get_datetime('America/Toronto')
 
+# load dataset info
+with open('data/datasets.json') as json_file:
+        ds = json.load(json_file)
+ds = {item['id_name']: item for item in ds} # convert to single dict
+
+# create dict of download functions
+dl_funs = {
+        "dl_file": archivist.dl_file,
+        "html_page": archivist.html_page,
+        "ss_page": archivist.ss_page
+}
+
+# define functions to process arguments
+
+## define function to process true/false arguments
+def arg_bool(arg):
+        if ds[key]['args'][arg] == "True":
+                arg_val = True
+        elif ds[key]['args'][arg] == "False":
+                arg_val = False
+        else:
+                print('Error decoding arg ' + arg + ', setting value to False.')
+                arg_val = False
+        return(arg_val)
+
+## define function to process integer arguments
+def arg_int(arg):
+        arg_val = int(ds[key]['args'][arg])
+        return(arg_val)
+
 # announce beginning file uploads
 print('Beginning file downloads...')
 
-# AB - COVID-19 Alberta statistics
-archivist.dl_file('https://www.alberta.ca/stats/covid-19-alberta-statistics.htm',
-                  'ab/cases/',
-                  'covid19dataexport',
-                  ab_json_to_csv=True)
-
-# AB - COVID-19 relaunch status map
-archivist.dl_file('https://www.alberta.ca/maps/covid-19-status-map.htm',
-                  'ab/active-cases-by-region/',
-                  'covid19dataexport-relaunch',
-                  ab_json_to_csv=True)
-
-# AB - COVID-19 school status map
-archivist.dl_file('https://www.alberta.ca/schools/covid-19-school-status-map.htm',
-                  'ab/school-status-by-region/',
-                  'covid19dataexport-schools',
-                  ab_json_to_csv=True)
-
-# AB - COVID-19 in Alberta: Current cases by local geographic area (Edmonton)
-archivist.dl_file('https://data.edmonton.ca/api/views/ix8f-s9xp/rows.csv?accessType=DOWNLOAD',
-                  'ab/edmonton-cases-by-area/',
-                  'COVID-19_in_Alberta__Current_cases_by_local_geographic_area')
-
-# AB - COVID-19 vaccine distribution webpage
-archivist.html_page('https://www.alberta.ca/covid19-vaccine.aspx',
-                    'ab/ab-vaccine-distribution-webpage/',
-                    'ab-vaccine-distribution-webpage')
-
-# BC - BC COVID-19 Data (Case data)
-archivist.dl_file('http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Case_Details.csv',
-                  'bc/case-data/',
-                  'BCCDC_COVID19_Dashboard_Case_Details')
-
-# BC - BC COVID-19 Data (Laboratory data)
-archivist.dl_file('http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Lab_Information.csv',
-                  'bc/laboratory-data/',
-                  'BCCDC_COVID19_Dashboard_Lab_Information')
-
-# BC - BC COVID-19 Data (Regional data)
-archivist.dl_file('http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Regional_Summary_Data.csv',
-                  'bc/regional-case-summary/',
-                  'BCCDC_COVID19_Regional_Summary_Data')
-
-# BC - Public exposures (webpage)
-archivist.ss_page('http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures',
-                  'bc/public-exposures-webpage/',
-                  'public-exposures-screenshot',
-                  width=1920,
-                  height=5500)  # set height otherwise truncated
-
-# BC - Public exposures: flights
-archivist.dl_file('http://www.bccdc.ca/Health-Info-Site/Documents/public-exposures-flights-tables-Current.pdf',
-                  'bc/public-exposures-flights/',
-                  'public-exposures-flights-tables-Current',
-                  ext='.pdf')
-
-# BC - Public exposures by setting and regional health authority (webpage)
-bc_exposures = [
-    ['https://www.fraserhealth.ca/covid19exposure', 'bc/regional-exposure-events-fraser-webpage', 'regional-exposure-events-fraser-webpage'],
-    ['https://news.interiorhealth.ca/news/public-exposures/', 'bc/regional-exposure-events-interior-webpage', 'regional-exposure-events-interior-webpage'],
-    ['https://www.islandhealth.ca/learn-about-health/covid-19/outbreaks-and-exposures', 'bc/regional-exposure-events-island-webpage', 'regional-exposure-events-island-webpage'],
-    ['https://www.northernhealth.ca/health-topics/public-exposures-and-outbreaks#covid-19-public-exposures#covid-19-communityfacility-outbreaks#non-covid-19-communityfacility-outbreaks', 'bc/regional-exposure-events-northern-webpage', 'regional-exposure-events-northern-webpage'],
-    ['http://www.vch.ca/covid-19/public-exposures', 'bc/regional-exposure-events-vancouver-coastal-webpage', 'regional-exposure-events-vancouver-coastal-webpage'],
-    ['https://www.fraserhealth.ca/schoolexposures', 'bc/school-exposures-fraser-webpage', 'school-exposures-fraser-webpage'],
-    ['https://news.interiorhealth.ca/news/school-exposures/', 'bc/school-exposures-interior-webpage', 'school-exposures-interior-webpage'],
-    ['https://www.islandhealth.ca/learn-about-health/covid-19/exposures-schools', 'bc/school-exposures-island-webpage', 'school-exposures-island-webpage'],
-    ['https://www.northernhealth.ca/health-topics/public-exposures-and-outbreaks#covid-19-school-exposures', 'bc/school-exposures-northern-webpage', 'school-exposures-northern-webpage'],
-    ['http://www.vch.ca/covid-19/school-outbreaks', 'bc/school-exposures-vancouver-coastal-webpage', 'school-exposures-vancouver-coastal-webpage']
-]
-for i in range(0, len(bc_exposures)):
-        archivist.html_page(bc_exposures[i][0],
-                            bc_exposures[i][1],
-                            bc_exposures[i][2])
-
-# CAN - COVID-19 Situational Awareness Dashboard (Epidemiology update)
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19.csv',
-                  'can/epidemiology-update/',
-                  'covid19')
-
-# CAN - COVID-19 Situational Awareness Dashboard (Epidemiology update - as above but different date format)
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-download.csv',
-                  'can/epidemiology-update-2/',
-                  'covid19-download')
-
-# CAN - COVID-19 Situational Awareness Dashboard (Epidemiology summary statements)
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-statements.csv',
-                  'can/epidemiology-summary-statements/',
-                  'covid19-epiSummary-statements')
-
-# CAN - COVID-19 Situational Awareness Dashboard (NML summary)
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-NML.csv',
-                  'can/nml-summary/',
-                  'covid19-epiSummary-NML')
-
-# CAN - COVID-19 Situational Awareness Dashboard (NML weekly testing)
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/NML_weekly_testing.csv',
-                  'can/nml-weekly-testing/',
-                  'NML_weekly_testing')
-
-# CAN - COVID-19 Situational Awareness Dashboard (Number of cases with detailed case report data)
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-nTotal.csv',
-                  'can/detailed-case-report-n/',
-                  'covid19-nTotal')
-
-# CAN - COVID-19 Situational Awareness Dashboard (Cases and deaths by health region time series)
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/file_out_v5.csv',
-                  'can/cases-and-deaths-by-hr-time-series/',
-                  'file_out_v5')
-
-# CAN - COVID-19 Situational Awareness Dashboard (Health region UID table)
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-healthregions-hruid.csv',
-                  'can/health-region-uid/',
-                  'covid19-healthregions-hruid')
-
-# CAN - COVID-19 Situational Awareness Dashboard (Cases by exposure setting time series)
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesovertime.csv',
-                  'can/cases-by-exposure-time-series/',
-                  'covid19-epiSummary-casesovertime')
-
-# CAN - COVID-19 Situational Awareness Dashboard (Epidemic curve by date of illness onset by age group)
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-epiCurveByAge.csv',
-                  'can/epidemic-curve-by-age/',
-                  'covid19-epiSummary-epiCurveByAge')
-
-# CAN - COVID-19 Situational Awareness Dashboard (Severity by age group and sex)
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-severityUpdate.csv',
-                  'can/severity-by-age-and-sex/',
-                  'covid19-epiSummary-severityUpdate')
-
-# CAN - COVID-19 Situational Awareness Dashboard (Cases by severity)
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-severity.csv',
-                  'can/cases-by-severity/',
-                  'covid19-epiSummary-severity')
-
-# CAN - COVID-19 Situational Awareness Dashboard (Cases by age group and sex)
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-agegroups2.csv',
-                  'can/cases-by-age-and-sex/',
-                  'covid19-epiSummary-agegroups2')
-
-# CAN - COVID-19 Situational Awareness Dashboard (Cases by probable exposure setting)
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-probableexposure2.csv',
-                  'can/cases-by-probable-exposure-setting/',
-                  'covid19-epiSummary-probableexposure2')
-
-# CAN - COVID-19 Situational Awareness Dashboard (Symptoms summary)
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-symptoms.csv',
-                  'can/symptoms-summary/',
-                  'covid19-epiSummary-symptoms')
-
-# CAN - COVID-19 Situational Awareness Dashboard (Hospitalizations, intensive care unit (ICU), mechanical ventilation)
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-hospVentICU.csv',
-                  'can/hospitalizations-icu-mechanical-ventilation/',
-                  'covid19-epiSummary-hospVentICU')
-
-# CAN - COVID-19 Situational Awareness Dashboard (Situational awareness dashboard update time)
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/covid19-updateTime.csv',
-                  'can/situational-awareness-dashboard-update-time/',
-                  'covid19-updateTime')
-
-# CAN - COVIDTrends (Mobility)
-# run only on Thursdays
-if t.weekday() == 3:
-        archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/covidTrends/mobility.csv',
-                          'can/covidtrends-mobility/',
-                          'mobility')
-
-# CAN - COVIDTrends (FluWatchers)
-# run only on Thursdays
-if t.weekday() == 3:
-        archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/covidTrends/fluwatchers.csv',
-                          'can/covidtrends-fluwatchers/',
-                          'fluwatchers')
-
-# CAN - Vaccines and treatments for COVID-19: Vaccine rollout
-archivist.html_page('https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks/covid-19-vaccine-treatment/vaccine-rollout.html',
-                    'can/vaccine-rollout-webpage/',
-                    'vaccine-rollout-webpage')
-
-# CAN - Vaccines administered: Vaccination administration
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/vaccination-administration.csv',
-                  'can/vaccination-administration/',
-                  'vaccination-administration')
-
-# CAN - Vaccines administered: Vaccination administration update date
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/vaccination-administration-updateDate.csv',
-                  'can/vaccination-administration-update-date/',
-                  'vaccination-administration-updateDate')
-
-# CAN - Vaccines distributed: Vaccination distribution
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/vaccination-distribution.csv',
-                  'can/vaccination-distribution/',
-                  'vaccination-distribution')
-
-# CAN - Vaccination coverage: Vaccination coverage overall
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-overall.csv',
-                  'can/vaccination-coverage-overall/',
-                  'vaccination-coverage-overall')
-
-# CAN - Vaccination coverage: Vaccination coverage for key populations
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-keypops.csv',
-                  'can/vaccination-coverage-keypops/',
-                  'vaccination-coverage-keypops')
-
-# CAN - Vaccination coverage: Vaccination coverage by age and sex
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-byAgeAndSex.csv',
-                  'can/vaccination-coverage-by-age-sex/',
-                  'vaccination-coverage-byAgeAndSex')
-
-# CAN - Vaccination coverage: Vaccination coverage by vaccine type
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-byVaccineType.csv',
-                  'can/vaccination-coverage-by-vaccine-type/',
-                  'vaccination-coverage-byVaccineType')
-
-# CAN - Vaccination coverage: Vaccination coverage by province
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-map.csv',
-                  'can/vaccination-coverage-by-prov/',
-                  'vaccination-coverage-map')
-
-# CAN - COVID-19 vaccination in Canada: Technical notes (webpage)
-archivist.html_page('https://health-infobase.canada.ca/covid-19/vaccination-coverage/technical-notes.html',
-                    'can/vaccination-technical-notes-webpage/',
-                    'vaccination-technical-notes-webpage')
-
-# CAN - COVID 19 vaccination in Canada: Vaccination coverage data availability by week
-archivist.dl_file('https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-dataAvailability.csv',
-                  'can/vaccination-coverage-data-availability-by-week/',
-                  'vaccination-coverage-dataAvailability')
-
-# CAN - Detailed preliminary information on cases of COVID-19: 6 Dimensions (Aggregated data)
-archivist.dl_file('https://www150.statcan.gc.ca/n1/tbl/csv/13100774-eng.zip',
-                  'can/detailed-preliminary-case-info-aggregated-6-dimensions/',
-                  '13100774',
-                  unzip=True)
-
-# CAN - Detailed preliminary information on cases of COVID-19: 4 Dimensions (Aggregated data)
-archivist.dl_file('https://www150.statcan.gc.ca/n1/tbl/csv/13100775-eng.zip',
-                  'can/detailed-preliminary-case-info-aggregated-4-dimensions/',
-                  '13100775',
-                  unzip=True)
-
-# CAN - Preliminary dataset on confirmed cases of COVID-19, Public Health Agency of Canada
-archivist.dl_file('https://www150.statcan.gc.ca/n1/pub/13-26-0003/2020001/COVID19-eng.zip',
-                  'can/preliminary-dataset-on-confirmed-cases/',
-                  'COVID19-eng',
-                  unzip=True)
-
-# MB - COVID 19 Updates
-archivist.html_page('https://www.gov.mb.ca/covid19/updates/index.html',
-                    'mb/manitoba-webpage/',
-                    'manitoba-webpage')
-
-# MB - COVID-19 data by RHA and district
-archivist.dl_file('https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_summary_stats_geography/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
-                  'mb/covid-data-by-rha-and-district/',
-                  'covid-data-by-rha-and-district',
-                  mb_json_to_csv=True)
-
-# MB - Cases by demographics and RHA
-archivist.dl_file('https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_by_demographics_rha_all/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&groupByFieldsForStatistics=Age_Group%2CGender&orderByFields=Age_Group%20desc',
-                  'mb/cases-demographics-by-rha/',
-                  'cases-demographics-by-rha',
-                  mb_json_to_csv=True)
-
-# MB - Cases by status and RHA
-archivist.dl_file('https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_by_status_daily_rha/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&groupByFieldsForStatistics=Date%2CRHA',
-                  'mb/cases-by-status-and-rha/',
-                  'cases-by-status-and-rha',
-                  mb_json_to_csv=True)
-
-# MB - Manitoba five-day test positivity rate
-archivist.dl_file('https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_5_day_positivity_rate/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Date%20asc',
-                  'mb/five-day-test-positivity/',
-                  'five-day-test-positivity',
-                  mb_json_to_csv=True)
-
-# NT - GNWT's Response to COVID-19 (webpage)
-archivist.html_page('https://www.gov.nt.ca/covid-19/',
-                    'nt/nwt-webpage/',
-                    'nwt-webpage')
-
-# NU - COVID-19 (Novel Coronavirus) (webpage)
-archivist.html_page('https://gov.nu.ca/health/information/covid-19-novel-coronavirus',
-                    'nu/nunavut-webpage/',
-                    'nunavut-webpage')
-
-# NS - Nova Scotia (COVID-19): cases (webpage)
-archivist.html_page('https://novascotia.ca/coronavirus/data/',
-                    'ns/ns-webpage/',
-                    'ns-webpage')
-
-# NS - Coronavirus (COVID-19): case data
-archivist.dl_file('https://novascotia.ca/coronavirus/data/ns-covid19-data.csv',
-                  'ns/case-data/',
-                  'ns-covid19-data',
-                  verify=False)
-
-# NS - Nova Scotia COVID-19 Dashboard: Cases by zone
-archivist.dl_file('https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Zones_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=date%20asc',
-                  'ns/cases-by-zone/',
-                  'cases-by-zone',
-                  ext='.json')
-
-# NS - Nova Scotia COVID-19 Dashboard: Zone summary
-archivist.dl_file('https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/BND_NSH_MZones_V4_Join_PROD/FeatureServer/1/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
-                  'ns/zone-summary/',
-                  'zone-summary',
-                  ext='.json')
-
-# NS - Nova Scotia COVID-19 Dashboard: Zone summary cases
-archivist.dl_file('https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Zones_MaxDate_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
-                  'ns/zone-summary-cases/',
-                  'zone-summary-cases',
-                  ext='.json')
-
-# NS - Nova Scotia COVID-19 Dashboard: Community health network summary cases
-archivist.dl_file('https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/BND_NS_CommunityHealthNetworks_Join_PROD/FeatureServer/1/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
-                  'ns/chn-summary-cases/',
-                  'chn-summary-cases',
-                  ext='.json')
-
-# NS - Nova Scotia COVID-19 Dashboard: Serious outcomes
-archivist.dl_file('https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Serious_Outcomes_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
-                  'ns/serious-outcomes/',
-                  'serious-outcomes',
-                  ext='.json')
-
-# NS - Nova Scotia COVID-19 Dashboard: Lab testing
-archivist.dl_file('https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Lab_Testing_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=tests_date%20asc',
-                  'ns/lab-testing/',
-                  'lab-testing',
-                  ext='.json')
-
-# NS - Nova Scotia COVID-19 Dashboard: Lab testing, hospitalization, ICU summary
-archivist.dl_file('https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Lab_Testing_MaxDate_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
-                  'ns/lab-testing-hos-icu-summary/',
-                  'lab-testing-hos-icu-summary',
-                  ext='.json')
-
-# NS - Nova Scotia COVID-19 Dashboard: Demographics summary
-archivist.dl_file('https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Demographics_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
-                  'ns/demographics-summary/',
-                  'demographics-summary',
-                  ext='.json')
-
-# NS - Nova Scotia COVID-19 Dashboard: Immunizations
-archivist.dl_file('https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Immunizations_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
-                  'ns/immunizations/',
-                  'immunizations',
-                  ext='.json')
-
-# NS - Nova Scotia COVID-19 Dashboard: Health boundaries
-archivist.dl_file('https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Health_Boundaries_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*',
-                  'ns/health-boundaries/',
-                  'health-boundaries',
-                  ext='.json')
-
-# ON - How Ontario is responding to COVID-19 (webpage)
-archivist.html_page('https://www.ontario.ca/page/how-ontario-is-responding-covid-19',
-                    'on/ontario-webpage/',
-                    'ontario-webpage',
-                    js=True,
-                    wait=10)
-
-# ON - Confirmed positive cases of COVID19 in Ontario
-archivist.dl_file('https://data.ontario.ca/dataset/f4112442-bdc8-45d2-be3c-12efae72fb27/resource/455fd63b-603d-4608-8216-7d8647f43350/download/conposcovidloc.csv',
-                  'on/confirmed-positive-cases/',
-                  'conposcovidloc')
-
-# ON - Status of COVID-19 cases in Ontario
-archivist.dl_file('https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/ed270bb8-340b-41f9-a7c6-e8ef587e6d11/download/covidtesting.csv',
-                  'on/status-of-cases/',
-                  'covidtesting')
-
-# ON - Status of COVID-19 cases in Ontario by Public Health Unit (PHU)
-archivist.dl_file('https://data.ontario.ca/dataset/1115d5fe-dd84-4c69-b5ed-05bf0c0a0ff9/resource/d1bfe1ad-6575-4352-8302-09ca81f7ddfc/download/cases_by_status_and_phu.csv',
-                  'on/status-of-cases-by-phu/',
-                  'cases_by_status_and_phu')
-
-# ON - Ontario COVID-19 testing metrics by Public Health Unit (PHU)
-archivist.dl_file('https://data.ontario.ca/dataset/a2dfa674-a173-45b3-9964-1e3d2130b40f/resource/07bc0e21-26b5-4152-b609-c1958cb7b227/download/testing_metrics_by_phu.csv',
-                  'on/testing-metrics-by-phu/',
-                  'testing_metrics_by_phu')
-
-# ON - Ontario COVID-19 testing percent positive by age group
-archivist.dl_file('https://data.ontario.ca/dataset/ab5f4a2b-7219-4dc7-9e4d-aa4036c5bf36/resource/05214a0d-d8d9-4ea4-8d2a-f6e3833ba471/download/percent_positive_by_agegrp.csv',
-                  'on/percent-positive-by-age-group/',
-                  'percent_positive_by_agegrp')
-
-# ON - COVID-19 hospital metrics in Ontario by Local Health Integration Network (LHIN) regions
-archivist.dl_file('https://data.ontario.ca/dataset/8f3a449b-bde5-4631-ada6-8bd94dbc7d15/resource/e760480e-1f95-4634-a923-98161cfb02fa/download/lhin_hospital_icu_covid_data.csv',
-                  'on/hosp-icu-by-lhin/',
-                  'lhin_hospital_icu_covid_data')
-
-# ON - Effective reproduction number (Re) for COVID-19 in Ontario
-archivist.dl_file('https://data.ontario.ca/dataset/8da73272-8078-4cbd-ae35-1b5c60c57796/resource/1ffdf824-2712-4f64-b7fc-f8b2509f9204/download/effective_reproduction_number_ontario.csv',
-                  'on/effective-reproduction-number/',
-                  'effective_reproduction_number_ontario')
-
-# ON - COVID Alert Impact Data (COVID Alert downloads - Canada)
-archivist.dl_file('https://data.ontario.ca/dataset/06a61019-62c1-48d8-8d4d-2267ae0f1144/resource/37cfeca2-059e-4a5f-a228-249f6ab1b771/download/covid_alert_downloads_canada.csv',
-                  'on/covid_alert_downloads_canada/',
-                  'covid_alert_downloads_canada')
-
-# ON - COVID Alert Impact Data (Uploads of COVID-19 diagnosis to COVID Alert - Ontario)
-archivist.dl_file('https://data.ontario.ca/dataset/06a61019-62c1-48d8-8d4d-2267ae0f1144/resource/b792e734-9c69-47d5-8451-40fc85c2f3c6/download/covid_alert_positive_uploads_ontario.csv',
-                  'on/covid-alert-uploads-ontario/',
-                  'covid_alert_positive_uploads_ontario')
-
-# ON - COVID-19 testing locations
-archivist.dl_file('https://covid-19.ontario.ca/covid-19-ac-assets/data/locations.json',
-                  'on/testing-locations/',
-                  'locations',
-                  ext='.json')
-
-# ON - Ongoing outbreaks
-archivist.dl_file('https://data.ontario.ca/dataset/5472ffc1-88e2-48ca-bc9f-4aa249c1298d/resource/66d15cce-bfee-4f91-9e6e-0ea79ec52b3d/download/ongoing_outbreaks.csv',
-                  'on/ongoing-outbreaks/',
-                  'ongoing_outbreaks')
-
-# ON - Summary of cases associated with outbreaks
-archivist.dl_file('https://data.ontario.ca/dataset/5472ffc1-88e2-48ca-bc9f-4aa249c1298d/resource/d5d8f478-765c-4246-b8a7-c3b13a4a1a41/download/outbreak_cases.csv',
-                  'on/summary-outbreak-cases/',
-                  'outbreak_cases')
-
-# ON - Testing of inmates in provincial correctional institutions
-archivist.dl_file('https://data.ontario.ca/dataset/c4022f0f-6f3d-4e16-bd28-5312333a4bac/resource/d0d6ccc7-fc60-4a18-ac96-7f9493e9f10e/download/inmatetesting.csv',
-                  'on/correctional-institutions-inmates-testing/',
-                  'inmatetesting')
-
-# ON - Status of cases in provincial correctional institutions
-archivist.dl_file('https://data.ontario.ca/dataset/ecb75ea0-8b72-4f46-a14a-9bd54841d6ab/resource/1f95eda9-53b5-448e-abe0-afc0b71581ed/download/correctionsinmatecases.csv',
-                  'on/correctional-institutions-status/',
-                  'correctionsinmatecases')
-
-# ON - Long term care homes: Summary data
-archivist.dl_file('https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/resource/0f8b343e-fc28-4ca5-9aab-c3a1d2c919f1/download/ltccovidsummary.csv',
-                  'on/long-term-care-home-summary/',
-                  'ltccovidsummary')
-
-# ON - Long term care homes: Active outbreaks
-archivist.dl_file('https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/resource/4b64488a-0523-4ebb-811a-fac2f07e6d59/download/activeltcoutbreak.csv',
-                  'on/long-term-care-home-active/',
-                  'activeltcoutbreak')
-
-# ON - Long term care homes: Resolved outbreaks
-archivist.dl_file('https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/resource/0cf2f01e-d4e1-48ed-8027-2133d059ec8b/download/resolvedltc.csv',
-                  'on/long-term-care-home-resolved/',
-                  'resolvedltc')
-
-# ON - Cases in schools and childcare centres (webpage)
-archivist.html_page('https://www.ontario.ca/page/covid-19-cases-schools-and-child-care-centres',
-                    'on/cases-schools-and-child-care-centres-webpage/',
-                    'cases-schools-and-child-care-centres-webpage',
-                    js=True,
-                    wait=10)
-
-# ON - Schools: Summary of cases in schools
-archivist.dl_file('https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/7fbdbb48-d074-45d9-93cb-f7de58950418/download/schoolcovidsummary.csv',
-                  'on/schools-summary/',
-                  'schoolcovidsummary')
-
-# ON - Schools: Schools with active COVID-19 cases
-archivist.dl_file('https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/8b6d22e2-7065-4b0f-966f-02640be366f2/download/schoolsactivecovid.csv',
-                  'on/schools-active/',
-                  'schoolsactivecovid')
-
-# ON - Schools: Cases in school board partners
-archivist.dl_file('https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/245479eb-db0a-4ec4-97af-459d61da0801/download/schoolpartnersactivecovid.csv',
-                  'on/school-board-partners/',
-                  'schoolpartnersactivecovid')
-
-# ON - Licensed child care settings: Summary of cases in licensed child care settings
-archivist.dl_file('https://data.ontario.ca/dataset/5bf54477-6147-413f-bab0-312f06fcb388/resource/74f9ac9f-7ca8-4860-b2c3-189a2c25e30c/download/lccovidsummary.csv',
-                  'on/licensed-child-care-settings-summary/',
-                  'lccovidsummary')
-
-# ON - Licensed child care settings: Licensed child care centres and agencies with active COVID-19 cases
-archivist.dl_file('https://data.ontario.ca/dataset/5bf54477-6147-413f-bab0-312f06fcb388/resource/eee282d3-01e6-43ac-9159-4ba694757aea/download/lccactivecovid.csv',
-                  'on/licensed-child-care-settings-active/',
-                  'lccactivecovid')
-
-# ON - City of Toronto Daily Status of COVID-19 Cases
-archivist.dl_file('https://docs.google.com/spreadsheets/d/11KF1DuN5tntugNc10ogQDzFnW05ruzLH/export?format=xlsx&id=11KF1DuN5tntugNc10ogQDzFnW05ruzLH',
-                  'on/toronto-daily-status/',
-                  'CityofToronto_COVID-19_Daily_Public_Reporting',
-                  ext='.xlsx')
-
-# ON - City of Toronto COVID-19 Summary
-archivist.dl_file('https://docs.google.com/spreadsheets/d/1euhrML0rkV_hHF1thiA0G5vSSeZCqxHY/export?format=xlsx&id=1euhrML0rkV_hHF1thiA0G5vSSeZCqxHY',
-                  'on/toronto-covid-summary/',
-                  'CityofToronto_COVID-19_Data',
-                  ext='.xlsx')
-
-# ON - City of Toronto COVID-19 Neighbourhood Case Data
-archivist.dl_file('https://docs.google.com/spreadsheets/d/1jzH64LvFQ-UsDibXO0MOtvjbL2CvnV3N/export?format=xlsx&id=1jzH64LvFQ-UsDibXO0MOtvjbL2CvnV3N',
-                  'on/toronto-neighbourhood-data/',
-                  'CityofToronto_COVID-19_NeighbourhoodData',
-                  ext='.xlsx')
-
-# ON - City of Toronto COVID-19 Neighbourhood Testing Data
-archivist.dl_file('https://docs.google.com/spreadsheets/d/1xI6ckKQIOt_RNCuI0HXs7WJsgqFP015c/export?format=xlsx&id=1xI6ckKQIOt_RNCuI0HXs7WJsgqFP015c',
-                  'on/toronto-neighbourhood-test-data/',
-                  'CityofToronto_COVID-19_Testing',
-                  ext='.xlsx')
-
-# ON - City of Toronto COVID-19 Monitoring Dashboard
-archivist.dl_file('https://docs.google.com/spreadsheets/d/1-7j48S_KQY-I-4Qu3N3lsEOALXON2StG/export?format=xlsx&id=1-7j48S_KQY-I-4Qu3N3lsEOALXON2StG',
-                  'on/toronto-monitoring-dashboard/',
-                  'CityofToronto_COVID-19_RecoveryData',
-                  ext='.xlsx')
-
-# ON - City of Toronto COVID-19 Outbreak Data
-archivist.dl_file('https://docs.google.com/spreadsheets/d/1pYoXchhmnpiOrFBY7WP9rxGRJNgnerMN/export?format=xlsx&id=1pYoXchhmnpiOrFBY7WP9rxGRJNgnerMN',
-                  'on/toronto-active-outbreaks/',
-                  'CityofToronto_COVID-19_OutbreakData',
-                  ext='.xlsx')
-
-# ON - COVID-19 Cases in Toronto
-# run only on Wednesdays
-if t.weekday() == 2:
-        archivist.dl_file('https://ckan0.cf.opendata.inter.prod-toronto.ca/download_resource/e5bf35bc-e681-43da-b2ce-0242d00922ad?format=csv',
-                          'on/toronto-cases/',
-                          'COVID19_cases')
-
-# ON - University of Toronto COVID-19 tracking (webpage)
-archivist.html_page('https://www.utoronto.ca/utogether2020/covid19-dashboard',
-                    'on/u-of-t-covid-tracking-webpage/',
-                    'u-of-t-covid-tracking-webpage')
-
-# ON - Ottawa Demographics and Source of Infection for Cases, Deaths, and Hospitalizations
-archivist.dl_file('https://www.arcgis.com/sharing/rest/content/items/6bfe7832017546e5b30c5cc6a201091b/data',
-                  'on/ottawa-cases-deaths-hosp-demographics-source-of-infection/',
-                  'COVID-19_Cases_and_Deaths_Ottawa_EN')
-
-# ON - Ottawa Outbreaks in Healthcare Institutions, Childcare, Summer Camps, and Educational Establishments
-archivist.dl_file('https://www.arcgis.com/sharing/rest/content/items/5b24f70482fe4cf1824331d89483d3d3/data',
-                  'on/ottawa-outbreaks-healthcare-childcare-camps-schools/',
-                  'COVID-19_Institutional_Outbreaks')
-
-# ON - Ottawa Community Outbreaks
-archivist.dl_file('https://opendata.arcgis.com/datasets/0df365456c254fbc942fe3d85c3dbf83_0.csv',
-                  'on/ottawa-community-outbreaks/',
-                  'COVID-19_Community_Outbreaks_in_Ottawa')
-
-# ON - Ottawa Weekly Rates
-archivist.dl_file('https://www.arcgis.com/sharing/rest/content/items/734a327141b14a55b666953c9141abf3/data',
-                  'on/ottawa-weekly-rates/',
-                  'COVID-19_Weekly_Cases_and_Rates_by_Age_in_Ottawa_EN')
-
-# ON - Ottawa Estimated Reproduction Number in Ottawa
-archivist.dl_file('https://www.arcgis.com/sharing/rest/content/items/d010a848b6e54f4990d60a202f2f2f99/data',
-                  'on/ottawa-estimated-rt/',
-                  'EN_-_Covid-19_Reproduction_Number,_R(t)')
-
-# ON - Ottawa Testing - Ottawa Residents
-archivist.dl_file('https://www.arcgis.com/sharing/rest/content/items/26c902bf1da44d3d90b099392b544b81/data',
-                  'on/ottawa-residents-tested/',
-                  'COVID-19_Ottawa_Residents_Tested_EN')
-
-# ON - COVID-19 Vaccine Data in Ontario
-archivist.dl_file('https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/8a89caa9-511c-4568-af89-7f2174b4378c/download/vaccine_doses.csv',
-                  'on/vaccine-data/',
-                  'vaccine_doses')
-
-# PE - PEI COVID-19 Case Data
-archivist.html_page('https://www.princeedwardisland.ca/en/information/health-and-wellness/pei-covid-19-case-data',
-                    'pe/pei-webpage/',
-                    'pei-webpage')
-
-# QC - Données sur la COVID-19 au Québec (webpage FR)
-archivist.html_page('https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/',
-                    'qc/qc-webpage-fr/',
-                    'qc-webpage-fr')
-
-# QC - Data on COVID-19 in Quebec (webpage EN)
-archivist.html_page('https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/',
-                    'qc/qc-webpage-en/',
-                    'qc-webpage-en')
-
-# QC - COVID-19 vaccination data (webpage FR)
-archivist.html_page('https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/donnees-sur-la-vaccination-covid-19/',
-                    'qc/qc-vaccination-webpage-fr/',
-                    'qc-vaccination-webpage-fr')
-
-# QC - COVID-19 vaccination data (webpage EN)
-archivist.html_page('https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/covid-19-vaccination-data/',
-                    'qc/qc-vaccination-webpage-en/',
-                    'qc-vaccination-webpage-en')
-
-# QC - Situation in Quebec
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/situation-au-quebec.csv',
-                  'qc/situation-in-quebec/',
-                  'situation-au-quebec')
-
-# QC - Correctional facilities - cases among employees (FR)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/donnees-covid/donnees_covid_detention_employes_FR.csv',
-                  'qc/correctional-cases-employees/',
-                  'donnees_covid_detention_employes_FR')
-
-# QC - Correctional facilities - cases among employees (EN)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/donnees-covid/donnees_covid_detention_employes_EN.csv',
-                  'qc/correctional-cases-employees-en/',
-                  'donnees_covid_detention_employes_EN')
-
-# QC - Correctional facilities - cases among detainees (FR)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/donnees-covid/donnees_covid_detention_personnes_incarcerees_FR.csv',
-                  'qc/correctional-cases-detainees/',
-                  'donnees_covid_detention_personnes_incarcerees_FR')
-
-# QC - Correctional facilities - cases among detainees (EN)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/donnees-covid/donnees_covid_detention_personnes_incarcerees_EN.csv',
-                  'qc/correctional-cases-detainees-en/',
-                  'donnees_covid_detention_personnes_incarcerees_EN')
-
-# QC - Vaccination situation (FR)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/situation-vaccination.csv',
-                  'qc/vaccination-situation/',
-                  'situation-vaccination')
-
-# QC - Vaccination situation (EN)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/situation-vaccination-en.csv',
-                  'qc/vaccination-situation-en/',
-                  'situation-vaccination-en')
-
-# QC - Vaccine doses administered by RSS (FR)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/doses-vaccins.csv',
-                  'qc/vaccine-doses-admin-by-rss/',
-                  'doses-vaccins')
-
-# QC - Vaccine doses received (FR)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/doses-vaccins-7jours.csv',
-                  'qc/vaccine-doses-received-7-days/',
-                  'doses-vaccins-7jours')
-
-# QC - Outbreaks by setting (FR)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/eclosions-par-milieu.csv',
-                  'qc/outbreaks-by-setting/',
-                  'eclosions-par-milieu')
-
-# QC - Outbreaks by setting (EN)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/eclosions-par-milieu-en.csv',
-                  'qc/outbreaks-by-setting-en/',
-                  'eclosions-par-milieu-en')
-
-# QC - Cases percentage by age group (FR)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-cas-age.csv',
-                  'qc/cases-percentage-by-age-group/',
-                  'pourcentage-cas-age')
-
-# QC - Cases percentage by age group (EN)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-cas-age-en.csv',
-                  'qc/cases-percentage-by-age-group-en/',
-                  'pourcentage-cas-age-en')
-
-# QC - Deaths percentage by age group (FR)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-deces-age.csv',
-                  'qc/deaths-percentage-by-age-group/',
-                  'pourcentage-deces-age')
-
-# QC - Deaths percentage by age group (EN)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-deces-age-en.csv',
-                  'qc/deaths-percentage-by-age-group-en/',
-                  'pourcentage-deces-age-en')
-
-# QC - Cumulative deaths by region (FR)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/deces-region.csv',
-                  'qc/cumulative-deaths-by-region/',
-                  'deces-region')
-
-# QC - Cumulative deaths by region (EN)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/deces-region-en.csv',
-                  'qc/cumulative-deaths-by-region-en/',
-                  'deces-region-en')
-
-# QC - Recent daily cases by region (FR)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/cas-region.csv',
-                  'qc/recent-daily-cases-by-region/',
-                  'cas-region')
-
-# QC - Recent daily cases by region (EN)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/cas-region-en.csv',
-                  'qc/recent-daily-cases-by-region-en/',
-                  'cas-region-en')
-
-# QC - COVID-19 daily data 7 days (FR)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/synthese-7jours.csv',
-                  'qc/covid-data-daily-7-days/',
-                  'synthese-7jours')
-
-# QC - COVID-19 daily data 7 days (EN)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/synthese-7jours-en.csv',
-                  'qc/covid-data-daily-7-days-en/',
-                  'synthese-7jours-en')
-
-# QC - Cases by region 7 days (FR)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/apercu/cas-region-7jours.csv',
-                  'qc/cases-by-region-7-days/',
-                  'cas-region-7jours')
-
-# QC - Cases by region 7 days (EN)
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/cas-region-7jours-en.csv',
-                  'qc/cases-by-region-7-days-en/',
-                  'cas-region-7jours-en')
-
-# QC - COVID-19 time series by region and demographics
-archivist.dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/covid19-hist.csv',
-                  'qc/covid-time-series-by-region-and-demographics/',
-                  'covid19-hist')
-
-# QC - COVID-19 data (charts - summary, time series, and hospitalization by age)
-archivist.dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/manual-data.csv',
-                  'qc/covid-data-charts-summary-time-series-hosp-by-age/',
-                  'manual-data')
-
-# QC - Summary by region
-archivist.dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/regions.csv',
-                  'qc/summary-by-region/',
-                  'regions')
-
-# QC - Deaths by RSS (health region) and living environment
-archivist.dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/tableau-rpa-new.csv',
-                  'qc/deaths-by-rss-and-living-environment/',
-                  'tableau-rpa-new')
-
-# QC - Cases by RSS (health region) and RLS (local service network)
-archivist.dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/tableau-rls-new.csv',
-                  'qc/cases-by-rss-and-rls/',
-                  'tableau-rls-new')
-
-# QC - Comparisons (provinces)
-archivist.dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/comparaisons_prov.csv',
-                  'qc/comparisons-provinces/',
-                  'comparaisons_prov')
-
-# QC - Comparisons (countries)
-archivist.dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/comparaisons_pays.csv',
-                  'qc/comparisons-countries/',
-                  'comparaisons_pays')
-
-# QC - Deaths by RSS (health region) and number of pre-existing conditions
-archivist.dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/comorbidite.csv',
-                  'qc/deaths-by-rss-and-pre-existing-conditions/',
-                  'comorbidite')
-
-# QC - COVID-19 data by age group and sex
-archivist.dl_file('https://www.inspq.qc.ca/sites/default/files/covid/donnees/PL_AGE_SEXE.csv',
-                  'qc/covid-data-by-age-and-sex/',
-                  'PL_AGE_SEXE')
-
-# QC - Deaths time series by living environment
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/decesquotidien.csv',
-                  'qc/deaths-time-series-by-living-environment/',
-                  'decesquotidien')
-
-# QC - Status report on confirmed cases and deaths by RPA
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_rpa.pdf',
-                  'qc/status-report-cases-and-deaths-by-rpa/',
-                  'etat_situation_rpa',
-                  ext='.pdf')
-
-# QC - Status report on confirmed cases and deaths by CHSLD
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_chsld.pdf',
-                  'qc/status-report-cases-and-deaths-by-chsld/',
-                  'etat_situation_chsld',
-                  ext='.pdf')
-
-# QC - Highlights - public and private school system
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/education/publications-adm/covid-19/reseauScolaire_faitsSaillants.pdf',
-                  'qc/schools-highlights/',
-                  'reseauScolaire_faitsSaillants',
-                  ext='.pdf')
-
-# QC - List of schools - public and private school system
-archivist.dl_file('https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/education/publications-adm/covid-19/reseauScolaire_listeEcoles.pdf',
-                  'qc/schools-list-of-schools/',
-                  'reseauScolaire_listeEcoles',
-                  ext='.pdf')
-
-# QC - Daily hospitalizations by RSS (health region) and care unit
-archivist.dl_file('https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_HistoHospit.csv',
-                  'qc/daily-hosp-by-rss-and-care-unit/',
-                  'COVID19_Qc_HistoHospit')
-
-# QC - Daily hospitalizations by age group
-archivist.dl_file('https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_HospitCatAge.csv',
-                  'qc/daily-hosp-by-age-group/',
-                  'COVID19_Qc_HospitCatAge')
-
-# QC - Montréal cases and deaths by CIUSSS (integrated health and social services centres)
-archivist.dl_file('https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/ciusss.csv',
-                  'qc/montreal-cases-and-deaths-by-ciusss/',
-                  'ciusss',
-                  user=True)
-
-# QC - Montréal cases by area
-archivist.dl_file('https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/municipal.csv',
-                  'qc/montreal-cases-by-area/',
-                  'municipal',
-                  user=True)
-
-# QC - Montréal cases and deaths by age group
-archivist.dl_file('https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/grage.csv',
-                  'qc/montreal-cases-and-deaths-by-age-group/',
-                  'grage',
-                  user=True)
-
-# QC - Montréal cases and deaths by sex
-archivist.dl_file('https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/sexe.csv',
-                  'qc/montreal-cases-and-deaths-by-sex/',
-                  'sexe',
-                  user=True)
-
-# QC - Montréal epidemic curve
-archivist.dl_file('https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/courbe.csv',
-                  'qc/montreal-epidemic-curve/',
-                  'courbe',
-                  user=True)
-
-# SK - Saskatchewan's Dashboard - Total Cases
-## get url for SK cases file (will throw an error if SK website cannot be accessed)
-sk_url_cases = ''
-try:
-        sk_url_cases = archivist.find_url('https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases', '(?<=href=\").*(?=\">CSV)', 'https://dashboard.saskatchewan.ca')
-except:
-        print('Could not resolve URL for SK Dashboard.')
-## download file
-archivist.dl_file(sk_url_cases,
-                  'sk/cases-by-region/',
-                  'cases')
-
-# SK - Saskatchewan's Dashboard - Total Cases (webpage)
-archivist.html_page('https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases',
-                    'sk/cases-by-region-webpage/',
-                    'cases-webpage')
-
-# SK - Saskatchewan's Dashboard - Total Tests
-## get url for SK tests file (will throw an error if SK website cannot be accessed)
-sk_url_tests = ''
-try:
-        sk_url_tests = archivist.find_url('https://dashboard.saskatchewan.ca/health-wellness/covid-19-tests/tests', '(?<=href=\").*(?=\">CSV)', 'https://dashboard.saskatchewan.ca')
-except:
-        print('Could not resolve URL for SK Dashboard.')
-## download file
-archivist.dl_file(sk_url_tests,
-                  'sk/tests-by-region/',
-                  'tests')
-
-# SK - Saskatchewan's Dashboard - Total Tests (webpage)
-archivist.html_page('https://dashboard.saskatchewan.ca/health-wellness/covid-19/tests',
-                    'sk/tests-by-region-webpage/',
-                    'tests-webpage')
-
-# YT - Case counts: COVID-19 (webpage)
-archivist.html_page('https://yukon.ca/en/case-counts-covid-19',
-                    'yt/yukon-case-counts-webpage/',
-                    'yukon-case-counts-webpage')
-
-# YT - Current COVID-19 situation (webpage)
-archivist.html_page('https://yukon.ca/en/health-and-wellness/covid-19-information/latest-updates-covid-19/current-covid-19-situation',
-                    'yt/yukon-current-situation-webpage/',
-                    'yukon-current-situation-webpage')
-
-# Other: CAN - Unofficial COVID Alert Dashboard - Diagnosis Keys Analysis
-archivist.dl_file('https://raw.githubusercontent.com/uhengart/covid-alert-dashboard/master/DiagnosisKeysAnalysis.csv',
-                  'other/can/unofficial-covid-alert-dashboard-analysis/',
-                  'DiagnosisKeysAnalysis')
-
-# Other: CAN - Unofficial COVID Alert Dashboard - Upload Delay
-archivist.dl_file('https://raw.githubusercontent.com/uhengart/covid-alert-dashboard/master/UploadDelay.csv',
-                  'other/can/unofficial-covid-alert-dashboard-upload-delay/',
-                  'UploadDelay')
-
-# Other: CAN - McDonald's Tracker
-archivist.html_page('https://news.mcdonalds.ca/covid-19-tracker',
-                    'other/can/mcdonalds-tracker/',
-                    'mcdonalds-tracker-webpage',
-                    user=True)
-
-# Other: CAN - COVID-19 - Loblaw Companies Ltd.
-archivist.html_page('https://www.loblaw.ca/en/covid-19/',
-                    'other/can/loblaw-companies-tracker/',
-                    'loblaw-companies-tracker')
-
-# Other: QC - Covid Écoles Québec (Excel)
-archivist.dl_file('https://drive.google.com/uc?export=download&id=1xOl0uhyx9IuHZfJuRH-OR7BcGFuWYUex',
-                  'other/qc/covid-ecoles-quebec-school-list/',
-                  'COVIDECOLESQUEBEC',
-                  ext='.xlsx')
-
-# Other: CAN - Canada COVID-19 School Case Tracker (KML)
-archivist.dl_file('https://www.google.com/maps/d/u/0/kml?mid=1blA_H3Hv5S9Ii_vyudgDk-j6SfJQil9S&forcekml=1',
-                  'other/can/canada-covid-19-school-case-tracker/',
-                  'Canada_COVID-19_School_Report_Tracker',
-                  ext='.kml')
+# loop through all datasets
+for key in ds:
+        
+        ## print key
+        print(key)
+        
+        ## some datasets only download on a particular day
+        if 'day_to_run' in ds[key]:
+                day_to_run = int(ds[key]['day_to_run'])
+                if t.weekday() != day_to_run:
+                        print('This dataset downloads only on when weekday is: ' + str(day_to_run) + '. Skipping...')
+                        continue # throws an error if final item in loop
+        
+        ## if URL is not static, get URL
+        if 'url' not in ds[key]:
+                exec(ds[key]['url_fun_python']) # url saved as global var 'url_current'
+                ds[key]['url'] = url_current
+                print(ds[key]['url']) # print result
+        
+        ## get download function for dataset according to 'dl_fun'
+        dl_fun = dl_funs[ds[key]['dl_fun']]
+        
+        ## process file extension
+        if ds[key]['url'] == '':
+                ext = ''
+        else:
+                ext = '.' + ds[key]['file_ext']
+        
+        ## process other arguments
+        
+        ### user (dl_file, html_page, ss_page)
+        if 'user' in ds[key]['args']:
+                ds[key]['args']['user'] = arg_bool('user')
+        ### verify (dl_file)
+        if 'verify' in ds[key]['args']:
+                ds[key]['args']['verify'] = arg_bool('verify')
+        ### unzip (dl_file)
+        if 'unzip' in ds[key]['args']:
+                ds[key]['args']['unzip'] = arg_bool('unzip')
+        ### ab_json_to_csv (dl_file)
+        if 'ab_json_to_csv' in ds[key]['args']:
+                ds[key]['args']['ab_json_to_csv'] = arg_bool('ab_json_to_csv')
+        ### mb_json_to_csv (dl_file)
+        if 'mb_json_to_csv' in ds[key]['args']:
+                ds[key]['args']['mb_json_to_csv'] = arg_bool('mb_json_to_csv')
+        ## js (html_page)
+        if 'js' in ds[key]['args']:
+                ds[key]['args']['js'] = arg_bool('js')
+        ## wait (html_page, ss_page)
+        if 'wait' in ds[key]['args']:
+                ds[key]['args']['wait'] = arg_int('wait')
+        ## width (html_page, ss_page)
+        if 'width' in ds[key]['args']:
+                ds[key]['args']['width'] = arg_int('width')
+        ## height (html_page, ss_page)
+        if 'height' in ds[key]['args']:
+                ds[key]['args']['height'] = arg_int('height')
+        ## run download function
+        dl_fun(
+                url = ds[key]['url'],
+                path = '/'.join([ds[key]['dir_parent'], ds[key]['dir_file']]) + '/',
+                file = ds[key]['file_name'],
+                ext = ext,
+                **ds[key]['args']
+        )
 
 # Summarize successes and failures
 archivist.print_success_failure()
