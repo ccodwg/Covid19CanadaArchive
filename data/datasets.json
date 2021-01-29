@@ -1,7 +1,8 @@
 [
   {
   	"id_name": "AB - COVID-19 Alberta statistics",
-  	"url": "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm",
+  	"active": "True",
+    "url": "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm",
   	"dir_parent": "ab",
   	"dir_file": "cases",
   	"file_name": "covid19dataexport",
@@ -13,7 +14,8 @@
   },
   {
   	"id_name": "AB - COVID-19 relaunch status map",
-  	"url": "https://www.alberta.ca/maps/covid-19-status-map.htm",
+  	"active": "True",
+    "url": "https://www.alberta.ca/maps/covid-19-status-map.htm",
   	"dir_parent": "ab",
   	"dir_file": "active-cases-by-region",
   	"file_name": "covid19dataexport-relaunch",
@@ -25,7 +27,8 @@
   },
     {
   	"id_name": "AB - COVID-19 school status map",
-  	"url": "https://www.alberta.ca/schools/covid-19-school-status-map.htm",
+  	"active": "True",
+    "url": "https://www.alberta.ca/schools/covid-19-school-status-map.htm",
   	"dir_parent": "ab",
   	"dir_file": "school-status-by-region",
   	"file_name": "covid19dataexport-schools",
@@ -37,7 +40,8 @@
   },
     {
   	"id_name": "AB - COVID-19 in Alberta: Current cases by local geographic area (Edmonton)",
-  	"url": "https://data.edmonton.ca/api/views/ix8f-s9xp/rows.csv?accessType=DOWNLOAD",
+  	"active": "True",
+    "url": "https://data.edmonton.ca/api/views/ix8f-s9xp/rows.csv?accessType=DOWNLOAD",
   	"dir_parent": "ab",
   	"dir_file": "edmonton-cases-by-area",
   	"file_name": "COVID-19_in_Alberta__Current_cases_by_local_geographic_area",
@@ -48,7 +52,8 @@
   },
     {
   	"id_name": "AB - COVID-19 vaccine distribution webpage",
-  	"url": "https://www.alberta.ca/covid19-vaccine.aspx",
+  	"active": "True",
+    "url": "https://www.alberta.ca/covid19-vaccine.aspx",
   	"dir_parent": "ab",
   	"dir_file": "ab-vaccine-distribution-webpage",
   	"file_name": "ab-vaccine-distribution-webpage",
@@ -59,7 +64,8 @@
   },
     {
   	"id_name": "BC - BC COVID-19 Data (Case data)",
-  	"url": "http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Case_Details.csv",
+  	"active": "True",
+    "url": "http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Case_Details.csv",
   	"dir_parent": "bc",
   	"dir_file": "case-data",
   	"file_name": "BCCDC_COVID19_Dashboard_Case_Details",
@@ -70,7 +76,8 @@
   },
     {
   	"id_name": "BC - BC COVID-19 Data (Laboratory data)",
-  	"url": "http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Lab_Information.csv",
+  	"active": "True",
+    "url": "http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Lab_Information.csv",
   	"dir_parent": "bc",
   	"dir_file": "laboratory-data",
   	"file_name": "BCCDC_COVID19_Dashboard_Lab_Information",
@@ -81,7 +88,8 @@
   },
     {
   	"id_name": "BC - BC COVID-19 Data (Regional data)",
-  	"url": "http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Regional_Summary_Data.csv",
+  	"active": "True",
+    "url": "http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Regional_Summary_Data.csv",
   	"dir_parent": "bc",
   	"dir_file": "regional-case-summary",
   	"file_name": "BCCDC_COVID19_Regional_Summary_Data",
@@ -92,7 +100,8 @@
   },
     {
   	"id_name": "BC - Public exposures (webpage)",
-  	"url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
+  	"active": "True",
+    "url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
   	"dir_parent": "bc",
   	"dir_file": "public-exposures-webpage",
   	"file_name": "public-exposures-screenshot",
@@ -105,7 +114,8 @@
   },
     {
   	"id_name": "BC - Public exposures: flights",
-  	"url": "http://www.bccdc.ca/Health-Info-Site/Documents/public-exposures-flights-tables-Current.pdf",
+  	"active": "True",
+    "url": "http://www.bccdc.ca/Health-Info-Site/Documents/public-exposures-flights-tables-Current.pdf",
   	"dir_parent": "bc",
   	"dir_file": "public-exposures-flights",
   	"file_name": "public-exposures-flights-tables-Current",
@@ -116,7 +126,8 @@
   },
     {
   	"id_name": "BC - Public exposures: regional exposure events (Fraser webpage)",
-  	"url": "https://www.fraserhealth.ca/covid19exposure",
+  	"active": "True",
+    "url": "https://www.fraserhealth.ca/covid19exposure",
   	"dir_parent": "bc",
   	"dir_file": "regional-exposure-events-fraser-webpage",
   	"file_name": "regional-exposure-events-fraser-webpage",
@@ -127,7 +138,8 @@
   },
     {
   	"id_name": "BC - Public exposures: regional exposure events (Interior webpage)",
-  	"url": "https://news.interiorhealth.ca/news/public-exposures/",
+  	"active": "True",
+    "url": "https://news.interiorhealth.ca/news/public-exposures/",
   	"dir_parent": "bc",
   	"dir_file": "regional-exposure-events-interior-webpage",
   	"file_name": "regional-exposure-events-interior-webpage",
@@ -138,7 +150,8 @@
   },
     {
   	"id_name": "BC - Public exposures: regional exposure events (Island webpage)",
-  	"url": "https://www.islandhealth.ca/learn-about-health/covid-19/outbreaks-and-exposures",
+  	"active": "True",
+    "url": "https://www.islandhealth.ca/learn-about-health/covid-19/outbreaks-and-exposures",
   	"dir_parent": "bc",
   	"dir_file": "regional-exposure-events-island-webpage",
   	"file_name": "regional-exposure-events-island-webpage",
@@ -149,7 +162,8 @@
   },
     {
   	"id_name": "BC - Public exposures: regional exposure events (Northern webpage)",
-  	"url": "https://www.northernhealth.ca/health-topics/public-exposures-and-outbreaks#covid-19-public-exposures#covid-19-communityfacility-outbreaks#non-covid-19-communityfacility-outbreaks",
+  	"active": "True",
+    "url": "https://www.northernhealth.ca/health-topics/public-exposures-and-outbreaks#covid-19-public-exposures#covid-19-communityfacility-outbreaks#non-covid-19-communityfacility-outbreaks",
   	"dir_parent": "bc",
   	"dir_file": "regional-exposure-events-northern-webpage",
   	"file_name": "regional-exposure-events-northern-webpage",
@@ -160,7 +174,8 @@
   },
     {
   	"id_name": "BC - Public exposures: regional exposure events (Vancouver Coastal webpage)",
-  	"url": "http://www.vch.ca/covid-19/public-exposures",
+  	"active": "True",
+    "url": "http://www.vch.ca/covid-19/public-exposures",
   	"dir_parent": "bc",
   	"dir_file": "regional-exposure-events-vancouver-coastal-webpage",
   	"file_name": "regional-exposure-events-vancouver-coastal-webpage",
@@ -171,7 +186,8 @@
   },
     {
   	"id_name": "BC - Public exposures: school exposures (Fraser webpage)",
-  	"url": "https://www.fraserhealth.ca/schoolexposures",
+  	"active": "True",
+    "url": "https://www.fraserhealth.ca/schoolexposures",
   	"dir_parent": "bc",
   	"dir_file": "school-exposures-fraser-webpage",
   	"file_name": "school-exposures-fraser-webpage",
@@ -182,7 +198,8 @@
   },
     {
   	"id_name": "BC - Public exposures: school exposures (Interior webpage)",
-  	"url": "https://news.interiorhealth.ca/news/school-exposures/",
+  	"active": "True",
+    "url": "https://news.interiorhealth.ca/news/school-exposures/",
   	"dir_parent": "bc",
   	"dir_file": "school-exposures-interior-webpage",
   	"file_name": "school-exposures-interior-webpage",
@@ -193,7 +210,8 @@
   },
     {
   	"id_name": "BC - Public exposures: school exposures (Island webpage)",
-  	"url": "ttps://www.islandhealth.ca/learn-about-health/covid-19/exposures-schools",
+  	"active": "True",
+    "url": "ttps://www.islandhealth.ca/learn-about-health/covid-19/exposures-schools",
   	"dir_parent": "bc",
   	"dir_file": "school-exposures-island-webpage",
   	"file_name": "school-exposures-island-webpage",
@@ -204,7 +222,8 @@
   },
     {
   	"id_name": "BC - Public exposures: school exposures (Northern webpage)",
-  	"url": "https://www.northernhealth.ca/health-topics/public-exposures-and-outbreaks#covid-19-school-exposures",
+  	"active": "True",
+    "url": "https://www.northernhealth.ca/health-topics/public-exposures-and-outbreaks#covid-19-school-exposures",
   	"dir_parent": "bc",
   	"dir_file": "school-exposures-northern-webpage",
   	"file_name": "school-exposures-northern-webpage",
@@ -215,7 +234,8 @@
   },
     {
   	"id_name": "BC - Public exposures: school exposures (Vancouver Coastal webpage)",
-  	"url": "http://www.vch.ca/covid-19/school-outbreaks",
+  	"active": "True",
+    "url": "http://www.vch.ca/covid-19/school-outbreaks",
   	"dir_parent": "bc",
   	"dir_file": "school-exposures-vancouver-coastal-webpage",
   	"file_name": "school-exposures-vancouver-coastal-webpage",
@@ -226,7 +246,8 @@
   },
     {
   	"id_name": "CAN - COVID-19 Situational Awareness Dashboard (Epidemiology update)",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/covid19.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19.csv",
   	"dir_parent": "can",
   	"dir_file": "epidemiology-update",
   	"file_name": "covid19",
@@ -237,7 +258,8 @@
   },
     {
   	"id_name": "CAN - COVID-19 Situational Awareness Dashboard (Epidemiology update - as above but different date format)",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-download.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-download.csv",
   	"dir_parent": "can",
   	"dir_file": "epidemiology-update-2",
   	"file_name": "covid19-download",
@@ -248,7 +270,8 @@
   },
     {
   	"id_name": "CAN - COVID-19 Situational Awareness Dashboard (Epidemiology summary statements)",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-statements.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-statements.csv",
   	"dir_parent": "can",
   	"dir_file": "epidemiology-summary-statements",
   	"file_name": "covid19-epiSummary-statements",
@@ -259,7 +282,8 @@
   },
     {
   	"id_name": "CAN - COVID-19 Situational Awareness Dashboard (NML summary)",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-NML.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-NML.csv",
   	"dir_parent": "can",
   	"dir_file": "nml-summary",
   	"file_name": "covid19-epiSummary-NML",
@@ -270,7 +294,8 @@
   },
     {
   	"id_name": "CAN - COVID-19 Situational Awareness Dashboard (NML weekly testing)",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/NML_weekly_testing.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/NML_weekly_testing.csv",
   	"dir_parent": "can",
   	"dir_file": "nml-weekly-testing",
   	"file_name": "NML_weekly_testing",
@@ -281,7 +306,8 @@
   },
     {
   	"id_name": "CAN - COVID-19 Situational Awareness Dashboard (Number of cases with detailed case report data)",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-nTotal.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-nTotal.csv",
   	"dir_parent": "can",
   	"dir_file": "detailed-case-report-n",
   	"file_name": "covid19-nTotal",
@@ -292,7 +318,8 @@
   },
     {
   	"id_name": "CAN - COVID-19 Situational Awareness Dashboard (Cases and deaths by health region time series)",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/file_out_v5.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/file_out_v5.csv",
   	"dir_parent": "can",
   	"dir_file": "cases-and-deaths-by-hr-time-series",
   	"file_name": "file_out_v5",
@@ -303,7 +330,8 @@
   },
     {
   	"id_name": "CAN - COVID-19 Situational Awareness Dashboard (Health region UID table)",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-healthregions-hruid.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-healthregions-hruid.csv",
   	"dir_parent": "can",
   	"dir_file": "health-region-uid",
   	"file_name": "covid19-healthregions-hruid",
@@ -314,7 +342,8 @@
   },
     {
   	"id_name": "CAN - COVID-19 Situational Awareness Dashboard (Cases by exposure setting time series)",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesovertime.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesovertime.csv",
   	"dir_parent": "can",
   	"dir_file": "cases-by-exposure-time-series",
   	"file_name": "covid19-epiSummary-casesovertime",
@@ -325,7 +354,8 @@
   },
     {
   	"id_name": "CAN - COVID-19 Situational Awareness Dashboard (Epidemic curve by date of illness onset by age group)",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-epiCurveByAge.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-epiCurveByAge.csv",
   	"dir_parent": "can",
   	"dir_file": "epidemic-curve-by-age",
   	"file_name": "covid19-epiSummary-epiCurveByAge",
@@ -336,7 +366,8 @@
   },
     {
   	"id_name": "CAN - COVID-19 Situational Awareness Dashboard (Severity by age group and sex)",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-severityUpdate.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-severityUpdate.csv",
   	"dir_parent": "can",
   	"dir_file": "severity-by-age-and-sex",
   	"file_name": "covid19-epiSummary-severityUpdate",
@@ -347,7 +378,8 @@
   },
     {
   	"id_name": "CAN - COVID-19 Situational Awareness Dashboard (Cases by severity)",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-severity.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-severity.csv",
   	"dir_parent": "can",
   	"dir_file": "cases-by-severity",
   	"file_name": "covid19-epiSummary-severity",
@@ -358,7 +390,8 @@
   },
     {
   	"id_name": "CAN - COVID-19 Situational Awareness Dashboard (Cases by age group and sex)",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-agegroups2.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-agegroups2.csv",
   	"dir_parent": "can",
   	"dir_file": "cases-by-age-and-sex",
   	"file_name": "covid19-epiSummary-agegroups2",
@@ -369,7 +402,8 @@
   },
     {
   	"id_name": "CAN - COVID-19 Situational Awareness Dashboard (Cases by probable exposure setting)",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-probableexposure2.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-probableexposure2.csv",
   	"dir_parent": "can",
   	"dir_file": "cases-by-probable-exposure-setting",
   	"file_name": "covid19-epiSummary-probableexposure2",
@@ -380,7 +414,8 @@
   },
     {
   	"id_name": "CAN - COVID-19 Situational Awareness Dashboard (Symptoms summary)",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-symptoms.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-symptoms.csv",
   	"dir_parent": "can",
   	"dir_file": "symptoms-summary",
   	"file_name": "covid19-epiSummary-symptoms",
@@ -391,7 +426,8 @@
   },
     {
   	"id_name": "CAN - COVID-19 Situational Awareness Dashboard (Hospitalizations, intensive care unit (ICU), mechanical ventilation)",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-hospVentICU.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-hospVentICU.csv",
   	"dir_parent": "can",
   	"dir_file": "hospitalizations-icu-mechanical-ventilation",
   	"file_name": "covid19-epiSummary-hospVentICU",
@@ -402,7 +438,8 @@
   },
     {
   	"id_name": "CAN - COVID-19 Situational Awareness Dashboard (Situational awareness dashboard update time)",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-updateTime.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-updateTime.csv",
   	"dir_parent": "can",
   	"dir_file": "situational-awareness-dashboard-update-time",
   	"file_name": "covid19-updateTime",
@@ -413,7 +450,8 @@
   },
     {
   	"id_name": "CAN - COVIDTrends (Mobility)",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/mobility.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/mobility.csv",
   	"dir_parent": "can",
   	"dir_file": "covidtrends-mobility",
   	"file_name": "mobility",
@@ -425,7 +463,8 @@
   },
     {
   	"id_name": "CAN - COVIDTrends (FluWatchers)",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/fluwatchers.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/fluwatchers.csv",
   	"dir_parent": "can",
   	"dir_file": "covidtrends-fluwatchers",
   	"file_name": "fluwatchers",
@@ -437,7 +476,8 @@
   },
     {
   	"id_name": "CAN - Vaccines and treatments for COVID-19: Vaccine rollout",
-  	"url": "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks/covid-19-vaccine-treatment/vaccine-rollout.html",
+  	"active": "True",
+    "url": "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks/covid-19-vaccine-treatment/vaccine-rollout.html",
   	"dir_parent": "can",
   	"dir_file": "vaccine-rollout-webpage",
   	"file_name": "vaccine-rollout-webpage",
@@ -448,7 +488,8 @@
   },
     {
   	"id_name": "CAN - Vaccines administered: Vaccination administration",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-administration.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-administration.csv",
   	"dir_parent": "can",
   	"dir_file": "vaccination-administration",
   	"file_name": "vaccination-administration",
@@ -459,7 +500,8 @@
   },
     {
   	"id_name": "CAN - Vaccines administered: Vaccination administration update date",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-administration-updateDate.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-administration-updateDate.csv",
   	"dir_parent": "can",
   	"dir_file": "vaccination-administration-update-date",
   	"file_name": "vaccination-administration-updateDate",
@@ -470,7 +512,8 @@
   },
     {
   	"id_name": "CAN - Vaccines distributed: Vaccination distribution",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-distribution.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-distribution.csv",
   	"dir_parent": "can",
   	"dir_file": "vaccination-distribution",
   	"file_name": "vaccination-distribution",
@@ -481,7 +524,8 @@
   },
     {
   	"id_name": "CAN - Vaccination coverage: Vaccination coverage overall",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-overall.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-overall.csv",
   	"dir_parent": "can",
   	"dir_file": "vaccination-coverage-overall",
   	"file_name": "vaccination-coverage-overall",
@@ -492,7 +536,8 @@
   },
     {
   	"id_name": "CAN - Vaccination coverage: Vaccination coverage for key populations",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-keypops.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-keypops.csv",
   	"dir_parent": "can",
   	"dir_file": "vaccination-coverage-keypops",
   	"file_name": "vaccination-coverage-keypops",
@@ -503,7 +548,8 @@
   },
     {
   	"id_name": "CAN - Vaccination coverage: Vaccination coverage by age and sex",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-byAgeAndSex.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-byAgeAndSex.csv",
   	"dir_parent": "can",
   	"dir_file": "vaccination-coverage-by-age-sex",
   	"file_name": "vaccination-coverage-byAgeAndSex",
@@ -514,7 +560,8 @@
   },
     {
   	"id_name": "CAN - Vaccination coverage: Vaccination coverage by vaccine type",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-byVaccineType.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-byVaccineType.csv",
   	"dir_parent": "can",
   	"dir_file": "vaccination-coverage-by-vaccine-type",
   	"file_name": "vaccination-coverage-byVaccineType",
@@ -525,7 +572,8 @@
   },
     {
   	"id_name": "CAN - Vaccination coverage: Vaccination coverage by province",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-map.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-map.csv",
   	"dir_parent": "can",
   	"dir_file": "vaccination-coverage-by-prov",
   	"file_name": "vaccination-coverage-map",
@@ -536,7 +584,8 @@
   },
     {
   	"id_name": "CAN - COVID-19 vaccination in Canada: Technical notes (webpage)",
-  	"url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/technical-notes.html",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/technical-notes.html",
   	"dir_parent": "can",
   	"dir_file": "vaccination-technical-notes-webpage",
   	"file_name": "vaccination-technical-notes-webpage",
@@ -547,7 +596,8 @@
   },
     {
   	"id_name": "CAN - COVID 19 vaccination in Canada: Vaccination coverage data availability by week",
-  	"url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-dataAvailability.csv",
+  	"active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-dataAvailability.csv",
   	"dir_parent": "can",
   	"dir_file": "vaccination-coverage-data-availability-by-week",
   	"file_name": "vaccination-coverage-dataAvailability",
@@ -558,7 +608,8 @@
   },
     {
   	"id_name": "CAN - Detailed preliminary information on cases of COVID-19: 6 Dimensions (Aggregated data)",
-  	"url": "https://www150.statcan.gc.ca/n1/tbl/csv/13100774-eng.zip",
+  	"active": "True",
+    "url": "https://www150.statcan.gc.ca/n1/tbl/csv/13100774-eng.zip",
   	"dir_parent": "can",
   	"dir_file": "detailed-preliminary-case-info-aggregated-6-dimensions",
   	"file_name": "13100774",
@@ -570,7 +621,8 @@
   },
     {
   	"id_name": "CAN - Detailed preliminary information on cases of COVID-19: 4 Dimensions (Aggregated data)",
-  	"url": "https://www150.statcan.gc.ca/n1/tbl/csv/13100775-eng.zip",
+  	"active": "True",
+    "url": "https://www150.statcan.gc.ca/n1/tbl/csv/13100775-eng.zip",
   	"dir_parent": "can",
   	"dir_file": "detailed-preliminary-case-info-aggregated-4-dimensions",
   	"file_name": "13100775",
@@ -582,7 +634,8 @@
   },
     {
   	"id_name": "CAN - Preliminary dataset on confirmed cases of COVID-19, Public Health Agency of Canada",
-  	"url": "https://www150.statcan.gc.ca/n1/pub/13-26-0003/2020001/COVID19-eng.zip",
+  	"active": "True",
+    "url": "https://www150.statcan.gc.ca/n1/pub/13-26-0003/2020001/COVID19-eng.zip",
   	"dir_parent": "can",
   	"dir_file": "preliminary-dataset-on-confirmed-cases",
   	"file_name": "COVID19-eng",
@@ -594,7 +647,8 @@
   },
     {
   	"id_name": "MB - COVID 19 Updates",
-  	"url": "https://www.gov.mb.ca/covid19/updates/index.html",
+  	"active": "True",
+    "url": "https://www.gov.mb.ca/covid19/updates/index.html",
   	"dir_parent": "mb",
   	"dir_file": "manitoba-webpage",
   	"file_name": "manitoba-webpage",
@@ -605,7 +659,8 @@
   },
     {
   	"id_name": "MB - COVID-19 data by RHA and district",
-  	"url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_summary_stats_geography/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+  	"active": "True",
+    "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_summary_stats_geography/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
   	"dir_parent": "mb",
   	"dir_file": "covid-data-by-rha-and-district",
   	"file_name": "covid-data-by-rha-and-district",
@@ -617,7 +672,8 @@
   },
     {
   	"id_name": "MB - Cases by demographics and RHA",
-  	"url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_by_demographics_rha_all/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&groupByFieldsForStatistics=Age_Group%2CGender&orderByFields=Age_Group%20desc",
+  	"active": "True",
+    "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_by_demographics_rha_all/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&groupByFieldsForStatistics=Age_Group%2CGender&orderByFields=Age_Group%20desc",
   	"dir_parent": "mb",
   	"dir_file": "cases-demographics-by-rha",
   	"file_name": "cases-demographics-by-rha",
@@ -629,7 +685,8 @@
   },
     {
   	"id_name": "MB - Cases by status and RHA",
-  	"url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_by_status_daily_rha/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&groupByFieldsForStatistics=Date%2CRHA",
+  	"active": "True",
+    "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_by_status_daily_rha/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&groupByFieldsForStatistics=Date%2CRHA",
   	"dir_parent": "mb",
   	"dir_file": "cases-by-status-and-rha",
   	"file_name": "ases-by-status-and-rha",
@@ -641,7 +698,8 @@
   },
     {
   	"id_name": "MB - Manitoba five-day test positivity rate",
-  	"url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_5_day_positivity_rate/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Date%20asc",
+  	"active": "True",
+    "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_5_day_positivity_rate/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Date%20asc",
   	"dir_parent": "mb",
   	"dir_file": "five-day-test-positivity",
   	"file_name": "five-day-test-positivity",
@@ -653,7 +711,8 @@
   },
     {
   	"id_name": "NT - GNWT's Response to COVID-19 (webpage)",
-  	"url": "https://www.gov.nt.ca/covid-19/",
+  	"active": "True",
+    "url": "https://www.gov.nt.ca/covid-19/",
   	"dir_parent": "nt",
   	"dir_file": "nwt-webpage",
   	"file_name": "nwt-webpage",
@@ -664,7 +723,8 @@
   },
     {
   	"id_name": "NU - COVID-19 (Novel Coronavirus) (webpage)",
-  	"url": "https://gov.nu.ca/health/information/covid-19-novel-coronavirus",
+  	"active": "True",
+    "url": "https://gov.nu.ca/health/information/covid-19-novel-coronavirus",
   	"dir_parent": "nu",
   	"dir_file": "nunavut-webpage",
   	"file_name": "nunavut-webpage",
@@ -675,7 +735,8 @@
   },
     {
   	"id_name": "NS - Nova Scotia (COVID-19): cases (webpage)",
-  	"url": "https://novascotia.ca/coronavirus/data/",
+  	"active": "True",
+    "url": "https://novascotia.ca/coronavirus/data/",
   	"dir_parent": "ns",
   	"dir_file": "ns-webpage",
   	"file_name": "ns-webpage",
@@ -686,7 +747,8 @@
   },
     {
   	"id_name": "NS - Coronavirus (COVID-19): case data",
-  	"url": "https://novascotia.ca/coronavirus/data/ns-covid19-data.csv",
+  	"active": "True",
+    "url": "https://novascotia.ca/coronavirus/data/ns-covid19-data.csv",
   	"dir_parent": "ns",
   	"dir_file": "case-data",
   	"file_name": "ns-covid19-data",
@@ -698,7 +760,8 @@
   },
     {
   	"id_name": "NS - Nova Scotia COVID-19 Dashboard: Cases by zone",
-  	"url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Zones_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=date%20asc",
+  	"active": "True",
+    "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Zones_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=date%20asc",
   	"dir_parent": "ns",
   	"dir_file": "cases-by-zone",
   	"file_name": "cases-by-zone",
@@ -709,7 +772,8 @@
   },
     {
   	"id_name": "NS - Nova Scotia COVID-19 Dashboard: Zone summary",
-  	"url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/BND_NSH_MZones_V4_Join_PROD/FeatureServer/1/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*'",
+  	"active": "True",
+    "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/BND_NSH_MZones_V4_Join_PROD/FeatureServer/1/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*'",
   	"dir_parent": "ns",
   	"dir_file": "zone-summary",
   	"file_name": "zone-summary",
@@ -720,7 +784,8 @@
   },
     {
   	"id_name": "NS - Nova Scotia COVID-19 Dashboard: Zone summary cases",
-  	"url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Zones_MaxDate_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+  	"active": "True",
+    "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Zones_MaxDate_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
   	"dir_parent": "ns",
   	"dir_file": "zone-summary-cases",
   	"file_name": "zone-summary-cases",
@@ -731,7 +796,8 @@
   },
     {
   	"id_name": "NS - Nova Scotia COVID-19 Dashboard: Community health network summary cases",
-  	"url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/BND_NS_CommunityHealthNetworks_Join_PROD/FeatureServer/1/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+  	"active": "True",
+    "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/BND_NS_CommunityHealthNetworks_Join_PROD/FeatureServer/1/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
   	"dir_parent": "ns",
   	"dir_file": "chn-summary-cases",
   	"file_name": "chn-summary-cases",
@@ -742,7 +808,8 @@
   },
     {
   	"id_name": "NS - Nova Scotia COVID-19 Dashboard: Serious outcomes",
-  	"url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Serious_Outcomes_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+  	"active": "True",
+    "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Serious_Outcomes_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
   	"dir_parent": "ns",
   	"dir_file": "serious-outcomes",
   	"file_name": "serious-outcomes",
@@ -753,7 +820,8 @@
   },
     {
   	"id_name": "NS - Nova Scotia COVID-19 Dashboard: Lab testing",
-  	"url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Lab_Testing_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=tests_date%20asc",
+  	"active": "True",
+    "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Lab_Testing_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=tests_date%20asc",
   	"dir_parent": "ns",
   	"dir_file": "lab-testing",
   	"file_name": "lab-testing",
@@ -764,7 +832,8 @@
   },
     {
   	"id_name": "NS - Nova Scotia COVID-19 Dashboard: Lab testing, hospitalization, ICU summary",
-  	"url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Lab_Testing_MaxDate_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+  	"active": "True",
+    "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Lab_Testing_MaxDate_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
   	"dir_parent": "ns",
   	"dir_file": "lab-testing-hos-icu-summary",
   	"file_name": "lab-testing-hos-icu-summary",
@@ -775,7 +844,8 @@
   },
     {
   	"id_name": "NS - Nova Scotia COVID-19 Dashboard: Demographics summary",
-  	"url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Demographics_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+  	"active": "True",
+    "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Demographics_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
   	"dir_parent": "ns",
   	"dir_file": "demographics-summary",
   	"file_name": "demographics-summary",
@@ -786,7 +856,8 @@
   },
     {
   	"id_name": "NS - Nova Scotia COVID-19 Dashboard: Immunizations",
-  	"url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Immunizations_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+  	"active": "True",
+    "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Immunizations_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
   	"dir_parent": "ns",
   	"dir_file": "immunizations",
   	"file_name": "immunizations",
@@ -797,7 +868,8 @@
   },
     {
   	"id_name": "NS - Nova Scotia COVID-19 Dashboard: Health boundaries",
-  	"url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Health_Boundaries_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+  	"active": "True",
+    "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Health_Boundaries_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
   	"dir_parent": "ns",
   	"dir_file": "health-boundaries",
   	"file_name": "health-boundaries",
@@ -808,7 +880,8 @@
   },
     {
   	"id_name": "ON - How Ontario is responding to COVID-19 (webpage)",
-  	"url": "https://www.ontario.ca/page/how-ontario-is-responding-covid-19",
+  	"active": "True",
+    "url": "https://www.ontario.ca/page/how-ontario-is-responding-covid-19",
   	"dir_parent": "on",
   	"dir_file": "ontario-webpage",
   	"file_name": "ontario-webpage",
@@ -821,7 +894,8 @@
   },
     {
   	"id_name": "ON - Confirmed positive cases of COVID19 in Ontario",
-  	"url": "https://data.ontario.ca/dataset/f4112442-bdc8-45d2-be3c-12efae72fb27/resource/455fd63b-603d-4608-8216-7d8647f43350/download/conposcovidloc.csv",
+  	"active": "True",
+    "url": "https://data.ontario.ca/dataset/f4112442-bdc8-45d2-be3c-12efae72fb27/resource/455fd63b-603d-4608-8216-7d8647f43350/download/conposcovidloc.csv",
   	"dir_parent": "on",
   	"dir_file": "confirmed-positive-cases",
   	"file_name": "conposcovidloc",
@@ -832,7 +906,8 @@
   },
     {
   	"id_name": "ON - Status of COVID-19 cases in Ontario",
-  	"url": "https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/ed270bb8-340b-41f9-a7c6-e8ef587e6d11/download/covidtesting.csv",
+  	"active": "True",
+    "url": "https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/ed270bb8-340b-41f9-a7c6-e8ef587e6d11/download/covidtesting.csv",
   	"dir_parent": "on",
   	"dir_file": "status-of-cases",
   	"file_name": "covidtesting",
@@ -843,7 +918,8 @@
   },
     {
   	"id_name": "ON - Status of COVID-19 cases in Ontario by Public Health Unit (PHU)",
-  	"url": "https://data.ontario.ca/dataset/1115d5fe-dd84-4c69-b5ed-05bf0c0a0ff9/resource/d1bfe1ad-6575-4352-8302-09ca81f7ddfc/download/cases_by_status_and_phu.csv",
+  	"active": "True",
+    "url": "https://data.ontario.ca/dataset/1115d5fe-dd84-4c69-b5ed-05bf0c0a0ff9/resource/d1bfe1ad-6575-4352-8302-09ca81f7ddfc/download/cases_by_status_and_phu.csv",
   	"dir_parent": "on",
   	"dir_file": "status-of-cases-by-phu",
   	"file_name": "cases_by_status_and_phu",
@@ -854,7 +930,8 @@
   },
     {
   	"id_name": "ON - Ontario COVID-19 testing metrics by Public Health Unit (PHU)",
-  	"url": "https://data.ontario.ca/dataset/a2dfa674-a173-45b3-9964-1e3d2130b40f/resource/07bc0e21-26b5-4152-b609-c1958cb7b227/download/testing_metrics_by_phu.csv",
+  	"active": "True",
+    "url": "https://data.ontario.ca/dataset/a2dfa674-a173-45b3-9964-1e3d2130b40f/resource/07bc0e21-26b5-4152-b609-c1958cb7b227/download/testing_metrics_by_phu.csv",
   	"dir_parent": "on",
   	"dir_file": "testing-metrics-by-phu",
   	"file_name": "testing_metrics_by_phu",
@@ -865,7 +942,8 @@
   },
     {
   	"id_name": "ON - Ontario COVID-19 testing percent positive by age group",
-  	"url": "https://data.ontario.ca/dataset/ab5f4a2b-7219-4dc7-9e4d-aa4036c5bf36/resource/05214a0d-d8d9-4ea4-8d2a-f6e3833ba471/download/percent_positive_by_agegrp.csv",
+  	"active": "True",
+    "url": "https://data.ontario.ca/dataset/ab5f4a2b-7219-4dc7-9e4d-aa4036c5bf36/resource/05214a0d-d8d9-4ea4-8d2a-f6e3833ba471/download/percent_positive_by_agegrp.csv",
   	"dir_parent": "on",
   	"dir_file": "percent-positive-by-age-group",
   	"file_name": "percent_positive_by_agegrp",
@@ -876,7 +954,8 @@
   },
     {
   	"id_name": "ON - COVID-19 hospital metrics in Ontario by Local Health Integration Network (LHIN) regions",
-  	"url": "https://data.ontario.ca/dataset/8f3a449b-bde5-4631-ada6-8bd94dbc7d15/resource/e760480e-1f95-4634-a923-98161cfb02fa/download/lhin_hospital_icu_covid_data.csv",
+  	"active": "True",
+    "url": "https://data.ontario.ca/dataset/8f3a449b-bde5-4631-ada6-8bd94dbc7d15/resource/e760480e-1f95-4634-a923-98161cfb02fa/download/lhin_hospital_icu_covid_data.csv",
   	"dir_parent": "on",
   	"dir_file": "hosp-icu-by-lhin",
   	"file_name": "lhin_hospital_icu_covid_data",
@@ -887,7 +966,8 @@
   },
     {
   	"id_name": "ON - Effective reproduction number (Re) for COVID-19 in Ontario",
-  	"url": "https://data.ontario.ca/dataset/8da73272-8078-4cbd-ae35-1b5c60c57796/resource/1ffdf824-2712-4f64-b7fc-f8b2509f9204/download/effective_reproduction_number_ontario.csv",
+  	"active": "True",
+    "url": "https://data.ontario.ca/dataset/8da73272-8078-4cbd-ae35-1b5c60c57796/resource/1ffdf824-2712-4f64-b7fc-f8b2509f9204/download/effective_reproduction_number_ontario.csv",
   	"dir_parent": "on",
   	"dir_file": "effective-reproduction-number",
   	"file_name": "effective_reproduction_number_ontario",
@@ -898,7 +978,8 @@
   },
     {
   	"id_name": "ON - COVID Alert Impact Data (COVID Alert downloads - Canada)",
-  	"url": "https://data.ontario.ca/dataset/06a61019-62c1-48d8-8d4d-2267ae0f1144/resource/37cfeca2-059e-4a5f-a228-249f6ab1b771/download/covid_alert_downloads_canada.csv",
+  	"active": "True",
+    "url": "https://data.ontario.ca/dataset/06a61019-62c1-48d8-8d4d-2267ae0f1144/resource/37cfeca2-059e-4a5f-a228-249f6ab1b771/download/covid_alert_downloads_canada.csv",
   	"dir_parent": "on",
   	"dir_file": "covid_alert_downloads_canada",
   	"file_name": "covid_alert_downloads_canada",
@@ -909,7 +990,8 @@
   },
     {
   	"id_name": "ON - COVID Alert Impact Data (Uploads of COVID-19 diagnosis to COVID Alert - Ontario)",
-  	"url": "https://data.ontario.ca/dataset/06a61019-62c1-48d8-8d4d-2267ae0f1144/resource/b792e734-9c69-47d5-8451-40fc85c2f3c6/download/covid_alert_positive_uploads_ontario.csv",
+  	"active": "True",
+    "url": "https://data.ontario.ca/dataset/06a61019-62c1-48d8-8d4d-2267ae0f1144/resource/b792e734-9c69-47d5-8451-40fc85c2f3c6/download/covid_alert_positive_uploads_ontario.csv",
   	"dir_parent": "on",
   	"dir_file": "covid-alert-uploads-ontario",
   	"file_name": "covid_alert_positive_uploads_ontario",
@@ -920,7 +1002,8 @@
   },
     {
   	"id_name": "ON - COVID-19 testing locations",
-  	"url": "https://covid-19.ontario.ca/covid-19-ac-assets/data/locations.json",
+  	"active": "True",
+    "url": "https://covid-19.ontario.ca/covid-19-ac-assets/data/locations.json",
   	"dir_parent": "on",
   	"dir_file": "testing-locations",
   	"file_name": "locations",
@@ -931,7 +1014,8 @@
   },
     {
   	"id_name": "ON - Ongoing outbreaks",
-  	"url": "https://data.ontario.ca/dataset/5472ffc1-88e2-48ca-bc9f-4aa249c1298d/resource/66d15cce-bfee-4f91-9e6e-0ea79ec52b3d/download/ongoing_outbreaks.csv",
+  	"active": "True",
+    "url": "https://data.ontario.ca/dataset/5472ffc1-88e2-48ca-bc9f-4aa249c1298d/resource/66d15cce-bfee-4f91-9e6e-0ea79ec52b3d/download/ongoing_outbreaks.csv",
   	"dir_parent": "on",
   	"dir_file": "ongoing-outbreaks",
   	"file_name": "ongoing_outbreaks",
@@ -942,7 +1026,8 @@
   },
     {
   	"id_name": "ON - Summary of cases associated with outbreaks",
-  	"url": "https://data.ontario.ca/dataset/5472ffc1-88e2-48ca-bc9f-4aa249c1298d/resource/d5d8f478-765c-4246-b8a7-c3b13a4a1a41/download/outbreak_cases.csv",
+  	"active": "True",
+    "url": "https://data.ontario.ca/dataset/5472ffc1-88e2-48ca-bc9f-4aa249c1298d/resource/d5d8f478-765c-4246-b8a7-c3b13a4a1a41/download/outbreak_cases.csv",
   	"dir_parent": "on",
   	"dir_file": "summary-outbreak-cases",
   	"file_name": "outbreak_cases",
@@ -953,7 +1038,8 @@
   },
     {
   	"id_name": "ON - Testing of inmates in provincial correctional institutions",
-  	"url": "https://data.ontario.ca/dataset/c4022f0f-6f3d-4e16-bd28-5312333a4bac/resource/d0d6ccc7-fc60-4a18-ac96-7f9493e9f10e/download/inmatetesting.csv",
+  	"active": "True",
+    "url": "https://data.ontario.ca/dataset/c4022f0f-6f3d-4e16-bd28-5312333a4bac/resource/d0d6ccc7-fc60-4a18-ac96-7f9493e9f10e/download/inmatetesting.csv",
   	"dir_parent": "on",
   	"dir_file": "correctional-institutions-inmates-testing",
   	"file_name": "inmatetesting",
@@ -964,7 +1050,8 @@
   },
     {
   	"id_name": "ON - Status of cases in provincial correctional institutions",
-  	"url": "https://data.ontario.ca/dataset/ecb75ea0-8b72-4f46-a14a-9bd54841d6ab/resource/1f95eda9-53b5-448e-abe0-afc0b71581ed/download/correctionsinmatecases.csv",
+  	"active": "True",
+    "url": "https://data.ontario.ca/dataset/ecb75ea0-8b72-4f46-a14a-9bd54841d6ab/resource/1f95eda9-53b5-448e-abe0-afc0b71581ed/download/correctionsinmatecases.csv",
   	"dir_parent": "on",
   	"dir_file": "correctional-institutions-status",
   	"file_name": "correctionsinmatecases",
@@ -975,7 +1062,8 @@
   },
     {
   	"id_name": "ON - Long term care homes: Summary data",
-  	"url": "https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/resource/0f8b343e-fc28-4ca5-9aab-c3a1d2c919f1/download/ltccovidsummary.csv",
+  	"active": "True",
+    "url": "https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/resource/0f8b343e-fc28-4ca5-9aab-c3a1d2c919f1/download/ltccovidsummary.csv",
   	"dir_parent": "on",
   	"dir_file": "long-term-care-home-summary",
   	"file_name": "ltccovidsummary",
@@ -986,7 +1074,8 @@
   },
     {
   	"id_name": "ON - Long term care homes: Active outbreaks",
-  	"url": "https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/resource/4b64488a-0523-4ebb-811a-fac2f07e6d59/download/activeltcoutbreak.csv",
+  	"active": "True",
+    "url": "https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/resource/4b64488a-0523-4ebb-811a-fac2f07e6d59/download/activeltcoutbreak.csv",
   	"dir_parent": "on",
   	"dir_file": "long-term-care-home-active",
   	"file_name": "activeltcoutbreak",
@@ -997,7 +1086,8 @@
   },
     {
   	"id_name": "ON - Long term care homes: Resolved outbreaks",
-  	"url": "https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/resource/0cf2f01e-d4e1-48ed-8027-2133d059ec8b/download/resolvedltc.csv",
+  	"active": "True",
+    "url": "https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/resource/0cf2f01e-d4e1-48ed-8027-2133d059ec8b/download/resolvedltc.csv",
   	"dir_parent": "on",
   	"dir_file": "long-term-care-home-resolved",
   	"file_name": "resolvedltc",
@@ -1008,7 +1098,8 @@
   },
     {
   	"id_name": "ON - Cases in schools and childcare centres (webpage)",
-  	"url": "https://www.ontario.ca/page/covid-19-cases-schools-and-child-care-centres",
+  	"active": "True",
+    "url": "https://www.ontario.ca/page/covid-19-cases-schools-and-child-care-centres",
   	"dir_parent": "on",
   	"dir_file": "cases-schools-and-child-care-centres-webpage",
   	"file_name": "cases-schools-and-child-care-centres-webpage",
@@ -1021,7 +1112,8 @@
   },
     {
   	"id_name": "ON - Schools: Summary of cases in schools",
-  	"url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/7fbdbb48-d074-45d9-93cb-f7de58950418/download/schoolcovidsummary.csv",
+  	"active": "True",
+    "url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/7fbdbb48-d074-45d9-93cb-f7de58950418/download/schoolcovidsummary.csv",
   	"dir_parent": "on",
   	"dir_file": "schools-summary",
   	"file_name": "schoolcovidsummary",
@@ -1032,7 +1124,8 @@
   },
     {
   	"id_name": "ON - Schools: Schools with active COVID-19 cases",
-  	"url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/8b6d22e2-7065-4b0f-966f-02640be366f2/download/schoolsactivecovid.csv",
+  	"active": "True",
+    "url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/8b6d22e2-7065-4b0f-966f-02640be366f2/download/schoolsactivecovid.csv",
   	"dir_parent": "on",
   	"dir_file": "schools-active",
   	"file_name": "schoolsactivecovid",
@@ -1043,7 +1136,8 @@
   },
     {
   	"id_name": "ON - Schools: Cases in school board partners",
-  	"url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/245479eb-db0a-4ec4-97af-459d61da0801/download/schoolpartnersactivecovid.csv",
+  	"active": "True",
+    "url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/245479eb-db0a-4ec4-97af-459d61da0801/download/schoolpartnersactivecovid.csv",
   	"dir_parent": "on",
   	"dir_file": "school-board-partners",
   	"file_name": "schoolpartnersactivecovid",
@@ -1054,7 +1148,8 @@
   },
     {
   	"id_name": "ON - Licensed child care settings: Summary of cases in licensed child care settings",
-  	"url": "https://data.ontario.ca/dataset/5bf54477-6147-413f-bab0-312f06fcb388/resource/74f9ac9f-7ca8-4860-b2c3-189a2c25e30c/download/lccovidsummary.csv",
+  	"active": "True",
+    "url": "https://data.ontario.ca/dataset/5bf54477-6147-413f-bab0-312f06fcb388/resource/74f9ac9f-7ca8-4860-b2c3-189a2c25e30c/download/lccovidsummary.csv",
   	"dir_parent": "on",
   	"dir_file": "licensed-child-care-settings-summary",
   	"file_name": "lccovidsummary",
@@ -1065,7 +1160,8 @@
   },
     {
   	"id_name": "ON - Licensed child care settings: Licensed child care centres and agencies with active COVID-19 cases",
-  	"url": "https://data.ontario.ca/dataset/5bf54477-6147-413f-bab0-312f06fcb388/resource/eee282d3-01e6-43ac-9159-4ba694757aea/download/lccactivecovid.csv",
+  	"active": "True",
+    "url": "https://data.ontario.ca/dataset/5bf54477-6147-413f-bab0-312f06fcb388/resource/eee282d3-01e6-43ac-9159-4ba694757aea/download/lccactivecovid.csv",
   	"dir_parent": "on",
   	"dir_file": "licensed-child-care-settings-active",
   	"file_name": "lccactivecovid",
@@ -1076,7 +1172,8 @@
   },
     {
   	"id_name": "ON - City of Toronto Daily Status of COVID-19 Cases",
-  	"url": "https://docs.google.com/spreadsheets/d/11KF1DuN5tntugNc10ogQDzFnW05ruzLH/export?format=xlsx&id=11KF1DuN5tntugNc10ogQDzFnW05ruzLH",
+  	"active": "True",
+    "url": "https://docs.google.com/spreadsheets/d/11KF1DuN5tntugNc10ogQDzFnW05ruzLH/export?format=xlsx&id=11KF1DuN5tntugNc10ogQDzFnW05ruzLH",
   	"dir_parent": "on",
   	"dir_file": "toronto-daily-status",
   	"file_name": "CityofToronto_COVID-19_Daily_Public_Reporting",
@@ -1087,7 +1184,8 @@
   },
     {
   	"id_name": "ON - City of Toronto COVID-19 Summary",
-  	"url": "https://docs.google.com/spreadsheets/d/1euhrML0rkV_hHF1thiA0G5vSSeZCqxHY/export?format=xlsx&id=1euhrML0rkV_hHF1thiA0G5vSSeZCqxHY",
+  	"active": "True",
+    "url": "https://docs.google.com/spreadsheets/d/1euhrML0rkV_hHF1thiA0G5vSSeZCqxHY/export?format=xlsx&id=1euhrML0rkV_hHF1thiA0G5vSSeZCqxHY",
   	"dir_parent": "on",
   	"dir_file": "toronto-covid-summary",
   	"file_name": "CityofToronto_COVID-19_Data",
@@ -1098,7 +1196,8 @@
   },
     {
   	"id_name": "ON - City of Toronto COVID-19 Neighbourhood Case Data",
-  	"url": "https://docs.google.com/spreadsheets/d/1jzH64LvFQ-UsDibXO0MOtvjbL2CvnV3N/export?format=xlsx&id=1jzH64LvFQ-UsDibXO0MOtvjbL2CvnV3N",
+  	"active": "True",
+    "url": "https://docs.google.com/spreadsheets/d/1jzH64LvFQ-UsDibXO0MOtvjbL2CvnV3N/export?format=xlsx&id=1jzH64LvFQ-UsDibXO0MOtvjbL2CvnV3N",
   	"dir_parent": "on",
   	"dir_file": "toronto-neighbourhood-data",
   	"file_name": "CityofToronto_COVID-19_NeighbourhoodData",
@@ -1109,7 +1208,8 @@
   },
     {
   	"id_name": "ON - City of Toronto COVID-19 Neighbourhood Testing Data",
-  	"url": "https://docs.google.com/spreadsheets/d/1xI6ckKQIOt_RNCuI0HXs7WJsgqFP015c/export?format=xlsx&id=1xI6ckKQIOt_RNCuI0HXs7WJsgqFP015c",
+  	"active": "True",
+    "url": "https://docs.google.com/spreadsheets/d/1xI6ckKQIOt_RNCuI0HXs7WJsgqFP015c/export?format=xlsx&id=1xI6ckKQIOt_RNCuI0HXs7WJsgqFP015c",
   	"dir_parent": "on",
   	"dir_file": "toronto-neighbourhood-test-data",
   	"file_name": "CityofToronto_COVID-19_Testing",
@@ -1120,7 +1220,8 @@
   },
     {
   	"id_name": "ON - City of Toronto COVID-19 Monitoring Dashboard",
-  	"url": "https://docs.google.com/spreadsheets/d/1-7j48S_KQY-I-4Qu3N3lsEOALXON2StG/export?format=xlsx&id=1-7j48S_KQY-I-4Qu3N3lsEOALXON2StG",
+  	"active": "True",
+    "url": "https://docs.google.com/spreadsheets/d/1-7j48S_KQY-I-4Qu3N3lsEOALXON2StG/export?format=xlsx&id=1-7j48S_KQY-I-4Qu3N3lsEOALXON2StG",
   	"dir_parent": "on",
   	"dir_file": "toronto-monitoring-dashboard",
   	"file_name": "CityofToronto_COVID-19_RecoveryData",
@@ -1131,7 +1232,8 @@
   },
     {
   	"id_name": "ON - City of Toronto COVID-19 Outbreak Data",
-  	"url": "https://docs.google.com/spreadsheets/d/1pYoXchhmnpiOrFBY7WP9rxGRJNgnerMN/export?format=xlsx&id=1pYoXchhmnpiOrFBY7WP9rxGRJNgnerMN",
+  	"active": "True",
+    "url": "https://docs.google.com/spreadsheets/d/1pYoXchhmnpiOrFBY7WP9rxGRJNgnerMN/export?format=xlsx&id=1pYoXchhmnpiOrFBY7WP9rxGRJNgnerMN",
   	"dir_parent": "on",
   	"dir_file": "toronto-active-outbreaks",
   	"file_name": "CityofToronto_COVID-19_OutbreakData",
@@ -1142,7 +1244,8 @@
   },
     {
   	"id_name": "ON - COVID-19 Cases in Toronto",
-  	"url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/download_resource/e5bf35bc-e681-43da-b2ce-0242d00922ad?format=csv",
+  	"active": "True",
+    "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/download_resource/e5bf35bc-e681-43da-b2ce-0242d00922ad?format=csv",
   	"dir_parent": "on",
   	"dir_file": "toronto-cases",
   	"file_name": "COVID19_cases",
@@ -1154,7 +1257,8 @@
   },
     {
   	"id_name": "ON - University of Toronto COVID-19 tracking (webpage)",
-  	"url": "https://www.utoronto.ca/utogether2020/covid19-dashboard",
+  	"active": "True",
+    "url": "https://www.utoronto.ca/utogether2020/covid19-dashboard",
   	"dir_parent": "on",
   	"dir_file": "u-of-t-covid-tracking-webpage",
   	"file_name": "u-of-t-covid-tracking-webpage",
@@ -1165,7 +1269,8 @@
   },
     {
   	"id_name": "ON - Ottawa Demographics and Source of Infection for Cases, Deaths, and Hospitalizations",
-  	"url": "https://www.arcgis.com/sharing/rest/content/items/6bfe7832017546e5b30c5cc6a201091b/data",
+  	"active": "True",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/6bfe7832017546e5b30c5cc6a201091b/data",
   	"dir_parent": "on",
   	"dir_file": "ottawa-cases-deaths-hosp-demographics-source-of-infection",
   	"file_name": "COVID-19_Cases_and_Deaths_Ottawa_EN",
@@ -1176,7 +1281,8 @@
   },
     {
   	"id_name": "ON - Ottawa Outbreaks in Healthcare Institutions, Childcare, Summer Camps, and Educational Establishments",
-  	"url": "https://www.arcgis.com/sharing/rest/content/items/5b24f70482fe4cf1824331d89483d3d3/data",
+  	"active": "True",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/5b24f70482fe4cf1824331d89483d3d3/data",
   	"dir_parent": "on",
   	"dir_file": "ottawa-outbreaks-healthcare-childcare-camps-schools",
   	"file_name": "COVID-19_Institutional_Outbreaks",
@@ -1187,7 +1293,8 @@
   },
     {
   	"id_name": "ON - Ottawa Community Outbreaks",
-  	"url": "https://opendata.arcgis.com/datasets/0df365456c254fbc942fe3d85c3dbf83_0.csv",
+  	"active": "True",
+    "url": "https://opendata.arcgis.com/datasets/0df365456c254fbc942fe3d85c3dbf83_0.csv",
   	"dir_parent": "on",
   	"dir_file": "ottawa-community-outbreaks",
   	"file_name": "COVID-19_Community_Outbreaks_in_Ottawa",
@@ -1198,7 +1305,8 @@
   },
     {
   	"id_name": "ON - Ottawa Weekly Rates",
-  	"url": "https://www.arcgis.com/sharing/rest/content/items/734a327141b14a55b666953c9141abf3/data",
+  	"active": "True",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/734a327141b14a55b666953c9141abf3/data",
   	"dir_parent": "on",
   	"dir_file": "ottawa-weekly-rates",
   	"file_name": "COVID-19_Weekly_Cases_and_Rates_by_Age_in_Ottawa_EN",
@@ -1209,7 +1317,8 @@
   },
     {
   	"id_name": "ON - Ottawa Estimated Reproduction Number in Ottawa",
-  	"url": "https://www.arcgis.com/sharing/rest/content/items/d010a848b6e54f4990d60a202f2f2f99/data",
+  	"active": "True",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/d010a848b6e54f4990d60a202f2f2f99/data",
   	"dir_parent": "on",
   	"dir_file": "ottawa-estimated-rt",
   	"file_name": "EN_-_Covid-19_Reproduction_Number,_R(t)",
@@ -1220,7 +1329,8 @@
   },
     {
   	"id_name": "ON - Ottawa Testing - Ottawa Residents",
-  	"url": "https://www.arcgis.com/sharing/rest/content/items/26c902bf1da44d3d90b099392b544b81/data",
+  	"active": "True",
+    "url": "https://www.arcgis.com/sharing/rest/content/items/26c902bf1da44d3d90b099392b544b81/data",
   	"dir_parent": "on",
   	"dir_file": "ottawa-residents-tested",
   	"file_name": "COVID-19_Ottawa_Residents_Tested_EN",
@@ -1231,7 +1341,8 @@
   },
     {
   	"id_name": "ON - COVID-19 Vaccine Data in Ontario",
-  	"url": "https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/8a89caa9-511c-4568-af89-7f2174b4378c/download/vaccine_doses.csv",
+  	"active": "True",
+    "url": "https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/8a89caa9-511c-4568-af89-7f2174b4378c/download/vaccine_doses.csv",
   	"dir_parent": "on",
   	"dir_file": "vaccine-data",
   	"file_name": "vaccine_doses",
@@ -1242,7 +1353,8 @@
   },
     {
   	"id_name": "PE - PEI COVID-19 Case Data",
-  	"url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/pei-covid-19-case-data",
+  	"active": "True",
+    "url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/pei-covid-19-case-data",
   	"dir_parent": "pe",
   	"dir_file": "pei-webpage",
   	"file_name": "pei-webpage",
@@ -1253,7 +1365,8 @@
   },
     {
   	"id_name": "QC - Données sur la COVID-19 au Québec (webpage FR)",
-  	"url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+  	"active": "True",
+    "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
   	"dir_parent": "qc",
   	"dir_file": "qc-webpage-fr",
   	"file_name": "qc-webpage-fr",
@@ -1264,7 +1377,8 @@
   },
     {
   	"id_name": "QC - Data on COVID-19 in Quebec (webpage EN)",
-  	"url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/",
+  	"active": "True",
+    "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/",
   	"dir_parent": "qc",
   	"dir_file": "qc-webpage-en",
   	"file_name": "qc-webpage-en",
@@ -1275,7 +1389,8 @@
   },
     {
   	"id_name": "QC - Dashboard of the COVID-19 situation in Quebec (FR)",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/20-210-382W_infographie_sommaire-executif.jpg",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/20-210-382W_infographie_sommaire-executif.jpg",
   	"dir_parent": "qc",
   	"dir_file": "qc-covid-dashboard",
   	"file_name": "20-210-382W_infographie_sommaire-executif",
@@ -1286,7 +1401,8 @@
   },
     {
   	"id_name": "QC - COVID-19 vaccination data (webpage FR)",
-  	"url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/donnees-sur-la-vaccination-covid-19/",
+  	"active": "True",
+    "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/donnees-sur-la-vaccination-covid-19/",
   	"dir_parent": "qc",
   	"dir_file": "qc-vaccination-webpage-fr",
   	"file_name": "qc-vaccination-webpage-fr",
@@ -1297,7 +1413,8 @@
   },
     {
   	"id_name": "QC - COVID-19 vaccination data (webpage EN)",
-  	"url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/covid-19-vaccination-data/",
+  	"active": "True",
+    "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/covid-19-vaccination-data/",
   	"dir_parent": "qc",
   	"dir_file": "qc-vaccination-webpage-en",
   	"file_name": "qc-vaccination-webpage-en",
@@ -1308,7 +1425,8 @@
   },
     {
   	"id_name": "QC - Situation in Quebec",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/situation-au-quebec.csv",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/situation-au-quebec.csv",
   	"dir_parent": "qc",
   	"dir_file": "situation-in-quebec",
   	"file_name": "situation-au-quebec",
@@ -1319,7 +1437,8 @@
   },
     {
   	"id_name": "QC - Correctional facilities - cases among employees (FR)",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/donnees-covid/donnees_covid_detention_employes_FR.csv",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/donnees-covid/donnees_covid_detention_employes_FR.csv",
   	"dir_parent": "qc",
   	"dir_file": "correctional-cases-employees",
   	"file_name": "donnees_covid_detention_employes_FR",
@@ -1330,7 +1449,8 @@
   },
     {
   	"id_name": "QC - Correctional facilities - cases among employees (EN)",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/donnees-covid/donnees_covid_detention_employes_EN.csv",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/donnees-covid/donnees_covid_detention_employes_EN.csv",
   	"dir_parent": "qc",
   	"dir_file": "correctional-cases-employees-en",
   	"file_name": "donnees_covid_detention_employes_EN",
@@ -1341,7 +1461,8 @@
   },
     {
   	"id_name": "QC - Correctional facilities - cases among detainees (FR)",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/donnees-covid/donnees_covid_detention_personnes_incarcerees_FR.csv",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/donnees-covid/donnees_covid_detention_personnes_incarcerees_FR.csv",
   	"dir_parent": "qc",
   	"dir_file": "correctional-cases-detainees",
   	"file_name": "donnees_covid_detention_personnes_incarcerees_FR",
@@ -1352,7 +1473,8 @@
   },
     {
   	"id_name": "QC - Correctional facilities - cases among detainees (EN)",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/donnees-covid/donnees_covid_detention_personnes_incarcerees_EN.csv",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/donnees-covid/donnees_covid_detention_personnes_incarcerees_EN.csv",
   	"dir_parent": "qc",
   	"dir_file": "correctional-cases-detainees-en",
   	"file_name": "donnees_covid_detention_personnes_incarcerees_EN",
@@ -1363,7 +1485,8 @@
   },
     {
   	"id_name": "QC - Vaccination situation (FR)",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/situation-vaccination.csv",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/situation-vaccination.csv",
   	"dir_parent": "qc",
   	"dir_file": "vaccination-situation",
   	"file_name": "situation-vaccination",
@@ -1374,7 +1497,8 @@
   },
     {
   	"id_name": "QC - Vaccination situation (EN)",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/situation-vaccination-en.csv",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/situation-vaccination-en.csv",
   	"dir_parent": "qc",
   	"dir_file": "vaccination-situation-en",
   	"file_name": "situation-vaccination-en",
@@ -1385,7 +1509,8 @@
   },
     {
   	"id_name": "QC - Vaccine doses administered by RSS (FR)",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/doses-vaccins.csv",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/doses-vaccins.csv",
   	"dir_parent": "qc",
   	"dir_file": "vaccine-doses-admin-by-rss",
   	"file_name": "doses-vaccins",
@@ -1396,7 +1521,8 @@
   },
     {
   	"id_name": "QC - Vaccine doses received (FR)",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/doses-vaccins-7jours.csv",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/doses-vaccins-7jours.csv",
   	"dir_parent": "qc",
   	"dir_file": "vaccine-doses-received-7-days",
   	"file_name": "doses-vaccins-7jours",
@@ -1407,7 +1533,8 @@
   },
     {
   	"id_name": "QC - Outbreaks by setting (FR)",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/eclosions-par-milieu.csv",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/eclosions-par-milieu.csv",
   	"dir_parent": "qc",
   	"dir_file": "outbreaks-by-setting",
   	"file_name": "eclosions-par-milieu",
@@ -1418,7 +1545,8 @@
   },
     {
   	"id_name": "QC - Outbreaks by setting (EN)",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/eclosions-par-milieu-en.csv",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/eclosions-par-milieu-en.csv",
   	"dir_parent": "qc",
   	"dir_file": "outbreaks-by-setting-en",
   	"file_name": "eclosions-par-milieu-en",
@@ -1429,7 +1557,8 @@
   },
     {
   	"id_name": "QC - Cases percentage by age group (FR)",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-cas-age.csv",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-cas-age.csv",
   	"dir_parent": "qc",
   	"dir_file": "cases-percentage-by-age-group",
   	"file_name": "pourcentage-cas-age",
@@ -1440,7 +1569,8 @@
   },
     {
   	"id_name": "QC - Cases percentage by age group (EN)",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-cas-age-en.csv",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-cas-age-en.csv",
   	"dir_parent": "qc",
   	"dir_file": "cases-percentage-by-age-group-en",
   	"file_name": "pourcentage-cas-age-en",
@@ -1451,7 +1581,8 @@
   },
     {
   	"id_name": "QC - Deaths percentage by age group (FR)",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-deces-age.csv",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-deces-age.csv",
   	"dir_parent": "qc",
   	"dir_file": "deaths-percentage-by-age-group",
   	"file_name": "pourcentage-deces-age",
@@ -1462,7 +1593,8 @@
   },
     {
   	"id_name": "QC - Deaths percentage by age group (EN)",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-deces-age-en.csv",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-deces-age-en.csv",
   	"dir_parent": "qc",
   	"dir_file": "deaths-percentage-by-age-group-en",
   	"file_name": "pourcentage-deces-age-en",
@@ -1473,7 +1605,8 @@
   },
     {
   	"id_name": "QC - Cumulative deaths by region (FR)",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/deces-region.csv",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/deces-region.csv",
   	"dir_parent": "qc",
   	"dir_file": "cumulative-deaths-by-region",
   	"file_name": "deces-region",
@@ -1484,7 +1617,8 @@
   },
     {
   	"id_name": "QC - Cumulative deaths by region (EN)",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/deces-region-en.csv",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/deces-region-en.csv",
   	"dir_parent": "qc",
   	"dir_file": "cumulative-deaths-by-region-en",
   	"file_name": "deces-region-en",
@@ -1495,7 +1629,8 @@
   },
     {
   	"id_name": "QC - Recent daily cases by region (FR)",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/cas-region.csv",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/cas-region.csv",
   	"dir_parent": "qc",
   	"dir_file": "recent-daily-cases-by-region",
   	"file_name": "cas-region",
@@ -1506,7 +1641,8 @@
   },
     {
   	"id_name": "QC - Recent daily cases by region (EN)",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/cas-region-en.csv",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/cas-region-en.csv",
   	"dir_parent": "qc",
   	"dir_file": "recent-daily-cases-by-region-en",
   	"file_name": "cas-region-en",
@@ -1517,7 +1653,8 @@
   },
     {
   	"id_name": "QC - COVID-19 daily data 7 days (FR)",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/synthese-7jours.csv",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/synthese-7jours.csv",
   	"dir_parent": "qc",
   	"dir_file": "covid-data-daily-7-days",
   	"file_name": "synthese-7jours",
@@ -1528,7 +1665,8 @@
   },
     {
   	"id_name": "QC - COVID-19 daily data 7 days (EN)",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/synthese-7jours-en.csv",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/synthese-7jours-en.csv",
   	"dir_parent": "qc",
   	"dir_file": "covid-data-daily-7-days-en",
   	"file_name": "synthese-7jours-en",
@@ -1539,7 +1677,8 @@
   },
     {
   	"id_name": "QC - Cases by region 7 days (FR)",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/apercu/cas-region-7jours.csv",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/apercu/cas-region-7jours.csv",
   	"dir_parent": "qc",
   	"dir_file": "cases-by-region-7-days",
   	"file_name": "cas-region-7jours",
@@ -1550,7 +1689,8 @@
   },
     {
   	"id_name": "QC - Cases by region 7 days (EN)",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/cas-region-7jours-en.csv",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/cas-region-7jours-en.csv",
   	"dir_parent": "qc",
   	"dir_file": "cases-by-region-7-days-en",
   	"file_name": "cas-region-7jours-en",
@@ -1561,7 +1701,8 @@
   },
     {
   	"id_name": "QC - COVID-19 time series by region and demographics",
-  	"url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/covid19-hist.csv",
+  	"active": "True",
+    "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/covid19-hist.csv",
   	"dir_parent": "qc",
   	"dir_file": "covid-time-series-by-region-and-demographics",
   	"file_name": "covid19-hist",
@@ -1572,7 +1713,8 @@
   },
     {
   	"id_name": "QC - COVID-19 data (charts - summary, time series, and hospitalization by age)",
-  	"url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/manual-data.csv",
+  	"active": "True",
+    "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/manual-data.csv",
   	"dir_parent": "qc",
   	"dir_file": "covid-data-charts-summary-time-series-hosp-by-age",
   	"file_name": "manual-data",
@@ -1583,7 +1725,8 @@
   },
     {
   	"id_name": "QC - Summary by region",
-  	"url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/regions.csv",
+  	"active": "True",
+    "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/regions.csv",
   	"dir_parent": "qc",
   	"dir_file": "summary-by-region",
   	"file_name": "regions",
@@ -1594,7 +1737,8 @@
   },
     {
   	"id_name": "QC - Deaths by RSS (health region) and living environment",
-  	"url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/tableau-rpa-new.csv",
+  	"active": "True",
+    "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/tableau-rpa-new.csv",
   	"dir_parent": "qc",
   	"dir_file": "deaths-by-rss-and-living-environment",
   	"file_name": "tableau-rpa-new",
@@ -1605,7 +1749,8 @@
   },
     {
   	"id_name": "QC - Cases by RSS (health region) and RLS (local service network)",
-  	"url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/tableau-rls-new.csv",
+  	"active": "True",
+    "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/tableau-rls-new.csv",
   	"dir_parent": "qc",
   	"dir_file": "cases-by-rss-and-rls",
   	"file_name": "tableau-rls-new",
@@ -1616,7 +1761,8 @@
   },
     {
   	"id_name": "QC - Comparisons (provinces)",
-  	"url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/comparaisons_prov.csv",
+  	"active": "True",
+    "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/comparaisons_prov.csv",
   	"dir_parent": "qc",
   	"dir_file": "comparisons-provinces",
   	"file_name": "comparaisons_prov",
@@ -1627,7 +1773,8 @@
   },
     {
   	"id_name": "QC - Comparisons (countries)",
-  	"url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/comparaisons_pays.csv",
+  	"active": "True",
+    "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/comparaisons_pays.csv",
   	"dir_parent": "qc",
   	"dir_file": "comparisons-countries",
   	"file_name": "comparaisons_pays",
@@ -1638,7 +1785,8 @@
   },
     {
   	"id_name": "QC - Deaths by RSS (health region) and number of pre-existing conditions",
-  	"url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/comorbidite.csv",
+  	"active": "True",
+    "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/comorbidite.csv",
   	"dir_parent": "qc",
   	"dir_file": "deaths-by-rss-and-pre-existing-conditions",
   	"file_name": "comorbidite",
@@ -1649,7 +1797,8 @@
   },
     {
   	"id_name": "QC - COVID-19 data by age group and sex",
-  	"url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/PL_AGE_SEXE.csv",
+  	"active": "True",
+    "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/PL_AGE_SEXE.csv",
   	"dir_parent": "qc",
   	"dir_file": "covid-data-by-age-and-sex",
   	"file_name": "PL_AGE_SEXE",
@@ -1660,7 +1809,8 @@
   },
     {
   	"id_name": "QC - Deaths time series by living environment",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/decesquotidien.csv",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/decesquotidien.csv",
   	"dir_parent": "qc",
   	"dir_file": "deaths-time-series-by-living-environment",
   	"file_name": "decesquotidien",
@@ -1671,7 +1821,8 @@
   },
     {
   	"id_name": "QC - Status report on confirmed cases and deaths by RPA",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_rpa.pdf",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_rpa.pdf",
   	"dir_parent": "qc",
   	"dir_file": "status-report-cases-and-deaths-by-rpa",
   	"file_name": "etat_situation_rpa",
@@ -1682,7 +1833,8 @@
   },
     {
   	"id_name": "QC - Status report on confirmed cases and deaths by CHSLD",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_chsld.pdf",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_chsld.pdf",
   	"dir_parent": "qc",
   	"dir_file": "status-report-cases-and-deaths-by-chsld",
   	"file_name": "etat_situation_chsld",
@@ -1693,7 +1845,8 @@
   },
     {
   	"id_name": "QC - Highlights - public and private school system",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/education/publications-adm/covid-19/reseauScolaire_faitsSaillants.pdf",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/education/publications-adm/covid-19/reseauScolaire_faitsSaillants.pdf",
   	"dir_parent": "qc",
   	"dir_file": "schools-highlights",
   	"file_name": "reseauScolaire_faitsSaillants",
@@ -1704,7 +1857,8 @@
   },
     {
   	"id_name": "QC - List of schools - public and private school system",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/education/publications-adm/covid-19/reseauScolaire_listeEcoles.pdf",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/education/publications-adm/covid-19/reseauScolaire_listeEcoles.pdf",
   	"dir_parent": "qc",
   	"dir_file": "schools-list-of-schools",
   	"file_name": "reseauScolaire_listeEcoles",
@@ -1715,7 +1869,8 @@
   },
     {
   	"id_name": "QC - Daily hospitalizations by RSS (health region) and care unit",
-  	"url": "https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_HistoHospit.csv",
+  	"active": "True",
+    "url": "https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_HistoHospit.csv",
   	"dir_parent": "qc",
   	"dir_file": "daily-hosp-by-rss-and-care-unit",
   	"file_name": "COVID19_Qc_HistoHospit",
@@ -1726,7 +1881,8 @@
   },
     {
   	"id_name": "QC - Daily hospitalizations by age group",
-  	"url": "https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_HospitCatAge.csv'",
+  	"active": "True",
+    "url": "https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_HospitCatAge.csv'",
   	"dir_parent": "qc",
   	"dir_file": "daily-hosp-by-age-group",
   	"file_name": "COVID19_Qc_HospitCatAge",
@@ -1737,7 +1893,8 @@
   },
     {
   	"id_name": "QC - Montréal cases and deaths by CIUSSS (integrated health and social services centres)",
-  	"url": "https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/ciusss.csv",
+  	"active": "True",
+    "url": "https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/ciusss.csv",
   	"dir_parent": "qc",
   	"dir_file": "montreal-cases-and-deaths-by-ciusss",
   	"file_name": "ciusss",
@@ -1749,7 +1906,8 @@
   },
     {
   	"id_name": "QC - Montréal cases by area",
-  	"url": "https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/municipal.csv",
+  	"active": "True",
+    "url": "https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/municipal.csv",
   	"dir_parent": "qc",
   	"dir_file": "montreal-cases-by-area",
   	"file_name": "municipal",
@@ -1761,7 +1919,8 @@
   },
     {
   	"id_name": "QC - Montréal cases and deaths by age group",
-  	"url": "https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/grage.csv",
+  	"active": "True",
+    "url": "https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/grage.csv",
   	"dir_parent": "qc",
   	"dir_file": "montreal-cases-and-deaths-by-age-group",
   	"file_name": "grage",
@@ -1773,7 +1932,8 @@
   },
     {
   	"id_name": "QC - Montréal cases and deaths by sex",
-  	"url": "https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/sexe.csv",
+  	"active": "True",
+    "url": "https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/sexe.csv",
   	"dir_parent": "qc",
   	"dir_file": "montreal-cases-and-deaths-by-sex",
   	"file_name": "sexe",
@@ -1785,7 +1945,8 @@
   },
     {
   	"id_name": "QC - Montréal epidemic curve",
-  	"url": "https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/courbe.csv",
+  	"active": "True",
+    "url": "https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/courbe.csv",
   	"dir_parent": "qc",
   	"dir_file": "montreal-epidemic-curve",
   	"file_name": "courbe",
@@ -1797,7 +1958,8 @@
   },
     {
   	"id_name": "QC - Active hospitalizations per hospital",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/tableau-hospitalisations.pdf",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/tableau-hospitalisations.pdf",
   	"dir_parent": "qc",
   	"dir_file": "active-hospitalizations-per-hosp",
   	"file_name": "tableau-hospitalisations",
@@ -1808,7 +1970,8 @@
   },
     {
   	"id_name": "QC - Vaccination of priority groups (FR)",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/20-279-07WF_Previsions_vaccination.pdf",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/20-279-07WF_Previsions_vaccination.pdf",
   	"dir_parent": "qc",
   	"dir_file": "vaccination-of-priority-groups",
   	"file_name": "20-279-07WF_Previsions_vaccination",
@@ -1819,7 +1982,8 @@
   },
     {
   	"id_name": "Vaccination of priority groups (EN)",
-  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/20-279-07WA_Previsions_vaccination-anglais.pdf",
+  	"active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/20-279-07WA_Previsions_vaccination-anglais.pdf",
   	"dir_parent": "qc",
   	"dir_file": "vaccination-of-priority-groups-en",
   	"file_name": "20-279-07WA_Previsions_vaccination-anglais",
@@ -1830,6 +1994,7 @@
   },
     {
   	"id_name": "SK - Saskatchewan's Dashboard - Total Cases",
+  	"active": "True",
   	"url_fun_python": "import re; import requests; global url_current; url_current = 'https://dashboard.saskatchewan.ca' + re.search('(?<=href=\").*(?=\">CSV)', requests.get('https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases').text).group(0)",
   	"url_fun_r": "",
   	"dir_parent": "sk",
@@ -1842,7 +2007,8 @@
   },
     {
   	"id_name": "SK - Saskatchewan's Dashboard - Total Cases (webpage)",
-  	"url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases",
+  	"active": "True",
+    "url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases",
   	"dir_parent": "sk",
   	"dir_file": "cases-by-region-webpage",
   	"file_name": "cases-webpage",
@@ -1853,6 +2019,7 @@
   },
     {
   	"id_name": "SK - Saskatchewan's Dashboard - Total Tests",
+  	"active": "True",
   	"url_fun_python": "import re; import requests; global url_current; url_current = 'https://dashboard.saskatchewan.ca' + re.search('(?<=href=\").*(?=\">CSV)', requests.get('https://dashboard.saskatchewan.ca/health-wellness/covid-19-tests/tests').text).group(0)",
   	"url_fun_r": "",
   	"dir_parent": "sk",
@@ -1865,7 +2032,8 @@
   },
     {
   	"id_name": "SK - Saskatchewan's Dashboard - Total Tests (webpage)",
-  	"url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19/tests",
+  	"active": "True",
+    "url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19/tests",
   	"dir_parent": "sk",
   	"dir_file": "tests-by-region-webpage",
   	"file_name": "tests-webpage",
@@ -1876,7 +2044,8 @@
   },
     {
   	"id_name": "YT - Case counts: COVID-19 (webpage)",
-  	"url": "https://yukon.ca/en/case-counts-covid-19",
+  	"active": "True",
+    "url": "https://yukon.ca/en/case-counts-covid-19",
   	"dir_parent": "yt",
   	"dir_file": "yukon-case-counts-webpage",
   	"file_name": "yukon-case-counts-webpage",
@@ -1887,7 +2056,8 @@
   },
     {
   	"id_name": "YT - Current COVID-19 situation (webpage)",
-  	"url": "https://yukon.ca/en/health-and-wellness/covid-19-information/latest-updates-covid-19/current-covid-19-situation",
+  	"active": "True",
+    "url": "https://yukon.ca/en/health-and-wellness/covid-19-information/latest-updates-covid-19/current-covid-19-situation",
   	"dir_parent": "yt",
   	"dir_file": "yukon-current-situation-webpage",
   	"file_name": "yukon-current-situation-webpage",
@@ -1898,7 +2068,8 @@
   },
     {
   	"id_name": "Other: CAN - Unofficial COVID Alert Dashboard - Diagnosis Keys Analysis",
-  	"url": "https://raw.githubusercontent.com/uhengart/covid-alert-dashboard/master/DiagnosisKeysAnalysis.csv",
+  	"active": "True",
+    "url": "https://raw.githubusercontent.com/uhengart/covid-alert-dashboard/master/DiagnosisKeysAnalysis.csv",
   	"dir_parent": "other/can",
   	"dir_file": "unofficial-covid-alert-dashboard-analysis",
   	"file_name": "DiagnosisKeysAnalysis",
@@ -1909,7 +2080,8 @@
   },
     {
   	"id_name": "Other: CAN - Unofficial COVID Alert Dashboard - Upload Delay",
-  	"url": "https://raw.githubusercontent.com/uhengart/covid-alert-dashboard/master/UploadDelay.csv",
+  	"active": "True",
+    "url": "https://raw.githubusercontent.com/uhengart/covid-alert-dashboard/master/UploadDelay.csv",
   	"dir_parent": "other/can",
   	"dir_file": "unofficial-covid-alert-dashboard-upload-delay",
   	"file_name": "UploadDelay",
@@ -1920,7 +2092,8 @@
   },
     {
   	"id_name": "Other: CAN - McDonald's Tracker",
-  	"url": "https://news.mcdonalds.ca/covid-19-tracker",
+  	"active": "True",
+    "url": "https://news.mcdonalds.ca/covid-19-tracker",
   	"dir_parent": "other/can",
   	"dir_file": "mcdonalds-tracker",
   	"file_name": "mcdonalds-tracker-webpage",
@@ -1932,7 +2105,8 @@
   },
     {
   	"id_name": "Other: CAN - COVID-19 - Loblaw Companies Ltd.",
-  	"url": "https://www.loblaw.ca/en/covid-19/",
+  	"active": "True",
+    "url": "https://www.loblaw.ca/en/covid-19/",
   	"dir_parent": "other/can",
   	"dir_file": "loblaw-companies-tracker",
   	"file_name": "loblaw-companies-tracker",
@@ -1943,7 +2117,8 @@
   },
     {
   	"id_name": "Other: CAN - Canada COVID-19 School Case Tracker (KML)",
-  	"url": "https://www.google.com/maps/d/u/0/kml?mid=1blA_H3Hv5S9Ii_vyudgDk-j6SfJQil9S&forcekml=1",
+  	"active": "True",
+    "url": "https://www.google.com/maps/d/u/0/kml?mid=1blA_H3Hv5S9Ii_vyudgDk-j6SfJQil9S&forcekml=1",
   	"dir_parent": "other/can",
   	"dir_file": "canada-covid-19-school-case-tracker",
   	"file_name": "Canada_COVID-19_School_Report_Tracker",
@@ -1954,7 +2129,8 @@
   },
     {
   	"id_name": "Other: QC - Covid Écoles Québec (Excel)",
-  	"url": "https://drive.google.com/uc?export=download&id=1xOl0uhyx9IuHZfJuRH-OR7BcGFuWYUex",
+  	"active": "True",
+    "url": "https://drive.google.com/uc?export=download&id=1xOl0uhyx9IuHZfJuRH-OR7BcGFuWYUex",
   	"dir_parent": "other/qc",
   	"dir_file": "covid-ecoles-quebec-school-list",
   	"file_name": "COVIDECOLESQUEBEC",
