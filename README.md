@@ -383,6 +383,7 @@ When both French and English data files are available, French files should gener
 * [Data on COVID-19 in Québec (province)](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
     * [Webpage EN](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/): [qc/qc-webpage-en/qc-webpage-en.html](https://drive.google.com/drive/folders/1dpolshJwFvHWZQxOG58LY-l0pztntYdi)
     * [Webpage FR](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/): [qc/qc-webpage-fr/qc-webpage-fr.html](https://drive.google.com/drive/folders/1nQvnGfZdxIkhibJZHyp4ahbn27q_z3ll)
+    * COVID-19 Dashboard: [qc/qc-covid-dashboard/20-210-382W_infographie_sommaire-executif.jpeg](https://drive.google.com/drive/folders/1K8tBcW_i2cLuRVj0Yw-aToZ3LWWvTEHf)
     * Situation in Quebec: [qc/situation-in-quebec/situation-au-quebec.csv](https://drive.google.com/drive/folders/1en-wC4O6X6CGKJjBWuyqcP9NRT9O8D61)
     * Correctional facilities - cases among employees (FR): [qc/correctional-cases-employees/donnees_covid_detention_employes_FR.csv](https://drive.google.com/drive/folders/1FZ8Edx6Xv2cx1mOsh7a5FFY1nI3UGLYE)
     * Correctional facilities - cases among employees (EN): [qc/correctional-cases-employees-en/donnees_covid_detention_employes_EN.csv](https://drive.google.com/drive/folders/18PcQcnuS0gPLi7D2Tnd40l7VOMeJm4hf)
@@ -447,6 +448,13 @@ When both French and English data files are available, French files should gener
     * Daily hospitalizations by age group: [qc/daily-hosp-by-age-group/COVID19_Qc_HospitCatAge.csv](https://drive.google.com/drive/folders/1YRDa_YB6Vm9fsmOKSmnV2pkuinVcqmP5)
     * Supplementary material: List of variables/methodological notes
     * Terms of use: CC-BY-4.0
+* Active hospitalizations per hospital (FR)
+    * [qc/active-hospitalizations-per-hosp/tableau-hospitalisations.pdf](https://drive.google.com/drive/folders/1xrVqErf7QfZT-GCccbCA30oqVvtZ8pR3)
+    * Terms of use: TBD
+* Vaccination of priority groups
+    * FR: [vaccination-of-priority-groups](https://drive.google.com/drive/folders/14gHszA6zjkXDPfL7-RT0rfMxhVW8vbDx)
+    * EN: [vaccination-of-priority-groups-en](https://drive.google.com/drive/folders/1ZFdH_8UD1YgpZnF0YLJ0y2AC1mPbIqbZ)
+    * Terms of use: TBD
 
 #### Montreal
 

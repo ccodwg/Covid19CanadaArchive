@@ -184,7 +184,7 @@
   	"id_name": "BC - Public exposures: school exposures (Interior webpage)",
   	"url": "https://news.interiorhealth.ca/news/school-exposures/",
   	"dir_parent": "bc",
-  	"dir_file": "bc/school-exposures-interior-webpage",
+  	"dir_file": "school-exposures-interior-webpage",
   	"file_name": "school-exposures-interior-webpage",
   	"file_ext": "html",
   	"dl_fun": "html_page",
@@ -1274,6 +1274,17 @@
   	}
   },
     {
+  	"id_name": "QC - Dashboard of the COVID-19 situation in Quebec (FR)",
+  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/20-210-382W_infographie_sommaire-executif.jpg",
+  	"dir_parent": "qc",
+  	"dir_file": "qc-covid-dashboard",
+  	"file_name": "20-210-382W_infographie_sommaire-executif",
+  	"file_ext": "jpeg",
+  	"dl_fun": "dl_file",
+  	"args": {
+  	}
+  },
+    {
   	"id_name": "QC - COVID-19 vaccination data (webpage FR)",
   	"url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/donnees-sur-la-vaccination-covid-19/",
   	"dir_parent": "qc",
@@ -1519,7 +1530,7 @@
   	"id_name": "QC - COVID-19 daily data 7 days (EN)",
   	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/synthese-7jours-en.csv",
   	"dir_parent": "qc",
-  	"dir_file": "qc/covid-data-daily-7-days-en",
+  	"dir_file": "covid-data-daily-7-days-en",
   	"file_name": "synthese-7jours-en",
   	"file_ext": "csv",
   	"dl_fun": "dl_file",
@@ -1776,12 +1787,45 @@
   	"id_name": "QC - Montréal epidemic curve",
   	"url": "https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/courbe.csv",
   	"dir_parent": "qc",
-  	"dir_file": "qc/montreal-epidemic-curve",
+  	"dir_file": "montreal-epidemic-curve",
   	"file_name": "courbe",
   	"file_ext": "csv",
   	"dl_fun": "dl_file",
   	"args": {
   		"user": "True"
+  	}
+  },
+    {
+  	"id_name": "QC - Active hospitalizations per hospital",
+  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/tableau-hospitalisations.pdf",
+  	"dir_parent": "qc",
+  	"dir_file": "active-hospitalizations-per-hosp",
+  	"file_name": "tableau-hospitalisations",
+  	"file_ext": "pdf",
+  	"dl_fun": "dl_file",
+  	"args": {
+  	}
+  },
+    {
+  	"id_name": "QC - Vaccination of priority groups (FR)",
+  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/20-279-07WF_Previsions_vaccination.pdf",
+  	"dir_parent": "qc",
+  	"dir_file": "vaccination-of-priority-groups",
+  	"file_name": "20-279-07WF_Previsions_vaccination",
+  	"file_ext": "pdf",
+  	"dl_fun": "dl_file",
+  	"args": {
+  	}
+  },
+    {
+  	"id_name": "Vaccination of priority groups (EN)",
+  	"url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/20-279-07WA_Previsions_vaccination-anglais.pdf",
+  	"dir_parent": "qc",
+  	"dir_file": "vaccination-of-priority-groups-en",
+  	"file_name": "20-279-07WA_Previsions_vaccination-anglais",
+  	"file_ext": "pdf",
+  	"dl_fun": "dl_file",
+  	"args": {
   	}
   },
     {
