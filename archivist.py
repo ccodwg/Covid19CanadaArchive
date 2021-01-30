@@ -334,8 +334,10 @@ def dl_file(url, path, file, ext='.csv', user=False, verify=True, unzip=False, a
                     data = pd.read_json(data).transpose()
                     data = data.rename(columns={0: "", 1: "Region name", 2: "Region classification", 3: "Measures", 4: "Active case rate (per 100,000 population)", 5: "Active cases", 6: "Population"})
                 elif url == "https://www.alberta.ca/schools/covid-19-school-status-map.htm":
+                    data = re.sub(',"container":.*', "", data) # strip remaining tags
                     data = pd.read_json(data).transpose()
-                    data = data.rename(columns={0: "", 1: "Region name", 2: "School status", 3: "Schools details"})
+                    data = data.rename(columns={0: "", 1: "Region name", 2: "School status", 3: "Schools details", 4: "num_ord"})
+                    data = data.sort_values(by=['num_ord', '']) # sort ascending by num_ord and first column (like CSV output on website)
                 data = data.to_csv(None, quoting=csv.QUOTE_ALL, index=False) # to match website output: quote all lines, don't terminate with new line
                 with open(f_path, 'w') as local_file:
                     local_file.write(data[:-1])
