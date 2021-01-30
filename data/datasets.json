@@ -2211,6 +2211,19 @@
     }
   },
     {
+    "id_name": "SK - Vaccine Delivery Update",
+    "uuid": "0a31ad95-0e5b-4012-8805-871dd79e96d1",
+    "active": "True",
+    "url": "https://www.saskatchewan.ca/covid19-vaccine-update",
+    "dir_parent": "sk",
+    "dir_file": "vaccine-delivery-webpage",
+    "file_name": "vaccine-delivery-webpage",
+    "file_ext": "html",
+    "dl_fun": "html_page",
+    "args": {
+    }
+  },
+    {
     "id_name": "YT - Case counts: COVID-19 (webpage)",
     "uuid": "4cdeff57-3cbd-4d58-b0a9-c66d8c0c197e",
     "active": "True",

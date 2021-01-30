@@ -482,6 +482,9 @@ When both French and English data files are available, French files should gener
     * CSV: [sk/tests-by-region/tests.csv](https://drive.google.com/drive/folders/1iOdc5ij_1xWNrkwWWe1qwbW3GM5wbq1Y)
     * Webpage: [sk/tests-by-region-webpage/tests-webpage.html](https://drive.google.com/drive/folders/1ixZJWXkMMV3Mftb51_sRGtGwJ3RV-QXX) (warning: some early files are .png screenshots and named differently)
     * Terms of use: TBD
+* [Vaccine Delivery Update](https://www.saskatchewan.ca/covid19-vaccine-update)
+    * Webpage: [sk/vaccine-delivery-webpage/vaccine-delivery-webpage.html](https://drive.google.com/drive/folders/1Ude0MYm0y80LyG6w_3ZoprrHn9Nn5U0q)
+    * Terms of use: TBD
 
 ### Yukon
 
