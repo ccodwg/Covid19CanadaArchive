@@ -486,6 +486,19 @@
     }
   },
     {
+    "id_name": "CAN - COVID-19 PHAC provincial data update notes",
+    "uuid": "6e0c5073-9c70-469a-b265-0f0aa6da967b",
+    "active": "True",
+    "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-exceptions.csv",
+    "dir_parent": "can",
+    "dir_file": "provincial-data-update-notes",
+    "file_name": "covid19-epiSummary-exceptions",
+    "file_ext": "csv",
+    "dl_fun": "dl_file",
+    "args": {
+    }
+  },
+    {
     "id_name": "CAN - COVIDTrends (Mobility)",
     "uuid": "4ff1d90c-af12-4212-b60c-8739991ecc7d",
     "active": "True",

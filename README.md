@@ -149,6 +149,7 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Symptoms summary: [can/symptoms-summary/covid19-epiSummary-symptoms.csv](https://drive.google.com/drive/folders/1VoX9WJGkJQwCQMeOcTruitYjjIyGaFhZ)
     * Hospitalizaiton, intensive care (ICU), mechanical ventilation: [can/hospitalizations-icu-mechanical-ventilation/covid19-epiSummary-hospVentICU.csv](https://drive.google.com/drive/folders/1ZgeV7BTE_GZ8yTQgG3ema8OAT8vzHq5V)
     * Situational awareness dashboard update time: [can/situational-awareness-dashboard-update-time/covid19-updateTime.csv](https://drive.google.com/drive/folders/1Jf_083skdvYA9JW2-lPZ37l-NvdQ8AQY)
+    * PHAC provincial data update notes: [can/provincial-data-update-notes/covid19-epiSummary-exceptions.csv](https://drive.google.com/drive/folders/1pm-8sIMNWlk-F_6g8rN8QumT_-VzCnhW)
     * Terms of use: [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
 * [COVIDTrends](https://health-infobase.canada.ca/covid-19/covidtrends/)
     * Mobility: [can/covidtrends-mobility/mobility.csv](https://drive.google.com/drive/folders/1rywSZlhHQzv7L9r8dIo7_hWgquTG7U45) [dataset is updated only on Thursdays]
