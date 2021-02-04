@@ -52,7 +52,7 @@ Community members may contribute to this repository in three ways:
 
 ## Recommended citation
 
-COVID-19 Canada Open Data Working Group. Archive of COVID-19 Data from Canadian Government Sources. https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data. (Access date).
+COVID-19 Canada Open Data Working Group. Archive of Canadian COVID-19 Data. https://github.com/ccodwg/Covid19CanadaArchive. (Access date).
 
 ## Running archiver.py
 
