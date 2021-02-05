@@ -215,6 +215,12 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Cases by status and RHA (Regional Health Authority) (JSON to CSV): [mb/cases-by-status-and-rha-csv/cases-by-status-and-rha.csv](https://drive.google.com/drive/folders/12Iqr-1tz085DB7Bsggm3tC0OKT0pNRSr)
     * Manitoba five-day test positivity rate (JSON to CSV): [mb/five-day-test-positivity-csv/five-day-test-positivity.csv](https://drive.google.com/drive/folders/1FVZ9gQbSLjOJHGdq_FXjJIZrFsp12lOo)
     * Terms of use: TBD
+  * [COVID-19 Dashboard: K-12 Schools in Manitoba](https://experience.arcgis.com/experience/6e7af13b3ffb447a99734b0119b169d3/)
+    * COVID education statistics summary: [mb/covid-education-summary/covid-education-summary.json](https://drive.google.com/drive/folders/1AOhXsmglt-Nmb_wrndTQyqfyw_Joc_tn)
+    * COVID educations cases last 2 weeks: [mb/covid-education-cases-last-2-weeks/covid-education-cases-last-2-weeks.json](https://drive.google.com/drive/folders/1a4tou-l1RawjwJ_DPjf3cMlKRXj0ssF3)
+    * Manitoba school divisions: [mb/school-divisions/school-divisions.json](https://drive.google.com/drive/folders/1TuAcFmiWGxoxeMK8Z5Sk7ftPyY6GaAy2)
+    * Supplementary: Definitions
+    * Terms of use: TBD
 
 #### Winnipeg
 

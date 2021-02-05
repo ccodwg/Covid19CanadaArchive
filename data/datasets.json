@@ -859,6 +859,45 @@
     }
   },
     {
+    "id_name": "MB - COVID education statistics summary",
+    "uuid": "d7fd343e-80b8-44c0-80b8-34c5480fc516",
+    "active": "True",
+    "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_education_statistics_summary/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+    "dir_parent": "mb",
+    "dir_file": "covid-education-summary",
+    "file_name": "covid-education-summary",
+    "file_ext": "json",
+    "dl_fun": "dl_file",
+    "args": {
+    }
+  },
+    {
+    "id_name": "MB - COVID educations cases last 2 weeks",
+    "uuid": "07199d75-5293-47aa-b8c2-14497956a135",
+    "active": "True",
+    "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_education_2week_map/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+    "dir_parent": "mb",
+    "dir_file": "covid-education-cases-last-2-weeks",
+    "file_name": "covid-education-cases-last-2-weeks",
+    "file_ext": "json",
+    "dl_fun": "dl_file",
+    "args": {
+    }
+  },
+    {
+    "id_name": "MB - Manitoba school divisions",
+    "uuid": "3a967a4d-72c9-4e79-9b43-9054b55fbf49",
+    "active": "True",
+    "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/Manitoba_School_Divisions/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+    "dir_parent": "mb",
+    "dir_file": "school-divisions",
+    "file_name": "school-divisions",
+    "file_ext": "json",
+    "dl_fun": "dl_file",
+    "args": {
+    }
+  },
+    {
     "id_name": "NT - GNWT's Response to COVID-19 (webpage)",
     "uuid": "e008ba6f-7b09-4af4-afc5-63ec3c3bbfbb",
     "active": "True",
