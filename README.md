@@ -200,10 +200,10 @@ The sources and terms of use for each included dataset are linked below. Supplem
 
 ### Manitoba
 
-* [COVID-19 Updates](https://www.gov.mb.ca/covid19/updates/index.html)
+* [Province of Manitoba - COVID-19](https://www.gov.mb.ca/covid19/updates/index.html)
     * Webpage: [mb/manitoba-webpage/manitoba-webpage.html](https://drive.google.com/drive/folders/13gGo5pdUJw1_4hVkPzrl3eNzUPjf6-4M)
     * Terms of use: TBD
-* [Cases and Risk of COVID-19 in Manitoba](https://www.gov.mb.ca/covid19/updates/cases.html)
+* [Manitoba COVID-19](https://experience.arcgis.com/experience/f55693e56018406ebbd08b3492e99771)
     * COVID-19 data by RHA and district: [mb/covid-data-by-rha-and-district/covid-data-by-rha-and-district.json](https://drive.google.com/drive/folders/1OHXZBtKQGLKVCQfVDtvjOwCTAnSNm_iy)
     * Cases by demographics and RHA: [mb/cases-demographics-by-rha/cases-demographics-by-rha.json](https://drive.google.com/drive/folders/1vSi6aSCP8wOgtTxGbeXCTJf_7l8Jde9v)
     * Cases by status and RHA: [mb/cases-by-status-and-rha/cases-by-status-and-rha.json](https://drive.google.com/drive/folders/1yvHctTdlTLH8oBpyvr3XiNxT-MzbBPIK)
