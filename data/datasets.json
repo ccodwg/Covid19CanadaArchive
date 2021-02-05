@@ -725,12 +725,12 @@
     }
   },
     {
-    "id_name": "MB - COVID-19 data by RHA and district",
+    "id_name": "MB - COVID-19 data by RHA and district (JSON to CSV)",
     "uuid": "61fa90f1-4547-4429-a1fa-858d1f93b010",
     "active": "True",
     "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_summary_stats_geography/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
     "dir_parent": "mb",
-    "dir_file": "covid-data-by-rha-and-district",
+    "dir_file": "covid-data-by-rha-and-district-csv",
     "file_name": "covid-data-by-rha-and-district",
     "file_ext": "csv",
     "dl_fun": "dl_file",
@@ -739,12 +739,12 @@
     }
   },
     {
-    "id_name": "MB - Cases by demographics and RHA",
+    "id_name": "MB - Cases by demographics and RHA (JSON to CSV)",
     "uuid": "ac69ca55-3f65-413f-a587-cc9fdccbd51f",
     "active": "True",
     "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_by_demographics_rha_all/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&groupByFieldsForStatistics=Age_Group%2CGender&orderByFields=Age_Group%20desc",
     "dir_parent": "mb",
-    "dir_file": "cases-demographics-by-rha",
+    "dir_file": "cases-demographics-by-rha-csv",
     "file_name": "cases-demographics-by-rha",
     "file_ext": "csv",
     "dl_fun": "dl_file",
@@ -753,13 +753,13 @@
     }
   },
     {
-    "id_name": "MB - Cases by status and RHA",
+    "id_name": "MB - Cases by status and RHA (JSON to CSV)",
     "uuid": "e4357189-070c-48b6-946c-d3b9744a3daa",
     "active": "True",
     "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_by_status_daily_rha/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&groupByFieldsForStatistics=Date%2CRHA",
     "dir_parent": "mb",
-    "dir_file": "cases-by-status-and-rha",
-    "file_name": "ases-by-status-and-rha",
+    "dir_file": "cases-by-status-and-rha-csv",
+    "file_name": "cases-by-status-and-rha",
     "file_ext": "csv",
     "dl_fun": "dl_file",
     "args": {
@@ -767,12 +767,12 @@
     }
   },
     {
-    "id_name": "MB - Manitoba five-day test positivity rate",
+    "id_name": "MB - Manitoba five-day test positivity rate (JSON to CSV)",
     "uuid": "b194df8e-d375-434e-b2df-90df113d7636",
     "active": "True",
     "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_5_day_positivity_rate/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Date%20asc",
     "dir_parent": "mb",
-    "dir_file": "five-day-test-positivity",
+    "dir_file": "five-day-test-positivity-csv",
     "file_name": "five-day-test-positivity",
     "file_ext": "csv",
     "dl_fun": "dl_file",

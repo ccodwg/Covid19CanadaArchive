@@ -204,12 +204,11 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Webpage: [mb/manitoba-webpage/manitoba-webpage.html](https://drive.google.com/drive/folders/13gGo5pdUJw1_4hVkPzrl3eNzUPjf6-4M)
     * Terms of use: TBD
 * [Cases and Risk of COVID-19 in Manitoba](https://www.gov.mb.ca/covid19/updates/cases.html)
-    * COVID-19 data by RHA and district: [mb/covid-data-by-rha-and-district/covid-data-by-rha-and-district.csv](https://drive.google.com/drive/folders/1mTTp74weBKLWXNrgdzfeJmWROP9NH6mM)
-    * Cases by demographics and RHA: [mb/cases-demographics-by-rha/cases-demographics-by-rha.csv](https://drive.google.com/drive/folders/1XE4mZpz8hrqIC3JBExuGJdJYXs6Sg1rk)
-    * Cases by status and RHA (Regional Health Authority): [mb/cases-by-status-and-rha/cases-by-status-and-rha.csv](https://drive.google.com/drive/folders/12Iqr-1tz085DB7Bsggm3tC0OKT0pNRSr)
-    * Manitoba five-day test positivity rate: [mb/five-day-test-positivity/five-day-test-positivity.csv](https://drive.google.com/drive/folders/1FVZ9gQbSLjOJHGdq_FXjJIZrFsp12lOo)
+    * COVID-19 data by RHA and district (JSON to CSV): [mb/covid-data-by-rha-and-district-csv/covid-data-by-rha-and-district.csv](https://drive.google.com/drive/folders/1mTTp74weBKLWXNrgdzfeJmWROP9NH6mM)
+    * Cases by demographics and RHA (JSON to CSV): [mb/cases-demographics-by-rha-csv/cases-demographics-by-rha.csv](https://drive.google.com/drive/folders/1XE4mZpz8hrqIC3JBExuGJdJYXs6Sg1rk)
+    * Cases by status and RHA (Regional Health Authority) (JSON to CSV): [mb/cases-by-status-and-rha-csv/cases-by-status-and-rha.csv](https://drive.google.com/drive/folders/12Iqr-1tz085DB7Bsggm3tC0OKT0pNRSr)
+    * Manitoba five-day test positivity rate (JSON to CSV): [mb/five-day-test-positivity-csv/five-day-test-positivity.csv](https://drive.google.com/drive/folders/1FVZ9gQbSLjOJHGdq_FXjJIZrFsp12lOo)
     * Terms of use: TBD
-    * Data have been converted from JSON queries to CSV
 
 #### Winnipeg
 
