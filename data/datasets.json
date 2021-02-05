@@ -725,6 +725,84 @@
     }
   },
     {
+    "id_name": "MB - COVID-19 data by RHA and district",
+    "uuid": "0261e07b-85ce-4952-99d1-6e1e9a440291",
+    "active": "True",
+    "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_summary_stats_geography/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+    "dir_parent": "mb",
+    "dir_file": "covid-data-by-rha-and-district",
+    "file_name": "covid-data-by-rha-and-district",
+    "file_ext": "json",
+    "dl_fun": "dl_file",
+    "args": {
+    }
+  },
+    {
+    "id_name": "MB - Cases by demographics and RHA",
+    "uuid": "0edb0d4e-2e78-4016-b50b-991723a2b7f6",
+    "active": "True",
+    "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_by_demographics_rha_all/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&groupByFieldsForStatistics=Age_Group%2CGender&orderByFields=Age_Group%20desc",
+    "dir_parent": "mb",
+    "dir_file": "cases-demographics-by-rha",
+    "file_name": "cases-demographics-by-rha",
+    "file_ext": "json",
+    "dl_fun": "dl_file",
+    "args": {
+    }
+  },
+    {
+    "id_name": "MB - Cases by status and RHA",
+    "uuid": "4a2d6a6a-4402-4d51-aba5-a59271389732",
+    "active": "True",
+    "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_by_status_daily_rha/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Date%20asc",
+    "dir_parent": "mb",
+    "dir_file": "cases-by-status-and-rha",
+    "file_name": "cases-by-status-and-rha",
+    "file_ext": "json",
+    "dl_fun": "dl_file",
+    "args": {
+    }
+  },
+    {
+    "id_name": "MB - Manitoba five-day test positivity rate",
+    "uuid": "b96b279d-476f-4430-a374-0a6c0d4753a7",
+    "active": "True",
+    "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_5_day_positivity_rate/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Date%20asc",
+    "dir_parent": "mb",
+    "dir_file": "five-day-test-positivity",
+    "file_name": "five-day-test-positivity",
+    "file_ext": "json",
+    "dl_fun": "dl_file",
+    "args": {
+    }
+  },
+    {
+    "id_name": "MB - Summary statistics by area",
+    "uuid": "8cb83971-19f0-4dfc-b832-69efc1036ddd",
+    "active": "True",
+    "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_summary_statistics/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+    "dir_parent": "mb",
+    "dir_file": "summary-stats-by-area",
+    "file_name": "summary-stats-by-area",
+    "file_ext": "json",
+    "dl_fun": "dl_file",
+    "args": {
+    }
+  },
+    {
+    "id_name": "MB - Current status by area",
+    "uuid": "64e3f378-42f3-4f2b-b4c9-5be4dddadb6f",
+    "active": "True",
+    "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/Manitoba_COVID19_Case_Status_by_Geography/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+    "dir_parent": "mb",
+    "dir_file": "current-status-by-area",
+    "file_name": "current-status-by-area",
+    "file_ext": "json",
+    "dl_fun": "dl_file",
+    "args": {
+    }
+  },
+    {
     "id_name": "MB - COVID-19 data by RHA and district (JSON to CSV)",
     "uuid": "61fa90f1-4547-4429-a1fa-858d1f93b010",
     "active": "True",

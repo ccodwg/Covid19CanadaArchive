@@ -204,6 +204,12 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Webpage: [mb/manitoba-webpage/manitoba-webpage.html](https://drive.google.com/drive/folders/13gGo5pdUJw1_4hVkPzrl3eNzUPjf6-4M)
     * Terms of use: TBD
 * [Cases and Risk of COVID-19 in Manitoba](https://www.gov.mb.ca/covid19/updates/cases.html)
+    * COVID-19 data by RHA and district: [mb/covid-data-by-rha-and-district/covid-data-by-rha-and-district.json](https://drive.google.com/drive/folders/1OHXZBtKQGLKVCQfVDtvjOwCTAnSNm_iy)
+    * Cases by demographics and RHA: [mb/cases-demographics-by-rha/cases-demographics-by-rha.json](https://drive.google.com/drive/folders/1vSi6aSCP8wOgtTxGbeXCTJf_7l8Jde9v)
+    * Cases by status and RHA: [mb/cases-by-status-and-rha/cases-by-status-and-rha.json](https://drive.google.com/drive/folders/1yvHctTdlTLH8oBpyvr3XiNxT-MzbBPIK)
+    * Manitoba five-day test positivity rate: [mb/five-day-test-positivity/five-day-test-positivity.json](https://drive.google.com/drive/folders/1H384b02qwv1irKtT2hYvM8WKbVnyy2xN)
+    * Summary statistics by area: [mb/summary-stats-by-area/summary-stats-by-area.json](https://drive.google.com/drive/folders/1lrMjshfMMDvbb2kP06x98NaGiKBEVtlr)
+    * Current status by area: [mb/current-status-by-area/current-status-by-area.json](https://drive.google.com/drive/folders/1kk6IR5e1LQa0VB23SylVK7WEUdomqRAA)
     * COVID-19 data by RHA and district (JSON to CSV): [mb/covid-data-by-rha-and-district-csv/covid-data-by-rha-and-district.csv](https://drive.google.com/drive/folders/1mTTp74weBKLWXNrgdzfeJmWROP9NH6mM)
     * Cases by demographics and RHA (JSON to CSV): [mb/cases-demographics-by-rha-csv/cases-demographics-by-rha.csv](https://drive.google.com/drive/folders/1XE4mZpz8hrqIC3JBExuGJdJYXs6Sg1rk)
     * Cases by status and RHA (Regional Health Authority) (JSON to CSV): [mb/cases-by-status-and-rha-csv/cases-by-status-and-rha.csv](https://drive.google.com/drive/folders/12Iqr-1tz085DB7Bsggm3tC0OKT0pNRSr)
