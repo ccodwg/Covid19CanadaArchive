@@ -525,7 +525,11 @@ When both French and English data files are available, French files should gener
     * Estimated infections per day: [other/can/unofficial-covid-alert-dashboard/estimated_infections_per_day.txt](https://drive.google.com/drive/folders/1tCtgZArFKt1jOwzSvBLguJz2r5TUScPd) (Replaced after 2020-11-14 by unofficial-covid-alert-dashboard-analysis, no longer part of the nightly update)
     * Diagnosis key analysis: [other/can/unofficial-covid-alert-dashboard-analysis/DiagnosisKeysAnalysis.csv](https://drive.google.com/drive/folders/1u02hYgE98Mm731AGYm85Iq5nreMX8E3S)
     * Upload delay: [other/can/unofficial-covid-alert-dashboard-upload-delay/UploadDelay.csv](https://drive.google.com/drive/folders/13RWuBGsOqlz1g4qoeUxa58qYY0aUnymK)
-    * Terms of use: TBD   
+    * Terms of use: TBD
+* [Tracking variants of the novel coronavirus in Canada](https://www.ctvnews.ca/health/coronavirus/tracking-variants-of-the-novel-coronavirus-in-canada-1.5296141)
+    * Webpage: [other/can/ctv-variant-tracker-webpage/ctv-variant-tracker-webpage.html](https://drive.google.com/drive/folders/1GzuPvaOiKTj7uKtpcahIKtJVXQGlRBTT)
+    * CTV variant tracker: [other/can/ctv-variant-tracker/COVID-Variants.txt](https://drive.google.com/drive/folders/1nHv7kX9kSgwLiqOh2ah9tcuFAolcBgaz)
+    * Terms of use: TBD
 
 #### Quebec
 

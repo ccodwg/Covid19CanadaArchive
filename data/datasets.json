@@ -2446,6 +2446,32 @@
     }
   },
     {
+    "id_name": "Other: CAN - CTV Variant Tracker (weppage)",
+    "uuid": "57debfa6-e336-45e1-ac73-656e67988c7d",
+    "active": "True",
+    "url": "https://www.ctvnews.ca/health/coronavirus/tracking-variants-of-the-novel-coronavirus-in-canada-1.5296141",
+    "dir_parent": "other/can",
+    "dir_file": "ctv-variant-tracker-webpage",
+    "file_name": "ctv-variant-tracker-webpage",
+    "file_ext": "html",
+    "dl_fun": "html_page",
+    "args": {
+    }
+  },
+    {
+    "id_name": "Other: CAN - CTV Variant Tracker",
+    "uuid": "daa6be69-acf4-4d1b-a05a-84d3a2a9022e",
+    "active": "True",
+    "url": "https://beta.ctvnews.ca/content/dam/common/exceltojson/COVID-Variants.txt",
+    "dir_parent": "other/can",
+    "dir_file": "ctv-variant-tracker",
+    "file_name": "COVID-Variants",
+    "file_ext": "txt",
+    "dl_fun": "dl_file",
+    "args": {
+    }
+  },
+    {
     "id_name": "Other: QC - Covid Écoles Québec (Excel)",
     "uuid": "65b771e8-df5b-4a45-a4f6-f8e079e2d5f3",
     "active": "True",
