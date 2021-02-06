@@ -2179,7 +2179,7 @@
   },
     {
     "id_name": "QC - Liste des écoles comptant des cas de COVID-19 (webpage FR)",
-    "uuid": "",
+    "uuid": "4776c254-1fc2-4878-a6be-19caf86fb264",
     "active": "True",
     "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/liste-des-cas-de-covid-19-dans-les-ecoles/",
     "dir_parent": "qc",
@@ -2192,7 +2192,7 @@
   },
     {
     "id_name": "QC - List of schools reporting COVID-19 cases (webpage EN)",
-    "uuid": "",
+    "uuid": "495d8176-194b-49bd-b7c7-253b61175d3b",
     "active": "True",
     "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/list-schools-reporting-covid-19-cases/",
     "dir_parent": "qc",
