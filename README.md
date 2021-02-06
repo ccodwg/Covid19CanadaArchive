@@ -449,9 +449,23 @@ When both French and English data files are available, French files should gener
     * Status report on confirmed cases and deaths by CHSLD (residential and long-term care centres): [qc/status-report-cases-and-deaths-by-chsld/etat_situation_chsld.pdf](https://drive.google.com/drive/folders/15uQXy5cVSBYePYA5kb0-S7tIZ_ylCYF9)
     * Supplementary material: [Canadian Armed Forces report on their presence in CHSLDs](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec)
     * Terms of use: TBD
+* [Liste des écoles comptant des cas de COVID-19](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/liste-des-cas-de-covid-19-dans-les-ecoles/)
+    * Webpage (FR): [qc/schools-list-of-schools-webpage/schools-list-of-schools-webpage.html](https://drive.google.com/drive/folders/1yQT2mJgh6U28KM_RjVFa2NBBC_z6ckoS)
+    * List of schools - public and private school system (FR): [qc/schools-list-of-schools/reseauScolaire_listeEcoles.pdf](https://drive.google.com/drive/folders/10CgT6m9BXmE4oeyNgNh3fm0ix1fvLuD2)
+    * Terms of use: TBD
+* [List of schools reporting COVID-19 cases](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/list-schools-reporting-covid-19-cases/)
+    * Webpage (EN): [qc/schools-list-of-schools-webpage-en/schools-list-of-schools-webpage-en.html](https://drive.google.com/drive/folders/1lOwMKDGwcj1XTGaR_-RuviuIJ318_Dwn)
+    * List of schools - public and private school system (EN): [qc/schools-list-of-schools-en/reseauScolaire_listeEcoles_ANG.pdf](https://drive.google.com/drive/folders/13aRcjPc5A6hOvbTaplyymEUnaqRk3n6v)
+    * Terms of use: TBD
+* [Faits saillants des cas de COVID-19 dans les écoles du Québec](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/faits-saillants-covid-ecoles/)
+    * Webpage (FR): [qc/schools-highlights-webpage/schools-highlights-webpage.html](https://drive.google.com/drive/folders/14NK898AsQCh7d-MCRG-fu8G0KKQeFf_E)
+    * Terms of use: TBD
+* [Highlights - Public and Private School Systems](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/highlights-public-private-school-systems/)
+    * Webpage (EN): [qc/schools-highlights-webpage-en/schools-highlights-webpage-en.html](https://drive.google.com/drive/folders/1xyxgW3twAA5JMfIGeKDhbt6kHZgqeFe6)
+    * Terms of use: TBD
 * [Situation dans les établissements scolaires](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
-    * Highlights - public and private school system: [qc/schools-highlights/reseauScolaire_faitsSaillants.pdf](https://drive.google.com/drive/folders/1HtX-WTyzqo1FICQfJ08N0fTlPeJOMU_H)
-    * List of schools - public and private school system: [qc/schools-list-of-schools/reseauScolaire_listeEcoles.pdf](https://drive.google.com/drive/folders/10CgT6m9BXmE4oeyNgNh3fm0ix1fvLuD2)
+    * Highlights - public and private school system (FR): [qc/schools-highlights/reseauScolaire_faitsSaillants.pdf](https://drive.google.com/drive/folders/1HtX-WTyzqo1FICQfJ08N0fTlPeJOMU_H)
+    * Highlights - public and private school system (EN): [qc/schools-highlights-en/reseauScolaire_faitsSaillants_ANG.pdf](https://drive.google.com/drive/folders/1xO6MoS7rHwEPVSCiqUgnaZ-U8CPC86bP)
     * Formerly [Situation dans les établissements scolaires relative à la COVID-19](https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_ecole.pdf): qc/schools-list-of-schools/etat_situation_ecole_2020-09-04_2020-09-06/etat_situation_ecole.pdf
     * Formerly [Liste des écoles ayant au moins un cas rapporté de la COVID-19 depuis le 1er septembre 2020](https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/liste-ecole-cas-rapportes.pdf): qc/schools-list-of-schools/liste-ecole-cas-rapportes_2020-09-08_2020-09-09/liste-ecole-cas-rapportes.pdf
     * Terms of use: TBD
