@@ -37,6 +37,9 @@ from pydrive.drive import GoogleDrive
 ## GitHub
 from git import Repo
 
+# define ChromeDriver location (for localprod/localtest)
+CHROMEDRIVER_PATH_LOCAL = '/snap/bin/chromium.chromedriver' # Snap Chromium Chromedriver
+
 # define functions
 
 ## misc functions
@@ -393,7 +396,7 @@ def load_webdriver(tmpdir, user=False):
     if mode == 'serverprod' or mode == 'servertest':
         return webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
     else:
-        return webdriver.Chrome(options=options)
+        return webdriver.Chrome(executable_path=CHROMEDRIVER_PATH_LOCAL, options=options)
 
 def html_page(url, path, file, ext='.html', user=False, js=False, wait=None):
     """Save HTML of a webpage.
