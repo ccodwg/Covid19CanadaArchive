@@ -451,11 +451,12 @@ When both French and English data files are available, French files should gener
     * Terms of use: TBD
 * [Liste des écoles comptant des cas de COVID-19](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/liste-des-cas-de-covid-19-dans-les-ecoles/)
     * Webpage (FR): [qc/schools-list-of-schools-webpage/schools-list-of-schools-webpage.html](https://drive.google.com/drive/folders/1yQT2mJgh6U28KM_RjVFa2NBBC_z6ckoS)
-    * List of schools - public and private school system (FR): [qc/schools-list-of-schools/reseauScolaire_listeEcoles.pdf](https://drive.google.com/drive/folders/10CgT6m9BXmE4oeyNgNh3fm0ix1fvLuD2)
+    * List of schools (CSV): [qc/schools-list-of-schools-csv/Liste_ecole_DCOM.csv](https://drive.google.com/drive/folders/1-L_fgciUWPWbI7K5XaRzN93ifUgXZlRH)
+    * List of schools - public and private school system (PDF FR): [qc/schools-list-of-schools/reseauScolaire_listeEcoles.pdf](https://drive.google.com/drive/folders/10CgT6m9BXmE4oeyNgNh3fm0ix1fvLuD2)
     * Terms of use: TBD
 * [List of schools reporting COVID-19 cases](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/list-schools-reporting-covid-19-cases/)
     * Webpage (EN): [qc/schools-list-of-schools-webpage-en/schools-list-of-schools-webpage-en.html](https://drive.google.com/drive/folders/1lOwMKDGwcj1XTGaR_-RuviuIJ318_Dwn)
-    * List of schools - public and private school system (EN): [qc/schools-list-of-schools-en/reseauScolaire_listeEcoles_ANG.pdf](https://drive.google.com/drive/folders/13aRcjPc5A6hOvbTaplyymEUnaqRk3n6v)
+    * PDF list of schools - public and private school system (PDF EN): [qc/schools-list-of-schools-en/reseauScolaire_listeEcoles_ANG.pdf](https://drive.google.com/drive/folders/13aRcjPc5A6hOvbTaplyymEUnaqRk3n6v)
     * Terms of use: TBD
 * [Faits saillants des cas de COVID-19 dans les écoles du Québec](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/faits-saillants-covid-ecoles/)
     * Webpage (FR): [qc/schools-highlights-webpage/schools-highlights-webpage.html](https://drive.google.com/drive/folders/14NK898AsQCh7d-MCRG-fu8G0KKQeFf_E)
