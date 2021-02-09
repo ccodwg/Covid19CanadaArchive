@@ -2204,7 +2204,20 @@
     }
   },
     {
-    "id_name": "QC - List of schools - public and private school system (FR)",
+    "id_name": "QC - List of schools - public and private school system (CSV)",
+    "uuid": "d816b524-72d1-484d-9b6f-3f8effead9ed",
+    "active": "True",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/education/coronavirus/Liste_ecole_DCOM.csv",
+    "dir_parent": "qc",
+    "dir_file": "schools-list-of-schools-csv",
+    "file_name": "Liste_ecole_DCOM",
+    "file_ext": "csv",
+    "dl_fun": "dl_file",
+    "args": {
+    }
+  },
+    {
+    "id_name": "QC - List of schools - public and private school system (PDF FR)",
     "uuid": "f6a80d30-2617-4dc9-9ece-694dbe2340ad",
     "active": "True",
     "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/education/publications-adm/covid-19/reseauScolaire_listeEcoles.pdf",
@@ -2217,7 +2230,7 @@
     }
   },
     {
-    "id_name": "QC - List of schools - public and private school system (EN)",
+    "id_name": "QC - List of schools - public and private school system (PDF EN)",
     "uuid": "95d423ee-06a3-4cc9-96d5-704192bb3df2",
     "active": "True",
     "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/education/publications-adm/covid-19/reseauScolaire_listeEcoles_ANG.pdf",
