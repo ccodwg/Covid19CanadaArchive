@@ -1788,6 +1788,19 @@
     }
   },
     {
+    "id_name": "QC - Variants under enhanced surveillance",
+    "uuid": "584b0b29-e985-4cd7-b191-1386c3bfb965",
+    "active": "True",
+    "url": "https://inspq.qc.ca/sites/default/files/covid/donnees/variants.csv",
+    "dir_parent": "qc",
+    "dir_file": "variants",
+    "file_name": "variants",
+    "file_ext": "csv",
+    "dl_fun": "dl_file",
+    "args": {
+    }
+  },
+    {
     "id_name": "QC - Outbreaks by setting (FR)",
     "uuid": "b2cd8112-7423-4da3-9b70-567aec42e05b",
     "active": "True",

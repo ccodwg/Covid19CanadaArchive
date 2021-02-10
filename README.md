@@ -422,8 +422,11 @@ When both French and English data files are available, French files should gener
     * Vaccination situation (EN): [qc/vaccination-situation-en/situation-vaccination-en.csv](https://drive.google.com/drive/folders/1R3JYs4NT1k2ESctWNN6JfcfimnDkmmsq)
     * Vaccine doses administered by RSS (FR): [qc/vaccine-doses-admin-by-rss/doses-vaccins.csv](https://drive.google.com/drive/folders/1-ileQelY2aoJFcCSJSu3JG6bZrGWFFbS)
     * Vaccine doses administered by RSS (EN): [qc/vaccine-doses-admin-by-rss-en/doses-vaccins-en.csv](https://drive.google.com/drive/folders/1MWPkSGMfOMGqJNNv7LEJzWA1AAB3h3yI) (note: the first file in this dataset is only available as a screenshot; archived as of 2021-01-14, no longer part of the nightly update)
-    * Vaccine doses received (FR): [qc/vaccine-doses-received-7-days/doses-vaccins-7jours.csv](https://drive.google.com/drive/folders/1z-N_RuVWOqKO3pyCM8skkdhf_tkapPPE
-)
+    * Vaccine doses received (FR): [qc/vaccine-doses-received-7-days/doses-vaccins-7jours.csv](https://drive.google.com/drive/folders/1z-N_RuVWOqKO3pyCM8skkdhf_tkapPPE)
+    * Terms of use: TBD
+* [Variants de SRAS-CoV-2 sous surveillance rehaussée](https://inspq.qc.ca/covid-19/donnees/variants)
+    * [qc/variants/variants.csv](https://drive.google.com/drive/folders/1N_YG96fF93X9UnAYi17gmsteQXDaoH4V)
+    * Terms of use: TBD
 * [Données COVID-19 au Québec (INSPQ)](https://www.inspq.qc.ca/covid-19/donnees)
     * COVID-19 time series by region and demographics: [qc/covid-time-series-by-region-and-demographics/covid19-hist.csv](https://drive.google.com/drive/folders/18IVG9ivYK-kQ7joEZptyje6fu0rf4T7M)
     * COVID-19 data (charts - summary, time series, and hospitalization by age): [qc/covid-data-charts-summary-time-series-hosp-by-age/manual-data.csv](https://drive.google.com/drive/folders/1imkAJIUffYtI5KaYZxgiAtagXXDwckoX)
