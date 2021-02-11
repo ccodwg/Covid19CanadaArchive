@@ -55,7 +55,20 @@
     }
   },
     {
-    "id_name": "AB - COVID-19 vaccine distribution webpage",
+    "id_name": "AB - Cases in Alberta (webpage)",
+    "uuid": "d3b170a7-bb86-4bb0-b362-2adc5e6438c2",
+    "active": "True",
+    "url": "https://www.alberta.ca/covid19-vaccine.aspx",
+    "dir_parent": "ab",
+    "dir_file": "ab-cases-webpage",
+    "file_name": "ab-cases-webpage",
+    "file_ext": "html",
+    "dl_fun": "html_page",
+    "args": {
+    }
+  },
+    {
+    "id_name": "AB - COVID-19 vaccine distribution (webpage)",
     "uuid": "5c34c720-1a89-4486-8217-5f33545af9cb",
     "active": "True",
     "url": "https://www.alberta.ca/covid19-vaccine.aspx",
