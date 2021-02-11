@@ -683,6 +683,19 @@
     }
   },
     {
+    "id_name": "CAN - Testing for COVID-19 - Increasing testing supply (webpage)",
+    "uuid": "c049f075-930a-4f7c-be88-302d012a6489",
+    "active": "True",
+    "url": "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/symptoms/testing/increased-supply.html",
+    "dir_parent": "can",
+    "dir_file": "testing-supply-webpage",
+    "file_name": "testing-supply-webpage",
+    "file_ext": "html",
+    "dl_fun": "html_page",
+    "args": {
+    }
+  },
+    {
     "id_name": "CAN - Detailed preliminary information on cases of COVID-19: 6 Dimensions (Aggregated data)",
     "uuid": "299837dc-d9fa-47d6-95e0-41a5ef634945",
     "active": "True",
