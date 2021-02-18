@@ -1827,19 +1827,6 @@
     }
   },
     {
-    "id_name": "QC - Outbreaks by setting (EN)",
-    "uuid": "20c84018-f0e4-4d24-bef1-bdc703592267",
-    "active": "True",
-    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/eclosions-par-milieu-en.csv",
-    "dir_parent": "qc",
-    "dir_file": "outbreaks-by-setting-en",
-    "file_name": "eclosions-par-milieu-en",
-    "file_ext": "csv",
-    "dl_fun": "dl_file",
-    "args": {
-    }
-  },
-    {
     "id_name": "QC - Cases percentage by age group (FR)",
     "uuid": "b9d563b5-2cc4-45f8-ad7c-a43ba2ca967e",
     "active": "True",
@@ -1847,19 +1834,6 @@
     "dir_parent": "qc",
     "dir_file": "cases-percentage-by-age-group",
     "file_name": "pourcentage-cas-age",
-    "file_ext": "csv",
-    "dl_fun": "dl_file",
-    "args": {
-    }
-  },
-    {
-    "id_name": "QC - Cases percentage by age group (EN)",
-    "uuid": "33faa2b7-b874-4a2b-ac2b-2735129668e7",
-    "active": "True",
-    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-cas-age-en.csv",
-    "dir_parent": "qc",
-    "dir_file": "cases-percentage-by-age-group-en",
-    "file_name": "pourcentage-cas-age-en",
     "file_ext": "csv",
     "dl_fun": "dl_file",
     "args": {
@@ -1879,19 +1853,6 @@
     }
   },
     {
-    "id_name": "QC - Deaths percentage by age group (EN)",
-    "uuid": "bd2c0a27-6e70-4a12-a602-00885f1d2947",
-    "active": "True",
-    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-deces-age-en.csv",
-    "dir_parent": "qc",
-    "dir_file": "deaths-percentage-by-age-group-en",
-    "file_name": "pourcentage-deces-age-en",
-    "file_ext": "csv",
-    "dl_fun": "dl_file",
-    "args": {
-    }
-  },
-    {
     "id_name": "QC - Cumulative deaths by region (FR)",
     "uuid": "50d7d98b-d7d1-4e0c-a47d-5983565d17c7",
     "active": "True",
@@ -1899,19 +1860,6 @@
     "dir_parent": "qc",
     "dir_file": "cumulative-deaths-by-region",
     "file_name": "deces-region",
-    "file_ext": "csv",
-    "dl_fun": "dl_file",
-    "args": {
-    }
-  },
-    {
-    "id_name": "QC - Cumulative deaths by region (EN)",
-    "uuid": "e8caf7e4-54b2-4db8-8213-57bafd81fa93",
-    "active": "True",
-    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/deces-region-en.csv",
-    "dir_parent": "qc",
-    "dir_file": "cumulative-deaths-by-region-en",
-    "file_name": "deces-region-en",
     "file_ext": "csv",
     "dl_fun": "dl_file",
     "args": {
@@ -1951,19 +1899,6 @@
     "dir_parent": "qc",
     "dir_file": "covid-data-daily-7-days",
     "file_name": "synthese-7jours",
-    "file_ext": "csv",
-    "dl_fun": "dl_file",
-    "args": {
-    }
-  },
-    {
-    "id_name": "QC - COVID-19 daily data 7 days (EN)",
-    "uuid": "bc538f7e-9f2a-43a1-a6f2-0bf1830acd41",
-    "active": "True",
-    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/synthese-7jours-en.csv",
-    "dir_parent": "qc",
-    "dir_file": "covid-data-daily-7-days-en",
-    "file_name": "synthese-7jours-en",
     "file_ext": "csv",
     "dl_fun": "dl_file",
     "args": {
@@ -2571,6 +2506,71 @@
     "dir_file": "covid-ecoles-quebec-school-list",
     "file_name": "COVIDECOLESQUEBEC",
     "file_ext": "xlsx",
+    "dl_fun": "dl_file",
+    "args": {
+    }
+  },
+    {
+    "id_name": "QC - Outbreaks by setting (EN)",
+    "uuid": "20c84018-f0e4-4d24-bef1-bdc703592267",
+    "active": "False",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/eclosions-par-milieu-en.csv",
+    "dir_parent": "qc",
+    "dir_file": "outbreaks-by-setting-en",
+    "file_name": "eclosions-par-milieu-en",
+    "file_ext": "csv",
+    "dl_fun": "dl_file",
+    "args": {
+    }
+  },
+    {
+    "id_name": "QC - COVID-19 daily data 7 days (EN)",
+    "uuid": "bc538f7e-9f2a-43a1-a6f2-0bf1830acd41",
+    "active": "False",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/synthese-7jours-en.csv",
+    "dir_parent": "qc",
+    "dir_file": "covid-data-daily-7-days-en",
+    "file_name": "synthese-7jours-en",
+    "file_ext": "csv",
+    "dl_fun": "dl_file",
+    "args": {
+    }
+  },
+    {
+    "id_name": "QC - Cumulative deaths by region (EN)",
+    "uuid": "e8caf7e4-54b2-4db8-8213-57bafd81fa93",
+    "active": "False",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/deces-region-en.csv",
+    "dir_parent": "qc",
+    "dir_file": "cumulative-deaths-by-region-en",
+    "file_name": "deces-region-en",
+    "file_ext": "csv",
+    "dl_fun": "dl_file",
+    "args": {
+    }
+  },
+    {
+    "id_name": "QC - Cases percentage by age group (EN)",
+    "uuid": "33faa2b7-b874-4a2b-ac2b-2735129668e7",
+    "active": "False",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-cas-age-en.csv",
+    "dir_parent": "qc",
+    "dir_file": "cases-percentage-by-age-group-en",
+    "file_name": "pourcentage-cas-age-en",
+    "file_ext": "csv",
+    "dl_fun": "dl_file",
+    "args": {
+    }
+  },
+    {
+    "id_name": "QC - Deaths percentage by age group (EN)",
+    "uuid": "bd2c0a27-6e70-4a12-a602-00885f1d2947",
+    "active": "False",
+    "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-deces-age-en.csv",
+    "dir_parent": "qc",
+    "dir_file": "deaths-percentage-by-age-group-en",
+    "file_name": "pourcentage-deces-age-en",
+    "file_ext": "csv",
     "dl_fun": "dl_file",
     "args": {
     }
