@@ -425,7 +425,7 @@ When both French and English data files are available, French files should gener
     * [Webpage EN](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/covid-19-vaccination-data/): [qc/qc-vaccination-webpage-en/qc-vaccination-webpage-en.html](https://drive.google.com/drive/folders/1h-b5MPDH3BpwP2mFdZfagrWx1x704AMR)
     * [Webpage FR](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/donnees-sur-la-vaccination-covid-19/): [qc/qc-vaccination-webpage-fr/qc-vaccination-webpage-fr.html](https://drive.google.com/drive/folders/1DXrSwretQqG8RU-Dzhd-eODxCjlEnIIk)
     * Vaccination situation (FR): [qc/vaccination-situation/situation-vaccination.csv](https://drive.google.com/drive/folders/1ALtsdeHdlyYxNx1JICL6yw2tGzwoIcE5)
-    * Vaccination situation (EN): [qc/vaccination-situation-en/situation-vaccination-en.csv](https://drive.google.com/drive/folders/1R3JYs4NT1k2ESctWNN6JfcfimnDkmmsq)
+    * Vaccination situation (EN): [qc/vaccination-situation-en/situation-vaccination-en.csv](https://drive.google.com/drive/folders/1R3JYs4NT1k2ESctWNN6JfcfimnDkmmsq) [archived: no longer updated]
     * Vaccine doses administered by RSS (FR): [qc/vaccine-doses-admin-by-rss/doses-vaccins.csv](https://drive.google.com/drive/folders/1-ileQelY2aoJFcCSJSu3JG6bZrGWFFbS)
     * Vaccine doses administered by RSS (EN): [qc/vaccine-doses-admin-by-rss-en/doses-vaccins-en.csv](https://drive.google.com/drive/folders/1MWPkSGMfOMGqJNNv7LEJzWA1AAB3h3yI) (note: the first file in this dataset is only available as a screenshot; archived as of 2021-01-14, no longer part of the nightly update)
     * Vaccine doses received (FR): [qc/vaccine-doses-received-7-days/doses-vaccins-7jours.csv](https://drive.google.com/drive/folders/1z-N_RuVWOqKO3pyCM8skkdhf_tkapPPE)
@@ -488,8 +488,8 @@ When both French and English data files are available, French files should gener
     * [qc/active-hospitalizations-per-hosp/tableau-hospitalisations.pdf](https://drive.google.com/drive/folders/1xrVqErf7QfZT-GCccbCA30oqVvtZ8pR3)
     * Terms of use: TBD
 * Vaccination of priority groups
-    * FR: [vaccination-of-priority-groups](https://drive.google.com/drive/folders/14gHszA6zjkXDPfL7-RT0rfMxhVW8vbDx)
-    * EN: [vaccination-of-priority-groups-en](https://drive.google.com/drive/folders/1ZFdH_8UD1YgpZnF0YLJ0y2AC1mPbIqbZ)
+    * FR: [vaccination-of-priority-groups](https://drive.google.com/drive/folders/14gHszA6zjkXDPfL7-RT0rfMxhVW8vbDx) [archived: no longer updated]
+    * EN: [vaccination-of-priority-groups-en](https://drive.google.com/drive/folders/1ZFdH_8UD1YgpZnF0YLJ0y2AC1mPbIqbZ) [archived: no longer updated]
     * Terms of use: TBD
 
 #### Montreal
