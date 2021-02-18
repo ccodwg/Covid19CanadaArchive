@@ -155,7 +155,7 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * PHAC provincial data update notes: [can/provincial-data-update-notes/covid19-epiSummary-exceptions.csv](https://drive.google.com/drive/folders/1pm-8sIMNWlk-F_6g8rN8QumT_-VzCnhW)
     * Terms of use: [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
 * [Testing for COVID-19: Increasing testing supply](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/symptoms/testing/increased-supply.html)
-    * Webpage: [can/testing-supply-webpage/testing-supply-webpage.html](https://drive.google.com/drive/folders/1_NQ81jtd7ajWuKRvHV6GPJNeBXd3jMbh)
+    * Webpage: [can/testing-supply-webpage/testing-supply-webpage.html](https://drive.google.com/drive/folders/1KohYqBs9p49kQGIzxtR5jmCa5Gqz86Un)
     * Terms of use: [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
 * [COVIDTrends](https://health-infobase.canada.ca/covid-19/covidtrends/)
     * Mobility: [can/covidtrends-mobility/mobility.csv](https://drive.google.com/drive/folders/1rywSZlhHQzv7L9r8dIo7_hWgquTG7U45) [dataset is updated only on Thursdays]
