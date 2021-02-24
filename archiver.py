@@ -69,10 +69,16 @@ if archivist.mode == 'serverprod' or archivist.mode == 'localprod':
 # define time script started running in America/Toronto time zone
 t = archivist.get_datetime('America/Toronto')
 
-# load dataset info
+# load active datasets
 with open('data/datasets.json') as json_file:
-        ds = json.load(json_file)
-ds = {item['id_name']: item for item in ds} # convert to single dict
+        datasets = json.load(json_file)
+datasets = datasets['active'] # subset active datasets
+
+# convert datasets into single dictionary
+ds = {} # create empty dictionary
+for d in datasets:
+        for i in range(len(datasets[d])):
+                ds[datasets[d][i]['id_name']] = datasets[d][i]
 
 # create dict of download functions
 dl_funs = {
