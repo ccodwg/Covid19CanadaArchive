@@ -1,11 +1,6 @@
-# temporary files
-temp/
-temp_archive/
-
-# google drive
+# secrets
+.aws
 .gd
-
-# github
 .gh
 
 # Byte-compiled / optimized / DLL files
