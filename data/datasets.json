@@ -2209,7 +2209,7 @@
         "id_name": "SK - Saskatchewan's Dashboard - Total Tests (webpage)",
         "uuid": "cdbb8bba-e26a-4415-b729-9882c2575d38",
         "active": "True",
-        "url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19/tests",
+        "url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19-tests/tests",
         "dir_parent": "sk",
         "dir_file": "tests-by-region-webpage",
         "file_name": "tests-webpage",
