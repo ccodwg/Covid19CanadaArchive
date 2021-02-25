@@ -17,7 +17,8 @@ init_colorit() # enable printing with colour
 import archivist
 
 # list of environmental variables used in this script (through functions in archivist.py)
-## GD_KEY: environmental variable of Google Drive credentials as a simple string (used when mode = server)
+## AWS_ID: environmental variable of AWS ID (used when mode = server)
+## AWS_KEY: environmental variable of AWS key (used when mode = server)
 ## GH_TOKEN: personal access token for the GitHub API (used when mode = server)
 ## GH_NAME: name to use for GitHub commits (used when mode = server)
 ## GH_MAIL: email address to use for GitHub commits (used when mode = server)
@@ -36,20 +37,13 @@ archivist.success = 0 # success counter
 archivist.failure = 0 # failure counter
 archivist.log_text = '' # recent log
 
-# access Google Drive
+# access Amazon S3
 if archivist.mode == 'serverprod' or archivist.mode == 'localprod':
-        ## access Google Drive
-        archivist.drive = archivist.access_gd()
-
-        ## create httplib.Http() object
-        archivist.http = archivist.create_http(archivist.drive)
-
-        ## set log file IDs
-        archivist.log_id = '10tbxUYVfghhzvoGOi8piHBHHGn0MgU7X'  # ID of log.txt
-        archivist.log_recent_id = '1x0zCPzgKRpme5NOxUiYWHCrfiDUbsAFM'  # ID of log_recent.txt
-
-# load directory ID list
-archivist.dir_ids = archivist.load_dir_ids()
+        ## access S3
+        archivist.s3 = archivist.access_s3(bucket='data.opencovid.ca')
+        
+        ## set S3 path prefix for achived files
+        archivist.prefix = 'archive'
 
 # clone GitHub repo
 if archivist.mode == 'serverprod' or archivist.mode == 'localprod':
@@ -65,6 +59,10 @@ if archivist.mode == 'serverprod' or archivist.mode == 'localprod':
         ## clone repo to temporary directory
         repo_tmpdir = archivist.tempfile.TemporaryDirectory()
         archivist.repo = archivist.clone_gh(repo_tmpdir)
+
+# define ChromeDriver location (for localprod/localtest)
+if archivist.mode == 'localprod' or archivist.mode == 'localtest':
+        archivist.CHROMEDRIVER_PATH_LOCAL = '/snap/bin/chromium.chromedriver' # Snap Chromium Chromedriver
 
 # define time script started running in America/Toronto time zone
 t = archivist.get_datetime('America/Toronto')
@@ -173,7 +171,8 @@ for key in ds:
         ## run download function
         dl_fun(
                 url = ds[key]['url'],
-                path = '/'.join([ds[key]['dir_parent'], ds[key]['dir_file']]) + '/',
+                dir_parent = ds[key]['dir_parent'],
+                dir_file = ds[key]['dir_file'],
                 file = ds[key]['file_name'],
                 ext = ext,
                 **ds[key]['args']
@@ -183,5 +182,5 @@ for key in ds:
 archivist.print_success_failure()
 
 # Upload log of file uploads
-if archivist.mode == 'serverprod' or archivist.mode == 'localprod':
-        archivist.upload_log(t)
+#if archivist.mode == 'serverprod' or archivist.mode == 'localprod':
+        #archivist.upload_log(t)

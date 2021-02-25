@@ -29,16 +29,11 @@ from selenium import webdriver # requires ChromeDriver and Chromium/Chrome
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 
-## Google Drive
-from oauth2client import service_account
-from pydrive.auth import GoogleAuth
-from pydrive.drive import GoogleDrive
+## Amazon S3
+import boto3
 
 ## GitHub
 from git import Repo
-
-# define ChromeDriver location (for localprod/localtest)
-CHROMEDRIVER_PATH_LOCAL = '/snap/bin/chromium.chromedriver' # Snap Chromium Chromedriver
 
 # define functions
 
@@ -76,85 +71,68 @@ def find_url(search_url, regex, base_url):
     url = base_url + re.search(regex, requests.get(search_url).text).group(0)
     return url
 
-## functions for Google Drive
+## functions for Amazon S3
 
-def access_gd():
-    """Authenticate with Google Drive and return GoogleDrive object.
+def access_s3(bucket):
+    """Authenticate with AWS and return s3 object.
+    
+    Parameters:
+    bucket (str): Name of Amazon S3 bucket.
     
     """
     global mode
-    print('Authenticating with Google Drive...')
-    ## retrieve Google Drive credentials
+    print('Authenticating with AWS...')
+    ## retrieve Amazon S3 credentials
     if mode == 'serverprod' or mode == 'servertest':
-        gd_key_val = json.loads(os.environ['GD_KEY'], strict=False)
-        tmpdir = tempfile.TemporaryDirectory()
-        d_key = os.path.join(tmpdir.name, ".gd_key.json")
-        with open(gd_key, mode='w', encoding='utf-8') as local_file:
-            json.dump(gd_key_val, local_file, ensure_ascii=False, indent=4)
+        aws_id = os.environ['AWS_ID']
+        aws_key = os.environ['AWS_KEY']
     elif mode == 'localprod' or mode == 'localtest':
         if '__file__' in globals():
-            script_path = os.path.dirname(os.path.abspath(__file__))
+            cred_path = os.path.dirname(os.path.abspath(__file__))
         else:
-            script_path = os.getcwd()
-        gd_key = os.path.join(script_path, ".gd", ".gd_key.json")                
+            cred_path = os.getcwd()
+        with open(os.path.join(cred_path, ".aws", ".aws_id"), 'r') as local_file:
+            aws_id = local_file.read().splitlines()[0]
+        with open(os.path.join(cred_path, ".aws", ".aws_key"), 'r') as local_file:
+            aws_key = local_file.read().splitlines()[0]
     
-    ## authenticate Google Drive access
-    gauth = GoogleAuth()
-    scope = ['https://www.googleapis.com/auth/drive']
-    gauth.credentials = service_account.ServiceAccountCredentials.from_json_keyfile_name(gd_key, scope)
+    ## connect to AWS
+    aws = boto3.Session(
+        aws_access_key_id=aws_id,
+        aws_secret_access_key=aws_key
+        )
     
-    ## initialize Goodle Drive object
-    drive = GoogleDrive(gauth)
+    ## connect to S3 bucket
+    s3 = aws.resource('s3').Bucket(bucket)
     
     ## confirm authentication was successful
     print('Authentication was successful.')    
     
-    ## return Google Drive object
-    return drive  
+    ## return s3 object
+    return s3
 
-def load_dir_ids():
-    dir_ids = pd.read_csv("https://raw.githubusercontent.com/jeanpaulrsoucy/covid-19-canada-gov-data/master/data/data_id.csv")
-    return dir_ids
-
-def create_http(drive):
-    """Create httplib.Http() object for re-use when uploading using PyDrive.
-    
-    Parameters:
-    drive: The GoogleDrive object for which to.
-    
-    See "Concurrent access made easy" at the following URL for why this may be useful: https://pypi.org/project/PyDrive/
-    
-    """
-    ## create httplib.Http() object
-    http = drive.auth.Get_Http_Object()
-    
-    ## return httplib.Http() object
-    return(http)
-
-def upload_file(full_name, f_path):
-    """Upload local file to Google Drive.
+def upload_file(full_name, f_path, s3_dir=None, s3_prefix=None):
+    """Upload local file to Amazon S3.
 
     Parameters:
-    full_name (str): Output filename with timestamp, extension, and relative path.
+    full_name (str): Output filename with timestamp, extension and relative path.
     f_path (str): The path to the local file to upload.
+    s3_dir(str): Optional. The directory on Amazon S3.
+    s3_prefix (str): Optional. The prefix to the directory on Amazon S3.
 
     """
-    global drive, http, log_text, success, failure, dir_ids
-
-    ## get Google Drive folder ID        
-    dir_file = os.path.dirname(full_name).split('/')[-1]
-    dir_parent = os.path.dirname(os.path.dirname(full_name))
-    dir_id = dir_ids.loc[(dir_ids['dir_parent'] == dir_parent) & (dir_ids['dir_file'] == dir_file), 'dir_id'].values[0]
+    global s3, log_text, success, failure
     
     ## generate file name
     f_name = os.path.basename(full_name)
-    
-    ## upload file to Google Drive
+    if (s3_dir):
+        f_name = os.path.join(s3_dir, f_name)
+    if (s3_prefix):
+        f_name = os.path.join(s3_prefix, f_name)
+    ## upload file to Amazon S3
     try:
         ## file upload
-        drive_file = drive.CreateFile(metadata={'title': f_name, 'parents': [{'id': dir_id}]})
-        drive_file.SetContentFile(f_path)
-        drive_file.Upload(param={"http": http})
+        s3.upload_file(Filename=f_path, Key=f_name)
         ## append name of file to the log message
         log_text = log_text + 'Success: ' + full_name + '\n'
         print(color('Upload successful: ' + full_name, Colors.blue))
@@ -165,7 +143,7 @@ def upload_file(full_name, f_path):
         failure+=1
 
 def upload_log(t):
-    """Upload the log of file uploads to Google Drive.
+    """Upload the log of file uploads to Amazon S3.
 
     The most recent log entry is placed in a separate file for easy access.
 
@@ -173,7 +151,7 @@ def upload_log(t):
     t (datetime): Date and time script began running (America/Toronto).
 
     """
-    global drive, http, log_id, log_recent_id, log_text, success, failure
+    global s3, log_text, success, failure
     print("Uploading recent log...")
     try:
         ## build most recent log entry
@@ -181,10 +159,12 @@ def upload_log(t):
         log_text = 'Successful downloads : ' + str(success) + '/' + total_files + '\n' + 'Failed downloads: ' + str(failure) + '/' + total_files + '\n\n' + log_text
         log_text = str(t) + '\n\n' + 'Nightly update: ' + str(t.date()) + '\n\n' + log_text
         
-        ## upload log_recent.txt
-        drive_file = drive.CreateFile({'id': log_recent_id})
-        drive_file.SetContentString(log_text)
-        drive_file.Upload(param={"http": http})
+        ## write log temporarily and upload
+        tmpdir = tempfile.TemporaryDirectory()
+        log_file = os.path.join(tmpdir.name, 'log.txt')
+        with open(log_file, 'w') as local_file:
+            local_file.write(log_text)
+        s3.upload_file(Filename=log_file, Key='archive/log_recent.txt')
 
         ## report success
         print(color('Recent log upload successful!', Colors.green))
@@ -193,20 +173,21 @@ def upload_log(t):
     print("Appending recent log to full log...")
     try:
         ## read in full log
-        drive_file = drive.CreateFile({'id': log_id})
         tmpdir = tempfile.TemporaryDirectory()
         log_file = os.path.join(tmpdir.name, 'log.txt')
-        drive_file.GetContentFile(log_file)
+        s3.download_file(Filename=log_file, Key='archive/log.txt')
         with open(log_file, 'r') as full_log:
             full_log = full_log.read()
 
         ## append recent log to full log
         log_text = full_log + '\n\n' + log_text
 
-        ## upload log.txt
-        drive_file = drive.CreateFile({'id': log_id})
-        drive_file.SetContentString(log_text)
-        drive_file.Upload(param={"http": http})                
+        ## write log temporarily and upload
+        tmpdir = tempfile.TemporaryDirectory()
+        log_file = os.path.join(tmpdir.name, 'log.txt')
+        with open(log_file, 'w') as local_file:
+            local_file.write(log_text)
+        s3.upload_file(Filename=log_file, Key='archive/log.txt')
 
         ## report success
         print(color('Full log upload successful!', Colors.green))                
@@ -243,7 +224,7 @@ def commit_gh(repo, file_list, commit_message):
 
 ## functions for web scraping
 
-def dl_file(url, path, file, ext='.csv', user=False, verify=True, unzip=False, ab_json_to_csv=False, mb_json_to_csv=False):
+def dl_file(url, dir_parent, dir_file, file, ext='.csv', user=False, verify=True, unzip=False, ab_json_to_csv=False, mb_json_to_csv=False):
     """Download file (generic).
 
     Used to download most file types (when Selenium is not required). Some files are handled with file-specific code:
@@ -254,7 +235,8 @@ def dl_file(url, path, file, ext='.csv', user=False, verify=True, unzip=False, a
 
     Parameters:
     url (str): URL to download file from.
-    path (str): Path to output file (excluding file name). Example: 'can/epidemiology-update/'
+    dir_parent (str): The parent directory. Example: 'other/can'.
+    dir_file (str): The file directory ('epidemiology-update').
     file (str): Output file name (excluding extension). Example: 'covid19'
     ext (str): Extension of the output file. Defaults to '.csv'.
     user (bool): Should the request impersonate a normal browser? Needed to access some data. Default: False.
@@ -264,11 +246,11 @@ def dl_file(url, path, file, ext='.csv', user=False, verify=True, unzip=False, a
     mb_json_to_csv (bool): If True, this is a Manitoba JSON file that that should be converted to CSV. Default: False.
 
     """
-    global mode, log_text, success, failure
+    global mode, log_text, success, failure, prefix
 
     ## set names with timestamp and file ext
     name = file + '_' + get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
-    full_name = os.path.join(path, name + ext)
+    full_name = os.path.join(dir_parent, dir_file, name + ext)  
 
     ## download file
     try:
@@ -297,8 +279,6 @@ def dl_file(url, path, file, ext='.csv', user=False, verify=True, unzip=False, a
         else:
             if unzip:
                 ## unzip data
-                name = file + '_' + get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
-                full_name = os.path.join(path, name + ext)
                 tmpdir = tempfile.TemporaryDirectory()
                 zpath = os.path.join(tmpdir.name, 'zip_file.zip')
                 with open(zpath, mode='wb') as local_file:
@@ -318,9 +298,7 @@ def dl_file(url, path, file, ext='.csv', user=False, verify=True, unzip=False, a
                     ## write CSV
                     data.to_csv(f_path, index=None, quoting=csv.QUOTE_NONNUMERIC)
             elif ab_json_to_csv:
-                ## for Alberta JSON data only: extract JSON from webpage, convert JSON to CSV and save as temporary file
-                name = file + '_' + get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
-                full_name = os.path.join(path, name + ext)                          
+                ## for Alberta JSON data only: extract JSON from webpage, convert JSON to CSV and save as temporary file                    
                 tmpdir = tempfile.TemporaryDirectory()
                 f_path = os.path.join(tmpdir.name, file + ext)
                 data = re.search("(?<=\"data\"\:)\[\[.*\]\]", req.text).group(0)
@@ -347,9 +325,7 @@ def dl_file(url, path, file, ext='.csv', user=False, verify=True, unzip=False, a
                 with open(f_path, 'w') as local_file:
                     local_file.write(data[:-1])
             elif mb_json_to_csv:
-                ## for Manitoba JSON data only: convert JSON to CSV and save as temporary file
-                name = file + '_' + get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
-                full_name = os.path.join(path, name + ext)                          
+                ## for Manitoba JSON data only: convert JSON to CSV and save as temporary file                    
                 tmpdir = tempfile.TemporaryDirectory()
                 f_path = os.path.join(tmpdir.name, file + ext)
                 data = pd.json_normalize(json.loads(req.content)['features'])
@@ -365,9 +341,11 @@ def dl_file(url, path, file, ext='.csv', user=False, verify=True, unzip=False, a
                 with open(f_path, mode='wb') as local_file:
                     local_file.write(req.content)
             ## upload file
-            upload_file(full_name, f_path)
-    except:
+            s3_dir = os.path.join(dir_parent, dir_file)
+            upload_file(full_name, f_path, s3_dir=s3_dir, s3_prefix=prefix)
+    except Exception as e:
         ## print failure
+        print(e)
         print(background('Error downloading: ' + full_name, Colors.red))
         failure+=1
         ## write failure to log message if mode == prod
@@ -398,13 +376,13 @@ def load_webdriver(tmpdir, user=False):
     else:
         return webdriver.Chrome(executable_path=CHROMEDRIVER_PATH_LOCAL, options=options)
 
-def html_page(url, path, file, ext='.html', user=False, js=False, wait=None):
+def html_page(url, dir_parent, dir_file, file, ext='.html', user=False, js=False, wait=None):
     """Save HTML of a webpage.
 
     Parameters:
     url (str): URL to screenshot.
-    path (str): Path to output file (excluding file name). Example: 'can/epidemiology-update/'
-    file (str): Output file name (excluding extension). Example: 'covid19'
+    dir_parent (str): The parent directory. Example: 'other/can'.
+    dir_file (str): The file directory ('epidemiology-update').
     ext (str): Extension of the output file. Defaults to '.html'.
     user (bool): Should the request impersonate a normal browser? Needed to access some data. Default: False.
     js (bool): Is the HTML source rendered by JavaScript?
@@ -415,7 +393,7 @@ def html_page(url, path, file, ext='.html', user=False, js=False, wait=None):
     
     ## set names with timestamp and file ext
     name = file + '_' + get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
-    full_name = os.path.join(path, name + ext)        
+    full_name = os.path.join(dir_parent, dir_file, name + ext)        
 
     ## download file
     try:
@@ -454,27 +432,29 @@ def html_page(url, path, file, ext='.html', user=False, js=False, wait=None):
         ## successful request: mode == prod, prepare files for data upload
         else:
             ## upload file
-            upload_file(full_name, f_path)
+            s3_dir = os.path.join(dir_parent, dir_file)
+            upload_file(full_name, f_path, s3_dir=s3_dir, s3_prefix=prefix)
 
         ## quit webdriver
         driver.quit()
-    except:
+    except Exception as e:
         ## print failure
+        print(e)
         print(background('Error downloading: ' + full_name, Colors.red))
         failure+=1
         ## write failure to log message if mode == prod
         if mode == 'serverprod' or mode == 'localprod':
             log_text = log_text + 'Failure: ' + full_name + '\n'             
 
-def ss_page(url, path, file, ext='.png', user=False, wait=5, width=None, height=None):
+def ss_page(url, dir_parent, dir_file, file, ext='.png', user=False, wait=5, width=None, height=None):
     """Take a screenshot of a webpage.
 
     By default, Selenium attempts to capture the entire page.
 
     Parameters:
     url (str): URL to screenshot.
-    path (str): Path to output file (excluding file name). Example: 'can/epidemiology-update/'
-    file (str): Output file name (excluding extension). Example: 'covid19'
+    dir_parent (str): The parent directory. Example: 'other/can'.
+    dir_file (str): The file directory ('epidemiology-update').
     ext (str): Extension of the output file. Defaults to '.png'.
     user (bool): Should the request impersonate a normal browser? Needed to access some data. Default: False.
     wait (int): Time in seconds that the function should wait. Should be > 0 to ensure the entire page is captured.
@@ -486,7 +466,7 @@ def ss_page(url, path, file, ext='.png', user=False, wait=5, width=None, height=
 
     ## set names with timestamp and file ext
     name = file + '_' + get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
-    full_name = os.path.join(path, name + ext)        
+    full_name = os.path.join(dir_parent, dir_file, name + ext)        
 
     ## download file
     try:
@@ -529,7 +509,8 @@ def ss_page(url, path, file, ext='.png', user=False, wait=5, width=None, height=
                 success+=1
             else:
                 ## upload file
-                upload_file(full_name, f_path)
+                s3_dir = os.path.join(dir_parent, dir_file)
+                upload_file(full_name, f_path, s3_dir=s3_dir, s3_prefix=prefix)
         except Exception as e:
             ## print exception
             print(e)
@@ -542,8 +523,9 @@ def ss_page(url, path, file, ext='.png', user=False, wait=5, width=None, height=
 
         ## quit webdriver
         driver.quit()
-    except:
+    except Exception as e:
         ## print failure
+        print(e)
         print(background('Error downloading: ' + full_name, Colors.red))
         failure+=1
         ## write failure to log message if mode == prod

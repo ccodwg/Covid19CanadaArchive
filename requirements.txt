@@ -4,6 +4,5 @@ requests
 selenium
 bs4
 color-it
-oauth2client
-PyDrive
+boto3
 gitpython
