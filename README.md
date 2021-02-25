@@ -72,31 +72,31 @@ The sources and terms of use for each included dataset are linked below. Supplem
 ### Alberta
 
 * [COVID-19 Alberta statistics](https://www.alberta.ca/stats/covid-19-alberta-statistics.htm)
-    * [ab/cases/covid19dataexport.csv](https://drive.google.com/drive/folders/1iovWxEIDHPfS1foRZCPgugxXTBeoMjsc)
+    * [ab/cases/covid19dataexport.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: Assumed to be [Open Government Licence - Alberta](https://open.alberta.ca/licence); see also the disclaimer in the "data notes" tab of the [website](https://www.alberta.ca/stats/covid-19-alberta-statistics.htm)
 * [COVID-19 relaunch status map](https://www.alberta.ca/maps/covid-19-status-map.htm)
-    * [ab/active-cases-by-region/covid19dataexport-relaunch.csv](https://drive.google.com/drive/folders/1IdoOr_ncaujctgkD4bmqLfl5QalTBcIF)
+    * [ab/active-cases-by-region/covid19dataexport-relaunch.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: Assumed to be [Open Government Licence - Alberta](https://open.alberta.ca/licence)
 * [COVID-19 school status map](https://www.alberta.ca/schools/covid-19-school-status-map.htm)
-    * [ab/school-status-by-region/covid19dataexport-schools.csv](https://drive.google.com/drive/folders/1x1VYSe39dymoyLWy0ZhwR01cbk0pzL2y)
+    * [ab/school-status-by-region/covid19dataexport-schools.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: Assumed to be [Open Government Licence - Alberta](https://open.alberta.ca/licence)
 * [Cases in Alberta](https://www.alberta.ca/covid-19-alberta-data.aspx)
-    * Webpage: [ab/ab-cases-webpage/ab-cases-webpage.html](https://drive.google.com/drive/folders/1_NQ81jtd7ajWuKRvHV6GPJNeBXd3jMbh)
+    * Webpage: [ab/ab-cases-webpage/ab-cases-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: Assumed to be [Open Government Licence - Alberta](https://open.alberta.ca/licence)
 * [COVID-19 vaccine distribution](https://www.alberta.ca/covid19-vaccine.aspx)
-    * Webpage: [ab/ab-vaccine-distribution-webpage](https://drive.google.com/drive/folders/17iX-9kz0mu0ksT-htxSD_8CCa4xFhtDx)
+    * Webpage: [ab/ab-vaccine-distribution-webpage](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: Assumed to be [Open Government Licence - Alberta](https://open.alberta.ca/licence)
 
 #### Edmonton
 
 * [COVID-19 in Alberta: Current cases by local geographic area (Edmonton)](https://data.edmonton.ca/Community-Services/COVID-19-in-Alberta-Current-cases-by-local-geograp/ix8f-s9xp)
-    * [ab/edmonton-cases-by-area/COVID-19_in_Alberta__Current_cases_by_local_geographic_area.csv](https://drive.google.com/drive/folders/1kSMAgRDBJLco_bmgPP3rde-hgqT7NUiw)
+    * [ab/edmonton-cases-by-area/COVID-19_in_Alberta__Current_cases_by_local_geographic_area.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: Assumed to be [City of Edmonton Open Data Terms of Use](https://data.edmonton.ca/stories/s/City-of-Edmonton-Open-Data-Terms-of-Use/msh8-if28/)
 
 ### British Columbia
 
 * [BC COVID-19 Data](http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data)
-    * Case data: [bc/case-data/BCCDC_COVID19_Dashboard_Case_Details.csv](https://drive.google.com/drive/folders/1rvsPQenCXuSuS5kTB-sZPqLb6eokU9b1)
+    * Case data: [bc/case-data/BCCDC_COVID19_Dashboard_Case_Details.csv](http://data.opencovid.ca/archive/index.html#archive/)
         * The format of the column "Reported_Date" is %Y-%m-%d except for 2020-08-24 to 2020-08-26 where it is %m/%d/%Y.
         * Due to Excel's aggressive date conversion, the column "Age_Group" may occasionally contain "19-Oct" rather than "10-19" (e.g., see this [Twitter thread](https://twitter.com/vb_jens/status/1298661723876909056)). This archive may not represent a perfect record of the appearance of "19-Oct" as some files may have been processed in Excel prior to upload, either removing or introducing the anomalous value.
         * Data parsing advice for the above issues in R:
@@ -109,90 +109,90 @@ The sources and terms of use for each included dataset are linked below. Supplem
           )
         ```     
         * On 2020-11-16 (a Monday), BCCDC retracted their daily datasets from their website and replaced them with datasets from the previous Friday (2020-11-13). These datasets have been saved as "BCCDC_COVID19_Dashboard_Case_Details_2020-11-16_23-05.csv" and "BCCDC_COVID19_Dashboard_Lab_Information_2020-11-16_23-05", whereas the retracted datasets have been preserved as "BCCDC_COVID19_Dashboard_Case_Details_2020-11-16_19-27" and "BCCDC_COVID19_Dashboard_Lab_Information_2020-11-16_19-27".   
-    * Laboratory data: [bc/laboratory-data/BCCDC_COVID19_Dashboard_Lab_Information.csv](https://drive.google.com/drive/folders/1SBe3JAmy6D3ed0zTAdn2v9EyN3DRsV-i)
-    * Regional data: [bc/regional-case-summary/BCCDC_COVID19_Regional_Summary_Data.csv](https://drive.google.com/drive/folders/12fgD4L4AfAaIx2u7eLnauX_z_IO2wFsU)
+    * Laboratory data: [bc/laboratory-data/BCCDC_COVID19_Dashboard_Lab_Information.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Regional data: [bc/regional-case-summary/BCCDC_COVID19_Regional_Summary_Data.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: [Disclaimer and data notes](http://www.bccdc.ca/Health-Info-Site/Documents/BC_COVID-19_Disclaimer_Data_Notes.pdf)
 * [COVID-19 Public Exposures](http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures)
-    * Public exposures webpage screenshot: [bc/public-exposures-webpage/public-exposures-screenshot.png](https://drive.google.com/drive/folders/1n-KrxIOXGH8drUf0Hb_-xfGUUdcvPy_U)
-    * Public exposures - flights: [bc/public-exposures-flights/public-exposures-flights-tables-Current.pdf](https://drive.google.com/drive/folders/1LoIXBzFN6GtiOpz4SFmxWuvhfsx1vPSE)
-    * [Public exposures - cruises, long distance bus, train, work sites, public events](http://www.bccdc.ca/Health-Info-Site/Documents/Archived_COVID-19_Exposures.pdf): [bc/public-exposures-cruises-bus-train-work-public/Archived_COVID-19_Exposures.pdf](https://drive.google.com/drive/folders/1HPu-kki3GUdX5uLDqjJL_RvnKExJv5Un) (Not included as part of the nightly update, as it is archived)
-    * Public exposures Fraser webpage: [bc/regional-exposure-events-fraser-webpage/regional-exposure-events-fraser-webpage.html](https://drive.google.com/drive/folders/1mvchjctnzICre6bQrkYYSiXSt17Z73q5) (warning: some early files are .png screenshots and named differently)
-    * Public exposures Interior webpage: [bc/regional-exposure-events-interior-webpage/regional-exposure-events-interior-webpage.html](https://drive.google.com/drive/folders/104BE89ytRvoJD3jYihJazC8G_x7AO74E) (warning: some early files are .png screenshots and named differently)
-    * Public exposures Island webpage: [bc/regional-exposure-events-island-webpage/regional-exposure-events-island-webpage.html](https://drive.google.com/drive/folders/1eN7oRKGGl-62zIaZ_yNSp2kguQBt9gpk) (warning: some early files are .png screenshots and named differently)
-    * Public exposures Northern webpage: [bc/regional-exposure-events-northern-webpage/regional-exposure-events-northern-webpage.html](https://drive.google.com/drive/folders/1Vzu5ulpEmXGy3I8J4yPaWHIxL3bWV59a) (warning: some early files are .png screenshots and named differently)
-    * Public exposures Vancouver Coastal webpage: [bc/regional-exposure-events-vancouver-coastal-webpage/regional-exposure-events-vancouver-coastal-webpage.html](https://drive.google.com/drive/folders/1F10Fd3yDjFvDObnNFUVhnrLObLeNIK4y) (warning: some early files are .png screenshots or .pdf files and named differently and/or formatted differently)
-    * School exposures Fraser webpage: [bc/school-exposures-fraser-webpage/school-exposures-fraser-webpage.html](https://drive.google.com/drive/folders/1Y66EqcQJbqOoV-UEgdncJs3MbVMww_QE) (warning: some early files are .png screenshots and named differently)
-    * School exposures Interior webpage: [bc/school-exposures-interior-webpage/school-exposures-interior-webpage.html](https://drive.google.com/drive/folders/1fWdzcEDuIt2eplR1My5SFfCe69dd-mrU) (warning: some early files are .png screenshots and named differently)
-    * School exposures Island webpage: [bc/school-exposures-island-webpage/school-exposures-island-webpage.html](https://drive.google.com/drive/folders/1w2AL4-HX_WtFT8r2zbu8aR_RWMujQQds) (warning: some early files are .png screenshots and named differently)
-    * School exposures Northern webpage: [bc/school-exposures-northern-webpage/school-exposures-northern-webpage.html](https://drive.google.com/drive/folders/1GAJ4Fh6Oq5DQPshWEpktzfDcMXq24S2q) (warning: some early files are .png screenshots and named differently)
-    * School exposures Vancouver Coastal webpage: [bc/school-exposures-vancouver-coastal-webpage/school-exposures-vancouver-coastal-webpage.html](https://drive.google.com/drive/folders/1weMgD-gaaJ4B4m01lKWqBjUD_l42A-LL) (warning: some early files are .png screenshots and named differently)
+    * Public exposures webpage screenshot: [bc/public-exposures-webpage/public-exposures-screenshot.png](http://data.opencovid.ca/archive/index.html#archive/)
+    * Public exposures - flights: [bc/public-exposures-flights/public-exposures-flights-tables-Current.pdf](http://data.opencovid.ca/archive/index.html#archive/)
+    * [Public exposures - cruises, long distance bus, train, work sites, public events](http://www.bccdc.ca/Health-Info-Site/Documents/Archived_COVID-19_Exposures.pdf): [bc/public-exposures-cruises-bus-train-work-public/Archived_COVID-19_Exposures.pdf](http://data.opencovid.ca/archive/index.html#archive/) (Not included as part of the nightly update, as it is archived)
+    * Public exposures Fraser webpage: [bc/regional-exposure-events-fraser-webpage/regional-exposure-events-fraser-webpage.html](http://data.opencovid.ca/archive/index.html#archive/) (warning: some early files are .png screenshots and named differently)
+    * Public exposures Interior webpage: [bc/regional-exposure-events-interior-webpage/regional-exposure-events-interior-webpage.html](http://data.opencovid.ca/archive/index.html#archive/) (warning: some early files are .png screenshots and named differently)
+    * Public exposures Island webpage: [bc/regional-exposure-events-island-webpage/regional-exposure-events-island-webpage.html](http://data.opencovid.ca/archive/index.html#archive/) (warning: some early files are .png screenshots and named differently)
+    * Public exposures Northern webpage: [bc/regional-exposure-events-northern-webpage/regional-exposure-events-northern-webpage.html](http://data.opencovid.ca/archive/index.html#archive/) (warning: some early files are .png screenshots and named differently)
+    * Public exposures Vancouver Coastal webpage: [bc/regional-exposure-events-vancouver-coastal-webpage/regional-exposure-events-vancouver-coastal-webpage.html](http://data.opencovid.ca/archive/index.html#archive/) (warning: some early files are .png screenshots or .pdf files and named differently and/or formatted differently)
+    * School exposures Fraser webpage: [bc/school-exposures-fraser-webpage/school-exposures-fraser-webpage.html](http://data.opencovid.ca/archive/index.html#archive/) (warning: some early files are .png screenshots and named differently)
+    * School exposures Interior webpage: [bc/school-exposures-interior-webpage/school-exposures-interior-webpage.html](http://data.opencovid.ca/archive/index.html#archive/) (warning: some early files are .png screenshots and named differently)
+    * School exposures Island webpage: [bc/school-exposures-island-webpage/school-exposures-island-webpage.html](http://data.opencovid.ca/archive/index.html#archive/) (warning: some early files are .png screenshots and named differently)
+    * School exposures Northern webpage: [bc/school-exposures-northern-webpage/school-exposures-northern-webpage.html](http://data.opencovid.ca/archive/index.html#archive/) (warning: some early files are .png screenshots and named differently)
+    * School exposures Vancouver Coastal webpage: [bc/school-exposures-vancouver-coastal-webpage/school-exposures-vancouver-coastal-webpage.html](http://data.opencovid.ca/archive/index.html#archive/) (warning: some early files are .png screenshots and named differently)
     * Vancouver Coastal reported its first school outbreak on 2020-09-22. However, due to a change in the page format, the first day these data were captured in the dataset was 2020-10-05. Screenshots prior to this date ommit the list of schools. However, it is unlikely that any schools were removed from the list prior to it first being captured on 2020-10-05.
     * Terms of use: TBD
 
 ### Canada
 
 * [Epidemiological summary of COVID-19 cases in Canada](https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html) / [COVID-19 Situational Awareness Dashboard](https://health-infobase.canada.ca/covid-19/dashboard/)
-    * Epidemiology update / [Data on COVID-19 in Canada](https://open.canada.ca/data/en/dataset/261c32ab-4cfd-4f81-9dea-7b64065690dc): [can/epidemiology-update/covid19.csv](https://drive.google.com/drive/folders/1XV5MYKoU0_L506TxLLXYcLwqpTlIjLPd)
+    * Epidemiology update / [Data on COVID-19 in Canada](https://open.canada.ca/data/en/dataset/261c32ab-4cfd-4f81-9dea-7b64065690dc): [can/epidemiology-update/covid19.csv](http://data.opencovid.ca/archive/index.html#archive/)
     	* Includes supplementary material: [Data dictionary (English)](https://open.canada.ca/data/en/dataset/261c32ab-4cfd-4f81-9dea-7b64065690dc) and [data dictionary (French)](https://open.canada.ca/data/en/dataset/261c32ab-4cfd-4f81-9dea-7b64065690dc)
 * [Epidemiological summary of COVID-19 cases in Canada](https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html) / [COVID-19 Situational Awareness Dashboard](https://health-infobase.canada.ca/covid-19/dashboard/)
-    * Epidemiology update / [Data on COVID-19 in Canada](https://open.canada.ca/data/en/dataset/261c32ab-4cfd-4f81-9dea-7b64065690dc): [can/epidemiology-update/covid19-download.csv](https://drive.google.com/drive/folders/1mDFGml4mEbHxM-iDDz2eZ2Hudr1r6EdB)
+    * Epidemiology update / [Data on COVID-19 in Canada](https://open.canada.ca/data/en/dataset/261c32ab-4cfd-4f81-9dea-7b64065690dc): [can/epidemiology-update/covid19-download.csv](http://data.opencovid.ca/archive/index.html#archive/)
     	* Identical to the above dataset but the date column is in YYYY-MM-DD format instead of DD-MM-YYYY
     	* Includes supplementary material: [Data dictionary (English)](https://open.canada.ca/data/en/dataset/261c32ab-4cfd-4f81-9dea-7b64065690dc) and [data dictionary (French)](https://open.canada.ca/data/en/dataset/261c32ab-4cfd-4f81-9dea-7b64065690dc)
-    * Epidemiology summary statements: [can/epidemiology-summary-statements/covid19-epiSummary-statements.csv](https://drive.google.com/drive/folders/1ye3nqS3qYNZtKdbNL1zoy8JY32bIVAq5)
-    * NML summary: [can/nml-summary/covid19-epiSummary-NML.csv](https://drive.google.com/drive/folders/1HrHMnlm8i7Oh4OWAjDkYlIvguPuQDL9U)
-    * NML weekly testing: [can/nml-weekly-testing/NML_weekly_testing.csv](https://drive.google.com/drive/folders/1NSCMEFZZ6JXPUFnPIb5HWwd4vXzoC8Fu)
-    * Number of cases with detailed case report data: [can/detailed-case-report-n/covid19-nTotal.csv](https://drive.google.com/drive/folders/1-fJIOejwY_5jcTjUgv0sUiXCNqTZCqzO)
-    * Cases and deaths by health region time series: [can/cases-and-deaths-by-hr-time-series/file_out_v5.csv](https://drive.google.com/drive/folders/1i6s8qCfxgBKH4kWAfe2Om_PT8FKkF6VX)
-    * Health region UID table: [can/health-region-uid/covid19-healthregions-hruid.csv](https://drive.google.com/drive/folders/1mFXAnK0w8I-_QwdmzZE0ggyVgZWv-Hja)
-    * Cases by exposure setting time series: [can/cases-by-exposure-time-series/covid19-epiSummary-casesovertime.csv](https://drive.google.com/drive/folders/1jtwuaKALJ7878Zd_a5TUqvm2JBf0jJTF)
-    * Epidemic curve by date of illness onset by age group: [can/epidemic-curve-by-age/covid19-epiSummary-epiCurveByAge.csv](https://drive.google.com/drive/folders/1cbtuG5fdNRkrDuYa-mCUgrl-xGLf5dVA)
-    * Severity by age group and sex: [can/severity-by-age-and-sex/covid19-epiSummary-severityUpdate.csv](https://drive.google.com/drive/folders/1_tux6ZwhCGtLt8fu8j-dcwd7ZsfYg3Dl)
-    * Cases by severity: [can/cases-by-severity/covid19-epiSummary-severity.csv](https://drive.google.com/drive/folders/1SglBBOrkaUX9kgQnKFuGx8zYfWB-f4H2)
-    * Cases by age group and sex: [can/cases-by-age-and-sex/covid19-epiSummary-agegroups2.csv](https://drive.google.com/drive/folders/1iTnavMq9a88c64arPRdmUN3w8V2UnugH)
-    * Cases by probable exposure setting: [can/cases-by-probable-exposure-setting/covid19-epiSummary-probableexposure2.csv](https://drive.google.com/drive/folders/1hCGVda7X8NSJio4Km4sAHVvIKeY1WUbs)
-    * Symptoms summary: [can/symptoms-summary/covid19-epiSummary-symptoms.csv](https://drive.google.com/drive/folders/1VoX9WJGkJQwCQMeOcTruitYjjIyGaFhZ)
-    * Hospitalizaiton, intensive care (ICU), mechanical ventilation: [can/hospitalizations-icu-mechanical-ventilation/covid19-epiSummary-hospVentICU.csv](https://drive.google.com/drive/folders/1ZgeV7BTE_GZ8yTQgG3ema8OAT8vzHq5V)
-    * Situational awareness dashboard update time: [can/situational-awareness-dashboard-update-time/covid19-updateTime.csv](https://drive.google.com/drive/folders/1Jf_083skdvYA9JW2-lPZ37l-NvdQ8AQY)
-    * PHAC provincial data update notes: [can/provincial-data-update-notes/covid19-epiSummary-exceptions.csv](https://drive.google.com/drive/folders/1pm-8sIMNWlk-F_6g8rN8QumT_-VzCnhW)
+    * Epidemiology summary statements: [can/epidemiology-summary-statements/covid19-epiSummary-statements.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * NML summary: [can/nml-summary/covid19-epiSummary-NML.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * NML weekly testing: [can/nml-weekly-testing/NML_weekly_testing.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Number of cases with detailed case report data: [can/detailed-case-report-n/covid19-nTotal.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Cases and deaths by health region time series: [can/cases-and-deaths-by-hr-time-series/file_out_v5.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Health region UID table: [can/health-region-uid/covid19-healthregions-hruid.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Cases by exposure setting time series: [can/cases-by-exposure-time-series/covid19-epiSummary-casesovertime.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Epidemic curve by date of illness onset by age group: [can/epidemic-curve-by-age/covid19-epiSummary-epiCurveByAge.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Severity by age group and sex: [can/severity-by-age-and-sex/covid19-epiSummary-severityUpdate.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Cases by severity: [can/cases-by-severity/covid19-epiSummary-severity.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Cases by age group and sex: [can/cases-by-age-and-sex/covid19-epiSummary-agegroups2.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Cases by probable exposure setting: [can/cases-by-probable-exposure-setting/covid19-epiSummary-probableexposure2.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Symptoms summary: [can/symptoms-summary/covid19-epiSummary-symptoms.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Hospitalizaiton, intensive care (ICU), mechanical ventilation: [can/hospitalizations-icu-mechanical-ventilation/covid19-epiSummary-hospVentICU.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Situational awareness dashboard update time: [can/situational-awareness-dashboard-update-time/covid19-updateTime.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * PHAC provincial data update notes: [can/provincial-data-update-notes/covid19-epiSummary-exceptions.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
 * [Testing for COVID-19: Increasing testing supply](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/symptoms/testing/increased-supply.html)
-    * Webpage: [can/testing-supply-webpage/testing-supply-webpage.html](https://drive.google.com/drive/folders/1KohYqBs9p49kQGIzxtR5jmCa5Gqz86Un)
+    * Webpage: [can/testing-supply-webpage/testing-supply-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
 * [COVIDTrends](https://health-infobase.canada.ca/covid-19/covidtrends/)
     * Mobility: [can/covidtrends-mobility/mobility.csv](https://drive.google.com/drive/folders/1rywSZlhHQzv7L9r8dIo7_hWgquTG7U45) [dataset is updated only on Thursdays]
     * FluWatchers: [can/covidtrends-fluwatchers/fluwatchers.csv](https://drive.google.com/drive/folders/1l9C7WppFIIc-hSxKRLd8i0dAon6YfbAs) [dataset is updated only on Thursdays]
     * Terms of use: [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
 * [Vaccines and treatments for COVID-19: Vaccine rollout](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks/covid-19-vaccine-treatment/vaccine-rollout.html)
-    * [can/vaccine-rollout-webpage/vaccine-rollout-webpage.html](https://drive.google.com/drive/folders/1Z1E3rh96IgCUBRiABOfvt9Vf-cx2T7Kk)
+    * [can/vaccine-rollout-webpage/vaccine-rollout-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
 * [COVID-19 vaccination in Canada - Vaccines administered](https://health-infobase.canada.ca/covid-19/vaccine-administration/)
-    * Vaccination administration: [can/vaccination-administration/vaccination-administration.csv](https://drive.google.com/drive/folders/1OQ4vCajqATVmYmC_u2U_nGcaIJSlKySs)
-    * Vaccination administration update date: [can/vaccination-administration-update-date/vaccination-administration-updateDate.csv](https://drive.google.com/drive/folders/1i6ZgM71xe6xO_oDRoGAShcBh6mixMYIS)
+    * Vaccination administration: [can/vaccination-administration/vaccination-administration.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vaccination administration update date: [can/vaccination-administration-update-date/vaccination-administration-updateDate.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
 * COVID 19 vaccination in Canada - Vaccines distributed
-    * Vaccination distribution: [can/vaccination-distribution/vaccination-distribution.csv](https://drive.google.com/drive/folders/1gEChE3Q6pqknPaVg1SeLmBmUppDjKugg)
+    * Vaccination distribution: [can/vaccination-distribution/vaccination-distribution.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
 * [COVID-19 vaccination in Canada - Vaccination coverage](https://health-infobase.canada.ca/covid-19/vaccination-coverage/)
-    * Vaccination coverage overall: [can/vaccination-coverage-overall/vaccination-coverage-overall.csv](https://drive.google.com/drive/folders/1lzLYKdAKB-4V4Ap1SYBIkf0icN7gU6oR)
-    * Vaccination coverage for key populations: [can/vaccination-coverage-keypops/vaccination-coverage-keypops.csv](https://drive.google.com/drive/folders/1jRtsRgnH1Jk8Bdj6SAgpehI5-uBeHM9B)
-    * Vaccination coverage by age and sex: [can/vaccination-coverage-by-age-sex/vaccination-coverage-byAgeAndSex.csv](https://drive.google.com/drive/folders/1LyhJCDEHB98G__TcQVpRnsT_5dEjOHFn)
-    * Vaccination coverage by vaccine type: [can/vaccination-coverage-by-vaccine-type/vaccination-coverage-byVaccineType.csv](https://drive.google.com/drive/folders/1UI3FTX5NqNot-P3rtVuNwk2-quKzCpp1)
-    * Vaccination coverage by province: [can/vaccination-coverage-by-prov/vaccination-coverage-map.csv](https://drive.google.com/drive/folders/1zmIFn20oebCASv2eRQY_Y9pU4nyVf3gC)
+    * Vaccination coverage overall: [can/vaccination-coverage-overall/vaccination-coverage-overall.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vaccination coverage for key populations: [can/vaccination-coverage-keypops/vaccination-coverage-keypops.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vaccination coverage by age and sex: [can/vaccination-coverage-by-age-sex/vaccination-coverage-byAgeAndSex.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vaccination coverage by vaccine type: [can/vaccination-coverage-by-vaccine-type/vaccination-coverage-byVaccineType.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vaccination coverage by province: [can/vaccination-coverage-by-prov/vaccination-coverage-map.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
 * [COVID-19 vaccination in Canada - Technical notes](https://health-infobase.canada.ca/covid-19/vaccination-coverage/technical-notes.html)
-    * Webpage: [can/vaccination-technical-notes-webpage/vaccination-technical-notes-webpage.html](https://drive.google.com/drive/folders/1XloEd34jZB4CEMdej0iVPu094gvtVPaQ)
-    * Vaccination coverage data availability by week: [can/vaccination-coverage-data-availability-by-week/vaccination-coverage-dataAvailability.csv](https://drive.google.com/drive/folders/1DUoOSoqSO9xQejlJh_MkMX5gQz7aDDw_)
+    * Webpage: [can/vaccination-technical-notes-webpage/vaccination-technical-notes-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vaccination coverage data availability by week: [can/vaccination-coverage-data-availability-by-week/vaccination-coverage-dataAvailability.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
 * [Detailed preliminary information on cases of COVID-19: 6 Dimensions (Aggregated data)](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310077401)
-    * [can/detailed-preliminary-case-info-aggregated-6-dimensions/13100774.csv](https://drive.google.com/drive/folders/1i_r1VTTylcwFUJU5Z2NxyDj58evLdICt)
+    * [can/detailed-preliminary-case-info-aggregated-6-dimensions/13100774.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Includes supplementary material: Footnotes, metadata
     * Terms of use: [Statistics Canada Open Licence](https://www.statcan.gc.ca/eng/reference/licence)
 * [Detailed preliminary information on cases of COVID-19: 4 Dimensions (Aggregated data)](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310077501)
-    * [can/detailed-preliminary-case-info-aggregated-4-dimensions/13100775.csv](https://drive.google.com/drive/folders/1DAVw9bHgJ6HeIhR9gkDKqWb5mYmJeL6C)
+    * [can/detailed-preliminary-case-info-aggregated-4-dimensions/13100775.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Includes supplementary material: Footnotes, metadata
     * Terms of use: [Statistics Canada Open Licence](https://www.statcan.gc.ca/eng/reference/licence)
 * [Detailed preliminary information on confirmed cases of COVID-19 (Revised)](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310078101)
-    * [can/detailed-preliminary-confirmed-case-info-revised/13100781.csv](https://drive.google.com/drive/folders/17yNdBoKhWikgRrosSvevZEJ7y75qpCxk) (Archived as of 2020-12-10, no longer part of the nightly update)
+    * [can/detailed-preliminary-confirmed-case-info-revised/13100781.csv](http://data.opencovid.ca/archive/index.html#archive/) (Archived as of 2020-12-10, no longer part of the nightly update)
     * Variable value definitions are given in footnotes (see supplementary material).
     * **This file has been processed to avoid the 100mb file limit on GitHub.** (Base file size is > 400mb)
         * Dataset has been pivoted from long to wide (names from: 'Case information', values from: 'VALUE').
@@ -201,164 +201,164 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Includes supplementary material: Footnotes, example of original data format, metadata
     * Terms of use: [Statistics Canada Open Licence](https://www.statcan.gc.ca/eng/reference/licence)
 * [Preliminary dataset on confirmed cases of COVID-19, Public Health Agency of Canada](https://www150.statcan.gc.ca/n1/pub/13-26-0003/132600032020001-eng.htm)
-    * [can/preliminary-dataset-on-confirmed-cases/COVID19-eng.csv](https://drive.google.com/drive/folders/1pxV8Wb1sqdeD-W6BIqUOPABLPvNTJPsX)
+    * [can/preliminary-dataset-on-confirmed-cases/COVID19-eng.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Includes supplementary material: user guide and data dictionary, metadata
     * Terms of use: [Statistics Canada Open Licence](https://www.statcan.gc.ca/eng/reference/licence)
 
 ### Manitoba
 
 * [Province of Manitoba - COVID-19](https://www.gov.mb.ca/covid19/updates/index.html)
-    * Webpage: [mb/manitoba-webpage/manitoba-webpage.html](https://drive.google.com/drive/folders/13gGo5pdUJw1_4hVkPzrl3eNzUPjf6-4M)
+    * Webpage: [mb/manitoba-webpage/manitoba-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 * [Manitoba COVID-19](https://experience.arcgis.com/experience/f55693e56018406ebbd08b3492e99771)
-    * COVID-19 data by RHA and district: [mb/covid-data-by-rha-and-district/covid-data-by-rha-and-district.json](https://drive.google.com/drive/folders/1OHXZBtKQGLKVCQfVDtvjOwCTAnSNm_iy)
-    * Cases by demographics and RHA: [mb/cases-demographics-by-rha/cases-demographics-by-rha.json](https://drive.google.com/drive/folders/1vSi6aSCP8wOgtTxGbeXCTJf_7l8Jde9v)
-    * Cases by status and RHA: [mb/cases-by-status-and-rha/cases-by-status-and-rha.json](https://drive.google.com/drive/folders/1yvHctTdlTLH8oBpyvr3XiNxT-MzbBPIK)
-    * Manitoba five-day test positivity rate: [mb/five-day-test-positivity/five-day-test-positivity.json](https://drive.google.com/drive/folders/1H384b02qwv1irKtT2hYvM8WKbVnyy2xN)
-    * Summary statistics by area: [mb/summary-stats-by-area/summary-stats-by-area.json](https://drive.google.com/drive/folders/1lrMjshfMMDvbb2kP06x98NaGiKBEVtlr)
-    * Current status by area: [mb/current-status-by-area/current-status-by-area.json](https://drive.google.com/drive/folders/1kk6IR5e1LQa0VB23SylVK7WEUdomqRAA)
-    * COVID-19 data by RHA and district (JSON to CSV): [mb/covid-data-by-rha-and-district-csv/covid-data-by-rha-and-district.csv](https://drive.google.com/drive/folders/1mTTp74weBKLWXNrgdzfeJmWROP9NH6mM)
-    * Cases by demographics and RHA (JSON to CSV): [mb/cases-demographics-by-rha-csv/cases-demographics-by-rha.csv](https://drive.google.com/drive/folders/1XE4mZpz8hrqIC3JBExuGJdJYXs6Sg1rk)
-    * Cases by status and RHA (Regional Health Authority) (JSON to CSV): [mb/cases-by-status-and-rha-csv/cases-by-status-and-rha.csv](https://drive.google.com/drive/folders/12Iqr-1tz085DB7Bsggm3tC0OKT0pNRSr)
-    * Manitoba five-day test positivity rate (JSON to CSV): [mb/five-day-test-positivity-csv/five-day-test-positivity.csv](https://drive.google.com/drive/folders/1FVZ9gQbSLjOJHGdq_FXjJIZrFsp12lOo)
+    * COVID-19 data by RHA and district: [mb/covid-data-by-rha-and-district/covid-data-by-rha-and-district.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Cases by demographics and RHA: [mb/cases-demographics-by-rha/cases-demographics-by-rha.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Cases by status and RHA: [mb/cases-by-status-and-rha/cases-by-status-and-rha.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Manitoba five-day test positivity rate: [mb/five-day-test-positivity/five-day-test-positivity.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Summary statistics by area: [mb/summary-stats-by-area/summary-stats-by-area.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Current status by area: [mb/current-status-by-area/current-status-by-area.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * COVID-19 data by RHA and district (JSON to CSV): [mb/covid-data-by-rha-and-district-csv/covid-data-by-rha-and-district.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Cases by demographics and RHA (JSON to CSV): [mb/cases-demographics-by-rha-csv/cases-demographics-by-rha.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Cases by status and RHA (Regional Health Authority) (JSON to CSV): [mb/cases-by-status-and-rha-csv/cases-by-status-and-rha.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Manitoba five-day test positivity rate (JSON to CSV): [mb/five-day-test-positivity-csv/five-day-test-positivity.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
   * [COVID-19 Dashboard: K-12 Schools in Manitoba](https://experience.arcgis.com/experience/6e7af13b3ffb447a99734b0119b169d3/)
-    * COVID education statistics summary: [mb/covid-education-summary/covid-education-summary.json](https://drive.google.com/drive/folders/1AOhXsmglt-Nmb_wrndTQyqfyw_Joc_tn)
-    * COVID educations cases last 2 weeks: [mb/covid-education-cases-last-2-weeks/covid-education-cases-last-2-weeks.json](https://drive.google.com/drive/folders/1a4tou-l1RawjwJ_DPjf3cMlKRXj0ssF3)
-    * Manitoba school divisions: [mb/school-divisions/school-divisions.json](https://drive.google.com/drive/folders/1TuAcFmiWGxoxeMK8Z5Sk7ftPyY6GaAy2)
+    * COVID education statistics summary: [mb/covid-education-summary/covid-education-summary.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * COVID educations cases last 2 weeks: [mb/covid-education-cases-last-2-weeks/covid-education-cases-last-2-weeks.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Manitoba school divisions: [mb/school-divisions/school-divisions.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Supplementary: Definitions
     * Terms of use: TBD
 
 #### Winnipeg
 
 * [COVID-19 By-law Enforcement (Winnipeg)](https://data.winnipeg.ca/Neighbourhood-Liveability-Property-Standards-Licen/COVID-19-By-law-Enforcement/ndr6-96vi)
-    * [mb/winnipeg-by-law-enforcement/COVID-19_By-law_Enforcement.csv](https://drive.google.com/drive/folders/1LR1UTIs_r7w_uvC-ScZ8k3WlU-0SIVlc)
+    * [mb/winnipeg-by-law-enforcement/COVID-19_By-law_Enforcement.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: [Open Government Licence - Winnipeg](https://data.winnipeg.ca/open-data-licence)
     Not included as part of the nightly update, as it does not seem to be receiving regular updates (last new data: June 5, 2020)
 * [COVID-19 Designated Active Transportation Route Counts (Winnipeg)](https://data.winnipeg.ca/Transportation-Planning-Traffic-Management/COVID-19-Designated-Active-Transportation-Route-Co/aqka-nz2g)
-    * [mb/winnipeg-active-transportation/COVID-19_Designated_Active_Transportation_Route_Counts.csv](https://drive.google.com/drive/folders/1HvDvmC9fkNMPgmr-kQT1Lj6Rg-CHOh75)
+    * [mb/winnipeg-active-transportation/COVID-19_Designated_Active_Transportation_Route_Counts.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: [Open Government Licence - Winnipeg](https://data.winnipeg.ca/open-data-licence)
     * Not included as part of the nightly update, as it does not seem to be receiving regular updates (last updated: June 29, 2020)
 
 ### Northwest Territories
 
 * [https://www.gov.nt.ca/covid-19/](https://www.gov.nt.ca/covid-19/)
-    * Webpage: [nt/nwt-webpage/nwt-webpage.html](https://drive.google.com/drive/folders/1K_lZ20FsBr3uc8z7VhbdP22xaD-_SFaV)
+    * Webpage: [nt/nwt-webpage/nwt-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 
 ### Nova Scotia
 
 * [Coronavirus (COVID-19): case data](https://novascotia.ca/coronavirus/data/)
-    * Webpage: [ns/ns-webpage/ns-webpage.html](https://drive.google.com/drive/folders/1g2hcxNxn6IYMDYWv71DKmH53561ADuuc)
-    * Cases data: [ns/case-data/ns-covid19-data.csv](https://drive.google.com/drive/folders/1topV_6XkI2uz-Amwlibi8V_jbnHx4MG5)
+    * Webpage: [ns/ns-webpage/ns-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Cases data: [ns/case-data/ns-covid19-data.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: Assumed to be [Open Government Licence – Nova Scotia](https://novascotia.ca/opendata/licence.asp)
 * [Nova Scotia COVID-19 Dashboard](https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad)
-    * Cases by zone: [ns/cases-by-zone/cases-by-zone.json](https://drive.google.com/drive/folders/1lcPbkf58IXjx1hmTgOfaRDEQ-vHRjpcz)
-    * Zone summary: [ns/zone-summary/zone-summary.json](https://drive.google.com/drive/folders/1y6uhTk3LrK9wlgPlOlG40UWADYfIiY6d)
-    * Zone summary cases: [ns/zone-summary-cases/zone-summary-cases.json](https://drive.google.com/drive/folders/1EevtFYqWQJ-h5Zt2oJgr7_PM_Gn7XwAd)
-    * Community health network summary cases: [ns/chn-summary-cases/chn-summary-cases.json](https://drive.google.com/drive/folders/1fsyLS_dN-VkFDjtxAHxffOeG33pN92S3)
-    * Serious outcomes: [ns/serious-outcomes/serious-outcomes.json](https://drive.google.com/drive/folders/1hgspEEG8vBQIIg6-R0S7Vd6TISXqMza0)
-    * Lab testing: [ns/lab-testing/lab-testing.json](https://drive.google.com/drive/folders/1-So7itIA8sLbcs-8bTKUgkM6SiTeGodm)
-    * Lab testing, hospitalization, ICU summary: [ns/lab-testing-summary/lab-testing-summary.json](https://drive.google.com/drive/folders/1R7X8e_MOgY33l7FGzy5ezGk9EMIdrRB9)
-    * Demographics summary: [ns/demographics-summary/demographics-summary.json](https://drive.google.com/drive/folders/1gS3LN9cclLE3i-3c439Hwq3ibpgISfak)
-    * Immunizations: [ns/immunizations/immunizations.json](https://drive.google.com/drive/folders/1OHIZDhIRzEjqnsqJNbU4yjXkjptLphan)
-    * Health boundaries: [ns/health-boundaries/health-boundaries.json](https://drive.google.com/drive/folders/1Hb9zYPpkbblHpABKdOLnvjMj7LZhywrF)
+    * Cases by zone: [ns/cases-by-zone/cases-by-zone.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Zone summary: [ns/zone-summary/zone-summary.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Zone summary cases: [ns/zone-summary-cases/zone-summary-cases.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Community health network summary cases: [ns/chn-summary-cases/chn-summary-cases.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Serious outcomes: [ns/serious-outcomes/serious-outcomes.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Lab testing: [ns/lab-testing/lab-testing.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Lab testing, hospitalization, ICU summary: [ns/lab-testing-summary/lab-testing-summary.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Demographics summary: [ns/demographics-summary/demographics-summary.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Immunizations: [ns/immunizations/immunizations.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Health boundaries: [ns/health-boundaries/health-boundaries.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: Assumed to be [Open Government Licence – Nova Scotia](https://novascotia.ca/opendata/licence.asp)
 
 ### Nunavut
 
 * [COVID-19 (Novel Coronavirus)](https://gov.nu.ca/health/information/covid-19-novel-coronavirus)
-    * Webpage: [nu/nunavut-webpage/nunavut-webpage.html](https://drive.google.com/drive/folders/1bQ9qKAGjWXupRKdQcIOxyZf4lKZW5Obe)
+    * Webpage: [nu/nunavut-webpage/nunavut-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 
 ### Ontario
 
 * [How Ontario is responding to COVID-19](https://www.ontario.ca/page/how-ontario-is-responding-covid-19)
-    * Webpage: [on/ontario-webpage/ontario-webpage.html](https://drive.google.com/drive/folders/19XxdLXVYaHdeks55FHcgAqFAifbETapT) (warning: some early files are .png screenshots and named differently)
+    * Webpage: [on/ontario-webpage/ontario-webpage.html](http://data.opencovid.ca/archive/index.html#archive/) (warning: some early files are .png screenshots and named differently)
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 * [Confirmed positive cases of COVID19 in Ontario](https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario/resource/455fd63b-603d-4608-8216-7d8647f43350)
-    * [on/confirmed-positive-cases/conposcovidloc.csv](https://drive.google.com/drive/folders/16IDLOq9Q50Co4SEGAnu6ajzkKh8Xitgd)
+    * [on/confirmed-positive-cases/conposcovidloc.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Includes supplementary material: [Data dictionary (English and French)](https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario/resource/a2ea0536-1eae-4a17-aa04-e5a1ab89ca9a)
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 * [Status of COVID-19 cases in Ontario](https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/ed270bb8-340b-41f9-a7c6-e8ef587e6d11)
-    * [on/status-of-cases/covidtesting.csv](https://drive.google.com/drive/folders/1cbQvjhQkgHmk1BU6XrGFFuGXPUeNwVXX)
+    * [on/status-of-cases/covidtesting.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Includes supplementary material: [Data dictionary (English and French)](https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario/resource/7be0a14c-bf50-4340-9304-2b189d507541)
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 * [Status of COVID-19 cases in Ontario by Public Health Unit (PHU)](https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario-by-public-health-unit-phu)
-    * [on/status-of-cases-by-phu/cases_by_status_and_phu.csv](https://drive.google.com/drive/folders/179ZsgcnrOIRTh2a04qlhH3HUafxrWWr3)
+    * [on/status-of-cases-by-phu/cases_by_status_and_phu.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 * [Ontario COVID-19 testing metrics by Public Health Unit (PHU)](https://data.ontario.ca/dataset/ontario-covid-19-testing-metrics-by-public-health-unit-phu)
-    * [on/testing-metrics-by-phu/testing_metrics_by_phu.csv](https://drive.google.com/drive/folders/1W4mbKlbokc3Ebvpg6H96c-BZDCflWsyO)
+    * [on/testing-metrics-by-phu/testing_metrics_by_phu.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 * [Ontario COVID-19 testing percent positive by age group](https://data.ontario.ca/dataset/ontario-covid-19-testing-percent-positive-by-age-group)
-    * [on/percent-positive-by-age-group/percent_positive_by_agegrp.csv](https://drive.google.com/drive/folders/1YGexaicLvEsasdhurYbjl_vKytmqF0hI)
+    * [on/percent-positive-by-age-group/percent_positive_by_agegrp.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 * [COVID-19 hospital metrics in Ontario by Local Health Integration Network (LHIN) regions](https://data.ontario.ca/dataset/covid-19-hospital-metrics-in-ontario-by-local-health-integration-network-lhin-regions)
-    * [on/hosp-icu-by-lhin/lhin_hospital_icu_covid_data.csv](https://drive.google.com/drive/folders/11YJ2FvhHPWrLa__iTyuKAddsIq1yMcAS)
+    * [on/hosp-icu-by-lhin/lhin_hospital_icu_covid_data.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 * [Effective reproduction number (Re) for COVID-19 in Ontario](https://data.ontario.ca/dataset/effective-reproduction-number-re-for-covid-19-in-ontario)
-    * [on/effective_reproduction_number_ontario/effective_reproduction_number_ontario.csv](https://drive.google.com/drive/folders/19mPYJXuXcIta5B5bj0s_go5UUfNW0Gu6)
+    * [on/effective_reproduction_number_ontario/effective_reproduction_number_ontario.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 * [COVID Alert Impact Data](https://data.ontario.ca/dataset/covid-alert-impact-data)
-    * [on/covid_alert_downloads_canada/covid_alert_downloads_canada.csv](https://drive.google.com/drive/folders/11tsJ8mWvHpIrMK8TAfL_C8YZYvibdyQu)
-    * [on/covid-alert-uploads-ontario/covid_alert_positive_uploads_ontario.csv](https://drive.google.com/drive/folders/1J80DArVNd-mduOexCY-CNZqBP8plfSTF)
+    * [on/covid_alert_downloads_canada/covid_alert_downloads_canada.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * [on/covid-alert-uploads-ontario/covid_alert_positive_uploads_ontario.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 * [COVID-19 testing locations](https://data.ontario.ca/dataset/covid-19-assessment-centre-locations)
-    * [on/testing-locations/locations.json](https://drive.google.com/drive/folders/1ugIMV9FyvRd2cgy_cctgMCaLUcccshLh)
+    * [on/testing-locations/locations.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 * [Ontario COVID-19 outbreaks data](https://data.ontario.ca/dataset/ontario-covid-19-outbreaks-data)
-    * Ongoing outbreaks: [on/ongoing-outbreaks/ongoing_outbreaks.csv](https://drive.google.com/drive/folders/1qgabHZsvO0YC4s5mQxE4G76wOhUF4Ns2)
-    * Summary of cases associated with outbreaks: [on/summary-outbreak-cases/outbreak_cases.csv](https://drive.google.com/drive/folders/1X0vnDtDQkrbFJHcCV4nmhaPvqDligqcL)
+    * Ongoing outbreaks: [on/ongoing-outbreaks/ongoing_outbreaks.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Summary of cases associated with outbreaks: [on/summary-outbreak-cases/outbreak_cases.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 * [COVID-19 testing of inmates in Ontario’s Provincial Correctional Institutions](https://data.ontario.ca/dataset/covid-19-testing-of-inmates-in-ontario-s-correctional-institutions)
-    * [on/correctional-institutions-inmates-testing/inmatetesting.csv](https://drive.google.com/drive/folders/1EH-C9nVEJTGpayGVLM908UA5Z5YHWf6t)
+    * [on/correctional-institutions-inmates-testing/inmatetesting.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Includes supplementary material: [Technical documentation (English and French)](https://data.ontario.ca/dataset/covid-19-testing-of-inmates-in-ontario-s-correctional-institutions/resource/6e2868ab-a242-48d6-9f73-235d19a6668e)
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 * [Status of COVID-19 cases in Ontario’s Provincial Correctional Institutions](https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario-s-correctional-institutions)
-    * [on/correctional-institutions-status/correctionsinmatecases.csv](https://drive.google.com/drive/folders/1XaPpPqJSKqA6G9IyJiPcP7vxh5Kd7sXm)
+    * [on/correctional-institutions-status/correctionsinmatecases.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 * [Long-Term Care Home COVID-19 Data](https://data.ontario.ca/dataset/long-term-care-home-covid-19-data)
-    * Summary data: [on/long-term-care-home-summary/ltccovidsummary.csv](https://drive.google.com/drive/folders/12ZgUvwMaWRpNJlLZeJAzX_D9E26zW_9D)
-    * Active outbreaks: [on/long-term-care-home-active/activeltcoutbreak.csv](https://drive.google.com/drive/folders/1E8qIt9REhO19jQyq970l9huc1y88OJIr)
-    * Resolved outbreaks: [on/long-term-care-home-resolved/resolvedltc.csv](https://drive.google.com/drive/folders/1mjJUsbXVNm2UbdMDI_fNXngz4uCdYGq3)
+    * Summary data: [on/long-term-care-home-summary/ltccovidsummary.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Active outbreaks: [on/long-term-care-home-active/activeltcoutbreak.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Resolved outbreaks: [on/long-term-care-home-resolved/resolvedltc.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Includes supplementary material: [Data dictionary (English and French)](https://data.ontario.ca/dataset/long-term-care-home-covid-19-data/resource/adbcf9f8-e473-4f27-b85f-0f05f686067b)
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 * [COVID-19 cases in schools and child care centres](https://www.ontario.ca/page/covid-19-cases-schools-and-child-care-centres)
-    * Webpage: [on/cases-schools-and-child-care-centres-webpage/cases-schools-and-child-care-centres-webpage.html](https://drive.google.com/drive/folders/1ammQkFJl9xeoOKkVNtGDGwu4z5WFImZW) (warning: some early files are .png screenshots and named differently)
+    * Webpage: [on/cases-schools-and-child-care-centres-webpage/cases-schools-and-child-care-centres-webpage.html](http://data.opencovid.ca/archive/index.html#archive/) (warning: some early files are .png screenshots and named differently)
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 * [Schools COVID-19 data](https://data.ontario.ca/dataset/summary-of-cases-in-schools)
-    * Summary of cases in schools: [on/schools-summary/schoolcovidsummary.csv](https://drive.google.com/drive/folders/1PNTdW1MWrj3Xjrhu8lQbqn3gtzkluepz)
-    * Schools with active COVID-19 cases: [on/schools-active/schoolsactivecovid.csv](https://drive.google.com/drive/folders/1NhQmGYR0l4Don6YGJiU5s_X6e7b2zVfQ)
-    * Cases in school board partners: [on/school-board-partners/schoolpartnersactivecovid.csv](https://drive.google.com/drive/folders/1LRJ8z_a1N99O4sscNBXBY84yjHDoYLy9)
+    * Summary of cases in schools: [on/schools-summary/schoolcovidsummary.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Schools with active COVID-19 cases: [on/schools-active/schoolsactivecovid.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Cases in school board partners: [on/school-board-partners/schoolpartnersactivecovid.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 * [Licensed child care settings COVID-19 data](https://data.ontario.ca/dataset/summary-of-cases-in-licensed-child-care-settings)
-    * Summary of cases in licensed child care settings: [on/licensed-child-care-settings-summary/lccovidsummary.csv](https://drive.google.com/drive/folders/1Z0Z5nA1CjkqhJyQlIXDHXFJi4H4d_xQG)
-    * Licensed child care centres and agencies with active COVID-19 cases: [on/licensed-child-care-settings-active/lccactivecovid.csv](https://drive.google.com/drive/folders/1CFmQCx6Q0GKTqyyKK-UOSvoMb3VgpaNk)
+    * Summary of cases in licensed child care settings: [on/licensed-child-care-settings-summary/lccovidsummary.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Licensed child care centres and agencies with active COVID-19 cases: [on/licensed-child-care-settings-active/lccactivecovid.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 * [COVID-19 Vaccine Data in Ontario](https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario)
-    * [on/vaccine-data/vaccine_doses.csv](https://drive.google.com/drive/folders/1lHHwSqkW_ZZpcdBaNiUM-H-Q_ynod3jq)
+    * [on/vaccine-data/vaccine_doses.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
 
 #### Toronto
 
 * [City of Toronto Daily Status of COVID-19 Cases](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-status-of-cases-in-toronto/)
-    * [on/toronto-daily-status/CityofToronto_COVID-19_Daily_Public_Reporting.xlsx](https://drive.google.com/drive/folders/1ie-DHoYsbMcWRBrBZRqsbV50BIon0MU_)
+    * [on/toronto-daily-status/CityofToronto_COVID-19_Daily_Public_Reporting.xlsx](http://data.opencovid.ca/archive/index.html#archive/)
     * Include supplementary material: Technical notes
     * Terms of use: Assumed to be [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
 * [City of Toronto COVID-19 Summary](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-status-of-cases-in-toronto/)
-    * [on/toronto-covid-summary/CityofToronto_COVID-19_Data.xlsx](https://drive.google.com/drive/folders/1iZPRXgEoKslYNQpY_nbo_NmP2LYThFkA)
+    * [on/toronto-covid-summary/CityofToronto_COVID-19_Data.xlsx](http://data.opencovid.ca/archive/index.html#archive/)
     * Include supplementary material: Technical notes
     * Terms of use: Assumed to be [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
 * [City of Toronto COVID-19 Neighbourhood Case Data](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-status-of-cases-in-toronto/)
-    * [on/toronto-neighbourhood-data/CityofToronto_COVID-19_NeighbourhoodData.xlsx](https://drive.google.com/drive/folders/1c7xVzZIwOx2M1dN9XvKYEf_Di51tQyD9)
+    * [on/toronto-neighbourhood-data/CityofToronto_COVID-19_NeighbourhoodData.xlsx](http://data.opencovid.ca/archive/index.html#archive/)
     * Include supplementary material: Technical notes
     * Terms of use: Assumed to be [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
 * [City of Toronto COVID-19 Neighbourhood Testing Data](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-status-of-cases-in-toronto/)
-    * [on/toronto-neighbourhood-test-data/CityofToronto_COVID-19_Testing.xlsx](https://drive.google.com/drive/folders/16cwwF0IAiXpB2cbXNA7A9hCuaG8DF3bR)
+    * [on/toronto-neighbourhood-test-data/CityofToronto_COVID-19_Testing.xlsx](http://data.opencovid.ca/archive/index.html#archive/)
     * Include supplementary material: Technical notes
     * Terms of use: Assumed to be [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
 * [City of Toronto COVID-19 Monitoring Dashboard](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-status-of-cases-in-toronto/)
-    * [on/toronto-monitoring-dashboard/CityofToronto_COVID-19_RecoveryData.xlsx](https://drive.google.com/drive/folders/1fHmGdLjTGoQXVuyGnTfMZ1UbMrQrnQ6P)
+    * [on/toronto-monitoring-dashboard/CityofToronto_COVID-19_RecoveryData.xlsx](http://data.opencovid.ca/archive/index.html#archive/)
     * Include supplementary material: Technical notes
     * Terms of use: Assumed to be [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
 * [City of Toronto COVID-19 Active Outbreaks](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-status-of-cases-in-toronto/)
@@ -367,31 +367,31 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Include supplementary material: Technical notes - COVID-19 Active Outbreaks - Community and Workplace Settings
     * Terms of use: Assumed to be [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
 * [City of Toronto Ethno-Racial Group, Income, & Infection](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-status-of-cases-in-toronto/)
-    * [on/toronto-ethno-racial-income/Ethno-Racial_Group,_Income,_and_COVID-19_Infection.xlsx](https://drive.google.com/drive/folders/1Q4esWyxm6SstZGQr-kR_32bpichsICYo) (original file name is Ethno-Racial Group, Income, and COVID-19 Infection.xlsx, renamed to avoid spaces in file name)
+    * [on/toronto-ethno-racial-income/Ethno-Racial_Group,_Income,_and_COVID-19_Infection.xlsx](http://data.opencovid.ca/archive/index.html#archive/) (original file name is Ethno-Racial Group, Income, and COVID-19 Infection.xlsx, renamed to avoid spaces in file name)
     * Include supplementary material: Technical notes
     * Terms of use: Assumed to be [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
     * Not included as part of the nightly update, as it does not seem to be receiving regular updates (data as of September 30, 2020)
 * [COVID-19 Cases in Toronto](https://open.toronto.ca/dataset/covid-19-cases-in-toronto/)
-    * [on/toronto-cases/COVID19_cases.csv](https://drive.google.com/drive/folders/1npUc4yyVR865IAX1DuqPosc-TjpO14M3)
+    * [on/toronto-cases/COVID19_cases.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Data are extracted at 3 PM on the Monday of a given week and posted by Wednesday [dataset is updated only on Wednesdays]
     * Terms of use: Assumed to be [Open Government Licence – Toronto](https://open.toronto.ca/open-data-license/)
 * [University of Toronto COVID-19 tracking](https://www.utoronto.ca/utogether2020/covid19-dashboard)
-    * [on/u-of-t-covid-tracking-webpage/u-of-t-covid-tracking-webpage.html](https://drive.google.com/drive/folders/1D4KzZVWz-vw96dxJVJHNpFpXnRh9or5J) (warning: some early files are .png screenshots and named differently)
+    * [on/u-of-t-covid-tracking-webpage/u-of-t-covid-tracking-webpage.html](http://data.opencovid.ca/archive/index.html#archive/) (warning: some early files are .png screenshots and named differently)
     * Data are reported every Monday with cumulative cases through the previous Friday [screenshots will be take every day in case the update frequency increases]
     * Terms of use: TBD
 
 #### Ottawa
 
 * [Daily COVID-19 Dashboard (Ottawa)](https://www.ottawapublichealth.ca/en/reports-research-and-statistics/daily-covid19-dashboard.aspx)
-    * [Demographics and Source of Infection for Cases, Deaths, and Hospitalizations](https://www.arcgis.com/home/item.html?id=6bfe7832017546e5b30c5cc6a201091b): [on/ottawa-cases-deaths-hosp-demographics-source-of-infection/COVID-19_Cases_and_Deaths_Ottawa_EN.csv](https://drive.google.com/drive/folders/1e-u-utGtP-NDBAigdrW36sDeWSCwz5Ji)
-    * [Outbreaks in Healthcare Institutions, Childcare, Summer Camps, and Educational Establishments](https://www.arcgis.com/home/item.html?id=5b24f70482fe4cf1824331d89483d3d3): [on/ottawa-outbreaks-healthcare-childcare-camps-schools/COVID-19_Institutional_Outbreaks.csv](https://drive.google.com/drive/folders/1wZ27q90_Uom6QCP0UMr6wGSlzQc_sAOo)
-    * [Community Outbreaks](https://open.ottawa.ca/datasets/0df365456c254fbc942fe3d85c3dbf83): [on/ottawa-community-outbreaks/COVID-19_Community_Outbreaks_in_Ottawa.csv](https://drive.google.com/drive/folders/13j5pzMJAigvkgxMsxvx1lKfH_rEC2G84)
-    * [Weekly Rates](https://www.arcgis.com/home/item.html?id=734a327141b14a55b666953c9141abf3): [on/ottawa-weekly-rates/COVID-19_Weekly_Cases_and_Rates_by_Age_in_Ottawa_EN.csv](https://drive.google.com/drive/folders/1dovKNHy8EgGajqIqP-tn3j9v2GpdlHUn)
-    * [Estimated Reproduction Number in Ottawa](https://www.arcgis.com/home/item.html?id=d010a848b6e54f4990d60a202f2f2f99): [on/ottawa-estimated-rt/EN_-_Covid-19_Reproduction_Number,_R(t).csv](https://drive.google.com/drive/folders/1PM3nvFv3a1zZ6755aT2jpyvpjFjnaqUb)
-    * [Testing - Ottawa Residents](https://www.arcgis.com/home/item.html?id=26c902bf1da44d3d90b099392b544b81): [on/ottawa-residents-tested/COVID-19_Ottawa_Residents_Tested_EN.csv](https://drive.google.com/drive/folders/1E3udpKQCqEaOh4aCt1zk7cUb8uZoasqg)
-    * Ottawa cases and deaths: [on/ottawa-cases-and-deaths/COVID-19_Cases_and_Deaths_in_Ottawa_EN.csv](https://drive.google.com/drive/folders/18qasHo8WbSbKMKap8O0125vnvUb81OjB) (Archived as of 2020-09-21, no longer part of the nightly update)
-    * Ottawa outbreaks in healthcare institutions: [on/ottawa-outbreaks-in-healthcare-institutions/COVID-19_Outbreaks_in_Ottawa_Healthcare_Institutions_EN.csv](https://drive.google.com/drive/folders/16rbTbd5EcwENtGNf9RgnQbojzf4he_0D) (Archived as of 2020-09-21, no longer part of the nightly update)
-    * Ottawa hospitalization data: [on/ottawa-hospitalization/Hospitalizations_of_Ottawa_residents_with_confirmed_COVID-19.csv](https://drive.google.com/drive/folders/1v_5gCnHxRRzKZ8cdmWEnCFkLotY3K-7R) (Archived as of 2020-09-21, no longer part of the nightly update)
+    * [Demographics and Source of Infection for Cases, Deaths, and Hospitalizations](https://www.arcgis.com/home/item.html?id=6bfe7832017546e5b30c5cc6a201091b): [on/ottawa-cases-deaths-hosp-demographics-source-of-infection/COVID-19_Cases_and_Deaths_Ottawa_EN.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * [Outbreaks in Healthcare Institutions, Childcare, Summer Camps, and Educational Establishments](https://www.arcgis.com/home/item.html?id=5b24f70482fe4cf1824331d89483d3d3): [on/ottawa-outbreaks-healthcare-childcare-camps-schools/COVID-19_Institutional_Outbreaks.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * [Community Outbreaks](https://open.ottawa.ca/datasets/0df365456c254fbc942fe3d85c3dbf83): [on/ottawa-community-outbreaks/COVID-19_Community_Outbreaks_in_Ottawa.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * [Weekly Rates](https://www.arcgis.com/home/item.html?id=734a327141b14a55b666953c9141abf3): [on/ottawa-weekly-rates/COVID-19_Weekly_Cases_and_Rates_by_Age_in_Ottawa_EN.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * [Estimated Reproduction Number in Ottawa](https://www.arcgis.com/home/item.html?id=d010a848b6e54f4990d60a202f2f2f99): [on/ottawa-estimated-rt/EN_-_Covid-19_Reproduction_Number,_R(t).csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * [Testing - Ottawa Residents](https://www.arcgis.com/home/item.html?id=26c902bf1da44d3d90b099392b544b81): [on/ottawa-residents-tested/COVID-19_Ottawa_Residents_Tested_EN.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Ottawa cases and deaths: [on/ottawa-cases-and-deaths/COVID-19_Cases_and_Deaths_in_Ottawa_EN.csv](http://data.opencovid.ca/archive/index.html#archive/) (Archived as of 2020-09-21, no longer part of the nightly update)
+    * Ottawa outbreaks in healthcare institutions: [on/ottawa-outbreaks-in-healthcare-institutions/COVID-19_Outbreaks_in_Ottawa_Healthcare_Institutions_EN.csv](http://data.opencovid.ca/archive/index.html#archive/) (Archived as of 2020-09-21, no longer part of the nightly update)
+    * Ottawa hospitalization data: [on/ottawa-hospitalization/Hospitalizations_of_Ottawa_residents_with_confirmed_COVID-19.csv](http://data.opencovid.ca/archive/index.html#archive/) (Archived as of 2020-09-21, no longer part of the nightly update)
     * Include supplementary material: User guide, technical guide, overall status assessment
     * Terms of use: [Open Government Licence – City of Ottawa](https://ottawa.ca/en/city-hall/get-know-your-city/open-data#open-data-licence-version-2-0)
 
@@ -400,93 +400,93 @@ The sources and terms of use for each included dataset are linked below. Supplem
 When both French and English data files are available, French files should generally be considered definitive (and in many cases, these files have been captured in the archive for a longer duration). The English versions of files avaiable in both languages will always have their directories marked with "-en" at the end.
 
 * [Data on COVID-19 in Québec (province)](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
-    * [Webpage EN](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/): [qc/qc-webpage-en/qc-webpage-en.html](https://drive.google.com/drive/folders/1dpolshJwFvHWZQxOG58LY-l0pztntYdi)
-    * [Webpage FR](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/): [qc/qc-webpage-fr/qc-webpage-fr.html](https://drive.google.com/drive/folders/1nQvnGfZdxIkhibJZHyp4ahbn27q_z3ll)
-    * COVID-19 Dashboard: [qc/qc-covid-dashboard/20-210-382W_infographie_sommaire-executif.jpeg](https://drive.google.com/drive/folders/1K8tBcW_i2cLuRVj0Yw-aToZ3LWWvTEHf)
-    * Situation in Quebec: [qc/situation-in-quebec/situation-au-quebec.csv](https://drive.google.com/drive/folders/1en-wC4O6X6CGKJjBWuyqcP9NRT9O8D61)
-    * Correctional facilities - cases among employees (FR): [qc/correctional-cases-employees/donnees_covid_detention_employes_FR.csv](https://drive.google.com/drive/folders/1FZ8Edx6Xv2cx1mOsh7a5FFY1nI3UGLYE)
-    * Correctional facilities - cases among employees (EN): [qc/correctional-cases-employees-en/donnees_covid_detention_employes_EN.csv](https://drive.google.com/drive/folders/18PcQcnuS0gPLi7D2Tnd40l7VOMeJm4hf)
-    * Correctional facilities - cases among detainees (FR): [qc/correctional-cases-detainees/](https://drive.google.com/drive/folders/1WjUeIALF5440iKvvEUvm6cyDav4rYDcq)
-    * Correctional facilities - cases among detainees (EN): [qc/correctional-cases-detainees/donnees_covid_detention_personnes_incarcerees_EN.csv](https://drive.google.com/drive/folders/1aBEKVOBqMqpqShE_feXQTvHDgZC3M1dl)
-    * Outbreaks by setting (FR): [qc/outbreaks-by-setting/eclosions-par-milieu.csv](https://drive.google.com/drive/folders/1tz41XR2Y0ToSW4fAFU5qf7HP3E4u3AFw)
+    * [Webpage EN](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/): [qc/qc-webpage-en/qc-webpage-en.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * [Webpage FR](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/): [qc/qc-webpage-fr/qc-webpage-fr.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * COVID-19 Dashboard: [qc/qc-covid-dashboard/20-210-382W_infographie_sommaire-executif.jpeg](http://data.opencovid.ca/archive/index.html#archive/)
+    * Situation in Quebec: [qc/situation-in-quebec/situation-au-quebec.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Correctional facilities - cases among employees (FR): [qc/correctional-cases-employees/donnees_covid_detention_employes_FR.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Correctional facilities - cases among employees (EN): [qc/correctional-cases-employees-en/donnees_covid_detention_employes_EN.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Correctional facilities - cases among detainees (FR): [qc/correctional-cases-detainees/](http://data.opencovid.ca/archive/index.html#archive/)
+    * Correctional facilities - cases among detainees (EN): [qc/correctional-cases-detainees/donnees_covid_detention_personnes_incarcerees_EN.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Outbreaks by setting (FR): [qc/outbreaks-by-setting/eclosions-par-milieu.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Outbreaks by setting (EN): [qc/outbreaks-by-setting-en/eclosions-par-milieu-en.csv](https://drive.google.com/drive/folders/1p4EFQ_r4x4wjp76zOwlW9gD7-3sKX4z4) [archived: no longer updated]
-    * Cases percentage by age group (FR): [qc/cases-percentage-by-age-group/pourcentage-cas-age.csv](https://drive.google.com/drive/folders/1lJhiUMKOoDUwltflhOhtmDnjKpD8-zll)
+    * Cases percentage by age group (FR): [qc/cases-percentage-by-age-group/pourcentage-cas-age.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Cases percentage by age group (EN): [qc/cases-percentage-by-age-group-en/pourcentage-cas-age-en.csv](https://drive.google.com/drive/folders/1tIW1eONhV1tvhYbappJ44zfvzTpb2RSA) [archived: no longer updated]
-    * Deaths percentage by age group (FR): [qc/deaths-percentage-by-age-group/pourcentage-deces-age.csv](https://drive.google.com/drive/folders/1Ef1oPsTMGckPZu3sG87zDRjJRWdp864t)
+    * Deaths percentage by age group (FR): [qc/deaths-percentage-by-age-group/pourcentage-deces-age.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Deaths percentage by age group (EN): [qc/deaths-percentage-by-age-group-en/pourcentage-deces-age-en.csv](https://drive.google.com/drive/folders/1CPP_HMuwljqcktPUgM8TaZK3DF7fRJP9) [archived: no longer updated]
-    * Cumulative deaths by region (FR): [qc/cumulative-deaths-by-region/deces-region.csv](https://drive.google.com/drive/folders/1RH4vu1SlIefnk-tr1qaKueJrVsSDUrk7)
+    * Cumulative deaths by region (FR): [qc/cumulative-deaths-by-region/deces-region.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Cumulative deaths by region (EN): [qc/cumulative-deaths-by-region-en/deces-region-en.csv](https://drive.google.com/drive/folders/1uL2HHOqEDTl3GoBJDo2EAxkzl2OFw34F) [archived: no longer updated]
-    * Recent daily cases by region (FR): [qc/recent-daily-cases-by-region/cas-region.csv](https://drive.google.com/drive/folders/1_HAaI1p-gB7cEOKNXOo2-A-TaBiD79WB)
-    * Recent daily cases by region (EN): [qc/recent-daily-cases-by-region-en/cas-region-en.csv](https://drive.google.com/drive/folders/18sAMq1Rv5NkxJPUP__Kc4uUWkvllHoAR)
-    * COVID-19 daily data 7 days (FR): [qc/covid-data-daily-7-days/synthese-7jours.csv](https://drive.google.com/drive/folders/1-1Y6dKczLPQU5Rm48eTzJVf9Vpio2pas) (Renamed to synthese-7joursV2.csv from synthese-7jours.csv after 2020-11-09; later renamed again to synthese-7jours.csv - a substantial number of files from November and December are missing due to this change)
+    * Recent daily cases by region (FR): [qc/recent-daily-cases-by-region/cas-region.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Recent daily cases by region (EN): [qc/recent-daily-cases-by-region-en/cas-region-en.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * COVID-19 daily data 7 days (FR): [qc/covid-data-daily-7-days/synthese-7jours.csv](http://data.opencovid.ca/archive/index.html#archive/) (Renamed to synthese-7joursV2.csv from synthese-7jours.csv after 2020-11-09; later renamed again to synthese-7jours.csv - a substantial number of files from November and December are missing due to this change)
     * COVID-19 daily data 7 days (EN): [qc/covid-data-daily-7-days-en/synthese-7jours-en.csv](https://drive.google.com/drive/folders/1hiLaw3OLYZK9FIHs68iBheGdJXGRy-9E) [archived: no longer updated]
-    * Cases by region 7 days (FR): [qc/cases-by-region-7-days/cas-region-7jours.csv](https://drive.google.com/drive/folders/1FMpdMDozL9ywLrOR-i0ZF7TAiq5rozqF)
-    * Cases by region 7 days (EN): [qc/cases-by-region-7-days-en/cas-region-7jours-en.csv](https://drive.google.com/drive/folders/10xY0nXr1_kDzeMh-duCepokVg7zSX6I6)
+    * Cases by region 7 days (FR): [qc/cases-by-region-7-days/cas-region-7jours.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Cases by region 7 days (EN): [qc/cases-by-region-7-days-en/cas-region-7jours-en.csv](http://data.opencovid.ca/archive/index.html#archive/)
 * [COVID-19 vaccination data](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/covid-19-vaccination-data/)
-    * [Webpage EN](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/covid-19-vaccination-data/): [qc/qc-vaccination-webpage-en/qc-vaccination-webpage-en.html](https://drive.google.com/drive/folders/1h-b5MPDH3BpwP2mFdZfagrWx1x704AMR)
-    * [Webpage FR](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/donnees-sur-la-vaccination-covid-19/): [qc/qc-vaccination-webpage-fr/qc-vaccination-webpage-fr.html](https://drive.google.com/drive/folders/1DXrSwretQqG8RU-Dzhd-eODxCjlEnIIk)
-    * Vaccination situation (FR): [qc/vaccination-situation/situation-vaccination.csv](https://drive.google.com/drive/folders/1ALtsdeHdlyYxNx1JICL6yw2tGzwoIcE5)
+    * [Webpage EN](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/covid-19-vaccination-data/): [qc/qc-vaccination-webpage-en/qc-vaccination-webpage-en.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * [Webpage FR](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/donnees-sur-la-vaccination-covid-19/): [qc/qc-vaccination-webpage-fr/qc-vaccination-webpage-fr.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vaccination situation (FR): [qc/vaccination-situation/situation-vaccination.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination situation (EN): [qc/vaccination-situation-en/situation-vaccination-en.csv](https://drive.google.com/drive/folders/1R3JYs4NT1k2ESctWNN6JfcfimnDkmmsq) [archived: no longer updated]
-    * Vaccine doses administered by RSS (FR): [qc/vaccine-doses-admin-by-rss/doses-vaccins.csv](https://drive.google.com/drive/folders/1-ileQelY2aoJFcCSJSu3JG6bZrGWFFbS)
-    * Vaccine doses administered by RSS (EN): [qc/vaccine-doses-admin-by-rss-en/doses-vaccins-en.csv](https://drive.google.com/drive/folders/1MWPkSGMfOMGqJNNv7LEJzWA1AAB3h3yI) (note: the first file in this dataset is only available as a screenshot; archived as of 2021-01-14, no longer part of the nightly update)
-    * Vaccine doses received (FR): [qc/vaccine-doses-received-7-days/doses-vaccins-7jours.csv](https://drive.google.com/drive/folders/1z-N_RuVWOqKO3pyCM8skkdhf_tkapPPE)
+    * Vaccine doses administered by RSS (FR): [qc/vaccine-doses-admin-by-rss/doses-vaccins.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vaccine doses administered by RSS (EN): [qc/vaccine-doses-admin-by-rss-en/doses-vaccins-en.csv](http://data.opencovid.ca/archive/index.html#archive/) (note: the first file in this dataset is only available as a screenshot; archived as of 2021-01-14, no longer part of the nightly update)
+    * Vaccine doses received (FR): [qc/vaccine-doses-received-7-days/doses-vaccins-7jours.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 * [Variants de SRAS-CoV-2 sous surveillance rehaussée](https://inspq.qc.ca/covid-19/donnees/variants)
-    * [qc/variants/variants.csv](https://drive.google.com/drive/folders/1N_YG96fF93X9UnAYi17gmsteQXDaoH4V)
+    * [qc/variants/variants.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 * [Données COVID-19 au Québec (INSPQ)](https://www.inspq.qc.ca/covid-19/donnees)
-    * COVID-19 time series by region and demographics: [qc/covid-time-series-by-region-and-demographics/covid19-hist.csv](https://drive.google.com/drive/folders/18IVG9ivYK-kQ7joEZptyje6fu0rf4T7M)
-    * COVID-19 data (charts - summary, time series, and hospitalization by age): [qc/covid-data-charts-summary-time-series-hosp-by-age/manual-data.csv](https://drive.google.com/drive/folders/1imkAJIUffYtI5KaYZxgiAtagXXDwckoX)
-    * Summary by region: [qc/summary-by-region/regions.csv](https://drive.google.com/drive/folders/1uUZjV0sxOEoMZSQj-PFArGwhEvIrspDq)
-    * Deaths by RSS (health region) and living environment: [qc/deaths-by-rss-and-living-environment/tableau-rpa-new.csv](https://drive.google.com/drive/folders/1w5VHBvF3JTQ12Y_gKMGGOcszpvSY8rwy) (Renamed from tableau-rpa.csv after 2020-09-16)
-    * Cases by RSS (health region) and RLS (local service network): [qc/cases-by-rss-and-rls/tableau-rls-new.csv](https://drive.google.com/drive/folders/1bv4tNVmKUhoRUYsMIubKwEdy7U3fmsF2) (Renamed from tableau-rls.csv after 2020-09-16)
-    * Comparisons (provinces): [qc/comparisons-provinces/comparaisons_prov.csv](https://drive.google.com/drive/folders/1060dqZQJ2SMkygJHNSEsl3FSTXE6TMIX)
-    * Comparisons (countries): [qc/comparisons-countries/comparaisons_pays.csv](https://drive.google.com/drive/folders/1x0RZUSKCk7Ou6Z9i7udfuxe7WgQDfZwU)
-    * Deaths by RSS (health region) and number of pre-existing conditions: [qc/deaths-by-rss-and-pre-existing-conditions](https://drive.google.com/drive/folders/1MzQH4PRRrU9sMpjIYq-WVY9S9LL3g6m9)
-    * COVID-19 time series by region: [qc/covid-time-series-by-region/PL_DATE.csv](https://drive.google.com/drive/folders/11scpEF8GUwV_qRCLTn-y9-po6PHiZYmW) (Archived as of 2020-10-15, no longer part of the nightly update)
+    * COVID-19 time series by region and demographics: [qc/covid-time-series-by-region-and-demographics/covid19-hist.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * COVID-19 data (charts - summary, time series, and hospitalization by age): [qc/covid-data-charts-summary-time-series-hosp-by-age/manual-data.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Summary by region: [qc/summary-by-region/regions.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Deaths by RSS (health region) and living environment: [qc/deaths-by-rss-and-living-environment/tableau-rpa-new.csv](http://data.opencovid.ca/archive/index.html#archive/) (Renamed from tableau-rpa.csv after 2020-09-16)
+    * Cases by RSS (health region) and RLS (local service network): [qc/cases-by-rss-and-rls/tableau-rls-new.csv](http://data.opencovid.ca/archive/index.html#archive/) (Renamed from tableau-rls.csv after 2020-09-16)
+    * Comparisons (provinces): [qc/comparisons-provinces/comparaisons_prov.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Comparisons (countries): [qc/comparisons-countries/comparaisons_pays.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Deaths by RSS (health region) and number of pre-existing conditions: [qc/deaths-by-rss-and-pre-existing-conditions](http://data.opencovid.ca/archive/index.html#archive/)
+    * COVID-19 time series by region: [qc/covid-time-series-by-region/PL_DATE.csv](http://data.opencovid.ca/archive/index.html#archive/) (Archived as of 2020-10-15, no longer part of the nightly update)
         * [Advice for data process by Simon Coulombe](https://gist.github.com/SimonCoulombe/9a329052ac4cefd421febd8650ed84e2)
-    * COVID-19 data: [qc/covid-data/combine.csv](https://drive.google.com/drive/folders/1Mx9H2AfYncQGifc_lNcUWr32MrPIepc7) (Archived as of 2020-09-16, no longer part of the nightly update)
-    * COVID-19 data (charts): [qc/covid-data-charts/combine2.csv](https://drive.google.com/drive/folders/11lkpfIvQW6tVH4c7w6ZlQ36R4mMudbxX) (Archived as of 2020-09-16, no longer part of the nightly update)
+    * COVID-19 data: [qc/covid-data/combine.csv](http://data.opencovid.ca/archive/index.html#archive/) (Archived as of 2020-09-16, no longer part of the nightly update)
+    * COVID-19 data (charts): [qc/covid-data-charts/combine2.csv](http://data.opencovid.ca/archive/index.html#archive/) (Archived as of 2020-09-16, no longer part of the nightly update)
     * Terms of use: TBD
 * [Données COVID-19 par âge et sexe au Québec](https://www.inspq.qc.ca/covid-19/donnees/age-sexe)
-    * COVID-19 data by age group and sex: [qc/covid-data-by-age-and-sex/PL_AGE_SEXE.csv](https://drive.google.com/drive/folders/1o7tM8U8BiLufnEecVEZthKHactdv1UfY)
+    * COVID-19 data by age group and sex: [qc/covid-data-by-age-and-sex/PL_AGE_SEXE.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 * [Données sur la COVID-19 au Québec](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
-    * Deaths time series by living environment: [qc/deaths-time-series-by-living-environment/decesquotidien.csv](https://drive.google.com/drive/folders/1Pb1yqZsQsq40EBH0MVPGIJtS_Uoe1Fj2)
+    * Deaths time series by living environment: [qc/deaths-time-series-by-living-environment/decesquotidien.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 * [Situation dans les milieux de vie pour personnes aînées et vulnérables](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
-    * Status report on confirmed cases and deaths by RPA (private residences for seniors): [qc/status-report-cases-and-deaths-by-rpa/etat_situation_rpa.pdf](https://drive.google.com/drive/folders/1nkDpCrXj6Y9Qc-E2fWzRznZx97HXAE6Y)
-    * Status report on confirmed cases and deaths by CHSLD (residential and long-term care centres): [qc/status-report-cases-and-deaths-by-chsld/etat_situation_chsld.pdf](https://drive.google.com/drive/folders/15uQXy5cVSBYePYA5kb0-S7tIZ_ylCYF9)
+    * Status report on confirmed cases and deaths by RPA (private residences for seniors): [qc/status-report-cases-and-deaths-by-rpa/etat_situation_rpa.pdf](http://data.opencovid.ca/archive/index.html#archive/)
+    * Status report on confirmed cases and deaths by CHSLD (residential and long-term care centres): [qc/status-report-cases-and-deaths-by-chsld/etat_situation_chsld.pdf](http://data.opencovid.ca/archive/index.html#archive/)
     * Supplementary material: [Canadian Armed Forces report on their presence in CHSLDs](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec)
     * Terms of use: TBD
 * [Liste des écoles comptant des cas de COVID-19](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/liste-des-cas-de-covid-19-dans-les-ecoles/)
-    * Webpage (FR): [qc/schools-list-of-schools-webpage/schools-list-of-schools-webpage.html](https://drive.google.com/drive/folders/1yQT2mJgh6U28KM_RjVFa2NBBC_z6ckoS)
-    * List of schools (CSV): [qc/schools-list-of-schools-csv/Liste_ecole_DCOM.csv](https://drive.google.com/drive/folders/1-L_fgciUWPWbI7K5XaRzN93ifUgXZlRH)
-    * List of schools - public and private school system (PDF FR): [qc/schools-list-of-schools/reseauScolaire_listeEcoles.pdf](https://drive.google.com/drive/folders/10CgT6m9BXmE4oeyNgNh3fm0ix1fvLuD2)
+    * Webpage (FR): [qc/schools-list-of-schools-webpage/schools-list-of-schools-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * List of schools (CSV): [qc/schools-list-of-schools-csv/Liste_ecole_DCOM.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * List of schools - public and private school system (PDF FR): [qc/schools-list-of-schools/reseauScolaire_listeEcoles.pdf](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 * [List of schools reporting COVID-19 cases](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/list-schools-reporting-covid-19-cases/)
-    * Webpage (EN): [qc/schools-list-of-schools-webpage-en/schools-list-of-schools-webpage-en.html](https://drive.google.com/drive/folders/1lOwMKDGwcj1XTGaR_-RuviuIJ318_Dwn)
-    * PDF list of schools - public and private school system (PDF EN): [qc/schools-list-of-schools-en/reseauScolaire_listeEcoles_ANG.pdf](https://drive.google.com/drive/folders/13aRcjPc5A6hOvbTaplyymEUnaqRk3n6v)
+    * Webpage (EN): [qc/schools-list-of-schools-webpage-en/schools-list-of-schools-webpage-en.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * PDF list of schools - public and private school system (PDF EN): [qc/schools-list-of-schools-en/reseauScolaire_listeEcoles_ANG.pdf](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 * [Faits saillants des cas de COVID-19 dans les écoles du Québec](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/faits-saillants-covid-ecoles/)
-    * Webpage (FR): [qc/schools-highlights-webpage/schools-highlights-webpage.html](https://drive.google.com/drive/folders/14NK898AsQCh7d-MCRG-fu8G0KKQeFf_E)
+    * Webpage (FR): [qc/schools-highlights-webpage/schools-highlights-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 * [Highlights - Public and Private School Systems](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/highlights-public-private-school-systems/)
-    * Webpage (EN): [qc/schools-highlights-webpage-en/schools-highlights-webpage-en.html](https://drive.google.com/drive/folders/1xyxgW3twAA5JMfIGeKDhbt6kHZgqeFe6)
+    * Webpage (EN): [qc/schools-highlights-webpage-en/schools-highlights-webpage-en.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 * [Situation dans les établissements scolaires](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
-    * Highlights - public and private school system (FR): [qc/schools-highlights/reseauScolaire_faitsSaillants.pdf](https://drive.google.com/drive/folders/1HtX-WTyzqo1FICQfJ08N0fTlPeJOMU_H)
-    * Highlights - public and private school system (EN): [qc/schools-highlights-en/reseauScolaire_faitsSaillants_ANG.pdf](https://drive.google.com/drive/folders/1xO6MoS7rHwEPVSCiqUgnaZ-U8CPC86bP)
+    * Highlights - public and private school system (FR): [qc/schools-highlights/reseauScolaire_faitsSaillants.pdf](http://data.opencovid.ca/archive/index.html#archive/)
+    * Highlights - public and private school system (EN): [qc/schools-highlights-en/reseauScolaire_faitsSaillants_ANG.pdf](http://data.opencovid.ca/archive/index.html#archive/)
     * Formerly [Situation dans les établissements scolaires relative à la COVID-19](https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_ecole.pdf): qc/schools-list-of-schools/etat_situation_ecole_2020-09-04_2020-09-06/etat_situation_ecole.pdf
     * Formerly [Liste des écoles ayant au moins un cas rapporté de la COVID-19 depuis le 1er septembre 2020](https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/liste-ecole-cas-rapportes.pdf): qc/schools-list-of-schools/liste-ecole-cas-rapportes_2020-09-08_2020-09-09/liste-ecole-cas-rapportes.pdf
     * Terms of use: TBD
 * [Portrait quotidien des hospitalisations](https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-des-hospitalisations)
-    * Daily hospitalizations by RSS (health region) and care unit: [qc/daily-hosp-by-rss-and-care-unit/COVID19_Qc_HistoHospit.csv](https://drive.google.com/drive/folders/1iAAOv5A4fVfJBaRMJlzkWSAEp5o4NefB)
-    * Daily hospitalizations by age group: [qc/daily-hosp-by-age-group/COVID19_Qc_HospitCatAge.csv](https://drive.google.com/drive/folders/1YRDa_YB6Vm9fsmOKSmnV2pkuinVcqmP5)
+    * Daily hospitalizations by RSS (health region) and care unit: [qc/daily-hosp-by-rss-and-care-unit/COVID19_Qc_HistoHospit.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Daily hospitalizations by age group: [qc/daily-hosp-by-age-group/COVID19_Qc_HospitCatAge.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Supplementary material: List of variables/methodological notes
     * Terms of use: CC-BY-4.0
 * Active hospitalizations per hospital (FR)
-    * [qc/active-hospitalizations-per-hosp/tableau-hospitalisations.pdf](https://drive.google.com/drive/folders/1xrVqErf7QfZT-GCccbCA30oqVvtZ8pR3)
+    * [qc/active-hospitalizations-per-hosp/tableau-hospitalisations.pdf](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 * Vaccination of priority groups
     * FR: [vaccination-of-priority-groups](https://drive.google.com/drive/folders/14gHszA6zjkXDPfL7-RT0rfMxhVW8vbDx) [archived: no longer updated]
@@ -497,40 +497,40 @@ When both French and English data files are available, French files should gener
 
 * [Situation du coronavirus (COVID-19) à Montréal](https://santemontreal.qc.ca/population/coronavirus-covid-19/situation-du-coronavirus-covid-19-a-montreal/)
     * **Note that these files are actually semicolon-separated since they use a comma as the decimal marker (rather than a period) and are encoded as ISO 8859-15 (rather than UTF-8)**
-    * Montréal cases and deaths by CIUSSS (integrated health and social services centres): [qc/montreal-cases-and-deaths-by-ciusss/ciusss.csv](https://drive.google.com/drive/folders/1uamAn7K3n6WSIxiX9eGC6y63zPItMJAU)
-    * Montréal cases by area: [qc/montreal-cases-by-area/municipal.csv](https://drive.google.com/drive/folders/1pLFw7YV4MjmvYT0D5NfGRcbHyShYyvzV)
-    * Montréal cases and deaths by age group: [qc/montreal-cases-and-deaths-by-age-group/grage.csv](https://drive.google.com/drive/folders/1C8Ss53ZAMB0wsMR_lUoVAY5E_u3D49Rm)
-    * Montréal cases and deaths by sex: [qc/montreal-cases-and-deaths-by-sex/sexe.csv](https://drive.google.com/drive/folders/1Lmo64ITgPBcDhsYqM7s7J2xyGlTfLpj8)
-    * Montréal epidemic curve: [qc/montreal-epidemic-curve/courbe.csv](https://drive.google.com/drive/folders/1kF-aOahhGJzAyZv0KAlwyi_l-HPoaETi)
+    * Montréal cases and deaths by CIUSSS (integrated health and social services centres): [qc/montreal-cases-and-deaths-by-ciusss/ciusss.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Montréal cases by area: [qc/montreal-cases-by-area/municipal.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Montréal cases and deaths by age group: [qc/montreal-cases-and-deaths-by-age-group/grage.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Montréal cases and deaths by sex: [qc/montreal-cases-and-deaths-by-sex/sexe.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Montréal epidemic curve: [qc/montreal-epidemic-curve/courbe.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 
 ### Prince Edward Island
 
 * [PEI COVID-19 Case Data](https://www.princeedwardisland.ca/en/information/health-and-wellness/pei-covid-19-case-data)
-    * Webpage: [pe/pei-webpage/pei-webpage.html](https://drive.google.com/drive/folders/14iUe-GdFPZP5giYtx5zckAgXoZq86LvT)
+    * Webpage: [pe/pei-webpage/pei-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 
 ### Saskatchewan
 
 * [Saskatchewan's Dashboard - Total Cases](https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases)
-    * CSV: [sk/cases-by-region/cases.csv](https://drive.google.com/drive/folders/1BKhWul6Vo2FZXK5dVmn9frIaMicFLfzD)
+    * CSV: [sk/cases-by-region/cases.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Webpage: [sk/cases-by-region-webpage/cases-webpage.html](hhttps://drive.google.com/drive/folders/1m7_t1qB0x-yVpOb6e1Rzfk5uUQ6iFmqO) (warning: some early files are .png screenshots and named differently)
     * Terms of use: TBD
 * [Saskatchewan's Dashboard - Total Tests](https://dashboard.saskatchewan.ca/health-wellness/covid-19-tests/tests)
-    * CSV: [sk/tests-by-region/tests.csv](https://drive.google.com/drive/folders/1iOdc5ij_1xWNrkwWWe1qwbW3GM5wbq1Y)
-    * Webpage: [sk/tests-by-region-webpage/tests-webpage.html](https://drive.google.com/drive/folders/1ixZJWXkMMV3Mftb51_sRGtGwJ3RV-QXX) (warning: some early files are .png screenshots and named differently)
+    * CSV: [sk/tests-by-region/tests.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Webpage: [sk/tests-by-region-webpage/tests-webpage.html](http://data.opencovid.ca/archive/index.html#archive/) (warning: some early files are .png screenshots and named differently)
     * Terms of use: TBD
 * [Vaccine Delivery Update](https://www.saskatchewan.ca/covid19-vaccine-update)
-    * Webpage: [sk/vaccine-delivery-webpage/vaccine-delivery-webpage.html](https://drive.google.com/drive/folders/1Ude0MYm0y80LyG6w_3ZoprrHn9Nn5U0q)
+    * Webpage: [sk/vaccine-delivery-webpage/vaccine-delivery-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 
 ### Yukon
 
 * [Case counts: COVID-19](https://yukon.ca/en/case-counts-covid-19)
-    * Webpage: [yt/yukon-case-counts-webpage/yukon-case-counts-webpage.html](https://drive.google.com/drive/folders/1NSTT2mi_oGQNxU0iL5zBAGj51E5xrAEo)
+    * Webpage: [yt/yukon-case-counts-webpage/yukon-case-counts-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 
 * [Current COVID-19 situation](https://yukon.ca/en/health-and-wellness/covid-19-information/latest-updates-covid-19/current-covid-19-situation)
-    * Webpage: [yt/yukon-current-situation-webpage/yukon-current-situation-webpage.html](https://drive.google.com/drive/folders/1a6XY7QavteiB2QBd4zMdFVWl08j0k83b)
+    * Webpage: [yt/yukon-current-situation-webpage/yukon-current-situation-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 
 ### Other: Non-governmental sources
@@ -538,28 +538,28 @@ When both French and English data files are available, French files should gener
 #### Canada
 
 * [Canada COVID-19 School Case Tracker](https://masks4canada.org/canada-covid-19-school-case-tracker/)
-    * [other/can/canada-covid-19-school-case-tracker/Canada_COVID-19_School_Report_Tracker.kml](https://drive.google.com/drive/folders/1Ssj8EcPDd-yQpCKvDuokrRpwQLkgWUEG) (original file name is Canada COVID-19 School Report Tracker.kml, renamed to avoid spaces in file name; warning: some early files are in .kmz format, which is compressed but handled almost identically to .kml)
+    * [other/can/canada-covid-19-school-case-tracker/Canada_COVID-19_School_Report_Tracker.kml](http://data.opencovid.ca/archive/index.html#archive/) (original file name is Canada COVID-19 School Report Tracker.kml, renamed to avoid spaces in file name; warning: some early files are in .kmz format, which is compressed but handled almost identically to .kml)
     * Terms of use: TBD
 * [COVID-19 - Loblaw Companies Ltd.](https://www.loblaw.ca/en/covid-19/)
-    * [other/can/loblaw-companies-tracker/loblaw-companies-tracker.html](https://drive.google.com/drive/folders/1uJ7kdicJIHQ2I8QZhHD_I1FNlIO9hkIn)
+    * [other/can/loblaw-companies-tracker/loblaw-companies-tracker.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 * [COVID-19 - McDonald's Tracker](https://news.mcdonalds.ca/covid-19-tracker)
-    * [other/can/mcdonalds-tracker/mcdonalds-tracker-webpage.html](https://drive.google.com/drive/folders/1gFfSvLQ6DY66YTZtYBMtdiC3wmPgcl2w)
+    * [other/can/mcdonalds-tracker/mcdonalds-tracker-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 * [Unofficial COVID Alert Dashboard](https://github.com/uhengart/covid-alert-dashboard)
-    * Estimated infections per day: [other/can/unofficial-covid-alert-dashboard/estimated_infections_per_day.txt](https://drive.google.com/drive/folders/1tCtgZArFKt1jOwzSvBLguJz2r5TUScPd) (Replaced after 2020-11-14 by unofficial-covid-alert-dashboard-analysis, no longer part of the nightly update)
-    * Diagnosis key analysis: [other/can/unofficial-covid-alert-dashboard-analysis/DiagnosisKeysAnalysis.csv](https://drive.google.com/drive/folders/1u02hYgE98Mm731AGYm85Iq5nreMX8E3S)
-    * Upload delay: [other/can/unofficial-covid-alert-dashboard-upload-delay/UploadDelay.csv](https://drive.google.com/drive/folders/13RWuBGsOqlz1g4qoeUxa58qYY0aUnymK)
+    * Estimated infections per day: [other/can/unofficial-covid-alert-dashboard/estimated_infections_per_day.txt](http://data.opencovid.ca/archive/index.html#archive/) (Replaced after 2020-11-14 by unofficial-covid-alert-dashboard-analysis, no longer part of the nightly update)
+    * Diagnosis key analysis: [other/can/unofficial-covid-alert-dashboard-analysis/DiagnosisKeysAnalysis.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Upload delay: [other/can/unofficial-covid-alert-dashboard-upload-delay/UploadDelay.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 * [Tracking variants of the novel coronavirus in Canada](https://www.ctvnews.ca/health/coronavirus/tracking-variants-of-the-novel-coronavirus-in-canada-1.5296141)
-    * Webpage: [other/can/ctv-variant-tracker-webpage/ctv-variant-tracker-webpage.html](https://drive.google.com/drive/folders/1GzuPvaOiKTj7uKtpcahIKtJVXQGlRBTT)
-    * CTV variant tracker: [other/can/ctv-variant-tracker/COVID-Variants.txt](https://drive.google.com/drive/folders/1nHv7kX9kSgwLiqOh2ah9tcuFAolcBgaz)
+    * Webpage: [other/can/ctv-variant-tracker-webpage/ctv-variant-tracker-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * CTV variant tracker: [other/can/ctv-variant-tracker/COVID-Variants.txt](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 
 #### Quebec
 
 * [Covid Écoles Québec: Number of schools](https://www.covidecolesquebec.org/liste-alphabtique)
-    * [Excel spreadsheet](https://drive.google.com/file/d/1xOl0uhyx9IuHZfJuRH-OR7BcGFuWYUex/view): [other/qc/covid-ecoles-quebec-school-list/COVIDECOLESQUEBEC.xlsx](https://drive.google.com/drive/folders/1wOEm8a6HsHXbCwp0dVCe9iwDa1kymS5o) (original file name is COVIDECOLESQUEBEC_20200905.xlsx, renamed to avoid confusion)
+    * [Excel spreadsheet](https://drive.google.com/file/d/1xOl0uhyx9IuHZfJuRH-OR7BcGFuWYUex/view): [other/qc/covid-ecoles-quebec-school-list/COVIDECOLESQUEBEC.xlsx](http://data.opencovid.ca/archive/index.html#archive/) (original file name is COVIDECOLESQUEBEC_20200905.xlsx, renamed to avoid confusion)
     * Terms of use: TBD
 
 ### COVID-19 Canada Open Data Working Group
