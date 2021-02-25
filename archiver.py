@@ -182,5 +182,5 @@ for key in ds:
 archivist.print_success_failure()
 
 # Upload log of file uploads
-#if archivist.mode == 'serverprod' or archivist.mode == 'localprod':
-        #archivist.upload_log(t)
+if archivist.mode == 'serverprod' or archivist.mode == 'localprod':
+        archivist.upload_log(t)
