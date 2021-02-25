@@ -1,7 +1,8 @@
 # Archive of Canadian COVID-19 Data
 
-## The data in this archive have moved. They can be accessed at the following link: [https://drive.google.com/drive/folders/10ET5FBqO-K8FBdEaXgBjBZwJskIZGKNG?usp=sharing](https://drive.google.com/drive/folders/10ET5FBqO-K8FBdEaXgBjBZwJskIZGKNG?usp=sharing)
+## THE DATA IN THIS ARCHIVE HAVE MOVED TO A NEW SERVER. To locate data, please use the file explorer: [http://data.opencovid.ca/archive/index.html#archive/](http://data.opencovid.ca/archive/index.html#archive/).
 
+###### The root directory of the file server is: http://data.opencovid.ca/archive/. For example, the PHAC Epidemiology Update from November 4, 2020 may be downloaded at the following URL: [http://data.opencovid.ca/archive/can/epidemiology-update-2/covid19-download_2020-11-04_23-38.csv](http://data.opencovid.ca/archive/can/epidemiology-update-2/covid19-download_2020-11-04_23-38.csv).
 ###### From now on, this archive will be used only to store and collorate on archival scripts and metadata. Links to the data have been updated. Other options to explore and download the data will be available soon.
 
 This repository provides automated, daily backups of COVID-19 data from Canadian governmental and non-governmental sources.
