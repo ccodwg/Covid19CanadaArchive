@@ -5,4 +5,3 @@ selenium
 bs4
 color-it
 boto3
-gitpython

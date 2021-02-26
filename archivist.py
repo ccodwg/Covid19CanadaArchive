@@ -32,9 +32,6 @@ from bs4 import BeautifulSoup
 ## Amazon S3
 import boto3
 
-## GitHub
-from git import Repo
-
 # define functions
 
 ## misc functions
@@ -203,33 +200,7 @@ def upload_log(log):
     except:
         print(background('Full log upload failed!', Colors.red))
 
-## functions for GitHub
 
-def clone_gh(tmpdir, repo_name='github.com/jeanpaulrsoucy/covid-19-canada-gov-data'):
-    """ Clone GitHub repository into temporary directory. Returns a Repo object.
-    
-    Parameters:
-    tmpdir (TemporaryDirectory): A temporary directory to clone the repository into.
-    repo_name (str): The URL of the GitHub repository. Defaults to: 'github.com/jeanpaulrsoucy/covid-19-canada-gov-data'.
-    
-    """
-    global mode, gh_token
-    ## set repository directory
-    repo_dir = tmpdir.name
-    ## shallow clone (minimize download size while still allowing a commit to be made)
-    print('Cloning repo: ' + repo_name)
-    repo_remote = 'https://' + gh_token + ':x-oauth-basic@' + repo_name
-    repo = Repo.clone_from(repo_remote, repo_dir, depth=1)
-    print('Clone successful: ' + repo_name)
-    return repo
-
-def commit_gh(repo, file_list, commit_message):
-    global mode, gh_name, gh_mail
-    # origin = repo.remote('origin')
-    ### set GitHub identity
-    #repo.config_writer().set_value("user", "name", gh_name).release()
-    #repo.config_writer().set_value("user", "email", gh_mail).release()
-    return(None)
 
 ## functions for web scraping
 

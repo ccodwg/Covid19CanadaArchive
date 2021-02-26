@@ -22,17 +22,14 @@ import archivist
 # list of environmental variables used in this script (through functions in archivist.py)
 ## AWS_ID: environmental variable of AWS ID (used when mode = server)
 ## AWS_KEY: environmental variable of AWS key (used when mode = server)
-## GH_TOKEN: personal access token for the GitHub API (used when mode = server)
-## GH_NAME: name to use for GitHub commits (used when mode = server)
-## GH_MAIL: email address to use for GitHub commits (used when mode = server)
 ## GOOGLE_CHROME_BIN: path to binary in heroku-buildpack-google-chrome (used when mode = server): /app/.chromedriver/bin/chromedriver
 ## CHROMEDRIVER_PATH: path to binary in heroku-buildpack-chromedriver (used when mode = server): /app/.apt/usr/bin/google-chrome
 
 # set mode from argv (server vs. local and prod vs. test)
-## server - read secrets from Heroku config variables
+## server - read secrets from environmental variables
 ## local - read secrets from local files
-## prod - archiver.py: upload files to Google Drive
-## test - archiver.py: don't upload files to Google Drive, just test that files can be successfully downloaded
+## prod - archiver.py: upload files to file server
+## test - archiver.py: don't upload files to file server, just test that files can be successfully downloaded
 archivist.set_mode()
 
 # initialize global variables
@@ -47,21 +44,6 @@ if archivist.mode == 'serverprod' or archivist.mode == 'localprod':
         
         ## set S3 path prefix for achived files
         archivist.prefix = 'archive'
-
-# clone GitHub repo
-if archivist.mode == 'serverprod' or archivist.mode == 'localprod':
-        ## get GitHub access token, name, mail
-        if archivist.mode == 'serverprod':
-                archivist.gh_token = os.environ['GH_TOKEN']
-                archivist.gh_name = os.environ['GH_NAME']
-                archivist.gh_mail = os.environ['GH_MAIL']
-        elif archivist.mode == 'localprod':
-                archivist.gh_token = open('.gh/.gh_token.txt', 'r').readline().rstrip()
-                archivist.gh_name = open('.gh/.gh_name.txt', 'r').readline().rstrip()
-                archivist.gh_mail = open('.gh/.gh_mail.txt', 'r').readline().rstrip()
-        ## clone repo to temporary directory
-        repo_tmpdir = archivist.tempfile.TemporaryDirectory()
-        archivist.repo = archivist.clone_gh(repo_tmpdir)
 
 # define ChromeDriver location (for localprod/localtest)
 if archivist.mode == 'localprod' or archivist.mode == 'localtest':
