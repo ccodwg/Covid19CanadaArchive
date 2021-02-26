@@ -13,6 +13,9 @@ import json
 from colorit import *  # colourful printing
 init_colorit() # enable printing with colour
 
+## email
+import smtplib
+
 ## archivist.py
 import archivist
 
@@ -35,7 +38,7 @@ archivist.set_mode()
 # initialize global variables
 archivist.success = 0 # success counter
 archivist.failure = 0 # failure counter
-archivist.log_text = '' # recent log
+archivist.download_log = '' # download log
 
 # access Amazon S3
 if archivist.mode == 'serverprod' or archivist.mode == 'localprod':
@@ -178,9 +181,40 @@ for key in ds:
                 **ds[key]['args']
         )
 
-# Summarize successes and failures
+# summarize successes and failures
 archivist.print_success_failure()
 
-# Upload log of file uploads
+# upload and email log of file uploads
 if archivist.mode == 'serverprod' or archivist.mode == 'localprod':
-        archivist.upload_log(t)
+        
+        ## assemble log entry
+        log = archivist.output_log(archivist.download_log, t)
+        
+        ## upload log
+        archivist.upload_log(log)
+        
+        ## compose email message (current log entry)
+        mail_name = open('.gm/.mail_name', 'r').readline().rstrip()
+        mail_pass = open('.gm/.mail_pass', 'r').readline().rstrip()
+        mail_to = open('.gm/.mail_to', 'r').readline().rstrip()
+        subject = " ".join(['Covid19CanadaArchive Log', str(t.date()) + ',', 'Failed:', str(archivist.failure)])
+        body = log
+        email_text = """\
+        From: %s
+        To: %s
+        Subject: %s
+        
+        %s
+        """ % (mail_name, mail_to, subject, body)
+        
+        ## send email
+        try:
+                print('Sending log...')
+                server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
+                server.ehlo()
+                server.login(mail_name, mail_pass)
+                server.sendmail(mail_name, mail_to, email_text)
+                server.close()
+                print('Log sent!')
+        except:
+                print('Log failed to send.')

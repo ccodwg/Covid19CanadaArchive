@@ -2,6 +2,7 @@
 .aws
 .gd
 .gh
+.gm
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -121,7 +121,7 @@ def upload_file(full_name, f_path, s3_dir=None, s3_prefix=None):
     s3_prefix (str): Optional. The prefix to the directory on Amazon S3.
 
     """
-    global s3, log_text, success, failure
+    global s3, download_log, success, failure
     
     ## generate file name
     f_name = os.path.basename(full_name)
@@ -134,36 +134,45 @@ def upload_file(full_name, f_path, s3_dir=None, s3_prefix=None):
         ## file upload
         s3.upload_file(Filename=f_path, Key=f_name)
         ## append name of file to the log message
-        log_text = log_text + 'Success: ' + full_name + '\n'
+        download_log = download_log + 'Success: ' + full_name + '\n'
         print(color('Upload successful: ' + full_name, Colors.blue))
         success+=1
     except:
-        log_text = log_text + 'Failure: ' + full_name + '\n'
+        download_log = download_log + 'Failure: ' + full_name + '\n'
         print(background('Upload failed: ' + full_name, Colors.red))
         failure+=1
 
-def upload_log(t):
+def output_log(download_log, t):
+    """Assemble log from current run.
+    
+    Parameters:
+    download_log (str): Raw text of the download log.
+    t (datetime): Date and time script began running (America/Toronto).
+    
+    """
+    global success, failure
+    total_files = str(success + failure)
+    log = 'Successful downloads : ' + str(success) + '/' + total_files + '\n' + 'Failed downloads: ' + str(failure) + '/' + total_files + '\n\n' + download_log
+    log = str(t) + '\n\n' + 'Nightly update: ' + str(t.date()) + '\n\n' + log
+    return log
+
+def upload_log(log):
     """Upload the log of file uploads to Amazon S3.
 
     The most recent log entry is placed in a separate file for easy access.
 
     Parameters:
-    t (datetime): Date and time script began running (America/Toronto).
+    log (str): Log entry from current run.
 
     """
-    global s3, log_text, success, failure
+    global s3, success, failure
     print("Uploading recent log...")
     try:
-        ## build most recent log entry
-        total_files = str(success + failure)
-        log_text = 'Successful downloads : ' + str(success) + '/' + total_files + '\n' + 'Failed downloads: ' + str(failure) + '/' + total_files + '\n\n' + log_text
-        log_text = str(t) + '\n\n' + 'Nightly update: ' + str(t.date()) + '\n\n' + log_text
-        
-        ## write log temporarily and upload
+        ## write most recent log entry temporarily and upload
         tmpdir = tempfile.TemporaryDirectory()
         log_file = os.path.join(tmpdir.name, 'log.txt')
         with open(log_file, 'w') as local_file:
-            local_file.write(log_text)
+            local_file.write(log)
         s3.upload_file(Filename=log_file, Key='archive/log_recent.txt')
 
         ## report success
@@ -180,17 +189,17 @@ def upload_log(t):
             full_log = full_log.read()
 
         ## append recent log to full log
-        log_text = full_log + '\n\n' + log_text
+        log = full_log + '\n\n' + log
 
         ## write log temporarily and upload
         tmpdir = tempfile.TemporaryDirectory()
         log_file = os.path.join(tmpdir.name, 'log.txt')
         with open(log_file, 'w') as local_file:
-            local_file.write(log_text)
+            local_file.write(log)
         s3.upload_file(Filename=log_file, Key='archive/log.txt')
 
         ## report success
-        print(color('Full log upload successful!', Colors.green))                
+        print(color('Full log upload successful!', Colors.green))
     except:
         print(background('Full log upload failed!', Colors.red))
 
@@ -246,7 +255,7 @@ def dl_file(url, dir_parent, dir_file, file, ext='.csv', user=False, verify=True
     mb_json_to_csv (bool): If True, this is a Manitoba JSON file that that should be converted to CSV. Default: False.
 
     """
-    global mode, log_text, success, failure, prefix
+    global mode, download_log, success, failure, prefix
 
     ## set names with timestamp and file ext
     name = file + '_' + get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
@@ -269,7 +278,7 @@ def dl_file(url, dir_parent, dir_file, file, ext='.csv', user=False, verify=True
             failure+=1
             ## write failure to log message if mode == prod
             if mode == 'serverprod' or mode == 'localprod':
-                log_text = log_text + 'Failure: ' + full_name + '\n'
+                download_log = download_log + 'Failure: ' + full_name + '\n'
         ## successful request: if mode == test, print success and end
         elif mode == 'servertest' or mode == 'localtest':
             ## print success
@@ -350,7 +359,7 @@ def dl_file(url, dir_parent, dir_file, file, ext='.csv', user=False, verify=True
         failure+=1
         ## write failure to log message if mode == prod
         if mode == 'serverprod' or mode == 'localprod':
-            log_text = log_text + 'Failure: ' + full_name + '\n'
+            download_log = download_log + 'Failure: ' + full_name + '\n'
 
 def load_webdriver(tmpdir, user=False):
     """Load Chromium headless webdriver for Selenium.
@@ -389,7 +398,7 @@ def html_page(url, dir_parent, dir_file, file, ext='.html', user=False, js=False
     wait (int): Used only if js = True. Time in seconds that the function should wait for the page to render. If the time is too short, the source code may not be captured.
 
     """
-    global mode, log_text, success, failure
+    global mode, download_log, success, failure
     
     ## set names with timestamp and file ext
     name = file + '_' + get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
@@ -423,7 +432,7 @@ def html_page(url, dir_parent, dir_file, file, ext='.html', user=False, js=False
             failure+=1
             ## write failure to log message if mode == prod
             if mode == 'serverprod' or mode == 'localprod':
-                log_text = log_text + 'Failure: ' + full_name + '\n'
+                download_log = download_log + 'Failure: ' + full_name + '\n'
         ## successful request: if mode == test, print success and end
         elif mode == 'servertest' or mode == 'localtest':
             ## print success
@@ -444,7 +453,7 @@ def html_page(url, dir_parent, dir_file, file, ext='.html', user=False, js=False
         failure+=1
         ## write failure to log message if mode == prod
         if mode == 'serverprod' or mode == 'localprod':
-            log_text = log_text + 'Failure: ' + full_name + '\n'             
+            download_log = download_log + 'Failure: ' + full_name + '\n'             
 
 def ss_page(url, dir_parent, dir_file, file, ext='.png', user=False, wait=5, width=None, height=None):
     """Take a screenshot of a webpage.
@@ -462,7 +471,7 @@ def ss_page(url, dir_parent, dir_file, file, ext='.png', user=False, wait=5, wid
     height (int): Height of the output screenshot. Default: None. If not set, the function attempts to detect the maximum height.
 
     """
-    global mode, log_text, success, failure
+    global mode, download_log, success, failure
 
     ## set names with timestamp and file ext
     name = file + '_' + get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
@@ -502,7 +511,7 @@ def ss_page(url, dir_parent, dir_file, file, ext='.png', user=False, wait=5, wid
                 failure+=1
                 ## write failure to log message if mode == prod
                 if mode == 'serverprod' or mode == 'localprod':
-                    log_text = log_text + 'Failure: ' + full_name + '\n'
+                    download_log = download_log + 'Failure: ' + full_name + '\n'
             elif mode == 'servertest' or mode == 'localtest':
                 ## print success
                 print(color('Test download successful: ' + full_name, Colors.green))
@@ -519,7 +528,7 @@ def ss_page(url, dir_parent, dir_file, file, ext='.png', user=False, wait=5, wid
             failure+=1
             ## write failure to log message if mode == prod
             if mode == 'serverprod' or mode == 'localprod':
-                log_text = log_text + 'Failure: ' + full_name + '\n'
+                download_log = download_log + 'Failure: ' + full_name + '\n'
 
         ## quit webdriver
         driver.quit()
@@ -530,7 +539,7 @@ def ss_page(url, dir_parent, dir_file, file, ext='.png', user=False, wait=5, wid
         failure+=1
         ## write failure to log message if mode == prod
         if mode == 'serverprod' or mode == 'localprod':
-            log_text = log_text + 'Failure: ' + full_name + '\n'
+            download_log = download_log + 'Failure: ' + full_name + '\n'
 
 ## indexing
 
