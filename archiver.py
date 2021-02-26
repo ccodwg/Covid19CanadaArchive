@@ -13,15 +13,17 @@ import json
 from colorit import *  # colourful printing
 init_colorit() # enable printing with colour
 
-## email
-import smtplib
-
 ## archivist.py
 import archivist
 
 # list of environmental variables used in this script (through functions in archivist.py)
 ## AWS_ID: environmental variable of AWS ID (used when mode = server)
 ## AWS_KEY: environmental variable of AWS key (used when mode = server)
+## MAIL_NAME: environmental variable of email account (used when mode = server)
+## MAIL_PASS: environemntal variable of email password (used when mode = server)
+## MAIL_TO: environmental variable of account receiving email logs (used when mode = server)
+## SMTP_SERVER: environmental variable of email server address (used when mode = server)
+## SMTP_PORT: environmental variable of email server port (used when mode = server)
 ## GOOGLE_CHROME_BIN: path to binary in heroku-buildpack-google-chrome (used when mode = server): /app/.chromedriver/bin/chromedriver
 ## CHROMEDRIVER_PATH: path to binary in heroku-buildpack-chromedriver (used when mode = server): /app/.apt/usr/bin/google-chrome
 
@@ -36,6 +38,20 @@ archivist.set_mode()
 archivist.success = 0 # success counter
 archivist.failure = 0 # failure counter
 archivist.download_log = '' # download log
+
+# load email configuration
+if archivist.mode == 'localprod' or archivist.mode == 'localtest':
+        mail_name = open('.gm/.mail_name', 'r').readline().rstrip()
+        mail_pass = open('.gm/.mail_pass', 'r').readline().rstrip()
+        mail_to = open('.gm/.mail_to', 'r').readline().rstrip()
+        smtp_server = open('.gm/.smtp_server', 'r').readline().rstrip()
+        smtp_port = int(open('.gm/.smtp_port', 'r').readline().rstrip())
+elif archivist.mode == 'serverprod' or archivist.mode == 'servertest':
+        mail_name = os.environ['MAIL_NAME']
+        mail_pass = os.environ['MAIL_PASS']
+        mail_to = os.environ['MAIL_TO']
+        smtp_server = os.environ['SMTP_SERVER']
+        smtp_port = int(os.environ['SMTP_PORT'])
 
 # access Amazon S3
 if archivist.mode == 'serverprod' or archivist.mode == 'localprod':
@@ -166,37 +182,29 @@ for key in ds:
 # summarize successes and failures
 archivist.print_success_failure()
 
-# upload and email log of file uploads
-if archivist.mode == 'serverprod' or archivist.mode == 'localprod':
-        
-        ## assemble log entry
-        log = archivist.output_log(archivist.download_log, t)
+# assemble log entry
+log = archivist.output_log(archivist.download_log, t)
+
+# upload and email log of file uploads (wehn mode = prod)
+if archivist.mode == 'localprod' or archivist.mode == 'serverprod':
         
         ## upload log
         archivist.upload_log(log)
         
         ## compose email message (current log entry)
-        mail_name = open('.gm/.mail_name', 'r').readline().rstrip()
-        mail_pass = open('.gm/.mail_pass', 'r').readline().rstrip()
-        mail_to = open('.gm/.mail_to', 'r').readline().rstrip()
-        subject = " ".join(['Covid19CanadaArchive Log', str(t.date()) + ',', 'Failed:', str(archivist.failure)])
-        body = log
-        email_text = """\
-        From: %s
-        To: %s
-        Subject: %s
+        subject = " ".join(['PROD', 'Covid19CanadaArchive Log', t.strftime('%Y-%m-%d %H:%M') + ',', 'Failed:', str(archivist.failure)])
+        body = log        
         
-        %s
-        """ % (mail_name, mail_to, subject, body)
+        ## email log
+        archivist.email_log(mail_name, mail_pass, mail_to, subject, body, smtp_server, smtp_port)
+
+# email log of failed downloads, if any (when mode = test)
+if archivist.mode == 'localtest' or archivist.mode == 'servertest':
         
-        ## send email
-        try:
-                print('Sending log...')
-                server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-                server.ehlo()
-                server.login(mail_name, mail_pass)
-                server.sendmail(mail_name, mail_to, email_text)
-                server.close()
-                print('Log sent!')
-        except:
-                print('Log failed to send.')
+        ## email log if there are any failures
+        if archivist.failure > 0:
+                
+                ## compose email message (current log entry)
+                subject = " ".join(['TEST', 'Covid19CanadaArchive Log', t.strftime('%Y-%m-%d %H:%M') + ',', 'Failed:', str(archivist.failure)])
+                body = log
+                archivist.email_log(mail_name, mail_pass, mail_to, subject, body, smtp_server, smtp_port)

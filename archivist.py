@@ -32,6 +32,9 @@ from bs4 import BeautifulSoup
 ## Amazon S3
 import boto3
 
+## email
+import smtplib
+
 # define functions
 
 ## misc functions
@@ -139,6 +142,8 @@ def upload_file(full_name, f_path, s3_dir=None, s3_prefix=None):
         print(background('Upload failed: ' + full_name, Colors.red))
         failure+=1
 
+## functions for loggging
+
 def output_log(download_log, t):
     """Assemble log from current run.
     
@@ -200,7 +205,41 @@ def upload_log(log):
     except:
         print(background('Full log upload failed!', Colors.red))
 
+def email_log(mail_name, mail_pass, mail_to, subject, body, smtp_server, smtp_port):
+    """Email log of current run.
+    
+    Parameters:
+    mail_name (str): Email account the log will be sent from.
+    mail_pass (str): Email password for the account the log will be sent from.
+    mail_to (str): Email the log will be sent to.
+    subject (str): Subject line for the email.
+    body (str): Body of the email.
+    smtp_server (str): SMTP server address.
+    smtp_port (int): SMTP server port.
+    
+    """
+    
+    ## compose message
+    email_text = """\
+From: %s
+To: %s
+Subject: %s
 
+%s
+""" % (mail_name, mail_to, subject, body)
+    
+    ## send email
+    try:
+        print('Sending log...')
+        server = smtplib.SMTP_SSL(smtp_server, smtp_port)
+        server.ehlo()
+        server.login(mail_name, mail_pass)
+        server.sendmail(mail_name, mail_to, email_text)
+        server.close()
+        print('Log sent!')
+    except Exception as e:
+        print(e)
+        print('Log failed to send.')
 
 ## functions for web scraping
 
@@ -247,12 +286,12 @@ def dl_file(url, dir_parent, dir_file, file, ext='.csv', user=False, verify=True
             ## print failure
             print(background('Error downloading: ' + full_name, Colors.red))
             failure+=1
-            ## write failure to log message if mode == prod
-            if mode == 'serverprod' or mode == 'localprod':
-                download_log = download_log + 'Failure: ' + full_name + '\n'
+            ## write failure to log message
+            download_log = download_log + 'Failure: ' + full_name + '\n'
         ## successful request: if mode == test, print success and end
         elif mode == 'servertest' or mode == 'localtest':
-            ## print success
+            ## print success and write to log
+            download_log = download_log + 'Success: ' + full_name + '\n'
             print(color('Test download successful: ' + full_name, Colors.green))
             success+=1
         ## successful request: mode == prod, upload file
@@ -328,9 +367,8 @@ def dl_file(url, dir_parent, dir_file, file, ext='.csv', user=False, verify=True
         print(e)
         print(background('Error downloading: ' + full_name, Colors.red))
         failure+=1
-        ## write failure to log message if mode == prod
-        if mode == 'serverprod' or mode == 'localprod':
-            download_log = download_log + 'Failure: ' + full_name + '\n'
+        ## write failure to log message
+        download_log = download_log + 'Failure: ' + full_name + '\n'
 
 def load_webdriver(tmpdir, user=False):
     """Load Chromium headless webdriver for Selenium.
@@ -401,12 +439,12 @@ def html_page(url, dir_parent, dir_file, file, ext='.html', user=False, js=False
             ## print failure
             print(background('Error downloading: ' + full_name, Colors.red))
             failure+=1
-            ## write failure to log message if mode == prod
-            if mode == 'serverprod' or mode == 'localprod':
-                download_log = download_log + 'Failure: ' + full_name + '\n'
+            ## write failure to log message
+            download_log = download_log + 'Failure: ' + full_name + '\n'
         ## successful request: if mode == test, print success and end
         elif mode == 'servertest' or mode == 'localtest':
-            ## print success
+            ## print success and write to log
+            download_log = download_log + 'Success: ' + full_name + '\n'
             print(color('Test download successful: ' + full_name, Colors.green))
             success+=1
         ## successful request: mode == prod, prepare files for data upload
@@ -422,9 +460,8 @@ def html_page(url, dir_parent, dir_file, file, ext='.html', user=False, js=False
         print(e)
         print(background('Error downloading: ' + full_name, Colors.red))
         failure+=1
-        ## write failure to log message if mode == prod
-        if mode == 'serverprod' or mode == 'localprod':
-            download_log = download_log + 'Failure: ' + full_name + '\n'             
+        ## write failure to log message
+        download_log = download_log + 'Failure: ' + full_name + '\n'
 
 def ss_page(url, dir_parent, dir_file, file, ext='.png', user=False, wait=5, width=None, height=None):
     """Take a screenshot of a webpage.
@@ -484,7 +521,8 @@ def ss_page(url, dir_parent, dir_file, file, ext='.png', user=False, wait=5, wid
                 if mode == 'serverprod' or mode == 'localprod':
                     download_log = download_log + 'Failure: ' + full_name + '\n'
             elif mode == 'servertest' or mode == 'localtest':
-                ## print success
+                ## print success and write to log
+                download_log = download_log + 'Success: ' + full_name + '\n'
                 print(color('Test download successful: ' + full_name, Colors.green))
                 success+=1
             else:
