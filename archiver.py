@@ -118,12 +118,18 @@ for key in ds:
         ## print key
         print(key)
         
-        ## some datasets only download on a particular day
+        ## some datasets only download on a particular day (ignore if mode == test)
+
         if 'day_to_run' in ds[key]:
                 day_to_run = int(ds[key]['day_to_run'])
-                if t.weekday() != day_to_run:
-                        print('This dataset downloads only on when weekday is: ' + str(day_to_run) + '. Skipping...')
-                        continue
+                if archivist.mode == 'localprod' or archivist.mode == 'serverprod':
+                        if t.weekday() != day_to_run:
+                                print('This dataset downloads only on when weekday is: ' + str(day_to_run) + '. Skipping...')
+                                continue
+                        else:
+                                print('This dataset downloads only on when weekday is: ' + str(day_to_run) + '. Downloading...')
+                elif archivist.mode == 'localtest' or archivist.mode == 'servertest':
+                        print('Note: In production mode, this dataset downloads only on when weekday is: ' + str(day_to_run))
         
         ## if URL is not static, get URL
         if 'url' not in ds[key]:
@@ -185,7 +191,7 @@ archivist.print_success_failure()
 # assemble log entry
 log = archivist.output_log(archivist.download_log, t)
 
-# upload and email log of file uploads (wehn mode = prod)
+# upload and email log of file uploads (wehn mode == prod)
 if archivist.mode == 'localprod' or archivist.mode == 'serverprod':
         
         ## upload log
@@ -198,7 +204,7 @@ if archivist.mode == 'localprod' or archivist.mode == 'serverprod':
         ## email log
         archivist.email_log(mail_name, mail_pass, mail_to, subject, body, smtp_server, smtp_port)
 
-# email log of failed downloads, if any (when mode = test)
+# email log of failed downloads, if any (when mode == test)
 if archivist.mode == 'localtest' or archivist.mode == 'servertest':
         
         ## email log if there are any failures
