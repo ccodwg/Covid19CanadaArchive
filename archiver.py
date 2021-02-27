@@ -61,9 +61,9 @@ if archivist.mode == 'serverprod' or archivist.mode == 'localprod':
         ## set S3 path prefix for achived files
         archivist.prefix = 'archive'
 
-# define ChromeDriver location (for localprod/localtest)
+# define ChromeDriver location (for mode == local)
 if archivist.mode == 'localprod' or archivist.mode == 'localtest':
-        archivist.CHROMEDRIVER_PATH_LOCAL = '/snap/bin/chromium.chromedriver' # Snap Chromium Chromedriver
+        archivist.CHROMEDRIVER_PATH_LOCAL = open('.cd/.CHROMEDRIVER_PATH', 'r').readline().rstrip()
 
 # define time script started running in America/Toronto time zone
 t = archivist.get_datetime('America/Toronto')
