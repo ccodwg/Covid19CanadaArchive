@@ -903,20 +903,6 @@
         "args": {}
       },
       {
-        "id_name": "NS - Coronavirus (COVID-19): case data",
-        "uuid": "1983f024-2073-43db-a02a-271a28a3a017",
-        "active": "True",
-        "url": "https://novascotia.ca/coronavirus/data/ns-covid19-data.csv",
-        "dir_parent": "ns",
-        "dir_file": "case-data",
-        "file_name": "ns-covid19-data",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        }
-      },
-      {
         "id_name": "NS - Nova Scotia COVID-19 Dashboard: Cases by zone",
         "uuid": "43c7d333-d384-41a4-a6bd-1f2cc0326eec",
         "active": "True",
@@ -2367,7 +2353,22 @@
     "nb": [],
     "nl": [],
     "nt": [],
-    "ns": [],
+    "ns": [
+      {
+        "id_name": "NS - Coronavirus (COVID-19): case data",
+        "uuid": "1983f024-2073-43db-a02a-271a28a3a017",
+        "active": "False",
+        "url": "https://novascotia.ca/coronavirus/data/ns-covid19-data.csv",
+        "dir_parent": "ns",
+        "dir_file": "case-data",
+        "file_name": "ns-covid19-data",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        }
+      }
+    ],
     "nu": [],
     "on": [],
     "pe": [],
