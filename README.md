@@ -15,7 +15,10 @@ This repository is maintained by [Jean-Paul R. Soucy](https://jeanpaulsoucy.com/
 
 Table of contents:
 
-* [Contributing](#contributing)
+* [Contribution guide](#contribution-guide)
+  * [Add a new dataset](#add-a-new-dataset)
+  * [Retire an inactive dataset](#retire-an-inactive-dataset)
+  * [Contribute historical data](#contribute-historical-data)
 * [Recommended citation](#recommended-citation)
 * [Running archiver.py](#running-archiverpy)
 * [Data sources/terms of use/supplementary material](#data-sourcesterms-of-usesupplementary-material)
@@ -43,13 +46,34 @@ Table of contents:
 * [Data notes](#data-notes)
 * [Acknowledgements](#acknowledgements)
 
-## Contributing
+## Contribution guide
 
-Community members may contribute to this repository in three ways:
+Community members may contribute to the project in several ways. In the future, more ways of contributing will be added (e.g., adding metadata).
 
-* Create an issue to request a dataset be added to the archive.
-* Create a pull request for *archiver.py* adding the ability to automatically archive a requested or not-yet-implemented dataset.
-* Submit archived versions of an existing, requested, or not-yet-implemented dataset. If possible, please use the original file name plus timestamp in the format described above.
+### Add a new dataset
+
+New datasets may be added in the following ways:
+
+* Create a pull request on GitHub adding the dataset to the appropriate location in the "active" section of `data/datasets.json`. See other entries for examples.
+* Create an issue on GitHub requesting the new dataset be added.
+* Email [the maintainer](https://jeanpaulsoucy.com/) requesting the new dataset be added.
+
+If you have archived versions of the dataset you are adding (e.g., you previously downloaded the dataset daily), see "Contributing historical data" below.
+
+### Retire an inactive dataset
+
+Some datasets continue to exist at a URL but are no longer updated. These datasets should be removed from the nightly update. This may be achieved in the following ways:
+
+* Create a pull request on GitHub moving the dataset's entry from the "active" section of `data/datsets.json` to the appropriate location in the "inactive" section. Also, change the dataset's "active" flag from "True" to "False". See other entries for examples.
+* Create an issue on GitHub requesting the dataset be retired.
+* Email [the maintainer](https://jeanpaulsoucy.com/) with the historical data.
+
+### Contribute historical data
+
+Historical data (e.g., archived versions of a dataset newly added to the archival tool) may be contributed in the following ways:
+
+* Create an issue on GitHub regarding the historical data.
+* Email [the maintainer](https://jeanpaulsoucy.com/) regarding the historical data.
 
 ## Recommended citation
 
@@ -58,9 +82,9 @@ COVID-19 Canada Open Data Working Group. Archive of Canadian COVID-19 Data. http
 ## Running archiver.py
 
 *archiver.py* can run in four modes:
-* `python archiver.py serverprod`: Download and commit files, running on the Heroku server.
+* `python archiver.py serverprod`: Download and commit files, running on a Heroku server.
 * `python archiver.py localprod`: Download and commit files, running on a local machine.
-* `python archiver.py servertest`: Download but do not commit files, running on the Heroku server.
+* `python archiver.py servertest`: Download but do not commit files, running on a Heroku server.
 * `python archiver.py localtest`: Download but do not commit files, running on a local machine.
 
 See *archiver.py* for more details.
