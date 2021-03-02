@@ -532,6 +532,10 @@ When both French and English data files are available, French files should gener
 
 * [PEI COVID-19 Case Data](https://www.princeedwardisland.ca/en/information/health-and-wellness/pei-covid-19-case-data)
     * Webpage: [pe/pei-webpage/pei-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+* [COVID-19 Vaccination Data](https://www.princeedwardisland.ca/en/information/health-and-wellness/covid-19-vaccination-data)
+    * Webpage: [pe/pei-vaccination-webpage/pei-vaccination-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+* [Potential COVID-19 Exposures](https://www.princeedwardisland.ca/en/information/health-and-wellness/potential-covid-19-exposures)
+    * Webpage: [pe/pei-potential-exposures-webpage/pei-potential-exposures-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 
 ### Saskatchewan
 
