@@ -2294,18 +2294,6 @@
         "args": {}
       },
       {
-        "id_name": "Other: CAN - Canada COVID-19 School Case Tracker (KML)",
-        "uuid": "26da9bc1-a4a1-4e05-82f6-356c8a8d7445",
-        "active": "True",
-        "url": "https://www.google.com/maps/d/u/0/kml?mid=1blA_H3Hv5S9Ii_vyudgDk-j6SfJQil9S&forcekml=1",
-        "dir_parent": "other/can",
-        "dir_file": "canada-covid-19-school-case-tracker",
-        "file_name": "Canada_COVID-19_School_Report_Tracker",
-        "file_ext": "kml",
-        "dl_fun": "dl_file",
-        "args": {}
-      },
-      {
         "id_name": "Other: CAN - CTV Variant Tracker (webpage)",
         "uuid": "57debfa6-e336-45e1-ac73-656e67988c7d",
         "active": "True",
@@ -2331,18 +2319,6 @@
       }
     ],
     "other/qc": [
-      {
-        "id_name": "Other: QC - Covid Écoles Québec (Excel)",
-        "uuid": "65b771e8-df5b-4a45-a4f6-f8e079e2d5f3",
-        "active": "True",
-        "url": "https://drive.google.com/uc?export=download&id=1xOl0uhyx9IuHZfJuRH-OR7BcGFuWYUex",
-        "dir_parent": "other/qc",
-        "dir_file": "covid-ecoles-quebec-school-list",
-        "file_name": "COVIDECOLESQUEBEC",
-        "file_ext": "xlsx",
-        "dl_fun": "dl_file",
-        "args": {}
-      }
     ]
   },
   "inactive": {
@@ -2483,6 +2459,34 @@
       }
     ],
     "sk": [],
-    "yt": []
+    "yt": [],
+    "other/can": [
+      {
+        "id_name": "Other: CAN - Canada COVID-19 School Case Tracker (KML)",
+        "uuid": "26da9bc1-a4a1-4e05-82f6-356c8a8d7445",
+        "active": "False",
+        "url": "https://www.google.com/maps/d/u/0/kml?mid=1blA_H3Hv5S9Ii_vyudgDk-j6SfJQil9S&forcekml=1",
+        "dir_parent": "other/can",
+        "dir_file": "canada-covid-19-school-case-tracker",
+        "file_name": "Canada_COVID-19_School_Report_Tracker",
+        "file_ext": "kml",
+        "dl_fun": "dl_file",
+        "args": {}
+      }
+    ],
+    "other/qc": [
+      {
+        "id_name": "Other: QC - Covid Écoles Québec (Excel)",
+        "uuid": "65b771e8-df5b-4a45-a4f6-f8e079e2d5f3",
+        "active": "False",
+        "url": "https://drive.google.com/uc?export=download&id=1xOl0uhyx9IuHZfJuRH-OR7BcGFuWYUex",
+        "dir_parent": "other/qc",
+        "dir_file": "covid-ecoles-quebec-school-list",
+        "file_name": "COVIDECOLESQUEBEC",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {}
+      }
+    ]
   }
 }
