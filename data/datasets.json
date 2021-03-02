@@ -1526,6 +1526,30 @@
         "file_ext": "html",
         "dl_fun": "dl_file",
         "args": {}
+      },
+      {
+        "id_name": "PE - COVID-19 Vaccination Data",
+        "uuid": "177098c3-de1e-4c50-b77e-43b78dd3302a",
+        "active": "True",
+        "url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/covid-19-vaccination-data",
+        "dir_parent": "pe",
+        "dir_file": "pei-vaccination-webpage",
+        "file_name": "pei-vaccination-webpage",
+        "file_ext": "html",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "PE - Potential COVID-19 Exposures",
+        "uuid": "d7cf25ac-9015-4494-b1d2-a53e78004cb5",
+        "active": "True",
+        "url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/potential-covid-19-exposures",
+        "dir_parent": "pe",
+        "dir_file": "pei-potential-exposures-webpage",
+        "file_name": "pei-potential-exposures-webpage",
+        "file_ext": "html",
+        "dl_fun": "dl_file",
+        "args": {}
       }
     ],
     "qc": [
@@ -2318,8 +2342,7 @@
         "args": {}
       }
     ],
-    "other/qc": [
-    ]
+    "other/qc": []
   },
   "inactive": {
     "ab": [],
