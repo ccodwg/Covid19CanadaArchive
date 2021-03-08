@@ -28,6 +28,7 @@ Table of contents:
   * [Canada](#canada)
   * [Manitoba](#manitoba)
      * [Winnipeg](#winnipeg)
+  * [New Brunswick](#new-brunswick)
   * [Northwest Territories](#northwest-territories)
   * [Nova Scotia](#nova-scotia)
   * [Nunavut](#nunavut)
@@ -261,6 +262,32 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * [mb/winnipeg-active-transportation/COVID-19_Designated_Active_Transportation_Route_Counts.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: [Open Government Licence - Winnipeg](https://data.winnipeg.ca/open-data-licence)
     * Not included as part of the nightly update, as it does not seem to be receiving regular updates (last updated: June 29, 2020)
+
+### New Brunswick
+
+* [New Brunswick COVID-19 Dashboard](https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa)
+    * Adult residential facilities: : [nb/adult-residential-facilities/adult-residential-facilities.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Airports: [nb/airports/airports.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Counties: [nb/counties/counties.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * COVID-19 assessment sites: [nb/covid-assessment-sites/covid-assessment-sites.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * COVID-19 compliance by health zone: [nb/covid-compliance-by-health-zone/covid-compliance-by-health-zone.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Provincial case, death, recovered time series: [nb/provincial-case-death-recovered-time-series/provincial-case-death-recovered-time-series.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Provincial cumulative test statistics by age and sex: [nb/provincial-cumulative-test-statistics-by-age-sex/provincial-cumulative-test-statistics-by-age-sex.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * COVID-19 vaccine data: [nb/vaccine-data/vaccine-data.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Ferries: [nb/ferries/ferries.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Health zone cumulative stats: [nb/health-zone-cumulative-stats/health-zone-cumulative-stats.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Hospitals: [nb/hospitals/hospitals.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * International border: [nb/international-border/international-border.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Communities: [nb/communities/communities.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Neighbour region cumulative stats: [nb/neighbour-regions-cumulative-stats/neighbour-regions-cumulative-stats.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Neighbour state/province cumulative stats: [nb/neighbour-state-prov-cumulative-stats/neighbour-state-prov-cumulative-stats.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Nursing homes: [nb/nursing-homes/nursing-homes.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Health zone and community recovery phases: [nb/health-zone-community-recovery-phases/health-zone-community-recovery-phases.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Traffic control points: [nb/traffic-control-points/traffic-control-points.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Terms of use: TBD
+* [Potential Public Exposures](https://www2.gnb.ca/content/gnb/en/corporate/promo/covid-19/potential_public_exposure.html.html)
+    * Webpage: [nb/potential-public-exposures-webpage/potential-public-exposures-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Terms of use: TBD
 
 ### Northwest Territories
 
