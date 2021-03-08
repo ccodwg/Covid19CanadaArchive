@@ -81,13 +81,11 @@ COVID-19 Canada Open Data Working Group. Archive of Canadian COVID-19 Data. http
 
 ## Running archiver.py
 
-*archiver.py* can run in four modes:
-* `python archiver.py serverprod`: Download and commit files, running on a Heroku server.
-* `python archiver.py localprod`: Download and commit files, running on a local machine.
-* `python archiver.py servertest`: Download but do not commit files, running on a Heroku server.
-* `python archiver.py localtest`: Download but do not commit files, running on a local machine.
+*archiver.py* can run in two modes:
+* `python archiver.py prod`: Download files and upload them to the server.
+* `python archiver.py test`: Don't upload files to the server, just test that they can be successfully downloaded.
 
-See *archiver.py* for more details.
+The script relies on setting environmental variables to function properly. See *archiver.py* for more details.
 
 ## Data sources/terms of use/supplementary material
 

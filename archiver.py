@@ -24,14 +24,12 @@ import archivist
 ## MAIL_TO: environmental variable of account receiving email logs (used when mode = server)
 ## SMTP_SERVER: environmental variable of email server address (used when mode = server)
 ## SMTP_PORT: environmental variable of email server port (used when mode = server)
-## GOOGLE_CHROME_BIN: path to binary in heroku-buildpack-google-chrome (used when mode = server): /app/.chromedriver/bin/chromedriver
-## CHROMEDRIVER_PATH: path to binary in heroku-buildpack-chromedriver (used when mode = server): /app/.apt/usr/bin/google-chrome
+## CHROME_BIN: path to Chromium/Chrome binary: (e.g., on Heroku: /app/.apt/usr/bin/google-chrome)
+## CHROMEDRIVER_BIN: path to Chromedriver (e.g., on Heroku: /app/.chromedriver/bin/chromedriver)
 
-# set mode from argv (server vs. local and prod vs. test)
-## server - read secrets from environmental variables
-## local - read secrets from local files
-## prod - archiver.py: upload files to file server
-## test - archiver.py: don't upload files to file server, just test that files can be successfully downloaded
+# set mode from argv (prod versus test)
+## prod: Download files and upload them to the server.
+## test: Don't upload files to the server, just test that they can be successfully downloaded.
 archivist.set_mode()
 
 # initialize global variables
@@ -39,31 +37,24 @@ archivist.success = 0 # success counter
 archivist.failure = 0 # failure counter
 archivist.download_log = '' # download log
 
+# load AWS credentials
+archivist.aws_id = os.environ['AWS_ID']
+archivist.aws_key = os.environ['AWS_KEY']
+
 # load email configuration
-if archivist.mode == 'localprod' or archivist.mode == 'localtest':
-        mail_name = open('.gm/.mail_name', 'r').readline().rstrip()
-        mail_pass = open('.gm/.mail_pass', 'r').readline().rstrip()
-        mail_to = open('.gm/.mail_to', 'r').readline().rstrip()
-        smtp_server = open('.gm/.smtp_server', 'r').readline().rstrip()
-        smtp_port = int(open('.gm/.smtp_port', 'r').readline().rstrip())
-elif archivist.mode == 'serverprod' or archivist.mode == 'servertest':
-        mail_name = os.environ['MAIL_NAME']
-        mail_pass = os.environ['MAIL_PASS']
-        mail_to = os.environ['MAIL_TO']
-        smtp_server = os.environ['SMTP_SERVER']
-        smtp_port = int(os.environ['SMTP_PORT'])
+mail_name = os.environ['MAIL_NAME']
+mail_pass = os.environ['MAIL_PASS']
+mail_to = os.environ['MAIL_TO']
+smtp_server = os.environ['SMTP_SERVER']
+smtp_port = int(os.environ['SMTP_PORT'])
 
 # access Amazon S3
-if archivist.mode == 'serverprod' or archivist.mode == 'localprod':
+if archivist.mode == 'prod':
         ## access S3
         archivist.s3 = archivist.access_s3(bucket='data.opencovid.ca')
         
         ## set S3 path prefix for achived files
         archivist.prefix = 'archive'
-
-# define ChromeDriver location (for mode == local)
-if archivist.mode == 'localprod' or archivist.mode == 'localtest':
-        archivist.CHROMEDRIVER_PATH_LOCAL = open('.cd/.CHROMEDRIVER_PATH', 'r').readline().rstrip()
 
 # define time script started running in America/Toronto time zone
 t = archivist.get_datetime('America/Toronto')
@@ -192,7 +183,7 @@ archivist.print_success_failure()
 log = archivist.output_log(archivist.download_log, t)
 
 # upload and email log of file uploads (wehn mode == prod)
-if archivist.mode == 'localprod' or archivist.mode == 'serverprod':
+if archivist.mode == 'prod':
         
         ## upload log
         archivist.upload_log(log)
@@ -205,7 +196,7 @@ if archivist.mode == 'localprod' or archivist.mode == 'serverprod':
         archivist.email_log(mail_name, mail_pass, mail_to, subject, body, smtp_server, smtp_port)
 
 # email log of failed downloads, if any (when mode == test)
-if archivist.mode == 'localtest' or archivist.mode == 'servertest':
+if archivist.mode == 'test':
         
         ## email log if there are any failures
         if archivist.failure > 0:

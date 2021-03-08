@@ -43,16 +43,12 @@ def set_mode(run_args=sys.argv, manual=None):
     global mode
     print('Setting run mode...')
     if manual is None:
-        if len(run_args) == 1 or ((len(run_args) == 2) and (sys.argv[1] == 'serverprod')):
-            mode = 'serverprod'  # server / prod
-        elif len(run_args) == 2 and run_args[1] == 'localprod':
-            mode = 'localprod'  # local / prod
-        elif len(run_args) == 2 and run_args[1] == 'servertest':
-            mode = 'servertest'  # server / test
-        elif len(run_args) == 2 and run_args[1] == 'localtest':
-            mode = 'localtest'  # local / test
+        if len(run_args) == 2 and run_args[1] == 'prod':
+            mode = 'prod'
+        elif len(run_args) == 2 and run_args[1] == 'test':
+            mode = 'test'
         else:
-            sys.exit("Error: Invalid arguments.")
+            sys.exit('Error: Invalid arguments.')
     else:
         mode=manual
     print('Run mode set to ' + mode + '.')
@@ -81,21 +77,7 @@ def access_s3(bucket):
     
     """
     global mode
-    print('Authenticating with AWS...')
-    ## retrieve Amazon S3 credentials
-    if mode == 'serverprod' or mode == 'servertest':
-        aws_id = os.environ['AWS_ID']
-        aws_key = os.environ['AWS_KEY']
-    elif mode == 'localprod' or mode == 'localtest':
-        if '__file__' in globals():
-            cred_path = os.path.dirname(os.path.abspath(__file__))
-        else:
-            cred_path = os.getcwd()
-        with open(os.path.join(cred_path, ".aws", ".aws_id"), 'r') as local_file:
-            aws_id = local_file.read().splitlines()[0]
-        with open(os.path.join(cred_path, ".aws", ".aws_key"), 'r') as local_file:
-            aws_key = local_file.read().splitlines()[0]
-    
+    print('Authenticating with AWS...') 
     ## connect to AWS
     aws = boto3.Session(
         aws_access_key_id=aws_id,
@@ -289,7 +271,7 @@ def dl_file(url, dir_parent, dir_file, file, ext='.csv', user=False, verify=True
             ## write failure to log message
             download_log = download_log + 'Failure: ' + full_name + '\n'
         ## successful request: if mode == test, print success and end
-        elif mode == 'servertest' or mode == 'localtest':
+        elif mode == 'test':
             ## print success and write to log
             download_log = download_log + 'Success: ' + full_name + '\n'
             print(color('Test download successful: ' + full_name, Colors.green))
@@ -380,8 +362,7 @@ def load_webdriver(tmpdir, user=False):
     global mode
     
     options = Options()
-    if mode == 'serverprod' or mode == 'servertest':
-        options.binary_location = os.environ['GOOGLE_CHROME_BIN']
+    options.binary_location = os.environ['CHROME_BIN']
     options.add_argument("--headless")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--no-sandbox")
@@ -389,10 +370,7 @@ def load_webdriver(tmpdir, user=False):
     options.add_experimental_option('prefs', prefs)
     if user:
         options.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0")
-    if mode == 'serverprod' or mode == 'servertest':
-        return webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_PATH'], options=options)
-    else:
-        return webdriver.Chrome(executable_path=CHROMEDRIVER_PATH_LOCAL, options=options)
+    webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_BIN'], options=options)
 
 def html_page(url, dir_parent, dir_file, file, ext='.html', user=False, js=False, wait=None):
     """Save HTML of a webpage.
@@ -442,7 +420,7 @@ def html_page(url, dir_parent, dir_file, file, ext='.html', user=False, js=False
             ## write failure to log message
             download_log = download_log + 'Failure: ' + full_name + '\n'
         ## successful request: if mode == test, print success and end
-        elif mode == 'servertest' or mode == 'localtest':
+        elif mode == 'test':
             ## print success and write to log
             download_log = download_log + 'Success: ' + full_name + '\n'
             print(color('Test download successful: ' + full_name, Colors.green))
@@ -518,9 +496,9 @@ def ss_page(url, dir_parent, dir_file, file, ext='.png', user=False, wait=5, wid
                 print(background('Error downloading: ' + full_name, Colors.red))
                 failure+=1
                 ## write failure to log message if mode == prod
-                if mode == 'serverprod' or mode == 'localprod':
+                if mode == 'prod':
                     download_log = download_log + 'Failure: ' + full_name + '\n'
-            elif mode == 'servertest' or mode == 'localtest':
+            elif mode == 'test':
                 ## print success and write to log
                 download_log = download_log + 'Success: ' + full_name + '\n'
                 print(color('Test download successful: ' + full_name, Colors.green))
@@ -536,7 +514,7 @@ def ss_page(url, dir_parent, dir_file, file, ext='.png', user=False, wait=5, wid
             print(background('Error downloading: ' + full_name, Colors.red))
             failure+=1
             ## write failure to log message if mode == prod
-            if mode == 'serverprod' or mode == 'localprod':
+            if mode == 'prod':
                 download_log = download_log + 'Failure: ' + full_name + '\n'
 
         ## quit webdriver
@@ -547,21 +525,41 @@ def ss_page(url, dir_parent, dir_file, file, ext='.png', user=False, wait=5, wid
         print(background('Error downloading: ' + full_name, Colors.red))
         failure+=1
         ## write failure to log message if mode == prod
-        if mode == 'serverprod' or mode == 'localprod':
+        if mode == 'prod':
             download_log = download_log + 'Failure: ' + full_name + '\n'
 
 ## indexing
 
 def create_index():
-    global drive
-    ## load Google Drive directory IDs from GitHub
-    dir_ids = pd.read_csv("https://raw.githubusercontent.com/jeanpaulrsoucy/covid-19-canada-gov-data/master/data/data_id.csv")
+    """ Create an index of files in datasets.json.
+    
+    """
+    global s3  
+    
+    ## load datasets.json
+    with open('data/datasets.json') as json_file:
+        datasets = json.load(json_file)
+    
+    ## convert datasets into single dictionary
+    ds = {} # create empty dictionary
+    for a in datasets: # active and inactive
+        for d in datasets[a]:
+            for i in range(len(datasets[a][d])):
+                ds[datasets[a][d][i]['id_name']] = datasets[a][d][i]
+    
+    ## load existing index
+    ## only filter out keys already present in index - don't re-request etags
     
     ## intialize index
     index = pd.DataFrame(columns = ['dir_parent', 'dir_file', 'dir_id', 'file_name', 'file_timestamp', 'file_date', 'file_date_true', 'file_id', 'file_mime_type', 'file_size', 'file_md5', 'file_md5_duplicate', 'file_url'])
-
-    ## define request template
-    drive_template = "'{dir_id}' in parents and mimeType != 'application/vnd.google-apps.folder' and trashed=false"
+    
+    ## loop through each dataset
+    for key in ds:
+        ## get prefix
+        prefix = 'archive/' + ds[key]['dir_parent'] + '/' + ds[key]['dir_file'] + '/'
+        files = []
+        for file in s3.objects.filter(Prefix=prefix):
+            print(file)
     
     ## loop through each dir_id
     for i in dir_ids.index.to_list():
