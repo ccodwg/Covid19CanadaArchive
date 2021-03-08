@@ -232,7 +232,7 @@
         "id_name": "BC - Public exposures: school exposures (Island webpage)",
         "uuid": "d3904d42-a08a-4820-b7d5-1a603a24b4ee",
         "active": "True",
-        "url": "ttps://www.islandhealth.ca/learn-about-health/covid-19/exposures-schools",
+        "url": "https://www.islandhealth.ca/learn-about-health/covid-19/exposures-schools",
         "dir_parent": "bc",
         "dir_file": "school-exposures-island-webpage",
         "file_name": "school-exposures-island-webpage",
