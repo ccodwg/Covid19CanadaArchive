@@ -370,7 +370,8 @@ def load_webdriver(tmpdir, user=False):
     options.add_experimental_option('prefs', prefs)
     if user:
         options.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0")
-    webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_BIN'], options=options)
+    driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_BIN'], options=options)
+    return driver
 
 def html_page(url, dir_parent, dir_file, file, ext='.html', user=False, js=False, wait=None):
     """Save HTML of a webpage.
