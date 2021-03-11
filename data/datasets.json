@@ -1915,6 +1915,18 @@
         "args": {}
       },
       {
+        "id_name": "QC - Vaccination by RSS time series",
+        "uuid": "cd05c1af-a076-4434-8903-6fe548c8d2b0",
+        "active": "True",
+        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/vaccination.csv",
+        "dir_parent": "qc",
+        "dir_file": "vaccination-by-rss-time-series",
+        "file_name": "vaccination",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
         "id_name": "QC - Vaccine doses administered by RSS (FR)",
         "uuid": "cbbcc0ad-00bb-47d0-877e-32aa4509f9e9",
         "active": "True",

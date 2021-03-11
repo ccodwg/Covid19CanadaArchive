@@ -471,6 +471,9 @@ When both French and English data files are available, French files should gener
     * COVID-19 daily data 7 days (EN): [qc/covid-data-daily-7-days-en/synthese-7jours-en.csv](https://drive.google.com/drive/folders/1hiLaw3OLYZK9FIHs68iBheGdJXGRy-9E) [archived: no longer updated]
     * Cases by region 7 days (FR): [qc/cases-by-region-7-days/cas-region-7jours.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Cases by region 7 days (EN): [qc/cases-by-region-7-days-en/cas-region-7jours-en.csv](http://data.opencovid.ca/archive/index.html#archive/)
+* [Données de vaccination contre la COVID-19 au Québec](https://www.inspq.qc.ca/covid-19/donnees/vaccination)
+    * Vaccination by RSS time series: [qc/vaccination-by-rss-time-series/vaccination.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Terms of use: TBD
 * [COVID-19 vaccination data](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/covid-19-vaccination-data/)
     * [Webpage EN](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/covid-19-vaccination-data/): [qc/qc-vaccination-webpage-en/qc-vaccination-webpage-en.html](http://data.opencovid.ca/archive/index.html#archive/)
     * [Webpage FR](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/donnees-sur-la-vaccination-covid-19/): [qc/qc-vaccination-webpage-fr/qc-vaccination-webpage-fr.html](http://data.opencovid.ca/archive/index.html#archive/)
