@@ -113,13 +113,13 @@ for key in ds:
 
         if 'day_to_run' in ds[key]:
                 day_to_run = int(ds[key]['day_to_run'])
-                if archivist.mode == 'localprod' or archivist.mode == 'serverprod':
+                if archivist.mode == 'prod':
                         if t.weekday() != day_to_run:
                                 print('This dataset downloads only on when weekday is: ' + str(day_to_run) + '. Skipping...')
                                 continue
                         else:
                                 print('This dataset downloads only on when weekday is: ' + str(day_to_run) + '. Downloading...')
-                elif archivist.mode == 'localtest' or archivist.mode == 'servertest':
+                elif archivist.mode == 'test':
                         print('Note: In production mode, this dataset downloads only on when weekday is: ' + str(day_to_run))
         
         ## if URL is not static, get URL
