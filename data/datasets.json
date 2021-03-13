@@ -263,6 +263,90 @@
         "file_ext": "html",
         "dl_fun": "html_page",
         "args": {}
+      },
+      {
+        "id_name": "BC - Dashboard BC and Canada cumulative testing rate",
+        "uuid": "2c87dd51-4fc3-4309-a730-18118db09cde",
+        "active": "True",
+        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BC_COVID19__BC_Canadian_Testing_Rates_View/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "bc",
+        "dir_file": "bc-canada-cumulative-testing-rate",
+        "file_name": "BC_COVID19__BC_Canadian_Testing_Rates_View",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "BC - Dashboard case demographics by Regional Health Authority",
+        "uuid": "f6d7c353-cfcc-4165-bcf3-a8f2e38cfd39",
+        "active": "True",
+        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BC_COVID19_Dashboard_Case_Details_Production/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*&orderByFields=Age_Group%20desc",
+        "dir_parent": "bc",
+        "dir_file": "case-demographics-by-rha",
+        "file_name": "BC_COVID19_Dashboard_Case_Details_Production",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "BC - Dashboard testing time series by Regional Health Authority",
+        "uuid": "f1bf681e-162b-4f09-8aae-edd0e32d8e3e",
+        "active": "True",
+        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BC_COVID19_Lab_Information/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "bc",
+        "dir_file": "testing-timeseries-by-rha",
+        "file_name": "BC_COVID19_Lab_Information",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "BC - Dashboard Vaccine Doses by Regional Health Authority",
+        "uuid": "9d940861-0252-4d33-b6e8-23a2eeb105bf",
+        "active": "True",
+        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BC_COVID19Dashboard_Vaccine_Counts/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*&orderByFields=Vaccine_Type%20asc",
+        "dir_parent": "bc",
+        "dir_file": "vaccine-doses-by-rha",
+        "file_name": "BC_COVID19Dashboard_Vaccine_Counts",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "BC - Dashboard case time series by Health Service Delivery Area",
+        "uuid": "4f9dc8b7-7b42-450e-a741-a0f6a621d2af",
+        "active": "True",
+        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BCCOVID19_Dashboard_Regional_Summary_Data/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*&orderByFields=Date%20asc",
+        "dir_parent": "bc",
+        "dir_file": "case-time-series-by-hsda",
+        "file_name": "BCCOVID19_Dashboard_Regional_Summary_Data",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "BC - Dashboard cumulative case, death, recovered, hospitalization, ICU data by Regional Health Authority",
+        "uuid": "91367e1d-8b79-422c-b314-9b3441ba4f42",
+        "active": "True",
+        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/COVID19_Cases_by_BC_Health_Authority/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "bc",
+        "dir_file": "cumulative-case-death-recover-hosp-icu-by-rha",
+        "file_name": "COVID19_Cases_by_BC_Health_Authority",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "BC - Dashboard Regional Health Authority labels",
+        "uuid": "f648b99c-8d10-40f4-aa3f-ca17b36e303d",
+        "active": "True",
+        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/HA_Labels/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "bc",
+        "dir_file": "rha-labels",
+        "file_name": "HA_Labels",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {}
       }
     ],
     "can": [
