@@ -1646,6 +1646,42 @@
         "args": {}
       },
       {
+        "id_name": "ON - COVID-19 Vaccine Data in Ontario",
+        "uuid": "170057c4-3231-4f15-9438-2165c5438dda",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/8a89caa9-511c-4568-af89-7f2174b4378c/download/vaccine_doses.csv",
+        "dir_parent": "on",
+        "dir_file": "vaccine-data",
+        "file_name": "vaccine_doses",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "ON - ICES dashboard percent positivity by FSA",
+        "uuid": "bceb2acd-68d3-443f-8b0a-0f16fc80c54f",
+        "active": "True",
+        "url": "https://www.ices.on.ca/~/media/Files/COVID-19/ICES-COVID19-Testing-Data-FSA-percent-positivity.ashx?la=en-CA",
+        "dir_parent": "on",
+        "dir_file": "ices-percent-positivity-by-fsa",
+        "file_name": "ICES-COVID19-Testing-Data-FSA-percent-positivity",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "ON - ICES dashboard percent positivity by age group and Public Health Unit (PHU)",
+        "uuid": "3f89584e-9189-4477-9a1b-06b6522a63b2",
+        "active": "True",
+        "url": "https://www.ices.on.ca/~/media/Files/COVID-19/ICES-COVID19-Testing-Data_PHUxAge-Groups-percent-positivity.ashx?la=en-CA",
+        "dir_parent": "on",
+        "dir_file": "ices-percent-positivity-by-age-group-and-phu",
+        "file_name": "ICES-COVID19-Testing-Data_PHUxAge-Groups-percent-positivity",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
         "id_name": "ON - City of Toronto Daily Status of COVID-19 Cases",
         "uuid": "ebad185e-9706-44f4-921e-fc89d5cfa334",
         "active": "True",
@@ -1810,18 +1846,6 @@
         "dir_parent": "on",
         "dir_file": "ottawa-residents-tested",
         "file_name": "COVID-19_Ottawa_Residents_Tested_EN",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {}
-      },
-      {
-        "id_name": "ON - COVID-19 Vaccine Data in Ontario",
-        "uuid": "170057c4-3231-4f15-9438-2165c5438dda",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/8a89caa9-511c-4568-af89-7f2174b4378c/download/vaccine_doses.csv",
-        "dir_parent": "on",
-        "dir_file": "vaccine-data",
-        "file_name": "vaccine_doses",
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {}
