@@ -59,7 +59,7 @@
         "id_name": "AB - Cases in Alberta (webpage)",
         "uuid": "d3b170a7-bb86-4bb0-b362-2adc5e6438c2",
         "active": "True",
-        "url": "https://www.alberta.ca/covid19-vaccine.aspx",
+        "url": "https://www.alberta.ca/covid-19-alberta-data.aspx",
         "dir_parent": "ab",
         "dir_file": "ab-cases-webpage",
         "file_name": "ab-cases-webpage",
