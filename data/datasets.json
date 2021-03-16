@@ -567,12 +567,12 @@
         "args": {}
       },
       {
-        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Cumulative variants of concern by province)",
+        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Variants of concern time series by province)",
         "uuid": "b85a2935-4db8-46ab-83bf-4ed67abd6514",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-voc.csv",
         "dir_parent": "can",
-        "dir_file": "cumulative-variants-of-concern-by-province",
+        "dir_file": "variants-of-concern-time-series-by-province",
         "file_name": "covid19-epiSummary-voc",
         "file_ext": "csv",
         "dl_fun": "dl_file",
