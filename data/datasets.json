@@ -1247,7 +1247,104 @@
         "args": {}
       }
     ],
-    "nl": [],
+    "nl": [
+      {
+        "id_name": "NL - Dashboard province summary",
+        "uuid": "8419f6f1-b80b-4247-84e5-6414ab0154d8",
+        "active": "True",
+        "url": "https://services8.arcgis.com/aCyQID5qQcyrJMm2/arcgis/rest/services/ProvCovidDailyStats/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nl",
+        "dir_file": "nb-summary",
+        "file_name": "ProvCovidDailyStats",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "NL - Dashboard province time series",
+        "uuid": "13a35524-89bf-46a2-afc5-d88ef81bfa82",
+        "active": "True",
+        "url": "https://services8.arcgis.com/aCyQID5qQcyrJMm2/arcgis/rest/services/Prov_Covid_Daily_Stats_v2_Public_View/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nl",
+        "dir_file": "nb-summary-time-series",
+        "file_name": "Prov_Covid_Daily_Stats_v2_Public_View",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "NL - Dashboard cumulative vaccination",
+        "uuid": "42975679-9279-4fbd-9f57-ba62d200afce",
+        "active": "True",
+        "url": "https://services8.arcgis.com/aCyQID5qQcyrJMm2/arcgis/rest/services/Vaccine_LatestPublic_v2/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nl",
+        "dir_file": "cumulative-vaccination",
+        "file_name": "Vaccine_LatestPublic_v2",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "NL - Dashboard Regional Health Authority summary",
+        "uuid": "f0e10f54-a4db-48d8-9c4e-8571e663ca28",
+        "active": "True",
+        "url": "https://services8.arcgis.com/aCyQID5qQcyrJMm2/arcgis/rest/services/RHA_CurrentStats2_Public2/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nl",
+        "dir_file": "rha-summary",
+        "file_name": "RHA_CurrentStats2_Public2",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "NL - Dashboard cumulative cases by Primary Health Care Zone",
+        "uuid": "17bc6fc6-0a0b-49c4-bece-57de790ee968",
+        "active": "True",
+        "url": "https://services8.arcgis.com/aCyQID5qQcyrJMm2/arcgis/rest/services/PHZ_Zone_Public/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nl",
+        "dir_file": "cumulative-cases-by-phcz",
+        "file_name": "PHZ_Zone_Public",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "NL - Dashboard cases by likely exposure setting",
+        "uuid": "e6d0c254-f870-48ab-833d-b22532cca29e",
+        "active": "True",
+        "url": "https://services8.arcgis.com/aCyQID5qQcyrJMm2/arcgis/rest/services/Exposure_New_Public/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nl",
+        "dir_file": "cases-by-likely-exposure-setting",
+        "file_name": "Exposure_New_Public",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "NL - Dashboard cases by age and sex",
+        "uuid": "b5dc9438-1ff6-4122-b07e-f00bdfb77221",
+        "active": "True",
+        "url": "https://services8.arcgis.com/aCyQID5qQcyrJMm2/arcgis/rest/services/Covid_AgeLayerPublic2/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nl",
+        "dir_file": "cases-by-age-and-sex",
+        "file_name": "Covid_AgeLayerPublic2",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "NL - Dashboard Primary Health Care Zone populations",
+        "uuid": "199a17f2-855a-422d-a0c7-a4fb141a1237",
+        "active": "True",
+        "url": "https://services8.arcgis.com/aCyQID5qQcyrJMm2/arcgis/rest/services/PHC_Zones_Combined_Public/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nl",
+        "dir_file": "phcz-populations",
+        "file_name": "PHC_Zones_Combined_Public",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {}
+      }
+    ],
     "nt": [
       {
         "id_name": "NT - GNWT's Response to COVID-19 (webpage)",

@@ -29,6 +29,7 @@ Table of contents:
   * [Manitoba](#manitoba)
      * [Winnipeg](#winnipeg)
   * [New Brunswick](#new-brunswick)
+  * [Newfoundland and Labrador](#newfoundland-and-labrador)
   * [Northwest Territories](#northwest-territories)
   * [Nova Scotia](#nova-scotia)
   * [Nunavut](#nunavut)
@@ -300,6 +301,19 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Terms of use: TBD
 * [Potential Public Exposures](https://www2.gnb.ca/content/gnb/en/corporate/promo/covid-19/potential_public_exposure.html.html)
     * Webpage: [nb/potential-public-exposures-webpage/potential-public-exposures-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Terms of use: TBD
+
+### Newfoundland and Labrador
+
+* [Newfoundland and Labrador COVID-19 Pandemic Update Hub](https://covid-19-newfoundland-and-labrador-gnl.hub.arcgis.com/)
+    * Province summary: [nl/nb-summary/ProvCovidDailyStats.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Province time series: [nl/nb-summary-time-series/Prov_Covid_Daily_Stats_v2_Public_View.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Cumulative vaccination: [nl/cumulative-vaccination/Vaccine_LatestPublic_v2.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Regional Health Authority summary: [nl/rha-summary/RHA_CurrentStats2_Public2.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Cumulative cases by Primary Health Care Zone: [nl/cumulative-cases-by-phcz/PHZ_Zone_Public.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Cases by likely exposure setting: [nl/cases-by-likely-exposure-setting/Exposure_New_Public.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Cases by age and sex: [nl/cases-by-age-and-sex/Covid_AgeLayerPublic2.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Primary Health Care Zone populations: [nl/phcz-populations/PHC_Zones_Combined_Public.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 
 ### Northwest Territories
