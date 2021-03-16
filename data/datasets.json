@@ -2577,6 +2577,68 @@
         "args": {}
       },
       {
+        "id_name": "SK - Saskatchewan's Dashboard - Hospitalized Cases",
+        "uuid": "db9a7e2e-1a1f-4b98-a31a-24460910fc2d",
+        "active": "True",
+        "url_fun_python": "import re; import requests; global url_current; url_current = 'https://dashboard.saskatchewan.ca' + re.search('(?<=href=\").*(?=\">CSV)', requests.get('https://dashboard.saskatchewan.ca/health-wellness/covid-19-cases/hospitalized').text).group(0)",
+        "url_fun_r": "library(rvest); library(stringr); paste0('https://dashboard.saskatchewan.ca', str_extract(as.character(html_node(read_html('https://dashboard.saskatchewan.ca/health-wellness/covid-19-cases/hospitalized'), 'body')), '(?<=href=\").*(?=\">CSV)'))",
+        "dir_parent": "sk",
+        "dir_file": "hosp-icu-by-region",
+        "file_name": "hospitalized",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "SK - Saskatchewan's Dashboard - Hospitalized Cases (webpage)",
+        "uuid": "a5e19ab0-3cdb-4ad8-b1b3-facc4a968c2f",
+        "active": "True",
+        "url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19-cases/hospitalized",
+        "dir_parent": "sk",
+        "dir_file": "hosp-icu-by-region-webpage",
+        "file_name": "hospitalized-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {}
+      },
+      {
+        "id_name": "SK - Saskatchewan's Dashboard - Seven-day Average of Daily New Cases",
+        "uuid": "b575a747-e433-43f4-bd86-23c896df8de5",
+        "active": "True",
+        "url_fun_python": "import re; import requests; global url_current; url_current = 'https://dashboard.saskatchewan.ca' + re.search('(?<=href=\").*(?=\">CSV)', requests.get('https://dashboard.saskatchewan.ca/health-wellness/covid-19/seven-day-average-of-new-covid-cases').text).group(0)",
+        "url_fun_r": "library(rvest); library(stringr); paste0('https://dashboard.saskatchewan.ca', str_extract(as.character(html_node(read_html('https://dashboard.saskatchewan.ca/health-wellness/covid-19/seven-day-average-of-new-covid-cases'), 'body')), '(?<=href=\").*(?=\">CSV)'))",
+        "dir_parent": "sk",
+        "dir_file": "seven-day-avg-cases-by-region",
+        "file_name": "seven-day-average-of-new-covid-cases",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "SK - Saskatchewan's Dashboard - Seven-day Average of Daily New Cases (webpage)",
+        "uuid": "a8e44fb0-cc82-425e-92c2-f98c5d24ae73",
+        "active": "True",
+        "url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19/seven-day-average-of-new-covid-cases",
+        "dir_parent": "sk",
+        "dir_file": "seven-day-avg-cases-by-region-webpage",
+        "file_name": "seven-day-average-of-new-covid-cases-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {}
+      },
+      {
+        "id_name": "SK - Cases and Risk of COVID-19 in Saskatchewan (webpage)",
+        "uuid": "28d7f978-9a7b-4933-a520-41b073868d05",
+        "active": "True",
+        "url": "https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan",
+        "dir_parent": "sk",
+        "dir_file": "summary-and-variant-webpage",
+        "file_name": "summary-and-variant-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {}
+      },
+      {
         "id_name": "SK - Vaccine Delivery Update",
         "uuid": "0a31ad95-0e5b-4012-8805-871dd79e96d1",
         "active": "True",
