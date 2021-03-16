@@ -519,6 +519,18 @@
         "args": {}
       },
       {
+        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Cases by probable expsoure setting by province)",
+        "uuid": "a29a2831-8a45-49ba-8359-a87c59029185",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-exposureByPT.csv",
+        "dir_parent": "can",
+        "dir_file": "cases-by-probable-exposure-setting-and-province",
+        "file_name": "covid19-epiSummary-exposureByPT",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
         "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Symptoms summary)",
         "uuid": "36a34be2-12ad-4d4c-8a24-95435117aec9",
         "active": "True",
@@ -538,6 +550,30 @@
         "dir_parent": "can",
         "dir_file": "hospitalizations-icu-mechanical-ventilation",
         "file_name": "covid19-epiSummary-hospVentICU",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Cases on First Nations reserves)",
+        "uuid": "d94b5520-3a90-41e9-bda7-0a1b74581751",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-isc.csv",
+        "dir_parent": "can",
+        "dir_file": "covid-time-series-first-nations-reserves",
+        "file_name": "covid19-isc",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Cumulative variants of concern by province)",
+        "uuid": "b85a2935-4db8-46ab-83bf-4ed67abd6514",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-voc.csv",
+        "dir_parent": "can",
+        "dir_file": "cumulative-variants-of-concern-by-province",
+        "file_name": "covid19-epiSummary-voc",
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {}
@@ -677,6 +713,18 @@
         "args": {}
       },
       {
+        "id_name": "CAN - Vaccination coverage: Vaccination coverage by age and sex with denominators",
+        "uuid": "5c1544ad-6ea6-41dc-9e50-cf48c3ad6830",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-byAgeAndSexDenominators.csv",
+        "dir_parent": "can",
+        "dir_file": "vaccination-coverage-by-age-sex-denominators",
+        "file_name": "vaccination-coverage-byAgeAndSexDenominators",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
         "id_name": "CAN - Vaccination coverage: Vaccination coverage by vaccine type",
         "uuid": "5549f769-d4c8-4032-8434-7952fd2f349a",
         "active": "True",
@@ -696,6 +744,18 @@
         "dir_parent": "can",
         "dir_file": "vaccination-coverage-by-prov",
         "file_name": "vaccination-coverage-map",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "CAN - Vaccination coverage: Vaccination notes",
+        "uuid": "8f94c6d6-8d82-4c03-a3a8-15b8cf063e50",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-notes.csv",
+        "dir_parent": "can",
+        "dir_file": "vaccination-notes",
+        "file_name": "vaccination-notes",
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {}
