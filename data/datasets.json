@@ -1331,18 +1331,6 @@
         "file_ext": "json",
         "dl_fun": "dl_file",
         "args": {}
-      },
-      {
-        "id_name": "NL - Dashboard Primary Health Care Zone populations",
-        "uuid": "199a17f2-855a-422d-a0c7-a4fb141a1237",
-        "active": "True",
-        "url": "https://services8.arcgis.com/aCyQID5qQcyrJMm2/arcgis/rest/services/PHC_Zones_Combined_Public/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "nl",
-        "dir_file": "phcz-populations",
-        "file_name": "PHC_Zones_Combined_Public",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {}
       }
     ],
     "nt": [
@@ -2918,7 +2906,20 @@
     "can": [],
     "mb": [],
     "nb": [],
-    "nl": [],
+    "nl": [
+      {
+        "id_name": "NL - Dashboard Primary Health Care Zone populations",
+        "uuid": "199a17f2-855a-422d-a0c7-a4fb141a1237",
+        "active": "False",
+        "url": "https://services8.arcgis.com/aCyQID5qQcyrJMm2/arcgis/rest/services/PHC_Zones_Combined_Public/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nl",
+        "dir_file": "phcz-populations",
+        "file_name": "PHC_Zones_Combined_Public",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {}
+      }
+    ],
     "nt": [],
     "ns": [
       {
