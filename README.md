@@ -558,10 +558,10 @@ When both French and English data files are available, French files should gener
     * Webpage (EN): [qc/schools-highlights-webpage-en/schools-highlights-webpage-en.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 * [Situation dans les établissements scolaires](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
-    * Highlights - public and private school system (FR): [qc/schools-highlights/reseauScolaire_faitsSaillants.pdf](http://data.opencovid.ca/archive/index.html#archive/)
-    * Highlights - public and private school system (EN): [qc/schools-highlights-en/reseauScolaire_faitsSaillants_ANG.pdf](http://data.opencovid.ca/archive/index.html#archive/)
-    * Formerly [Situation dans les établissements scolaires relative à la COVID-19](https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_ecole.pdf): qc/schools-list-of-schools/etat_situation_ecole_2020-09-04_2020-09-06/etat_situation_ecole.pdf
-    * Formerly [Liste des écoles ayant au moins un cas rapporté de la COVID-19 depuis le 1er septembre 2020](https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/liste-ecole-cas-rapportes.pdf): qc/schools-list-of-schools/liste-ecole-cas-rapportes_2020-09-08_2020-09-09/liste-ecole-cas-rapportes.pdf
+    * Highlights - public and private school system (FR): [qc/schools-highlights/reseauScolaire_faitsSaillants.pdf](http://data.opencovid.ca/archive/index.html#archive/) [Archived, no longer part of the nightly updated]
+    * Highlights - public and private school system (EN): [qc/schools-highlights-en/reseauScolaire_faitsSaillants_ANG.pdf](http://data.opencovid.ca/archive/index.html#archive/) [Archived, no longer part of the nightly updated]
+    * Formerly [Situation dans les établissements scolaires relative à la COVID-19](https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_ecole.pdf): qc/schools-list-of-schools/etat_situation_ecole_2020-09-04_2020-09-06/etat_situation_ecole.pdf [Archived, no longer part of the nightly updated]
+    * Formerly [Liste des écoles ayant au moins un cas rapporté de la COVID-19 depuis le 1er septembre 2020](https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/liste-ecole-cas-rapportes.pdf): qc/schools-list-of-schools/liste-ecole-cas-rapportes_2020-09-08_2020-09-09/liste-ecole-cas-rapportes.pdf [Archived, no longer part of the nightly updated]
     * Terms of use: TBD
 * [Portrait quotidien des hospitalisations](https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-des-hospitalisations)
     * Daily hospitalizations by RSS (health region) and care unit: [qc/daily-hosp-by-rss-and-care-unit/COVID19_Qc_HistoHospit.csv](http://data.opencovid.ca/archive/index.html#archive/)

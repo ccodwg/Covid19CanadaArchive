@@ -2480,30 +2480,6 @@
         "args": {}
       },
       {
-        "id_name": "QC - Highlights - public and private school system (FR)",
-        "uuid": "194b7603-a41d-4fba-96e7-741c294ce91a",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/education/publications-adm/covid-19/reseauScolaire_faitsSaillants.pdf",
-        "dir_parent": "qc",
-        "dir_file": "schools-highlights",
-        "file_name": "reseauScolaire_faitsSaillants",
-        "file_ext": "pdf",
-        "dl_fun": "dl_file",
-        "args": {}
-      },
-      {
-        "id_name": "QC - Highlights - public and private school system (EN)",
-        "uuid": "a84e7e53-92ef-45f1-bdca-9908653a530a",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/education/publications-adm/covid-19/reseauScolaire_faitsSaillants_ANG.pdf",
-        "dir_parent": "qc",
-        "dir_file": "schools-highlights-en",
-        "file_name": "reseauScolaire_faitsSaillants_ANG",
-        "file_ext": "pdf",
-        "dl_fun": "dl_file",
-        "args": {}
-      },
-      {
         "id_name": "QC - Liste des écoles comptant des cas de COVID-19 (webpage FR)",
         "uuid": "4776c254-1fc2-4878-a6be-19caf86fb264",
         "active": "True",
@@ -3045,6 +3021,30 @@
         "dir_parent": "qc",
         "dir_file": "vaccination-of-priority-groups-en",
         "file_name": "20-279-07WA_Previsions_vaccination-anglais",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "QC - Highlights - public and private school system (FR)",
+        "uuid": "194b7603-a41d-4fba-96e7-741c294ce91a",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/education/publications-adm/covid-19/reseauScolaire_faitsSaillants.pdf",
+        "dir_parent": "qc",
+        "dir_file": "schools-highlights",
+        "file_name": "reseauScolaire_faitsSaillants",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "QC - Highlights - public and private school system (EN)",
+        "uuid": "a84e7e53-92ef-45f1-bdca-9908653a530a",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/education/publications-adm/covid-19/reseauScolaire_faitsSaillants_ANG.pdf",
+        "dir_parent": "qc",
+        "dir_file": "schools-highlights-en",
+        "file_name": "reseauScolaire_faitsSaillants_ANG",
         "file_ext": "pdf",
         "dl_fun": "dl_file",
         "args": {}
