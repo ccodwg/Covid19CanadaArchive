@@ -2140,6 +2140,18 @@
         "args": {}
       },
       {
+        "id_name": "ON - Ottawa Community Outbreaks (JSON)",
+        "uuid": "741f0e92-7841-43f2-8fb1-194e35457aaf",
+        "active": "True",
+        "url": "https://opendata.arcgis.com/datasets/0df365456c254fbc942fe3d85c3dbf83_0/FeatureServer/0/query?outFields=*&where=1%3D1",
+        "dir_parent": "on",
+        "dir_file": "ottawa-community-outbreaks-json",
+        "file_name": "COVID-19_Community_Outbreaks_in_Ottawa",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
         "id_name": "ON - Ottawa Weekly Rates",
         "uuid": "4e356f14-9cb0-4404-bf99-d9916286ac33",
         "active": "True",
