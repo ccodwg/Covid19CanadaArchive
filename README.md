@@ -534,7 +534,9 @@ When both French and English data files are available, French files should gener
     * Vaccination by age group: [qc/vaccination-by-age-group/tableau-suivi-vaccination-groupe-age.jpg](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 * [Variants de SRAS-CoV-2 sous surveillance rehaussée](https://inspq.qc.ca/covid-19/donnees/variants)
-    * [qc/variants/variants.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Variants: [qc/variants/variants.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Variant Rt time series: [qc/variants-rt-time-series/variants-rt.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Projection of variant dominance: [qc/variants-dominance-projection/variants-dominance-projection.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 * [Données COVID-19 au Québec (INSPQ)](https://www.inspq.qc.ca/covid-19/donnees)
     * COVID-19 time series by region and demographics: [qc/covid-time-series-by-region-and-demographics/covid19-hist.csv](http://data.opencovid.ca/archive/index.html#archive/)
