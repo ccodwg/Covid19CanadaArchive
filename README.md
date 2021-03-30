@@ -1,13 +1,10 @@
 # Archive of Canadian COVID-19 Data
 
-## THE DATA IN THIS ARCHIVE HAVE MOVED TO A NEW SERVER. To locate data, please use the file explorer: [http://data.opencovid.ca/archive/index.html#archive/](http://data.opencovid.ca/archive/index.html#archive/).
-
-###### The root directory of the file server is: http://data.opencovid.ca/archive/. For example, the PHAC Epidemiology Update from November 4, 2020 may be downloaded at the following URL: [http://data.opencovid.ca/archive/can/epidemiology-update-2/covid19-download_2020-11-04_23-38.csv](http://data.opencovid.ca/archive/can/epidemiology-update-2/covid19-download_2020-11-04_23-38.csv).
-###### From now on, this archive will be used only to store and collorate on archival scripts and metadata. Links to the data have been updated. Other options to explore and download the data will be available soon.
-
 This repository provides automated, daily backups of COVID-19 data from Canadian governmental and non-governmental sources.
 
-**File name timestamps are given in ET (America/Toronto) in the following format: %Y-%m-%d_%H-%M.** The script is run nightly around 23:00 ET.
+**THE DATA FOR THIS ARCHIVE ARE NO LONGER HOSTED ON GOOGLE DRIVE.** For information on how to access the data in the archive, please see [Accessing the data](#accessing-the-data) below.
+
+File name timestamps are given in ET (America/Toronto) in the following format: %Y-%m-%d_%H-%M. Files are archived nightly around 23:00 ET.
 
 All code in this repository is covered by the [MIT License](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/blob/master/LICENSE). Licenses and terms of use for each archived dataset are given below.
 
@@ -15,6 +12,7 @@ This repository is maintained by [Jean-Paul R. Soucy](https://jeanpaulsoucy.com/
 
 Table of contents:
 
+* [Accessing the data](#accessing-the-data)
 * [Contribution guide](#contribution-guide)
   * [Add a new dataset](#add-a-new-dataset)
   * [Retire an inactive dataset](#retire-an-inactive-dataset)
@@ -47,6 +45,56 @@ Table of contents:
   * [COVID-19 Canada Open Data Working Group](#covid-19-canada-open-data-working-group)
 * [Data notes](#data-notes)
 * [Acknowledgements](#acknowledgements)
+
+## Accessing the data
+
+The easiest way to explore the data in the archive and download individual files is with the interactive file explorer: [http://data.opencovid.ca/archive/index.html#archive/](http://data.opencovid.ca/archive/index.html#archive/)
+
+The files in the archive are hosted at the following URLS:
+* HTTP: [http://data.opencovid.ca/archive/](http://data.opencovid.ca/archive/).
+* HTTPS: [https://data.opencovid.ca.s3.amazonaws.com/archive/](https://data.opencovid.ca.s3.amazonaws.com/archive/)
+
+For example, the PHAC Epidemiology Update from November 4, 2020 may be downloaded at the following URLs:
+* HTTP: [http://data.opencovid.ca/archive/can/epidemiology-update-2/covid19-download_2020-11-04_23-38.csv](http://data.opencovid.ca/archive/can/epidemiology-update-2/covid19-download_2020-11-04_23-38.csv)
+* HTTPS: [https://data.opencovid.ca.s3.amazonaws.com/archive/can/epidemiology-update-2/covid19-download_2020-11-04_23-38.csv](https://data.opencovid.ca.s3.amazonaws.com/archive/can/epidemiology-update-2/covid19-download_2020-11-04_23-38.csv)
+
+All files in a particular directory may be listed in Python using the following code (change `Prefix` as desired):
+
+```
+# load modules
+from boto3 import client
+
+# get list of files in directory
+cli = client('s3')
+files = [key['Key'] for key in cli.list_objects(Bucket='data.opencovid.ca', Prefix='archive/can/epidemiology-update-2')['Contents']]
+
+# (optional) filter out supplementary material from list of files in the directory
+import re
+pat = re.compile('^.*/supplementary/') # match files in supplementary folder
+files = [s for s in files if not pat.match(s)]
+
+# print list of files
+print(files)
+```
+
+These files could then be downloaded by appending the base URL to the above file list.
+
+In R, the above may be achieved using the following code:
+
+```
+# load packages
+library(aws.s3)
+
+# get list of files in directory
+files <- aws.s3::get_bucket(bucket = "data.opencovid.ca" , prefix = "archive/can/epidemiology-update-2/", region = "us-east-2")
+files <- unlist(lapply(files, function(x) x[["Key"]]), use.names = FALSE)
+
+# (optional) filter out supplementary material from list of files in the directory
+files <- files[!grepl("^.*/supplementary/", files)]
+
+# print list of files
+print(files)
+```
 
 ## Contribution guide
 
