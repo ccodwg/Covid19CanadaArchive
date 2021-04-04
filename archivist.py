@@ -124,7 +124,7 @@ def upload_file(full_name, f_path, s3_dir=None, s3_prefix=None):
         print(background('Upload failed: ' + full_name, Colors.red))
         failure+=1
 
-## functions for loggging
+## functions for logging
 
 def output_log(download_log, t):
     """Assemble log from current run.
@@ -135,9 +135,20 @@ def output_log(download_log, t):
     
     """
     global success, failure
+
+    ## process download log: place failures at the top, successes below
+    download_log = download_log.split('\n')
+    download_log.sort()
+    download_log = '\n'.join(download_log)
+
+    ## count total files
     total_files = str(success + failure)
-    log = 'Successful downloads : ' + str(success) + '/' + total_files + '\n' + 'Failed downloads: ' + str(failure) + '/' + total_files + '\n\n' + download_log
+
+    ## assemble log
+    log = 'Successful downloads : ' + str(success) + '/' + total_files + '\n' + 'Failed downloads: ' + str(failure) + '/' + total_files + '\n' + download_log
     log = str(t) + '\n\n' + 'Nightly update: ' + str(t.date()) + '\n\n' + log
+
+    ## return log
     return log
 
 def upload_log(log):
