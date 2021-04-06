@@ -482,6 +482,7 @@ The sources and terms of use for each included dataset are linked below. Supplem
 * [ICES COVID-19 Dashboard](https://www.ices.on.ca/DAS/AHRQ/COVID-19-Dashboard)
     * ICES dashboard percent positivity by FSA: [on/ices-percent-positivity-by-fsa/ICES-COVID19-Testing-Data-FSA-percent-positivity.xlsx](http://data.opencovid.ca/archive/index.html#archive/)
     * ICES dashboard percent positivity by age group and Public Health Unit (PHU): [on/ices-percent-positivity-by-age-group-and-phu/ICES-COVID19-Testing-Data_PHUxAge-Groups-percent-positivity.xlsx](http://data.opencovid.ca/archive/index.html#archive/)
+    * ICES dashboard vaccine coverage estimates for selected age groups by FSA: [on/ices-vaccine-coverage-by-age-group-and-fsa/ICES-COVID19-Vaccination-Data-by-FSA.xlsx](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 
 #### Toronto

@@ -2007,6 +2007,18 @@
         "args": {}
       },
       {
+        "id_name": "ON - ICES dashboard vaccine coverage estimates for selected age groups by FSA",
+        "uuid": "cd168371-86f5-41f3-9555-580cd50f9b3a",
+        "active": "True",
+        "url": "https://www.ices.on.ca/~/media/Files/COVID-19/ICES-COVID19-Vaccination-Data-by-FSA.ashx?la=en-CA",
+        "dir_parent": "on",
+        "dir_file": "ices-vaccine-coverage-by-age-group-and-fsa",
+        "file_name": "ICES-COVID19-Vaccination-Data-by-FSA",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
         "id_name": "ON - City of Toronto Daily Status of COVID-19 Cases",
         "uuid": "ebad185e-9706-44f4-921e-fc89d5cfa334",
         "active": "True",
