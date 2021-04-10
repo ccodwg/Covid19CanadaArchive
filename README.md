@@ -373,11 +373,13 @@ The sources and terms of use for each included dataset are linked below. Supplem
 * [Newfoundland and Labrador COVID-19 Pandemic Update Hub](https://covid-19-newfoundland-and-labrador-gnl.hub.arcgis.com/)
     * Province summary: [nl/nb-summary/ProvCovidDailyStats.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Province time series: [nl/nb-summary-time-series/Prov_Covid_Daily_Stats_v2_Public_View.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Cumulative vaccination: [nl/cumulative-vaccination/Vaccine_LatestPublic_v2.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Regional Health Authority summary: [nl/rha-summary/RHA_CurrentStats2_Public2.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Cumulative cases by Primary Health Care Zone: [nl/cumulative-cases-by-phcz/PHZ_Zone_Public.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Cases by likely exposure setting: [nl/cases-by-likely-exposure-setting/Exposure_New_Public.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Cases by age and sex: [nl/cases-by-age-and-sex/Covid_AgeLayerPublic2.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Cumulative vaccination 2: [nl/cumulative-vaccination-2/DailyVaccination_Public.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vaccine doses received and expected this week: [nl/vaccine-doses-received-and-expected/WeeklyDoses_Public.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Cumulative vaccination: [nl/cumulative-vaccination/Vaccine_LatestPublic_v2.json](http://data.opencovid.ca/archive/index.html#archive/) (Archived, no longer part of the nightly update)
     * Primary Health Care Zone populations: [nl/phcz-populations/PHC_Zones_Combined_Public.json](http://data.opencovid.ca/archive/index.html#archive/) (Archived, no longer part of the nightly update)
     * Terms of use: TBD
 

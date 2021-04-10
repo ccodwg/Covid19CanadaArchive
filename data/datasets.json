@@ -1453,18 +1453,6 @@
         "args": {}
       },
       {
-        "id_name": "NL - Dashboard cumulative vaccination",
-        "uuid": "42975679-9279-4fbd-9f57-ba62d200afce",
-        "active": "True",
-        "url": "https://services8.arcgis.com/aCyQID5qQcyrJMm2/arcgis/rest/services/Vaccine_LatestPublic_v2/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "nl",
-        "dir_file": "cumulative-vaccination",
-        "file_name": "Vaccine_LatestPublic_v2",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {}
-      },
-      {
         "id_name": "NL - Dashboard Regional Health Authority summary",
         "uuid": "f0e10f54-a4db-48d8-9c4e-8571e663ca28",
         "active": "True",
@@ -1508,6 +1496,30 @@
         "dir_parent": "nl",
         "dir_file": "cases-by-age-and-sex",
         "file_name": "Covid_AgeLayerPublic2",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "NL - Cumulative vaccination 2",
+        "uuid": "6a7a6197-a10d-42a3-b0f2-0e4e78113539",
+        "active": "True",
+        "url": "https://services8.arcgis.com/aCyQID5qQcyrJMm2/arcgis/rest/services/DailyVaccination_Public/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nl",
+        "dir_file": "cumulative-vaccination-2",
+        "file_name": "DailyVaccination_Public",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "NL - Vaccine doses received and expected this week",
+        "uuid": "6d1b0f2e-0ac0-4ad8-a383-619065ec5a52",
+        "active": "True",
+        "url": "https://services8.arcgis.com/aCyQID5qQcyrJMm2/arcgis/rest/services/WeeklyDoses_Public/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nl",
+        "dir_file": "vaccine-doses-received-and-expected",
+        "file_name": "WeeklyDoses_Public",
         "file_ext": "json",
         "dl_fun": "dl_file",
         "args": {}
@@ -3123,6 +3135,18 @@
     "mb": [],
     "nb": [],
     "nl": [
+      {
+        "id_name": "NL - Dashboard cumulative vaccination",
+        "uuid": "42975679-9279-4fbd-9f57-ba62d200afce",
+        "active": "False",
+        "url": "https://services8.arcgis.com/aCyQID5qQcyrJMm2/arcgis/rest/services/Vaccine_LatestPublic_v2/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nl",
+        "dir_file": "cumulative-vaccination",
+        "file_name": "Vaccine_LatestPublic_v2",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
       {
         "id_name": "NL - Dashboard Primary Health Care Zone populations",
         "uuid": "199a17f2-855a-422d-a0c7-a4fb141a1237",
