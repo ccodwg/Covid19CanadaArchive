@@ -1824,6 +1824,18 @@
         "args": {}
       },
       {
+        "id_name": "ON - COVID-19 pharmacy vaccine locations (webpage)",
+        "uuid": "a742f52a-0df0-4f37-ad09-056854abc41d",
+        "active": "True",
+        "url": "https://covid-19.ontario.ca/vaccine-locations/",
+        "dir_parent": "on",
+        "dir_file": "vaccine-pharmacy-locations-webpage",
+        "file_name": "vaccine-pharmacy-locations-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {}
+      },
+      {
         "id_name": "ON - Ongoing outbreaks",
         "uuid": "c40ee593-226d-4ccd-ba56-cd426435f286",
         "active": "True",
