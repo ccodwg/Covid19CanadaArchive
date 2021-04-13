@@ -2222,6 +2222,18 @@
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {}
+      },
+      {
+        "id_name": "ON - Ottawa Data tables for Public COVID-19 Maps",
+        "uuid": "c561f688-bf5d-4997-b8af-ea60df901a57",
+        "active": "True",
+        "url": "https://www.arcgis.com/sharing/rest/content/items/ae347819064d45489ed732306f959a7e/data",
+        "dir_parent": "on",
+        "dir_file": "ottawa-wards-cases-cumulative",
+        "file_name": "COVID19_MapPublic_DataTables_EN",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {}
       }
     ],
     "pe": [
