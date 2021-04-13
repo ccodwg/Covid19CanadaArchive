@@ -82,6 +82,18 @@
     ],
     "bc": [
       {
+        "id_name": "BC - BC COVID-19 Data (webpage)",
+        "uuid": "a06041aa-3dce-44e7-9d6f-0767c14c33ef",
+        "active": "True",
+        "url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
+        "dir_parent": "bc",
+        "dir_file": "bc-covid-data-webpage",
+        "file_name": "bc-covid-data-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {}
+      },
+      {
         "id_name": "BC - BC COVID-19 Data (Case data)",
         "uuid": "ab6abe51-c9b1-4093-b625-93de1ddb6302",
         "active": "True",
