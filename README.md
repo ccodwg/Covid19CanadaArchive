@@ -412,8 +412,9 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Lab testing: [ns/lab-testing/lab-testing.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Lab testing, hospitalization, ICU summary: [ns/lab-testing-summary/lab-testing-summary.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Demographics summary: [ns/demographics-summary/demographics-summary.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Immunizations: [ns/immunizations/immunizations.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Health boundaries: [ns/health-boundaries/health-boundaries.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Immunizations 2: [ns/immunizations-2/Immunizations_3_PROD.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Immunizations: [ns/immunizations/immunizations.json](http://data.opencovid.ca/archive/index.html#archive/) (Archived, no longer part of the nightly update)
     * Terms of use: Assumed to be [Open Government Licence – Nova Scotia](https://novascotia.ca/opendata/licence.asp)
 
 ### Nunavut

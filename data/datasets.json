@@ -1685,18 +1685,6 @@
         "args": {}
       },
       {
-        "id_name": "NS - Nova Scotia COVID-19 Dashboard: Immunizations",
-        "uuid": "eff01443-3cb6-4bb5-961b-478765102eec",
-        "active": "True",
-        "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Immunizations_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
-        "dir_parent": "ns",
-        "dir_file": "immunizations",
-        "file_name": "immunizations",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {}
-      },
-      {
         "id_name": "NS - Nova Scotia COVID-19 Dashboard: Health boundaries",
         "uuid": "1043edf2-85bd-4f30-8fb0-ebe9fffdc652",
         "active": "True",
@@ -1704,6 +1692,18 @@
         "dir_parent": "ns",
         "dir_file": "health-boundaries",
         "file_name": "health-boundaries",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "NS - Nova Scotia COVID-19 Dashboard: Immunizations 2",
+        "uuid": "596fa2d1-5457-4665-9124-9b09be8b0bf3",
+        "active": "True",
+        "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Immunizations_3_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "ns",
+        "dir_file": "immunizations-2",
+        "file_name": "Immunizations_3_PROD",
         "file_ext": "json",
         "dl_fun": "dl_file",
         "args": {}
@@ -3235,6 +3235,18 @@
         "args": {
           "verify": "False"
         }
+      },
+      {
+        "id_name": "NS - Nova Scotia COVID-19 Dashboard: Immunizations",
+        "uuid": "eff01443-3cb6-4bb5-961b-478765102eec",
+        "active": "False",
+        "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Immunizations_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "ns",
+        "dir_file": "immunizations",
+        "file_name": "immunizations",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {}
       }
     ],
     "nu": [],
