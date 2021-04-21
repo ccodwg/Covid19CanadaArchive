@@ -291,6 +291,9 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * [can/preliminary-dataset-on-confirmed-cases/COVID19-eng.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Includes supplementary material: user guide and data dictionary, metadata
     * Terms of use: [Statistics Canada Open Licence](https://www.statcan.gc.ca/eng/reference/licence)
+* [Coronavirus disease (COVID-19): Locations where you may have been exposed to COVID-19](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice/exposure-flights-cruise-ships-mass-gatherings.html)
+    * [can/can-potential-exposures-webpage/can-potential-exposures-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Terms of use: [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
 
 ### Manitoba
 

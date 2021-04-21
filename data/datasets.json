@@ -849,6 +849,18 @@
         "args": {
           "unzip": "True"
         }
+      },
+      {
+        "id_name": "CAN - Locations where you may have been exposed to COVID-19 (webpage)",
+        "uuid": "7110c65b-9cd4-4810-b65c-44473ac2beb6",
+        "active": "True",
+        "url": "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice/exposure-flights-cruise-ships-mass-gatherings.html",
+        "dir_parent": "can",
+        "dir_file": "can-potential-exposures-webpage",
+        "file_name": "can-potential-exposures-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {}
       }
     ],
     "mb": [
