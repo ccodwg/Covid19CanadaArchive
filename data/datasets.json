@@ -1219,6 +1219,18 @@
         "file_ext": "json",
         "dl_fun": "dl_file",
         "args": {}
+      },
+      {
+        "id_name": "MB - COVID-19 Variant of Concern Cases in Manitoba",
+        "uuid": "91490caf-494c-4db3-8018-d9f6350c2051",
+        "active": "True",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_variants/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "cumulative-variants-by-rha",
+        "file_name": "mb_covid_variants",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {}
       }
     ],
     "nb": [

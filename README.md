@@ -335,6 +335,9 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Manitoba school divisions: [mb/school-divisions/school-divisions.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Supplementary: Definitions
     * Terms of use: TBD
+* [COVID-19 Variant of Concern Cases in Manitoba](https://geoportal.gov.mb.ca/app/95badc9cb5c3408ca2eb562ab61af51b)
+    * [mb/cumulative-variants-by-rha/mb_covid_variants.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Terms of use: TBD
 
 #### Winnipeg
 
