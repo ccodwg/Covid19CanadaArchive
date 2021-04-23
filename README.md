@@ -144,10 +144,10 @@ The sources and terms of use for each included dataset are linked below. Supplem
 ### Alberta
 
 * [COVID-19 Alberta statistics](https://www.alberta.ca/stats/covid-19-alberta-statistics.htm)
-    * [ab/cases/covid19dataexport.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * [ab/cases/covid19dataexport.csv](http://data.opencovid.ca/archive/index.html#archive/) [Note: Some historical versions of this file may have misaligned/incorrect column names]
     * Terms of use: Assumed to be [Open Government Licence - Alberta](https://open.alberta.ca/licence); see also the disclaimer in the "data notes" tab of the [website](https://www.alberta.ca/stats/covid-19-alberta-statistics.htm)
 * [COVID-19 relaunch status map](https://www.alberta.ca/maps/covid-19-status-map.htm)
-    * [ab/active-cases-by-region/covid19dataexport-relaunch.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * [ab/active-cases-by-region/covid19dataexport-relaunch.csv](http://data.opencovid.ca/archive/index.html#archive/) [Note: Some historical versions of this file may have misaligned/incorrect column names]
     * Terms of use: Assumed to be [Open Government Licence - Alberta](https://open.alberta.ca/licence)
 * [COVID-19 school status map](https://www.alberta.ca/schools/covid-19-school-status-map.htm)
     * [ab/school-status-by-region/covid19dataexport-schools.csv](http://data.opencovid.ca/archive/index.html#archive/)

@@ -316,7 +316,7 @@ def dl_file(url, dir_parent, dir_file, file, ext='.csv', user=False, verify=True
                 data = re.search("(?<=\"data\"\:)\[\[.*\]\]", req.text).group(0)
                 if url == "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm":
                     data = pd.read_json(data).transpose()
-                    data = data.rename(columns={0: "", 1: "Date reported", 2: "Alberta Health Services Zone", 3: "Gender", 4: "Age group", 5: "Case status", 6: "Case type"})
+                    data = data.rename(columns={0: "Date reported", 1: "Alberta Health Services Zone", 2: "Gender", 3: "Age group", 4: "Case status", 5: "Case type"})
                 elif url == "https://www.alberta.ca/maps/covid-19-status-map.htm":
                     data = BeautifulSoup(data, features="html.parser")
                     data = data.get_text() # strip HTML tags
@@ -325,7 +325,7 @@ def dl_file(url, dir_parent, dir_file, file, ext='.csv', user=False, verify=True
                     data = re.sub("(?<=\") ", "", data) # strip whitespace
                     data = re.sub(" (?=\")", "", data) # strip whitespace
                     data = pd.read_json(data).transpose()
-                    data = data.rename(columns={0: "", 1: "Region name", 2: "Region classification", 3: "Measures", 4: "Active case rate (per 100,000 population)", 5: "Active cases", 6: "Population"})
+                    data = data.rename(columns={0: "", 1: "Region name", 2: "Measures", 3: "Active case rate (per 100,000 population)", 4: "Active cases", 5: "Population"})
                 elif url == "https://www.alberta.ca/schools/covid-19-school-status-map.htm":
                     data = re.sub(',"container":.*', "", data) # strip remaining tags
                     data = pd.read_json(data).transpose()
