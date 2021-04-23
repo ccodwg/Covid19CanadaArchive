@@ -2528,6 +2528,18 @@
         "args": {}
       },
       {
+        "id_name": "QC - Éclosions de COVID-19 au Québec",
+        "uuid": "32e70a1b-2d0a-47cc-b10c-57056a6b1244",
+        "active": "True",
+        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/eclosions.csv",
+        "dir_parent": "qc",
+        "dir_file": "active-outbreaks-time-series-by-setting",
+        "file_name": "eclosions",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
         "id_name": "QC - Outbreaks by setting (FR)",
         "uuid": "b2cd8112-7423-4da3-9b70-567aec42e05b",
         "active": "True",
