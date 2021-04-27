@@ -2,18 +2,28 @@
   "active": {
     "ab": [
       {
-        "id_name": "AB - COVID-19 Alberta statistics",
+        "id_name": "AB - COVID-19 Alberta statistics: Case data",
         "uuid": "59da1de8-3b4e-429a-9e18-b67ba3834002",
         "active": "True",
-        "url": "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm",
+        "url": "https://www.alberta.ca/data/stats/covid-19-alberta-statistics-data.csv",
         "dir_parent": "ab",
         "dir_file": "cases",
         "file_name": "covid19dataexport",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "ab_json_to_csv": "True"
-        }
+        "args": {}
+      },
+      {
+        "id_name": "AB - COVID-19 Alberta statistics: Vaccine data",
+        "uuid": "77b27208-a229-44cb-af3b-357ce44c369e",
+        "active": "True",
+        "url": "https://www.alberta.ca/data/stats/zone-coverage.csv",
+        "dir_parent": "ab",
+        "dir_file": "vaccine-coverage-by-zone",
+        "file_name": "zone-coverage",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {}
       },
       {
         "id_name": "AB - COVID-19 relaunch status map",

@@ -314,10 +314,7 @@ def dl_file(url, dir_parent, dir_file, file, ext='.csv', user=False, verify=True
                 tmpdir = tempfile.TemporaryDirectory()
                 f_path = os.path.join(tmpdir.name, file + ext)
                 data = re.search("(?<=\"data\"\:)\[\[.*\]\]", req.text).group(0)
-                if url == "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm":
-                    data = pd.read_json(data).transpose()
-                    data = data.rename(columns={0: "Date reported", 1: "Alberta Health Services Zone", 2: "Gender", 3: "Age group", 4: "Case status", 5: "Case type"})
-                elif url == "https://www.alberta.ca/maps/covid-19-status-map.htm":
+                if url == "https://www.alberta.ca/maps/covid-19-status-map.htm":
                     data = BeautifulSoup(data, features="html.parser")
                     data = data.get_text() # strip HTML tags
                     ## this regex may need some tweaking if measures column changes in the future
