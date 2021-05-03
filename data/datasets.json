@@ -2562,6 +2562,18 @@
         "args": {}
       },
       {
+        "id_name": "QC - Cumulative vaccination adverse events by vaccine type",
+        "uuid": "d78f27a0-4669-4582-93df-09eb6eba60b9",
+        "active": "True",
+        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/vaccination-mci.csv",
+        "dir_parent": "qc",
+        "dir_file": "cumulative-vaccination-adverse-events-by-vaccine-type",
+        "file_name": "vaccination-mci",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
         "id_name": "QC - Vaccine doses administered by RSS (FR)",
         "uuid": "cbbcc0ad-00bb-47d0-877e-32aa4509f9e9",
         "active": "True",

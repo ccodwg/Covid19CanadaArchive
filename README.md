@@ -601,6 +601,7 @@ When both French and English data files are available, French files should gener
     * Cases by region 7 days (EN): [qc/cases-by-region-7-days-en/cas-region-7jours-en.csv](http://data.opencovid.ca/archive/index.html#archive/)
 * [Données de vaccination contre la COVID-19 au Québec](https://www.inspq.qc.ca/covid-19/donnees/vaccination)
     * Vaccination by RSS time series: [qc/vaccination-by-rss-time-series/vaccination.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Cumulative vaccination adverse events by vaccine type: [qc/cumulative-vaccination-adverse-events-by-vaccine-type/vaccination-mci.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 * [COVID-19 vaccination data](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/covid-19-vaccination-data/)
     * [Webpage EN](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/covid-19-vaccination-data/): [qc/qc-vaccination-webpage-en/qc-vaccination-webpage-en.html](http://data.opencovid.ca/archive/index.html#archive/)
