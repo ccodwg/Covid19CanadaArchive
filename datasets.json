@@ -634,7 +634,6 @@
         "file_name": "mobility",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "day_to_run": "3",
         "args": {}
       },
       {
@@ -647,7 +646,6 @@
         "file_name": "fluwatchers",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "day_to_run": "3",
         "args": {}
       },
       {
@@ -2266,7 +2264,6 @@
         "file_name": "COVID19_cases",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "day_to_run": "2",
         "args": {}
       },
       {
