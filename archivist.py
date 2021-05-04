@@ -258,7 +258,7 @@ def dl_file(url, dir_parent, dir_file, file, ext='.csv', user=False, verify=True
     mb_json_to_csv (bool): If True, this is a Manitoba JSON file that that should be converted to CSV. Default: False.
 
     """
-    global mode, download_log, success, failure, prefix
+    global mode, download_log, success, failure, prefix_root
 
     ## set names with timestamp and file ext
     name = file + '_' + get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
@@ -351,7 +351,7 @@ def dl_file(url, dir_parent, dir_file, file, ext='.csv', user=False, verify=True
                     local_file.write(req.content)
             ## upload file
             s3_dir = os.path.join(dir_parent, dir_file)
-            upload_file(full_name, f_path, s3_dir=s3_dir, s3_prefix=prefix)
+            upload_file(full_name, f_path, s3_dir=s3_dir, s3_prefix=prefix_root)
     except Exception as e:
         ## print failure
         print(e)
@@ -394,7 +394,7 @@ def html_page(url, dir_parent, dir_file, file, ext='.html', user=False, js=False
     wait (int): Used only if js = True. Time in seconds that the function should wait for the page to render. If the time is too short, the source code may not be captured.
 
     """
-    global mode, download_log, success, failure
+    global mode, download_log, success, failure, prefix_root
     
     ## set names with timestamp and file ext
     name = file + '_' + get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
@@ -438,7 +438,7 @@ def html_page(url, dir_parent, dir_file, file, ext='.html', user=False, js=False
         else:
             ## upload file
             s3_dir = os.path.join(dir_parent, dir_file)
-            upload_file(full_name, f_path, s3_dir=s3_dir, s3_prefix=prefix)
+            upload_file(full_name, f_path, s3_dir=s3_dir, s3_prefix=prefix_root)
 
         ## quit webdriver
         driver.quit()
@@ -466,7 +466,7 @@ def ss_page(url, dir_parent, dir_file, file, ext='.png', user=False, wait=5, wid
     height (int): Height of the output screenshot. Default: None. If not set, the function attempts to detect the maximum height.
 
     """
-    global mode, download_log, success, failure
+    global mode, download_log, success, failure, prefix_root
 
     ## set names with timestamp and file ext
     name = file + '_' + get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
@@ -515,7 +515,7 @@ def ss_page(url, dir_parent, dir_file, file, ext='.png', user=False, wait=5, wid
             else:
                 ## upload file
                 s3_dir = os.path.join(dir_parent, dir_file)
-                upload_file(full_name, f_path, s3_dir=s3_dir, s3_prefix=prefix)
+                upload_file(full_name, f_path, s3_dir=s3_dir, s3_prefix=prefix_root)
         except Exception as e:
             ## print exception
             print(e)

@@ -53,8 +53,8 @@ if archivist.mode == 'prod':
         ## access S3
         archivist.s3 = archivist.access_s3(bucket='data.opencovid.ca')
         
-        ## set S3 path prefix for achived files
-        archivist.prefix = 'archive'
+        ## set S3 path prefix root for achived files
+        archivist.prefix_root = 'archive'
 
 # define time script started running in America/Toronto time zone
 t = archivist.get_datetime('America/Toronto')
