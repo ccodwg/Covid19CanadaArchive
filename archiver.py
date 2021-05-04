@@ -17,15 +17,15 @@ init_colorit() # enable printing with colour
 import archivist
 
 # list of environmental variables used in this script (through functions in archivist.py)
-## AWS_ID: environmental variable of AWS ID (used when mode = server)
-## AWS_KEY: environmental variable of AWS key (used when mode = server)
-## MAIL_NAME: environmental variable of email account (used when mode = server)
-## MAIL_PASS: environemntal variable of email password (used when mode = server)
-## MAIL_TO: environmental variable of account receiving email logs (used when mode = server)
-## SMTP_SERVER: environmental variable of email server address (used when mode = server)
-## SMTP_PORT: environmental variable of email server port (used when mode = server)
-## CHROME_BIN: path to Chromium/Chrome binary: (e.g., on Heroku: /app/.apt/usr/bin/google-chrome)
-## CHROMEDRIVER_BIN: path to Chromedriver (e.g., on Heroku: /app/.chromedriver/bin/chromedriver)
+## AWS_ID: environmental variable of AWS ID
+## AWS_KEY: environmental variable of AWS key
+## MAIL_NAME: environmental variable of email account
+## MAIL_PASS: environemntal variable of email password
+## MAIL_TO: environmental variable of account receiving email logs
+## SMTP_SERVER: environmental variable of email server address
+## SMTP_PORT: environmental variable of email server port
+## CHROME_BIN: path to Chromium/Chrome binary
+## CHROMEDRIVER_BIN: path to Chromedriver
 
 # set mode from argv (prod versus test)
 ## prod: Download files and upload them to the server.
