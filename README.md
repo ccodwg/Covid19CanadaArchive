@@ -245,8 +245,8 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Webpage: [can/testing-supply-webpage/testing-supply-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
 * [COVIDTrends](https://health-infobase.canada.ca/covid-19/covidtrends/)
-    * Mobility: [can/covidtrends-mobility/mobility.csv](https://drive.google.com/drive/folders/1rywSZlhHQzv7L9r8dIo7_hWgquTG7U45) [dataset is updated only on Thursdays]
-    * FluWatchers: [can/covidtrends-fluwatchers/fluwatchers.csv](https://drive.google.com/drive/folders/1l9C7WppFIIc-hSxKRLd8i0dAon6YfbAs) [dataset is updated only on Thursdays]
+    * Mobility: [can/covidtrends-mobility/mobility.csv](http://data.opencovid.ca/archive/index.html#archive/) [dataset is updated only on Thursdays]
+    * FluWatchers: [can/covidtrends-fluwatchers/fluwatchers.csv](http://data.opencovid.ca/archive/index.html#archive/) [dataset is updated only on Thursdays]
     * Terms of use: [Open Government Licence - Canada](https://open.canada.ca/en/open-government-licence-canada)
 * [Vaccines and treatments for COVID-19: Vaccine rollout](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks/covid-19-vaccine-treatment/vaccine-rollout.html)
     * [can/vaccine-rollout-webpage/vaccine-rollout-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
@@ -586,17 +586,17 @@ When both French and English data files are available, French files should gener
     * Correctional facilities - cases among detainees (FR): [qc/correctional-cases-detainees/](http://data.opencovid.ca/archive/index.html#archive/)
     * Correctional facilities - cases among detainees (EN): [qc/correctional-cases-detainees/donnees_covid_detention_personnes_incarcerees_EN.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Outbreaks by setting (FR): [qc/outbreaks-by-setting/eclosions-par-milieu.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * Outbreaks by setting (EN): [qc/outbreaks-by-setting-en/eclosions-par-milieu-en.csv](https://drive.google.com/drive/folders/1p4EFQ_r4x4wjp76zOwlW9gD7-3sKX4z4) [archived: no longer updated]
+    * Outbreaks by setting (EN): [qc/outbreaks-by-setting-en/eclosions-par-milieu-en.csv](http://data.opencovid.ca/archive/index.html#archive/) [archived: no longer updated]
     * Cases percentage by age group (FR): [qc/cases-percentage-by-age-group/pourcentage-cas-age.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * Cases percentage by age group (EN): [qc/cases-percentage-by-age-group-en/pourcentage-cas-age-en.csv](https://drive.google.com/drive/folders/1tIW1eONhV1tvhYbappJ44zfvzTpb2RSA) [archived: no longer updated]
+    * Cases percentage by age group (EN): [qc/cases-percentage-by-age-group-en/pourcentage-cas-age-en.csv](http://data.opencovid.ca/archive/index.html#archive/) [archived: no longer updated]
     * Deaths percentage by age group (FR): [qc/deaths-percentage-by-age-group/pourcentage-deces-age.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * Deaths percentage by age group (EN): [qc/deaths-percentage-by-age-group-en/pourcentage-deces-age-en.csv](https://drive.google.com/drive/folders/1CPP_HMuwljqcktPUgM8TaZK3DF7fRJP9) [archived: no longer updated]
+    * Deaths percentage by age group (EN): [qc/deaths-percentage-by-age-group-en/pourcentage-deces-age-en.csv](http://data.opencovid.ca/archive/index.html#archive/) [archived: no longer updated]
     * Cumulative deaths by region (FR): [qc/cumulative-deaths-by-region/deces-region.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * Cumulative deaths by region (EN): [qc/cumulative-deaths-by-region-en/deces-region-en.csv](https://drive.google.com/drive/folders/1uL2HHOqEDTl3GoBJDo2EAxkzl2OFw34F) [archived: no longer updated]
+    * Cumulative deaths by region (EN): [qc/cumulative-deaths-by-region-en/deces-region-en.csv](http://data.opencovid.ca/archive/index.html#archive/) [archived: no longer updated]
     * Recent daily cases by region (FR): [qc/recent-daily-cases-by-region/cas-region.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Recent daily cases by region (EN): [qc/recent-daily-cases-by-region-en/cas-region-en.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * COVID-19 daily data 7 days (FR): [qc/covid-data-daily-7-days/synthese-7jours.csv](http://data.opencovid.ca/archive/index.html#archive/) (Renamed to synthese-7joursV2.csv from synthese-7jours.csv after 2020-11-09; later renamed again to synthese-7jours.csv - a substantial number of files from November and December are missing due to this change)
-    * COVID-19 daily data 7 days (EN): [qc/covid-data-daily-7-days-en/synthese-7jours-en.csv](https://drive.google.com/drive/folders/1hiLaw3OLYZK9FIHs68iBheGdJXGRy-9E) [archived: no longer updated]
+    * COVID-19 daily data 7 days (EN): [qc/covid-data-daily-7-days-en/synthese-7jours-en.csv](http://data.opencovid.ca/archive/index.html#archive/) [archived: no longer updated]
     * Cases by region 7 days (FR): [qc/cases-by-region-7-days/cas-region-7jours.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Cases by region 7 days (EN): [qc/cases-by-region-7-days-en/cas-region-7jours-en.csv](http://data.opencovid.ca/archive/index.html#archive/)
 * [Données de vaccination contre la COVID-19 au Québec](https://www.inspq.qc.ca/covid-19/donnees/vaccination)
@@ -607,7 +607,7 @@ When both French and English data files are available, French files should gener
     * [Webpage EN](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/covid-19-vaccination-data/): [qc/qc-vaccination-webpage-en/qc-vaccination-webpage-en.html](http://data.opencovid.ca/archive/index.html#archive/)
     * [Webpage FR](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/donnees-sur-la-vaccination-covid-19/): [qc/qc-vaccination-webpage-fr/qc-vaccination-webpage-fr.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination situation (FR): [qc/vaccination-situation/situation-vaccination.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * Vaccination situation (EN): [qc/vaccination-situation-en/situation-vaccination-en.csv](https://drive.google.com/drive/folders/1R3JYs4NT1k2ESctWNN6JfcfimnDkmmsq) [archived: no longer updated]
+    * Vaccination situation (EN): [qc/vaccination-situation-en/situation-vaccination-en.csv](http://data.opencovid.ca/archive/index.html#archive/) [archived: no longer updated]
     * Vaccine doses administered by RSS (FR): [qc/vaccine-doses-admin-by-rss/doses-vaccins.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccine doses administered by RSS (EN): [qc/vaccine-doses-admin-by-rss-en/doses-vaccins-en.csv](http://data.opencovid.ca/archive/index.html#archive/) (note: the first file in this dataset is only available as a screenshot; archived as of 2021-01-14, no longer part of the nightly update)
     * Vaccine doses received (FR): [qc/vaccine-doses-received-7-days/doses-vaccins-7jours.csv](http://data.opencovid.ca/archive/index.html#archive/)
@@ -676,8 +676,8 @@ When both French and English data files are available, French files should gener
     * [qc/active-hospitalizations-per-hosp/tableau-hospitalisations.pdf](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 * Vaccination of priority groups
-    * FR: [vaccination-of-priority-groups](https://drive.google.com/drive/folders/14gHszA6zjkXDPfL7-RT0rfMxhVW8vbDx) [archived: no longer updated]
-    * EN: [vaccination-of-priority-groups-en](https://drive.google.com/drive/folders/1ZFdH_8UD1YgpZnF0YLJ0y2AC1mPbIqbZ) [archived: no longer updated]
+    * FR: [vaccination-of-priority-groups](http://data.opencovid.ca/archive/index.html#archive/) [archived: no longer updated]
+    * EN: [vaccination-of-priority-groups-en](http://data.opencovid.ca/archive/index.html#archive/) [archived: no longer updated]
     * Terms of use: TBD
 
 #### Montreal

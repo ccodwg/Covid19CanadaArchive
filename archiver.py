@@ -60,7 +60,7 @@ if archivist.mode == 'prod':
 t = archivist.get_datetime('America/Toronto')
 
 # load active datasets
-with open('data/datasets.json') as json_file:
+with open('datasets.json') as json_file:
         datasets = json.load(json_file)
 datasets = datasets['active'] # subset active datasets
 
