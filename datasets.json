@@ -119,11 +119,11 @@
         "id_name": "BC - BC COVID-19 Data (Laboratory data)",
         "uuid": "f9a8dea5-1eed-447b-a9a0-be2a4b62d6a6",
         "active": "True",
-        "url": "http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Lab_Information.csv",
+        "url": "http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Lab_Information.xlsx",
         "dir_parent": "bc",
         "dir_file": "laboratory-data",
         "file_name": "BCCDC_COVID19_Dashboard_Lab_Information",
-        "file_ext": "csv",
+        "file_ext": "xlsx",
         "dl_fun": "dl_file",
         "args": {}
       },
