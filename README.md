@@ -48,15 +48,15 @@ Table of contents:
 
 ## Accessing the data
 
-The easiest way to explore the data in the archive and download individual files is with the interactive file explorer: [http://data.opencovid.ca/archive/index.html#archive/](http://data.opencovid.ca/archive/index.html#archive/)
+The easiest way to explore the data in the archive and download individual files is with the interactive file explorer: [http://data.opencovid.ca/archive/index.html#archive/](http://data.opencovid.ca/archive/index.html#archive/).
 
-The files in the archive are hosted at the following URLS:
-* HTTP: [http://data.opencovid.ca/archive/](http://data.opencovid.ca/archive/).
-* HTTPS: [https://data.opencovid.ca.s3.amazonaws.com/archive/](https://data.opencovid.ca.s3.amazonaws.com/archive/)
+The files in the archive are hosted at the following URL: [https://data.opencovid.ca.s3.amazonaws.com/archive/](https://data.opencovid.ca.s3.amazonaws.com/archive/)
 
-For example, the PHAC Epidemiology Update from November 4, 2020 may be downloaded at the following URLs:
-* HTTP: [http://data.opencovid.ca/archive/can/epidemiology-update-2/covid19-download_2020-11-04_23-38.csv](http://data.opencovid.ca/archive/can/epidemiology-update-2/covid19-download_2020-11-04_23-38.csv)
-* HTTPS: [https://data.opencovid.ca.s3.amazonaws.com/archive/can/epidemiology-update-2/covid19-download_2020-11-04_23-38.csv](https://data.opencovid.ca.s3.amazonaws.com/archive/can/epidemiology-update-2/covid19-download_2020-11-04_23-38.csv)
+For example, the PHAC Epidemiology Update from November 4, 2020 may be downloaded at the following URL: [https://data.opencovid.ca.s3.amazonaws.com/archive/can/epidemiology-update-2/covid19-download_2020-11-04_23-38.csv](https://data.opencovid.ca.s3.amazonaws.com/archive/can/epidemiology-update-2/covid19-download_2020-11-04_23-38.csv)
+
+A complete index of files in the archive, including flags for duplicated files and corrected file dates, is available at the following URL: [https://data.opencovid.ca.s3.amazonaws.com/archive/file_index.csv](https://data.opencovid.ca.s3.amazonaws.com/archive/file_index.csv). This index is refreshed once per day.
+
+Alternatively, software such as Python or R may be used to explore and download files from specific directories. Examples are provided below.
 
 All files in a particular directory may be listed in Python using the following code (change `Prefix` as desired):
 
