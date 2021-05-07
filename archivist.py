@@ -539,14 +539,18 @@ def ss_page(url, dir_parent, dir_file, file, ext='.png', user=False, wait=5, wid
 
 ## indexing
 
-def create_index():
-    """ Create an index of files in datasets.json.
+def create_index(url_base, inventory):
+    """ Create an index of files in datasets.json stored in the S3 bucket.
+    
+    Parameters:
+    url_base (str): The base URL to the S3 bucket, used to construct file URLs.
+    inventory (str): The path to the S3 Inventory data folder.
     
     """
-    global s3  
+    global s3, prefix_root
     
     ## load datasets.json
-    with open('data/datasets.json') as json_file:
+    with open('datasets.json') as json_file:
         datasets = json.load(json_file)
     
     ## convert datasets into single dictionary
@@ -554,77 +558,99 @@ def create_index():
     for a in datasets: # active and inactive
         for d in datasets[a]:
             for i in range(len(datasets[a][d])):
-                ds[datasets[a][d][i]['id_name']] = datasets[a][d][i]
+                ds[datasets[a][d][i]['uuid']] = datasets[a][d][i]
     
-    ## load existing index
-    ## only filter out keys already present in index - don't re-request etags
+    ## retrieve latest S3 inventory
+    inv_dir = s3.objects.filter(Prefix=inventory)
+    inv_files = list(inv_dir)
+    # remove directories
+    inv_files = [inv for inv in inv_files if inv.get()['ContentType'] != 'application/octet-stream']
+    # get latest file
+    get_last_modified = lambda inv: int(inv.get()['LastModified'].strftime('%s'))
+    inv_file = [inv for inv in sorted(inv_files, key=get_last_modified)][-1]
+    inv = inv_file.get()['Body']
     
-    ## intialize index
-    index = pd.DataFrame(columns = ['dir_parent', 'dir_file', 'dir_id', 'file_name', 'file_timestamp', 'file_date', 'file_date_true', 'file_id', 'file_mime_type', 'file_size', 'file_md5', 'file_md5_duplicate', 'file_url'])
+    ## process S3 inventory file
+    inv = pd.read_csv(inv, compression='gzip', header=None, sep=',', quotechar='"')
+    # assign column names
+    inv = inv.rename(columns={0: 'bucket', 1: 'file_path', 2: 'file_size', 3: 'file_md5'})
+    # drop unneeded column
+    inv = inv.drop('bucket', axis=1)
+    # calculate other columns
+    inv['dir_parent'] = inv['file_path'].apply(lambda x: os.path.dirname(x).split('/')[1:-1])
+    inv['dir_parent'] = inv['dir_parent'].apply(lambda x: '/'.join(x))
+    inv['dir_file'] = inv['file_path'].apply(lambda x: os.path.dirname(x).split('/')[-1])
+    inv['file_name'] = inv['file_path'].apply(lambda x: os.path.basename(x))
+    inv['file_timestamp'] = inv['file_name'].str.extract('(?<=_)(\d{4}-\d{2}-\d{2}_\d{2}-\d{2}).*$', expand=True)
+    inv['file_date'] = pd.to_datetime(inv['file_timestamp'], format='%Y-%m-%d_%H-%M').dt.date
+    inv['file_url'] = url_base + inv['file_path']
+    # initialize other columns
+    inv['file_date_true'] = inv['file_date'] # set initial values for true date
+    inv['file_md5_duplicate'] = np.nan
+    # remove directories, log files and supplementary files
+    inv = inv[inv['file_md5'] != 'd41d8cd98f00b204e9800998ecf8427e'] # remove directories
+    inv = inv[inv['dir_file'] != prefix_root] # remove log files (stored in root)
+    inv = inv[inv['dir_file'] != 'supplementary'] # remove supplementary files
+    # keep only necessary columns and reorder
+    index = inv[['dir_parent', 'dir_file', 'file_name', 'file_timestamp', 'file_date', 'file_date_true', 'file_size', 'file_md5', 'file_md5_duplicate', 'file_url']]
+    # sort index
+    index = index.sort_values(by=['dir_parent', 'dir_file', 'file_timestamp'])
     
-    ## loop through each dataset
+    ## calculate true dates and md5 duplicates - loop through each dataset
     for key in ds:
-        ## get prefix
-        prefix = 'archive/' + ds[key]['dir_parent'] + '/' + ds[key]['dir_file'] + '/'
-        files = []
-        for file in s3.objects.filter(Prefix=prefix):
-            print(file)
-    
-    ## loop through each dir_id
-    for i in dir_ids.index.to_list():
-        ## fetch list of files
-        d = drive.ListFile({'q': drive_template.format(dir_id=dir_ids.loc[i, 'dir_id'])}).GetList()
-        ## turn into DataFrame
-        d = pd.DataFrame(d)
-        ## keep only necessary columns
-        d = d[['id', 'title', 'mimeType', 'webContentLink', 'md5Checksum', 'fileSize']]
-        ## rename columns
-        d = d.rename(columns={'id': 'file_id', 'title': 'file_name', 'mimeType': 'file_mime_type', 'webContentLink': 'file_url', 'md5Checksum': 'file_md5', 'fileSize': 'file_size'})
-        ## extract timestamp from file
-        d['file_timestamp'] = d['file_name'].str.extract('(?<=_)(\d{4}-\d{2}-\d{2}_\d{2}-\d{2}).*$', expand=True)
-        d['file_timestamp'] = pd.to_datetime(d['file_timestamp'], format='%Y-%m-%d_%H-%M')
-        ## sort files by timestamp in ascending order
-        d = d.sort_values(by=['file_timestamp'])
-        ## extract file date from timestamp
-        d['file_date'] = d['file_timestamp'].dt.date
-        ## set initial values for true date
-        d['file_date_true'] = d['file_date']
-        ## check if there are multiple hashes on the first date of data
+        d_p = ds[key]['dir_parent']
+        d_f = ds[key]['dir_file']
+        # get data
+        d = index[(index['dir_parent'] == d_p) & (index['dir_file'] == d_f)]
+        # check if there are multiple hashes on the first date of data
         d_first_date = d[d['file_date'] == d['file_date'].min()].drop_duplicates(['file_md5'])
         if (len(d_first_date) > 1):
-            ## if there multiple hashes on the first date, assume the earliest file is actually from the previous date
+            # if there multiple hashes on the first date, assume the earliest file is actually from the previous date
             d.loc[d['file_name'] == d_first_date.iloc[0]['file_name'], 'file_date_true'] = d.loc[d['file_name'] == d_first_date.iloc[0]['file_name'], 'file_date'] - timedelta(days=1)
-        ## generate list of all possible dates: from first true date to last true date
+        # generate list of all possible dates: from first true date to last true date
         d_dates_seq = pd.date_range(d['file_date_true'].min(), d['file_date'].max()).tolist()
-        ## generate list of all dates in the dataset
+        # generate list of all dates in the dataset
         d_dates = d['file_date_true'].unique().tolist()
-        ## are any expected dates are missing?
+        # are any expected dates are missing?
         d_dates_missing = np.setdiff1d(d_dates_seq, d_dates)
         if (len(d_dates_missing) > 0):
-            ## if there are any missing dates, check if there are multiple hashes in the following day
+            # if there are any missing dates, check if there are multiple hashes in the following day
             for j in d_dates_missing:
                 d_dates_next = d[d['file_date_true'] == j + timedelta(days=1)].drop_duplicates(['file_md5'])
                 if len(d_dates_next) > 1:
-                    ## if there are more than 0 or 1 hashes on the previous date, assume the earliest hash actually corresponds to the missing day
+                    # if there are more than 0 or 1 hashes on the previous date, assume the earliest hash actually corresponds to the missing day
                     d.loc[d['file_name'] == d_dates_next.iloc[0]['file_name'], 'file_date_true'] = d.loc[d['file_name'] == d_dates_next.iloc[0]['file_name'], 'file_date_true'] - timedelta(days=1)
-        ## using true date, keep only the final hash of each date ('definitive file' for that date)
+        # using true date, keep only the final hash of each date ('definitive file' for that date)
         d = d.drop_duplicates(['file_date_true'], keep='last')
-        ## using hash, mark duplicates appearing after the first instance (e.g., duplicate hashes of Friday value for weekend versions of files updated only on weekdays)
+        # using hash, mark duplicates appearing after the first instance (e.g., duplicate hashes of Friday value for weekend versions of files updated only on weekdays)
         d['file_md5_duplicate'] = d['file_md5'].duplicated()
-        ## mark duplicates using 1 and 0 rather than True and False
+        # mark duplicates using 1 and 0 rather than True and False
         d['file_md5_duplicate'] = np.where(d['file_md5_duplicate']==True, 1, 0)
-        ## add columns: dir_parent, dir_file, dir_id
-        d['dir_parent'] = dir_ids.loc[i, 'dir_parent']
-        d['dir_file'] = dir_ids.loc[i, 'dir_file']
-        d['dir_id'] = dir_ids.loc[i, 'dir_id']
-        index = index.append(d)
-        ## print progress
-        print(dir_ids.loc[i, 'dir_parent'] + '/' + dir_ids.loc[i, 'dir_file'])
+        # save modified index
+        index[(index['dir_parent'] == d_p) & (index['dir_file'] == d_f)] = d
+        # print progress
+        print(d_p + '/' + d_f)
     
     ## return index
     return(index)
 
 def write_index(index):
-    print('Writing data index...')
-    index.to_csv('data/data_index.csv', index=False)
-    print('Data index written.')
+    """ Upload file index to Amazon S3.
+    
+    Parameters:
+    index: The index returned by create_index().
+    
+    """
+    global prefix_root
+    
+    print('Writing file index...')
+    try:
+        ## write file index temporarily and upload
+        tmpdir = tempfile.TemporaryDirectory()
+        file_index = os.path.join(tmpdir.name, 'file_index.csv')
+        index.to_csv(file_index, index=False)
+        s3.upload_file(Filename=file_index, Key=prefix_root + '/file_index.csv')
+        ## report success
+        print(color('File index upload successful!', Colors.green))
+    except:
+        print(background('File index upload failed!', Colors.red))
