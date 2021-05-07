@@ -140,6 +140,18 @@
         "args": {}
       },
       {
+        "id_name": "BC - BC COVID-19 Data (VOC time series by RHA)",
+        "uuid": "024ff4c7-b069-45ca-aba7-b38ce847d359",
+        "active": "True",
+        "url": "http://www.bccdc.ca/Health-Info-Site/Documents/VoC/COVID19_VoC_data.csv",
+        "dir_parent": "bc",
+        "dir_file": "voc-time-series-by-rha",
+        "file_name": "COVID19_VoC_data",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
         "id_name": "BC - Public exposures (webpage)",
         "uuid": "eb51ca24-d862-4ab9-85c7-7843a9f3cb75",
         "active": "True",
