@@ -617,8 +617,8 @@ When both French and English data files are available, French files should gener
     * Terms of use: TBD
 * [Variants de SRAS-CoV-2 sous surveillance rehaussée](https://inspq.qc.ca/covid-19/donnees/variants)
     * Variants: [qc/variants/variants.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * Variant Rt time series: [qc/variants-rt-time-series/variants-rt.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * Projection of variant dominance: [qc/variants-dominance-projection/variants-dominance-projection.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Variant Rt time series: [qc/variants-rt-time-series/variants-rt.csv](http://data.opencovid.ca/archive/index.html#archive/) (Archived, no longer updated)
+    * Projection of variant dominance: [qc/variants-dominance-projection/variants-dominance-projection.csv](http://data.opencovid.ca/archive/index.html#archive/) (Archived, no longer updated)
     * Terms of use: TBD
 * [Éclosions de COVID-19 au Québec](https://www.inspq.qc.ca/covid-19/donnees/eclosions)
     * [qc/active-outbreaks-time-series-by-setting/eclosions.csv](http://data.opencovid.ca/archive/index.html#archive/)
@@ -664,8 +664,8 @@ When both French and English data files are available, French files should gener
     * Webpage (EN): [qc/schools-highlights-webpage-en/schools-highlights-webpage-en.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 * [Situation dans les établissements scolaires](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
-    * Highlights - public and private school system (FR): [qc/schools-highlights/reseauScolaire_faitsSaillants.pdf](http://data.opencovid.ca/archive/index.html#archive/) [Archived, no longer part of the nightly updated]
-    * Highlights - public and private school system (EN): [qc/schools-highlights-en/reseauScolaire_faitsSaillants_ANG.pdf](http://data.opencovid.ca/archive/index.html#archive/) [Archived, no longer part of the nightly updated]
+    * Highlights - public and private school system (FR): [qc/schools-highlights/reseauScolaire_faitsSaillants.pdf](http://data.opencovid.ca/archive/index.html#archive/) [Archived, no longer part of the nightly update]
+    * Highlights - public and private school system (EN): [qc/schools-highlights-en/reseauScolaire_faitsSaillants_ANG.pdf](http://data.opencovid.ca/archive/index.html#archive/) [Archived, no longer part of the nightly update]
     * Formerly [Situation dans les établissements scolaires relative à la COVID-19](https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_ecole.pdf): qc/schools-list-of-schools/etat_situation_ecole_2020-09-04_2020-09-06/etat_situation_ecole.pdf [Archived, no longer part of the nightly updated]
     * Formerly [Liste des écoles ayant au moins un cas rapporté de la COVID-19 depuis le 1er septembre 2020](https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/liste-ecole-cas-rapportes.pdf): qc/schools-list-of-schools/liste-ecole-cas-rapportes_2020-09-08_2020-09-09/liste-ecole-cas-rapportes.pdf [Archived, no longer part of the nightly updated]
     * Terms of use: TBD

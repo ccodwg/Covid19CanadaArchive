@@ -2631,30 +2631,6 @@
         "args": {}
       },
       {
-        "id_name": "QC - Variant Rt time series",
-        "uuid": "d2cf9f3d-c957-425f-93de-1102252ce823",
-        "active": "True",
-        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/variants-rt.csv",
-        "dir_parent": "qc",
-        "dir_file": "variants-rt-time-series",
-        "file_name": "variants-rt",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {}
-      },
-      {
-        "id_name": "QC - Projection of variant dominance",
-        "uuid": "f7908287-dc33-47e4-a71f-d8b74060451c",
-        "active": "True",
-        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/variants-proj.csv",
-        "dir_parent": "qc",
-        "dir_file": "variants-dominance-projection",
-        "file_name": "variants-proj",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {}
-      },
-      {
         "id_name": "QC - Éclosions de COVID-19 au Québec",
         "uuid": "32e70a1b-2d0a-47cc-b10c-57056a6b1244",
         "active": "True",
@@ -3415,7 +3391,7 @@
       {
         "id_name": "NS - Nova Scotia COVID-19 Dashboard: Immunizations 2",
         "uuid": "596fa2d1-5457-4665-9124-9b09be8b0bf3",
-        "active": "True",
+        "active": "False",
         "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Immunizations_3_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
         "dir_parent": "ns",
         "dir_file": "immunizations-2",
@@ -3558,6 +3534,30 @@
         "dir_file": "schools-highlights-en",
         "file_name": "reseauScolaire_faitsSaillants_ANG",
         "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "QC - Variant Rt time series",
+        "uuid": "d2cf9f3d-c957-425f-93de-1102252ce823",
+        "active": "False",
+        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/variants-rt.csv",
+        "dir_parent": "qc",
+        "dir_file": "variants-rt-time-series",
+        "file_name": "variants-rt",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "QC - Projection of variant dominance",
+        "uuid": "f7908287-dc33-47e4-a71f-d8b74060451c",
+        "active": "False",
+        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/variants-proj.csv",
+        "dir_parent": "qc",
+        "dir_file": "variants-dominance-projection",
+        "file_name": "variants-proj",
+        "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {}
       }
