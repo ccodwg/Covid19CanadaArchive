@@ -124,6 +124,43 @@ def upload_file(full_name, f_path, s3_dir=None, s3_prefix=None):
         print(background('Upload failed: ' + full_name, Colors.red))
         failure+=1
 
+## functions for emailing
+
+def send_email(mail_name, mail_pass, mail_to, subject, body, smtp_server, smtp_port):
+    """Send email (e.g., a download log).
+    
+    Parameters:
+    mail_name (str): Email account the log will be sent from.
+    mail_pass (str): Email password for the account the log will be sent from.
+    mail_to (str): Email the log will be sent to.
+    subject (str): Subject line for the email.
+    body (str): Body of the email.
+    smtp_server (str): SMTP server address.
+    smtp_port (int): SMTP server port.
+    
+    """
+     ## compose message
+    email_text = """\
+From: %s
+To: %s
+Subject: %s
+
+%s
+""" % (mail_name, mail_to, subject, body)
+    
+    ## send message
+    try:
+        print('Sending message...')
+        server = smtplib.SMTP_SSL(smtp_server, smtp_port)
+        server.ehlo()
+        server.login(mail_name, mail_pass)
+        server.sendmail(mail_name, mail_to, email_text)
+        server.close()
+        print('Message sent!')
+    except Exception as e:
+        print(e)
+        print('Message failed to send.')
+
 ## functions for logging
 
 def output_log(download_log, t):
@@ -197,42 +234,6 @@ def upload_log(log):
         print(color('Full log upload successful!', Colors.green))
     except:
         print(background('Full log upload failed!', Colors.red))
-
-def email_log(mail_name, mail_pass, mail_to, subject, body, smtp_server, smtp_port):
-    """Email log of current run.
-    
-    Parameters:
-    mail_name (str): Email account the log will be sent from.
-    mail_pass (str): Email password for the account the log will be sent from.
-    mail_to (str): Email the log will be sent to.
-    subject (str): Subject line for the email.
-    body (str): Body of the email.
-    smtp_server (str): SMTP server address.
-    smtp_port (int): SMTP server port.
-    
-    """
-    
-    ## compose message
-    email_text = """\
-From: %s
-To: %s
-Subject: %s
-
-%s
-""" % (mail_name, mail_to, subject, body)
-    
-    ## send email
-    try:
-        print('Sending log...')
-        server = smtplib.SMTP_SSL(smtp_server, smtp_port)
-        server.ehlo()
-        server.login(mail_name, mail_pass)
-        server.sendmail(mail_name, mail_to, email_text)
-        server.close()
-        print('Log sent!')
-    except Exception as e:
-        print(e)
-        print('Log failed to send.')
 
 ## functions for web scraping
 
