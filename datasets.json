@@ -2547,6 +2547,30 @@
         "args": {}
       },
       {
+        "id_name": "QC - Portrait des doses administrées par région d'administration (lieu de vaccination)",
+        "uuid": "4e04442d-f372-4357-ba15-3b64f4e03fbe",
+        "active": "True",
+        "url": "https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_Vaccination_RegionAdministration.csv",
+        "dir_parent": "qc",
+        "dir_file": "vaccine-doses-admin-by-rss-time-series",
+        "file_name": "COVID19_Qc_Vaccination_RegionAdministration",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "QC - Portrait des doses administrées par groupe d'âge",
+        "uuid": "0cec8a86-70b8-4e40-996a-d288d2f75d41",
+        "active": "True",
+        "url": "https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_Vaccination_CatAge.csv",
+        "dir_parent": "qc",
+        "dir_file": "vaccine-doses-admin-by-age-group-time-series",
+        "file_name": "COVID19_Qc_Vaccination_CatAge",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
         "id_name": "QC - Vaccination situation (FR)",
         "uuid": "6c66d91e-fc86-477f-8bbb-c338a1c59774",
         "active": "True",
