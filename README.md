@@ -639,7 +639,7 @@ When both French and English data files are available, French files should gener
     * Comparisons (countries): [qc/comparisons-countries/comparaisons_pays.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Deaths by RSS (health region) and number of pre-existing conditions: [qc/deaths-by-rss-and-pre-existing-conditions](http://data.opencovid.ca/archive/index.html#archive/)
     * COVID-19 time series by region: [qc/covid-time-series-by-region/PL_DATE.csv](http://data.opencovid.ca/archive/index.html#archive/) (Archived as of 2020-10-15, no longer part of the nightly update)
-        * [Advice for data process by Simon Coulombe](https://gist.github.com/SimonCoulombe/9a329052ac4cefd421febd8650ed84e2)
+        * [Advice for data processing by Simon Coulombe](https://gist.github.com/SimonCoulombe/9a329052ac4cefd421febd8650ed84e2)
     * COVID-19 data: [qc/covid-data/combine.csv](http://data.opencovid.ca/archive/index.html#archive/) (Archived as of 2020-09-16, no longer part of the nightly update)
     * COVID-19 data (charts): [qc/covid-data-charts/combine2.csv](http://data.opencovid.ca/archive/index.html#archive/) (Archived as of 2020-09-16, no longer part of the nightly update)
     * Terms of use: TBD

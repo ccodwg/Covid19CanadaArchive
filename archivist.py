@@ -368,8 +368,6 @@ def load_webdriver(tmpdir, user=False):
     tmpdir (TemporaryDirectory): A temporary directory for saving files downloaded by the headless browser.
     user (bool): Should the request impersonate a normal browser? Needed to access some data. Default: False.
     """
-    global mode
-    
     options = Options()
     options.binary_location = os.environ['CHROME_BIN']
     options.add_argument("--headless")
