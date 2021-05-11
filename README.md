@@ -616,7 +616,7 @@ When both French and English data files are available, French files should gener
     * [Webpage FR](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/donnees-sur-la-vaccination-covid-19/): [qc/qc-vaccination-webpage-fr/qc-vaccination-webpage-fr.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination situation (FR): [qc/vaccination-situation/situation-vaccination.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination situation (EN): [qc/vaccination-situation-en/situation-vaccination-en.csv](http://data.opencovid.ca/archive/index.html#archive/) [archived: no longer updated]
-    * Vaccine doses administered by RSS (FR): [qc/vaccine-doses-admin-by-rss/doses-vaccins.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vaccine doses administered by RSS (FR): [qc/vaccine-doses-admin-by-rss/doses-vaccins.csv](http://data.opencovid.ca/archive/index.html#archive/) [archived: no longer updated]
     * Vaccine doses administered by RSS (EN): [qc/vaccine-doses-admin-by-rss-en/doses-vaccins-en.csv](http://data.opencovid.ca/archive/index.html#archive/) (note: the first file in this dataset is only available as a screenshot; archived as of 2021-01-14, no longer part of the nightly update)
     * Vaccine doses received (FR): [qc/vaccine-doses-received-7-days/doses-vaccins-7jours.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination by age group: [qc/vaccination-by-age-group/tableau-suivi-vaccination-groupe-age.jpg](http://data.opencovid.ca/archive/index.html#archive/)

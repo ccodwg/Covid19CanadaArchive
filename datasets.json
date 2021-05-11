@@ -2607,18 +2607,6 @@
         "args": {}
       },
       {
-        "id_name": "QC - Vaccine doses administered by RSS (FR)",
-        "uuid": "cbbcc0ad-00bb-47d0-877e-32aa4509f9e9",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/doses-vaccins.csv",
-        "dir_parent": "qc",
-        "dir_file": "vaccine-doses-admin-by-rss",
-        "file_name": "doses-vaccins",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {}
-      },
-      {
         "id_name": "QC - Vaccine doses received (FR)",
         "uuid": "aee3bd38-b782-4880-9033-db76f84cef5b",
         "active": "True",
@@ -3509,6 +3497,18 @@
         "dir_parent": "qc",
         "dir_file": "vaccination-situation-en",
         "file_name": "situation-vaccination-en",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {}
+      },
+      {
+        "id_name": "QC - Vaccine doses administered by RSS (FR)",
+        "uuid": "cbbcc0ad-00bb-47d0-877e-32aa4509f9e9",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/doses-vaccins.csv",
+        "dir_parent": "qc",
+        "dir_file": "vaccine-doses-admin-by-rss",
+        "file_name": "doses-vaccins",
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {}
