@@ -69,11 +69,13 @@ def find_url(search_url, regex, base_url):
 
 ## functions for Amazon S3
 
-def access_s3(bucket):
+def access_s3(bucket, aws_id, aws_key):
     """Authenticate with AWS and return s3 object.
     
     Parameters:
     bucket (str): Name of Amazon S3 bucket.
+    aws_id (str): ID for AWS.
+    aws_key (str): Key for AWS.
     
     """
     global mode
@@ -587,20 +589,23 @@ def create_index(url_base, inventory):
     inv['file_date_true'] = inv['file_date'] # set initial values for true date
     inv['file_md5_duplicate'] = np.nan
     # remove directories, log files and supplementary files
-    inv = inv[inv['file_md5'] != 'd41d8cd98f00b204e9800998ecf8427e'] # remove directories
+    inv = inv[inv['file_name'] != ''] # remove directories
     inv = inv[inv['dir_file'] != prefix_root] # remove log files (stored in root)
     inv = inv[inv['dir_file'] != 'supplementary'] # remove supplementary files
     # keep only necessary columns and reorder
-    index = inv[['dir_parent', 'dir_file', 'file_name', 'file_timestamp', 'file_date', 'file_date_true', 'file_size', 'file_md5', 'file_md5_duplicate', 'file_url']]
-    # sort index
-    index = index.sort_values(by=['dir_parent', 'dir_file', 'file_timestamp'])
+    inv = inv[['dir_parent', 'dir_file', 'file_name', 'file_timestamp', 'file_date', 'file_date_true', 'file_size', 'file_md5', 'file_md5_duplicate', 'file_url']]
+    # sort
+    inv = inv.sort_values(by=['dir_parent', 'dir_file', 'file_timestamp'])
+    
+    ## initialize index
+    ind = pd.DataFrame(columns=inv.columns)
     
     ## calculate true dates and md5 duplicates - loop through each dataset
     for key in ds:
         d_p = ds[key]['dir_parent']
         d_f = ds[key]['dir_file']
         # get data
-        d = index[(index['dir_parent'] == d_p) & (index['dir_file'] == d_f)]
+        d = inv[(inv['dir_parent'] == d_p) & (inv['dir_file'] == d_f)]
         # check if there are multiple hashes on the first date of data
         d_first_date = d[d['file_date'] == d['file_date'].min()].drop_duplicates(['file_md5'])
         if (len(d_first_date) > 1):
@@ -626,30 +631,45 @@ def create_index(url_base, inventory):
         # mark duplicates using 1 and 0 rather than True and False
         d['file_md5_duplicate'] = np.where(d['file_md5_duplicate']==True, 1, 0)
         # save modified index
-        index[(index['dir_parent'] == d_p) & (index['dir_file'] == d_f)] = d
+        ind = ind.append(d)
         # print progress
         print(d_p + '/' + d_f)
     
     ## return index
-    return(index)
+    return(ind)
 
-def write_index(index):
-    """ Upload file index to Amazon S3.
+def write_index(ind, file_path=None):
+    """ Write index locally or upload to Amazon S3.
+    
+    If file_path is not provided, the index is uploaded to Amazon S3.
     
     Parameters:
     index: The index returned by create_index().
+    file_path (str): Optional. Path to write file locally.
     
     """
-    global prefix_root
+    global s3, prefix_root
     
-    print('Writing file index...')
-    try:
-        ## write file index temporarily and upload
-        tmpdir = tempfile.TemporaryDirectory()
-        file_index = os.path.join(tmpdir.name, 'file_index.csv')
-        index.to_csv(file_index, index=False)
-        s3.upload_file(Filename=file_index, Key=prefix_root + '/file_index.csv')
-        ## report success
-        print(color('File index upload successful!', Colors.green))
-    except:
-        print(background('File index upload failed!', Colors.red))
+    if file_path is None:
+        print('Uploading file index...')
+        try:
+            ## write file index temporarily and upload to Amazon S3
+            tmpdir = tempfile.TemporaryDirectory()
+            file_index = os.path.join(tmpdir.name, 'file_index.csv')
+            ind.to_csv(file_index, index=False)
+            s3.upload_file(Filename=file_index, Key=prefix_root + '/file_index.csv')
+            ## report success
+            print(color('File index upload successful!', Colors.green))
+        except:
+            ## report failure
+            print(background('File index upload failed!', Colors.red))
+    else:
+        print('Writing file index...')
+        try:
+            ## write file index
+            ind.to_csv(file_index, index=False)
+            ## report success
+            print(color('File index upload successful!', Colors.green))
+        except:
+            ## report failure
+            print(background('File index upload failed!', Colors.red))

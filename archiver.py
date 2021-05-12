@@ -51,7 +51,7 @@ smtp_port = int(os.environ['SMTP_PORT'])
 # access Amazon S3
 if archivist.mode == 'prod':
         ## access S3
-        archivist.s3 = archivist.access_s3(bucket='data.opencovid.ca')
+        archivist.access_s3(bucket='data.opencovid.ca', aws_id=archivist.aws_id, aws_key=archivist.aws_key)
         
         ## set S3 path prefix root for achived files
         archivist.prefix_root = 'archive'
