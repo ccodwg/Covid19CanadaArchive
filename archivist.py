@@ -550,6 +550,10 @@ def create_index(url_base, inventory):
     """
     global s3, prefix_root
     
+    ## temporarily disable pandas chained assignment warning
+    pd_option = pd.get_option('chained_assignment') # save previous value
+    pd.set_option('chained_assignment', None) # disable
+    
     ## load datasets.json
     with open('datasets.json') as json_file:
         datasets = json.load(json_file)
@@ -634,6 +638,9 @@ def create_index(url_base, inventory):
         ind = ind.append(d)
         # print progress
         print(d_p + '/' + d_f)
+    
+    ## reset pandas chained assignment warning option
+    pd.set_option('chained_assignment', pd_option) # reset
     
     ## return index
     return(ind)
