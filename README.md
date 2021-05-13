@@ -742,10 +742,11 @@ When both French and English data files are available, French files should gener
 * [Case counts: COVID-19](https://yukon.ca/en/case-counts-covid-19)
     * Webpage: [yt/yukon-case-counts-webpage/yukon-case-counts-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
-
 * [Current COVID-19 situation](https://yukon.ca/en/health-and-wellness/covid-19-information/latest-updates-covid-19/current-covid-19-situation)
     * Webpage: [yt/yukon-current-situation-webpage/yukon-current-situation-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
+* [Vaccine tracker](https://yukon.ca/this-is-our-shot)
+    * Webpage: [yt/yukon-vaccine-tracker-webpage/yukon-vaccine-tracker-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 
 ### Other: Non-governmental sources
 

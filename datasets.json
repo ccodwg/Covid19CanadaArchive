@@ -3791,6 +3791,20 @@
         "args": {},
         "supplementary": {},
         "metadata": {}
+      },
+      {
+        "id_name": "YT - Yukon Vaccine Tracker (webpage)",
+        "uuid": "2fae2592-16a2-4bde-b6f9-1a14c87dc4fb",
+        "active": "True",
+        "url": "https://yukon.ca/this-is-our-shot",
+        "dir_parent": "yt",
+        "dir_file": "yukon-vaccine-tracker-webpage",
+        "file_name": "yukon-vaccine-tracker-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {}
       }
     ],
     "other/can": [
