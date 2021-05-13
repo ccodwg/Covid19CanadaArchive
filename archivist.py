@@ -78,7 +78,7 @@ def access_s3(bucket, aws_id, aws_key):
     aws_key (str): Key for AWS.
     
     """
-    global mode
+    global mode, s3
     print('Authenticating with AWS...') 
     ## connect to AWS
     aws = boto3.Session(
