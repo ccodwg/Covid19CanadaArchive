@@ -121,8 +121,9 @@ def upload_file(full_name, f_path, s3_dir=None, s3_prefix=None):
         download_log = download_log + 'Success: ' + full_name + '\n'
         print(color('Upload successful: ' + full_name, Colors.blue))
         success+=1
-    except:
+    except Exception as e:
         download_log = download_log + 'Failure: ' + full_name + '\n'
+        print(e)
         print(background('Upload failed: ' + full_name, Colors.red))
         failure+=1
 
