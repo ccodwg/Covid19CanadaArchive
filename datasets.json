@@ -3484,7 +3484,7 @@
         "id_name": "QC - List of schools - public and private school system (PDF EN)",
         "uuid": "95d423ee-06a3-4cc9-96d5-704192bb3df2",
         "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/education/publications-adm/covid-19/reseauScolaire_listeEcoles_ANG.pdf",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/education/publications-adm/covid-19/reseauScolaire_listeEcoles_ANG.PDF",
         "dir_parent": "qc",
         "dir_file": "schools-list-of-schools-en",
         "file_name": "reseauScolaire_listeEcoles_ANG",
