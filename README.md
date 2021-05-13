@@ -388,7 +388,7 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Health zone and community recovery phases: [nb/health-zone-community-recovery-phases/health-zone-community-recovery-phases.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Traffic control points: [nb/traffic-control-points/traffic-control-points.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
-* [Potential Public Exposures](https://www2.gnb.ca/content/gnb/en/corporate/promo/covid-19/potential_public_exposure.html.html)
+* [Potential Public Exposures](https://www2.gnb.ca/content/gnb/en/corporate/promo/covid-19/potential_public_exposure.html)
     * Webpage: [nb/potential-public-exposures-webpage/potential-public-exposures-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 
@@ -433,6 +433,8 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Immunizations: [ns/immunizations/immunizations.json](http://data.opencovid.ca/archive/index.html#archive/) (Archived, no longer part of the nightly update)
     * Immunizations 2: [ns/immunizations-2/Immunizations_3_PROD.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: Assumed to be [Open Government Licence – Nova Scotia](https://novascotia.ca/opendata/licence.asp)
+* [Potential COVID Exposures](http://www.nshealth.ca/covid-exposures)
+    * Webpage: [ns/ns-potential-covid-exposures-webpage/ns-potential-covid-exposures-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 
 ### Nunavut
 
@@ -707,6 +709,8 @@ When both French and English data files are available, French files should gener
     * Webpage: [pe/pei-vaccination-webpage/pei-vaccination-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [Potential COVID-19 Exposures](https://www.princeedwardisland.ca/en/information/health-and-wellness/potential-covid-19-exposures)
     * Webpage: [pe/pei-potential-exposures-webpage/pei-potential-exposures-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+* [Possible Air Travel Exposures](https://www.princeedwardisland.ca/en/information/health-and-wellness/possible-air-travel-exposures)
+    * Webpage: [pe/pei-possible-air-travel-exposures-webpage/pei-possible-air-travel-exposures-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 
 ### Saskatchewan
 
