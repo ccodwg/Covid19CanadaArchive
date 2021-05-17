@@ -153,6 +153,8 @@ The sources and terms of use for each included dataset are linked below. Supplem
 * [COVID-19 school status map](https://www.alberta.ca/schools/covid-19-school-status-map.htm)
     * [ab/school-status-by-region/covid19dataexport-schools.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: Assumed to be [Open Government Licence - Alberta](https://open.alberta.ca/licence)
+* [COVID-19 info for Albertans](https://www.alberta.ca/coronavirus-info-for-albertans.aspx)
+    * Webpage: [ab/ab-provincial-summary-webpage/ab-provincial-summary-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [Cases in Alberta](https://www.alberta.ca/covid-19-alberta-data.aspx)
     * Webpage: [ab/ab-cases-webpage/ab-cases-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: Assumed to be [Open Government Licence - Alberta](https://open.alberta.ca/licence)

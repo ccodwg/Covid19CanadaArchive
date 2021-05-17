@@ -62,20 +62,6 @@
         "metadata": {}
       },
       {
-        "id_name": "AB - COVID-19 in Alberta: Current cases by local geographic area (Edmonton)",
-        "uuid": "d0fe0532-73f0-4ac8-9b73-2afa43673946",
-        "active": "True",
-        "url": "https://data.edmonton.ca/api/views/ix8f-s9xp/rows.csv?accessType=DOWNLOAD",
-        "dir_parent": "ab",
-        "dir_file": "edmonton-cases-by-area",
-        "file_name": "COVID-19_in_Alberta__Current_cases_by_local_geographic_area",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {}
-      },
-      {
         "id_name": "AB - Cases in Alberta (webpage)",
         "uuid": "d3b170a7-bb86-4bb0-b362-2adc5e6438c2",
         "active": "True",
@@ -83,6 +69,20 @@
         "dir_parent": "ab",
         "dir_file": "ab-cases-webpage",
         "file_name": "ab-cases-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {}
+      },
+      {
+        "id_name": "AB - COVID-19 info for Albertans (webpage)",
+        "uuid": "ec1acea4-8b85-4c04-b905-f075de040493",
+        "active": "True",
+        "url": "https://www.alberta.ca/coronavirus-info-for-albertans.aspx",
+        "dir_parent": "ab",
+        "dir_file": "ab-provincial-summary-webpage",
+        "file_name": "ab-provincial-summary-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
         "args": {},
@@ -99,6 +99,20 @@
         "file_name": "ab-vaccine-distribution-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {}
+      },
+      {
+        "id_name": "AB - COVID-19 in Alberta: Current cases by local geographic area (Edmonton)",
+        "uuid": "d0fe0532-73f0-4ac8-9b73-2afa43673946",
+        "active": "True",
+        "url": "https://data.edmonton.ca/api/views/ix8f-s9xp/rows.csv?accessType=DOWNLOAD",
+        "dir_parent": "ab",
+        "dir_file": "edmonton-cases-by-area",
+        "file_name": "COVID-19_in_Alberta__Current_cases_by_local_geographic_area",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
         "metadata": {}
