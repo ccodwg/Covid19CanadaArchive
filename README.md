@@ -1,4 +1,4 @@
-# Archive of Canadian COVID-19 Data
+# Canadian COVID-19 Data Archive
 
 This repository provides automated, daily backups of COVID-19 data from Canadian governmental and non-governmental sources.
 
@@ -127,7 +127,7 @@ Historical data (e.g., archived versions of a dataset newly added to the archiva
 
 ## Recommended citation
 
-COVID-19 Canada Open Data Working Group. Archive of Canadian COVID-19 Data. https://github.com/ccodwg/Covid19CanadaArchive. (Access date).
+COVID-19 Canada Open Data Working Group. Canadian COVID-19 Data Archive. https://github.com/ccodwg/Covid19CanadaArchive. (Access date).
 
 ## Running archiver.py
 
