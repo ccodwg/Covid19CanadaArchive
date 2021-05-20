@@ -2040,7 +2040,7 @@
         "id_name": "NS - Nova Scotia COVID-19 Dashboard: Zone summary",
         "uuid": "d0f05ef1-419f-4f4c-bc2d-17446c10059f",
         "active": "True",
-        "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/BND_NSH_MZones_V4_Join_PROD/FeatureServer/1/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*'",
+        "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/BND_NSH_MZones_V4_Join_PROD/FeatureServer/1/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
         "dir_parent": "ns",
         "dir_file": "zone-summary",
         "file_name": "zone-summary",

@@ -427,7 +427,7 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Terms of use: Assumed to be [Open Government Licence – Nova Scotia](https://novascotia.ca/opendata/licence.asp)
 * [Nova Scotia COVID-19 Dashboard](https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad)
     * Cases by zone: [ns/cases-by-zone/cases-by-zone.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Zone summary: [ns/zone-summary/zone-summary.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Zone summary: [ns/zone-summary/zone-summary.json](http://data.opencovid.ca/archive/index.html#archive/) [Note that due to a technical error, there are no records of this file between 2021-01-28 and 20121-05-19]
     * Zone summary cases: [ns/zone-summary-cases/zone-summary-cases.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Community health network summary cases: [ns/chn-summary-cases/chn-summary-cases.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Serious outcomes: [ns/serious-outcomes/serious-outcomes.json](http://data.opencovid.ca/archive/index.html#archive/)
