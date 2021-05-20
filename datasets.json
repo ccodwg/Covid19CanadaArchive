@@ -16,13 +16,13 @@
         "metadata": {}
       },
       {
-        "id_name": "AB - COVID-19 Alberta statistics: Vaccine data",
-        "uuid": "77b27208-a229-44cb-af3b-357ce44c369e",
+        "id_name": "AB - COVID-19 Alberta statistics: Vaccine data (Local geographic area)",
+        "uuid": "48a2e451-cad7-4f47-a792-5a4dad2eb8c3",
         "active": "True",
-        "url": "https://www.alberta.ca/data/stats/zone-coverage.csv",
+        "url": "https://www.alberta.ca/data/stats/lga-coverage.csv",
         "dir_parent": "ab",
-        "dir_file": "vaccine-coverage-by-zone",
-        "file_name": "zone-coverage",
+        "dir_file": "vaccine-coverage-by-lga",
+        "file_name": "lga-coverage",
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {},
@@ -3954,7 +3954,22 @@
     "other/qc": []
   },
   "inactive": {
-    "ab": [],
+    "ab": [
+      {
+        "id_name": "AB - COVID-19 Alberta statistics: Vaccine data (Zone)",
+        "uuid": "77b27208-a229-44cb-af3b-357ce44c369e",
+        "active": "False",
+        "url": "https://www.alberta.ca/data/stats/zone-coverage.csv",
+        "dir_parent": "ab",
+        "dir_file": "vaccine-coverage-by-zone",
+        "file_name": "zone-coverage",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {}
+      },
+    ],
     "bc": [],
     "can": [
       {
