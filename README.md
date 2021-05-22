@@ -613,11 +613,12 @@ When both French and English data files are available, French files should gener
     * Vaccination by RSS time series: [qc/vaccination-by-rss-time-series/vaccination.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Cumulative vaccination adverse events by vaccine type: [qc/cumulative-vaccination-adverse-events-by-vaccine-type/vaccination-mci.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
-* [Portrait des doses administrées par région d'administration (lieu de vaccination)](https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_Vaccination_RegionAdministration.csv)
-    * [qc/vaccine-doses-admin-by-rss-time-series/COVID19_Qc_Vaccination_RegionAdministration.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * Terms of use: CC-BY 4.0
-* [Portrait des doses administrées par groupe d'âge](https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-de-la-vaccination/resource/1ddf5dd4-c3c3-4896-b25e-d7680dffbf04)
-    * [qc/vaccine-doses-admin-by-age-group-time-series/COVID19_Qc_Vaccination_CatAge.csv](http://data.opencovid.ca/archive/index.html#archive/)
+* [COVID-19 - Portrait quotidien de la vaccination](https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-de-la-vaccination)
+    * Portrait des doses administrées par région d'administration (lieu de vaccination): [qc/vaccine-doses-admin-by-rss-time-series/COVID19_Qc_Vaccination_RegionAdministration.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Portrait des doses administrées par groupe d'âge: [qc/vaccine-doses-admin-by-age-group-time-series/COVID19_Qc_Vaccination_CatAge.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Portrait des rendez-vous à venir pour une 1ère dose par région d'administration: [qc/first-vaccine-dose-appointments-by-rss/COVID19_Qc_RDVVaccination_RegionAdministration/.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Portrait des rendez-vous à venir pour une 1ère dose par groupe d’âge: [qc/first-vaccine-dose-appointments-by-age-group/COVID19_Qc_RDVVaccination_CatAge.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Supplementary: Liste des variables et notes méthodologiques
     * Terms of use: CC-BY 4.0
 * [COVID-19 vaccination data](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/covid-19-vaccination-data/)
     * [Webpage EN](https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/covid-19-vaccination-data/): [qc/qc-vaccination-webpage-en/qc-vaccination-webpage-en.html](http://data.opencovid.ca/archive/index.html#archive/)

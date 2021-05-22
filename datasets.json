@@ -3075,6 +3075,34 @@
         "metadata": {}
       },
       {
+        "id_name": "QC - Portrait des rendez-vous à venir pour une 1ère dose par région d'administration",
+        "uuid": "db0b45b4-d407-48f1-8644-3d5778bca86e",
+        "active": "True",
+        "url": "https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_RDVVaccination_RegionAdministration.csv",
+        "dir_parent": "qc",
+        "dir_file": "first-vaccine-dose-appointments-by-rss",
+        "file_name": "COVID19_Qc_RDVVaccination_RegionAdministration",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {}
+      },
+      {
+        "id_name": "QC - Portrait des rendez-vous à venir pour une 1ère dose par groupe d’âge",
+        "uuid": "d48a7259-ae16-4512-8c34-86e969e070cb",
+        "active": "True",
+        "url": "https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_RDVVaccination_CatAge.csv",
+        "dir_parent": "qc",
+        "dir_file": "first-vaccine-dose-appointments-by-age-group",
+        "file_name": "COVID19_Qc_RDVVaccination_CatAge",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {}
+      },
+      {
         "id_name": "QC - Vaccination situation (FR)",
         "uuid": "6c66d91e-fc86-477f-8bbb-c338a1c59774",
         "active": "True",
