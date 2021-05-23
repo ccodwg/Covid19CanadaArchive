@@ -2877,6 +2877,20 @@
         "metadata": {}
       },
       {
+        "id_name": "PE - COVID-19 Vaccine Rollout",
+        "uuid": "3ff94c42-8b12-4653-a6c9-0ddd8ff343d5",
+        "active": "True",
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTNuwu9bnEW7yLLaT3nypcPqkE7Ahf1c8vZfUN2mE6tgFE1s_W4Adk6QBaWYah3MVlaUuLfs1AW7U-w/pub?output=xlsx",
+        "dir_parent": "pe",
+        "dir_file": "vaccine-data-cumulative",
+        "file_name": "Vaccine_Rollout",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {}
+      },
+      {
         "id_name": "PE - Potential COVID-19 Exposures (webpage)",
         "uuid": "d7cf25ac-9015-4494-b1d2-a53e78004cb5",
         "active": "True",
