@@ -800,6 +800,8 @@ In the future, a package will be provided to more easily access the data provide
 
 ## Acknowledgements
 
+Shannon Fiedler created the banner image for the Canadian COVID-19 Data Archive.
+
 Many people are to thank for contributing archived data and code to this repository.
  
 * [Jens von Bergmann](https://github.com/mountainMath)
