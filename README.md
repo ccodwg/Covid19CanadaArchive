@@ -726,18 +726,26 @@ When both French and English data files are available, French files should gener
 * [Saskatchewan's Dashboard - Total Cases](https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases)
     * CSV: [sk/cases-by-region/cases.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Webpage: [sk/cases-by-region-webpage/cases-webpage.html](hhttps://drive.google.com/drive/folders/1m7_t1qB0x-yVpOb6e1Rzfk5uUQ6iFmqO) (warning: some early files are .png screenshots and named differently)
+    * Highlights, charts, tables (JSON): [sk/cases-by-region-highlights-charts-tables/health-wellness-covid-19-cases.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Highlights, charts, tables - legacy (JSON): [sk/cases-by-region-highlights-charts-tables-legacy/health-wellness-covid-19-cases.json](http://data.opencovid.ca/archive/index.html#archive/) [Archived, no longer updated]
     * Terms of use: TBD
 * [Saskatchewan's Dashboard - Total Tests](https://dashboard.saskatchewan.ca/health-wellness/covid-19-tests/tests)
     * CSV: [sk/tests-by-region/tests.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Webpage: [sk/tests-by-region-webpage/tests-webpage.html](http://data.opencovid.ca/archive/index.html#archive/) (warning: some early files are .png screenshots and named differently)
+    * Highlights, charts, tables (JSON): [sk/tests-by-region-highlights-charts-tables/health-wellness-covid-19-tests-tests.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Highlights, charts, tables - legacy (JSON): [sk/tests-by-region-highlights-charts-tables-legacy/health-wellness-covid-19-tests-tests.json](http://data.opencovid.ca/archive/index.html#archive/) [Archived, no longer updated]
     * Terms of use: TBD
 * [Saskatchewan's Dashboard - Hospitalized Cases](https://dashboard.saskatchewan.ca/health-wellness/covid-19-cases/hospitalized)
     * CSV: [sk/hosp-icu-by-region/hospitalized.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Webpage: [sk/hosp-icu-by-region-webpage/hospitalized-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Highlights, charts, tables (JSON): [sk/hosp-icu-by-region-highlights-charts-tables/health-wellness-covid-19-cases-hospitalized.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Highlights, charts, tables - legacy (JSON): [sk/hosp-icu-by-region-highlights-charts-tables/health-wellness-covid-19-cases-hospitalized.json](http://data.opencovid.ca/archive/index.html#archive/) [Archived, no longer updated]
     * Terms of use: TBD
 * [Saskatchewan's Dashboard - Seven-day Average of Daily New Cases](https://dashboard.saskatchewan.ca/health-wellness/covid-19/seven-day-average-of-new-covid-cases)
     * CSV: [sk/seven-day-avg-cases-by-region/seven-day-average-of-new-covid-cases.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Webpage: [sk/seven-day-avg-cases-by-region-webpage/seven-day-average-of-new-covid-cases-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Highlights, charts, tables (JSON): [sk/seven-day-avg-cases-by-region-highlights-charts-tables/health-wellness-covid-19-seven-day-average-of-new-covid-cases.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Highlights, charts, tables - legacy (JSON): [sk/seven-day-avg-cases-by-region-highlights-charts-tables/health-wellness-covid-19-seven-day-average-of-new-covid-cases.json](http://data.opencovid.ca/archive/index.html#archive/) [Archived, no longer updated; this appears to be identical to rhe non-legacy data, probably because this page did not exist prior to the introduction of new health regions]
     * Terms of use: TBD
 * [Cases and Risk of COVID-19 in Saskatchewan](https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan)
     * Webpage: [sk/summary-and-variant-webpage/summary-and-variant-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)

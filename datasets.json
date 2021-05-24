@@ -3732,6 +3732,20 @@
         "metadata": {}
       },
       {
+        "id_name": "SK - Saskatchewan's Dashboard - Total Cases (highlights, charts, tables)",
+        "uuid": "95de79d5-5e5c-45c2-bbab-41daf3dbee5d",
+        "active": "True",
+        "url": "https://dashboard.saskatchewan.ca/api/indicator/detail/health-wellness%3Acovid-19%3Acases",
+        "dir_parent": "sk",
+        "dir_file": "cases-by-region-highlights-charts-tables",
+        "file_name": "health-wellness-covid-19-cases",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {}
+      },
+      {
         "id_name": "SK - Saskatchewan's Dashboard - Total Tests",
         "uuid": "c40d5b7c-f41c-4633-8bc1-a158dedcbf40",
         "active": "True",
@@ -3756,6 +3770,20 @@
         "file_name": "tests-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {}
+      },
+      {
+        "id_name": "SK - Saskatchewan's Dashboard - Total Tests (highlights, charts, tables)",
+        "uuid": "9736bff9-4bd3-4c04-b9d9-87f60b3d5eb5",
+        "active": "True",
+        "url": "https://dashboard.saskatchewan.ca/api/indicator/detail/health-wellness%3Acovid-19-tests%3Atests",
+        "dir_parent": "sk",
+        "dir_file": "tests-by-region-highlights-charts-tables",
+        "file_name": "health-wellness-covid-19-tests-tests",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
         "metadata": {}
@@ -3790,6 +3818,20 @@
         "metadata": {}
       },
       {
+        "id_name": "SK - Saskatchewan's Dashboard - Total Hospitalized Cases (highlights, charts, tables)",
+        "uuid": "6e5dd7b2-c6b8-4fd0-8236-ef34873233d2",
+        "active": "True",
+        "url": "https://dashboard.saskatchewan.ca/api/indicator/detail/health-wellness%3Acovid-19-cases%3Ahospitalized",
+        "dir_parent": "sk",
+        "dir_file": "hosp-icu-by-region-highlights-charts-tables",
+        "file_name": "health-wellness-covid-19-cases-hospitalized",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {}
+      },
+      {
         "id_name": "SK - Saskatchewan's Dashboard - Seven-day Average of Daily New Cases",
         "uuid": "b575a747-e433-43f4-bd86-23c896df8de5",
         "active": "True",
@@ -3814,6 +3856,20 @@
         "file_name": "seven-day-average-of-new-covid-cases-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {}
+      },
+      {
+        "id_name": "SK - Saskatchewan's Dashboard - Seven-day Average of Daily New Cases (highlights, charts, tables)",
+        "uuid": "51a23673-7411-4095-9c2f-1bba02b993a6",
+        "active": "True",
+        "url": "https://dashboard.saskatchewan.ca/api/indicator/detail/health-wellness%3Acovid-19%3Aseven-day-average-of-new-covid-cases",
+        "dir_parent": "sk",
+        "dir_file": "seven-day-avg-cases-by-region-highlights-charts-tables",
+        "file_name": "health-wellness-covid-19-seven-day-average-of-new-covid-cases",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
         "metadata": {}
@@ -4338,7 +4394,64 @@
         "metadata": {}
       }
     ],
-    "sk": [],
+    "sk": [
+      {
+        "id_name": "SK - Saskatchewan's Dashboard - Total Cases (highlights, charts, tables - legacy)",
+        "uuid": "27a47058-3376-4b0e-80e5-50b8da635d9e",
+        "active": "False",
+        "url": "https://dashboard.saskatchewan.ca/api/indicator/detail/health-wellness%3Acovid-19%3Acases?legacyRegions=true",
+        "dir_parent": "sk",
+        "dir_file": "cases-by-region-highlights-charts-tables-legacy",
+        "file_name": "health-wellness-covid-19-cases",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {}
+      },
+      {
+        "id_name": "SK - Saskatchewan's Dashboard - Total Tests (highlights, charts, tables - legacy)",
+        "uuid": "88b56a01-62f4-472a-9e93-81bec3002d8b",
+        "active": "False",
+        "url": "https://dashboard.saskatchewan.ca/api/indicator/detail/health-wellness%3Acovid-19-tests%3Atests?legacyRegions=true",
+        "dir_parent": "sk",
+        "dir_file": "tests-by-region-highlights-charts-tables-legacy",
+        "file_name": "health-wellness-covid-19-tests-tests",
+         "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {}
+      },
+      {
+        "id_name": "SK - Saskatchewan's Dashboard - Total Hospitalized Cases (highlights, charts, tables - legacy)",
+        "uuid": "927b7ff1-c2e5-4074-80ab-35015022a8e6",
+        "active": "False",
+        "url": "https://dashboard.saskatchewan.ca/api/indicator/detail/health-wellness%3Acovid-19-cases%3Ahospitalized?legacyRegions=true",
+        "dir_parent": "sk",
+        "dir_file": "hosp-icu-by-region-highlights-charts-tables-legacy",
+        "file_name": "health-wellness-covid-19-cases-hospitalized",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {}
+      },
+      {
+        "id_name": "SK - Saskatchewan's Dashboard - Seven-day Average of Daily New Cases (highlights, charts, tables - legacy)",
+        "uuid": "1b6470d2-0df0-4089-9786-ab147ddf6ea8",
+        "active": "False",
+        "url": "https://dashboard.saskatchewan.ca/api/indicator/detail/health-wellness%3Acovid-19%3Aseven-day-average-of-new-covid-cases?legacyRegions=true",
+        "dir_parent": "sk",
+        "dir_file": "seven-day-avg-cases-by-region-highlights-charts-tables-legacy",
+        "file_name": "health-wellness-covid-19-seven-day-average-of-new-covid-cases",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {}
+      },
+    ],
     "yt": [],
     "other/can": [
       {
