@@ -739,19 +739,22 @@ When both French and English data files are available, French files should gener
     * CSV: [sk/hosp-icu-by-region/hospitalized.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Webpage: [sk/hosp-icu-by-region-webpage/hospitalized-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Highlights, charts, tables (JSON): [sk/hosp-icu-by-region-highlights-charts-tables/health-wellness-covid-19-cases-hospitalized.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Highlights, charts, tables - legacy (JSON): [sk/hosp-icu-by-region-highlights-charts-tables/health-wellness-covid-19-cases-hospitalized.json](http://data.opencovid.ca/archive/index.html#archive/) [Archived, no longer updated]
+    * Highlights, charts, tables - legacy (JSON): [sk/hosp-icu-by-region-highlights-charts-tables-legacy/health-wellness-covid-19-cases-hospitalized.json](http://data.opencovid.ca/archive/index.html#archive/) [Archived, no longer updated]
     * Terms of use: TBD
 * [Saskatchewan's Dashboard - Seven-day Average of Daily New Cases](https://dashboard.saskatchewan.ca/health-wellness/covid-19/seven-day-average-of-new-covid-cases)
     * CSV: [sk/seven-day-avg-cases-by-region/seven-day-average-of-new-covid-cases.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Webpage: [sk/seven-day-avg-cases-by-region-webpage/seven-day-average-of-new-covid-cases-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Highlights, charts, tables (JSON): [sk/seven-day-avg-cases-by-region-highlights-charts-tables/health-wellness-covid-19-seven-day-average-of-new-covid-cases.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Highlights, charts, tables - legacy (JSON): [sk/seven-day-avg-cases-by-region-highlights-charts-tables/health-wellness-covid-19-seven-day-average-of-new-covid-cases.json](http://data.opencovid.ca/archive/index.html#archive/) [Archived, no longer updated; this appears to be identical to rhe non-legacy data, probably because this page did not exist prior to the introduction of new health regions]
+    * Highlights, charts, tables - legacy (JSON): [sk/seven-day-avg-cases-by-region-highlights-charts-tables-legacy/health-wellness-covid-19-seven-day-average-of-new-covid-cases.json](http://data.opencovid.ca/archive/index.html#archive/) [Archived, no longer updated; this appears to be identical to the non-legacy data, probably because this page did not exist prior to the introduction of new health regions]
     * Terms of use: TBD
 * [Cases and Risk of COVID-19 in Saskatchewan](https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan)
     * Webpage: [sk/summary-and-variant-webpage/summary-and-variant-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
-* [Vaccine Delivery Update](https://www.saskatchewan.ca/covid19-vaccine-update)
+* [Saskatchewan's Dashboard - Total Doses](https://dashboard.saskatchewan.ca/health-wellness/covid-19-vaccines/vaccines)
+    * CSV: [sk/vaccination-by-region/vaccines.csv](http://data.opencovid.ca/archive/index.html#archive/))
     * Webpage: [sk/vaccine-delivery-webpage/vaccine-delivery-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Highlights, charts, tables (JSON): [sk/vaccination-by-region-highlights-charts-tables/health-wellness-covid-19-vaccines-vaccines.json](http://data.opencovid.ca/archive/index.html#archive/))
+    * Highlights, charts, tables - legacy (JSON): [sk/vaccination-by-region-highlights-charts-tables-legacy/health-wellness-covid-19-vaccines-vaccines.json](http://data.opencovid.ca/archive/index.html#archive/) [Archived, no longer updated; this appears to be identical to the non-legacy data, probably because this page did not exist prior to the introduction of new health regions]
     * Terms of use: TBD
 
 ### Yukon
