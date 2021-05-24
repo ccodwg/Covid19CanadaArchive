@@ -176,13 +176,13 @@
         "metadata": {}
       },
       {
-        "id_name": "BC - BC COVID-19 Data (VOC time series by RHA)",
-        "uuid": "024ff4c7-b069-45ca-aba7-b38ce847d359",
+        "id_name": "BC - BC COVID-19 Data (VOC time series by RHA 2)",
+        "uuid": "ef3c3ec9-daa0-4dc7-836a-928a9621395a",
         "active": "True",
-        "url": "http://www.bccdc.ca/Health-Info-Site/Documents/VoC/COVID19_VoC_data.csv",
+        "url": "http://www.bccdc.ca/Health-Info-Site/Documents/VoC/Figure1_weeklyreport_data.csv",
         "dir_parent": "bc",
-        "dir_file": "voc-time-series-by-rha",
-        "file_name": "COVID19_VoC_data",
+        "dir_file": "voc-time-series-by-rha-2",
+        "file_name": "Figure1_weeklyreport_data",
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {},
@@ -4012,7 +4012,22 @@
         "metadata": {}
       }
   ],
-    "bc": [],
+    "bc": [
+      {
+        "id_name": "BC - BC COVID-19 Data (VOC time series by RHA)",
+        "uuid": "024ff4c7-b069-45ca-aba7-b38ce847d359",
+        "active": "False",
+        "url": "http://www.bccdc.ca/Health-Info-Site/Documents/VoC/COVID19_VoC_data.csv",
+        "dir_parent": "bc",
+        "dir_file": "voc-time-series-by-rha",
+        "file_name": "COVID19_VoC_data",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {}
+      },
+    ],
     "can": [
       {
         "id_name": "CAN - Reported side effects following COVID-19 vaccination in Canada: AEFI weekly summary (old)",

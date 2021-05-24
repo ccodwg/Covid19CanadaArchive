@@ -189,7 +189,8 @@ The sources and terms of use for each included dataset are linked below. Supplem
         * On 2020-11-16 (a Monday), BCCDC retracted their daily datasets from their website and replaced them with datasets from the previous Friday (2020-11-13). These datasets have been saved as "BCCDC_COVID19_Dashboard_Case_Details_2020-11-16_23-05.csv" and "BCCDC_COVID19_Dashboard_Lab_Information_2020-11-16_23-05", whereas the retracted datasets have been preserved as "BCCDC_COVID19_Dashboard_Case_Details_2020-11-16_19-27" and "BCCDC_COVID19_Dashboard_Lab_Information_2020-11-16_19-27".   
     * Laboratory data: [bc/laboratory-data/BCCDC_COVID19_Dashboard_Lab_Information.csv](http://data.opencovid.ca/archive/index.html#archive/) [This file was previously available as an xlsx for several days]
     * Regional data: [bc/regional-case-summary/BCCDC_COVID19_Regional_Summary_Data.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * VOC time series by RHA: [bc/voc-time-series-by-rha/COVID19_VoC_data.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * VOC time series by RHA 2: [bc/voc-time-series-by-rha-2/Figure1_weeklyreport_data.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * VOC time series by RHA: [bc/voc-time-series-by-rha/COVID19_VoC_data.csv](http://data.opencovid.ca/archive/index.html#archive/) [Archived, no longer updated]
     * Terms of use: [Disclaimer and data notes](http://www.bccdc.ca/Health-Info-Site/Documents/BC_COVID-19_Disclaimer_Data_Notes.pdf)
 * [British Columbia COVID-19 Dashboard](https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded)
     * Dashboard BC and Canada cumulative testing rate: [bc/bc-canada-cumulative-testing-rate/BC_COVID19__BC_Canadian_Testing_Rates_View.json](http://data.opencovid.ca/archive/index.html#archive/)
