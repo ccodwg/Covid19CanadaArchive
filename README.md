@@ -629,7 +629,7 @@ When both French and English data files are available, French files should gener
     * Vaccine doses administered by RSS (FR): [qc/vaccine-doses-admin-by-rss/doses-vaccins.csv](http://data.opencovid.ca/archive/index.html#archive/) [archived: no longer updated]
     * Vaccine doses administered by RSS (EN): [qc/vaccine-doses-admin-by-rss-en/doses-vaccins-en.csv](http://data.opencovid.ca/archive/index.html#archive/) (note: the first file in this dataset is only available as a screenshot; archived as of 2021-01-14, no longer part of the nightly update)
     * Vaccine doses received (FR): [qc/vaccine-doses-received-7-days/doses-vaccins-7jours.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * Vaccination by age group: [qc/vaccination-by-age-group/tableau-suivi-vaccination-groupe-age.jpg](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vaccination by age group: [qc/vaccination-by-age-group/tableau-suivi-vaccination-groupe-age.jpg](http://data.opencovid.ca/archive/index.html#archive/) [Archived, no longer updated]
     * Terms of use: TBD
 * [Variants de SRAS-CoV-2 sous surveillance rehaussée](https://inspq.qc.ca/covid-19/donnees/variants)
     * Variants: [qc/variants/variants.csv](http://data.opencovid.ca/archive/index.html#archive/)

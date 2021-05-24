@@ -3173,20 +3173,6 @@
         "metadata": {}
       },
       {
-        "id_name": "QC - Vaccination by age group",
-        "uuid": "dc430b5f-fad2-4a1b-8457-590b19f7ff14",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/tableau-suivi-vaccination-groupe-age.jpg",
-        "dir_parent": "qc",
-        "dir_file": "vaccination-by-age-group",
-        "file_name": "tableau-suivi-vaccination-groupe-age",
-        "file_ext": "jpg",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {}
-      },
-      {
         "id_name": "QC - Variants under enhanced surveillance",
         "uuid": "584b0b29-e985-4cd7-b191-1386c3bfb965",
         "active": "True",
@@ -4026,7 +4012,7 @@
         "args": {},
         "supplementary": {},
         "metadata": {}
-      },
+      }
     ],
     "can": [
       {
@@ -4332,6 +4318,20 @@
         "dir_file": "variants-dominance-projection",
         "file_name": "variants-proj",
         "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {}
+      },
+      {
+        "id_name": "QC - Vaccination by age group",
+        "uuid": "dc430b5f-fad2-4a1b-8457-590b19f7ff14",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/tableau-suivi-vaccination-groupe-age.jpg",
+        "dir_parent": "qc",
+        "dir_file": "vaccination-by-age-group",
+        "file_name": "tableau-suivi-vaccination-groupe-age",
+        "file_ext": "jpg",
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
