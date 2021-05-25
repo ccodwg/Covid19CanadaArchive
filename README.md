@@ -448,6 +448,10 @@ The sources and terms of use for each included dataset are linked below. Supplem
 * [COVID-19 (Novel Coronavirus)](https://gov.nu.ca/health/information/covid-19-novel-coronavirus)
     * Webpage: [nu/nunavut-webpage/nunavut-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
+* [COVID-19 Vaccination](https://www.gov.nu.ca/health/information/covid-19-vaccination)
+    * Table (image): [nu/nunavut-vaccination-table/vaccine_table.jpg](http://data.opencovid.ca/archive/index.html#archive/)
+    * Webpage: [nu/nunavut-vaccination-webpage/nunavut-vaccination-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Terms of use: TBD
 
 ### Ontario
 
