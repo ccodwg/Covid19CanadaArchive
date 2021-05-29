@@ -716,6 +716,13 @@ When both French and English data files are available, French files should gener
     * Montréal cases and deaths by sex: [qc/montreal-cases-and-deaths-by-sex/sexe.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Montréal epidemic curve: [qc/montreal-epidemic-curve/courbe.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
+* [Données sur la vaccination COVID-19 à Montréal](https://santemontreal.qc.ca/population/coronavirus-covid-19/vaccination/donnees/)
+    * Vaccine coverage by neighbourhood: [qc/montreal-vaccine-coverage-by-neighbourhood/VAXarrondissementsMTL.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vaccine coverage by age group: [qc/montreal-vaccine-coverage-by-age-group/VAXparGrpAGE_CSVupload.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vaccine administration time series (v2): [qc/montreal-vaccine-administration-time-series-v2/VAXparJOUR_CSVuploadv2.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vaccine administration time series: [qc/montreal-vaccine-administration-time-series/VAXparJOUR_googledrive.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Neighbourhoods: [qc/montreal-vaccine-dashboard-neighbourhoods/Arrondissements_et_municipalites.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Terms of use: TBD
 
 ### Prince Edward Island
 
