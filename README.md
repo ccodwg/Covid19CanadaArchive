@@ -232,6 +232,7 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Epidemiology summary statements: [can/epidemiology-summary-statements/covid19-epiSummary-statements.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * NML summary: [can/nml-summary/covid19-epiSummary-NML.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * NML weekly testing: [can/nml-weekly-testing/NML_weekly_testing.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Lab indicators: [can/lab-testing-time-series/covid19-epiSummary-labIndicators.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Number of cases with detailed case report data: [can/detailed-case-report-n/covid19-nTotal.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Cases and deaths by health region time series: [can/cases-and-deaths-by-hr-time-series/file_out_v5.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Health region UID table: [can/health-region-uid/covid19-healthregions-hruid.csv](http://data.opencovid.ca/archive/index.html#archive/)

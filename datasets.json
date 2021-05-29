@@ -573,6 +573,20 @@
         "metadata": {}
       },
       {
+        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Lab indicators)",
+        "uuid": "366ce221-c1c9-4f41-a917-8ff4648f6a40",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-labIndicators.csv",
+        "dir_parent": "can",
+        "dir_file": "lab-testing-time-series",
+        "file_name": "covid19-epiSummary-labIndicators",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {}
+      },
+      {
         "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Number of cases with detailed case report data)",
         "uuid": "6ea77a66-d8e5-4989-824d-403db4bfbda5",
         "active": "True",
