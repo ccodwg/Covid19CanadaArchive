@@ -68,7 +68,7 @@ datasets = datasets['active'] # subset active datasets
 ds = {} # create empty dictionary
 for d in datasets:
         for i in range(len(datasets[d])):
-                ds[datasets[d][i]['id_name']] = datasets[d][i]
+                ds[datasets[d][i]['uuid']] = datasets[d][i]
 
 # create dict of download functions
 dl_funs = {
@@ -107,7 +107,7 @@ for key in ds:
                 continue
         
         ## print key
-        print(key)
+        print(ds[key]['id_name'])
         
         ## if URL is not static, get URL
         if 'url' not in ds[key]:

@@ -3814,7 +3814,7 @@
         "metadata": {}
       },
       {
-        "id_name": "QC - Montréal vaccination dashboard - Vaccine administration time series",
+        "id_name": "QC - Montréal vaccination dashboard - Vaccine administration time series (v2)",
         "uuid": "f921c384-42f4-4ca1-8754-a820005f574f",
         "active": "True",
         "url": "https://services5.arcgis.com/pBN1lh7yaF4K7Tod/arcgis/rest/services/VAXparJOUR_CSVuploadv2/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
