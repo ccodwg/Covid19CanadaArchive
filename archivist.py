@@ -541,12 +541,12 @@ def ss_page(url, dir_parent, dir_file, file, ext='.png', user=False, wait=5, wid
 
 ## indexing
 
-def create_index(url_base, inventory):
+def create_index(bucket, url_base):
     """ Create an index of files in datasets.json stored in the S3 bucket.
     
     Parameters:
+    bucket (str): Name of Amazon S3 bucket.
     url_base (str): The base URL to the S3 bucket, used to construct file URLs.
-    inventory (str): The path to the S3 Inventory data folder.
     
     """
     global s3, prefix_root
@@ -566,22 +566,18 @@ def create_index(url_base, inventory):
             for i in range(len(datasets[a][d])):
                 ds[datasets[a][d][i]['uuid']] = datasets[a][d][i]
     
-    ## retrieve latest S3 inventory
-    inv_dir = s3.objects.filter(Prefix=inventory)
-    inv_files = list(inv_dir)
-    # remove directories
-    inv_files = [inv for inv in inv_files if inv.get()['ContentType'] != 'application/octet-stream']
-    # get latest file
-    get_last_modified = lambda inv: int(inv.get()['LastModified'].strftime('%s'))
-    inv_file = [inv for inv in sorted(inv_files, key=get_last_modified)][-1]
-    inv = inv_file.get()['Body']
+    ## prepare paginator for list of all files in the archive
+    paginator = boto3.client('s3').get_paginator('list_objects_v2')
+    pages = paginator.paginate(Bucket=bucket, Prefix=prefix_root)
     
-    ## process S3 inventory file
-    inv = pd.read_csv(inv, compression='gzip', header=None, sep=',', quotechar='"')
-    # assign column names
-    inv = inv.rename(columns={0: 'bucket', 1: 'file_path', 2: 'file_size', 3: 'file_md5'})
-    # drop unneeded column
-    inv = inv.drop('bucket', axis=1)
+    ## create inventory of files in the archive
+    inv = []
+    for page in pages:
+        for obj in page['Contents']:
+            inv.append([obj['Key'], obj['Size'], obj['ETag']])
+    inv = pd.DataFrame(inv, columns = ['file_path', 'file_size', 'file_etag'])
+    
+    ## process inventory
     # calculate other columns
     inv['dir_parent'] = inv['file_path'].apply(lambda x: os.path.dirname(x).split('/')[1:-1])
     inv['dir_parent'] = inv['dir_parent'].apply(lambda x: '/'.join(x))
@@ -592,27 +588,27 @@ def create_index(url_base, inventory):
     inv['file_url'] = url_base + inv['file_path']
     # initialize other columns
     inv['file_date_true'] = inv['file_date'] # set initial values for true date
-    inv['file_md5_duplicate'] = np.nan
+    inv['file_etag_duplicate'] = np.nan
     # remove directories, log files and supplementary files
     inv = inv[inv['file_name'] != ''] # remove directories
     inv = inv[inv['dir_file'] != prefix_root] # remove log files (stored in root)
     inv = inv[inv['dir_file'] != 'supplementary'] # remove supplementary files
     # keep only necessary columns and reorder
-    inv = inv[['dir_parent', 'dir_file', 'file_name', 'file_timestamp', 'file_date', 'file_date_true', 'file_size', 'file_md5', 'file_md5_duplicate', 'file_url']]
+    inv = inv[['dir_parent', 'dir_file', 'file_name', 'file_timestamp', 'file_date', 'file_date_true', 'file_size', 'file_etag', 'file_etag_duplicate', 'file_url']]
     # sort
     inv = inv.sort_values(by=['dir_parent', 'dir_file', 'file_timestamp'])
     
     ## initialize index
     ind = pd.DataFrame(columns=inv.columns)
     
-    ## calculate true dates and md5 duplicates - loop through each dataset
+    ## calculate true dates and etag duplicates - loop through each dataset
     for key in ds:
         d_p = ds[key]['dir_parent']
         d_f = ds[key]['dir_file']
         # get data
         d = inv[(inv['dir_parent'] == d_p) & (inv['dir_file'] == d_f)]
         # check if there are multiple hashes on the first date of data
-        d_first_date = d[d['file_date'] == d['file_date'].min()].drop_duplicates(['file_md5'])
+        d_first_date = d[d['file_date'] == d['file_date'].min()].drop_duplicates(['file_etag'])
         if (len(d_first_date) > 1):
             # if there multiple hashes on the first date, assume the earliest file is actually from the previous date
             d.loc[d['file_name'] == d_first_date.iloc[0]['file_name'], 'file_date_true'] = d.loc[d['file_name'] == d_first_date.iloc[0]['file_name'], 'file_date'] - timedelta(days=1)
@@ -625,16 +621,16 @@ def create_index(url_base, inventory):
         if (len(d_dates_missing) > 0):
             # if there are any missing dates, check if there are multiple hashes in the following day
             for j in d_dates_missing:
-                d_dates_next = d[d['file_date_true'] == j + timedelta(days=1)].drop_duplicates(['file_md5'])
+                d_dates_next = d[d['file_date_true'] == j + timedelta(days=1)].drop_duplicates(['file_etag'])
                 if len(d_dates_next) > 1:
                     # if there are more than 0 or 1 hashes on the previous date, assume the earliest hash actually corresponds to the missing day
                     d.loc[d['file_name'] == d_dates_next.iloc[0]['file_name'], 'file_date_true'] = d.loc[d['file_name'] == d_dates_next.iloc[0]['file_name'], 'file_date_true'] - timedelta(days=1)
         # using true date, keep only the final hash of each date ('definitive file' for that date)
         d = d.drop_duplicates(['file_date_true'], keep='last')
         # using hash, mark duplicates appearing after the first instance (e.g., duplicate hashes of Friday value for weekend versions of files updated only on weekdays)
-        d['file_md5_duplicate'] = d['file_md5'].duplicated()
+        d['file_etag_duplicate'] = d['file_etag'].duplicated()
         # mark duplicates using 1 and 0 rather than True and False
-        d['file_md5_duplicate'] = np.where(d['file_md5_duplicate']==True, 1, 0)
+        d['file_etag_duplicate'] = np.where(d['file_etag_duplicate']==True, 1, 0)
         # save modified index
         ind = ind.append(d)
         # print progress
