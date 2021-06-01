@@ -541,12 +541,14 @@ def ss_page(url, dir_parent, dir_file, file, ext='.png', user=False, wait=5, wid
 
 ## indexing
 
-def create_index(bucket, url_base):
+def create_index(url_base, bucket, aws_id, aws_key):
     """ Create an index of files in datasets.json stored in the S3 bucket.
     
     Parameters:
-    bucket (str): Name of Amazon S3 bucket.
     url_base (str): The base URL to the S3 bucket, used to construct file URLs.
+    bucket (str): Name of Amazon S3 bucket.
+    aws_id (str): ID for AWS.
+    aws_key (str): Key for AWS.
     
     """
     global s3, prefix_root
@@ -567,7 +569,10 @@ def create_index(bucket, url_base):
                 ds[datasets[a][d][i]['uuid']] = datasets[a][d][i]
     
     ## prepare paginator for list of all files in the archive
-    paginator = boto3.client('s3').get_paginator('list_objects_v2')
+    paginator = boto3.client(
+        's3',
+        aws_access_key_id=aws_id,
+        aws_secret_access_key=aws_key).get_paginator('list_objects_v2')
     pages = paginator.paginate(Bucket=bucket, Prefix=prefix_root)
     
     ## create inventory of files in the archive
