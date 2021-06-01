@@ -4,7 +4,7 @@ This repository provides automated, daily backups of COVID-19 data from Canadian
 
 **THE DATA FOR THIS ARCHIVE ARE NO LONGER HOSTED ON GOOGLE DRIVE.** For information on how to access the data in the archive, please see [Accessing the data](#accessing-the-data) below.
 
-File name timestamps are given in ET (America/Toronto) in the following format: %Y-%m-%d_%H-%M. Files are archived nightly around 23:00 ET.
+File name timestamps are given in ET (America/Toronto) in the following format: %Y-%m-%d_%H-%M. Files are archived nightly around 22:00 ET.
 
 All code in this repository is covered by the [MIT License](https://github.com/jeanpaulrsoucy/covid-19-canada-gov-data/blob/master/LICENSE). Licenses and terms of use for each archived dataset are given below.
 
@@ -54,7 +54,7 @@ The files in the archive are hosted at the following URL: [https://data.opencovi
 
 For example, the PHAC Epidemiology Update from November 4, 2020 may be downloaded at the following URL: [https://data.opencovid.ca.s3.amazonaws.com/archive/can/epidemiology-update-2/covid19-download_2020-11-04_23-38.csv](https://data.opencovid.ca.s3.amazonaws.com/archive/can/epidemiology-update-2/covid19-download_2020-11-04_23-38.csv)
 
-A complete index of files in the archive, including flags for duplicated files and corrected file dates, is available at the following URL: [https://data.opencovid.ca.s3.amazonaws.com/archive/file_index.csv](https://data.opencovid.ca.s3.amazonaws.com/archive/file_index.csv). This index is refreshed once per day.
+A complete index of files in the archive, including flags for duplicated files and corrected file dates, is available at the following URL: [https://data.opencovid.ca.s3.amazonaws.com/archive/file_index.csv](https://data.opencovid.ca.s3.amazonaws.com/archive/file_index.csv). This index is refreshed nightly around 23:00 ET.
 
 Alternatively, software such as Python or R may be used to explore and download files from specific directories. Examples are provided below.
 
