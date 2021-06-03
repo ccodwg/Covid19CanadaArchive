@@ -2680,6 +2680,20 @@
         "metadata": {}
       },
       {
+        "id_name": "ON - COVID-19 Vaccine Data by Age",
+        "uuid": "a7f839da-8c36-4569-bd99-1a07adc0700a",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/775ca815-5028-4e9b-9dd4-6975ff1be021/download/vaccines_by_age.csv",
+        "dir_parent": "on",
+        "dir_file": "vaccine-data-by-age",
+        "file_name": "vaccines_by_age",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {}
+      },
+      {
         "id_name": "ON - ICES dashboard percent positivity by FSA",
         "uuid": "bceb2acd-68d3-443f-8b0a-0f16fc80c54f",
         "active": "True",
