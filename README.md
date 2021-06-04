@@ -592,6 +592,14 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Ottawa hospitalization data: [on/ottawa-hospitalization/Hospitalizations_of_Ottawa_residents_with_confirmed_COVID-19.csv](http://data.opencovid.ca/archive/index.html#archive/) (Archived as of 2020-09-21, no longer part of the nightly update)
     * Include supplementary material: User guide, technical guide, overall status assessment
     * Terms of use: [Open Government Licence – City of Ottawa](https://ottawa.ca/en/city-hall/get-know-your-city/open-data#open-data-licence-version-2-0)
+* [COVID-19 Vaccination Dashboard (Ottawa)](https://www.ottawapublichealth.ca/en/reports-research-and-statistics/COVID-19_Vaccination_Dashboard.aspx)
+    * Ottawa vaccine dashboard - COVID-19 Vaccinations by Day by Vaccine Type - Ottawa Residents: [on/ottawa-vaccinations-by-day-and-type-ottawa-residents/ottawa-vaccinations-by-day-and-type-ottawa-residents.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Ottawa vaccine dashboard - COVID-19 Vaccinations by Day by Vaccine Type - Vaccinated in Ottawa: [on/ottawa-vaccinations-by-day-and-type-vaccinated-in-ottawa/ottawa-vaccinations-by-day-and-type-vaccinated-in-ottawa.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Ottawa vaccine dashboard - COVID-19 Vaccine Doses Received by Date - Ottawa Less Pharmacies: [on/ottawa-vaccine-doses-received-dy-date-ottawa-less-pharmacies/ottawa-vaccine-doses-received-dy-date-ottawa-less-pharmacies.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Ottawa vaccine dashboard - COVID-19 Vaccinations by Day by Vaccine Type - Non-Residents Vaccinated in Ottawa: [on/ottawa-vaccinations-by-day-and-type-non-residents-vaccinated-in-Ottawa/ottawa-vaccinations-by-day-and-type-non-residents-vaccinated-in-Ottawa.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Ottawa vaccine dashboard - COVID-19 Vaccinations by Day by Vaccine Type - Residents of Ottawa Vaccinated Outside of Ottawa: [on/ottawa-vaccinations-by-day-and-type-ottawa-residents-vaccinated-outside-ottawa/ottawa-vaccinations-by-day-and-type-ottawa-residents-vaccinated-outside-ottawa.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Ottawa vaccine dashboard - COVID-19 Vaccination Coverage by Age for Ottawa Residents with at Least 1 Dose: [on/ottawa-vaccination-coverage-by-age-ottawa-residents/ottawa-vaccination-coverage-by-age-ottawa-residents.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Terms of use: [Open Government Licence – City of Ottawa](https://ottawa.ca/en/city-hall/get-know-your-city/open-data#open-data-licence-version-2-0)
 
 ### Quebec
 
