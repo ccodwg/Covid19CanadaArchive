@@ -463,6 +463,9 @@ The sources and terms of use for each included dataset are linked below. Supplem
 * [How Ontario is responding to COVID-19](https://www.ontario.ca/page/how-ontario-is-responding-covid-19)
     * Webpage: [on/ontario-webpage/ontario-webpage.html](http://data.opencovid.ca/archive/index.html#archive/) (warning: some early files are .png screenshots and named differently)
     * Terms of use: [Open Government Licence – Ontario](https://www.ontario.ca/page/open-government-licence-ontario)
+* [All Ontario: Case numbers and spread](https://covid-19.ontario.ca/data)
+    * Webpage: [on/on-data-webpage/on-data-webpage.html]
+    * Terms of use: TBD
 * [Confirmed positive cases of COVID19 in Ontario](https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario/resource/455fd63b-603d-4608-8216-7d8647f43350)
     * [on/confirmed-positive-cases/conposcovidloc.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Includes supplementary material: [Data dictionary (English and French)](https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario/resource/a2ea0536-1eae-4a17-aa04-e5a1ab89ca9a)
