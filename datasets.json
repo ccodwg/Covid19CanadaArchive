@@ -16,6 +16,20 @@
         "metadata": {}
       },
       {
+        "id_name": "AB - COVID-19 Alberta statistics: Case time series (Local geographic area)",
+        "uuid": "e7d94ff1-6029-4046-8f93-281d200912a9",
+        "active": "True",
+        "url": "https://www.alberta.ca/data/stats/covid-19-alberta-statistics-map-data.csv",
+        "dir_parent": "ab",
+        "dir_file": "case-time-series-by-lga",
+        "file_name": "covid-19-alberta-statistics-map-data",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {}
+      },
+      {
         "id_name": "AB - COVID-19 Alberta statistics: Vaccine data (Local geographic area)",
         "uuid": "48a2e451-cad7-4f47-a792-5a4dad2eb8c3",
         "active": "True",
