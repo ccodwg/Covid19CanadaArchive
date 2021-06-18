@@ -417,9 +417,10 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Cumulative cases by Primary Health Care Zone: [nl/cumulative-cases-by-phcz/PHZ_Zone_Public.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Cases by likely exposure setting: [nl/cases-by-likely-exposure-setting/Exposure_New_Public.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Cases by age and sex: [nl/cases-by-age-and-sex/Covid_AgeLayerPublic2.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Cumulative vaccination 2: [nl/cumulative-vaccination-2/DailyVaccination_Public.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Vaccine doses received and expected this week: [nl/vaccine-doses-received-and-expected/WeeklyDoses_Public.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Cumulative vaccination 3: [nl/cumulative-vaccination-3/DailyVaccineUpdatePublic.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Cumulative vaccination: [nl/cumulative-vaccination/Vaccine_LatestPublic_v2.json](http://data.opencovid.ca/archive/index.html#archive/) (Archived, no longer part of the nightly update)
+    * Cumulative vaccination 2: [nl/cumulative-vaccination-2/DailyVaccination_Public.json](http://data.opencovid.ca/archive/index.html#archive/) (Archived, no)
+    * Vaccine doses received and expected this week: [nl/vaccine-doses-received-and-expected/WeeklyDoses_Public.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Primary Health Care Zone populations: [nl/phcz-populations/PHC_Zones_Combined_Public.json](http://data.opencovid.ca/archive/index.html#archive/) (Archived, no longer part of the nightly update)
     * Terms of use: TBD
 
