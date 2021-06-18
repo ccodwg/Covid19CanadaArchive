@@ -144,6 +144,7 @@ The sources and terms of use for each included dataset are linked below. Supplem
 ### Alberta
 
 * [COVID-19 Alberta statistics](https://www.alberta.ca/stats/covid-19-alberta-statistics.htm)
+    * COVID-19 Alberta statistics (webpage): [ab/ab-covid-statistics-webpage/ab-covid-statistics-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Case data: [ab/cases/covid19dataexport.csv](http://data.opencovid.ca/archive/index.html#archive/) [Note: Some historical versions of this file may have misaligned/incorrect column names]
     * Case time series (Local geographic area): [ab/case-time-series-by-lga/covid-19-alberta-statistics-map-data.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccine data (Local geographic area): [ab/vaccine-coverage-by-lga/lga-coverage.csv](http://data.opencovid.ca/archive/index.html#archive/)

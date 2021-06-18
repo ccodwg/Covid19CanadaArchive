@@ -2,6 +2,20 @@
   "active": {
     "ab": [
       {
+        "id_name": "AB - COVID-19 Alberta statistics (webpage)",
+        "uuid": "24a572ea-0de3-4f83-b9b7-8764ea203eb6",
+        "active": "True",
+        "url": "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm",
+        "dir_parent": "ab",
+        "dir_file": "ab-covid-statistics-webpage",
+        "file_name": "ab-covid-statistics-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {}
+      },
+      {
         "id_name": "AB - COVID-19 Alberta statistics: Case data",
         "uuid": "59da1de8-3b4e-429a-9e18-b67ba3834002",
         "active": "True",
