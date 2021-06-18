@@ -389,6 +389,8 @@ The sources and terms of use for each included dataset are linked below. Supplem
     * Provincial case, death, recovered time series: [nb/provincial-case-death-recovered-time-series/provincial-case-death-recovered-time-series.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Provincial cumulative test statistics by age and sex: [nb/provincial-cumulative-test-statistics-by-age-sex/provincial-cumulative-test-statistics-by-age-sex.json](http://data.opencovid.ca/archive/index.html#archive/)
     * COVID-19 vaccine data: [nb/vaccine-data/vaccine-data.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * COVID-19 vaccine coverage by age group: [nb/vaccine-coverage-by-age/Covid19VaccineAge.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * COVID-19 vaccine time series: [nb/vaccine-time-series/Covid19VaccineTimeline.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Ferries: [nb/ferries/ferries.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Health zone cumulative stats: [nb/health-zone-cumulative-stats/health-zone-cumulative-stats.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Hospitals: [nb/hospitals/hospitals.json](http://data.opencovid.ca/archive/index.html#archive/)

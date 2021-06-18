@@ -1809,6 +1809,34 @@
         "metadata": {}
       },
       {
+        "id_name": "NB - COVID-19 vaccine coverage by age groups",
+        "uuid": "51daf7d8-8a67-41e0-bce5-9aaf50b3691e",
+        "active": "True",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/Covid19VaccineAge/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nb",
+        "dir_file": "vaccine-coverage-by-age",
+        "file_name": "Covid19VaccineAge",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {}
+      },
+       {
+        "id_name": "NB - COVID-19 vaccine time series",
+        "uuid": "055d13af-b801-4d34-9591-050b2da2ebff",
+        "active": "True",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/Covid19VaccineTimetable/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nb",
+        "dir_file": "vaccine-time-series",
+        "file_name": "Covid19VaccineTimeline",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {}
+      },
+      {
         "id_name": "NB - Ferries",
         "uuid": "be2c33a9-0967-459b-afd1-89a3cb5e3e9e",
         "active": "True",
