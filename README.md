@@ -426,8 +426,11 @@ The sources and terms of use for each included dataset are linked below. Supplem
 
 ### Northwest Territories
 
-* [https://www.gov.nt.ca/covid-19/](https://www.gov.nt.ca/covid-19/)
+* [GNWT's Response to COVID-19](https://www.gov.nt.ca/covid-19/)
     * Webpage: [nt/nwt-webpage/nwt-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Terms of use: TBD
+* [Northwest Territories COVID-19 dashboard](https://nwt-covid.shinyapps.io/Testing-and-Cases/?lang=1)
+    * Wepbage: [nt/cases-testing-vaccine-dashboard-webpage/cases-testing-vaccine-dashboard-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Terms of use: TBD
 
 ### Nova Scotia

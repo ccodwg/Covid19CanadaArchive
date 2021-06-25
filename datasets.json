@@ -2317,6 +2317,23 @@
         "args": {},
         "supplementary": {},
         "metadata": {}
+      },
+      {
+        "id_name": "NT - Northwest Territories COVID-19 dashboard (webpage)",
+        "uuid": "9ed0f5cd-2c45-40a1-94c9-25b0c9df8f48",
+        "active": "True",
+        "url": "https://nwt-covid.shinyapps.io/Testing-and-Cases/?lang=1",
+        "dir_parent": "nt",
+        "dir_file": "cases-testing-vaccine-dashboard-webpage",
+        "file_name": "cases-testing-vaccine-dashboard-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {}
       }
     ],
     "nu": [
