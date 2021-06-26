@@ -3404,6 +3404,20 @@
         "metadata": {}
       },
       {
+        "id_name": "Portrait des doses administrées par région de résidence de la personne vaccinée",
+        "uuid": "7488f606-edd6-494c-a893-e6302b1daabd",
+        "active": "True",
+        "url": "https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_Vaccination_RegionResidence.csv",
+        "dir_parent": "qc",
+        "dir_file": "vaccine-doses-admin-by-rss-of-residence-time-series",
+        "file_name": "COVID19_Qc_Vaccination_RegionResidence",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {}
+      },
+      {
         "id_name": "QC - Portrait des doses administrées par groupe d'âge",
         "uuid": "0cec8a86-70b8-4e40-996a-d288d2f75d41",
         "active": "True",

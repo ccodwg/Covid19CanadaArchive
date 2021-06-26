@@ -648,6 +648,7 @@ When both French and English data files are available, French files should gener
     * Terms of use: TBD
 * [COVID-19 - Portrait quotidien de la vaccination](https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-de-la-vaccination)
     * Portrait des doses administrées par région d'administration (lieu de vaccination): [qc/vaccine-doses-admin-by-rss-time-series/COVID19_Qc_Vaccination_RegionAdministration.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Portrait des doses administrées par région de résidence de la personne vaccinée: [qc/vaccine-doses-admin-by-rss-of-residence-time-series/COVID19_Qc_Vaccination_RegionResidence.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Portrait des doses administrées par groupe d'âge: [qc/vaccine-doses-admin-by-age-group-time-series/COVID19_Qc_Vaccination_CatAge.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Portrait des rendez-vous à venir pour une 1ère dose par région d'administration: [qc/first-vaccine-dose-appointments-by-rss/COVID19_Qc_RDVVaccination_RegionAdministration/.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Portrait des rendez-vous à venir pour une 1ère dose par groupe d’âge: [qc/first-vaccine-dose-appointments-by-age-group/COVID19_Qc_RDVVaccination_CatAge.csv](http://data.opencovid.ca/archive/index.html#archive/)
