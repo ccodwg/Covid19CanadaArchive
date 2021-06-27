@@ -13,7 +13,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "AB - COVID-19 Alberta statistics: Case data",
@@ -27,7 +35,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "AB - COVID-19 Alberta statistics: Case time series (Local geographic area)",
@@ -41,7 +57,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "AB - COVID-19 Alberta statistics: Vaccine data (Local geographic area)",
@@ -55,7 +79,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "AB - COVID-19 relaunch status map",
@@ -71,7 +103,15 @@
           "ab_json_to_csv": "True"
         },
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "AB - COVID-19 school status map",
@@ -87,7 +127,15 @@
           "ab_json_to_csv": "True"
         },
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "AB - Cases in Alberta (webpage)",
@@ -101,7 +149,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "AB - COVID-19 info for Albertans (webpage)",
@@ -115,7 +171,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "AB - COVID-19 vaccine distribution (webpage)",
@@ -129,7 +193,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "AB - COVID-19 in Alberta: Current cases by local geographic area (Edmonton)",
@@ -143,7 +215,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       }
     ],
     "bc": [
@@ -159,7 +239,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - BC COVID-19 Data (Case data)",
@@ -173,7 +261,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - BC COVID-19 Data (Laboratory data)",
@@ -187,7 +283,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - BC COVID-19 Data (Regional data)",
@@ -201,7 +305,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - BC COVID-19 Data (VOC time series by RHA 2)",
@@ -215,7 +327,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - Public exposures (webpage)",
@@ -232,7 +352,15 @@
           "height": "5500"
         },
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - Public exposures: flights",
@@ -246,7 +374,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - Public exposures: regional exposure events (Fraser webpage)",
@@ -260,7 +396,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - Public exposures: regional exposure events (Interior webpage)",
@@ -274,7 +418,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - Public exposures: regional exposure events (Island webpage)",
@@ -288,7 +440,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - Public exposures: regional exposure events (Northern webpage)",
@@ -302,7 +462,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - Public exposures: regional exposure events (Vancouver Coastal webpage)",
@@ -316,7 +484,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - Public exposures: school exposures (Fraser webpage)",
@@ -330,7 +506,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - Public exposures: school exposures (Interior webpage)",
@@ -344,7 +528,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - Public exposures: school exposures (Island webpage)",
@@ -358,7 +550,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - Public exposures: school exposures (Northern webpage)",
@@ -372,7 +572,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - Public exposures: school exposures (Vancouver Coastal webpage)",
@@ -386,7 +594,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - Dashboard BC and Canada cumulative testing rate",
@@ -400,7 +616,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - Dashboard case demographics by Regional Health Authority",
@@ -414,7 +638,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - Dashboard 7-day and cumulative cases by HSDA",
@@ -428,7 +660,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - Dashboard testing time series by Regional Health Authority (2)",
@@ -442,7 +682,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - Dashboard testing time series by Regional Health Authority",
@@ -456,7 +704,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - Dashboard Vaccine Doses by Regional Health Authority",
@@ -470,7 +726,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - Dashboard case time series by Health Service Delivery Area",
@@ -484,7 +748,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - Dashboard cumulative case, death, recovered, hospitalization, ICU data by Regional Health Authority",
@@ -498,7 +770,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - Dashboard 7-day and cumulative cases by HSDA (2)",
@@ -512,7 +792,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "BC - Dashboard Regional Health Authority labels",
@@ -526,7 +814,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       }
     ],
     "can": [
@@ -542,7 +838,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Epidemiology update - as above but different date format)",
@@ -556,7 +860,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Epidemiology summary statements)",
@@ -570,7 +882,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVID-19 Situational Awareness Dashboard (NML summary)",
@@ -584,7 +904,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVID-19 Situational Awareness Dashboard (NML weekly testing)",
@@ -598,7 +926,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Lab indicators)",
@@ -612,7 +948,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Number of cases with detailed case report data)",
@@ -626,7 +970,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Cases and deaths by health region time series)",
@@ -640,7 +992,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Health region UID table)",
@@ -654,7 +1014,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Cases by exposure setting time series)",
@@ -668,7 +1036,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Epidemic curve by date of illness onset by age group)",
@@ -682,7 +1058,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Severity by age group and sex)",
@@ -696,7 +1080,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Cases by severity)",
@@ -710,7 +1102,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Cases by age group and sex)",
@@ -724,7 +1124,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Cases by probable exposure setting)",
@@ -738,7 +1146,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Cases by probable expsoure setting by province)",
@@ -752,7 +1168,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Symptoms summary)",
@@ -766,7 +1190,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Hospitalizations, intensive care unit (ICU), mechanical ventilation)",
@@ -780,7 +1212,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Cases on First Nations reserves)",
@@ -794,7 +1234,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Variants of concern time series by province)",
@@ -808,7 +1256,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Situational awareness dashboard update time)",
@@ -822,7 +1278,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVID-19 PHAC provincial data update notes",
@@ -836,7 +1300,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVIDTrends (Mobility)",
@@ -850,7 +1322,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVIDTrends (FluWatchers)",
@@ -864,7 +1344,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Vaccines and treatments for COVID-19: Vaccine rollout",
@@ -878,7 +1366,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Vaccines administered: Vaccination administration",
@@ -892,7 +1388,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Vaccines administered: Vaccination administration update date",
@@ -906,7 +1410,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Vaccines distributed: Vaccination distribution",
@@ -920,7 +1432,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Vaccination coverage: Vaccination coverage overall",
@@ -934,7 +1454,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Vaccination coverage: Vaccination coverage for key populations",
@@ -948,7 +1476,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Vaccination coverage: Vaccination coverage by age and sex",
@@ -962,7 +1498,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Vaccination coverage: Vaccination coverage by age and sex 2",
@@ -976,7 +1520,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Vaccination coverage: Vaccination coverage by age and sex (condensed)",
@@ -990,7 +1542,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Vaccination coverage: Vaccination coverage by age and sex (alternative)",
@@ -1004,7 +1564,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Vaccination coverage: Vaccination coverage by age and sex with denominators",
@@ -1018,7 +1586,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Vaccination coverage: Vaccination coverage by vaccine type",
@@ -1032,7 +1608,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Vaccination coverage: Vaccination coverage by province",
@@ -1046,7 +1630,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Vaccination coverage: Vaccination notes",
@@ -1060,7 +1652,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVID-19 vaccination in Canada: Technical notes (webpage)",
@@ -1074,7 +1674,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVID 19 vaccination in Canada: Vaccination coverage data availability by week",
@@ -1088,7 +1696,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Testing for COVID-19 - Increasing testing supply (webpage)",
@@ -1102,7 +1718,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVID-19 international data: International case and death time series",
@@ -1116,7 +1740,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - COVID-19 international data: International case and death time series update date",
@@ -1130,7 +1762,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Reported side effects following COVID-19 vaccination in Canada: AEFI weekly reports by event type",
@@ -1144,7 +1784,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Reported side effects following COVID-19 vaccination in Canada: AEFI weekly reports key updates",
@@ -1158,7 +1806,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Reported side effects following COVID-19 vaccination in Canada: Figure - AEFI summary including vaccination data",
@@ -1172,7 +1828,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Reported side effects following COVID-19 vaccination in Canada: Figure - AEFI weekly summary by vaccine type",
@@ -1186,7 +1850,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Reported side effects following COVID-19 vaccination in Canada: Figure - AEFI weekly summary by age and sex",
@@ -1200,7 +1872,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Reported side effects following COVID-19 vaccination in Canada: Figure - AEFI weekly summary by serious events",
@@ -1214,7 +1894,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Detailed preliminary information on cases of COVID-19: 6 Dimensions (Aggregated data)",
@@ -1230,7 +1918,15 @@
           "unzip": "True"
         },
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Detailed preliminary information on cases of COVID-19: 4 Dimensions (Aggregated data)",
@@ -1246,7 +1942,15 @@
           "unzip": "True"
         },
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Preliminary dataset on confirmed cases of COVID-19, Public Health Agency of Canada",
@@ -1262,7 +1966,15 @@
           "unzip": "True"
         },
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Locations where you may have been exposed to COVID-19 (webpage)",
@@ -1276,7 +1988,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       }
     ],
     "mb": [
@@ -1292,7 +2012,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - COVID-19 data by RHA and district",
@@ -1306,7 +2034,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Cases by demographics and RHA",
@@ -1320,7 +2056,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Cases by status and RHA",
@@ -1334,7 +2078,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Manitoba five-day test positivity rate",
@@ -1348,7 +2100,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Summary statistics by area",
@@ -1362,7 +2122,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Current status by area",
@@ -1376,7 +2144,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - COVID-19 data by RHA and district (JSON to CSV)",
@@ -1392,7 +2168,15 @@
           "mb_json_to_csv": "True"
         },
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Cases by demographics and RHA (JSON to CSV)",
@@ -1408,7 +2192,15 @@
           "mb_json_to_csv": "True"
         },
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Cases by status and RHA (JSON to CSV)",
@@ -1424,7 +2216,15 @@
           "mb_json_to_csv": "True"
         },
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Manitoba five-day test positivity rate (JSON to CSV)",
@@ -1440,7 +2240,15 @@
           "mb_json_to_csv": "True"
         },
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Vaccine dashboard: vaccination coverage by Regional Health Authority",
@@ -1454,7 +2262,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Vaccine dashboard: vaccination time series",
@@ -1468,7 +2284,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Vaccine dashboard: vaccination by age group and sex",
@@ -1482,7 +2306,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Vaccine dashboard: vaccination by manufacturer",
@@ -1496,7 +2328,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Vaccine dashboard: projected vaccine doses",
@@ -1510,7 +2350,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Vaccine dashboard: vaccination summary by Regional Health Authority",
@@ -1524,7 +2372,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Vaccine dashboard vaccination coverage",
@@ -1538,7 +2394,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Vaccine dashboard uptake by RHA, age, sex",
@@ -1552,7 +2416,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Vaccine dashboard uptake by Health District",
@@ -1566,7 +2438,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Vaccine dashboard inventory, delivered, administered, scheduled",
@@ -1580,7 +2460,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Vaccine dashboard: Regional Health Authorities",
@@ -1594,7 +2482,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Vaccine dashboard: Health Districts",
@@ -1608,7 +2504,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Vaccine dashboard: Winnipeg Community Areas",
@@ -1622,7 +2526,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Vaccine dashboard First Nations: vaccination time series",
@@ -1636,7 +2548,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Vaccine dashboard First Nations: vaccination by age group and sex",
@@ -1650,7 +2570,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Vaccine dashboard First Nations: vaccination by provider",
@@ -1664,7 +2592,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Vaccine dashboard First Nations: vaccination by Regional Health Authority",
@@ -1678,7 +2614,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Vaccine dashboard First Nations: vaccination summary on reserve and off reserve",
@@ -1692,7 +2636,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Vaccine dashboard First Nations: vaccination by Tribal Council Region",
@@ -1706,7 +2658,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - COVID education statistics summary",
@@ -1720,7 +2680,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - COVID educations cases last 2 weeks",
@@ -1734,7 +2702,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - Manitoba school divisions",
@@ -1748,7 +2724,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "MB - COVID-19 Variant of Concern Cases in Manitoba",
@@ -1762,7 +2746,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       }
     ],
     "nb": [
@@ -1778,7 +2770,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NB - Airports",
@@ -1792,7 +2792,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NB - Counties",
@@ -1806,7 +2814,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NB - COVID-19 assessment sites",
@@ -1820,7 +2836,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NB - COVID-19 compliance by health zone",
@@ -1834,7 +2858,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NB - Provincial case, death, recovered time series",
@@ -1848,7 +2880,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NB - Provincial cumulative test statistics by age and sex",
@@ -1862,7 +2902,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NB - COVID-19 vaccine data",
@@ -1876,7 +2924,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NB - COVID-19 vaccine coverage by age groups",
@@ -1890,7 +2946,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
        {
         "id_name": "NB - COVID-19 vaccine time series",
@@ -1904,7 +2968,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NB - Ferries",
@@ -1918,7 +2990,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NB - Health zone cumulative stats",
@@ -1932,7 +3012,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NB - Hospitals",
@@ -1946,7 +3034,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NB - International border",
@@ -1960,7 +3056,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NB - Communities",
@@ -1974,7 +3078,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NB - Neighbour region cumulative stats",
@@ -1988,7 +3100,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NB - Neighbour state/province cumulative stats",
@@ -2002,7 +3122,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NB - Nursing homes",
@@ -2016,7 +3144,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NB - Health zone and community recovery phases",
@@ -2030,7 +3166,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NB - Traffic control points",
@@ -2044,7 +3188,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NB - Potential public exposures (webpage)",
@@ -2058,7 +3210,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       }
     ],
     "nl": [
@@ -2074,7 +3234,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NL - Dashboard province time series",
@@ -2088,7 +3256,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NL - Dashboard Regional Health Authority summary",
@@ -2102,7 +3278,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NL - Dashboard cumulative cases by Primary Health Care Zone",
@@ -2116,7 +3300,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NL - Dashboard cases by likely exposure setting",
@@ -2130,7 +3322,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NL - Dashboard cases by age and sex",
@@ -2144,7 +3344,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NL - Cumulative vaccination 3",
@@ -2158,7 +3366,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NL - Vaccine doses received and expected this week",
@@ -2172,7 +3388,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       }
     ],
     "ns": [
@@ -2188,7 +3412,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NS - Nova Scotia COVID-19 Dashboard: Cases by zone",
@@ -2202,7 +3434,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NS - Nova Scotia COVID-19 Dashboard: Zone summary",
@@ -2216,7 +3456,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NS - Nova Scotia COVID-19 Dashboard: Zone summary cases",
@@ -2230,7 +3478,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NS - Nova Scotia COVID-19 Dashboard: Community health network summary cases",
@@ -2244,7 +3500,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NS - Nova Scotia COVID-19 Dashboard: Serious outcomes",
@@ -2258,7 +3522,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NS - Nova Scotia COVID-19 Dashboard: Lab testing",
@@ -2272,7 +3544,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NS - Nova Scotia COVID-19 Dashboard: Lab testing, hospitalization, ICU summary",
@@ -2286,7 +3566,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NS - Nova Scotia COVID-19 Dashboard: Demographics summary",
@@ -2300,7 +3588,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NS - Nova Scotia COVID-19 Dashboard: Health boundaries",
@@ -2314,7 +3610,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NS - Nova Scotia COVID-19 Dashboard: Immunizations 3",
@@ -2328,7 +3632,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NS - Potential COVID Exposures (webpage)",
@@ -2342,7 +3654,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       }
     ],
     "nt": [
@@ -2358,7 +3678,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NT - Northwest Territories COVID-19 dashboard - cases (webpage)",
@@ -2375,7 +3703,15 @@
           "wait": "10"
         },
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       }
     ],
     "nu": [
@@ -2391,7 +3727,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NU - COVID-19 Vaccination (webpage)",
@@ -2405,7 +3749,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NU - COVID-19 Vaccination Table",
@@ -2420,7 +3772,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       }
     ],
     "on": [
@@ -2439,7 +3799,15 @@
           "wait": "10"
         },
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - All Ontario: Case numbers and spread (webpage)",
@@ -2456,7 +3824,15 @@
           "wait": "10"
         },
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Confirmed positive cases of COVID19 in Ontario",
@@ -2470,7 +3846,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Status of COVID-19 cases in Ontario",
@@ -2484,7 +3868,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Status of COVID-19 cases in Ontario by Public Health Unit (PHU)",
@@ -2498,7 +3890,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Ontario COVID-19 testing metrics by Public Health Unit (PHU)",
@@ -2512,7 +3912,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Ontario COVID-19 testing percent positive by age group",
@@ -2526,7 +3934,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - COVID-19 hospital metrics in Ontario by Local Health Integration Network (LHIN) regions",
@@ -2540,7 +3956,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Effective reproduction number (Re) for COVID-19 in Ontario",
@@ -2554,7 +3978,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - COVID Alert Impact Data (COVID Alert downloads - Canada)",
@@ -2568,7 +4000,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - COVID Alert Impact Data (Uploads of COVID-19 diagnosis to COVID Alert - Ontario)",
@@ -2582,7 +4022,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - COVID-19 testing locations",
@@ -2596,7 +4044,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - COVID-19 pharmacy vaccine locations (webpage)",
@@ -2610,7 +4066,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Ongoing outbreaks",
@@ -2624,7 +4088,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Summary of cases associated with outbreaks",
@@ -2638,7 +4110,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Testing of inmates in provincial correctional institutions",
@@ -2652,7 +4132,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Status of cases in provincial correctional institutions",
@@ -2666,7 +4154,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Long term care homes: Summary data",
@@ -2680,7 +4176,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Long term care homes: Active outbreaks",
@@ -2694,7 +4198,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Long term care homes: Resolved outbreaks",
@@ -2708,7 +4220,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Cases in schools and childcare centres (webpage)",
@@ -2725,7 +4245,15 @@
           "wait": "10"
         },
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Schools: Summary of cases in schools",
@@ -2739,7 +4267,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Schools: Schools with active COVID-19 cases",
@@ -2753,7 +4289,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Schools: Cases in school board partners",
@@ -2767,7 +4311,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Licensed child care settings: Summary of cases in licensed child care settings",
@@ -2781,7 +4333,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Licensed child care settings: Licensed child care centres and agencies with active COVID-19 cases",
@@ -2795,7 +4355,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - COVID-19 Vaccine Data in Ontario",
@@ -2809,7 +4377,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - COVID-19 Vaccine Data by Age",
@@ -2823,7 +4399,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - ICES dashboard percent positivity by FSA",
@@ -2837,7 +4421,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - ICES dashboard percent positivity by age group and Public Health Unit (PHU)",
@@ -2851,7 +4443,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - ICES dashboard vaccine coverage estimates for selected age groups by FSA",
@@ -2865,7 +4465,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - City of Toronto Daily Status of COVID-19 Cases",
@@ -2879,7 +4487,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - City of Toronto COVID-19 Summary",
@@ -2893,7 +4509,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - City of Toronto COVID-19 Neighbourhood Case Data",
@@ -2907,7 +4531,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - City of Toronto COVID-19 Neighbourhood Testing Data",
@@ -2921,7 +4553,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - City of Toronto COVID-19 Monitoring Dashboard",
@@ -2935,7 +4575,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - City of Toronto COVID-19 Outbreak Data",
@@ -2949,7 +4597,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - COVID-19 Cases in Toronto",
@@ -2963,7 +4619,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - University of Toronto COVID-19 tracking (webpage)",
@@ -2977,7 +4641,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Ottawa Demographics and Source of Infection for Cases, Deaths, and Hospitalizations",
@@ -2991,7 +4663,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Ottawa Outbreaks in Healthcare Institutions, Childcare, Summer Camps, and Educational Establishments",
@@ -3005,7 +4685,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Ottawa Community Outbreaks",
@@ -3019,7 +4707,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Ottawa Community Outbreaks (JSON)",
@@ -3033,7 +4729,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Ottawa Weekly Rates",
@@ -3047,7 +4751,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Ottawa Estimated Reproduction Number in Ottawa",
@@ -3061,7 +4773,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Ottawa Testing - Ottawa Residents",
@@ -3075,7 +4795,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Ottawa Data tables for Public COVID-19 Maps",
@@ -3089,7 +4817,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Ottawa vaccine dashboard - COVID-19 Vaccinations by Day by Vaccine Type - Ottawa Residents",
@@ -3103,7 +4839,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Ottawa vaccine dashboard - COVID-19 Vaccinations by Day by Vaccine Type - Vaccinated in Ottawa",
@@ -3117,7 +4861,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Ottawa vaccine dashboard - COVID-19 Vaccine Doses Received by Date - Ottawa Less Pharmacies",
@@ -3131,7 +4883,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Ottawa vaccine dashboard - COVID-19 Vaccinations by Day by Vaccine Type - Non-Residents Vaccinated in Ottawa",
@@ -3145,7 +4905,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Ottawa vaccine dashboard - COVID-19 Vaccinations by Day by Vaccine Type - Residents of Ottawa Vaccinated Outside of Ottawa",
@@ -3159,7 +4927,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "ON - Ottawa vaccine dashboard - COVID-19 Vaccination Coverage by Age for Ottawa Residents with at Least 1 Dose",
@@ -3173,7 +4949,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       }
     ],
     "pe": [
@@ -3189,7 +4973,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "PE - COVID-19 Vaccination Data",
@@ -3203,7 +4995,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "PE - COVID-19 Vaccine Rollout",
@@ -3217,7 +5017,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "PE - Potential COVID-19 Exposures (webpage)",
@@ -3231,7 +5039,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "PE - Possible Air Travel Exposures (webpage)",
@@ -3245,7 +5061,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       }
     ],
     "qc": [
@@ -3261,7 +5085,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Data on COVID-19 in Quebec (webpage EN)",
@@ -3275,7 +5107,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Dashboard of the COVID-19 situation in Quebec (FR)",
@@ -3289,7 +5129,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - COVID-19 vaccination data (webpage FR)",
@@ -3303,7 +5151,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - COVID-19 vaccination data (webpage EN)",
@@ -3317,7 +5173,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Situation in Quebec",
@@ -3331,7 +5195,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Correctional facilities - cases among employees (FR)",
@@ -3345,7 +5217,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Correctional facilities - cases among employees (EN)",
@@ -3359,7 +5239,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Correctional facilities - cases among detainees (FR)",
@@ -3373,7 +5261,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Correctional facilities - cases among detainees (EN)",
@@ -3387,7 +5283,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Portrait des doses administrées par région d'administration (lieu de vaccination)",
@@ -3401,7 +5305,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "Portrait des doses administrées par région de résidence de la personne vaccinée",
@@ -3415,7 +5327,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Portrait des doses administrées par groupe d'âge",
@@ -3429,7 +5349,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Portrait des rendez-vous à venir pour une 1ère dose par région d'administration",
@@ -3443,7 +5371,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Portrait des rendez-vous à venir pour une 1ère dose par groupe d’âge",
@@ -3457,7 +5393,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Vaccination situation (FR)",
@@ -3471,7 +5415,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Vaccination by RSS time series",
@@ -3485,7 +5437,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Cumulative vaccination adverse events by vaccine type",
@@ -3499,7 +5459,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Vaccine doses received (FR)",
@@ -3513,7 +5481,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Variants under enhanced surveillance",
@@ -3527,7 +5503,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Éclosions de COVID-19 au Québec",
@@ -3541,7 +5525,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Outbreaks by setting (FR)",
@@ -3555,7 +5547,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Cases percentage by age group (FR)",
@@ -3569,7 +5569,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Deaths percentage by age group (FR)",
@@ -3583,7 +5591,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Cumulative deaths by region (FR)",
@@ -3597,7 +5613,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Recent daily cases by region (FR)",
@@ -3611,7 +5635,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - COVID-19 daily data 7 days (FR)",
@@ -3625,7 +5657,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Cases by region 7 days (FR)",
@@ -3639,7 +5679,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Cases by region 7 days (EN)",
@@ -3653,7 +5701,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - COVID-19 time series by region and demographics",
@@ -3667,7 +5723,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - COVID-19 data (charts - summary, time series, and hospitalization by age)",
@@ -3681,7 +5745,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Summary by region",
@@ -3695,7 +5767,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Deaths by RSS (health region) and living environment",
@@ -3709,7 +5789,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Cases by RSS (health region) and RLS (local service network)",
@@ -3723,7 +5811,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Comparisons (provinces)",
@@ -3737,7 +5833,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Comparisons (countries)",
@@ -3751,7 +5855,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Deaths by RSS (health region) and number of pre-existing conditions",
@@ -3765,7 +5877,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - COVID-19 data by age group and sex",
@@ -3779,7 +5899,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Deaths time series by living environment",
@@ -3793,7 +5921,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Status report on confirmed cases and deaths by RPA",
@@ -3807,7 +5943,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Status report on confirmed cases and deaths by CHSLD",
@@ -3821,7 +5965,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Highlights - Public and Private School Systems (webpage FR)",
@@ -3835,7 +5987,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Highlights - Public and Private School Systems (webpage EN)",
@@ -3849,7 +6009,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Liste des écoles comptant des cas de COVID-19 (webpage FR)",
@@ -3863,7 +6031,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - List of schools reporting COVID-19 cases (webpage EN)",
@@ -3877,7 +6053,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - List of schools - public and private school system (CSV)",
@@ -3891,7 +6075,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - List of schools - public and private school system (PDF FR)",
@@ -3905,7 +6097,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - List of schools - public and private school system (PDF EN)",
@@ -3919,7 +6119,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Daily hospitalizations by RSS (health region) and care unit",
@@ -3933,7 +6141,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Daily hospitalizations by age group",
@@ -3947,7 +6163,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Montréal cases and deaths by CIUSSS (integrated health and social services centres)",
@@ -3963,7 +6187,15 @@
           "user": "True"
         },
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Montréal cases by area",
@@ -3979,7 +6211,15 @@
           "user": "True"
         },
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Montréal cases and deaths by age group",
@@ -3995,7 +6235,15 @@
           "user": "True"
         },
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Montréal cases and deaths by sex",
@@ -4011,7 +6259,15 @@
           "user": "True"
         },
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Montréal epidemic curve",
@@ -4027,7 +6283,15 @@
           "user": "True"
         },
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Montréal vaccination dashboard - Vaccine coverage by neighbourhood",
@@ -4041,7 +6305,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Montréal vaccination dashboard - Vaccine coverage by age group",
@@ -4055,7 +6327,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Montréal vaccination dashboard - Vaccine administration time series (v2)",
@@ -4069,7 +6349,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Montréal vaccination dashboard - Vaccine administration time series",
@@ -4083,7 +6371,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Montréal vaccination dashboard - Neighbourhoods",
@@ -4097,7 +6393,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Active hospitalizations per hospital",
@@ -4111,7 +6415,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       }
     ],
     "sk": [
@@ -4128,7 +6440,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "SK - Saskatchewan's Dashboard - Total Cases (webpage)",
@@ -4142,7 +6462,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "SK - Saskatchewan's Dashboard - Total Cases (highlights, charts, tables)",
@@ -4156,7 +6484,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "SK - Saskatchewan's Dashboard - Total Tests",
@@ -4171,7 +6507,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "SK - Saskatchewan's Dashboard - Total Tests (webpage)",
@@ -4185,7 +6529,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "SK - Saskatchewan's Dashboard - Total Tests (highlights, charts, tables)",
@@ -4199,7 +6551,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "SK - Saskatchewan's Dashboard - Hospitalized Cases",
@@ -4214,7 +6574,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "SK - Saskatchewan's Dashboard - Hospitalized Cases (webpage)",
@@ -4228,7 +6596,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "SK - Saskatchewan's Dashboard - Total Hospitalized Cases (highlights, charts, tables)",
@@ -4242,7 +6618,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "SK - Saskatchewan's Dashboard - Seven-day Average of Daily New Cases",
@@ -4257,7 +6641,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "SK - Saskatchewan's Dashboard - Seven-day Average of Daily New Cases (webpage)",
@@ -4271,7 +6663,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "SK - Saskatchewan's Dashboard - Seven-day Average of Daily New Cases (highlights, charts, tables)",
@@ -4285,7 +6685,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "SK - Cases and Risk of COVID-19 in Saskatchewan (webpage)",
@@ -4299,7 +6707,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "SK - Saskatchewan's Dashboard - Total Doses",
@@ -4314,7 +6730,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "SK - Total Doses (webpage)",
@@ -4328,7 +6752,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "SK - Saskatchewan's Dashboard - Total Doses (highlights, charts, tables)",
@@ -4342,7 +6774,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       }
     ],
     "yt": [
@@ -4358,7 +6798,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "YT - Current COVID-19 situation (webpage)",
@@ -4372,7 +6820,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "YT - Yukon Vaccine Tracker (webpage)",
@@ -4386,7 +6842,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       }
     ],
     "other/can": [
@@ -4402,7 +6866,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "Other: CAN - Unofficial COVID Alert Dashboard - Upload Delay",
@@ -4416,7 +6888,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "Other: CAN - McDonald's Tracker",
@@ -4432,7 +6912,15 @@
           "user": "True"
         },
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "Other: CAN - COVID-19 - Loblaw Companies Ltd.",
@@ -4446,7 +6934,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "Other: CAN - CTV Variant Tracker (webpage)",
@@ -4460,7 +6956,15 @@
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "Other: CAN - CTV Variant Tracker",
@@ -4474,7 +6978,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       }
     ],
     "other/qc": []
@@ -4493,7 +7005,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       }
   ],
     "bc": [
@@ -4509,7 +7029,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       }
     ],
     "can": [
@@ -4525,7 +7053,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Reported side effects following COVID-19 vaccination in Canada: AEFI weekly summary by serious event type (old)",
@@ -4539,7 +7075,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       }
     ],
     "mb": [],
@@ -4557,7 +7101,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NL - Cumulative vaccination 2",
@@ -4571,7 +7123,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NL - Dashboard Primary Health Care Zone populations",
@@ -4585,7 +7145,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       }
     ],
     "nt": [],
@@ -4604,7 +7172,15 @@
           "verify": "False"
         },
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NS - Nova Scotia COVID-19 Dashboard: Immunizations",
@@ -4618,7 +7194,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "NS - Nova Scotia COVID-19 Dashboard: Immunizations 2",
@@ -4632,7 +7216,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       }
     ],
     "nu": [],
@@ -4651,7 +7243,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - COVID-19 daily data 7 days (EN)",
@@ -4665,7 +7265,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Cumulative deaths by region (EN)",
@@ -4679,7 +7287,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Cases percentage by age group (EN)",
@@ -4693,7 +7309,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Deaths percentage by age group (EN)",
@@ -4707,7 +7331,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Recent daily cases by region (EN)",
@@ -4721,7 +7353,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Vaccination situation (EN)",
@@ -4735,7 +7375,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Vaccine doses administered by RSS (FR)",
@@ -4749,7 +7397,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Vaccination of priority groups (FR)",
@@ -4763,7 +7419,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "Vaccination of priority groups (EN)",
@@ -4777,7 +7441,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Highlights - public and private school system (FR)",
@@ -4791,7 +7463,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Highlights - public and private school system (EN)",
@@ -4805,7 +7485,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Variant Rt time series",
@@ -4819,7 +7507,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Projection of variant dominance",
@@ -4833,7 +7529,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "QC - Vaccination by age group",
@@ -4847,7 +7551,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       }
     ],
     "sk": [
@@ -4863,7 +7575,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "SK - Saskatchewan's Dashboard - Total Tests (highlights, charts, tables - legacy)",
@@ -4877,7 +7597,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "SK - Saskatchewan's Dashboard - Total Hospitalized Cases (highlights, charts, tables - legacy)",
@@ -4891,7 +7619,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "SK - Saskatchewan's Dashboard - Seven-day Average of Daily New Cases (highlights, charts, tables - legacy)",
@@ -4905,7 +7641,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       },
       {
         "id_name": "SK - Saskatchewan's Dashboard - Total Doses (highlights, charts, tables - legacy)",
@@ -4919,7 +7663,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       }
     ],
     "yt": [],
@@ -4936,7 +7688,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       }
     ],
     "other/qc": [
@@ -4952,7 +7712,15 @@
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
-        "metadata": {}
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "",
+          "meta_url_name": "",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": ""
+        },
+        "notes": {}
       }
     ]
   }
