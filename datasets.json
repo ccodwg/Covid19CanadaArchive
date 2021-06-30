@@ -3298,6 +3298,28 @@
     ],
     "nl": [
       {
+        "id_name": "NL - Newfoundland and Labrador COVID-19 Pandemic Update Hub (webpage)",
+        "uuid": "2abd9f2f-2cd2-4372-9c8d-40107aa925bf",
+        "active": "True",
+        "url": "https://covid-19-newfoundland-and-labrador-gnl.hub.arcgis.com/",
+        "dir_parent": "nl",
+        "dir_file": "nl-pandemic-hub-webpage",
+        "file_name": "nl-pandemic-hub-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://covid-19-newfoundland-and-labrador-gnl.hub.arcgis.com/",
+          "meta_url_name": "Newfoundland and Labrador COVID-19 Pandemic Update Hub",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Newfoundland and Labrador"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "NL - Dashboard province summary",
         "uuid": "8419f6f1-b80b-4247-84e5-6414ab0154d8",
         "active": "True",
