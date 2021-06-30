@@ -3307,7 +3307,10 @@
         "file_name": "nl-pandemic-hub-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -5650,7 +5653,10 @@
         "file_name": "insqp-data-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
