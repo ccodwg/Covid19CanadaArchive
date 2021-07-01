@@ -3564,7 +3564,9 @@
           "meta_licence_url": "",
           "meta_group_1": "Nova Scotia"
         },
-        "notes": {}
+        "notes": {
+          "notes_data": "Due to a technical error, there are no records of this file between 2021-01-28 and 20121-05-19."
+        }
       },
       {
         "id_name": "NS - Nova Scotia COVID-19 Dashboard: Zone summary cases",
