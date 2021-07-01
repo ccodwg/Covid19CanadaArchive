@@ -5935,6 +5935,50 @@
         "notes": {}
       },
       {
+        "id_name": "QC - Variant screening time series by RSS",
+        "uuid": "4124397b-aa1a-4ca0-9582-6fe278e04c64",
+        "active": "True",
+        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/variants-criblage.csv",
+        "dir_parent": "qc",
+        "dir_file": "variant-screening-time-series-by-rss",
+        "file_name": "variants-criblage",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Variant screening time series by RSS",
+          "meta_url": "https://inspq.qc.ca/covid-19/donnees/variants",
+          "meta_url_name": "Variants de SRAS-CoV-2 sous surveillance rehaussée",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Variant screening time series by RSS (expanded)",
+        "uuid": "73550d60-3d8f-473e-9d2d-0b915b46c231",
+        "active": "True",
+        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/variants-criblage-sem.csv",
+        "dir_parent": "qc",
+        "dir_file": "variant-screening-time-series-by-rss-expanded",
+        "file_name": "variants-criblage-sem",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Variant screening time series by RSS (expanded)",
+          "meta_url": "https://inspq.qc.ca/covid-19/donnees/variants",
+          "meta_url_name": "Variants de SRAS-CoV-2 sous surveillance rehaussée",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "QC - Éclosions de COVID-19 au Québec",
         "uuid": "32e70a1b-2d0a-47cc-b10c-57056a6b1244",
         "active": "True",
