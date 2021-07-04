@@ -5715,6 +5715,50 @@
         "notes": {}
       },
       {
+        "id_name": "QC - Historique du portrait quotidien des cas confirmés",
+        "uuid": "d546a7f6-27ac-4305-bad6-b04435211e79",
+        "active": "True",
+        "url": "https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_RapportINSPQ_HistoVigie.csv",
+        "dir_parent": "qc",
+        "dir_file": "cumulative-confirmed-cases-deaths-time-series",
+        "file_name": "COVID19_Qc_RapportINSPQ_HistoVigie",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cumulative time series of confirmed cases and deaths",
+          "meta_url": "https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-des-cas-confirmes",
+          "meta_url_name": "COVID-19 - Portrait quotidien des cas confirmés ",
+          "meta_licence": "CC-BY 4.0",
+          "meta_licence_url": "https://www.donneesquebec.ca/licence/#cc-by",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Portrait quotidien des cas confirmés répartis par région, groupe d’âge et sexe",
+        "uuid": "0c577d5e-999e-42c5-b4c1-66b3787c3a04",
+        "active": "True",
+        "url": "https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_RapportINSPQ_VigieCategories.csv",
+        "dir_parent": "qc",
+        "dir_file": "cumulative-confirmed-cases-deaths-by-region-age-sex",
+        "file_name": "COVID19_Qc_RapportINSPQ_VigieCategories",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cumulative snapshot of confirmed cases and deaths by region, age group and sex",
+          "meta_url": "https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-des-cas-confirmes",
+          "meta_url_name": "COVID-19 - Portrait quotidien des cas confirmés",
+          "meta_licence": "CC-BY 4.0",
+          "meta_licence_url": "https://www.donneesquebec.ca/licence/#cc-by",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "QC - Portrait des doses administrées par région d'administration (lieu de vaccination)",
         "uuid": "4e04442d-f372-4357-ba15-3b64f4e03fbe",
         "active": "True",
