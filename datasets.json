@@ -118,30 +118,6 @@
         }
       },
       {
-        "id_name": "AB - COVID-19 school status map",
-        "uuid": "ea13f1a2-9d97-43f9-8efa-83d123e7a1e4",
-        "active": "True",
-        "url": "https://www.alberta.ca/schools/covid-19-school-status-map.htm",
-        "dir_parent": "ab",
-        "dir_file": "school-status-by-region",
-        "file_name": "covid19dataexport-schools",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "ab_json_to_csv": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "School status map",
-          "meta_url": "https://www.alberta.ca/schools/covid-19-school-status-map.htm",
-          "meta_url_name": "COVID-19 school status map",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Alberta"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "AB - Cases in Alberta (webpage)",
         "uuid": "d3b170a7-bb86-4bb0-b362-2adc5e6438c2",
         "active": "True",
@@ -7280,6 +7256,30 @@
           "meta_name": "Vaccine data (Zone)",
           "meta_url": "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm",
           "meta_url_name": "COVID-19 Alberta statistics",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Alberta"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "AB - COVID-19 school status map",
+        "uuid": "ea13f1a2-9d97-43f9-8efa-83d123e7a1e4",
+        "active": "False",
+        "url": "https://www.alberta.ca/schools/covid-19-school-status-map.htm",
+        "dir_parent": "ab",
+        "dir_file": "school-status-by-region",
+        "file_name": "covid19dataexport-schools",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "ab_json_to_csv": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "School status map",
+          "meta_url": "https://www.alberta.ca/schools/covid-19-school-status-map.htm",
+          "meta_url_name": "COVID-19 school status map",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Alberta"
