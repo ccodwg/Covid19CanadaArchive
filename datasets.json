@@ -5646,13 +5646,13 @@
         "notes": {}
       },
       {
-        "id_name": "QC - Données COVID-19 au Québec",
+        "id_name": "QC - Données COVID-19 au Québec (INSPQ webpage)",
         "uuid": "09e6e683-7f58-48dd-8a5b-b33203124d66",
         "active": "True",
         "url": "https://www.inspq.qc.ca/covid-19/donnees",
         "dir_parent": "qc",
-        "dir_file": "insqp-data-webpage",
-        "file_name": "insqp-data-webpage",
+        "dir_file": "inspq-data-webpage",
+        "file_name": "inspq-data-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
         "args": {
