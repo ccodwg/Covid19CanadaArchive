@@ -74,7 +74,7 @@ for g in g1:
   if len(g2) != 0:
     g2.sort() # alphabetical order
     for h in g2:
-      txt = txt + '#### ' + h + '\n\n'
+      txt = txt + '\n#### ' + h + '\n\n'
       dh = {k:dg[k] for k in dg.keys() if dg[k]['metadata'].get('meta_group_2') == h}
       txt = meta_items(dh, txt)
   ## add line break
