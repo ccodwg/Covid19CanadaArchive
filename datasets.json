@@ -6574,20 +6574,20 @@
         },
         "notes": {}
       },
-      {
-        "id_name": "QC - Montréal vaccination dashboard - Vaccine coverage by age group",
-        "uuid": "8bb12f2e-1187-4bf3-9571-186d2371db5d",
+       {
+        "id_name": "QC - Montréal vaccination dashboard - Vaccine coverage by age group (2)",
+        "uuid": "1624bc0b-6ea6-4bd9-9c4b-c3f6d125d578",
         "active": "True",
-        "url": "https://services5.arcgis.com/pBN1lh7yaF4K7Tod/arcgis/rest/services/VAXparGrpAGE_CSVupload/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "url": "https://services5.arcgis.com/pBN1lh7yaF4K7Tod/arcgis/rest/services/VAXparGrpAGE_CSVuploadv2/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
         "dir_parent": "qc",
-        "dir_file": "montreal-vaccine-coverage-by-age-group",
-        "file_name": "VAXparGrpAGE_CSVupload",
+        "dir_file": "montreal-vaccine-coverage-by-age-group-2",
+        "file_name": "VAXparGrpAGE_CSVuploadv2",
         "file_ext": "json",
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Vaccine coverage by age group",
+          "meta_name": "Vaccine coverage by age group (2)",
           "meta_url": "https://santemontreal.qc.ca/population/coronavirus-covid-19/vaccination/donnees/",
           "meta_url_name": "Données sur la vaccination COVID-19 à Montréal",
           "meta_licence": "",
@@ -6598,7 +6598,7 @@
         "notes": {}
       },
       {
-        "id_name": "QC - Montréal vaccination dashboard - Vaccine administration time series",
+        "id_name": "QC - Montréal vaccination dashboard - Vaccine administration time series (2)",
         "uuid": "f921c384-42f4-4ca1-8754-a820005f574f",
         "active": "True",
         "url": "https://services5.arcgis.com/pBN1lh7yaF4K7Tod/arcgis/rest/services/VAXparJOUR_CSVuploadv2/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
@@ -8084,6 +8084,29 @@
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Montréal vaccination dashboard - Vaccine coverage by age group",
+        "uuid": "8bb12f2e-1187-4bf3-9571-186d2371db5d",
+        "active": "False",
+        "url": "https://services5.arcgis.com/pBN1lh7yaF4K7Tod/arcgis/rest/services/VAXparGrpAGE_CSVupload/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "qc",
+        "dir_file": "montreal-vaccine-coverage-by-age-group",
+        "file_name": "VAXparGrpAGE_CSVupload",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine coverage by age group",
+          "meta_url": "https://santemontreal.qc.ca/population/coronavirus-covid-19/vaccination/donnees/",
+          "meta_url_name": "Données sur la vaccination COVID-19 à Montréal",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec",
+          "meta_group_2": "Montreal"
         },
         "notes": {}
       }
