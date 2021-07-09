@@ -4534,6 +4534,28 @@
         "notes": {}
       },
       {
+        "id_name": "ON - ICES dashboard map and list of Forward Sortation Areas (FSAs) by neighbourhood risk group",
+        "uuid": "",
+        "active": "True",
+        "url": "https://www.ices.on.ca/~/media/Files/COVID-19/ICES-COVID19-Dashboard-Neighbourhood-Risk-Groups-Reference-File.ashx?la=en-CA",
+        "dir_parent": "on",
+        "dir_file": "ices-fsa-by-neighbourhood-risk-group",
+        "file_name": "ICES-COVID19-Dashboard-Neighbourhood-Risk-Groups-Reference-File",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Map and list of Forward Sortation Areas (FSAs) by neighbourhood risk group",
+          "meta_url": "https://www.ices.on.ca/DAS/AHRQ/COVID-19-Dashboard",
+          "meta_url_name": "ICES COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - ICES dashboard vaccine coverage estimates for selected age groups by FSA",
         "uuid": "cd168371-86f5-41f3-9555-580cd50f9b3a",
         "active": "True",
@@ -4547,6 +4569,28 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccine coverage estimates for selected age groups by FSA",
+          "meta_url": "https://www.ices.on.ca/DAS/AHRQ/COVID-19-Dashboard",
+          "meta_url_name": "ICES COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - ICES dashboard vaccine coverage estimates by priority groups",
+        "uuid": "ba6788e6-b1d9-4e9f-a65b-16d7c100044f",
+        "active": "True",
+        "url": "https://www.ices.on.ca/~/media/Files/COVID-19/ICES-COVID19-Vaccine-Coverage-by-Priority-Group.ashx?la=en-CA",
+        "dir_parent": "on",
+        "dir_file": "ices-vaccine-coverage-by-priority-group",
+        "file_name": "ICES-COVID19-Vaccine-Coverage-by-Priority-Group",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine coverage estimates by priority groups",
           "meta_url": "https://www.ices.on.ca/DAS/AHRQ/COVID-19-Dashboard",
           "meta_url_name": "ICES COVID-19 Dashboard",
           "meta_licence": "",
