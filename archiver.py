@@ -129,6 +129,9 @@ for key in ds:
         ### user (dl_file, html_page, ss_page)
         if 'user' in ds[key]['args']:
                 ds[key]['args']['user'] = arg_bool('user')
+        ### rand_url (dl_file)
+        if 'rand_url' in ds[key]['args']:
+                ds[key]['args']['rand_url'] = arg_bool('rand_url')
         ### verify (dl_file)
         if 'verify' in ds[key]['args']:
                 ds[key]['args']['verify'] = arg_bool('verify')

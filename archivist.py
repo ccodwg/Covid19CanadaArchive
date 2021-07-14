@@ -240,7 +240,7 @@ def upload_log(log):
 
 ## functions for web scraping
 
-def dl_file(url, dir_parent, dir_file, file, ext='.csv', user=False, verify=True, unzip=False, ab_json_to_csv=False, mb_json_to_csv=False):
+def dl_file(url, dir_parent, dir_file, file, ext='.csv', user=False, rand_url=False, verify=True, unzip=False, ab_json_to_csv=False, mb_json_to_csv=False):
     """Download file (generic).
 
     Used to download most file types (when Selenium is not required). Some files are handled with file-specific code:
@@ -256,6 +256,7 @@ def dl_file(url, dir_parent, dir_file, file, ext='.csv', user=False, verify=True
     file (str): Output file name (excluding extension). Example: 'covid19'
     ext (str): Extension of the output file. Defaults to '.csv'.
     user (bool): Should the request impersonate a normal browser? Needed to access some data. Default: False.
+    rand_url(bool): Should the URL have a number appended as a parameter to prevent caching? Default: False.
     verify (bool): If False, requests will skip SSL verification. Default: True.
     unzip (bool): If True, this file requires unzipping. Default: False.
     ab_json_to_csv (bool): If True, this is an Alberta JSON file embedded in a webpage that should be converted to CSV. Default: False.
@@ -270,13 +271,21 @@ def dl_file(url, dir_parent, dir_file, file, ext='.csv', user=False, verify=True
 
     ## download file
     try:
+
+        ## add no-cache headers
+        headers = {"Cache-Control": "no-cache", "Pragma": "no-cache"}
+
         ## some websites will reject the request unless you look like a normal web browser
         ## user is True provides a normal-looking user agent string to bypass this
         if user is True:
-            headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0"}
-            req = requests.get(url, headers=headers, verify=verify)
-        else:
-            req = requests.get(url, verify=verify)
+            headers["User-Agent"] = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0"
+
+        ## add random number to url to prevent caching, if requested
+        if rand_url is True:
+            url = url + "?randNum=" + str(int(datetime.now().timestamp()))
+
+        ## request URL
+        req = requests.get(url, headers=headers, verify=verify)
 
         ## check if request was successful
         if not req.ok:
