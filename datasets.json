@@ -5700,7 +5700,9 @@
         "file_name": "vaccination",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "rand_url": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination by RSS time series",
@@ -5722,7 +5724,9 @@
         "file_name": "vaccination-mci",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "rand_url": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Cumulative vaccination adverse events by vaccine type",
@@ -5986,7 +5990,9 @@
         "file_name": "variants",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "rand_url": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Variants under enhanced surveillance",
@@ -6008,7 +6014,9 @@
         "file_name": "variants-criblage",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "rand_url": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Variant screening time series by RSS (cumulative)",
@@ -6030,7 +6038,9 @@
         "file_name": "variants-criblage-sem",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "rand_url": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Variant screening time series by RSS (weekly)",
@@ -6052,7 +6062,9 @@
         "file_name": "eclosions",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "rand_url": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Dataset",
@@ -6074,7 +6086,9 @@
         "file_name": "covid19-hist",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "rand_url": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Time series by region and demographics",
@@ -6096,7 +6110,9 @@
         "file_name": "manual-data",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "rand_url": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Charts - summary, time series, and hospitalization by age",
@@ -6118,7 +6134,9 @@
         "file_name": "regions",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "rand_url": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Summary by region",
@@ -6140,7 +6158,9 @@
         "file_name": "tableau-rpa-new",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "rand_url": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Deaths by RSS (health region) and living environment",
@@ -6162,7 +6182,9 @@
         "file_name": "tableau-rls-new",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "rand_url": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Cases by RSS (health region) and RLS (local service network)",
@@ -6184,7 +6206,9 @@
         "file_name": "comparaisons_prov",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "rand_url": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Comparisons (provinces)",
@@ -6206,7 +6230,9 @@
         "file_name": "comparaisons_pays",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "rand_url": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Comparisons (countries)",
@@ -6228,7 +6254,9 @@
         "file_name": "comorbidite",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "rand_url": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Deaths by RSS (health region) and number of pre-existing conditions",
@@ -6250,7 +6278,9 @@
         "file_name": "PL_AGE_SEXE",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "rand_url": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Dataset",
