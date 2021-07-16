@@ -5576,102 +5576,6 @@
         "notes": {}
       },
       {
-        "id_name": "QC - Recent daily cases by region (FR)",
-        "uuid": "939189e0-b7bb-4e8c-b71a-b0b9311b7233",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/cas-region.csv",
-        "dir_parent": "qc",
-        "dir_file": "recent-daily-cases-by-region",
-        "file_name": "cas-region",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Recent daily cases by region (FR)",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
-          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - COVID-19 daily data 7 days (FR)",
-        "uuid": "0be2f53a-f8de-4815-b031-04112e852936",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/synthese-7jours.csv",
-        "dir_parent": "qc",
-        "dir_file": "covid-data-daily-7-days",
-        "file_name": "synthese-7jours",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "COVID-19 daily data 7 days (FR)",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
-          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Cases by region 7 days (FR)",
-        "uuid": "090ef3a6-d22a-4db4-9f09-c06d03cbc463",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/apercu/cas-region-7jours.csv",
-        "dir_parent": "qc",
-        "dir_file": "cases-by-region-7-days",
-        "file_name": "cas-region-7jours",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases by region 7 days (FR)",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
-          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Cases by region 7 days (EN)",
-        "uuid": "2d3d8aff-813e-4cd5-81f5-b5984c0aa057",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/cas-region-7jours-en.csv",
-        "dir_parent": "qc",
-        "dir_file": "cases-by-region-7-days-en",
-        "file_name": "cas-region-7jours-en",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases by region 7 days (EN)",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
-          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "QC - Deaths time series by living environment",
         "uuid": "d7f9cb92-a83a-4cd3-b955-762410b2cf5c",
         "active": "True",
@@ -7874,6 +7778,30 @@
         "notes": {}
       },
       {
+        "id_name": "QC - COVID-19 daily data 7 days (FR)",
+        "uuid": "0be2f53a-f8de-4815-b031-04112e852936",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/synthese-7jours.csv",
+        "dir_parent": "qc",
+        "dir_file": "covid-data-daily-7-days",
+        "file_name": "synthese-7jours",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID-19 daily data 7 days (FR)",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "QC - COVID-19 daily data 7 days (EN)",
         "uuid": "bc538f7e-9f2a-43a1-a6f2-0bf1830acd41",
         "active": "False",
@@ -7887,6 +7815,54 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "COVID-19 daily data 7 days (EN)",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Cases by region 7 days (FR)",
+        "uuid": "090ef3a6-d22a-4db4-9f09-c06d03cbc463",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/apercu/cas-region-7jours.csv",
+        "dir_parent": "qc",
+        "dir_file": "cases-by-region-7-days",
+        "file_name": "cas-region-7jours",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases by region 7 days (FR)",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Cases by region 7 days (EN)",
+        "uuid": "2d3d8aff-813e-4cd5-81f5-b5984c0aa057",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/cas-region-7jours-en.csv",
+        "dir_parent": "qc",
+        "dir_file": "cases-by-region-7-days-en",
+        "file_name": "cas-region-7jours-en",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases by region 7 days (EN)",
           "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
           "meta_url_name": "Données sur la COVID-19 au Québec (province)",
           "meta_licence": "",
@@ -7953,6 +7929,30 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Deaths percentage by age group (EN)",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Recent daily cases by region (FR)",
+        "uuid": "939189e0-b7bb-4e8c-b71a-b0b9311b7233",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/cas-region.csv",
+        "dir_parent": "qc",
+        "dir_file": "recent-daily-cases-by-region",
+        "file_name": "cas-region",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Recent daily cases by region (FR)",
           "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
           "meta_url_name": "Données sur la COVID-19 au Québec (province)",
           "meta_licence": "",
