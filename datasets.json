@@ -1448,7 +1448,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - Vaccines administered: Vaccination administration update date",
+        "id_name": "CAN - Vaccines administered: Vaccination administration (update date)",
         "uuid": "928819e8-000d-4428-b2b2-5710f69f8980",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-administration-updateDate.csv",
@@ -1460,7 +1460,7 @@
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Vaccination administration update date",
+          "meta_name": "Vaccination administration (update date)",
           "meta_url": "https://health-infobase.canada.ca/covid-19/vaccine-administration/",
           "meta_url_name": "COVID-19 vaccination in Canada - Vaccines administered",
           "meta_licence": "",
@@ -1483,6 +1483,28 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination distribution",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccine-administration/",
+          "meta_url_name": "COVID-19 vaccination in Canada - Vaccines administered",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Vaccines distributed: Vaccination distribution (update date)",
+        "uuid": "2c570a5b-9824-4d9f-b83d-9cdec98ce53e",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-distribution-updateDate.csv",
+        "dir_parent": "can",
+        "dir_file": "vaccination-distribution-update-date",
+        "file_name": "vaccination-distribution-updateDate",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination distribution (update date)",
           "meta_url": "https://health-infobase.canada.ca/covid-19/vaccine-administration/",
           "meta_url_name": "COVID-19 vaccination in Canada - Vaccines administered",
           "meta_licence": "",
