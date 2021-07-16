@@ -832,7 +832,55 @@
     ],
     "can": [
       {
-        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Epidemiology update)",
+        "id_name": "CAN - COVID-19 daily epidemiology update (English report)",
+        "uuid": "1f990350-18f9-4cc4-baf2-9ed3c86ecf8e",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/Epidemiological-summary-of-COVID-19-cases-in-Canada-Canada.ca.pdf",
+        "dir_parent": "can",
+        "dir_file": "phac-daily-epidemiology-update-report-english",
+        "file_name": "Epidemiological-summary-of-COVID-19-cases-in-Canada-Canada.ca",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Report (English)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
+          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {
+          "notes_misc": "This is a PDF version of COVID-19 daily epidemiology webpage (English) from PHAC."
+        }
+      },
+      {
+        "id_name": "CAN - Mise à jour quotidienne sur l’épidémiologie de laCOVID-19 (French report)",
+        "uuid": "5067ddb4-c90a-423e-bd09-77c43e1b2a2c",
+        "active": "True",
+        "url": "https://sante-infobase.canada.ca/src/data/covidLive/Resume-epidemiologique-des-cas-de-COVID-19-au-Canada.pdf",
+        "dir_parent": "can",
+        "dir_file": "phac-daily-epidemiology-update-report-french",
+        "file_name": "Resume-epidemiologique-des-cas-de-COVID-19-au-Canada",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Report (French)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
+          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {
+          "notes_misc": "This is a PDF version of COVID-19 daily epidemiology webpage (French) from PHAC."
+        }
+      },
+      {
+        "id_name": "CAN - COVID-19 daily epidemiology update (Epidemiology update)",
         "uuid": "5bd8bfe4-b332-4bc6-90ad-fec7ec7f9cfb",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19.csv",
@@ -854,7 +902,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Epidemiology update - as above but different date format)",
+        "id_name": "CAN - COVID-19 daily epidemiology update (Epidemiology update - as above but different date format)",
         "uuid": "f7db31d0-6504-4a55-86f7-608664517bdb",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-download.csv",
@@ -876,7 +924,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Epidemiology summary statements)",
+        "id_name": "CAN - COVID-19 daily epidemiology update (Epidemiology summary statements)",
         "uuid": "820115eb-18ff-4886-8c70-210a9702223b",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-statements.csv",
@@ -898,7 +946,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (NML summary)",
+        "id_name": "CAN - COVID-19 daily epidemiology update (NML summary)",
         "uuid": "35e7a1b6-51b5-47a9-8cec-7bb11e37d52b",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-NML.csv",
@@ -920,7 +968,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (NML weekly testing)",
+        "id_name": "CAN - COVID-19 daily epidemiology update (NML weekly testing)",
         "uuid": "8d8d6c9a-fc01-467f-85f2-8ee9cb6e50a6",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/NML_weekly_testing.csv",
@@ -942,7 +990,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Lab indicators)",
+        "id_name": "CAN - COVID-19 daily epidemiology update (Lab indicators)",
         "uuid": "366ce221-c1c9-4f41-a917-8ff4648f6a40",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-labIndicators.csv",
@@ -964,7 +1012,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Number of cases with detailed case report data)",
+        "id_name": "CAN - COVID-19 daily epidemiology update (Number of cases with detailed case report data)",
         "uuid": "6ea77a66-d8e5-4989-824d-403db4bfbda5",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-nTotal.csv",
@@ -986,7 +1034,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Cases and deaths by health region time series)",
+        "id_name": "CAN - COVID-19 daily epidemiology update (Cases and deaths by health region time series)",
         "uuid": "746c01f3-e597-4413-89e0-afa561bf81d8",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/file_out_v5.csv",
@@ -1008,7 +1056,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Health region UID table)",
+        "id_name": "CAN - COVID-19 daily epidemiology update (Health region UID table)",
         "uuid": "493a59b8-3417-458e-b846-0531b1652940",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-healthregions-hruid.csv",
@@ -1030,7 +1078,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Cases by exposure setting time series)",
+        "id_name": "CAN - COVID-19 daily epidemiology update (Cases by exposure setting time series)",
         "uuid": "558ccc64-799f-4329-95a4-f944dac21eb1",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesovertime.csv",
@@ -1052,7 +1100,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Epidemic curve by date of illness onset by age group)",
+        "id_name": "CAN - COVID-19 daily epidemiology update (Epidemic curve by date of illness onset by age group)",
         "uuid": "a2d8ad51-d0f8-4313-8542-d56e4638671b",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-epiCurveByAge.csv",
@@ -1074,7 +1122,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Severity by age group and sex)",
+        "id_name": "CAN - COVID-19 daily epidemiology update (Severity by age group and sex)",
         "uuid": "c66b12ae-3bcc-4c03-a4ad-a914f35aa842",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-severityUpdate.csv",
@@ -1096,7 +1144,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Cases by severity)",
+        "id_name": "CAN - COVID-19 daily epidemiology update (Cases by severity)",
         "uuid": "768d81a5-ca7c-4546-8b0c-60428e8af0fb",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-severity.csv",
@@ -1118,7 +1166,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Cases by age group and sex)",
+        "id_name": "CAN - COVID-19 daily epidemiology update (Cases by age group and sex)",
         "uuid": "24dae553-09d3-4c5a-a3f9-c01fefb1b710",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-agegroups2.csv",
@@ -1140,7 +1188,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Cases by probable exposure setting)",
+        "id_name": "CAN - COVID-19 daily epidemiology update (Cases by probable exposure setting)",
         "uuid": "9c8fc3bf-b5ec-4c56-bb8e-add6c71ddf41",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-probableexposure2.csv",
@@ -1162,7 +1210,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Cases by probable expsoure setting by province)",
+        "id_name": "CAN - COVID-19 daily epidemiology update (Cases by probable expsoure setting by province)",
         "uuid": "a29a2831-8a45-49ba-8359-a87c59029185",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-exposureByPT.csv",
@@ -1184,7 +1232,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Symptoms summary)",
+        "id_name": "CAN - COVID-19 daily epidemiology update (Symptoms summary)",
         "uuid": "36a34be2-12ad-4d4c-8a24-95435117aec9",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-symptoms.csv",
@@ -1206,7 +1254,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Hospitalizations, intensive care unit (ICU), mechanical ventilation)",
+        "id_name": "CAN - COVID-19 daily epidemiology update (Hospitalizations, intensive care unit (ICU), mechanical ventilation)",
         "uuid": "f1e1a857-fab8-4c25-a132-f474fab93622",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-hospVentICU.csv",
@@ -1228,7 +1276,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Cases on First Nations reserves)",
+        "id_name": "CAN - COVID-19 daily epidemiology update (Cases on First Nations reserves)",
         "uuid": "d94b5520-3a90-41e9-bda7-0a1b74581751",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-isc.csv",
@@ -1250,7 +1298,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Variants of concern time series by province)",
+        "id_name": "CAN - COVID-19 daily epidemiology update (Variants of concern time series by province)",
         "uuid": "b85a2935-4db8-46ab-83bf-4ed67abd6514",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-voc.csv",
@@ -1272,7 +1320,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 Situational Awareness Dashboard (Situational awareness dashboard update time)",
+        "id_name": "CAN - COVID-19 daily epidemiology update (Situational awareness dashboard update time)",
         "uuid": "8676ed3d-91e3-417c-85fb-93b40e44aad6",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-updateTime.csv",
