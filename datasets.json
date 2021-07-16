@@ -1360,6 +1360,50 @@
         "notes": {}
       },
       {
+        "id_name": "CAN - Health region information",
+        "uuid": "f6dee7fa-172c-46d0-808a-e39db52de08f",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/hr_websites.csv",
+        "dir_parent": "can",
+        "dir_file": "health-region-info",
+        "file_name": "hr_websites",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Health region information",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/covidtrends/",
+          "meta_url_name": "COVIDTrends",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Census district to health region correspondence",
+        "uuid": "e4e13eb5-9dd3-4c8c-bf12-ed873419278a",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/censusdistricts.csv",
+        "dir_parent": "can",
+        "dir_file": "census-district-to-health-region-correspondence",
+        "file_name": "censusdistricts",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Census district to health region correspondence",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/covidtrends/",
+          "meta_url_name": "COVIDTrends",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "CAN - Vaccines and treatments for COVID-19: Vaccine rollout (webpage)",
         "uuid": "fa3f2917-6553-438c-9a6f-2af8d077f47f",
         "active": "True",
@@ -1637,6 +1681,28 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination coverage by province",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
+          "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Vaccination coverage: Vaccination coverage by province (update date)",
+        "uuid": "d5926bea-ddf4-4915-bd0c-c75b6040681c",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-updateDate.csv",
+        "dir_parent": "can",
+        "dir_file": "vaccination-coverage-by-prov-update-date",
+        "file_name": "vaccination-coverage-updateDate",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination coverage by province (update date)",
           "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
           "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
           "meta_licence": "",
