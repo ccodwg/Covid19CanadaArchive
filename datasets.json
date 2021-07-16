@@ -301,6 +301,28 @@
         "notes": {}
       },
       {
+        "id_name": "BC - BC COVID-19 Data (COVID cases, test positivity and vaccine coverage by Community Health Service Area and Local Health Area)",
+        "uuid": "f4094cca-9f58-4fd6-a1f9-b57ef01d1c14",
+        "active": "True",
+        "url": "hhttp://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_LHA_CHSA_Data.xlsx?Web=1",
+        "dir_parent": "bc",
+        "dir_file": "case-testing-vaccine-summary-by-CHSA-and-LHA",
+        "file_name": "BCCDC_COVID19_LHA_CHSA_Data",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Case, testing, vaccine summary by CHSA and LHA",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
+          "meta_url_name": "BC COVID-19 Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "BC - BC COVID-19 Data (VOC time series by RHA 2)",
         "uuid": "ef3c3ec9-daa0-4dc7-836a-928a9621395a",
         "active": "True",
