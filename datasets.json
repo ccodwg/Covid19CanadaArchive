@@ -243,7 +243,7 @@
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "",
+          "meta_name": "Case data",
           "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
           "meta_url_name": "BC COVID-19 Data",
           "meta_licence": "",
@@ -267,7 +267,7 @@
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "",
+          "meta_name": "Laboratory data",
           "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
           "meta_url_name": "BC COVID-19 Data",
           "meta_licence": "",
@@ -291,7 +291,7 @@
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "",
+          "meta_name": "Regional data",
           "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
           "meta_url_name": "BC COVID-19 Data",
           "meta_licence": "",
@@ -335,7 +335,7 @@
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "",
+          "meta_name": "VOC time series by RHA (2)",
           "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
           "meta_url_name": "BC COVID-19 Data",
           "meta_licence": "",
