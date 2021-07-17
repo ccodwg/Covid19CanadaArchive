@@ -924,7 +924,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Epidemiology update - as above but different date format)",
+        "id_name": "CAN - COVID-19 daily epidemiology update (Epidemiology update - as above but YYYY-MM-DD format)",
         "uuid": "f7db31d0-6504-4a55-86f7-608664517bdb",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-download.csv",
@@ -937,6 +937,50 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "National overview (YYYY-MM-DD)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
+          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 daily epidemiology update (Epidemiology update - JSON format)",
+        "uuid": "9b91c562-449a-4e9d-a389-353adfb44e64",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19.json",
+        "dir_parent": "can",
+        "dir_file": "epidemiology-update-json",
+        "file_name": "covid19",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "National overview (YYYY-MM-DD, JSON)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
+          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 daily epidemiology update (Epidemiology update - Data dictionary)",
+        "uuid": "402ed3b8-f02e-40d3-b2c8-8f9384b79475",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-data-dictionary.csv",
+        "dir_parent": "can",
+        "dir_file": "epidemiology-update-data-dictionary",
+        "file_name": "covid19-data-dictionary",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "National overview (data dictionary)",
           "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
           "meta_url_name": "COVID-19 daily epidemiology update",
           "meta_licence": "",
