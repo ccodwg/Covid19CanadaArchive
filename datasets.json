@@ -5823,7 +5823,9 @@
           "meta_licence_url": "",
           "meta_group_1": "Quebec"
         },
-        "notes": {}
+        "notes": {
+          "notes_data": "Note that when there are no cases in this living environment, a report is not produced (and thus the file is absent)."
+        }
       },
       {
         "id_name": "QC - Status report on confirmed cases and deaths by CHSLD",
@@ -5847,7 +5849,9 @@
           "meta_licence_url": "",
           "meta_group_1": "Quebec"
         },
-        "notes": {}
+        "notes": {
+          "notes_data": "Note that when there are no cases in this living environment, a report is not produced (and thus the file is absent)."
+        }
       },
       {
         "id_name": "QC - Active hospitalizations per hospital",
