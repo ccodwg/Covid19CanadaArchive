@@ -1320,6 +1320,72 @@
         "notes": {}
       },
       {
+        "id_name": "CAN - COVID-19 daily epidemiology update (Variant prevalence time series)",
+        "uuid": "909a7c17-2773-4536-add4-717b59deea4c",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-variants.csv",
+        "dir_parent": "can",
+        "dir_file": "variant-prevalence-time-series",
+        "file_name": "covid19-epiSummary-variants",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Variant prevalence time series",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
+          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 daily epidemiology update (Variant sample size time series)",
+        "uuid": "37c33067-66bd-418d-bda7-0a8ba8c8f239",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-variants-sampleSize.csv",
+        "dir_parent": "can",
+        "dir_file": "variant-sample-size-time-series",
+        "file_name": "covid19-epiSummary-variants-sampleSize",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Variant sample size time series",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
+          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 daily epidemiology update (Variant contributing labs)",
+        "uuid": "1f38590d-2bc1-4dbb-8910-643c5c180dc6",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-variants-contributingLabs.csv",
+        "dir_parent": "can",
+        "dir_file": "variant-contributing-labs",
+        "file_name": "covid19-epiSummary-variants-contributingLabs",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Variant contributing labs",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
+          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "CAN - COVID-19 daily epidemiology update (Variants of concern time series by province)",
         "uuid": "b85a2935-4db8-46ab-83bf-4ed67abd6514",
         "active": "True",
@@ -1342,7 +1408,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Situational awareness dashboard update time)",
+        "id_name": "CAN - COVID-19 daily epidemiology update (Update time)",
         "uuid": "8676ed3d-91e3-417c-85fb-93b40e44aad6",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-updateTime.csv",
@@ -1354,7 +1420,7 @@
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Situational awareness dashboard update time",
+          "meta_name": "Update time",
           "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
           "meta_url_name": "COVID-19 daily epidemiology update",
           "meta_licence": "",
