@@ -304,7 +304,7 @@
         "id_name": "BC - BC COVID-19 Data (COVID cases, test positivity and vaccine coverage by Community Health Service Area and Local Health Area)",
         "uuid": "f4094cca-9f58-4fd6-a1f9-b57ef01d1c14",
         "active": "True",
-        "url": "hhttp://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_LHA_CHSA_Data.xlsx?Web=1",
+        "url": "http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_LHA_CHSA_Data.xlsx?Web=1",
         "dir_parent": "bc",
         "dir_file": "case-testing-vaccine-summary-by-CHSA-and-LHA",
         "file_name": "BCCDC_COVID19_LHA_CHSA_Data",
