@@ -6291,6 +6291,30 @@
         "notes": {}
       },
       {
+        "id_name": "QC - Delta variant screening time series (weekly)",
+        "uuid": "230d0e5e-58cf-4a39-b75d-429351160c4a",
+        "active": "True",
+        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/variant-delta.csv",
+        "dir_parent": "qc",
+        "dir_file": "variant-delta-time-series-weekly",
+        "file_name": "variant-delta",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Delta variant screening time series (weekly)",
+          "meta_url": "https://inspq.qc.ca/covid-19/donnees/variants",
+          "meta_url_name": "Variants de SRAS-CoV-2 sous surveillance rehaussée",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "QC - Éclosions de COVID-19 au Québec",
         "uuid": "32e70a1b-2d0a-47cc-b10c-57056a6b1244",
         "active": "True",
