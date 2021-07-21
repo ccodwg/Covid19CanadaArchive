@@ -4127,6 +4127,28 @@
           "meta_group_1": "Nunavut"
         },
         "notes": {}
+      },
+      {
+        "id_name": "NU - COVID-19 Exposure Notices (webpage)",
+        "uuid": "ef9003cc-e55f-433f-9e9b-0f2d32a5ccbb",
+        "active": "True",
+        "url": "https://www.gov.nu.ca/health/information/covid-19-exposure-notices",
+        "dir_parent": "nu",
+        "dir_file": "nunavut-exposure-notices-webpage",
+        "file_name": "nunavut-exposure-notices-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.gov.nu.ca/health/information/covid-19-exposure-notices",
+          "meta_url_name": "COVID-19 Exposure Notices",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Nunavut"
+        },
+        "notes": {}
       }
     ],
     "on": [
