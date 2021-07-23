@@ -2046,7 +2046,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - Reported side effects following COVID-19 vaccination in Canada: AEFI weekly reports by event type",
+        "id_name": "CAN - Reported side effects following COVID-19 vaccination in Canada: AEFI weekly reports by event category and vaccine type",
         "uuid": "089ebabf-2062-4e24-ace3-0251b7c1dc5b",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccine-safety/vaccine-safety-AEFI-figure.csv",
@@ -2058,7 +2058,29 @@
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "AEFI weekly reports by event type",
+          "meta_name": "AEFI weekly reports by event category and vaccine type",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccine-safety/",
+          "meta_url_name": "Reported side effects following COVID-19 vaccination in Canada",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Reported side effects following COVID-19 vaccination in Canada: AESI weekly reports by event category and vaccine type",
+        "uuid": "2963f1d0-fa5f-4a88-a294-4ab04396b0dc",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccine-safety/vaccine-safety-AESIs-table.csv",
+        "dir_parent": "can",
+        "dir_file": "aesi-weekly-reports-by-category-and-vaccine-type",
+        "file_name": "vaccine-safety-AESIs-table",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "AESI weekly reports by event category and vaccine type",
           "meta_url": "https://health-infobase.canada.ca/covid-19/vaccine-safety/",
           "meta_url_name": "Reported side effects following COVID-19 vaccination in Canada",
           "meta_licence": "",
