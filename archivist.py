@@ -7,6 +7,7 @@
 ## core utilities
 import sys
 import os
+import argparse
 import re
 import time
 from datetime import datetime, timedelta
@@ -39,19 +40,25 @@ import smtplib
 
 ## misc functions
 
-def set_mode(run_args=sys.argv, manual=None):
-    global mode
-    print('Setting run mode...')
-    if manual is None:
-        if len(run_args) == 2 and run_args[1] == 'prod':
-            mode = 'prod'
-        elif len(run_args) == 2 and run_args[1] == 'test':
-            mode = 'test'
-        else:
-            sys.exit('Error: Invalid arguments.')
-    else:
-        mode=manual
+def parse_args(run_args=sys.argv, manual=None):
+    global mode, uuid
+    
+    # initialize parser with arguments
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-m", "--mode", choices = ['test', 'prod'], required = True, help = "Run mode: prod or test")
+    parser.add_argument("--uuid", nargs = '+', required = False, help = "Specify UUIDs of individual datasets to download")
+    args = parser.parse_args()
+    
+    # set run mode
+    mode = args.mode
     print('Run mode set to ' + mode + '.')
+    
+    # report datasets to be downloaded
+    uuid = args.uuid
+    if uuid:
+        print('Specified datasets: ', ', '.join(uuid))
+    else:
+        print('No datasets specified. Downloading all datasets...')
 
 def get_datetime(tz):
     t = datetime.now(pytz.timezone(tz))
@@ -61,7 +68,12 @@ def print_success_failure():
     global success, failure
     total_files = str(success + failure)
     print(background('Successful downloads: ' + str(success) + '/' + total_files, Colors.blue))
-    print(background('Failed downloads: ' + str(failure) + '/' + total_files, Colors.red))    
+    print(background('Failed downloads: ' + str(failure) + '/' + total_files, Colors.red))
+
+def generate_rerun_code():
+    global mode, failure_uuid
+    code = 'The following code will rerun failed datasets:\n' + 'python archiver.py -m ' + mode + ' --uuid ' + ' '.join(failure_uuid)
+    return code
 
 def find_url(search_url, regex, base_url):
     url = base_url + re.search(regex, requests.get(search_url).text).group(0)
@@ -95,17 +107,18 @@ def access_s3(bucket, aws_id, aws_key):
     ## return s3 object
     return s3
 
-def upload_file(full_name, f_path, s3_dir=None, s3_prefix=None):
+def upload_file(full_name, f_path, uuid, s3_dir=None, s3_prefix=None):
     """Upload local file to Amazon S3.
 
     Parameters:
     full_name (str): Output filename with timestamp, extension and relative path.
     f_path (str): The path to the local file to upload.
+    uuid (str): The UUID of the dataset.
     s3_dir(str): Optional. The directory on Amazon S3.
     s3_prefix (str): Optional. The prefix to the directory on Amazon S3.
 
     """
-    global s3, download_log, success, failure
+    global s3, download_log, success, failure, failure_uuid
     
     ## generate file name
     f_name = os.path.basename(full_name)
@@ -126,6 +139,7 @@ def upload_file(full_name, f_path, s3_dir=None, s3_prefix=None):
         print(e)
         print(background('Upload failed: ' + full_name, Colors.red))
         failure+=1
+        failure_uuid.append(uuid)
 
 ## functions for emailing
 
@@ -185,8 +199,8 @@ def output_log(download_log, t):
     total_files = str(success + failure)
 
     ## assemble log
-    log = 'Successful downloads : ' + str(success) + '/' + total_files + '\n' + 'Failed downloads: ' + str(failure) + '/' + total_files + '\n' + download_log
-    log = str(t) + '\n\n' + 'Nightly update: ' + str(t.date()) + '\n\n' + log
+    log = 'Successful downloads : ' + str(success) + '/' + total_files + '\n' + 'Failed downloads: ' + str(failure) + '/' + total_files + '\n' + download_log + '\n\n' + generate_rerun_code()
+    log = str(t.date()) + ' ' + str(t.hour) + ':' + str(t.minute) + '\n\n' + log
 
     ## return log
     return log
@@ -200,7 +214,7 @@ def upload_log(log):
     log (str): Log entry from current run.
 
     """
-    global s3, success, failure
+    global s3
     print("Uploading recent log...")
     try:
         ## write most recent log entry temporarily and upload
@@ -240,7 +254,7 @@ def upload_log(log):
 
 ## functions for web scraping
 
-def dl_file(url, dir_parent, dir_file, file, ext='.csv', user=False, rand_url=False, verify=True, unzip=False, ab_json_to_csv=False, mb_json_to_csv=False):
+def dl_file(url, dir_parent, dir_file, file, ext, uuid, user=False, rand_url=False, verify=True, unzip=False, ab_json_to_csv=False, mb_json_to_csv=False):
     """Download file (generic).
 
     Used to download most file types (when Selenium is not required). Some files are handled with file-specific code:
@@ -254,7 +268,8 @@ def dl_file(url, dir_parent, dir_file, file, ext='.csv', user=False, rand_url=Fa
     dir_parent (str): The parent directory. Example: 'other/can'.
     dir_file (str): The file directory ('epidemiology-update').
     file (str): Output file name (excluding extension). Example: 'covid19'
-    ext (str): Extension of the output file. Defaults to '.csv'.
+    ext (str): Extension of the output file.
+    uuid (str): The UUID of the dataset.
     user (bool): Should the request impersonate a normal browser? Needed to access some data. Default: False.
     rand_url(bool): Should the URL have a number appended as a parameter to prevent caching? Default: False.
     verify (bool): If False, requests will skip SSL verification. Default: True.
@@ -263,7 +278,7 @@ def dl_file(url, dir_parent, dir_file, file, ext='.csv', user=False, rand_url=Fa
     mb_json_to_csv (bool): If True, this is a Manitoba JSON file that that should be converted to CSV. Default: False.
 
     """
-    global mode, download_log, success, failure, prefix_root
+    global mode, download_log, success, failure, failure_uuid, prefix_root
 
     ## set names with timestamp and file ext
     name = file + '_' + get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
@@ -292,6 +307,7 @@ def dl_file(url, dir_parent, dir_file, file, ext='.csv', user=False, rand_url=Fa
             ## print failure
             print(background('Error downloading: ' + full_name, Colors.red))
             failure+=1
+            failure_uuid.append(uuid)
             ## write failure to log message
             download_log = download_log + 'Failure: ' + full_name + '\n'
         ## successful request: if mode == test, print success and end
@@ -370,6 +386,7 @@ def dl_file(url, dir_parent, dir_file, file, ext='.csv', user=False, rand_url=Fa
         print(e)
         print(background('Error downloading: ' + full_name, Colors.red))
         failure+=1
+        failure_uuid.append(uuid)
         ## write failure to log message
         download_log = download_log + 'Failure: ' + full_name + '\n'
 
@@ -392,14 +409,15 @@ def load_webdriver(tmpdir, user=False):
     driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_BIN'], options=options)
     return driver
 
-def html_page(url, dir_parent, dir_file, file, ext='.html', user=False, js=False, wait=None):
+def html_page(url, dir_parent, dir_file, file, ext, uuid, user=False, js=False, wait=None):
     """Save HTML of a webpage.
 
     Parameters:
     url (str): URL to screenshot.
     dir_parent (str): The parent directory. Example: 'other/can'.
     dir_file (str): The file directory ('epidemiology-update').
-    ext (str): Extension of the output file. Defaults to '.html'.
+    ext (str): Extension of the output file.
+    uuid (str): The UUID of the dataset.
     user (bool): Should the request impersonate a normal browser? Needed to access some data. Default: False.
     js (bool): Is the HTML source rendered by JavaScript?
     wait (int): Used only if js = True. Time in seconds that the function should wait for the page to render. If the time is too short, the source code may not be captured.
@@ -437,6 +455,7 @@ def html_page(url, dir_parent, dir_file, file, ext='.html', user=False, js=False
             ## print failure
             print(background('Error downloading: ' + full_name, Colors.red))
             failure+=1
+            failure_uuid.append(uuid)
             ## write failure to log message
             download_log = download_log + 'Failure: ' + full_name + '\n'
         ## successful request: if mode == test, print success and end
@@ -458,10 +477,11 @@ def html_page(url, dir_parent, dir_file, file, ext='.html', user=False, js=False
         print(e)
         print(background('Error downloading: ' + full_name, Colors.red))
         failure+=1
+        failure_uuid.append(uuid)
         ## write failure to log message
         download_log = download_log + 'Failure: ' + full_name + '\n'
 
-def ss_page(url, dir_parent, dir_file, file, ext='.png', user=False, wait=5, width=None, height=None):
+def ss_page(url, dir_parent, dir_file, file, ext, uuid, user=False, wait=5, width=None, height=None):
     """Take a screenshot of a webpage.
 
     By default, Selenium attempts to capture the entire page.
@@ -470,7 +490,8 @@ def ss_page(url, dir_parent, dir_file, file, ext='.png', user=False, wait=5, wid
     url (str): URL to screenshot.
     dir_parent (str): The parent directory. Example: 'other/can'.
     dir_file (str): The file directory ('epidemiology-update').
-    ext (str): Extension of the output file. Defaults to '.png'.
+    ext (str): Extension of the output file.
+    uuid (str): The UUID of the dataset.
     user (bool): Should the request impersonate a normal browser? Needed to access some data. Default: False.
     wait (int): Time in seconds that the function should wait. Should be > 0 to ensure the entire page is captured.
     width (int): Width of the output screenshot. Default: None. If not set, the function attempts to detect the maximum width.
@@ -515,6 +536,7 @@ def ss_page(url, dir_parent, dir_file, file, ext='.png', user=False, wait=5, wid
                 ## print failure
                 print(background('Error downloading: ' + full_name, Colors.red))
                 failure+=1
+                failure_uuid.append(uuid)
                 ## write failure to log message if mode == prod
                 if mode == 'prod':
                     download_log = download_log + 'Failure: ' + full_name + '\n'
@@ -533,6 +555,7 @@ def ss_page(url, dir_parent, dir_file, file, ext='.png', user=False, wait=5, wid
             ## print failure
             print(background('Error downloading: ' + full_name, Colors.red))
             failure+=1
+            failure_uuid.append(uuid)
             ## write failure to log message if mode == prod
             if mode == 'prod':
                 download_log = download_log + 'Failure: ' + full_name + '\n'
@@ -544,6 +567,7 @@ def ss_page(url, dir_parent, dir_file, file, ext='.png', user=False, wait=5, wid
         print(e)
         print(background('Error downloading: ' + full_name, Colors.red))
         failure+=1
+        failure_uuid.append(uuid)
         ## write failure to log message if mode == prod
         if mode == 'prod':
             download_log = download_log + 'Failure: ' + full_name + '\n'

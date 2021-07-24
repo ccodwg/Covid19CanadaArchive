@@ -17,8 +17,8 @@ init_colorit() # enable printing with colour
 import archivist
 
 # list of environmental variables used in this script (through functions in archivist.py)
-## AWS_ID: environmental variable of AWS ID
-## AWS_KEY: environmental variable of AWS key
+## AWS_ID: environmental variable of AWS ID [prod only]
+## AWS_KEY: environmental variable of AWS key [prod only]
 ## MAIL_NAME: environmental variable of email account
 ## MAIL_PASS: environemntal variable of email password
 ## MAIL_TO: environmental variable of account receiving email logs
@@ -27,19 +27,19 @@ import archivist
 ## CHROME_BIN: path to Chromium/Chrome binary
 ## CHROMEDRIVER_BIN: path to Chromedriver
 
-# set mode from argv (prod versus test)
-## prod: Download files and upload them to the server.
-## test: Don't upload files to the server, just test that they can be successfully downloaded.
-archivist.set_mode()
+# parse arguments
+## -m / --mode
+### prod: Download files and upload them to the server.
+### test: Download files but don't upload them to the server, just test that they can be successfully downloaded.
+## --uuid
+### run only the specified list of datasets (identified by UUID), otherwise run all datasets
+archivist.parse_args()
 
 # initialize global variables
 archivist.success = 0 # success counter
 archivist.failure = 0 # failure counter
+archivist.failure_uuid = [] # failed UUIDs
 archivist.download_log = '' # download log
-
-# load AWS credentials
-archivist.aws_id = os.environ['AWS_ID']
-archivist.aws_key = os.environ['AWS_KEY']
 
 # load email configuration
 mail_name = os.environ['MAIL_NAME']
@@ -50,6 +50,10 @@ smtp_port = int(os.environ['SMTP_PORT'])
 
 # access Amazon S3
 if archivist.mode == 'prod':
+        ## load AWS credentials
+        archivist.aws_id = os.environ['AWS_ID']
+        archivist.aws_key = os.environ['AWS_KEY']
+        
         ## access S3
         archivist.access_s3(bucket='data.opencovid.ca', aws_id=archivist.aws_id, aws_key=archivist.aws_key)
         
@@ -69,6 +73,17 @@ ds = {} # create empty dictionary
 for d in datasets:
         for i in range(len(datasets[d])):
                 ds[datasets[d][i]['uuid']] = datasets[d][i]
+
+# if uuid argument is specified, filter to the specified datasets
+if archivist.uuid:
+        invalid = list(set(archivist.uuid) - set(list(ds.keys())))
+        archivist.uuid = list(set(archivist.uuid) & set(list(ds.keys())))
+        if len(invalid) > 0:
+                print('Removing invalid UUIDs: ' + ', '.join(invalid))
+        if len(archivist.uuid) > 0:
+                ds = {key: ds[key] for key in archivist.uuid}
+        else:
+                sys.exit("No valid UUIDs specified.")
 
 # create dict of download functions
 dl_funs = {
@@ -163,11 +178,16 @@ for key in ds:
                 dir_file = ds[key]['dir_file'],
                 file = ds[key]['file_name'],
                 ext = ext,
+                uuid = key,
                 **ds[key]['args']
         )
 
 # summarize successes and failures
 archivist.print_success_failure()
+
+# print rerun code, if necessary
+if archivist.failure > 0:
+        print(archivist.generate_rerun_code())
 
 # assemble log entry
 log = archivist.output_log(archivist.download_log, t)
