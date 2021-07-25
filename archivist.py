@@ -40,7 +40,7 @@ import smtplib
 
 ## misc functions
 
-def parse_args(run_args=sys.argv, manual=None):
+def parse_args():
     global mode, uuid
     
     # initialize parser with arguments
@@ -380,7 +380,7 @@ def dl_file(url, dir_parent, dir_file, file, ext, uuid, user=False, rand_url=Fal
                     local_file.write(req.content)
             ## upload file
             s3_dir = os.path.join(dir_parent, dir_file)
-            upload_file(full_name, f_path, s3_dir=s3_dir, s3_prefix=prefix_root)
+            upload_file(full_name, f_path, uuid, s3_dir=s3_dir, s3_prefix=prefix_root)
     except Exception as e:
         ## print failure
         print(e)
@@ -468,7 +468,7 @@ def html_page(url, dir_parent, dir_file, file, ext, uuid, user=False, js=False, 
         else:
             ## upload file
             s3_dir = os.path.join(dir_parent, dir_file)
-            upload_file(full_name, f_path, s3_dir=s3_dir, s3_prefix=prefix_root)
+            upload_file(full_name, f_path, uuid, s3_dir=s3_dir, s3_prefix=prefix_root)
 
         ## quit webdriver
         driver.quit()
@@ -548,7 +548,7 @@ def ss_page(url, dir_parent, dir_file, file, ext, uuid, user=False, wait=5, widt
             else:
                 ## upload file
                 s3_dir = os.path.join(dir_parent, dir_file)
-                upload_file(full_name, f_path, s3_dir=s3_dir, s3_prefix=prefix_root)
+                upload_file(full_name, f_path, uuid, s3_dir=s3_dir, s3_prefix=prefix_root)
         except Exception as e:
             ## print exception
             print(e)
