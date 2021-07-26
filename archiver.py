@@ -187,7 +187,7 @@ archivist.print_success_failure()
 
 # print rerun code, if necessary
 if archivist.failure > 0:
-        print(archivist.generate_rerun_code())
+        print(background('\n' + archivist.generate_rerun_code() + '\n', (150, 150, 150)))
 
 # assemble log entry
 log = archivist.output_log(archivist.download_log, t)
