@@ -7610,6 +7610,28 @@
           "meta_group_1": "Yukon"
         },
         "notes": {}
+      },
+      {
+        "id_name": "YT - Potential COVID-19 exposure notices (webpage)",
+        "uuid": "118d5d9c-a212-4ff2-a27b-d58d5959062c",
+        "active": "True",
+        "url": "https://yukon.ca/en/health-and-wellness/covid-19-information/your-health-covid-19/potential-covid-19-exposure-notices",
+        "dir_parent": "yt",
+        "dir_file": "yukon-potential-exposures-webpage",
+        "file_name": "yukon-potential-exposures-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://yukon.ca/en/health-and-wellness/covid-19-information/your-health-covid-19/potential-covid-19-exposure-notices",
+          "meta_url_name": "Potential COVID-19 exposure notices",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Yukon"
+        },
+        "notes": {}
       }
     ],
     "other/can": [
