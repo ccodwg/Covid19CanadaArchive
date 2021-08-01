@@ -47,11 +47,19 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("-m", "--mode", choices = ['test', 'prod'], required = True, help = "Run mode: prod or test")
     parser.add_argument("--uuid", nargs = '+', required = False, help = "Specify UUIDs of individual datasets to download")
+    parser.add_argument("--no-email", required = False, action = "store_false", dest = "email", help = "If present, no email will be produced at the end of the run.")
     args = parser.parse_args()
     
     # set run mode
     mode = args.mode
     print('Run mode set to ' + mode + '.')
+    
+    # set email mode
+    email = args.email
+    if email:
+        print('An email will be sent at the end of this run.')
+    else:
+        print('No email will be sent at the end of this run.')
     
     # report datasets to be downloaded
     uuid = args.uuid

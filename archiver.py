@@ -204,7 +204,8 @@ if archivist.mode == 'prod':
         body = log        
         
         ## email log
-        archivist.send_email(mail_name, mail_pass, mail_to, subject, body, smtp_server, smtp_port)
+        if archivist.email:
+                archivist.send_email(mail_name, mail_pass, mail_to, subject, body, smtp_server, smtp_port)
 
 # email log of failed downloads, if any (when mode == test)
 if archivist.mode == 'test':
@@ -215,4 +216,5 @@ if archivist.mode == 'test':
                 ## compose email message (current log entry)
                 subject = " ".join(['TEST', 'Covid19CanadaArchive Log', t.strftime('%Y-%m-%d %H:%M') + ',', 'Failed:', str(archivist.failure)])
                 body = log
-                archivist.send_email(mail_name, mail_pass, mail_to, subject, body, smtp_server, smtp_port)
+                if archivist.email:
+                        archivist.send_email(mail_name, mail_pass, mail_to, subject, body, smtp_server, smtp_port)
