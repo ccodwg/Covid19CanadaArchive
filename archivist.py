@@ -420,6 +420,18 @@ def load_webdriver(tmpdir, user=False):
     driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_BIN'], options=options)
     return driver
 
+def click_xpath(driver, wait, xpath):
+    element = WebDriverWait(driver, timeout=wait).until(
+        EC.element_to_be_clickable((By.XPATH, xpath)))
+    element.click()
+    return driver
+
+def click_linktext(driver, wait, text):
+    element = WebDriverWait(driver, timeout=wait).until(
+        EC.element_to_be_clickable((By.LINK_TEXT, text)))
+    element.click()
+    return driver
+
 def html_page(url, dir_parent, dir_file, file, ext, uuid, user=False, js=False, wait=None):
     """Save HTML of a webpage.
 
@@ -491,12 +503,9 @@ def html_page(url, dir_parent, dir_file, file, ext, uuid, user=False, js=False, 
         ## save HTML of webpage
         f_path = os.path.join(tmpdir.name, file + ext)
         if js:
-            time.sleep(wait)
-            with open(f_path, 'w') as local_file:
-                local_file.write(driver.find_element_by_tag_name('html').get_attribute('innerHTML'))
-        else:
-            with open(f_path, 'w') as local_file:
-                local_file.write(driver.page_source)
+            time.sleep(wait) # complete page load
+        with open(f_path, 'w') as local_file:
+            local_file.write(driver.page_source)
 
         ## verify download
         if not os.path.isfile(f_path):
