@@ -44,7 +44,7 @@ import smtplib
 ## misc functions
 
 def parse_args():
-    global mode, uuid
+    global mode, email, uuid
     
     # initialize parser with arguments
     parser = argparse.ArgumentParser()
@@ -211,7 +211,7 @@ def output_log(download_log, t):
 
     ## assemble log
     log = 'Successful downloads : ' + str(success) + '/' + total_files + '\n' + 'Failed downloads: ' + str(failure) + '/' + total_files + '\n' + download_log + '\n\n' + generate_rerun_code()
-    log = str(t.date()) + ' ' + str(t.hour) + ':' + str(t.minute) + '\n\n' + log
+    log = t.strftime("%Y-%m-%d %H:%M") + '\n\n' + log
 
     ## return log
     return log
