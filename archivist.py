@@ -465,35 +465,33 @@ def html_page(url, dir_parent, dir_file, file, ext, uuid, user=False, js=False, 
         
         ## special processing
         try:
-            if uuid == '66fbe91e-34c0-4f7f-aa94-cf6c14db0158':
+            if uuid == '9ed0f5cd-2c45-40a1-94c9-25b0c9df8f48':
+                # show other figure in tabset
+                time.sleep(wait) # allow first figure to load
+                driver = click_linktext(driver, wait, 'Tests by Specimen Collection Date') # ID is dynamic
+            elif uuid == '66fbe91e-34c0-4f7f-aa94-cf6c14db0158':
                 # wait for tab link to be clickable then click
-                element = WebDriverWait(driver, timeout=wait).until(
-                    EC.element_to_be_clickable((By.XPATH, '/html/body/div[1]/nav/div/ul/li[2]/a')))
-                element.click()
+                driver = click_xpath(driver, wait, '/html/body/div[1]/nav/div/ul/li[2]/a')
                 # time.sleep(wait); driver.find_element_by_id('complete').get_attribute('innerHTML') # test
             elif uuid == '391d177d-1ea8-45ac-bca4-d9f86733c253':
                 # wait for tab link to be clickable then click
-                element = WebDriverWait(driver, timeout=wait).until(
-                    EC.element_to_be_clickable((By.XPATH, '/html/body/div[1]/nav/div/ul/li[3]/a')))
-                element.click()
+                driver = click_xpath(driver, wait, '/html/body/div[1]/nav/div/ul/li[3]/a')
                 # time.sleep(wait); driver.find_element_by_id('Title2').get_attribute('innerHTML') # test
             elif uuid == 'effdfd82-7c59-4f49-8445-f1f8f73b6dc2':
                 # wait for tab link to be clickable then click
-                element = WebDriverWait(driver, timeout=wait).until(
-                    EC.element_to_be_clickable((By.XPATH, '/html/body/div[1]/nav/div/ul/li[4]/a')))
-                element.click()
-                element = WebDriverWait(driver, timeout=wait).until(
-                    EC.element_to_be_clickable((By.XPATH, '/html/body/div[1]/nav/div/ul/li[4]/ul/li[1]/a')))
-                element.click()
+                driver = click_xpath(driver, wait, '/html/body/div[1]/nav/div/ul/li[4]/a')
+                driver = click_xpath(driver, wait, '/html/body/div[1]/nav/div/ul/li[4]/ul/li[1]/a')
+                # whole population coverage
+                driver = click_xpath(driver, wait, '//*[@id="all"]')
+                # show all data tables
+                elements = driver.find_elements_by_link_text('Data Table')
+                for element in elements:
+                    element.click()
                 # time.sleep(wait); driver.find_element_by_id('VCTitle2').get_attribute('innerHTML') # test
             elif uuid == '454de458-f7b4-4814-96a6-5a426f8c8c60':
                 # wait for tab link to be clickable then click
-                element = WebDriverWait(driver, timeout=wait).until(
-                    EC.element_to_be_clickable((By.XPATH, '/html/body/div[1]/nav/div/ul/li[4]/a')))
-                element.click()
-                element = WebDriverWait(driver, timeout=wait).until(
-                    EC.element_to_be_clickable((By.XPATH, '/html/body/div[1]/nav/div/ul/li[4]/ul/li[2]/a')))
-                element.click()
+                driver = click_xpath(driver, wait, '/html/body/div[1]/nav/div/ul/li[4]/a')
+                driver = click_xpath(driver, wait, '/html/body/div[1]/nav/div/ul/li[4]/ul/li[2]/a')
                 # time.sleep(wait); driver.find_element_by_id('VCTitle').get_attribute('innerHTML') # test
         ## prints exception but still proceeds (for now)
         except Exception as e:
