@@ -4968,7 +4968,7 @@
         "notes": {}
       },
       {
-        "id_name": "ON - COVID-19 Vaccine Data in Ontario",
+        "id_name": "ON - COVID-19 Vaccine data",
         "uuid": "170057c4-3231-4f15-9438-2165c5438dda",
         "active": "True",
         "url": "https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/8a89caa9-511c-4568-af89-7f2174b4378c/download/vaccine_doses.csv",
@@ -4980,7 +4980,7 @@
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Vaccine Data in Ontario",
+          "meta_name": "Vaccine data",
           "meta_url": "https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario",
           "meta_url_name": "COVID-19 Vaccine Data in Ontario",
           "meta_licence": "",
@@ -4990,7 +4990,7 @@
         "notes": {}
       },
       {
-        "id_name": "ON - COVID-19 Vaccine Data by Age",
+        "id_name": "ON - COVID-19 Vaccine data by age",
         "uuid": "a7f839da-8c36-4569-bd99-1a07adc0700a",
         "active": "True",
         "url": "https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/775ca815-5028-4e9b-9dd4-6975ff1be021/download/vaccines_by_age.csv",
@@ -5002,7 +5002,51 @@
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Vaccine Data by Age",
+          "meta_name": "Vaccine data by age",
+          "meta_url": "https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario",
+          "meta_url_name": "COVID-19 Vaccine Data in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - COVID-19 Vaccine data by Public Health Unit and by age",
+        "uuid": "5fe86db2-62c9-4c92-84cb-0ef07069291b",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/2a362139-b782-43b1-b3cb-078a2ef19524/download/vaccines_by_age_phu.csv",
+        "dir_parent": "on",
+        "dir_file": "vaccine-data-by-age-and-phu",
+        "file_name": "vaccines_by_age_phu",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine data by Public Health Unit and by age",
+          "meta_url": "https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario",
+          "meta_url_name": "COVID-19 Vaccine Data in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Hospitalizations and cases by vaccination status",
+        "uuid": "5104fade-9c4c-4287-8c68-c88eb3f78a57",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/eed63cf2-83dd-4598-b337-b288c0a89a16/download/vac_status.csv",
+        "dir_parent": "on",
+        "dir_file": "hospitalizations-and-cases-by-vaccination-status",
+        "file_name": "vac_status",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Hospitalizations and cases by vaccination status",
           "meta_url": "https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario",
           "meta_url_name": "COVID-19 Vaccine Data in Ontario",
           "meta_licence": "",
