@@ -4547,10 +4547,10 @@
         "notes": {}
       },
       {
-        "id_name": "ON - COVID-19 hospital metrics in Ontario by Local Health Integration Network (LHIN) regions",
+        "id_name": "ON - COVID-19 cases in hospital and ICU, by Ontario Health (OH) region",
         "uuid": "4b214c24-8542-4d26-a850-b58fc4ef6a30",
         "active": "True",
-        "url": "https://data.ontario.ca/dataset/8f3a449b-bde5-4631-ada6-8bd94dbc7d15/resource/e760480e-1f95-4634-a923-98161cfb02fa/download/lhin_hospital_icu_covid_data.csv",
+        "url": "https://data.ontario.ca/dataset/8f3a449b-bde5-4631-ada6-8bd94dbc7d15/resource/e760480e-1f95-4634-a923-98161cfb02fa/download/region_hospital_icu_covid_data.csv",
         "dir_parent": "on",
         "dir_file": "hosp-icu-by-lhin",
         "file_name": "lhin_hospital_icu_covid_data",
@@ -4560,8 +4560,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Dataset",
-          "meta_url": "https://data.ontario.ca/dataset/covid-19-hospital-metrics-in-ontario-by-local-health-integration-network-lhin-regions",
-          "meta_url_name": "COVID-19 hospital metrics in Ontario by Local Health Integration Network (LHIN) regions",
+          "meta_url": "https://data.ontario.ca/dataset/covid-19-cases-in-hospital-and-icu-by-ontario-health-region",
+          "meta_url_name": "COVID-19 cases in hospital and ICU, by Ontario Health (OH) region",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario"
