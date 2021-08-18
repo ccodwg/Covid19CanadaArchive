@@ -2137,7 +2137,7 @@
         "id_name": "CAN - COVID-19 international data: International case and death time series update date",
         "uuid": "a4df021f-a9bf-44cf-a5a5-adc741898ed3",
         "active": "True",
-        "url": "https://mapdashbd.s3.ca-central-1.amazonaws.com/download/updated.csv",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/international/updated.csv",
         "dir_parent": "can",
         "dir_file": "international-covid-cases-deaths-time-series-update-date",
         "file_name": "updated",
