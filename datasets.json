@@ -5687,7 +5687,9 @@
         "file_name": "pei-webpage",
         "file_ext": "html",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "user": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -5709,7 +5711,9 @@
         "file_name": "pei-vaccination-webpage",
         "file_ext": "html",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "user": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -5755,7 +5759,9 @@
         "file_name": "pei-potential-exposures-webpage",
         "file_ext": "html",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "user": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -5777,7 +5783,9 @@
         "file_name": "pei-possible-air-travel-exposures-webpage",
         "file_ext": "html",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "user": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
