@@ -2656,28 +2656,6 @@
         "notes": {}
       },
       {
-        "id_name": "MB - Vaccine dashboard: vaccination coverage by Regional Health Authority",
-        "uuid": "4528cb4c-b5b0-4f07-bd2b-2a6691d88512",
-        "active": "True",
-        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_vaccinations_18_coverage/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "mb",
-        "dir_file": "vaccination-coverage-by-rha",
-        "file_name": "mb_covid_vaccinations_18_coverage",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Vaccination coverage by Regional Health Authority",
-          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
-          "meta_url_name": "Manitoba COVID-19 Vaccinations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "MB - Vaccine dashboard: vaccination time series",
         "uuid": "159fb279-228a-4a6f-afdd-c543f201d88d",
         "active": "True",
@@ -2735,28 +2713,6 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination by manufacturer",
-          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
-          "meta_url_name": "Manitoba COVID-19 Vaccinations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "MB - Vaccine dashboard: projected vaccine doses",
-        "uuid": "8523c3db-bfe2-443b-81ca-3653e90cd8dc",
-        "active": "True",
-        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_vaccinations_projected_doses/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "mb",
-        "dir_file": "projected-vaccine-doses",
-        "file_name": "mb_covid_vaccinations_projected_doses",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Projected vaccine doses",
           "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
           "meta_url_name": "Manitoba COVID-19 Vaccinations",
           "meta_licence": "",
@@ -8117,7 +8073,52 @@
         "notes": {}
       }
     ],
-    "mb": [],
+    "mb": [
+      {
+        "id_name": "MB - Vaccine dashboard: vaccination coverage by Regional Health Authority",
+        "uuid": "4528cb4c-b5b0-4f07-bd2b-2a6691d88512",
+        "active": "False",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_vaccinations_18_coverage/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "vaccination-coverage-by-rha",
+        "file_name": "mb_covid_vaccinations_18_coverage",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination coverage by Regional Health Authority",
+          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
+          "meta_url_name": "Manitoba COVID-19 Vaccinations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Vaccine dashboard: projected vaccine doses",
+        "uuid": "8523c3db-bfe2-443b-81ca-3653e90cd8dc",
+        "active": "False",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_vaccinations_projected_doses/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "projected-vaccine-doses",
+        "file_name": "mb_covid_vaccinations_projected_doses",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Projected vaccine doses",
+          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
+          "meta_url_name": "Manitoba COVID-19 Vaccinations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      }
+    ],
     "nb": [],
     "nl": [
       {
