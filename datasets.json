@@ -2402,6 +2402,28 @@
           "meta_group_1": "Canada"
         },
         "notes": {}
+      },
+      {
+        "id_name": "CAN - Epidemiological summary of COVID-19 cases in First Nations communities (webpage)",
+        "uuid": "e9ef2ae1-423f-4c99-a56c-d863d4f8185f",
+        "active": "True",
+        "url": "https://www.sac-isc.gc.ca/eng/1589895506010/1589895527965",
+        "dir_parent": "can",
+        "dir_file": "isc-epi-summary-first-nations-webpage",
+        "file_name": "isc-epi-summary-first-nations-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.sac-isc.gc.ca/eng/1589895506010/1589895527965",
+          "meta_url_name": "Epidemiological summary of COVID-19 cases in First Nations communities",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
       }
     ],
     "mb": [
