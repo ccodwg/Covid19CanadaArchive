@@ -6481,13 +6481,13 @@
         "notes": {}
       },
       {
-        "id_name": "QC - Variants under enhanced surveillance",
-        "uuid": "584b0b29-e985-4cd7-b191-1386c3bfb965",
+        "id_name": "QC - Variants under enhanced surveillance (cumulative) 2",
+        "uuid": "c5bf958d-d642-461d-aec9-f439ffce6953",
         "active": "True",
-        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/variants.csv",
+        "url": "https://inspq.qc.ca/sites/default/files/covid/donnees/variants-cumul.csv",
         "dir_parent": "qc",
-        "dir_file": "variants",
-        "file_name": "variants",
+        "dir_file": "variants-2",
+        "file_name": "variants-cumul",
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {
@@ -6495,7 +6495,7 @@
         },
         "supplementary": {},
         "metadata": {
-          "meta_name": "Variants under enhanced surveillance",
+          "meta_name": "Variants under enhanced surveillance (cumulative) 2",
           "meta_url": "https://inspq.qc.ca/covid-19/donnees/variants",
           "meta_url_name": "Variants de SRAS-CoV-2 sous surveillance rehaussée",
           "meta_licence": "",
@@ -6505,13 +6505,13 @@
         "notes": {}
       },
       {
-        "id_name": "QC - Variant screening time series by RSS (cumulative)",
-        "uuid": "4124397b-aa1a-4ca0-9582-6fe278e04c64",
+        "id_name": "QC - Variant screening time series by RSS (weekly) 2",
+        "uuid": "9fb9c573-7c4c-4daa-adfc-9a8193a2005b",
         "active": "True",
-        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/variants-criblage.csv",
+        "url": "https://inspq.qc.ca/sites/default/files/covid/donnees/variants-semaines.csv",
         "dir_parent": "qc",
-        "dir_file": "variant-screening-time-series-by-rss-cumulative",
-        "file_name": "variants-criblage",
+        "dir_file": "variant-screening-time-series-by-rss-weekly-2",
+        "file_name": "variants-semaines",
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {
@@ -6519,31 +6519,7 @@
         },
         "supplementary": {},
         "metadata": {
-          "meta_name": "Variant screening time series by RSS (cumulative)",
-          "meta_url": "https://inspq.qc.ca/covid-19/donnees/variants",
-          "meta_url_name": "Variants de SRAS-CoV-2 sous surveillance rehaussée",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Variant screening time series by RSS (weekly)",
-        "uuid": "73550d60-3d8f-473e-9d2d-0b915b46c231",
-        "active": "True",
-        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/variants-criblage-sem.csv",
-        "dir_parent": "qc",
-        "dir_file": "variant-screening-time-series-by-rss-weekly",
-        "file_name": "variants-criblage-sem",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Variant screening time series by RSS (weekly)",
+          "meta_name": "Variant screening time series by RSS (weekly) 2",
           "meta_url": "https://inspq.qc.ca/covid-19/donnees/variants",
           "meta_url_name": "Variants de SRAS-CoV-2 sous surveillance rehaussée",
           "meta_licence": "",
@@ -8806,6 +8782,78 @@
           "meta_name": "Vaccination by age group",
           "meta_url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/covid-19-vaccination-data/",
           "meta_url_name": "COVID-19 vaccination data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Variants under enhanced surveillance (cumulative)",
+        "uuid": "584b0b29-e985-4cd7-b191-1386c3bfb965",
+        "active": "False",
+        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/variants.csv",
+        "dir_parent": "qc",
+        "dir_file": "variants",
+        "file_name": "variants",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Variants under enhanced surveillance (cumulative)",
+          "meta_url": "https://inspq.qc.ca/covid-19/donnees/variants",
+          "meta_url_name": "Variants de SRAS-CoV-2 sous surveillance rehaussée",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Variant screening time series by RSS (cumulative)",
+        "uuid": "4124397b-aa1a-4ca0-9582-6fe278e04c64",
+        "active": "False",
+        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/variants-criblage.csv",
+        "dir_parent": "qc",
+        "dir_file": "variant-screening-time-series-by-rss-cumulative",
+        "file_name": "variants-criblage",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Variant screening time series by RSS (cumulative)",
+          "meta_url": "https://inspq.qc.ca/covid-19/donnees/variants",
+          "meta_url_name": "Variants de SRAS-CoV-2 sous surveillance rehaussée",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Variant screening time series by RSS (weekly)",
+        "uuid": "73550d60-3d8f-473e-9d2d-0b915b46c231",
+        "active": "False",
+        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/variants-criblage-sem.csv",
+        "dir_parent": "qc",
+        "dir_file": "variant-screening-time-series-by-rss-weekly",
+        "file_name": "variants-criblage-sem",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Variant screening time series by RSS (weekly)",
+          "meta_url": "https://inspq.qc.ca/covid-19/donnees/variants",
+          "meta_url_name": "Variants de SRAS-CoV-2 sous surveillance rehaussée",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Quebec"
