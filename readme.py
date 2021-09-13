@@ -17,7 +17,8 @@ def meta_items(ds, txt):
   # generic archive index link
   archive_link = 'http://data.opencovid.ca/archive/index.html#archive/'
   # processing
-  urls = list({ds[d]['metadata']['meta_url'] for d in ds})
+  urls = list({d: ds[d]['metadata']['meta_url'] for d in ds}.values())
+  urls = list(dict.fromkeys(urls)) # remove duplicates
   for url in urls:
     # get list items
     items = {k:ds[k] for k in ds.keys() if ds[k]['metadata']['meta_url'] == url}
