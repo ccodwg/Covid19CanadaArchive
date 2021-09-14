@@ -6160,6 +6160,30 @@
         }
       },
       {
+        "id_name": "QC - Situation in living environments for the elderly and vulnerable (RPA and CHSLD)",
+        "uuid": "cc7e84eb-c884-4b8f-ba2a-8fefc49a187c",
+        "active": "True",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_milieux-de-vie.pdf",
+        "dir_parent": "qc",
+        "dir_file": "status-report-cases-and-deaths-by-rpa-and-chsld",
+        "file_name": "etat_situation_milieux-de-vie",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Situation in living environments for the elderly and vulnerable (RPA and CHSLD)",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "QC - Active hospitalizations per hospital",
         "uuid": "84208252-52b7-4fb7-a232-83fbf8bae08d",
         "active": "True",
