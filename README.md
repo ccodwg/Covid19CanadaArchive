@@ -1,8 +1,10 @@
 # Canadian COVID-19 Data Archive
 
-This repository provides automated, daily backups of COVID-19 data from Canadian governmental and non-governmental sources.
+The purpose of this repository is to support automated, daily backups of COVID-19 data from Canadian governmental and non-governmental sources. It is composed of a list of datasets (`datasets.json`), as well as the Python code making up the archival tool itself.
 
-**THE DATA FOR THIS ARCHIVE ARE NO LONGER HOSTED ON GOOGLE DRIVE.** For information on how to access the datasets in the archive, see [Accessing the data](#accessing-the-data). For a list of available datasets, see the [Data catalogue](#data-catalogue) below.
+For information on how to access the datasets in the archive, see [Accessing the data](#accessing-the-data). For a list of available datasets, see the [Data catalogue](#data-catalogue) below.
+
+The easiest way to [contribute to this project](#contribution-guide) is to open an issue when you identify a data source or website that is not already contained within the archive.
 
 File name timestamps are given in ET (America/Toronto) in the following format: %Y-%m-%d_%H-%M. Files are archived nightly around 22:00 ET.
 
@@ -95,6 +97,8 @@ files <- files[!grepl("^.*/supplementary/", files)]
 print(files)
 ```
 
+Please note that the data in this archive were previously hosted on Google Drive. This product has been discontinued and all further data updates will occur on the [data.opencovid.ca](http://data.opencovid.ca/archive/index.html#archive/) site.
+
 ## Contribution guide
 
 Community members may contribute to the project in several ways. In the future, more ways of contributing will be added (e.g., adding metadata).
@@ -131,8 +135,8 @@ COVID-19 Canada Open Data Working Group. Canadian COVID-19 Data Archive. https:/
 ## Running archiver.py
 
 *archiver.py* can run in two modes:
-* `python archiver.py prod`: Download files and upload them to the archive.
-* `python archiver.py test`: Don't upload files to the archive, just test that they can be successfully downloaded. Sends a notification email if a URL cannot be reached.
+* `python archiver.py -m prod`: Download files and upload them to the archive.
+* `python archiver.py -m test`: Don't upload files to the archive, just test that they can be successfully downloaded. Sends a notification email if a URL cannot be reached.
 
 The script relies on setting environmental variables to function properly. See *archiver.py* for more details.
 
