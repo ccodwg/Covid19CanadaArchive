@@ -4833,13 +4833,13 @@
         "notes": {}
       },
       {
-        "id_name": "ON - Cases in schools and childcare centres (webpage)",
-        "uuid": "6cc19b6e-0bba-4303-977d-bbab4269ab86",
+        "id_name": "ON - COVID-19 cases in schools (webpage)",
+        "uuid": "04d5c49d-623c-4196-adcc-413c9dab7174",
         "active": "True",
-        "url": "https://www.ontario.ca/page/covid-19-cases-schools-and-child-care-centres",
+        "url": "https://www.ontario.ca/page/covid-19-cases-schools",
         "dir_parent": "on",
-        "dir_file": "cases-schools-and-child-care-centres-webpage",
-        "file_name": "cases-schools-and-child-care-centres-webpage",
+        "dir_file": "cases-schools-webpage",
+        "file_name": "cases-schools-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
         "args": {
@@ -4849,8 +4849,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
-          "meta_url": "https://www.ontario.ca/page/covid-19-cases-schools-and-child-care-centres",
-          "meta_url_name": "COVID-19 cases in schools and child care centres",
+          "meta_url": "https://www.ontario.ca/page/covid-19-cases-schools",
+          "meta_url_name": "COVID-19 cases in schools",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario"
@@ -4858,19 +4858,44 @@
         "notes": {}
       },
       {
-        "id_name": "ON - Schools: Summary of cases in schools",
-        "uuid": "8faa37ca-607e-4b6f-a929-c9d2961fb2ee",
+        "id_name": "ON - COVID-19 cases in child care centres (webpage)",
+        "uuid": "9218792e-ca62-4e3d-9902-6aa89773aec1",
         "active": "True",
-        "url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/7fbdbb48-d074-45d9-93cb-f7de58950418/download/schoolcovidsummary.csv",
+        "url": "https://www.ontario.ca/page/covid-19-cases-child-care-centres",
         "dir_parent": "on",
-        "dir_file": "schools-summary",
-        "file_name": "schoolcovidsummary",
+        "dir_file": "cases-child-care-centres-webpage",
+        "file_name": "cases-child-care-centres-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.ontario.ca/page/covid-19-cases-child-care-centres",
+          "meta_url_name": "COVID-19 cases in child care centres",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - 2021-22: Summary of cases in schools",
+        "uuid": "580cf93b-669f-4fe8-9d53-1c24b27fc5cf",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/7e644a48-6040-4ee0-9216-1f88121b21ba/download/schoolcovidsummary2021_2022.csv",
+        "dir_parent": "on",
+        "dir_file": "schools-summary-2021-2022",
+        "file_name": "schoolcovidsummary2021_2022",
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Summary of cases in schools",
+          "meta_name": "2021-22: Summary of cases in schools",
           "meta_url": "https://data.ontario.ca/dataset/summary-of-cases-in-schools",
           "meta_url_name": "Schools COVID-19 data",
           "meta_licence": "",
@@ -4880,41 +4905,19 @@
         "notes": {}
       },
       {
-        "id_name": "ON - Schools: Schools with active COVID-19 cases",
-        "uuid": "e7889f26-f53a-4b6e-bf7f-abcc0f3809a3",
+        "id_name": "ON - 2021-22: Schools with recent COVID-19 cases",
+        "uuid": "95aec563-26ef-4748-bf99-ab968bf9bcdc",
         "active": "True",
-        "url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/8b6d22e2-7065-4b0f-966f-02640be366f2/download/schoolsactivecovid.csv",
+        "url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/dc5c8788-792f-4f91-a400-036cdf28cfe8/download/schoolrecentcovid2021_2022.csv",
         "dir_parent": "on",
-        "dir_file": "schools-active",
-        "file_name": "schoolsactivecovid",
+        "dir_file": "schools-recent-2021-2022",
+        "file_name": "schoolrecentcovid2021_2022",
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Schools with active COVID-19 cases",
-          "meta_url": "https://data.ontario.ca/dataset/summary-of-cases-in-schools",
-          "meta_url_name": "Schools COVID-19 data",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Schools: Cases in school board partners",
-        "uuid": "087b1997-bc4c-4565-ad4b-d83e7df711c8",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/245479eb-db0a-4ec4-97af-459d61da0801/download/schoolpartnersactivecovid.csv",
-        "dir_parent": "on",
-        "dir_file": "school-board-partners",
-        "file_name": "schoolpartnersactivecovid",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases in school board partners",
+          "meta_name": "2021-22: Schools with recent COVID-19 cases",
           "meta_url": "https://data.ontario.ca/dataset/summary-of-cases-in-schools",
           "meta_url_name": "Schools COVID-19 data",
           "meta_licence": "",
@@ -4927,7 +4930,7 @@
         "id_name": "ON - Licensed child care settings: Summary of cases in licensed child care settings",
         "uuid": "fdcb84e3-e677-42d7-82d2-0b0dd9c7c9c2",
         "active": "True",
-        "url": "https://data.ontario.ca/dataset/5bf54477-6147-413f-bab0-312f06fcb388/resource/74f9ac9f-7ca8-4860-b2c3-189a2c25e30c/download/lccovidsummary.csv",
+        "url": "https://data.ontario.ca/dataset/5bf54477-6147-413f-bab0-312f06fcb388/resource/74f9ac9f-7ca8-4860-b2c3-189a2c25e30c/download/lcccovidsummary.csv",
         "dir_parent": "on",
         "dir_file": "licensed-child-care-settings-summary",
         "file_name": "lccovidsummary",
@@ -6106,58 +6109,6 @@
           "meta_group_1": "Quebec"
         },
         "notes": {}
-      },
-      {
-        "id_name": "QC - Status report on confirmed cases and deaths by RPA",
-        "uuid": "e1e3a560-814d-4e42-8898-c9bee115e07c",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_rpa.pdf",
-        "dir_parent": "qc",
-        "dir_file": "status-report-cases-and-deaths-by-rpa",
-        "file_name": "etat_situation_rpa",
-        "file_ext": "pdf",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Status report on confirmed cases and deaths by RPA",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
-          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {
-          "notes_data": "Note that when there are no cases in this living environment, a report is not produced (and thus the file is absent)."
-        }
-      },
-      {
-        "id_name": "QC - Status report on confirmed cases and deaths by CHSLD",
-        "uuid": "39ae832e-77b7-494d-9105-0da482050e65",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_chsld.pdf",
-        "dir_parent": "qc",
-        "dir_file": "status-report-cases-and-deaths-by-chsld",
-        "file_name": "etat_situation_chsld",
-        "file_ext": "pdf",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Status report on confirmed cases and deaths by CHSLD",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
-          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {
-          "notes_data": "Note that when there are no cases in this living environment, a report is not produced (and thus the file is absent)."
-        }
       },
       {
         "id_name": "QC - Situation in living environments for the elderly and vulnerable (RPA and CHSLD)",
@@ -8424,6 +8375,207 @@
           "meta_group_2": "Ottawa"
         },
         "notes": {}
+      },
+      {
+        "id_name": "ON - Cases in schools and childcare centres (webpage)",
+        "uuid": "6cc19b6e-0bba-4303-977d-bbab4269ab86",
+        "active": "False",
+        "url": "https://www.ontario.ca/page/covid-19-cases-schools-and-child-care-centres",
+        "dir_parent": "on",
+        "dir_file": "cases-schools-and-child-care-centres-webpage",
+        "file_name": "cases-schools-and-child-care-centres-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.ontario.ca/page/covid-19-cases-schools-and-child-care-centres",
+          "meta_url_name": "COVID-19 cases in schools and child care centres",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Schools: Summary of cases in schools",
+        "uuid": "8faa37ca-607e-4b6f-a929-c9d2961fb2ee",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/7fbdbb48-d074-45d9-93cb-f7de58950418/download/schoolcovidsummary.csv",
+        "dir_parent": "on",
+        "dir_file": "schools-summary",
+        "file_name": "schoolcovidsummary",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Summary of cases in schools",
+          "meta_url": "https://data.ontario.ca/dataset/summary-of-cases-in-schools",
+          "meta_url_name": "Schools COVID-19 data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Schools: Schools with active COVID-19 cases",
+        "uuid": "e7889f26-f53a-4b6e-bf7f-abcc0f3809a3",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/8b6d22e2-7065-4b0f-966f-02640be366f2/download/schoolsactivecovid.csv",
+        "dir_parent": "on",
+        "dir_file": "schools-active",
+        "file_name": "schoolsactivecovid",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Schools with active COVID-19 cases",
+          "meta_url": "https://data.ontario.ca/dataset/summary-of-cases-in-schools",
+          "meta_url_name": "Schools COVID-19 data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Schools: Cases in school board partners",
+        "uuid": "087b1997-bc4c-4565-ad4b-d83e7df711c8",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/245479eb-db0a-4ec4-97af-459d61da0801/download/schoolpartnersactivecovid.csv",
+        "dir_parent": "on",
+        "dir_file": "school-board-partners",
+        "file_name": "schoolpartnersactivecovid",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases in school board partners",
+          "meta_url": "https://data.ontario.ca/dataset/summary-of-cases-in-schools",
+          "meta_url_name": "Schools COVID-19 data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - School Targeted Testing Summary",
+        "uuid": "342bb636-0b4c-4612-8ef7-8b833776fdce",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/c0c527e2-859a-4103-962d-051cdd459c99/download/schoolcovidtesting.csv",
+        "dir_parent": "on",
+        "dir_file": "school-targeted-testing-summary",
+        "file_name": "schoolcovidtesting",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "School Targeted Testing Summary",
+          "meta_url": "https://data.ontario.ca/dataset/summary-of-cases-in-schools",
+          "meta_url_name": "Schools COVID-19 data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - School Targeted Testing Sites",
+        "uuid": "a9dfecbf-4152-46e2-b785-7991e284cab0",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/66effd5f-294b-4add-bbab-5a82ccb1280a/download/schooltestingsites.csv",
+        "dir_parent": "on",
+        "dir_file": "school-targeted-testing-sites",
+        "file_name": "schooltestingsites",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "School Targeted Testing Sites",
+          "meta_url": "https://data.ontario.ca/dataset/summary-of-cases-in-schools",
+          "meta_url_name": "Schools COVID-19 data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - School Targeted Testing Partners",
+        "uuid": "9ff782a0-0dac-4b68-81c4-5cdead6f748d",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/97282f40-c9f8-48db-8ead-26f4d49c137a/download/schoolcovidtesting_partners.csv",
+        "dir_parent": "on",
+        "dir_file": "school-targeted-testing-partners",
+        "file_name": "schoolcovidtesting_partners",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "School Targeted Testing Partners",
+          "meta_url": "https://data.ontario.ca/dataset/summary-of-cases-in-schools",
+          "meta_url_name": "Schools COVID-19 data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - School Pharmacy Testing",
+        "uuid": "51f9c4cd-51f9-485b-9f0d-590308a54d18",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/ec45b40d-547d-4a5e-a517-f1ca22d9da3a/download/school_pharmacy_covidtesting.csv",
+        "dir_parent": "on",
+        "dir_file": "school-pharmacy-testing",
+        "file_name": "school_pharmacy_covidtesting",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "School Pharmacy Testing",
+          "meta_url": "https://data.ontario.ca/dataset/summary-of-cases-in-schools",
+          "meta_url_name": "Schools COVID-19 data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - School Pharmacy Testing Locations",
+        "uuid": "14b251d0-4c9c-46d8-b1c7-75c4ceb0f68b",
+        "active": "False",
+        "url": "https://api.ontario.ca/api/data/73526?count=0&download=1",
+        "dir_parent": "on",
+        "dir_file": "school-pharmacy-testing-locations",
+        "file_name": "school-pharmacy-testing-locations",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "School Pharmacy Testing Locations",
+          "meta_url": "https://data.ontario.ca/dataset/summary-of-cases-in-schools",
+          "meta_url_name": "Schools COVID-19 data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
       }
     ],
     "pe": [],
@@ -9040,6 +9192,58 @@
           "meta_group_2": "Montreal"
         },
         "notes": {}
+      },
+      {
+        "id_name": "QC - Status report on confirmed cases and deaths by RPA",
+        "uuid": "e1e3a560-814d-4e42-8898-c9bee115e07c",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_rpa.pdf",
+        "dir_parent": "qc",
+        "dir_file": "status-report-cases-and-deaths-by-rpa",
+        "file_name": "etat_situation_rpa",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Status report on confirmed cases and deaths by RPA",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {
+          "notes_data": "Note that when there are no cases in this living environment, a report is not produced (and thus the file is absent)."
+        }
+      },
+      {
+        "id_name": "QC - Status report on confirmed cases and deaths by CHSLD",
+        "uuid": "39ae832e-77b7-494d-9105-0da482050e65",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_chsld.pdf",
+        "dir_parent": "qc",
+        "dir_file": "status-report-cases-and-deaths-by-chsld",
+        "file_name": "etat_situation_chsld",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Status report on confirmed cases and deaths by CHSLD",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {
+          "notes_data": "Note that when there are no cases in this living environment, a report is not produced (and thus the file is absent)."
+        }
       }
     ],
     "sk": [
