@@ -340,8 +340,9 @@ A note about data from Quebec: when both French and English data files are avail
     * COVID education statistics summary: [mb/covid-education-summary/covid-education-summary.json](http://data.opencovid.ca/archive/index.html#archive/)
     * COVID educations cases last 2 weeks: [mb/covid-education-cases-last-2-weeks/covid-education-cases-last-2-weeks.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Manitoba school divisions: [mb/school-divisions/school-divisions.json](http://data.opencovid.ca/archive/index.html#archive/)
-* [COVID-19 Variant of Concern Cases in Manitoba](https://geoportal.gov.mb.ca/app/95badc9cb5c3408ca2eb562ab61af51b)
-    * Dataset: [mb/cumulative-variants-by-rha/mb_covid_variants.json](http://data.opencovid.ca/archive/index.html#archive/)
+* [Cases and Risk of COVID-19 in Manitoba](https://www.gov.mb.ca/covid19/updates/cases.html)
+    * COVID-19 Variant of Concern Cases in Manitoba: [mb/cumulative-variants-by-rha/mb_covid_variants.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * COVID-19 Cases by vaccination status: [mb/daily-cases-by-vaccination-status/mb_covid_cases_by_vaccination_status.json](http://data.opencovid.ca/archive/index.html#archive/)
 
 #### Winnipeg
 
@@ -472,12 +473,21 @@ A note about data from Quebec: when both French and English data files are avail
     * Summary data: [on/long-term-care-home-summary/ltccovidsummary.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Active outbreaks: [on/long-term-care-home-active/activeltcoutbreak.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Resolved outbreaks: [on/long-term-care-home-resolved/resolvedltc.csv](http://data.opencovid.ca/archive/index.html#archive/)
-* [COVID-19 cases in schools and child care centres](https://www.ontario.ca/page/covid-19-cases-schools-and-child-care-centres)
-    * Webpage: [on/cases-schools-and-child-care-centres-webpage/cases-schools-and-child-care-centres-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+* [COVID-19 cases in schools](https://www.ontario.ca/page/covid-19-cases-schools)
+    * Webpage: [on/cases-schools-webpage/cases-schools-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+* [COVID-19 cases in child care centres](https://www.ontario.ca/page/covid-19-cases-child-care-centres)
+    * Webpage: [on/cases-child-care-centres-webpage/cases-child-care-centres-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [Schools COVID-19 data](https://data.ontario.ca/dataset/summary-of-cases-in-schools)
-    * Summary of cases in schools: [on/schools-summary/schoolcovidsummary.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * Schools with active COVID-19 cases: [on/schools-active/schoolsactivecovid.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * Cases in school board partners: [on/school-board-partners/schoolpartnersactivecovid.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * 2021-22: Summary of cases in schools: [on/schools-summary-2021-2022/schoolcovidsummary2021_2022.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * 2021-22: Schools with recent COVID-19 cases: [on/schools-recent-2021-2022/schoolrecentcovid2021_2022.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Summary of cases in schools: [on/schools-summary/schoolcovidsummary.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Schools with active COVID-19 cases: [on/schools-active/schoolsactivecovid.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Cases in school board partners: [on/school-board-partners/schoolpartnersactivecovid.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * School Targeted Testing Summary: [on/school-targeted-testing-summary/schoolcovidtesting.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * School Targeted Testing Sites: [on/school-targeted-testing-sites/schooltestingsites.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * School Targeted Testing Partners: [on/school-targeted-testing-partners/schoolcovidtesting_partners.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * School Pharmacy Testing: [on/school-pharmacy-testing/school_pharmacy_covidtesting.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * School Pharmacy Testing Locations: [on/school-pharmacy-testing-locations/school-pharmacy-testing-locations.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [Licensed child care settings COVID-19 data](https://data.ontario.ca/dataset/summary-of-cases-in-licensed-child-care-settings)
     * Summary of cases in licensed child care settings: [on/licensed-child-care-settings-summary/lccovidsummary.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Licensed child care centres and agencies with active COVID-19 cases: [on/licensed-child-care-settings-active/lccactivecovid.csv](http://data.opencovid.ca/archive/index.html#archive/)
@@ -492,6 +502,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Map and list of Forward Sortation Areas (FSAs) by neighbourhood risk group: [on/ices-fsa-by-neighbourhood-risk-group/ICES-COVID19-Dashboard-Neighbourhood-Risk-Groups-Reference-File.xlsx](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccine coverage estimates for selected age groups by FSA: [on/ices-vaccine-coverage-by-age-group-and-fsa/ICES-COVID19-Vaccination-Data-by-FSA.xlsx](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccine coverage estimates by priority groups: [on/ices-vaccine-coverage-by-priority-group/ICES-COVID19-Vaccine-Coverage-by-Priority-Group.xlsx](http://data.opencovid.ca/archive/index.html#archive/)
+* [COVID-19 cases in schools and child care centres](https://www.ontario.ca/page/covid-19-cases-schools-and-child-care-centres)
+    * Webpage: [on/cases-schools-and-child-care-centres-webpage/cases-schools-and-child-care-centres-webpage.html](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 
 #### Ottawa
 
@@ -563,8 +575,6 @@ A note about data from Quebec: when both French and English data files are avail
     * Deaths percentage by age group (FR): [qc/deaths-percentage-by-age-group/pourcentage-deces-age.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Cumulative deaths by region (FR): [qc/cumulative-deaths-by-region/deces-region.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Deaths time series by living environment: [qc/deaths-time-series-by-living-environment/decesquotidien.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * Status report on confirmed cases and deaths by RPA: [qc/status-report-cases-and-deaths-by-rpa/etat_situation_rpa.pdf](http://data.opencovid.ca/archive/index.html#archive/)
-    * Status report on confirmed cases and deaths by CHSLD: [qc/status-report-cases-and-deaths-by-chsld/etat_situation_chsld.pdf](http://data.opencovid.ca/archive/index.html#archive/)
     * Situation in living environments for the elderly and vulnerable (RPA and CHSLD): [qc/status-report-cases-and-deaths-by-rpa-and-chsld/etat_situation_milieux-de-vie.pdf](http://data.opencovid.ca/archive/index.html#archive/)
     * Active hospitalizations per hospital: [qc/active-hospitalizations-per-hosp/tableau-hospitalisations.pdf](http://data.opencovid.ca/archive/index.html#archive/)
     * Outbreaks by setting (EN): [qc/outbreaks-by-setting-en/eclosions-par-milieu-en.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
@@ -579,6 +589,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Recent daily cases by region (EN): [qc/recent-daily-cases-by-region-en/cas-region-en.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Vaccination of priority groups (FR): [qc/vaccination-of-priority-groups/20-279-07WF_Previsions_vaccination.pdf](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Vaccination of priority groups (EN): [qc/vaccination-of-priority-groups-en/20-279-07WA_Previsions_vaccination-anglais.pdf](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Status report on confirmed cases and deaths by RPA: [qc/status-report-cases-and-deaths-by-rpa/etat_situation_rpa.pdf](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Status report on confirmed cases and deaths by CHSLD: [qc/status-report-cases-and-deaths-by-chsld/etat_situation_chsld.pdf](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [Données de vaccination contre la COVID-19 au Québec](https://www.inspq.qc.ca/covid-19/donnees/vaccination)
     * Webpage: [qc/inspq-data-webpage/inspq-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination by RSS time series: [qc/vaccination-by-rss-time-series/vaccination.csv](http://data.opencovid.ca/archive/index.html#archive/)

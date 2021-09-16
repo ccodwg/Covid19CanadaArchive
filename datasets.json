@@ -3152,9 +3152,31 @@
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Dataset",
-          "meta_url": "https://geoportal.gov.mb.ca/app/95badc9cb5c3408ca2eb562ab61af51b",
-          "meta_url_name": "COVID-19 Variant of Concern Cases in Manitoba",
+          "meta_name": "COVID-19 Variant of Concern Cases in Manitoba",
+          "meta_url": "https://www.gov.mb.ca/covid19/updates/cases.html",
+          "meta_url_name": "Cases and Risk of COVID-19 in Manitoba",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - COVID-19 Cases by vaccination status",
+        "uuid": "cc3a399c-f4a1-4bfa-af4d-1786a6482652",
+        "active": "True",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_by_vaccination_status/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "daily-cases-by-vaccination-status",
+        "file_name": "mb_covid_cases_by_vaccination_status",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID-19 Cases by vaccination status",
+          "meta_url": "https://www.gov.mb.ca/covid19/updates/cases.html",
+          "meta_url_name": "Cases and Risk of COVID-19 in Manitoba",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Manitoba"
