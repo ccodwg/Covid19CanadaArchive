@@ -343,6 +343,7 @@ A note about data from Quebec: when both French and English data files are avail
 * [Cases and Risk of COVID-19 in Manitoba](https://www.gov.mb.ca/covid19/updates/cases.html)
     * COVID-19 Variant of Concern Cases in Manitoba: [mb/cumulative-variants-by-rha/mb_covid_variants.json](http://data.opencovid.ca/archive/index.html#archive/)
     * COVID-19 Cases by vaccination status: [mb/daily-cases-by-vaccination-status/mb_covid_cases_by_vaccination_status.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Select COVID-19 Outbreaks in Manitoba: [mb/acive-outbreaks-ltc-institutions-healthcare-schools/Current_MB_COVID_Outbreaks.json](http://data.opencovid.ca/archive/index.html#archive/)
 
 #### Winnipeg
 

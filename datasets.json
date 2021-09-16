@@ -3184,6 +3184,28 @@
         "notes": {}
       },
       {
+        "id_name": "MB - Select COVID-19 Outbreaks in Manitoba",
+        "uuid": "4688b79c-eed6-4911-8111-e6d4b7442f4b",
+        "active": "True",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/Current_MB_COVID_Outbreaks/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "acive-outbreaks-ltc-institutions-healthcare-schools",
+        "file_name": "Current_MB_COVID_Outbreaks",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Select COVID-19 Outbreaks in Manitoba",
+          "meta_url": "https://www.gov.mb.ca/covid19/updates/cases.html",
+          "meta_url_name": "Cases and Risk of COVID-19 in Manitoba",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "MB - COVID-19 By-law Enforcement (Winnipeg)",
         "uuid": "dcbae7c9-bbf9-46c0-a181-4c10bb06de10",
         "active": "True",
