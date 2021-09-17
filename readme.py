@@ -7,6 +7,7 @@ print('Importing modules...')
 
 ## core utilities
 import json
+import collections
 
 ### CREATE DATA CATALOGUE FROM METADATA STORED IN DATASETS.JSON ###
 
@@ -43,14 +44,33 @@ def meta_items(ds, txt):
 with open('datasets.json') as json_file:
         datasets = json.load(json_file)
 
+# note dataset attributes to verify uniqueness
+uuids = []
+dirs = []
+
 # flatten datasets into single dictionary
 ds = {} # create empty dictionary
 for a in datasets:
   for b in datasets[a]:
     for i in range(len(datasets[a][b])):
+      uuids.append(datasets[a][b][i]['uuid'])
+      dirs.append('/'.join([datasets[a][b][i]['dir_parent'], datasets[a][b][i]['dir_file']]))
       ds[datasets[a][b][i]['uuid']] = datasets[a][b][i]
 
+# verify uniqueness of UUID and directories, otherwise throw error
+dup_uuids = [item for item, count in collections.Counter(uuids).items() if count > 1]
+if len(dup_uuids) > 0:
+  sys.exit("There are duplicated UUIDs: " + ", ".join(dup_uuids))
+else:
+  print("All UUIDs are unique.")
+dup_dirs = [item for item, count in collections.Counter(dirs).items() if count > 1]
+if len(dup_dirs) > 0:
+  sys.exit("There are duplicated diectories: " + ", ".join(dup_dirs))
+else:
+  print("All directories are unique.")
+
 # initialize dataset list
+print("Generating README...")
 txt = ""
 
 # get all unique values for top-level groups (meta_group_1) and sort alphabetically
