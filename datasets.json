@@ -2564,7 +2564,29 @@
         "notes": {}
       },
       {
-        "id_name": "MB - Cases by status and RHA",
+        "id_name": "MB - Cases by demographics and RHA (official)",
+        "uuid": "28bc4b55-4b6e-4d07-a6d6-6903971571f7",
+        "active": "True",
+        "url": "https://opendata.arcgis.com/api/v3/datasets/757c41d6e67e42b989472521dec393c9_0/downloads/data?format=csv&spatialRefId=4326",
+        "dir_parent": "mb",
+        "dir_file": "cases-demographics-by-rha-official",
+        "file_name": "cases-demographics-by-rha",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases by demographics and RHA (official)",
+          "meta_url": "https://experience.arcgis.com/experience/f55693e56018406ebbd08b3492e99771",
+          "meta_url_name": "Manitoba COVID-19",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Daily Cases by Status and RHA",
         "uuid": "4a2d6a6a-4402-4d51-aba5-a59271389732",
         "active": "True",
         "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_by_status_daily_rha/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Date%20desc",
@@ -2576,7 +2598,7 @@
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Cases by status and RHA",
+          "meta_name": "Daily Cases by Status and RHA",
           "meta_url": "https://experience.arcgis.com/experience/f55693e56018406ebbd08b3492e99771",
           "meta_url_name": "Manitoba COVID-19",
           "meta_licence": "",
@@ -2586,7 +2608,7 @@
         "notes": {}
       },
       {
-        "id_name": "MB - Cases by status and RHA (JSON to CSV)",
+        "id_name": "MB - Daily Cases by Status and RHA (JSON to CSV)",
         "uuid": "e4357189-070c-48b6-946c-d3b9744a3daa",
         "active": "True",
         "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_by_status_daily_rha/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Date%20desc",
@@ -2600,7 +2622,29 @@
         },
         "supplementary": {},
         "metadata": {
-          "meta_name": "Cases by status and RHA (JSON to CSV)",
+          "meta_name": "Daily Cases by Status and RHA (JSON to CSV)",
+          "meta_url": "https://experience.arcgis.com/experience/f55693e56018406ebbd08b3492e99771",
+          "meta_url_name": "Manitoba COVID-19",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Daily Cases by Status and RHA (official)",
+        "uuid": "48417109-97c4-4493-8278-39bcea1447ac",
+        "active": "True",
+        "url": "https://opendata.arcgis.com/api/v3/datasets/d9efaade798f4a69ac7503e9e93d1a65_0/downloads/data?format=csv&spatialRefId=4326",
+        "dir_parent": "mb",
+        "dir_file": "cases-by-status-and-rha-official",
+        "file_name": "mb_covid_cases_by_status_daily_rha",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Daily Cases by Status and RHA (official)",
           "meta_url": "https://experience.arcgis.com/experience/f55693e56018406ebbd08b3492e99771",
           "meta_url_name": "Manitoba COVID-19",
           "meta_licence": "",
@@ -2656,7 +2700,29 @@
         "notes": {}
       },
       {
-        "id_name": "MB - Summary statistics by area",
+        "id_name": "MB - Manitoba five-day test positivity rate (official)",
+        "uuid": "3679b187-9918-4b12-8a25-65fb15f8a7bb",
+        "active": "True",
+        "url": "https://opendata.arcgis.com/api/v3/datasets/bf9512e790ec49598bca3c420849ad44_0/downloads/data?format=csv&spatialRefId=4326",
+        "dir_parent": "mb",
+        "dir_file": "five-day-test-positivity-official",
+        "file_name": "mb_covid_5_day_positivity_rate",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Manitoba five-day test positivity rate (official)",
+          "meta_url": "https://experience.arcgis.com/experience/f55693e56018406ebbd08b3492e99771",
+          "meta_url_name": "Manitoba COVID-19",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Summary Statistics by Geography",
         "uuid": "8cb83971-19f0-4dfc-b832-69efc1036ddd",
         "active": "True",
         "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_summary_statistics/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
@@ -2668,7 +2734,7 @@
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Summary statistics by area",
+          "meta_name": "Summary Statistics by Geography",
           "meta_url": "https://experience.arcgis.com/experience/f55693e56018406ebbd08b3492e99771",
           "meta_url_name": "Manitoba COVID-19",
           "meta_licence": "",
@@ -2678,7 +2744,29 @@
         "notes": {}
       },
       {
-        "id_name": "MB - Current status by area",
+        "id_name": "MB - Summary Statistics by Geography (official)",
+        "uuid": "1a0a9527-db99-48a6-b768-3dcac47d25dd",
+        "active": "True",
+        "url": "https://opendata.arcgis.com/api/v3/datasets/fe015ce26a474048b2140477a6ade50b_0/downloads/data?format=csv&spatialRefId=4326",
+        "dir_parent": "mb",
+        "dir_file": "summary-stats-by-area-official",
+        "file_name": "mb_covid_cases_summary_statistics",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Summary Statistics by Geography (official)",
+          "meta_url": "https://experience.arcgis.com/experience/f55693e56018406ebbd08b3492e99771",
+          "meta_url_name": "Manitoba COVID-19",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Case Status by District",
         "uuid": "64e3f378-42f3-4f2b-b4c9-5be4dddadb6f",
         "active": "True",
         "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/Manitoba_COVID19_Case_Status_by_Geography/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
@@ -2690,7 +2778,95 @@
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Current status by area",
+          "meta_name": "Case Status by District",
+          "meta_url": "https://experience.arcgis.com/experience/f55693e56018406ebbd08b3492e99771",
+          "meta_url_name": "Manitoba COVID-19",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Case Status by District (official)",
+        "uuid": "b6c205d1-f112-4bd4-8d7f-bb6efd0c38e9",
+        "active": "True",
+        "url": "https://opendata.arcgis.com/api/v3/datasets/21dd1941a203443faff0fb9e960bf8d1_0/downloads/data?format=csv&spatialRefId=3857",
+        "dir_parent": "mb",
+        "dir_file": "current-status-by-area-official",
+        "file_name": "Manitoba_COVID19_Case_Status_by_Geography",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Case Status by District (official)",
+          "meta_url": "https://experience.arcgis.com/experience/f55693e56018406ebbd08b3492e99771",
+          "meta_url_name": "Manitoba COVID-19",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Case Status by District (official FGDB)",
+        "uuid": "93c7b3bd-6a09-444f-a93e-684e562325b8",
+        "active": "True",
+        "url": "https://opendata.arcgis.com/api/v3/datasets/21dd1941a203443faff0fb9e960bf8d1_0/downloads/data?format=fgdb&spatialRefId=4326",
+        "dir_parent": "mb",
+        "dir_file": "current-status-by-area-official-fgdb",
+        "file_name": "Manitoba_COVID19_Case_Status_by_Geography",
+        "file_ext": "gdb.zip",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Case Status by District (official FGDB)",
+          "meta_url": "https://experience.arcgis.com/experience/f55693e56018406ebbd08b3492e99771",
+          "meta_url_name": "Manitoba COVID-19",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Case Status by RHA (official)",
+        "uuid": "e4099caf-a942-42ff-87cb-9d3954d72dcb",
+        "active": "True",
+        "url": "https://opendata.arcgis.com/api/v3/datasets/21dd1941a203443faff0fb9e960bf8d1_1/downloads/data?format=csv&spatialRefId=3857",
+        "dir_parent": "mb",
+        "dir_file": "current-status-by-rha-official",
+        "file_name": "Manitoba_COVID19_Case_Status_by_Geography",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Case Status by RHA (official)",
+          "meta_url": "https://experience.arcgis.com/experience/f55693e56018406ebbd08b3492e99771",
+          "meta_url_name": "Manitoba COVID-19",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Case Status by RHA (official FGDB)",
+        "uuid": "ef379196-8e25-43a9-b29c-6dbfb57d420d",
+        "active": "True",
+        "url": "https://opendata.arcgis.com/api/v3/datasets/21dd1941a203443faff0fb9e960bf8d1_1/downloads/data?format=fgdb&spatialRefId=4326",
+        "dir_parent": "mb",
+        "dir_file": "current-status-by-area-rha-fgdb",
+        "file_name": "Manitoba_COVID19_Case_Status_by_Geography",
+        "file_ext": "gdb.zip",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Case Status by RHA (official FGDB)",
           "meta_url": "https://experience.arcgis.com/experience/f55693e56018406ebbd08b3492e99771",
           "meta_url_name": "Manitoba COVID-19",
           "meta_licence": "",
