@@ -691,8 +691,9 @@ def create_index(url_base, bucket, aws_id, aws_key):
     # sort
     inv = inv.sort_values(by=['dir_parent', 'dir_file', 'file_timestamp'])
     
-    ## initialize index
+    ## initialize index and add UUID column
     ind = pd.DataFrame(columns=inv.columns)
+    ind.insert(0, 'uuid', '')
     
     ## calculate true dates and etag duplicates - loop through each dataset
     for key in ds:
@@ -700,6 +701,10 @@ def create_index(url_base, bucket, aws_id, aws_key):
         d_f = ds[key]['dir_file']
         # get data
         d = inv[(inv['dir_parent'] == d_p) & (inv['dir_file'] == d_f)]
+        # if no data, skip to next dataset
+        # (this occurs if a dataset was recently added but has not yet been archived)
+        if len(d) == 0:
+            continue
         # check if there are multiple hashes on the first date of data
         d_first_date = d[d['file_date'] == d['file_date'].min()].drop_duplicates(['file_etag'])
         if (len(d_first_date) > 1):
@@ -724,6 +729,8 @@ def create_index(url_base, bucket, aws_id, aws_key):
         d['file_etag_duplicate'] = d['file_etag'].duplicated()
         # mark duplicates using 1 and 0 rather than True and False
         d['file_etag_duplicate'] = np.where(d['file_etag_duplicate']==True, 1, 0)
+        # finally, add UUID
+        d['uuid'] = key
         # save modified index
         ind = ind.append(d)
         # print progress
