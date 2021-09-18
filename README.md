@@ -310,6 +310,7 @@ A note about data from Quebec: when both French and English data files are avail
     * COVID-19 data by RHA and district (JSON to CSV): [mb/covid-data-by-rha-and-district-csv/covid-data-by-rha-and-district.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Cases by demographics and RHA: [mb/cases-demographics-by-rha/cases-demographics-by-rha.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Cases by demographics and RHA (JSON to CSV): [mb/cases-demographics-by-rha-csv/cases-demographics-by-rha.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Cases by demographics and RHA (official): [mb/cases-demographics-by-rha-official/cases-demographics-by-rha.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Daily Cases by Status and RHA: [mb/cases-by-status-and-rha/cases-by-status-and-rha.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Daily Cases by Status and RHA (JSON to CSV): [mb/cases-by-status-and-rha-csv/cases-by-status-and-rha.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Daily Cases by Status and RHA (official): [mb/cases-by-status-and-rha-official/mb_covid_cases_by_status_daily_rha.csv](http://data.opencovid.ca/archive/index.html#archive/)
