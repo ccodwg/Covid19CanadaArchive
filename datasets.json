@@ -6331,6 +6331,58 @@
         "notes": {}
       },
       {
+        "id_name": "QC - Status report on confirmed cases and deaths by RPA",
+        "uuid": "e1e3a560-814d-4e42-8898-c9bee115e07c",
+        "active": "True",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_rpa.pdf",
+        "dir_parent": "qc",
+        "dir_file": "status-report-cases-and-deaths-by-rpa",
+        "file_name": "etat_situation_rpa",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Status report on confirmed cases and deaths by RPA",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {
+          "notes_data": "Note that when there are no cases in this living environment, a report is not produced (and thus the file is absent)."
+        }
+      },
+      {
+        "id_name": "QC - Status report on confirmed cases and deaths by CHSLD",
+        "uuid": "39ae832e-77b7-494d-9105-0da482050e65",
+        "active": "True",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_chsld.pdf",
+        "dir_parent": "qc",
+        "dir_file": "status-report-cases-and-deaths-by-chsld",
+        "file_name": "etat_situation_chsld",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Status report on confirmed cases and deaths by CHSLD",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {
+          "notes_data": "Note that when there are no cases in this living environment, a report is not produced (and thus the file is absent)."
+        }
+      },
+      {
         "id_name": "QC - Situation in living environments for the elderly and vulnerable (RPA and CHSLD)",
         "uuid": "cc7e84eb-c884-4b8f-ba2a-8fefc49a187c",
         "active": "True",
@@ -9412,58 +9464,6 @@
           "meta_group_2": "Montreal"
         },
         "notes": {}
-      },
-      {
-        "id_name": "QC - Status report on confirmed cases and deaths by RPA",
-        "uuid": "e1e3a560-814d-4e42-8898-c9bee115e07c",
-        "active": "False",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_rpa.pdf",
-        "dir_parent": "qc",
-        "dir_file": "status-report-cases-and-deaths-by-rpa",
-        "file_name": "etat_situation_rpa",
-        "file_ext": "pdf",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Status report on confirmed cases and deaths by RPA",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
-          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {
-          "notes_data": "Note that when there are no cases in this living environment, a report is not produced (and thus the file is absent)."
-        }
-      },
-      {
-        "id_name": "QC - Status report on confirmed cases and deaths by CHSLD",
-        "uuid": "39ae832e-77b7-494d-9105-0da482050e65",
-        "active": "False",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_chsld.pdf",
-        "dir_parent": "qc",
-        "dir_file": "status-report-cases-and-deaths-by-chsld",
-        "file_name": "etat_situation_chsld",
-        "file_ext": "pdf",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Status report on confirmed cases and deaths by CHSLD",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
-          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {
-          "notes_data": "Note that when there are no cases in this living environment, a report is not produced (and thus the file is absent)."
-        }
       }
     ],
     "sk": [

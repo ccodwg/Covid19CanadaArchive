@@ -584,6 +584,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Deaths percentage by age group (FR): [qc/deaths-percentage-by-age-group/pourcentage-deces-age.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Cumulative deaths by region (FR): [qc/cumulative-deaths-by-region/deces-region.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Deaths time series by living environment: [qc/deaths-time-series-by-living-environment/decesquotidien.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Status report on confirmed cases and deaths by RPA: [qc/status-report-cases-and-deaths-by-rpa/etat_situation_rpa.pdf](http://data.opencovid.ca/archive/index.html#archive/)
+    * Status report on confirmed cases and deaths by CHSLD: [qc/status-report-cases-and-deaths-by-chsld/etat_situation_chsld.pdf](http://data.opencovid.ca/archive/index.html#archive/)
     * Situation in living environments for the elderly and vulnerable (RPA and CHSLD): [qc/status-report-cases-and-deaths-by-rpa-and-chsld/etat_situation_milieux-de-vie.pdf](http://data.opencovid.ca/archive/index.html#archive/)
     * Active hospitalizations per hospital: [qc/active-hospitalizations-per-hosp/tableau-hospitalisations.pdf](http://data.opencovid.ca/archive/index.html#archive/)
     * Outbreaks by setting (EN): [qc/outbreaks-by-setting-en/eclosions-par-milieu-en.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
@@ -598,8 +600,6 @@ A note about data from Quebec: when both French and English data files are avail
     * Recent daily cases by region (EN): [qc/recent-daily-cases-by-region-en/cas-region-en.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Vaccination of priority groups (FR): [qc/vaccination-of-priority-groups/20-279-07WF_Previsions_vaccination.pdf](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Vaccination of priority groups (EN): [qc/vaccination-of-priority-groups-en/20-279-07WA_Previsions_vaccination-anglais.pdf](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
-    * Status report on confirmed cases and deaths by RPA: [qc/status-report-cases-and-deaths-by-rpa/etat_situation_rpa.pdf](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
-    * Status report on confirmed cases and deaths by CHSLD: [qc/status-report-cases-and-deaths-by-chsld/etat_situation_chsld.pdf](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [Données de vaccination contre la COVID-19 au Québec](https://www.inspq.qc.ca/covid-19/donnees/vaccination)
     * Webpage: [qc/inspq-data-webpage/inspq-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination by RSS time series: [qc/vaccination-by-rss-time-series/vaccination.csv](http://data.opencovid.ca/archive/index.html#archive/)
