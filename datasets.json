@@ -48,6 +48,28 @@
         }
       },
       {
+        "id_name": "AB - COVID-19 Alberta statistics: Summary data time series",
+        "uuid": "3ced816d-8524-4875-bd69-61fb5603b596",
+        "active": "True",
+        "url": "https://www.alberta.ca/data/stats/covid-19-alberta-statistics-summary-data.csv",
+        "dir_parent": "ab",
+        "dir_file": "covid-summary-time-series",
+        "file_name": "covid-19-alberta-statistics-summary-data",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Summary data time series",
+          "meta_url": "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm",
+          "meta_url_name": "COVID-19 Alberta statistics",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Alberta"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "AB - COVID-19 Alberta statistics: Case time series (Local geographic area)",
         "uuid": "e7d94ff1-6029-4046-8f93-281d200912a9",
         "active": "True",
