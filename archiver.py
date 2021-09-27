@@ -159,18 +159,24 @@ for key in ds:
         ### mb_json_to_csv (dl_file)
         if 'mb_json_to_csv' in ds[key]['args']:
                 ds[key]['args']['mb_json_to_csv'] = arg_bool('mb_json_to_csv')
-        ## js (html_page)
+        ### js (html_page)
         if 'js' in ds[key]['args']:
                 ds[key]['args']['js'] = arg_bool('js')
-        ## wait (html_page, ss_page)
+        ### wait (html_page, ss_page)
         if 'wait' in ds[key]['args']:
                 ds[key]['args']['wait'] = arg_int('wait')
-        ## width (html_page, ss_page)
+        ### width (html_page, ss_page)
         if 'width' in ds[key]['args']:
                 ds[key]['args']['width'] = arg_int('width')
-        ## height (html_page, ss_page)
+        ### height (html_page, ss_page)
         if 'height' in ds[key]['args']:
                 ds[key]['args']['height'] = arg_int('height')
+
+        ## filter out unwanted keywords
+        ### verify is not used for html_page() but is used elsewhere
+        if ds[key]['dl_fun'] == 'html_page':
+                ds[key]['args'].pop('verify', None)
+
         ## run download function
         dl_fun(
                 url = ds[key]['url'],
