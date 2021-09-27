@@ -545,6 +545,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [on/on-phu-eastern-covid-data-webpage/on-phu-eastern-covid-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [Grey Bruce (PHU) - Grey Bruce Overview](https://www.publichealthgreybruce.on.ca/)
     * Webpage: [on/on-phu-grey-bruce-covid-data-webpage/on-phu-grey-bruce-covid-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+* [Northwestern (PHU) - COVID-19 Local Data](https://www2.nwhu.on.ca/covid-19/data/)
+    * Webpage: [on/on-phu-northwestern-covid-data-webpage/on-phu-northwestern-covid-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 
 #### Toronto
 
