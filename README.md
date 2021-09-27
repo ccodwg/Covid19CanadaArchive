@@ -547,6 +547,22 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [on/on-phu-grey-bruce-covid-data-webpage/on-phu-grey-bruce-covid-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [Northwestern (PHU) - COVID-19 Local Data](https://www2.nwhu.on.ca/covid-19/data/)
     * Webpage: [on/on-phu-northwestern-covid-data-webpage/on-phu-northwestern-covid-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+* [Peterborough (PHU) - Local COVID-19 Cases & Status](https://www.peterboroughpublichealth.ca/local-covid-19-status/)
+    * Webpage: [on/on-phu-peterborough-covid-data-webpage/on-phu-peterborough-covid-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+* [Porcupine (PHU) - Novel Coronavirus (COVID-19)](https://www.porcupinehu.on.ca/en/your-health/infectious-diseases/novel-coronavirus/)
+    * Webpage: [on/on-phu-porcupine-covid-data-webpage/on-phu-porcupine-covid-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+* [Renfrew (PHU) - COVID-19 local cases](https://www.rcdhu.com/novel-coronavirus-covid-19-2/)
+    * Webpage: [on/on-phu-renfrew-covid-data-webpage/on-phu-renfrew-covid-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+* [Simcoe Muskoka (PHU) - COVID-19 highlights](https://www.simcoemuskokahealthstats.org/topics/infectious-diseases/a-h/covid-19)
+    * Webpage: [on/on-phu-simcoe-muskoka-covid-data-webpage/on-phu-simcoe-muskoka-covid-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+* [Sudbury (PHU) - Current status (COVID-19)](https://www.phsd.ca/health-topics-programs/diseases-infections/coronavirus/current-status-covid-19/)
+    * Webpage: [on/on-phu-sudbury-covid-data-webpage/on-phu-sudbury-covid-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+* [Timiskaming (PHU) - What is the current situation in Timiskaming?](https://www.timiskaminghu.com/90529/What-is-the-current-situation-in-Timiskaming)
+    * Webpage: [on/on-phu-timiskaming-covid-data-webpage/on-phu-timiskaming-covid-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+* [Windsor-Essex (PHU) - Local COVID-19 Data](https://www.wechu.org/cv/local-updates)
+    * Webpage: [on/on-phu-windsor-essex-covid-data-webpage/on-phu-windsor-essex-covid-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+* [York (PHU) - COVID-19 in York Region](https://www.york.ca/wps/portal/yorkhome/health/yr/covid-19/covid19inyorkregion/01covid19inyorkregion/!ut/p/z1/tZPbcpswEIafJRdcYi0nS_ROoa6B2NhN4gPcZDAWhxQjBys46dNXJHSm7ThOOylcCGln91_-TwuK0BpFVdwUWSwKXsWlPIfR8M6jY891r8CfmcQBCjPq65jAyNbQ6iUB3ngooOhv6s8kROfllyhC0T4ptijUDYZJYhMVg5WoZpwMVVvbbOVip5Ztp7HdyqEoqcRe5Ch8ru8SXglWCQWeef1NHg6iEI8vgZzvmFxZXIpcgYQ3xVbV7G6n2UXVVtQsk5gUAO1EGPnveZdw9XrqTDPpIBa5WlQpR-ufvbrdH6Lr072kVHH_8BBRaa_19CTQum9_qxbmrw7HN8QEb-ljutRmYHpGl6Dr5tDVHPDBnRHwvuC59Zm4GlzpXcKZ-5UQs5JvXkeRVhuDSFo1S1nN6sFjLcO5EPvDJwUUOB6Pg4zzrGSDhO8UOFWS84NE83smCuUQ4jdv6lpHq6ZgR7SoeL2TX3LzjzPnQtcBE4e6dAxzuF1g-DrCJhlOpvPJtfbBDu8Y6Fne6FUeQ7_yer_y_weO74Gj0fYfM0YGUN1zyKXhkyDol33QL_ugX_ZBv3O__Cic_W6x2BHDKjMibO_eKptJOh0ZZug33y8D9fwru7j4Af7j0Z4!/dz/d5/L2dBISEvZ0FBIS9nQSEh/)
+    * Individual-level case dataset: [on/on-phu-york-individual-level-case-data/YR_CaseData.csv](http://data.opencovid.ca/archive/index.html#archive/)
 
 #### Toronto
 
