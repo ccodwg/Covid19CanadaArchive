@@ -5919,6 +5919,77 @@
           "meta_group_2": "Ottawa"
         },
         "notes": {}
+      },
+      {
+        "id_name": "ON - Algoma (PHU) - COVID-19 data (webpage)",
+        "uuid": "685df305-f6c7-4ac2-992b-ec707eb1f1cb",
+        "active": "True",
+        "url": "https://www.algomapublichealth.com/disease-and-illness/infectious-diseases/novel-coronavirus/current-status-covid-19/",
+        "dir_parent": "on",
+        "dir_file": "on-phu-algoma-covid-data-webpage",
+        "file_name": "on-phu-algoma-covid-data-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.algomapublichealth.com/disease-and-illness/infectious-diseases/novel-coronavirus/current-status-covid-19/",
+          "meta_url_name": "Algoma (PHU) - Current Status (COVID-19)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Eastern (PHU) - COVID-19 data (webpage)",
+        "uuid": "cd1db4e8-c4e5-4b24-86a5-2294281919c6",
+        "active": "True",
+        "url": "https://eohu.ca/en/covid/covid-19-status-update-for-eohu-region",
+        "dir_parent": "on",
+        "dir_file": "on-phu-eastern-covid-data-webpage",
+        "file_name": "on-phu-eastern-covid-data-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://eohu.ca/en/covid/covid-19-status-update-for-eohu-region",
+          "meta_url_name": "Eastern (PHU) - Local Status Updates and Statistics",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Grey Bruce (PHU) - COVID-19 data (webpage)",
+        "uuid": "eac45a46-e5b5-4e75-9393-77995cd7e219",
+        "active": "True",
+        "url": "https://www.publichealthgreybruce.on.ca/",
+        "dir_parent": "on",
+        "dir_file": "on-phu-grey-bruce-covid-data-webpage",
+        "file_name": "on-phu-grey-bruce-covid-data-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.publichealthgreybruce.on.ca/",
+          "meta_url_name": "Grey Bruce (PHU) - Grey Bruce Overview",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
       }
     ],
     "pe": [

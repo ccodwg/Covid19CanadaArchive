@@ -537,6 +537,15 @@ A note about data from Quebec: when both French and English data files are avail
     * Vaccinations by Day by Vaccine Type - Residents of Ottawa Vaccinated Outside of Ottawa: [on/ottawa-vaccinations-by-day-and-type-ottawa-residents-vaccinated-outside-ottawa/ottawa-vaccinations-by-day-and-type-ottawa-residents-vaccinated-outside-ottawa.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination Coverage by Age for Ottawa Residents with at Least 1 Dose: [on/ottawa-vaccination-coverage-by-age-ottawa-residents/ottawa-vaccination-coverage-by-age-ottawa-residents.json](http://data.opencovid.ca/archive/index.html#archive/)
 
+#### Public Health Units
+
+* [Algoma (PHU) - Current Status (COVID-19)](https://www.algomapublichealth.com/disease-and-illness/infectious-diseases/novel-coronavirus/current-status-covid-19/)
+    * Webpage: [on/on-phu-algoma-covid-data-webpage/on-phu-algoma-covid-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+* [Eastern (PHU) - Local Status Updates and Statistics](https://eohu.ca/en/covid/covid-19-status-update-for-eohu-region)
+    * Webpage: [on/on-phu-eastern-covid-data-webpage/on-phu-eastern-covid-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+* [Grey Bruce (PHU) - Grey Bruce Overview](https://www.publichealthgreybruce.on.ca/)
+    * Webpage: [on/on-phu-grey-bruce-covid-data-webpage/on-phu-grey-bruce-covid-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+
 #### Toronto
 
 * [COVID-19: Case Counts](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-pandemic-data/covid-19-weekday-status-of-cases-data/)
