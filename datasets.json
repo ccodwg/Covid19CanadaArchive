@@ -5075,6 +5075,30 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Long term care homes: LTC home COVID-19 staff vaccination rates",
+        "uuid": "aaf940a2-94a5-44fc-98e1-f79d6152cd28",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/resource/f8c54e4a-62b6-4efa-9ce6-a0de42a3867b/download/august2021_ltc_immunization_data_2021-10-01.csv",
+        "dir_parent": "on",
+        "dir_file": "long-term-care-home-staff-vaccination-rates",
+        "file_name": "ltc_immunization_data",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "LTC home COVID-19 staff vaccination rates",
+          "meta_url": "https://data.ontario.ca/dataset/long-term-care-home-covid-19-data",
+          "meta_url_name": "Long-Term Care Home COVID-19 Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {
+          "notes_data": "Changed file name from 'august2021_ltc_immunization_data_2021-10-01' to 'ltc_immunization_data'."
+        }
+      },
+      {
         "id_name": "ON - COVID-19 cases in schools (webpage)",
         "uuid": "04d5c49d-623c-4196-adcc-413c9dab7174",
         "active": "True",

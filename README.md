@@ -484,6 +484,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Summary data: [on/long-term-care-home-summary/ltccovidsummary.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Active outbreaks: [on/long-term-care-home-active/activeltcoutbreak.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Resolved outbreaks: [on/long-term-care-home-resolved/resolvedltc.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * LTC home COVID-19 staff vaccination rates: [on/long-term-care-home-staff-vaccination-rates/ltc_immunization_data.csv](http://data.opencovid.ca/archive/index.html#archive/)
 * [COVID-19 cases in schools](https://www.ontario.ca/page/covid-19-cases-schools)
     * Webpage: [on/cases-schools-webpage/cases-schools-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [COVID-19 cases in child care centres](https://www.ontario.ca/page/covid-19-cases-child-care-centres)
