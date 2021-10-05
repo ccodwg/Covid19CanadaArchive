@@ -4095,6 +4095,28 @@
         "notes": {}
       },
       {
+        "id_name": "NL - Percent fully vaccinated by Primary Health Care Area (PHC)",
+        "uuid": "bf4abc94-ebe8-4d5a-9f5f-bf40e938bf72",
+        "active": "True",
+        "url": "https://services6.arcgis.com/Oayv0bA202oTQWoc/arcgis/rest/services/PHC_FullyVaccinated_LabMerge/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nl",
+        "dir_file": "fully-vaccinated-by-phc",
+        "file_name": "PHC_FullyVaccinated_LabMerge",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Percent fully vaccinated by Primary Health Care Area (PHC)",
+          "meta_url": "https://covid-19-newfoundland-and-labrador-gnl.hub.arcgis.com/",
+          "meta_url_name": "Newfoundland and Labrador COVID-19 Pandemic Update Hub",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Newfoundland and Labrador"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "NL - Vaccine doses received and expected this week",
         "uuid": "6d1b0f2e-0ac0-4ad8-a383-619065ec5a52",
         "active": "True",

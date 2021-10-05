@@ -399,6 +399,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Cases by likely exposure setting: [nl/cases-by-likely-exposure-setting/Exposure_New_Public.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Cases by age and sex: [nl/cases-by-age-and-sex/Covid_AgeLayerPublic2.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Cumulative vaccination (4): [nl/cumulative-vaccination-4/DailyVaxUpdatePublicV3.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Percent fully vaccinated by Primary Health Care Area (PHC): [nl/fully-vaccinated-by-phc/PHC_FullyVaccinated_LabMerge.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccine doses received and expected this week: [nl/vaccine-doses-received-and-expected/WeeklyDoses_Public.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Cumulative vaccination: [nl/cumulative-vaccination/Vaccine_LatestPublic_v2.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Cumulative vaccination (2): [nl/cumulative-vaccination-2/DailyVaccination_Public.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
