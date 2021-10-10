@@ -237,6 +237,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Cases on First Nations reserves: [can/covid-time-series-first-nations-reserves/covid19-isc.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Variant prevalence time series: [can/variant-prevalence-time-series/covid19-epiSummary-variants.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Variant sample size time series: [can/variant-sample-size-time-series/covid19-epiSummary-variants-sampleSize.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Detailed variant prevalence time series: [can/variant-prevalence-time-series-detailed/covid19-epiSummary-variants-download.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Variant contributing labs: [can/variant-contributing-labs/covid19-epiSummary-variants-contributingLabs.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Variants of concern time series by province: [can/variants-of-concern-time-series-by-province/covid19-epiSummary-voc.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Cases following vaccination (cases, hospitalizations, deaths by vaccination): [can/cases-following-vaccination-cases-hosp-deaths-by-vaccination-status/covid19-epiSummary-casesAfterVaccination.csv](http://data.opencovid.ca/archive/index.html#archive/)
@@ -673,10 +674,11 @@ A note about data from Quebec: when both French and English data files are avail
     * Cases by RSS (health region) and RLS (local service network): [qc/cases-by-rss-and-rls/tableau-rls-new.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Comparisons (provinces): [qc/comparisons-provinces/comparaisons_prov.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Comparisons (countries): [qc/comparisons-countries/comparaisons_pays.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * Deaths by RSS (health region) and number of pre-existing conditions: [qc/deaths-by-rss-and-pre-existing-conditions/comorbidite.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Time series by region: [qc/covid-time-series-by-region/PL_DATE.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Data (original): [qc/covid-data/combine.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Charts (original): [qc/covid-data-charts/combine2.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+* [Conditions médicales préexistantes et COVID-19 (INSPQ)](https://www.inspq.qc.ca/covid-19/donnees/conditions-medicales-preexistantes)
+    * Deaths by RSS (health region) and number of pre-existing conditions: [qc/deaths-by-rss-and-pre-existing-conditions/comorbidite.csv](http://data.opencovid.ca/archive/index.html#archive/)
 * [Données COVID-19 par âge et sexe au Québec](https://www.inspq.qc.ca/covid-19/donnees/age-sexe)
     * Dataset: [qc/covid-data-by-age-and-sex/PL_AGE_SEXE.csv](http://data.opencovid.ca/archive/index.html#archive/)
 * [Faits saillants des cas de COVID-19 dans les écoles du Québec](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/faits-saillants-covid-ecoles/)

@@ -1430,6 +1430,28 @@
         "notes": {}
       },
       {
+        "id_name": "CAN - COVID-19 daily epidemiology update (Detailed variant prevalence time series)",
+        "uuid": "dceeaea4-5355-4ac1-b284-c6074e136cc3",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-variants-detailed-download.csv",
+        "dir_parent": "can",
+        "dir_file": "variant-prevalence-time-series-detailed",
+        "file_name": "covid19-epiSummary-variants-download",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Detailed variant prevalence time series",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
+          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "CAN - COVID-19 daily epidemiology update (Variant contributing labs)",
         "uuid": "1f38590d-2bc1-4dbb-8910-643c5c180dc6",
         "active": "True",
