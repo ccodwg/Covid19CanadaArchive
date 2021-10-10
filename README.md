@@ -237,7 +237,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Cases on First Nations reserves: [can/covid-time-series-first-nations-reserves/covid19-isc.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Variant prevalence time series: [can/variant-prevalence-time-series/covid19-epiSummary-variants.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Variant sample size time series: [can/variant-sample-size-time-series/covid19-epiSummary-variants-sampleSize.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * Detailed variant prevalence time series: [can/variant-prevalence-time-series-detailed/covid19-epiSummary-variants-download.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Detailed variant prevalence time series: [can/variant-prevalence-time-series-detailed/covid19-epiSummary-variants-detailed-download.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Variant contributing labs: [can/variant-contributing-labs/covid19-epiSummary-variants-contributingLabs.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Variants of concern time series by province: [can/variants-of-concern-time-series-by-province/covid19-epiSummary-voc.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Cases following vaccination (cases, hospitalizations, deaths by vaccination): [can/cases-following-vaccination-cases-hosp-deaths-by-vaccination-status/covid19-epiSummary-casesAfterVaccination.csv](http://data.opencovid.ca/archive/index.html#archive/)

@@ -1436,7 +1436,7 @@
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-variants-detailed-download.csv",
         "dir_parent": "can",
         "dir_file": "variant-prevalence-time-series-detailed",
-        "file_name": "covid19-epiSummary-variants-download",
+        "file_name": "covid19-epiSummary-variants-detailed-download",
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {},
