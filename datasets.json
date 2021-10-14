@@ -7026,6 +7026,50 @@
         "notes": {}
       },
       {
+        "id_name": "QC - Historique du portrait quotidien du statut vaccinal des nouveaux cas confirmés",
+        "uuid": "5c1ef873-2538-4f99-b8cf-102728c63fea",
+        "active": "True",
+        "url": "https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_RapportINSPQ_CasSelonStatutVaccinalEtAge.csv",
+        "dir_parent": "qc",
+        "dir_file": "new-cases-by-age-and-vaccination-status-timeseries",
+        "file_name": "COVID19_Qc_RapportINSPQ_CasSelonStatutVaccinalEtAge",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "New cases by age and vaccination status time series",
+          "meta_url": "https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-du-statut-vaccinal-des-nouveaux-cas-et-des-nouvelles-hospitalisations",
+          "meta_url_name": "COVID-19 - Portrait quotidien du statut vaccinal des nouveaux cas et des nouvelles hospitalisations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Historique du portrait quotidien du statut vaccinal des nouvelles hospitalisations",
+        "uuid": "bf806684-60ff-4f48-b34b-e292487586c7",
+        "active": "True",
+        "url": "https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_RapportINSPQ_HospitalisationsSelonStatutVaccinalEtAge.csv",
+        "dir_parent": "qc",
+        "dir_file": "new-hosp-by-age-and-vaccination-status-timeseries",
+        "file_name": "COVID19_Qc_RapportINSPQ_HospitalisationsSelonStatutVaccinalEtAge",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "New hospitalizations by age and vaccination status time series",
+          "meta_url": "https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-du-statut-vaccinal-des-nouveaux-cas-et-des-nouvelles-hospitalisations",
+          "meta_url_name": "COVID-19 - Portrait quotidien du statut vaccinal des nouveaux cas et des nouvelles hospitalisations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "QC - COVID-19 vaccination data (webpage FR)",
         "uuid": "c7db162a-fa36-4107-8b53-9a1333ae76d1",
         "active": "True",
