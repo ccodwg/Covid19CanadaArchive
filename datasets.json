@@ -4414,8 +4414,8 @@
         "dir_parent": "ns",
         "dir_file": "ns-potential-covid-exposures-webpage",
         "file_name": "ns-potential-covid-exposures-webpage",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
+        "file_ext": "html",
+        "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
         "metadata": {
