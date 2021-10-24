@@ -437,7 +437,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Immunizations: [ns/immunizations/immunizations.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Immunizations (2): [ns/immunizations-2/Immunizations_3_PROD.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [Potential COVID Exposures](http://www.nshealth.ca/covid-exposures)
-    * Webpage: [ns/ns-potential-covid-exposures-webpage/ns-potential-covid-exposures-webpage.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Webpage: [ns/ns-potential-covid-exposures-webpage/ns-potential-covid-exposures-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 
 ### Nunavut
 
