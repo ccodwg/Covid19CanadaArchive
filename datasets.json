@@ -4429,6 +4429,28 @@
         "notes": {}
       },
       {
+        "id_name": "NS - COVID-19 Exposures Connected to Public Schools (webpage)",
+        "uuid": "ff713012-5bc3-4f15-a7dd-85c3b5748b34",
+        "active": "True",
+        "url": "https://backtoschool.ednet.ns.ca/school-exposures",
+        "dir_parent": "ns",
+        "dir_file": "ns-public-school-covid-exposures-webpage",
+        "file_name": "ns-public-school-covid-exposures-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://backtoschool.ednet.ns.ca/school-exposures",
+          "meta_url_name": "COVID-19 Exposures Connected to Public Schools",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Nova Scotia"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "NS - Daily COVID-19 news releases (webpage)",
         "uuid": "7b7be246-cd65-4f35-b354-faa705cacecc",
         "active": "True",

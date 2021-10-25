@@ -438,6 +438,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Immunizations (2): [ns/immunizations-2/Immunizations_3_PROD.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [Potential COVID Exposures](http://www.nshealth.ca/covid-exposures)
     * Webpage: [ns/ns-potential-covid-exposures-webpage/ns-potential-covid-exposures-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+* [COVID-19 Exposures Connected to Public Schools](https://backtoschool.ednet.ns.ca/school-exposures)
+    * Webpage: [ns/ns-public-school-covid-exposures-webpage/ns-public-school-covid-exposures-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [COVID-19 news releases](https://novascotia.ca/news/search/?dept=180)
     * Webpage: [ns/daily-covid-news-release-webpage/daily-covid-news-release-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 
