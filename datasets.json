@@ -6059,6 +6059,84 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Brant (PHU) - COVID-19 data (webpage)",
+        "uuid": "2e7a5549-92ae-473d-a97a-7b8e0c1ddbbc",
+        "active": "True",
+        "url": "https://www.bchu.org/ServicesWeProvide/InfectiousDiseases/Pages/coronavirus.aspx",
+        "dir_parent": "on",
+        "dir_file": "on-phu-brant-covid-data-webpage",
+        "file_name": "on-phu-brant-covid-data-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "20"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.bchu.org/ServicesWeProvide/InfectiousDiseases/Pages/coronavirus.aspx",
+          "meta_url_name": "Brant (PHU) - Novel Coronavirus (COVID-19)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Chatham-Kent (PHU) - COVID-19 data - epidemiological summary (webpage)",
+        "uuid": "fe08035c-2c03-4960-a642-bde1fe18c857",
+        "active": "True",
+        "url": "https://ckphu.com/current-situation-in-chatham-kent/",
+        "dir_parent": "on",
+        "dir_file": "on-phu-chatham-kent-covid-data-epi-summary-webpage",
+        "file_name": "on-phu-chatham-kent-covid-data-epi-summary-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "20"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Epidemiological summary",
+          "meta_url": "https://ckphu.com/current-situation-in-chatham-kent/",
+          "meta_url_name": "Chatham-Kent (PHU) - Current Situation in Chatham-Kent and Surrounding Areas",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Durham (PHU) - COVID-19 data - status of cases (webpage)",
+        "uuid": "ba7b0d74-5fe2-41d8-aadb-6320ff9acb21",
+        "active": "True",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiMjU2MmEzM2QtNDliNS00ZmIxLWI5MzYtOTU0NTI1YmU5MjQ2IiwidCI6IjUyZDdjOWMyLWQ1NDktNDFiNi05YjFmLTlkYTE5OGRjM2YxNiJ9",
+        "dir_parent": "on",
+        "dir_file": "on-phu-durham-covid-data-status-of-cases-webpage",
+        "file_name": "on-phu-durham-covid-data-status-of-cases-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "20"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Status of COVID-19 Cases in Durham Region",
+          "meta_url": "https://www.durham.ca/en/health-and-wellness/novel-coronavirus-update.aspx",
+          "meta_url_name": "Durham (PHU) - COVID-19 Update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - Eastern (PHU) - COVID-19 data (webpage)",
         "uuid": "cd1db4e8-c4e5-4b24-86a5-2294281919c6",
         "active": "True",
@@ -6097,6 +6175,110 @@
           "meta_name": "Webpage",
           "meta_url": "https://www.publichealthgreybruce.on.ca/",
           "meta_url_name": "Grey Bruce (PHU) - Grey Bruce Overview",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Haldimand-Norfolk (PHU) - COVID-19 data - vaccinations (webpage)",
+        "uuid": "9a474429-3bf8-4963-9837-35e6915aba94",
+        "active": "True",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiYzNlMTlhZjctN2FlNS00YmZiLTgxNTMtNzQ1YTU4Mjg5NjBlIiwidCI6IjFmZDQxODI4LWNlMTQtNDg1OS04MWQ0LWViZWU0Njg0ZmRmNyJ9",
+        "dir_parent": "on",
+        "dir_file": "on-phu-haldimand-norfolk-covid-data-vaccination-webpage",
+        "file_name": "on-phu-haldimand-norfolk-covid-data-vaccination-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "20"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccinations",
+          "meta_url": "https://hnhu.org/additional-daily-statistics/",
+          "meta_url_name": "Haldimand-Norfolk (PHU) - Additional daily statistics",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Haliburton Kawartha Pineridge (PHU) - COVID-19 data - cases and contacts table (webpage)",
+        "uuid": "c1cd96db-69c3-4970-9a4b-e7bcdc12d39b",
+        "active": "True",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiOTJkYWRmODgtYzg5Ni00MmMyLWIzODgtNDU4ODYxZTVlNzc3IiwidCI6IjdkYzFmZjlkLTA1ZjEtNGNhNi1iYWZlLTIyNmZmNWYxNmJkYSJ9",
+        "dir_parent": "on",
+        "dir_file": "on-phu-haliburton-kawartha-pineridge-covid-data-cases-contacts-webpage",
+        "file_name": "on-phu-haliburton-kawartha-pineridge-covid-data-cases-contacts-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "20"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases and Contacts Table",
+          "meta_url": "https://www.hkpr.on.ca/covid-19/",
+          "meta_url_name": "Haliburton Kawartha Pineridge (PHU) - COVID-19",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Halton (PHU) - COVID-19 data - case counts (webpage)",
+        "uuid": "8d4067a7-4828-4b09-8396-089231cf2e94",
+        "active": "True",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiYzRkNmE4NTUtNmI0NC00NGYzLWI0MTQtMzg1YjQ2MWRkZDhlIiwidCI6ImI2OWE0ODdkLWJlN2EtNGRmYy04NjQ0LTZlYTM5YjE5N2U2ZiJ9",
+        "dir_parent": "on",
+        "dir_file": "on-phu-halton-covid-data-case-counts-webpage",
+        "file_name": "on-phu-halton-covid-data-case-counts-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "20"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Case counts",
+          "meta_url": "https://www.halton.ca/For-Residents/New-Coronavirus/Status-of-COVID-19-Cases-in-Halton",
+          "meta_url_name": "Halton (PHU) - Status of COVID-19 cases in Halton",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Hamilton (PHU) - COVID-19 data - cases & tests (webpage)",
+        "uuid": "b8ef690e-d23f-4b7d-8cf8-bc4a0f3d0a84",
+        "active": "True",
+        "url": "https://www.hamilton.ca/coronavirus/status-cases-in-hamilton",
+        "dir_parent": "on",
+        "dir_file": "on-phu-hamilton-covid-data-cases-tests-webpage",
+        "file_name": "on-phu-hamilton-covid-data-cases-tests-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "20"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases & Tests",
+          "meta_url": "https://www.hamilton.ca/coronavirus/status-cases-in-hamilton",
+          "meta_url_name": "Status of Cases in Hamilton",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario",
