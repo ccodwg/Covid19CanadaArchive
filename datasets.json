@@ -2426,6 +2426,50 @@
         "notes": {}
       },
       {
+        "id_name": "CAN - Coronavirus disease (COVID-19) (webpage)",
+        "uuid": "ebbf7282-62f4-40f5-85a2-2387ccb3f37a",
+        "active": "True",
+        "url": "https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html",
+        "dir_parent": "can",
+        "dir_file": "can-covid-summary-webpage",
+        "file_name": "can-covid-summary-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html",
+          "meta_url_name": "Coronavirus disease (COVID-19)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Summary data about travellers, testing and compliance (webpage)",
+        "uuid": "69319cc8-7f0d-4511-91e0-131b9f8775dc",
+        "active": "True",
+        "url": "https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/testing-screening-contact-tracing/summary-data-travellers.html",
+        "dir_parent": "can",
+        "dir_file": "international-traveller-testing-webpage",
+        "file_name": "international-traveller-testing-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/testing-screening-contact-tracing/summary-data-travellers.html",
+          "meta_url_name": "COVID-19: Summary data about travellers, testing and compliance",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "CAN - Locations where you may have been exposed to COVID-19 (webpage)",
         "uuid": "7110c65b-9cd4-4810-b65c-44473ac2beb6",
         "active": "True",
