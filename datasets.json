@@ -6550,6 +6550,32 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Simcoe Muskoka (PHU) - COVID-19 data - case and vaccine summary table (webpage)",
+        "uuid": "7106106a-2f43-4ed2-b2a2-a75a7046ff81",
+        "active": "True",
+        "url": "https://datawrapper.dwcdn.net/k8ZuV/286/",
+        "dir_parent": "on",
+        "dir_file": "on-phu-simcoe-muskoka-covid-data-case-vaccine-summary-table-webpage",
+        "file_name": "on-phu-simcoe-muskoka-covid-data-case-vaccine-summary-table-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Case and Vaccine Summary Table",
+          "meta_url": "https://www.simcoemuskokahealthstats.org/topics/infectious-diseases/a-h/covid-19",
+          "meta_url_name": "Simcoe Muskoka (PHU) - COVID-19 highlights",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - Sudbury (PHU) - COVID-19 data (webpage)",
         "uuid": "4b9c88a2-9487-4632-adc5-cfd4a2fddb3f",
         "active": "True",

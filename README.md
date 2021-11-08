@@ -589,6 +589,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [on/on-phu-renfrew-covid-data-webpage/on-phu-renfrew-covid-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [Simcoe Muskoka (PHU) - COVID-19 highlights](https://www.simcoemuskokahealthstats.org/topics/infectious-diseases/a-h/covid-19)
     * Webpage: [on/on-phu-simcoe-muskoka-covid-data-webpage/on-phu-simcoe-muskoka-covid-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Case and Vaccine Summary Table: [on/on-phu-simcoe-muskoka-covid-data-case-vaccine-summary-table-webpage/on-phu-simcoe-muskoka-covid-data-case-vaccine-summary-table-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [Sudbury (PHU) - Current status (COVID-19)](https://www.phsd.ca/health-topics-programs/diseases-infections/coronavirus/current-status-covid-19/)
     * Webpage: [on/on-phu-sudbury-covid-data-webpage/on-phu-sudbury-covid-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [Timiskaming (PHU) - What is the current situation in Timiskaming?](https://www.timiskaminghu.com/90529/What-is-the-current-situation-in-Timiskaming)
