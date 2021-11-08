@@ -6106,7 +6106,7 @@
         "id_name": "ON - Brant (PHU) - COVID-19 data (webpage)",
         "uuid": "2e7a5549-92ae-473d-a97a-7b8e0c1ddbbc",
         "active": "True",
-        "url": "https://www.bchu.org/ServicesWeProvide/InfectiousDiseases/Pages/coronavirus.aspx",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiNDFlNTMxNmUtN2UxYS00OWI5LWEwNDAtNmM2MWUxNWUzMTZmIiwidCI6Ijc4MWJkYjUyLWU2YzMtNGExNS05YWUzLTZjMGIxYjUzM2RlMSJ9",
         "dir_parent": "on",
         "dir_file": "on-phu-brant-covid-data-webpage",
         "file_name": "on-phu-brant-covid-data-webpage",
@@ -6253,6 +6253,32 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Haldimand-Norfolk (PHU) - COVID-19 data - case status & demography (webpage)",
+        "uuid": "07fcf6b9-6e61-433e-b1a8-a951ee15b01d",
+        "active": "True",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiYzNlMTlhZjctN2FlNS00YmZiLTgxNTMtNzQ1YTU4Mjg5NjBlIiwidCI6IjFmZDQxODI4LWNlMTQtNDg1OS04MWQ0LWViZWU0Njg0ZmRmNyJ9&pageName=ReportSection",
+        "dir_parent": "on",
+        "dir_file": "on-phu-haldimand-norfolk-covid-data-case-status-demography-webpage",
+        "file_name": "on-phu-haldimand-norfolk-covid-data-case-status-demography-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "20"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Case status & demography",
+          "meta_url": "https://hnhu.org/additional-daily-statistics/",
+          "meta_url_name": "Haldimand-Norfolk (PHU) - Additional daily statistics",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - Haliburton Kawartha Pineridge (PHU) - COVID-19 data - cases and contacts table (webpage)",
         "uuid": "c1cd96db-69c3-4970-9a4b-e7bcdc12d39b",
         "active": "True",
@@ -6308,7 +6334,7 @@
         "id_name": "ON - Hamilton (PHU) - COVID-19 data - cases & tests (webpage)",
         "uuid": "b8ef690e-d23f-4b7d-8cf8-bc4a0f3d0a84",
         "active": "True",
-        "url": "https://www.hamilton.ca/coronavirus/status-cases-in-hamilton",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiYTYzOTFhNmItMjhiOS00YzM4LWE0YmMtYTRlYTdiMTYxZGE0IiwidCI6IjYwMDY3NDM3LWY0ODQtNDA0Zi05MzE2LTQ2MzQ4ZTczNDBhNSJ9",
         "dir_parent": "on",
         "dir_file": "on-phu-hamilton-covid-data-cases-tests-webpage",
         "file_name": "on-phu-hamilton-covid-data-cases-tests-webpage",
@@ -6322,7 +6348,59 @@
         "metadata": {
           "meta_name": "Cases & Tests",
           "meta_url": "https://www.hamilton.ca/coronavirus/status-cases-in-hamilton",
-          "meta_url_name": "Status of Cases in Hamilton",
+          "meta_url_name": "Hamilton (PHU) - Status of Cases in Hamilton",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Niagara (PHU) - COVID-19 data - daily & active cases (webpage)",
+        "uuid": "e1887eb2-538f-4610-bc00-bcd7d929a375",
+        "active": "True",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiNjJjZjU0ZmQtNzUzNi00NDMyLWEzZjUtY2YyZDg0NjU5ZTI0IiwidCI6ImY4MjE0ZDNkLTk2NWMtNDhjYi1iMThiLWVkMzIzMzcyYmU0MiJ9",
+        "dir_parent": "on",
+        "dir_file": "on-phu-niagara-covid-data-daily-active-cases-webpage",
+        "file_name": "on-phu-niagara-covid-data-daily-active-cases-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "20"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Daily & active cases",
+          "meta_url": "https://www.niagararegion.ca/health/covid-19/statistics/statistics.aspx",
+          "meta_url_name": "Niagara (PHU) - COVID-19 Statistics in Niagara",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - North Bay Parry Sound (PHU) - COVID-19 data - overview (webpage)",
+        "uuid": "3178dd11-17af-4478-a72e-e1a35d7d1b2d",
+        "active": "True",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiNGM0ZDUwMmUtYzQ1Yi00NDg2LTk1NjUtMzQ0OGZiZjMwNWE2IiwidCI6IjgzZTQ0ZDk4LTcwNTgtNDFlNS1iODBiLWFlYWE4YzI0NTdlNyJ9",
+        "dir_parent": "on",
+        "dir_file": "on-phu-north-bay-parry-sound-covid-data-overview-webpage",
+        "file_name": "on-phu-north-bay-parry-sound-covid-data-overview-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "20"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Overview",
+          "meta_url": "https://www.myhealthunit.ca/en/health-topics/coronavirus.asp",
+          "meta_url_name": "North Bay Parry Sound (PHU) - COVID-19 Status Report",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario",
@@ -6346,6 +6424,32 @@
           "meta_name": "Webpage",
           "meta_url": "https://www2.nwhu.on.ca/covid-19/data/",
           "meta_url_name": "Northwestern (PHU) - COVID-19 Local Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Peel (PHU) - COVID-19 data - summary (webpage)",
+        "uuid": "34b7dda2-1843-47e1-9c24-0c2a7ab78431",
+        "active": "True",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiYjIwNjE0NTYtOGJkYy00NWQwLTk5OGItNmYzOWYyMDU5NTA5IiwidCI6IjM1NmY5OWYzLTlkODYtNDdhMS04MjAzLTNiNDFiMWNiMGM2OCJ9",
+        "dir_parent": "on",
+        "dir_file": "on-phu-peel-covid-data-summary-webpage",
+        "file_name": "on-phu-peel-covid-data-summary-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "20"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Summary",
+          "meta_url": "https://www.peelregion.ca/coronavirus/case-status/",
+          "meta_url_name": "Peel (PHU) - COVID-19 in Peel",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario",
@@ -6484,6 +6588,32 @@
           "meta_name": "Webpage",
           "meta_url": "https://www.timiskaminghu.com/90529/What-is-the-current-situation-in-Timiskaming",
           "meta_url_name": "Timiskaming (PHU) - What is the current situation in Timiskaming?",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Wellington Dufferin Guelph (PHU) - COVID-19 data - overview (webpage)",
+        "uuid": "2138b937-e4fc-4792-b140-727abe06e56a",
+        "active": "True",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiZjZhMjM5ZTAtMmVhNS00ODEwLWE1ZjUtMTJkNzVkMGZkODhmIiwidCI6IjA5Mjg0MzdlLTFhZTItNGJhNy1hZmQxLTY5NDhmY2I5MWM0OCJ9",
+        "dir_parent": "on",
+        "dir_file": "on-phu-wellington-dufferin-guelph-covid-data-overview-webpage",
+        "file_name": "on-phu-wellington-dufferin-guelph-covid-data-overview-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "20"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Overview",
+          "meta_url": "https://wdgpublichealth.ca/your-health/covid-19-information-public/status-cases-wdg",
+          "meta_url_name": "Wellington Dufferin Guelph (PHU) - Status of Cases in WDG",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario",
