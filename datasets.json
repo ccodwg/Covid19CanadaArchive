@@ -6357,6 +6357,110 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Hastings Prince Edward (PHU) - COVID-19 data - Main (webpage)",
+        "uuid": "22c51a16-63d6-470c-8b8a-54ae243883b5",
+        "active": "True",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiNTY1YjY2NTItNjM0Ny00NzFkLTgyNjgtOWRiMGJjZjFiZTJiIiwidCI6ImJkN2RjMTg1LTBiYmMtNDc2Yy05NjBjLWJjZmE0MWExOGRiOSJ9",
+        "dir_parent": "on",
+        "dir_file": "on-phu-hastings-prince-edward-covid-data-main-webpage",
+        "file_name": "on-phu-hastings-prince-edward-covid-data-main-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "20"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Main",
+          "meta_url": "https://hpepublichealth.ca/covid-19-cases/",
+          "meta_url_name": "Hastings Prince Edward (PHU) - Status of COVID-19 Cases and Vaccinations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Kingston Frontenac Lennox & Addington (PHU) - COVID-19 data - Cases (webpage)",
+        "uuid": "83d1fa13-7fb3-4079-b3dc-5bc50c584fd3",
+        "active": "True",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiNjI2NTRiMjQtNTc1ZC00YzBkLWFhNWMtNzE2ZDJlN2QyMWM0IiwidCI6Ijk4M2JmOTVjLTAyNDYtNDg5My05MmI4LTgwMWJkNTEwYjRmYSJ9",
+        "dir_parent": "on",
+        "dir_file": "on-phu-kingston-frontenac-lennox-addington-covid-data-cases-webpage",
+        "file_name": "on-phu-kingston-frontenac-lennox-addington-covid-data-cases-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "20"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases",
+          "meta_url": "https://www.kflaph.ca/en/healthy-living/status-of-cases-in-kfla.aspx",
+          "meta_url_name": "Kingston Frontenac Lennox & Addington (PHU) - COVID-19 case data for KFL&A Region Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Lambton (PHU) - COVID-19 data - Cases details and trends (webpage)",
+        "uuid": "958da0fc-a1cd-4a9a-bad5-76adab3634d2",
+        "active": "True",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiZGRlMTA2NzMtYzhmMC00ZDI2LWFmYTQtMGExODAzYzZiN2YyIiwidCI6IjY5ZjQ2MTYwLTYyNmEtNDQ1NS1hNTliLWZkZGU0NmJmZTkwNCJ9",
+        "dir_parent": "on",
+        "dir_file": "on-phu-lambton-covid-data-case-details-trends-webpage",
+        "file_name": "on-phu-lambton-covid-data-case-details-trends-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "20"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Case details and trends",
+          "meta_url": "https://lambtonpublichealth.ca/2019-novel-coronavirus/",
+          "meta_url_name": "Lambton (PHU) - COVID-19 Report",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Middlesex-London (PHU) - COVID-19 data - Case status (webpage)",
+        "uuid": "b32a2f6b-7745-4bb1-9f9b-7ad0000d98a0",
+        "active": "True",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiMzE5MzJlOTItOWE2ZS00MDNlLTlkNDEtMTcyYTg5OGFhMTFiIiwidCI6ImRjNTYxMjk1LTdjYTktNDFhOS04M2JmLTUwODM0ZDZhOWQwZiJ9",
+        "dir_parent": "on",
+        "dir_file": "on-phu-middlesex-london-covid-data-case-status-webpage",
+        "file_name": "on-phu-middlesex-london-covid-data-case-status-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "20"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Case status",
+          "meta_url": "https://www.healthunit.com/novel-coronavirus",
+          "meta_url_name": "Middlesex-London (PHU) - Summary of COVID-19 Cases in Middlesex-London",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - Niagara (PHU) - COVID-19 data - daily & active cases (webpage)",
         "uuid": "e1887eb2-538f-4610-bc00-bcd7d929a375",
         "active": "True",
