@@ -6132,7 +6132,7 @@
         "id_name": "ON - Chatham-Kent (PHU) - COVID-19 data - epidemiological summary (webpage)",
         "uuid": "fe08035c-2c03-4960-a642-bde1fe18c857",
         "active": "True",
-        "url": "https://ckphu.com/current-situation-in-chatham-kent/",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiYjY0YmE3OGUtNTcwNS00ZWRjLWJiN2EtMjhkYTdkY2EwNjgzIiwidCI6IjkwNDYwOTBmLTI4YjEtNDUxOS1hMzVhLWRjMjc5ZTYxMmY0YiJ9",
         "dir_parent": "on",
         "dir_file": "on-phu-chatham-kent-covid-data-epi-summary-webpage",
         "file_name": "on-phu-chatham-kent-covid-data-epi-summary-webpage",
