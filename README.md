@@ -183,7 +183,7 @@ A note about data from Quebec: when both French and English data files are avail
     * VOC time series by RHA (2): [bc/voc-time-series-by-rha-2/Figure1_weeklyreport_data.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * VOC time series by RHA: [bc/voc-time-series-by-rha/COVID19_VoC_data.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [COVID-19 Public Exposures](http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures)
-    * Public exposures webpage screenshot: [bc/public-exposures-webpage/public-exposures-screenshot.png](http://data.opencovid.ca/archive/index.html#archive/)
+    * Public exposures webpage screenshot: [bc/public-exposures-webpage/public-exposures-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Public exposures - flights: [bc/public-exposures-flights/public-exposures-flights-tables-Current.pdf](http://data.opencovid.ca/archive/index.html#archive/)
     * Public exposures Fraser webpage: [bc/regional-exposure-events-fraser-webpage/regional-exposure-events-fraser-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Public exposures Interior webpage: [bc/regional-exposure-events-interior-webpage/regional-exposure-events-interior-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)

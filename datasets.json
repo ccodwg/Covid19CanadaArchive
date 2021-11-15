@@ -373,13 +373,10 @@
         "url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
         "dir_parent": "bc",
         "dir_file": "public-exposures-webpage",
-        "file_name": "public-exposures-screenshot",
-        "file_ext": "png",
-        "dl_fun": "ss_page",
-        "args": {
-          "width": "1920",
-          "height": "5500"
-        },
+        "file_name": "public-exposures-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Public exposures webpage screenshot",
@@ -389,7 +386,9 @@
           "meta_licence_url": "",
           "meta_group_1": "British Columbia"
         },
-        "notes": {}
+        "notes": {
+          "notes_data": "Warning: some early files are .png screenshots and named differently."
+        }
       },
       {
         "id_name": "BC - Public exposures: flights",
