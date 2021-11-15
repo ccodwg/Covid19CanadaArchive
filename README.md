@@ -740,6 +740,10 @@ A note about data from Quebec: when both French and English data files are avail
 * [Portrait quotidien des hospitalisations](https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-des-hospitalisations)
     * Daily hospitalizations by RSS and care unit: [qc/daily-hosp-by-rss-and-care-unit/COVID19_Qc_HistoHospit.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Daily hospitalizations by age group: [qc/daily-hosp-by-age-group/COVID19_Qc_HospitCatAge.csv](http://data.opencovid.ca/archive/index.html#archive/)
+* [Weekly deaths in Quebec](https://statistique.quebec.ca/fr/document/nombre-hebdomadaire-de-deces-au-quebec)
+    * Weekly deaths in Quebec by age group: [qc/weekly-deaths-by-age-group/DecesSemaine_QC_GrAge.xlsx](http://data.opencovid.ca/archive/index.html#archive/)
+    * Weekly deaths in Quebec by region: [qc/weekly-deaths-by-region/DecesSemaine_QC_Region.xlsx](http://data.opencovid.ca/archive/index.html#archive/)
+    * Weekly deaths in Quebec by sex: [qc/weekly-deaths-by-sex/DecesSemaine_QC_Sexe.xlsx](http://data.opencovid.ca/archive/index.html#archive/)
 * []()
     * Highlights - public and private school system (FR): [qc/schools-highlights/reseauScolaire_faitsSaillants.pdf](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Highlights - public and private school system (EN): [qc/schools-highlights-en/reseauScolaire_faitsSaillants_ANG.pdf](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]

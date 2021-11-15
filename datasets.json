@@ -8286,6 +8286,72 @@
         "notes": {}
       },
       {
+        "id_name": "QC - Weekly deaths in Quebec by age group",
+        "uuid": "f559d214-5154-4dee-8d67-991525ec6ac3",
+        "active": "True",
+        "url": "https://statistique.quebec.ca/docs-ken/multimedia/DecesSemaine_QC_GrAge.xlsx",
+        "dir_parent": "qc",
+        "dir_file": "weekly-deaths-by-age-group",
+        "file_name": "DecesSemaine_QC_GrAge",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Weekly deaths in Quebec by age group",
+          "meta_url": "https://statistique.quebec.ca/fr/document/nombre-hebdomadaire-de-deces-au-quebec",
+          "meta_url_name": "Weekly deaths in Quebec",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Weekly deaths in Quebec by region",
+        "uuid": "7b4b4da0-ee13-4e9d-825c-bea0ecd9dc88",
+        "active": "True",
+        "url": "https://statistique.quebec.ca/docs-ken/multimedia/DecesSemaine_QC_Region.xlsx",
+        "dir_parent": "qc",
+        "dir_file": "weekly-deaths-by-region",
+        "file_name": "DecesSemaine_QC_Region",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Weekly deaths in Quebec by region",
+          "meta_url": "https://statistique.quebec.ca/fr/document/nombre-hebdomadaire-de-deces-au-quebec",
+          "meta_url_name": "Weekly deaths in Quebec",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Weekly deaths in Quebec by sex",
+        "uuid": "99a6c99f-365b-4a9a-8544-d4ae610dbedd",
+        "active": "True",
+        "url": "https://statistique.quebec.ca/docs-ken/multimedia/DecesSemaine_QC_Sexe.xlsx",
+        "dir_parent": "qc",
+        "dir_file": "weekly-deaths-by-sex",
+        "file_name": "DecesSemaine_QC_Sexe",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Weekly deaths in Quebec by sex",
+          "meta_url": "https://statistique.quebec.ca/fr/document/nombre-hebdomadaire-de-deces-au-quebec",
+          "meta_url_name": "Weekly deaths in Quebec",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "QC - Montréal cases and deaths by CIUSSS (integrated health and social services centres)",
         "uuid": "0635e027-1825-4441-aba7-6f4d1157d080",
         "active": "True",
