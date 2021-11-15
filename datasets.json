@@ -9143,6 +9143,75 @@
         "notes": {}
       },
       {
+        "id_name": "Other: CAN - Unofficial COVID Alert Dashboard - Cumulative cases reported plot",
+        "uuid": "69b9bfa7-5eb5-453c-ba25-7660f1d1de7f",
+        "active": "True",
+        "url": "https://raw.githubusercontent.com/uhengart/covid-alert-dashboard/master/Cumulative.png",
+        "dir_parent": "other/can",
+        "dir_file": "unofficial-covid-alert-dashboard-cumulative-cases-reported-plot",
+        "file_name": "Cumulative",
+        "file_ext": "png",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cumulative cases reported plot",
+          "meta_url": "https://github.com/uhengart/covid-alert-dashboard",
+          "meta_url_name": "Unofficial COVID Alert Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "Other: CAN - Unofficial COVID Alert Dashboard - Daily number and percentage of cases reported plot",
+        "uuid": "76893476-8f31-48d5-af19-10bdaea8a24b",
+        "active": "True",
+        "url": "https://raw.githubusercontent.com/uhengart/covid-alert-dashboard/master/Daily.png",
+        "dir_parent": "other/can",
+        "dir_file": "unofficial-covid-alert-dashboard-daily-and-percent-cases-reported-plot",
+        "file_name": "Daily",
+        "file_ext": "png",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Daily number and percentage of cases reported plot",
+          "meta_url": "https://github.com/uhengart/covid-alert-dashboard",
+          "meta_url_name": "Unofficial COVID Alert Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "Other: CAN - Unofficial COVID Alert Dashboard - Reporting delay plot",
+        "uuid": "5fd9d592-3f71-486d-8053-585d0efa1213",
+        "active": "True",
+        "url": "https://raw.githubusercontent.com/uhengart/covid-alert-dashboard/master/Delay.png",
+        "dir_parent": "other/can",
+        "dir_file": "unofficial-covid-alert-dashboard-reporting-delay-plot",
+        "file_name": "Delay",
+        "file_ext": "png",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Reporting delay plot",
+          "meta_url": "https://github.com/uhengart/covid-alert-dashboard",
+          "meta_url_name": "Unofficial COVID Alert Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "Canada"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "Other: CAN - McDonald's Tracker",
         "uuid": "8fcaa3a2-62b2-41e8-ae15-8c430aa3f9c4",
         "active": "True",
