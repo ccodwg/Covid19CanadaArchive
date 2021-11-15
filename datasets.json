@@ -6804,6 +6804,32 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Wellington Dufferin Guelph (PHU) - COVID-19 data - cases (webpage)",
+        "uuid": "e00e2148-b0ea-458b-9f00-3533e0c5ae8e",
+        "active": "True",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiZjZhMjM5ZTAtMmVhNS00ODEwLWE1ZjUtMTJkNzVkMGZkODhmIiwidCI6IjA5Mjg0MzdlLTFhZTItNGJhNy1hZmQxLTY5NDhmY2I5MWM0OCJ9",
+        "dir_parent": "on",
+        "dir_file": "on-phu-wellington-dufferin-guelph-covid-data-cases-webpage",
+        "file_name": "on-phu-wellington-dufferin-guelph-covid-data-cases-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "20"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases",
+          "meta_url": "https://wdgpublichealth.ca/your-health/covid-19-information-public/status-cases-wdg",
+          "meta_url_name": "Wellington Dufferin Guelph (PHU) - Status of Cases in WDG",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - Windsor-Essex (PHU) - COVID-19 data (webpage)",
         "uuid": "01574538-062f-4a41-9dd5-8fdb72a0fe03",
         "active": "True",

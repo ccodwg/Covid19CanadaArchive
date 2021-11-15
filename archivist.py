@@ -493,6 +493,9 @@ def html_page(url, dir_parent, dir_file, file, ext, uuid, user=False, js=False, 
                 driver = click_xpath(driver, wait, '/html/body/div[1]/nav/div/ul/li[4]/a')
                 driver = click_xpath(driver, wait, '/html/body/div[1]/nav/div/ul/li[4]/ul/li[2]/a')
                 # time.sleep(wait); driver.find_element_by_id('VCTitle').get_attribute('innerHTML') # test
+            elif uuid == 'e00e2148-b0ea-458b-9f00-3533e0c5ae8e':
+                # wait for tab link to be clickable then click
+                driver = click_xpath(driver, wait, '/html/body/div[1]/root/div/div/div[1]/div/div/div/exploration-container/div/div/div/exploration-host/div/div/exploration/div/explore-canvas/div/div[2]/div/div[2]/div[2]/visual-container-repeat/visual-container-group[2]/transform/div/div[2]/visual-container[3]/transform/div/div[3]/div/visual-modern')
         ## prints exception but still proceeds (for now)
         except Exception as e:
             ## print exception
