@@ -601,6 +601,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Case and Vaccine Summary Table: [on/on-phu-simcoe-muskoka-covid-data-case-vaccine-summary-table-webpage/on-phu-simcoe-muskoka-covid-data-case-vaccine-summary-table-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [Sudbury (PHU) - Current status (COVID-19)](https://www.phsd.ca/health-topics-programs/diseases-infections/coronavirus/current-status-covid-19/)
     * Webpage: [on/on-phu-sudbury-covid-data-webpage/on-phu-sudbury-covid-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+* [Thunder Bay (PHU) - Current COVID-19 Data in TBDHU](https://www.tbdhu.com/coviddata)
+    * Webpage: [on/on-thunder-bay-covid-data-webpage/on-thunder-bay-covid-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [Timiskaming (PHU) - What is the current situation in Timiskaming?](https://www.timiskaminghu.com/90529/What-is-the-current-situation-in-Timiskaming)
     * Webpage: [on/on-phu-timiskaming-covid-data-webpage/on-phu-timiskaming-covid-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [Wellington Dufferin Guelph (PHU) - Status of Cases in WDG](https://wdgpublichealth.ca/your-health/covid-19-information-public/status-cases-wdg)

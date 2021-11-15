@@ -6729,6 +6729,32 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Thunder Bay (PHU) - COVID-19 data (webpage)",
+        "uuid": "942e48c4-1148-46e1-a5d3-e25aa9bede05",
+        "active": "True",
+        "url": "https://infogram.com/daily-dashboard-1h7z2ly9n3le4ow",
+        "dir_parent": "on",
+        "dir_file": "on-thunder-bay-covid-data-webpage",
+        "file_name": "on-thunder-bay-covid-data-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.tbdhu.com/coviddata",
+          "meta_url_name": "Thunder Bay (PHU) - Current COVID-19 Data in TBDHU",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - Timiskaming (PHU) - COVID-19 data (webpage)",
         "uuid": "9c7bbba4-33ba-493a-8ea1-4eedd5149bc0",
         "active": "True",
