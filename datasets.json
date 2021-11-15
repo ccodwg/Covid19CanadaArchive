@@ -9097,6 +9097,98 @@
     ],
     "other/can": [
       {
+        "id_name": "Other: CAN - Radio-Canada - Quebec data",
+        "uuid": "f2031057-bf4d-4387-aa70-23ada6b49556",
+        "active": "True",
+        "url": "https://kustom.radio-canada.ca/data/covid-19/quebec.csv",
+        "dir_parent": "other/can",
+        "dir_file": "radio-canada-quebec-data",
+        "file_name": "quebec",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Quebec data",
+          "meta_url": "https://ici.radio-canada.ca/info/2020/coronavirus-covid-19-pandemie-cas-carte-maladie-symptomes-propagation/index-en.html",
+          "meta_url_name": "Radio-Canada - The latest numbers",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "Other: CAN - Radio-Canada - Canada data",
+        "uuid": "275b3a8b-7af5-41f8-bfc1-de15d64908e6",
+        "active": "True",
+        "url": "https://kustom.radio-canada.ca/data/covid-19/canada.csv",
+        "dir_parent": "other/can",
+        "dir_file": "radio-canada-canada-data",
+        "file_name": "canada",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Canada data",
+          "meta_url": "https://ici.radio-canada.ca/info/2020/coronavirus-covid-19-pandemie-cas-carte-maladie-symptomes-propagation/index-en.html",
+          "meta_url_name": "Radio-Canada - The latest numbers",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "Other: CAN - Radio-Canada - USA data",
+        "uuid": "c42680d1-d0b2-46a2-8b39-ebc2db235982",
+        "active": "True",
+        "url": "https://kustom.radio-canada.ca/data/covid-19/usa.csv",
+        "dir_parent": "other/can",
+        "dir_file": "radio-canada-usa-data",
+        "file_name": "usa",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "USA data",
+          "meta_url": "https://ici.radio-canada.ca/info/2020/coronavirus-covid-19-pandemie-cas-carte-maladie-symptomes-propagation/index-en.html",
+          "meta_url_name": "Radio-Canada - The latest numbers",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "Other: CAN - Radio-Canada - International data",
+        "uuid": "ee26d1ad-ea0f-43c1-87f5-15bdcfcd81ce",
+        "active": "True",
+        "url": "https://kustom.radio-canada.ca/data/covid-19/international.csv",
+        "dir_parent": "other/can",
+        "dir_file": "radio-canada-international-data",
+        "file_name": "international",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "International data",
+          "meta_url": "https://ici.radio-canada.ca/info/2020/coronavirus-covid-19-pandemie-cas-carte-maladie-symptomes-propagation/index-en.html",
+          "meta_url_name": "Radio-Canada - The latest numbers",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "Canada"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "Other: CAN - Unofficial COVID Alert Dashboard - Diagnosis Keys Analysis",
         "uuid": "a729d28f-2b1e-4139-a120-83c6baa1a36e",
         "active": "True",

@@ -818,6 +818,11 @@ A note about data from Quebec: when both French and English data files are avail
 
 #### Canada
 
+* [Radio-Canada - The latest numbers](https://ici.radio-canada.ca/info/2020/coronavirus-covid-19-pandemie-cas-carte-maladie-symptomes-propagation/index-en.html)
+    * Quebec data: [other/can/radio-canada-quebec-data/quebec.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Canada data: [other/can/radio-canada-canada-data/canada.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * USA data: [other/can/radio-canada-usa-data/usa.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * International data: [other/can/radio-canada-international-data/international.csv](http://data.opencovid.ca/archive/index.html#archive/)
 * [Unofficial COVID Alert Dashboard](https://github.com/uhengart/covid-alert-dashboard)
     * Diagnosis Keys Analysis: [other/can/unofficial-covid-alert-dashboard-analysis/DiagnosisKeysAnalysis.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Upload Delay: [other/can/unofficial-covid-alert-dashboard-upload-delay/UploadDelay.csv](http://data.opencovid.ca/archive/index.html#archive/)
