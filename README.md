@@ -836,6 +836,8 @@ A note about data from Quebec: when both French and English data files are avail
 * [CTV: Tracking variants of the novel coronavirus in Canada](https://www.ctvnews.ca/health/coronavirus/tracking-variants-of-the-novel-coronavirus-in-canada-1.5296141)
     * Webpage: [other/can/ctv-variant-tracker-webpage/ctv-variant-tracker-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Dataset: [other/can/ctv-variant-tracker/COVID-Variants.txt](http://data.opencovid.ca/archive/index.html#archive/)
+* [COVID-19 Cases in Canadian Slaughterhouses](https://factoryfarmcollective.ca/covid-19/)
+    * Webpage: [other/can/covid-cases-in-canadian-slaughterhouses-webpage/covid-cases-in-canadian-slaughterhouses-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [Canada COVID-19 School Case Tracker](https://masks4canada.org/canada-covid-19-school-case-tracker/)
     * Dataset: [other/can/canada-covid-19-school-case-tracker/Canada_COVID-19_School_Report_Tracker.kml](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 

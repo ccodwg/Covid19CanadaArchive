@@ -10943,6 +10943,31 @@
         "notes": {
           "notes_data": "Original file name is 'Canada COVID-19 School Report Tracker.kml', renamed to avoid spaces in file name. Some early files are in 'kmz' format, which is compressed but handled almost identically to 'kml'."
         }
+      },
+      {
+        "id_name": "Other: CAN - COVID-19 Cases in Canadian Slaughterhouses (webpage)",
+        "uuid": "eb229e15-accb-4d4d-8089-10e61356777f",
+        "active": "False",
+        "url": "https://factoryfarmcollective.ca/covid-19/",
+        "dir_parent": "other/can",
+        "dir_file": "covid-cases-in-canadian-slaughterhouses-webpage",
+        "file_name": "covid-cases-in-canadian-slaughterhouses-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://factoryfarmcollective.ca/covid-19/",
+          "meta_url_name": "COVID-19 Cases in Canadian Slaughterhouses",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "Canada"
+        },
+        "notes": {
+          "notes_data": "Final update date was February 16, 2021."
+        }
       }
     ],
     "other/qc": []
