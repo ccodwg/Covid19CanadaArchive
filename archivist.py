@@ -714,7 +714,8 @@ def create_index(url_base, bucket, aws_id, aws_key):
             # if there multiple hashes on the first date, assume the earliest file is actually from the previous date
             d.loc[d['file_name'] == d_first_date.iloc[0]['file_name'], 'file_date_true'] = d.loc[d['file_name'] == d_first_date.iloc[0]['file_name'], 'file_date'] - timedelta(days=1)
         # generate list of all possible dates: from first true date to last true date
-        d_dates_seq = pd.date_range(d['file_date_true'].min(), d['file_date'].max()).tolist()
+        d_dates_seq = pd.DataFrame(pd.date_range(d['file_date_true'].min(), d['file_date'].max()))
+        d_dates_seq = pd.to_datetime(d_dates_seq[0]).dt.date.tolist()
         # generate list of all dates in the dataset
         d_dates = d['file_date_true'].unique().tolist()
         # are any expected dates are missing?
