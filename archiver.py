@@ -121,14 +121,25 @@ for key in ds:
                 print('Skipping inactive dataset...')
                 continue
         
-        ## print key
-        print(ds[key]['id_name'])
-        
         ## if URL is not static, get URL
         if 'url' not in ds[key]:
-                exec(ds[key]['url_fun_python']) # url saved as global var 'url_current'
-                ds[key]['url'] = url_current
-                print(ds[key]['url']) # print result
+                # try to get URL
+                try:
+                        exec(ds[key]['url_fun_python']) # url saved as global var 'url_current'
+                        ds[key]['url'] = url_current
+                        print('Retrieved URL: ' + ds[key]['url']) # print result
+                except Exception as e:
+                        name_error = ds[key]['file_name'] + '_' + archivist.get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
+                        full_name_error = os.path.join(ds[key]['dir_parent'], ds[key]['dir_file'], name_error + '.' + ds[key]['file_ext']) 
+                        archivist.download_log = archivist.download_log + 'Failure: ' + full_name_error + '\n'
+                        print(e)
+                        print(background('Failed to retrieve URL for dataset: ' + ds[key]['id_name'], Colors.red))
+                        archivist.failure+=1
+                        archivist.failure_uuid.append(key)
+                        continue
+        
+        ## print key
+        print(ds[key]['id_name'])
         
         ## get download function for dataset according to 'dl_fun'
         dl_fun = dl_funs[ds[key]['dl_fun']]
