@@ -274,6 +274,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Census district to health region correspondence: [can/census-district-to-health-region-correspondence/censusdistricts.csv](http://data.opencovid.ca/archive/index.html#archive/)
 * [COVID-19 vaccination in Canada - Vaccines administered](https://health-infobase.canada.ca/covid-19/vaccine-administration/)
     * Vaccination administration: [can/vaccination-administration/vaccination-administration.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vaccination administration by dose number: [can/vaccination-administration-by-dose-number/vaccination-administration-bydosenumber.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination administration (update date): [can/vaccination-administration-update-date/vaccination-administration-updateDate.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination distribution: [can/vaccination-distribution/vaccination-distribution.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination distribution (update date): [can/vaccination-distribution-update-date/vaccination-distribution-updateDate.csv](http://data.opencovid.ca/archive/index.html#archive/)
@@ -288,6 +289,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Vaccination coverage by vaccine type: [can/vaccination-coverage-by-vaccine-type/vaccination-coverage-byVaccineType.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination coverage by province: [can/vaccination-coverage-by-prov/vaccination-coverage-map.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination coverage by province (update date): [can/vaccination-coverage-by-prov-update-date/vaccination-coverage-updateDate.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vaccination statements: [can/vaccination-statements/vaccination-statements.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination notes: [can/vaccination-notes/vaccination-notes.csv](http://data.opencovid.ca/archive/index.html#archive/)
 * [COVID-19 vaccination in Canada - Technical notes](https://health-infobase.canada.ca/covid-19/vaccination-coverage/technical-notes.html)
     * Webpage: [can/vaccination-technical-notes-webpage/vaccination-technical-notes-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
@@ -836,10 +838,10 @@ A note about data from Quebec: when both French and English data files are avail
 * [CTV: Tracking variants of the novel coronavirus in Canada](https://www.ctvnews.ca/health/coronavirus/tracking-variants-of-the-novel-coronavirus-in-canada-1.5296141)
     * Webpage: [other/can/ctv-variant-tracker-webpage/ctv-variant-tracker-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Dataset: [other/can/ctv-variant-tracker/COVID-Variants.txt](http://data.opencovid.ca/archive/index.html#archive/)
-* [COVID-19 Cases in Canadian Slaughterhouses](https://factoryfarmcollective.ca/covid-19/)
-    * Webpage: [other/can/covid-cases-in-canadian-slaughterhouses-webpage/covid-cases-in-canadian-slaughterhouses-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [Canada COVID-19 School Case Tracker](https://masks4canada.org/canada-covid-19-school-case-tracker/)
     * Dataset: [other/can/canada-covid-19-school-case-tracker/Canada_COVID-19_School_Report_Tracker.kml](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+* [COVID-19 Cases in Canadian Slaughterhouses](https://factoryfarmcollective.ca/covid-19/)
+    * Webpage: [other/can/covid-cases-in-canadian-slaughterhouses-webpage/covid-cases-in-canadian-slaughterhouses-webpage.html](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 
 #### Quebec
 
