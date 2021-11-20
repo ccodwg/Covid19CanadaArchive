@@ -35,6 +35,8 @@ Table of contents:
   * [Nunavut](#nunavut)
   * [Ontario](#ontario)
      * [Ottawa](#ottawa)
+     * [Public Health Ontario](#public-health-ontario)
+     * [Public Health Units](#public-health-units)
      * [Toronto](#toronto)
   * [Prince Edward Island](#prince-edward-island)
   * [Quebec](#quebec)
@@ -551,6 +553,20 @@ A note about data from Quebec: when both French and English data files are avail
     * Vaccinations by Day by Vaccine Type - Non-Residents Vaccinated in Ottawa: [on/ottawa-vaccinations-by-day-and-type-non-residents-vaccinated-in-Ottawa/.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccinations by Day by Vaccine Type - Residents of Ottawa Vaccinated Outside of Ottawa: [on/ottawa-vaccinations-by-day-and-type-ottawa-residents-vaccinated-outside-ottawa/ottawa-vaccinations-by-day-and-type-ottawa-residents-vaccinated-outside-ottawa.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination Coverage by Age for Ottawa Residents with at Least 1 Dose: [on/ottawa-vaccination-coverage-by-age-ottawa-residents/ottawa-vaccination-coverage-by-age-ottawa-residents.json](http://data.opencovid.ca/archive/index.html#archive/)
+
+#### Public Health Ontario
+
+* [Public Health Ontario: COVID-19 Data and Surveillance](https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance)
+    * Daily epidemiologic summary: [on/pho-daily-epi-summary-report/covid-19-daily-epi-summary-report.pdf](http://data.opencovid.ca/archive/index.html#archive/)
+    * Weekly epidemiologic summary: [on/pho-weekly-epi-summary-report/covid-19-weekly-epi-summary-report.pdf](http://data.opencovid.ca/archive/index.html#archive/)
+    * SARS-CoV-2 Whole Genome Sequencing in Ontario: [on/pho-wgs-summary-report/covid-19-sars-cov2-whole-genome-sequencing-epi-summary.pdf](http://data.opencovid.ca/archive/index.html#archive/)
+    * COVID-19 in Long-Term Care Homes: [on/pho-ltc-summary-report/covid-19-long-term-care-epi-summary.pdf](http://data.opencovid.ca/archive/index.html#archive/)
+    * COVID-19 Regional Incidence and Time to Case Notification in Ontario: [on/pho-regional-summary-report/covid-19-regional-epi-summary-report.pdf](http://data.opencovid.ca/archive/index.html#archive/)
+    * COVID-19 in Children and Education Settings: [on/pho-children-school-outbreak-summary-report/covid-19-children-school-outbreaks-epi-summary.pdf](http://data.opencovid.ca/archive/index.html#archive/)
+    * COVID-19 Vaccine Uptake and Program Impact in Ontario: [on/pho-vaccine-uptake-summary-report/covid-19-vaccine-uptake-ontario-epi-summary.pdf](http://data.opencovid.ca/archive/index.html#archive/)
+    * Adverse Events Following Immunization (AEFIs) for COVID-19 in Ontario: [on/pho-aefi-report/covid-19-aefi-report.pdf](http://data.opencovid.ca/archive/index.html#archive/)
+    * Trends of COVID-19 Incidence in Ontario: [on/pho-incidence-trends-report/covid-19-epi-trends-incidence-ontario.pdf](http://data.opencovid.ca/archive/index.html#archive/)
+    * Confirmed Cases of COVID-19 Following Vaccination in Ontario: [on/pho-confirmed-cases-post-vaccination-report/covid-19-epi-confirmed-cases-post-vaccination.pdf](http://data.opencovid.ca/archive/index.html#archive/)
 
 #### Public Health Units
 

@@ -35,6 +35,8 @@ Table of contents:
   * [Nunavut](#nunavut)
   * [Ontario](#ontario)
      * [Ottawa](#ottawa)
+     * [Public Health Ontario](#public-health-ontario)
+     * [Public Health Units](#public-health-units)
      * [Toronto](#toronto)
   * [Prince Edward Island](#prince-edward-island)
   * [Quebec](#quebec)
