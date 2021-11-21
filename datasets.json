@@ -5510,7 +5510,9 @@
         "file_name": "covid-19-daily-epi-summary-report",
         "file_ext": "pdf",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Daily epidemiologic summary",
@@ -5533,7 +5535,9 @@
         "file_name": "covid-19-weekly-epi-summary-report",
         "file_ext": "pdf",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Weekly epidemiologic summary",
@@ -5556,7 +5560,9 @@
         "file_name": "covid-19-sars-cov2-whole-genome-sequencing-epi-summary",
         "file_ext": "pdf",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "SARS-CoV-2 Whole Genome Sequencing in Ontario",
@@ -5579,7 +5585,9 @@
         "file_name": "covid-19-long-term-care-epi-summary",
         "file_ext": "pdf",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "COVID-19 in Long-Term Care Homes",
@@ -5602,7 +5610,9 @@
         "file_name": "covid-19-regional-epi-summary-report",
         "file_ext": "pdf",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "COVID-19 Regional Incidence and Time to Case Notification in Ontario",
@@ -5625,7 +5635,9 @@
         "file_name": "covid-19-children-school-outbreaks-epi-summary",
         "file_ext": "pdf",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "COVID-19 in Children and Education Settings",
@@ -5648,7 +5660,9 @@
         "file_name": "covid-19-vaccine-uptake-ontario-epi-summary",
         "file_ext": "pdf",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "COVID-19 Vaccine Uptake and Program Impact in Ontario",
@@ -5671,7 +5685,9 @@
         "file_name": "covid-19-aefi-report",
         "file_ext": "pdf",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Adverse Events Following Immunization (AEFIs) for COVID-19 in Ontario",
@@ -5694,7 +5710,9 @@
         "file_name": "covid-19-epi-trends-incidence-ontario",
         "file_ext": "pdf",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Trends of COVID-19 Incidence in Ontario",
@@ -5717,7 +5735,9 @@
         "file_name": "covid-19-epi-confirmed-cases-post-vaccination",
         "file_ext": "pdf",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Confirmed Cases of COVID-19 Following Vaccination in Ontario",
