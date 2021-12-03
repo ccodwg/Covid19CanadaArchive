@@ -5523,6 +5523,72 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Cases and rates by vaccination status",
+        "uuid": "042826c4-f833-4454-91eb-bbee8701b0dd",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/eed63cf2-83dd-4598-b337-b288c0a89a16/download/cases_by_vac_status.csv",
+        "dir_parent": "on",
+        "dir_file": "cases-and-rates-by-vaccination-status",
+        "file_name": "cases_by_vac_status",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases and rates by vaccination status",
+          "meta_url": "https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario",
+          "meta_url_name": "COVID-19 Vaccine Data in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Hospitalizations by vaccination status",
+        "uuid": "5da7b5e8-4e34-4f51-90f4-37275d978401",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/274b819c-5d69-4539-a4db-f2950794138c/download/vac_status_hosp_icu.csv",
+        "dir_parent": "on",
+        "dir_file": "hospitalizations-by-vaccination-status",
+        "file_name": "vac_status_hosp_icu",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Hospitalizations by vaccination status",
+          "meta_url": "https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario",
+          "meta_url_name": "COVID-19 Vaccine Data in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Case rates by vaccination status and age group",
+        "uuid": "f095fd6f-5c93-44aa-985b-d6feb993f39c",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/c08620e0-a055-4d35-8cec-875a459642c3/download/cases_by_age_vac_status.csv",
+        "dir_parent": "on",
+        "dir_file": "case-rates-by-vaccination-status-and-age-group",
+        "file_name": "cases_by_age_vac_status",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Case rates by vaccination status and age group",
+          "meta_url": "https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario",
+          "meta_url_name": "COVID-19 Vaccine Data in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "Public Health Ontario: COVID-19 Data and Surveillance - Daily epidemiologic summary",
         "uuid": "6eee7470-216f-4332-84ab-8d28875688d6",
         "active": "True",
