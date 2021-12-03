@@ -527,7 +527,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Hospitalizations and cases by vaccination status: [on/hospitalizations-and-cases-by-vaccination-status/vac_status.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Cases and rates by vaccination status: [on/cases-and-rates-by-vaccination-status/cases_by_vac_status.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Hospitalizations by vaccination status: [on/hospitalizations-by-vaccination-status/vac_status_hosp_icu.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * Case rates by vaccination status and age group: [on/case-rates-by-vaccination-status-and-age-group/cases_by_age_vac_status.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Case rates by vaccination status and age group: [on/case-rates-by-vaccination-status-and-age-group/cases_by_age_vac_status.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [ICES COVID-19 Dashboard](https://www.ices.on.ca/DAS/AHRQ/COVID-19-Dashboard)
     * Percent positivity by FSA: [on/ices-percent-positivity-by-fsa/ICES-COVID19-Testing-Data-FSA-percent-positivity.xlsx](http://data.opencovid.ca/archive/index.html#archive/)
     * Percent positivity by age group and Public Health Unit (PHU): [on/ices-percent-positivity-by-age-group-and-phu/ICES-COVID19-Testing-Data_PHUxAge-Groups-percent-positivity.xlsx](http://data.opencovid.ca/archive/index.html#archive/)

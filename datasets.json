@@ -5567,28 +5567,6 @@
         "notes": {}
       },
       {
-        "id_name": "ON - Case rates by vaccination status and age group",
-        "uuid": "f095fd6f-5c93-44aa-985b-d6feb993f39c",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/c08620e0-a055-4d35-8cec-875a459642c3/download/cases_by_age_vac_status.csv",
-        "dir_parent": "on",
-        "dir_file": "case-rates-by-vaccination-status-and-age-group",
-        "file_name": "cases_by_age_vac_status",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Case rates by vaccination status and age group",
-          "meta_url": "https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario",
-          "meta_url_name": "COVID-19 Vaccine Data in Ontario",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "Public Health Ontario: COVID-19 Data and Surveillance - Daily epidemiologic summary",
         "uuid": "6eee7470-216f-4332-84ab-8d28875688d6",
         "active": "True",
@@ -10521,6 +10499,28 @@
           "meta_name": "School Pharmacy Testing Locations",
           "meta_url": "https://data.ontario.ca/dataset/summary-of-cases-in-schools",
           "meta_url_name": "Schools COVID-19 data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Case rates by vaccination status and age group",
+        "uuid": "f095fd6f-5c93-44aa-985b-d6feb993f39c",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/c08620e0-a055-4d35-8cec-875a459642c3/download/cases_by_age_vac_status.csv",
+        "dir_parent": "on",
+        "dir_file": "case-rates-by-vaccination-status-and-age-group",
+        "file_name": "cases_by_age_vac_status",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Case rates by vaccination status and age group",
+          "meta_url": "https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario",
+          "meta_url_name": "COVID-19 Vaccine Data in Ontario",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario"
