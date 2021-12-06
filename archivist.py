@@ -409,7 +409,6 @@ def load_webdriver(tmpdir, user=False):
     user (bool): Should the request impersonate a normal browser? Needed to access some data. Default: False.
     """
     options = Options()
-    options.binary_location = os.environ['CHROME_BIN']
     options.add_argument("--headless")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--no-sandbox")
@@ -417,7 +416,14 @@ def load_webdriver(tmpdir, user=False):
     options.add_experimental_option('prefs', prefs)
     if user:
         options.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0")
-    driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_BIN'], options=options)
+    if 'CHROME_BIN' in os.environ.keys() and 'CHROMEDRIVER_BIN' in os.environ.keys():
+        options.binary_location = os.environ['CHROME_BIN']
+        driver = webdriver.Chrome(executable_path=os.environ['CHROMEDRIVER_BIN'], options=options)
+    elif 'CHROME_SERVER' in os.environ.keys():
+        driver = webdriver.Remote(os.environ['CHROME_SERVER'], options=options)
+    else:
+        sys.exit("Please supply either 'CHROME_BIN' and 'CHROMEDRIVER_BIN' or 'CHROME_SERVER' as environmental variables.")
+    
     return driver
 
 def click_xpath(driver, wait, xpath):

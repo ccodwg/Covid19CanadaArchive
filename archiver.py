@@ -26,6 +26,7 @@ import archivist
 ## SMTP_PORT: environmental variable of email server port
 ## CHROME_BIN: path to Chromium/Chrome binary
 ## CHROMEDRIVER_BIN: path to Chromedriver
+## CHROME_SERVER: path to Chromium/Chrome accessible via URL (e.g., if running in a Docker container) (alternative to providing BIN variables)
 
 # parse arguments
 ## -m / --mode
