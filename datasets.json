@@ -3693,6 +3693,28 @@
         "notes": {}
       },
       {
+        "id_name": "NB - Provincial case, death, recovered time series 2",
+        "uuid": "40d93d2b-5c85-4592-b844-fb78b5ae5cec",
+        "active": "True",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/Covid19DailyCaseStats3/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "nb",
+        "dir_file": "provincial-case-death-recovered-time-series-2",
+        "file_name": "Covid19DailyCaseStats3",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Provincial case, death, recovered time series 2",
+          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
+          "meta_url_name": "New Brunswick COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "NB - Provincial cumulative test statistics by age and sex",
         "uuid": "72aad5b0-28c7-4749-856b-5ed8e2018ea6",
         "active": "True",
@@ -3715,19 +3737,195 @@
         "notes": {}
       },
       {
-        "id_name": "NB - COVID-19 vaccine data",
-        "uuid": "18fd4390-8e47-43b4-b1c1-c48218a7859b",
+        "id_name": "NB - New cases by age group and Health Zone",
+        "uuid": "ffb52049-3c85-49eb-b2cb-068a872b495a",
         "active": "True",
-        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/Covid19VaccineData/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/Covid19NewCaseAgeStats2/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
         "dir_parent": "nb",
-        "dir_file": "vaccine-data",
-        "file_name": "vaccine-data",
+        "dir_file": "new-cases-by-age-group-and-zone",
+        "file_name": "Covid19NewCaseAgeStats2",
         "file_ext": "json",
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Vaccine data",
+          "meta_name": "New cases by age group and Health Zone",
+          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
+          "meta_url_name": "New Brunswick COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NB - Current COVID-19 statistics by Health Zone",
+        "uuid": "e3c7a370-08e4-4e7a-b61d-48b8eee8dd48",
+        "active": "True",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/WinterPlanLevel/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "nb",
+        "dir_file": "current-covid-stats-by-zone",
+        "file_name": "WinterPlanLevel",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Current COVID-19 statistics by Health Zone",
+          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
+          "meta_url_name": "New Brunswick COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NB - COVID-19 hospitalization/ICU time series",
+        "uuid": "4cf063fa-1bca-409c-867c-f710ef9d17e5",
+        "active": "True",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/Covid19HospitalTrends/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "nb",
+        "dir_file": "hosp-icu-time-series",
+        "file_name": "Covid19HospitalTrends",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID-19 hospitalization/ICU time series",
+          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
+          "meta_url_name": "New Brunswick COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NB - COVID-19 travel and enforcement statistics (7-day averages)",
+        "uuid": "f4eba589-25fd-4721-a18c-fbc060837883",
+        "active": "True",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/Covid19ComplianceEnforcement2/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "nb",
+        "dir_file": "covid-travel-enforcement-stats-7-day-avg",
+        "file_name": "Covid19ComplianceEnforcement2",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID-19 travel and enforcement statistics (7-day averages)",
+          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
+          "meta_url_name": "New Brunswick COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NB - COVID-19 potential public exposures",
+        "uuid": "43f72e34-31ad-4cde-856e-78abe958a517",
+        "active": "True",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/Covid19_Exposures2/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "nb",
+        "dir_file": "potential-public-exposures",
+        "file_name": "Covid19_Exposures2",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID-19 potential public exposures",
+          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
+          "meta_url_name": "New Brunswick COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NB - Case/hospitalization/ICU/death rate by vaccination status",
+        "uuid": "9486479e-0ded-4905-89fd-19d9605ea6b8",
+        "active": "True",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/Covid19CaseVaccinationRates2/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "nb",
+        "dir_file": "case-hosp-icu-death-rate-by-vaccination-status",
+        "file_name": "Covid19CaseVaccinationRates2",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Case/hospitalization/ICU/death rate by vaccination status",
+          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
+          "meta_url_name": "New Brunswick COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NB - COVID-19 schools 2021",
+        "uuid": "66d02ad0-b0b5-4644-a1e2-59ec717a10f1",
+        "active": "True",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/Covid19SchoolsData/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "nb",
+        "dir_file": "covid-schools-2021",
+        "file_name": "Covid19SchoolsData",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID-19 schools 2021",
+          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
+          "meta_url_name": "New Brunswick COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NB - Schools",
+        "uuid": "7f9066a1-808e-4935-bd08-012672722097",
+        "active": "True",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/Covid19NBSchools/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "nb",
+        "dir_file": "schools",
+        "file_name": "Covid19NBSchools",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Schools",
+          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
+          "meta_url_name": "New Brunswick COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NB - COVID-19 vaccine data 2",
+        "uuid": "6996a762-56cc-4a27-8e77-1c8734752793",
+        "active": "True",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/Covid19VaccineData2/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nb",
+        "dir_file": "vaccine-data-2",
+        "file_name": "Covid19VaccineData2",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine data 2",
           "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
           "meta_url_name": "New Brunswick COVID-19 Dashboard",
           "meta_licence": "",
@@ -3758,20 +3956,20 @@
         },
         "notes": {}
       },
-       {
-        "id_name": "NB - COVID-19 vaccine time series",
-        "uuid": "055d13af-b801-4d34-9591-050b2da2ebff",
+      {
+        "id_name": "NB - COVID-19 vaccine time series 2",
+        "uuid": "719bbb12-d493-4427-8896-e823c2a9833a",
         "active": "True",
-        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/Covid19VaccineTimetable/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/Covid19DailyVaccineStats/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
         "dir_parent": "nb",
-        "dir_file": "vaccine-time-series",
-        "file_name": "Covid19VaccineTimeline",
+        "dir_file": "vaccine-time-series-2",
+        "file_name": "Covid19DailyVaccineStats",
         "file_ext": "json",
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Vaccine time series",
+          "meta_name": "Vaccine time series 2",
           "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
           "meta_url_name": "New Brunswick COVID-19 Dashboard",
           "meta_licence": "",
@@ -10024,7 +10222,52 @@
         "notes": {}
       }
     ],
-    "nb": [],
+    "nb": [
+      {
+        "id_name": "NB - COVID-19 vaccine data",
+        "uuid": "18fd4390-8e47-43b4-b1c1-c48218a7859b",
+        "active": "False",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/Covid19VaccineData/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nb",
+        "dir_file": "vaccine-data",
+        "file_name": "vaccine-data",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine data",
+          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
+          "meta_url_name": "New Brunswick COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+       {
+        "id_name": "NB - COVID-19 vaccine time series",
+        "uuid": "055d13af-b801-4d34-9591-050b2da2ebff",
+        "active": "False",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/Covid19VaccineTimetable/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nb",
+        "dir_file": "vaccine-time-series",
+        "file_name": "Covid19VaccineTimeline",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine time series",
+          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
+          "meta_url_name": "New Brunswick COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      }
+    ],
     "nl": [
       {
         "id_name": "NL - Dashboard cumulative vaccination",
