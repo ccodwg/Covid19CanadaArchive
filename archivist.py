@@ -26,6 +26,7 @@ from colorit import * # colourful printing
 
 ## web scraping
 import requests
+from pyvirtualdisplay import Display # requires Xvfb
 from selenium import webdriver # requires ChromeDriver and Chromium/Chrome
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
@@ -44,18 +45,22 @@ import smtplib
 ## misc functions
 
 def parse_args():
-    global mode, email, uuid
+    global mode, email, virtualdisplay, uuid
     
     # initialize parser with arguments
     parser = argparse.ArgumentParser()
     parser.add_argument("-m", "--mode", choices = ['test', 'prod'], required = True, help = "Run mode: prod or test")
-    parser.add_argument("--uuid", nargs = '+', required = False, help = "Specify UUIDs of individual datasets to download")
+    parser.add_argument("-v", "--virtualdisplay", required = False, action = "store_true", dest = "virtualdisplay", help = "If present, webdriver will attempt to use pyvirtualdisplay (requires Xvfb).")
     parser.add_argument("--no-email", required = False, action = "store_false", dest = "email", help = "If present, no email will be produced at the end of the run.")
+    parser.add_argument("--uuid", nargs = '+', required = False, help = "Specify UUIDs of individual datasets to download")
     args = parser.parse_args()
     
     # set run mode
     mode = args.mode
     print('Run mode set to ' + mode + '.')
+    
+    # set virtualdisplay mode
+    virtualdisplay = args.virtualdisplay
     
     # set email mode
     email = args.email
@@ -408,9 +413,17 @@ def load_webdriver(tmpdir, user=False):
     tmpdir (TemporaryDirectory): A temporary directory for saving files downloaded by the headless browser.
     user (bool): Should the request impersonate a normal browser? Needed to access some data. Default: False.
     """
+    global virtualdisplay, display
+    
+    ## use virtualdisplay
+    if virtualdisplay:
+        display = Display(visible=0, size=(1920, 1200))
+        display.start()
+    
     options = Options()
     options.binary_location = os.environ['CHROME_BIN']
     options.add_argument("--headless")
+    options.add_argument("--start-maximized")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--no-sandbox")
     prefs = {'download.default_directory' : tmpdir.name}
@@ -446,7 +459,7 @@ def html_page(url, dir_parent, dir_file, file, ext, uuid, user=False, js=False, 
     wait (int): Used only if js = True. Time in seconds that the function should wait for the page to render. If the time is too short, the source code may not be captured.
 
     """
-    global mode, download_log, success, failure, prefix_root
+    global mode, download_log, success, failure, prefix_root, virtualdisplay, display
     
     ## set names with timestamp and file ext
     name = file + '_' + get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
@@ -530,6 +543,11 @@ def html_page(url, dir_parent, dir_file, file, ext, uuid, user=False, js=False, 
 
         ## quit webdriver
         driver.quit()
+        
+        ## close virtualdisplay
+        if virtualdisplay:
+            display.stop()
+        
     except Exception as e:
         ## print failure
         print(e)
@@ -556,7 +574,7 @@ def ss_page(url, dir_parent, dir_file, file, ext, uuid, user=False, wait=5, widt
     height (int): Height of the output screenshot. Default: None. If not set, the function attempts to detect the maximum height.
 
     """
-    global mode, download_log, success, failure, prefix_root
+    global mode, download_log, success, failure, prefix_root, virtualdisplay, display
 
     ## set names with timestamp and file ext
     name = file + '_' + get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
@@ -620,6 +638,11 @@ def ss_page(url, dir_parent, dir_file, file, ext, uuid, user=False, wait=5, widt
 
         ## quit webdriver
         driver.quit()
+        
+        ## close virtualdisplay
+        if virtualdisplay:
+            display.stop()
+        
     except Exception as e:
         ## print failure
         print(e)

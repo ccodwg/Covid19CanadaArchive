@@ -31,8 +31,12 @@ import archivist
 ## -m / --mode
 ### prod: Download files and upload them to the server.
 ### test: Download files but don't upload them to the server, just test that they can be successfully downloaded.
+## -v / --virtualdisplay
+### webdriver will attempt to use pyvirtualdisplay (requires Xvfb) [default: don't attempt to use pyvirtualdisplay]
+## --no-email
+### don't email log at end of run [default: email log at end of run]
 ## --uuid
-### run only the specified list of datasets (identified by UUID), otherwise run all datasets
+### run only the specified list of datasets (identified by UUID) [default: run all datasets]
 archivist.parse_args()
 
 # initialize global variables

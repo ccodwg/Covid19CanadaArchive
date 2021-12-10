@@ -1,7 +1,8 @@
-pandas
-pytz
-requests
-selenium
+boto3
 bs4
 color-it
-boto3
+pandas
+pytz
+pyvirtualdisplay
+requests
+selenium
