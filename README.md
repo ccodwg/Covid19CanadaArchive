@@ -166,6 +166,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [ab/ab-provincial-summary-webpage/ab-provincial-summary-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [COVID-19 vaccine distribution](https://www.alberta.ca/covid19-vaccine.aspx)
     * Webpage: [ab/ab-vaccine-distribution-webpage/ab-vaccine-distribution-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+* [Alberta influenza statistics](https://www.alberta.ca/stats/influenza/influenza-statistics.htm)
+    * Webpage: [ab/ab-influenza-stats-webpage/ab-influenza-stats-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [COVID-19 school status map](https://www.alberta.ca/schools/covid-19-school-status-map.htm)
     * School status map: [ab/school-status-by-region/covid19dataexport-schools.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 
