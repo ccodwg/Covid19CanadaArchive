@@ -34,6 +34,7 @@ Table of contents:
   * [Nova Scotia](#nova-scotia)
   * [Nunavut](#nunavut)
   * [Ontario](#ontario)
+     * [Ontario universities](#ontario-universities)
      * [Ottawa](#ottawa)
      * [Public Health Ontario](#public-health-ontario)
      * [Public Health Units](#public-health-units)
@@ -550,6 +551,13 @@ A note about data from Quebec: when both French and English data files are avail
 * [COVID-19 cases in schools and child care centres](https://www.ontario.ca/page/covid-19-cases-schools-and-child-care-centres)
     * Webpage: [on/cases-schools-and-child-care-centres-webpage/cases-schools-and-child-care-centres-webpage.html](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 
+#### Ontario universities
+
+* [University of Toronto COVID-19 tracking](https://www.utoronto.ca/utogether/covid19-dashboard)
+    * Webpage: [on/u-of-t-covid-tracking-webpage/u-of-t-covid-tracking-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+* [Queen’s University Case Tracker](https://www.queensu.ca/safereturn/health-safety/case-tracker)
+    * Webpage: [on/queens-university-case-tracker-webpage/queens-university-case-tracker-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+
 #### Ottawa
 
 * [Daily COVID-19 Dashboard](https://www.ottawapublichealth.ca/en/reports-research-and-statistics/daily-covid19-dashboard.aspx)
@@ -664,8 +672,6 @@ A note about data from Quebec: when both French and English data files are avail
     * Dataset: [on/toronto-active-outbreaks/CityofToronto_COVID-19_OutbreakData.xlsx](http://data.opencovid.ca/archive/index.html#archive/)
 * [COVID-19 Cases in Toronto](https://open.toronto.ca/dataset/covid-19-cases-in-toronto/)
     * Dataset: [on/toronto-cases/COVID19_cases.csv](http://data.opencovid.ca/archive/index.html#archive/)
-* [University of Toronto COVID-19 tracking](https://www.utoronto.ca/utogether/covid19-dashboard)
-    * Webpage: [on/u-of-t-covid-tracking-webpage/u-of-t-covid-tracking-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [COVID 19: Ethno-Racial Identity & Income](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-pandemic-data/covid-19-ethno-racial-group-income-infection-data/)
     * Dataset: [on/toronto-ethno-racial-income/Ethno-Racial_Group,_Income,_and_COVID-19_Infection.xlsx](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 

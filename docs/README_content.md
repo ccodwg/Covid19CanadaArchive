@@ -34,6 +34,7 @@ Table of contents:
   * [Nova Scotia](#nova-scotia)
   * [Nunavut](#nunavut)
   * [Ontario](#ontario)
+     * [Ontario universities](#ontario-universities)
      * [Ottawa](#ottawa)
      * [Public Health Ontario](#public-health-ontario)
      * [Public Health Units](#public-health-units)
