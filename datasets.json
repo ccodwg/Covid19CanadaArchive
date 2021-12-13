@@ -8402,6 +8402,78 @@
         "notes": {}
       },
       {
+        "id_name": "QC - Variants under enhanced surveillance (cumulative) 2 (alternative)",
+        "uuid": "d5cf16a6-0a9b-4557-a67d-6a9e7ad0eb00",
+        "active": "True",
+        "url": "https://inspq.qc.ca/sites/default/files/covid/donnees/variants-cumul-v.csv",
+        "dir_parent": "qc",
+        "dir_file": "vvariants-2-alternative",
+        "file_name": "variants-cumul-v",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Variants under enhanced surveillance (cumulative) 2 (alternative)",
+          "meta_url": "https://inspq.qc.ca/covid-19/donnees/variants",
+          "meta_url_name": "Variants de SRAS-CoV-2 sous surveillance rehaussée",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Variants under enhanced surveillance (cumulative) 2 (archived)",
+        "uuid": "8325b875-436d-46ed-9933-5bc706dc5b35",
+        "active": "True",
+        "url": "https://inspq.qc.ca/sites/default/files/covid/donnees/variants-cumul-ARCHIVES.csv",
+        "dir_parent": "qc",
+        "dir_file": "variants-2-archived",
+        "file_name": "variants-cumul-ARCHIVES",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Variants under enhanced surveillance (cumulative) 2 (archived)",
+          "meta_url": "https://inspq.qc.ca/covid-19/donnees/variants",
+          "meta_url_name": "Variants de SRAS-CoV-2 sous surveillance rehaussée",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Variants under enhanced surveillance (cumulative) 2 (last 8 weeks, archived)",
+        "uuid": "5b9d882e-6986-4d33-9b30-396728eb7e48",
+        "active": "True",
+        "url": "https://inspq.qc.ca/sites/default/files/covid/donnees/variants-cumul-8s-ARCHIVES.csv",
+        "dir_parent": "qc",
+        "dir_file": "variants-2-last-8-weeks-archived",
+        "file_name": "variants-cumul-8s-ARCHIVES",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Variants under enhanced surveillance (cumulative) 2 (last 8 weeks, archived)",
+          "meta_url": "https://inspq.qc.ca/covid-19/donnees/variants",
+          "meta_url_name": "Variants de SRAS-CoV-2 sous surveillance rehaussée",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "QC - Variant screening time series by RSS (weekly) 2",
         "uuid": "9fb9c573-7c4c-4daa-adfc-9a8193a2005b",
         "active": "True",
@@ -8426,13 +8498,13 @@
         "notes": {}
       },
       {
-        "id_name": "QC - Delta variant screening time series (weekly)",
-        "uuid": "230d0e5e-58cf-4a39-b75d-429351160c4a",
+        "id_name": "QC - Variant screening time series by RSS (weekly) 2 (archived)",
+        "uuid": "60adbd45-6ecc-4315-96bf-bd25755a0714",
         "active": "True",
-        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/variant-delta.csv",
+        "url": "https://inspq.qc.ca/sites/default/files/covid/donnees/variants-semaines-ARCHIVES.csv",
         "dir_parent": "qc",
-        "dir_file": "variant-delta-time-series-weekly",
-        "file_name": "variant-delta",
+        "dir_file": "variant-screening-time-series-by-rss-weekly-2-archived",
+        "file_name": "variants-semaines-ARCHIVES",
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {
@@ -8440,7 +8512,7 @@
         },
         "supplementary": {},
         "metadata": {
-          "meta_name": "Delta variant screening time series (weekly)",
+          "meta_name": "Variant screening time series by RSS (weekly) 2 (archived)",
           "meta_url": "https://inspq.qc.ca/covid-19/donnees/variants",
           "meta_url_name": "Variants de SRAS-CoV-2 sous surveillance rehaussée",
           "meta_licence": "",
@@ -11332,6 +11404,30 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Projection of variant dominance",
+          "meta_url": "https://inspq.qc.ca/covid-19/donnees/variants",
+          "meta_url_name": "Variants de SRAS-CoV-2 sous surveillance rehaussée",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Delta variant screening time series (weekly)",
+        "uuid": "230d0e5e-58cf-4a39-b75d-429351160c4a",
+        "active": "False",
+        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/variant-delta.csv",
+        "dir_parent": "qc",
+        "dir_file": "variant-delta-time-series-weekly",
+        "file_name": "variant-delta",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Delta variant screening time series (weekly)",
           "meta_url": "https://inspq.qc.ca/covid-19/donnees/variants",
           "meta_url_name": "Variants de SRAS-CoV-2 sous surveillance rehaussée",
           "meta_licence": "",
