@@ -17,13 +17,14 @@ init_colorit() # enable printing with colour
 import archivist
 
 # list of environmental variables used in this script (through functions in archivist.py)
-## AWS_ID: environmental variable of AWS ID [prod only]
-## AWS_KEY: environmental variable of AWS key [prod only]
-## MAIL_NAME: environmental variable of email account
-## MAIL_PASS: environemntal variable of email password
-## MAIL_TO: environmental variable of account receiving email logs
-## SMTP_SERVER: environmental variable of email server address
-## SMTP_PORT: environmental variable of email server port
+## AWS_ID: AWS ID [prod only]
+## AWS_KEY: AWS key [prod only]
+## MAIL_NAME: email account
+## MAIL_PASS: email password
+## MAIL_TO: account receiving email logs
+## MAIL_ALIAS: (optional) alias email sender name
+## SMTP_SERVER: email server address
+## SMTP_PORT: email server port
 ## CHROME_BIN: path to Chromium/Chrome binary
 ## CHROMEDRIVER_BIN: path to Chromedriver
 
@@ -45,6 +46,7 @@ archivist.download_log = '' # download log
 mail_name = os.environ['MAIL_NAME']
 mail_pass = os.environ['MAIL_PASS']
 mail_to = os.environ['MAIL_TO']
+mail_sender = (os.environ['MAIL_ALIAS'] if 'MAIL_ALIAS' in os.environ.keys() else os.environ['MAIL_NAME'])
 smtp_server = os.environ['SMTP_SERVER']
 smtp_port = int(os.environ['SMTP_PORT'])
 
@@ -222,7 +224,7 @@ if archivist.mode == 'prod':
         
         ## email log
         if archivist.email:
-                archivist.send_email(mail_name, mail_pass, mail_to, subject, body, smtp_server, smtp_port)
+                archivist.send_email(mail_name, mail_pass, mail_to, mail_sender, subject, body, smtp_server, smtp_port)
 
 # email log of failed downloads, if any (when mode == test)
 if archivist.mode == 'test':
@@ -234,4 +236,4 @@ if archivist.mode == 'test':
                 subject = " ".join(['TEST', 'Covid19CanadaArchive Log', t.strftime('%Y-%m-%d %H:%M') + ',', 'Failed:', str(archivist.failure)])
                 body = log
                 if archivist.email:
-                        archivist.send_email(mail_name, mail_pass, mail_to, subject, body, smtp_server, smtp_port)
+                        archivist.send_email(mail_name, mail_pass, mail_to, mail_sender, subject, body, smtp_server, smtp_port)
