@@ -213,6 +213,20 @@ A note about data from Quebec: when both French and English data files are avail
     * 7-day and cumulative cases by HSDA (2): [bc/7-day-and-cumulative-cases-by-hsda-2/CumulativeCases.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Dashboard Regional Health Authority labels: [bc/rha-labels/HA_Labels.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Dashboard Vaccine Doses by Regional Health Authority (2): [bc/vaccine-doses-by-rha-2/BCCOVID19DashboardVaccineCountsVIEWSTAGING.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+* [BCCDC COVID-19 Surveillance Dashboard](https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction)
+    * Introduction: [bc/bccdc-surveillance-dashboard-introduction-webpage/bccdc-surveillance-dashboard-introduction-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Outcomes by Vax 1: [bc/bccdc-surveillance-dashboard-outcomes-by-vax-1-webpage/bccdc-surveillance-dashboard-outcomes-by-vax-1-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Outcomes by Vax 2: [bc/bccdc-surveillance-dashboard-outcomes-by-vax-2-webpage/bccdc-surveillance-dashboard-outcomes-by-vax-2-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vax Donut Charts: [bc/bccdc-surveillance-dashboard-vax-donut-charts-webpage/bccdc-surveillance-dashboard-vax-donut-charts-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vax by Age: [bc/bccdc-surveillance-dashboard-vax-by-age-webpage/bccdc-surveillance-dashboard-vax-by-age-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vax Progress: [bc/bccdc-surveillance-dashboard-vax-progress-webpage/bccdc-surveillance-dashboard-vax-progress-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Map: [bc/bccdc-surveillance-dashboard-map-webpage/bccdc-surveillance-dashboard-map-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vertical Plots: [bc/bccdc-surveillance-dashboard-vertical-plots-webpage/bccdc-surveillance-dashboard-vertical-plots-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Scatter Plot: [bc/bccdc-surveillance-dashboard-scatter-plot-webpage/bccdc-surveillance-dashboard-scatter-plot-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Case Trends by LHA 1: [bc/bccdc-surveillance-dashboard-case-trends-by-lha-1-webpage/bccdc-surveillance-dashboard-case-trends-by-lha-1-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Case Trends by LHA 2: [bc/bccdc-surveillance-dashboard-case-trends-by-lha-2-webpage/bccdc-surveillance-dashboard-case-trends-by-lha-2-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Weekly Change: [bc/bccdc-surveillance-dashboard-weekly-change-webpage/bccdc-surveillance-dashboard-weekly-change-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Data Notes: [bc/bccdc-surveillance-dashboard-data-notes-webpage/bccdc-surveillance-dashboard-data-notes-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 
 ### Canada
 
