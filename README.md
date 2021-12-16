@@ -354,6 +354,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Case Status by RHA (official FGDB): [mb/current-status-by-area-rha-fgdb/Manitoba_COVID19_Case_Status_by_Geography.gdb.zip](http://data.opencovid.ca/archive/index.html#archive/)
 * [Manitoba COVID-19 Vaccinations](https://www.gov.mb.ca/covid19/vaccine/reports.html)
     * Vaccination time series: [mb/vaccination-time-series/mb_covid_vaccinations_daily_cumulative.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vaccination time series 2: [mb/vaccination-time-series-2/mb_covid_vaccinations_daily_cumulative_02.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination by age group and sex: [mb/vaccination-by-age-sex/mb_covid_vaccinations_demographics.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination by manufacturer: [mb/vaccination-by-manufacturer/mb_covid_vaccinations_manufacturers.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination summary by Regional Health Authority: [mb/vaccination-summary-by-rha/mb_covid_vaccinations_summary_stats.json](http://data.opencovid.ca/archive/index.html#archive/)

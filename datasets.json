@@ -3373,7 +3373,33 @@
           "meta_licence_url": "",
           "meta_group_1": "Manitoba"
         },
-        "notes": {}
+        "notes": {
+          "notes_data": "This time series does not include third doses."
+        }
+      },
+      {
+        "id_name": "MB - Vaccine dashboard: vaccination time series 2",
+        "uuid": "a5801472-42ae-409e-aedd-9bf92831434a",
+        "active": "True",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_vaccinations_daily_cumulative_02/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "vaccination-time-series-2",
+        "file_name": "mb_covid_vaccinations_daily_cumulative_02",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination time series 2",
+          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
+          "meta_url_name": "Manitoba COVID-19 Vaccinations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {
+          "notes_data": "This time series includes third doses."
+        }
       },
       {
         "id_name": "MB - Vaccine dashboard: vaccination by age group and sex",
