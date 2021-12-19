@@ -185,8 +185,9 @@ A note about data from Quebec: when both French and English data files are avail
     * Laboratory data: [bc/laboratory-data/BCCDC_COVID19_Dashboard_Lab_Information.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Regional data: [bc/regional-case-summary/BCCDC_COVID19_Regional_Summary_Data.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Case, testing, vaccine summary by CHSA and LHA: [bc/case-testing-vaccine-summary-by-CHSA-and-LHA/BCCDC_COVID19_LHA_CHSA_Data.xlsx](http://data.opencovid.ca/archive/index.html#archive/)
-    * VOC time series by RHA (2): [bc/voc-time-series-by-rha-2/Figure1_weeklyreport_data.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * VoC Weekly Lineage Frequency Table: [bc/voc-weekly-lineage-frequency-table/Weekly_lineage_table.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * VOC time series by RHA: [bc/voc-time-series-by-rha/COVID19_VoC_data.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * VOC time series by RHA (2): [bc/voc-time-series-by-rha-2/Figure1_weeklyreport_data.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [COVID-19 Public Exposures](http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures)
     * Public exposures webpage screenshot: [bc/public-exposures-webpage/public-exposures-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Public exposures - flights: [bc/public-exposures-flights/public-exposures-flights-tables-Current.pdf](http://data.opencovid.ca/archive/index.html#archive/)
