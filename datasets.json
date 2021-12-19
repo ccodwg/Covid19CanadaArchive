@@ -5087,6 +5087,94 @@
         "notes": {}
       },
       {
+        "id_name": "NS - Nova Scotia COVID-19 Dashboard: Vaccine coverage by CHN",
+        "uuid": "7e5184cc-34ea-4e8a-bace-eebd24c63637",
+        "active": "True",
+        "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/VaccineCoverageCHN_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "ns",
+        "dir_file": "vaccine-coverage-by-chn",
+        "file_name": "VaccineCoverageCHN_V4_PROD",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine coverage by CHN",
+          "meta_url": "https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad",
+          "meta_url_name": "Nova Scotia COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Nova Scotia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NS - Nova Scotia COVID-19 Dashboard: Vaccine uptake by age",
+        "uuid": "fdc8a8b2-d530-40ba-b0d8-83fe3a5238c7",
+        "active": "True",
+        "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/VaccineUptakeAge_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "ns",
+        "dir_file": "vaccine-uptake-by-age",
+        "file_name": "VaccineUptakeAge_V4_PROD",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine uptake by age",
+          "meta_url": "https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad",
+          "meta_url_name": "Nova Scotia COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Nova Scotia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NS - Nova Scotia COVID-19 Dashboard: Breakthrough outcomes",
+        "uuid": "81b0502c-16f5-475b-9bfe-38d04570c8af",
+        "active": "True",
+        "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Breakthrough_Outcomes_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "ns",
+        "dir_file": "breakthrough-outcomes",
+        "file_name": "Breakthrough_Outcomes_V4_PROD",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Breakthough outcomes",
+          "meta_url": "https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad",
+          "meta_url_name": "Nova Scotia COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Nova Scotia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NS - Nova Scotia COVID-19 Dashboard: Onset zones",
+        "uuid": "10202ed4-d676-4ab5-985e-f21913242192",
+        "active": "True",
+        "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Onset_Zones_V4_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "ns",
+        "dir_file": "onset-zones",
+        "file_name": "Onset_Zones_V4_PROD",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Onset zones",
+          "meta_url": "https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad",
+          "meta_url_name": "Nova Scotia COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Nova Scotia"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "NS - Potential COVID Exposures (webpage)",
         "uuid": "6b801d5e-2dba-4b5b-be4a-62679dfadcaf",
         "active": "True",
