@@ -13,10 +13,11 @@ import json
 from colorit import *  # colourful printing
 init_colorit() # enable printing with colour
 
-## archivist.py
+## archivist.py and archivist_utils.py
 import archivist
+import archivist_utils
 
-# list of environmental variables used in this script (through functions in archivist.py)
+# list of environmental variables used in this script (through functions in archivist.py and archivist_utils.py)
 ## AWS_ID: AWS ID [prod only]
 ## AWS_KEY: AWS key [prod only]
 ## MAIL_NAME: email account
@@ -41,14 +42,6 @@ archivist.success = 0 # success counter
 archivist.failure = 0 # failure counter
 archivist.failure_uuid = [] # failed UUIDs
 archivist.download_log = '' # download log
-
-# load email configuration
-mail_name = os.environ['MAIL_NAME']
-mail_pass = os.environ['MAIL_PASS']
-mail_to = os.environ['MAIL_TO']
-mail_sender = (os.environ['MAIL_ALIAS'] if 'MAIL_ALIAS' in os.environ.keys() else os.environ['MAIL_NAME'])
-smtp_server = os.environ['SMTP_SERVER']
-smtp_port = int(os.environ['SMTP_PORT'])
 
 # access Amazon S3
 if archivist.mode == 'prod':
@@ -224,7 +217,7 @@ if archivist.mode == 'prod':
         
         ## email log
         if archivist.email:
-                archivist.send_email(mail_name, mail_pass, mail_to, mail_sender, subject, body, smtp_server, smtp_port)
+                archivist_utils.send_email(subject, body)
 
 # email log of failed downloads, if any (when mode == test)
 if archivist.mode == 'test':
@@ -236,4 +229,4 @@ if archivist.mode == 'test':
                 subject = " ".join(['TEST', 'Covid19CanadaArchive Log', t.strftime('%Y-%m-%d %H:%M') + ',', 'Failed:', str(archivist.failure)])
                 body = log
                 if archivist.email:
-                        archivist.send_email(mail_name, mail_pass, mail_to, mail_sender, subject, body, smtp_server, smtp_port)
+                        archivist_utils.send_email(subject, body)

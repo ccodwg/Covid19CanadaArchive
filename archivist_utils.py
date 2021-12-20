@@ -1,4 +1,4 @@
-# utils.py: Utility functions for Covid19CanadaArchive #
+# archivist_utils.py: Utility functions for Covid19CanadaArchive #
 # https://github.com/ccodwg/Covid19CanadaArchive #
 # Maintainer: Jean-Paul R. Soucy #
 
@@ -7,10 +7,56 @@ print('Importing modules...')
 
 ## core utilities
 import sys
+import os
 import json
 import collections
 
+## other utilities
+import pandas as pd
+
+## email
+import smtplib
+
 # define functions
+
+### send_email: Send an email ###
+def send_email(subject, body):
+    """Send email (e.g., a download log).
+    
+    Parameters:
+    subject (str): Subject line for the email.
+    body (str): Body of the email.
+    """
+    
+    ## load email configuration
+    mail_name = os.environ['MAIL_NAME'] # email account the message will be sent from
+    mail_pass = os.environ['MAIL_PASS'] # email password for the account the message will be sent from
+    mail_to = os.environ['MAIL_TO'] # email the message will be sent to
+    mail_sender = (os.environ['MAIL_ALIAS'] if 'MAIL_ALIAS' in os.environ.keys() else os.environ['MAIL_NAME']) # the listed sender of the email (either the mail_name or an alias email)
+    smtp_server = os.environ['SMTP_SERVER'] # SMTP server address
+    smtp_port = int(os.environ['SMTP_PORT']) # SMTP server port
+    
+    ## compose message
+    email_text = """\
+From: %s
+To: %s
+Subject: %s
+
+%s
+""" % (mail_sender, mail_to, subject, body)
+    
+    ## send message
+    try:
+        print('Sending message...')
+        server = smtplib.SMTP_SSL(smtp_server, smtp_port)
+        server.ehlo()
+        server.login(mail_name, mail_pass)
+        server.sendmail(mail_sender, mail_to, email_text)
+        server.close()
+        print('Message sent!')
+    except Exception as e:
+        print(e)
+        print('Message failed to send.')
 
 ### gen_readme: Generate README.md (from datasets.json & docs/README_content.md) ###
 def gen_readme():
@@ -113,6 +159,38 @@ def gen_readme():
   ## write complete README.md
   with open('README.md', 'w') as f:
       f.write(readme)
+
+### list_inactive_datasets: List datasets that have not been updated in at least 7 days ###
+def list_inactive_datasets():
+  
+  ## download file index
+  ind = pd.read_csv("http://data.opencovid.ca.s3-us-east-2.amazonaws.com/archive/file_index.csv")
+  
+  ## filter to longest consecutive sequence of duplicates starting from the bottom for each UUID
+  ind = ind[['dir_parent', 'dir_file', 'uuid', 'file_etag_duplicate']] # subset to relevant columns
+  ind['name'] = ind['dir_parent'] + '/' + ind['dir_file']
+  ind = ind[['name', 'uuid', 'file_etag_duplicate']]
+  ind = ind.reindex(index=ind.index[::-1]) # reverse order
+  ind['dup'] = ind['file_etag_duplicate'] == 0
+  ind['dup'] = ind['dup'].astype(int)
+  ind['dup'] = ind.groupby(['name', 'uuid'])['dup'].cumsum()
+  ind = ind.query('dup == 0')
+  ind = ind.groupby(['name', 'uuid']).size().to_frame().reset_index()
+  ind.columns = ['name', 'uuid', 'count']
+  ind = ind.query('count >= 7').sort_values(by='count', ascending=False)
+  
+  ## save result
+  log = ind.to_string(index=False)
+  
+  ## print result
+  print(log)
+  
+  ## compose email message
+  subject = 'Covid19CanadaArchive Inactive Datasets'
+  body = log
+  
+  ## email message
+  send_email(subject, body)
 
 # run utility functions from command line by calling them by name
 if __name__ == '__main__':

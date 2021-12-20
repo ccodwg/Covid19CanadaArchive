@@ -36,9 +36,6 @@ from bs4 import BeautifulSoup
 ## Amazon S3
 import boto3
 
-## email
-import smtplib
-
 # define functions
 
 ## misc functions
@@ -151,44 +148,6 @@ def upload_file(full_name, f_path, uuid, s3_dir=None, s3_prefix=None):
         print(background('Upload failed: ' + full_name, Colors.red))
         failure+=1
         failure_uuid.append(uuid)
-
-## functions for emailing
-
-def send_email(mail_name, mail_pass, mail_to, mail_sender, subject, body, smtp_server, smtp_port):
-    """Send email (e.g., a download log).
-    
-    Parameters:
-    mail_name (str): Email account the message will be sent from.
-    mail_pass (str): Email password for the account the message will be sent from.
-    mail_to (str): Email the message will be sent to.
-    mail_sender (str): The listed sender of the email (either the mail_name or an alias email).
-    subject (str): Subject line for the email.
-    body (str): Body of the email.
-    smtp_server (str): SMTP server address.
-    smtp_port (int): SMTP server port.
-    
-    """
-     ## compose message
-    email_text = """\
-From: %s
-To: %s
-Subject: %s
-
-%s
-""" % (mail_sender, mail_to, subject, body)
-    
-    ## send message
-    try:
-        print('Sending message...')
-        server = smtplib.SMTP_SSL(smtp_server, smtp_port)
-        server.ehlo()
-        server.login(mail_name, mail_pass)
-        server.sendmail(mail_sender, mail_to, email_text)
-        server.close()
-        print('Message sent!')
-    except Exception as e:
-        print(e)
-        print('Message failed to send.')
 
 ## functions for logging
 
