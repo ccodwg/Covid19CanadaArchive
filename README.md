@@ -302,7 +302,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Vaccination coverage overall: [can/vaccination-coverage-overall/vaccination-coverage-overall.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination coverage for key populations: [can/vaccination-coverage-keypops/vaccination-coverage-keypops.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination coverage by age and sex: [can/vaccination-coverage-by-age-sex/vaccination-coverage-byAgeAndSex.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * Vaccination coverage by age and sex (2): [can/vaccination-coverage-by-age-sex-2/vaccination-coverage-byAgeAndSex2.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vaccination coverage by age and sex (3): [can/vaccination-coverage-by-age-sex-3/vaccination-coverage-byAgeAndSexOT1.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vaccination coverage by age and sex (current week): [can/vaccination-coverage-by-age-sex-current-week/vaccination-coverage-byAgeAndSex3.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination coverage by age and sex (condensed): [can/vaccination-coverage-by-age-sex-condensed/vaccination-coverage-byAgeAndSexOT.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination coverage by age and sex (alternative): [can/vaccination-coverage-by-age-sex-alt/vaccination-coverage-byAgeAndSex-overTime.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination coverage by age and sex with denominators: [can/vaccination-coverage-by-age-sex-denominators/vaccination-coverage-byAgeAndSexDenominators.csv](http://data.opencovid.ca/archive/index.html#archive/)
@@ -311,6 +312,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Vaccination coverage by province (update date): [can/vaccination-coverage-by-prov-update-date/vaccination-coverage-updateDate.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination statements: [can/vaccination-statements/vaccination-statements.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination notes: [can/vaccination-notes/vaccination-notes.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Legend buckets: [can/vaccination-coverage-legend-buckets/vaccination-coverage-legendBuckets.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vaccination coverage by age and sex (2): [can/vaccination-coverage-by-age-sex-2/vaccination-coverage-byAgeAndSex2.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [COVID-19 vaccination in Canada - Technical notes](https://health-infobase.canada.ca/covid-19/vaccination-coverage/technical-notes.html)
     * Webpage: [can/vaccination-technical-notes-webpage/vaccination-technical-notes-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination coverage data availability by week: [can/vaccination-coverage-data-availability-by-week/vaccination-coverage-dataAvailability.csv](http://data.opencovid.ca/archive/index.html#archive/)
