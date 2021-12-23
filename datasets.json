@@ -5335,6 +5335,31 @@
         "notes": {}
       },
       {
+        "id_name": "NT - Northwest Territories COVID-19 dashboard - communities (webpage)",
+        "uuid": "8814f932-33ec-49ef-896d-d1779b2abea7",
+        "active": "True",
+        "url": "https://nwt-covid.shinyapps.io/Testing-and-Cases/?lang=1",
+        "dir_parent": "nt",
+        "dir_file": "nwt-dashboard-communities-webpage",
+        "file_name": "nwt-dashboard-communities-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Communities webpage",
+          "meta_url": "https://nwt-covid.shinyapps.io/Testing-and-Cases/?lang=1",
+          "meta_url_name": "Northwest Territories COVID-19 dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Northwest Territories"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "NT - Northwest Territories COVID-19 dashboard - Testing (webpage)",
         "uuid": "66fbe91e-34c0-4f7f-aa94-cf6c14db0158",
         "active": "True",

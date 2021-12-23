@@ -432,6 +432,10 @@ def html_page(url, dir_parent, dir_file, file, ext, uuid, user=False, js=False, 
                 # show other figure in tabset
                 time.sleep(wait) # allow first figure to load
                 driver = click_linktext(driver, wait, 'Tests by Specimen Collection Date') # ID is dynamic
+            elif uuid == '8814f932-33ec-49ef-896d-d1779b2abea7':
+                # wait for tab link to be clickable then click
+                driver = click_xpath(driver, wait, '/html/body/div[1]/nav/div/ul/li[1]/a')
+                driver = click_xpath(driver, wait, '/html/body/div[1]/nav/div/ul/li[1]/ul/li[2]/a')
             elif uuid == '66fbe91e-34c0-4f7f-aa94-cf6c14db0158':
                 # wait for tab link to be clickable then click
                 driver = click_xpath(driver, wait, '/html/body/div[1]/nav/div/ul/li[2]/a')

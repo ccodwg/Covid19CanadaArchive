@@ -456,6 +456,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [nt/nwt-webpage/nwt-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [Northwest Territories COVID-19 dashboard](https://nwt-covid.shinyapps.io/Testing-and-Cases/?lang=1)
     * Cases webpage: [nt/nwt-dashboard-cases-webpage/nwt-dashboard-cases-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Communities webpage: [nt/nwt-dashboard-communities-webpage/nwt-dashboard-communities-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Testing webpage: [nt/nwt-dashboard-testing-webpage/nwt-dashboard-testing-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Wastewater webpage: [nt/nwt-dashboard-wastewater-webpage/nwt-dashboard-wastewater-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccinations coverage webpage: [nt/nwt-dashboard-vaccination-coverage-webpage/nwt-dashboard-vaccination-coverage-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
