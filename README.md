@@ -22,31 +22,6 @@ Table of contents:
 * [Recommended citation](#recommended-citation)
 * [Running archiver.py](#running-archiverpy)
 * [Data catalogue](#data-catalogue)
-  * [Alberta](#alberta)
-     * [Edmonton](#edmonton)
-  * [British Columbia](#british-columbia)
-  * [Canada](#canada)
-  * [Manitoba](#manitoba)
-     * [Winnipeg](#winnipeg)
-  * [New Brunswick](#new-brunswick)
-  * [Newfoundland and Labrador](#newfoundland-and-labrador)
-  * [Northwest Territories](#northwest-territories)
-  * [Nova Scotia](#nova-scotia)
-  * [Nunavut](#nunavut)
-  * [Ontario](#ontario)
-     * [Ontario universities](#ontario-universities)
-     * [Ottawa](#ottawa)
-     * [Public Health Ontario](#public-health-ontario)
-     * [Public Health Units](#public-health-units)
-     * [Toronto](#toronto)
-  * [Prince Edward Island](#prince-edward-island)
-  * [Quebec](#quebec)
-     * [Montreal](#montreal)
-  * [Saskatchewan](#saskatchewan)
-  * [Yukon](#yukon)
-  * [Other: Non-governmental sources](#other-non-governmental-sources)
-     * [Canada](#canada-1)
-     * [Quebec](#quebec-1)
 * [Notes about the data archive](#notes-about-the-data-archive)
 * [Acknowledgements](#acknowledgements)
 
@@ -150,7 +125,8 @@ A list of datasets available in the archive is given below, sorted by province (
 
 A note about data from Quebec: when both French and English data files are available, French files should generally be considered definitive (and in many cases, these files have been captured in the archive for a longer duration). The English versions of files available in both languages have "-en" appended to their directory names.
 
-### Alberta
+<details>
+<summary><b>Alberta</b></summary>
 
 * [COVID-19 Alberta statistics](https://www.alberta.ca/stats/covid-19-alberta-statistics.htm)
     * Webpage: [ab/ab-covid-statistics-webpage/ab-covid-statistics-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
@@ -172,12 +148,15 @@ A note about data from Quebec: when both French and English data files are avail
 * [COVID-19 school status map](https://www.alberta.ca/schools/covid-19-school-status-map.htm)
     * School status map: [ab/school-status-by-region/covid19dataexport-schools.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 
-#### Edmonton
+<details>
+<summary><i>Edmonton</i></summary>
 
 * [COVID-19 in Alberta: Current cases by local geographic area (Edmonton)](https://data.edmonton.ca/Community-Services/COVID-19-in-Alberta-Current-cases-by-local-geograp/ix8f-s9xp)
     * Current cases by local geographic area: [ab/edmonton-cases-by-area/COVID-19_in_Alberta__Current_cases_by_local_geographic_area.csv](http://data.opencovid.ca/archive/index.html#archive/)
-
-### British Columbia
+</details>
+</details>
+<details>
+<summary><b>British Columbia</b></summary>
 
 * [BC COVID-19 Data](http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data)
     * Webpage: [bc/bc-covid-data-webpage/bc-covid-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
@@ -228,8 +207,9 @@ A note about data from Quebec: when both French and English data files are avail
     * Case Trends by LHA 2: [bc/bccdc-surveillance-dashboard-case-trends-by-lha-2-webpage/bccdc-surveillance-dashboard-case-trends-by-lha-2-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Weekly Change: [bc/bccdc-surveillance-dashboard-weekly-change-webpage/bccdc-surveillance-dashboard-weekly-change-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Data Notes: [bc/bccdc-surveillance-dashboard-data-notes-webpage/bccdc-surveillance-dashboard-data-notes-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
-
-### Canada
+</details>
+<details>
+<summary><b>Canada</b></summary>
 
 * [Coronavirus disease (COVID-19)](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html)
     * Webpage: [can/can-covid-summary-webpage/can-covid-summary-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
@@ -332,8 +312,9 @@ A note about data from Quebec: when both French and English data files are avail
     * AEFI weekly summary by serious event type (old): [can/aefi-weekly-summary-by-serious-event-type-old/vaccine-safety-severity.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [Detailed preliminary information on confirmed cases of COVID-19 (Revised)](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310078101)
     * Dataset: [can/detailed-preliminary-confirmed-case-info-revised/13100781.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
-
-### Manitoba
+</details>
+<details>
+<summary><b>Manitoba</b></summary>
 
 * [Province of Manitoba - COVID-19](https://www.gov.mb.ca/covid19/updates/index.html)
     * Webpage: [mb/manitoba-webpage/manitoba-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
@@ -386,14 +367,17 @@ A note about data from Quebec: when both French and English data files are avail
     * COVID-19 Cases by vaccination status: [mb/daily-cases-by-vaccination-status/mb_covid_cases_by_vaccination_status.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Select COVID-19 Outbreaks in Manitoba: [mb/acive-outbreaks-ltc-institutions-healthcare-schools/Current_MB_COVID_Outbreaks.json](http://data.opencovid.ca/archive/index.html#archive/)
 
-#### Winnipeg
+<details>
+<summary><i>Winnipeg</i></summary>
 
 * [COVID-19 By-law Enforcement](https://data.winnipeg.ca/Neighbourhood-Liveability-Property-Standards-Licen/COVID-19-By-law-Enforcement/ndr6-96vi)
     * Dataset: [mb/winnipeg-by-law-enforcement/COVID-19_By-law_Enforcement.csv](http://data.opencovid.ca/archive/index.html#archive/)
 * [COVID-19 Designated Active Transportation Route Counts](https://data.winnipeg.ca/Transportation-Planning-Traffic-Management/COVID-19-Designated-Active-Transportation-Route-Co/aqka-nz2g)
     * Dataset: [mb/winnipeg-active-transportation/COVID-19_Designated_Active_Transportation_Route_Counts.csv](http://data.opencovid.ca/archive/index.html#archive/)
-
-### New Brunswick
+</details>
+</details>
+<details>
+<summary><b>New Brunswick</b></summary>
 
 * [New Brunswick COVID-19 Dashboard](https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa)
     * Adult residential facilities: [nb/adult-residential-facilities/adult-residential-facilities.json](http://data.opencovid.ca/archive/index.html#archive/)
@@ -429,8 +413,9 @@ A note about data from Quebec: when both French and English data files are avail
     * Vaccine time series: [nb/vaccine-time-series/Covid19VaccineTimeline.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [Potential Public Exposures](https://www2.gnb.ca/content/gnb/en/corporate/promo/covid-19/potential_public_exposure.html)
     * Webpage: [nb/potential-public-exposures-webpage/potential-public-exposures-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
-
-### Newfoundland and Labrador
+</details>
+<details>
+<summary><b>Newfoundland and Labrador</b></summary>
 
 * [Newfoundland and Labrador COVID-19 Pandemic Update Hub](https://covid-19-newfoundland-and-labrador-gnl.hub.arcgis.com/)
     * Webpage: [nl/nl-pandemic-hub-webpage/nl-pandemic-hub-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
@@ -449,8 +434,9 @@ A note about data from Quebec: when both French and English data files are avail
     * Cumulative vaccination (3): [nl/cumulative-vaccination-3/DailyVaccineUpdatePublic.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Cumulative vaccination (4): [nl/cumulative-vaccination-4/DailyVaxUpdatePublicV3.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Primary Health Care Zone populations: [nl/phcz-populations/PHC_Zones_Combined_Public.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
-
-### Northwest Territories
+</details>
+<details>
+<summary><b>Northwest Territories</b></summary>
 
 * [GNWT's Response to COVID-19](https://www.gov.nt.ca/covid-19/)
     * Webpage: [nt/nwt-webpage/nwt-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
@@ -461,8 +447,9 @@ A note about data from Quebec: when both French and English data files are avail
     * Wastewater webpage: [nt/nwt-dashboard-wastewater-webpage/nwt-dashboard-wastewater-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccinations coverage webpage: [nt/nwt-dashboard-vaccination-coverage-webpage/nwt-dashboard-vaccination-coverage-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccinations doses webpage: [nt/nwt-dashboard-vaccination-doses-webpage/nwt-dashboard-vaccination-doses-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
-
-### Nova Scotia
+</details>
+<details>
+<summary><b>Nova Scotia</b></summary>
 
 * [Coronavirus (COVID-19): case data](https://novascotia.ca/coronavirus/data/)
     * Webpage: [ns/ns-webpage/ns-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
@@ -490,8 +477,9 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [ns/ns-public-school-covid-exposures-webpage/ns-public-school-covid-exposures-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [COVID-19 news releases](https://novascotia.ca/news/search/?dept=180)
     * Webpage: [ns/daily-covid-news-release-webpage/daily-covid-news-release-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
-
-### Nunavut
+</details>
+<details>
+<summary><b>Nunavut</b></summary>
 
 * [COVID-19 (Novel Coronavirus)](https://gov.nu.ca/health/information/covid-19-novel-coronavirus)
     * Webpage: [nu/nunavut-webpage/nunavut-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
@@ -500,8 +488,9 @@ A note about data from Quebec: when both French and English data files are avail
     * Table (image): [nu/nunavut-vaccination-table/vaccine_table.jpg](http://data.opencovid.ca/archive/index.html#archive/)
 * [COVID-19 Exposure Notices](https://www.gov.nu.ca/health/information/covid-19-exposure-notices)
     * Webpage: [nu/nunavut-exposure-notices-webpage/nunavut-exposure-notices-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
-
-### Ontario
+</details>
+<details>
+<summary><b>Ontario</b></summary>
 
 * [How Ontario is responding to COVID-19](https://www.ontario.ca/page/how-ontario-is-responding-covid-19)
     * Webpage: [on/ontario-webpage/ontario-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
@@ -575,14 +564,17 @@ A note about data from Quebec: when both French and English data files are avail
 * [COVID-19 cases in schools and child care centres](https://www.ontario.ca/page/covid-19-cases-schools-and-child-care-centres)
     * Webpage: [on/cases-schools-and-child-care-centres-webpage/cases-schools-and-child-care-centres-webpage.html](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 
-#### Ontario universities
+<details>
+<summary><i>Ontario universities</i></summary>
 
 * [University of Toronto COVID-19 tracking](https://www.utoronto.ca/utogether/covid19-dashboard)
     * Webpage: [on/u-of-t-covid-tracking-webpage/u-of-t-covid-tracking-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [Queen’s University Case Tracker](https://www.queensu.ca/safereturn/health-safety/case-tracker)
     * Webpage: [on/queens-university-case-tracker-webpage/queens-university-case-tracker-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+</details>
 
-#### Ottawa
+<details>
+<summary><i>Ottawa</i></summary>
 
 * [Daily COVID-19 Dashboard](https://www.ottawapublichealth.ca/en/reports-research-and-statistics/daily-covid19-dashboard.aspx)
     * Demographics and Source of Infection for Cases, Deaths, and Hospitalizations: [on/ottawa-cases-deaths-hosp-demographics-source-of-infection/COVID-19_Cases_and_Deaths_Ottawa_EN.csv](http://data.opencovid.ca/archive/index.html#archive/)
@@ -603,8 +595,10 @@ A note about data from Quebec: when both French and English data files are avail
     * Vaccinations by Day by Vaccine Type - Non-Residents Vaccinated in Ottawa: [on/ottawa-vaccinations-by-day-and-type-non-residents-vaccinated-in-Ottawa/.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccinations by Day by Vaccine Type - Residents of Ottawa Vaccinated Outside of Ottawa: [on/ottawa-vaccinations-by-day-and-type-ottawa-residents-vaccinated-outside-ottawa/ottawa-vaccinations-by-day-and-type-ottawa-residents-vaccinated-outside-ottawa.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination Coverage by Age for Ottawa Residents with at Least 1 Dose: [on/ottawa-vaccination-coverage-by-age-ottawa-residents/ottawa-vaccination-coverage-by-age-ottawa-residents.json](http://data.opencovid.ca/archive/index.html#archive/)
+</details>
 
-#### Public Health Ontario
+<details>
+<summary><i>Public Health Ontario</i></summary>
 
 * [Public Health Ontario: COVID-19 Data and Surveillance](https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance)
     * Daily epidemiologic summary: [on/pho-daily-epi-summary-report/covid-19-daily-epi-summary-report.pdf](http://data.opencovid.ca/archive/index.html#archive/)
@@ -617,8 +611,10 @@ A note about data from Quebec: when both French and English data files are avail
     * Adverse Events Following Immunization (AEFIs) for COVID-19 in Ontario: [on/pho-aefi-report/covid-19-aefi-report.pdf](http://data.opencovid.ca/archive/index.html#archive/)
     * Trends of COVID-19 Incidence in Ontario: [on/pho-incidence-trends-report/covid-19-epi-trends-incidence-ontario.pdf](http://data.opencovid.ca/archive/index.html#archive/)
     * Confirmed Cases of COVID-19 Following Vaccination in Ontario: [on/pho-confirmed-cases-post-vaccination-report/covid-19-epi-confirmed-cases-post-vaccination.pdf](http://data.opencovid.ca/archive/index.html#archive/)
+</details>
 
-#### Public Health Units
+<details>
+<summary><i>Public Health Units</i></summary>
 
 * [Algoma (PHU) - Current Status (COVID-19)](https://www.algomapublichealth.com/disease-and-illness/infectious-diseases/novel-coronavirus/current-status-covid-19/)
     * Webpage: [on/on-phu-algoma-covid-data-webpage/on-phu-algoma-covid-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
@@ -680,8 +676,10 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [on/on-phu-windsor-essex-covid-data-webpage/on-phu-windsor-essex-covid-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [York (PHU) - COVID-19 in York Region](https://www.york.ca/wps/portal/yorkhome/health/yr/covid-19/covid19inyorkregion/01covid19inyorkregion/!ut/p/z1/tZPbcpswEIafJRdcYi0nS_ROoa6B2NhN4gPcZDAWhxQjBys46dNXJHSm7ThOOylcCGln91_-TwuK0BpFVdwUWSwKXsWlPIfR8M6jY891r8CfmcQBCjPq65jAyNbQ6iUB3ngooOhv6s8kROfllyhC0T4ptijUDYZJYhMVg5WoZpwMVVvbbOVip5Ztp7HdyqEoqcRe5Ch8ru8SXglWCQWeef1NHg6iEI8vgZzvmFxZXIpcgYQ3xVbV7G6n2UXVVtQsk5gUAO1EGPnveZdw9XrqTDPpIBa5WlQpR-ufvbrdH6Lr072kVHH_8BBRaa_19CTQum9_qxbmrw7HN8QEb-ljutRmYHpGl6Dr5tDVHPDBnRHwvuC59Zm4GlzpXcKZ-5UQs5JvXkeRVhuDSFo1S1nN6sFjLcO5EPvDJwUUOB6Pg4zzrGSDhO8UOFWS84NE83smCuUQ4jdv6lpHq6ZgR7SoeL2TX3LzjzPnQtcBE4e6dAxzuF1g-DrCJhlOpvPJtfbBDu8Y6Fne6FUeQ7_yer_y_weO74Gj0fYfM0YGUN1zyKXhkyDol33QL_ugX_ZBv3O__Cic_W6x2BHDKjMibO_eKptJOh0ZZug33y8D9fwru7j4Af7j0Z4!/dz/d5/L2dBISEvZ0FBIS9nQSEh/)
     * Individual-level case dataset: [on/on-phu-york-individual-level-case-data/YR_CaseData.csv](http://data.opencovid.ca/archive/index.html#archive/)
+</details>
 
-#### Toronto
+<details>
+<summary><i>Toronto</i></summary>
 
 * [COVID-19: Case Counts](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-pandemic-data/covid-19-weekday-status-of-cases-data/)
     * Dataset: [on/toronto-daily-status/CityofToronto_COVID-19_Daily_Public_Reporting.xlsx](http://data.opencovid.ca/archive/index.html#archive/)
@@ -698,8 +696,10 @@ A note about data from Quebec: when both French and English data files are avail
     * Dataset: [on/toronto-cases/COVID19_cases.csv](http://data.opencovid.ca/archive/index.html#archive/)
 * [COVID 19: Ethno-Racial Identity & Income](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-pandemic-data/covid-19-ethno-racial-group-income-infection-data/)
     * Dataset: [on/toronto-ethno-racial-income/Ethno-Racial_Group,_Income,_and_COVID-19_Infection.xlsx](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
-
-### Prince Edward Island
+</details>
+</details>
+<details>
+<summary><b>Prince Edward Island</b></summary>
 
 * [PEI COVID-19 Case Data](https://www.princeedwardisland.ca/en/information/health-and-wellness/pei-covid-19-case-data)
     * Webpage: [pe/pei-webpage/pei-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
@@ -710,8 +710,9 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [pe/pei-potential-exposures-webpage/pei-potential-exposures-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [Possible Air Travel Exposures](https://www.princeedwardisland.ca/en/information/health-and-wellness/possible-air-travel-exposures)
     * Webpage: [pe/pei-possible-air-travel-exposures-webpage/pei-possible-air-travel-exposures-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
-
-### Quebec
+</details>
+<details>
+<summary><b>Quebec</b></summary>
 
 * [Données sur la COVID-19 au Québec (province)](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/)
     * Webpage (FR): [qc/qc-webpage-fr/qc-webpage-fr.html](http://data.opencovid.ca/archive/index.html#archive/)
@@ -818,7 +819,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Highlights - public and private school system (FR): [qc/schools-highlights/reseauScolaire_faitsSaillants.pdf](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Highlights - public and private school system (EN): [qc/schools-highlights-en/reseauScolaire_faitsSaillants_ANG.pdf](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 
-#### Montreal
+<details>
+<summary><i>Montreal</i></summary>
 
 * [Situation du coronavirus (COVID-19) à Montréal](https://santemontreal.qc.ca/population/coronavirus-covid-19/situation-du-coronavirus-covid-19-a-montreal/)
     * Montréal cases and deaths by CIUSSS: [qc/montreal-cases-and-deaths-by-ciusss/ciusss.csv](http://data.opencovid.ca/archive/index.html#archive/)
@@ -835,8 +837,10 @@ A note about data from Quebec: when both French and English data files are avail
     * Vaccine coverage by age group: [qc/montreal-vaccine-coverage-by-age-group/VAXparGrpAGE_CSVupload.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Vaccine coverage by neighbourhood: [qc/montreal-vaccine-coverage-by-neighbourhood/VAXarrondissementsMTL.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Vaccine coverage by age group (2): [qc/montreal-vaccine-coverage-by-age-group-2/VAXparGrpAGE_CSVuploadv2.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
-
-### Saskatchewan
+</details>
+</details>
+<details>
+<summary><b>Saskatchewan</b></summary>
 
 * [Saskatchewan's Dashboard - Total Cases](https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases)
     * Dataset: [sk/cases-by-region/cases.csv](http://data.opencovid.ca/archive/index.html#archive/)
@@ -865,8 +869,9 @@ A note about data from Quebec: when both French and English data files are avail
     * Highlights, charts, tables (legacy): [sk/vaccination-by-region-highlights-charts-tables-legacy/health-wellness-covid-19-vaccines-vaccines.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [Cases and Risk of COVID-19 in Saskatchewan](https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan)
     * Webpage: [sk/summary-and-variant-webpage/summary-and-variant-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
-
-### Yukon
+</details>
+<details>
+<summary><b>Yukon</b></summary>
 
 * [Case and vaccine counts: COVID-19](https://yukon.ca/en/case-counts-covid-19)
     * Webpage: [yt/yukon-case-counts-webpage/yukon-case-counts-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
@@ -882,11 +887,13 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [yt/yukon-potential-exposures-webpage/yukon-potential-exposures-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [News releases: COVID-19 pandemic (2020)](https://yukon.ca/en/health-and-wellness/covid-19-information/latest-updates-covid-19/2020-news-releases-covid-19)
     * Webpage: [yt/yukon-covid-updates-2020-webpage/yukon-covid-updates-2020-webpage.html](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+</details>
+<details>
+<summary><b>Other: Non-governmental sources</b></summary>
 
-### Other: Non-governmental sources
 
-
-#### Canada
+<details>
+<summary><i>Canada</i></summary>
 
 * [Radio-Canada - The latest numbers](https://ici.radio-canada.ca/info/2020/coronavirus-covid-19-pandemie-cas-carte-maladie-symptomes-propagation/index-en.html)
     * Quebec data: [other/can/radio-canada-quebec-data/quebec.csv](http://data.opencovid.ca/archive/index.html#archive/)
@@ -910,12 +917,15 @@ A note about data from Quebec: when both French and English data files are avail
     * Dataset: [other/can/canada-covid-19-school-case-tracker/Canada_COVID-19_School_Report_Tracker.kml](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [COVID-19 Cases in Canadian Slaughterhouses](https://factoryfarmcollective.ca/covid-19/)
     * Webpage: [other/can/covid-cases-in-canadian-slaughterhouses-webpage/covid-cases-in-canadian-slaughterhouses-webpage.html](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+</details>
 
-#### Quebec
+<details>
+<summary><i>Quebec</i></summary>
 
 * [Covid Écoles Québec: Number of schools](https://www.covidecolesquebec.org/nombre-dcoles-20212022)
     * Dataset: [other/qc/covid-ecoles-quebec-school-list/COVIDECOLESQUEBEC.xlsx](http://data.opencovid.ca/archive/index.html#archive/)
-
+</details>
+</details>
 
 
 ## Notes about the data archive

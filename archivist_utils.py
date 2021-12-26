@@ -130,7 +130,7 @@ def gen_readme():
   ## loop through all top-level groups
   for g in g1:
     ## header for top-level group
-    txt = txt + '### ' + g + '\n\n'
+    txt = txt + '<details>\n<summary><b>' + g + '</b></summary>\n\n'
     ## subset data
     dg = {k:ds[k] for k in ds.keys() if ds[k]['metadata']['meta_group_1'] == g}
     ## check for sub-groups
@@ -143,11 +143,12 @@ def gen_readme():
     if len(g2) != 0:
       g2.sort() # alphabetical order
       for h in g2:
-        txt = txt + '\n#### ' + h + '\n\n'
+        txt = txt + '\n<details>\n<summary><i>' + h + '</i></summary>\n\n'
         dh = {k:dg[k] for k in dg.keys() if dg[k]['metadata'].get('meta_group_2') == h}
         txt = meta_items(dh, txt)
-    ## add line break
-    txt = txt + '\n'
+        txt = txt + '</details>\n'
+    ## add line break and close <details> tag
+    txt = txt + '</details>\n'
   
   ## load README_content.md
   with open('docs/README_content.md', 'r') as text_file:
