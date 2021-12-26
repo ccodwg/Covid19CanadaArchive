@@ -16,24 +16,24 @@ import archivist
 ## AWS_KEY: environmental variable of AWS key
 
 # load AWS credentials
-archivist.aws_id = os.environ['AWS_ID']
-archivist.aws_key = os.environ['AWS_KEY']
+aws_id = os.environ['AWS_ID']
+aws_key = os.environ['AWS_KEY']
 
 ## access S3
-archivist.s3 = archivist.access_s3(
+archivist.Archivist.setS3(archivist.access_s3(
   bucket='data.opencovid.ca',
-  aws_id=archivist.aws_id,
-  aws_key=archivist.aws_key)
+  aws_id=aws_id,
+  aws_key=aws_key))
 
 ## set S3 path prefix for achived files
-archivist.prefix_root = 'archive'
+archivist.Archivist.setPrefixRoot('archive')
 
 # create index
 ind = archivist.create_index(
   url_base='https://s3.us-east-2.amazonaws.com/data.opencovid.ca/',
   bucket='data.opencovid.ca',
-  aws_id=archivist.aws_id,
-  aws_key=archivist.aws_key)
+  aws_id=aws_id,
+  aws_key=aws_key)
 
 # write index to S3
 archivist.write_index(ind)

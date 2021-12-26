@@ -36,12 +36,43 @@ from bs4 import BeautifulSoup
 ## Amazon S3
 import boto3
 
+# define classes
+class Archivist:
+    # attributes with methods
+    mode = None
+    email = None
+    uuid = None
+    success = 0
+    failure = 0
+    failure_uuid = []
+    log = ''
+    prefix_root = None
+    s3 = None
+    # define methods
+    def setMode(mode):
+        Archivist.mode = mode
+    def setEmail(email):
+        Archivist.email = email
+    def setUUID(uuid):
+        Archivist.uuid = uuid
+    def recSuccess():
+        Archivist.success += 1
+    def recFailure(uuid):
+        Archivist.failure += 1
+        Archivist.failure_uuid = Archivist.failure_uuid.append(uuid)
+    def logEntry(entry):
+        Archivist.log = Archivist.log + entry
+    def setS3(s3):
+        Archivist.s3 = s3
+    def setPrefixRoot(prefix_root):
+        Archivist.prefix_root = prefix_root
+
+    
+
 # define functions
 
 ## misc functions
-
 def parse_args():
-    global mode, email, uuid
     
     # initialize parser with arguments
     parser = argparse.ArgumentParser()
@@ -51,20 +82,20 @@ def parse_args():
     args = parser.parse_args()
     
     # set run mode
-    mode = args.mode
-    print('Run mode set to ' + mode + '.')
+    Archivist.setMode(args.mode)
+    print('Run mode set to ' + Archivist.mode + '.')
     
     # set email mode
-    email = args.email
-    if email:
+    Archivist.setEmail(args.email)
+    if Archivist.email:
         print('An email will be sent at the end of this run.')
     else:
         print('No email will be sent at the end of this run.')
     
     # report datasets to be downloaded
-    uuid = args.uuid
-    if uuid:
-        print('Specified datasets: ', ', '.join(uuid))
+    Archivist.setUUID(args.uuid)
+    if Archivist.uuid:
+        print('Specified datasets: ', ', '.join(Archivist.uuid))
     else:
         print('No datasets specified. Downloading all datasets...')
 
@@ -73,14 +104,12 @@ def get_datetime(tz):
     return t
 
 def print_success_failure():
-    global success, failure
-    total_files = str(success + failure)
-    print(background('Successful downloads: ' + str(success) + '/' + total_files, Colors.blue))
-    print(background('Failed downloads: ' + str(failure) + '/' + total_files, Colors.red))
+    total_files = str(Archivist.success + Archivist.failure)
+    print(background('Successful downloads: ' + str(Archivist.success) + '/' + total_files, Colors.blue))
+    print(background('Failed downloads: ' + str(Archivist.failure) + '/' + total_files, Colors.red))
 
 def generate_rerun_code():
-    global mode, failure_uuid
-    code = 'The following code will rerun failed datasets:\n' + 'python archiver.py -m ' + mode + ' --uuid ' + ' '.join(failure_uuid)
+    code = 'The following code will rerun failed datasets:\n' + 'python archiver.py -m ' + Archivist.mode + ' --uuid ' + ' '.join(Archivist.failure_uuid)
     return code
 
 def find_url(search_url, regex, base_url):
@@ -98,7 +127,6 @@ def access_s3(bucket, aws_id, aws_key):
     aws_key (str): Key for AWS.
     
     """
-    global mode, s3
     print('Authenticating with AWS...') 
     ## connect to AWS
     aws = boto3.Session(
@@ -126,7 +154,6 @@ def upload_file(full_name, f_path, uuid, s3_dir=None, s3_prefix=None):
     s3_prefix (str): Optional. The prefix to the directory on Amazon S3.
 
     """
-    global s3, download_log, success, failure, failure_uuid
     
     ## generate file name
     f_name = os.path.basename(full_name)
@@ -137,42 +164,40 @@ def upload_file(full_name, f_path, uuid, s3_dir=None, s3_prefix=None):
     ## upload file to Amazon S3
     try:
         ## file upload
-        s3.upload_file(Filename=f_path, Key=f_name)
+        Archivist.s3.upload_file(Filename=f_path, Key=f_name)
         ## append name of file to the log message
-        download_log = download_log + 'Success: ' + full_name + '\n'
+        Archivist.logEntry('Success: ' + full_name + '\n')
         print(color('Upload successful: ' + full_name, Colors.blue))
-        success+=1
+        Archivist.recSuccess()
     except Exception as e:
-        download_log = download_log + 'Failure: ' + full_name + '\n'
+        Archivist.logEntry('Failure: ' + full_name + '\n')
         print(e)
         print(background('Upload failed: ' + full_name, Colors.red))
-        failure+=1
-        failure_uuid.append(uuid)
+        Archivist.recFailure(uuid)
 
 ## functions for logging
 
-def output_log(download_log, t):
+def output_log(log, t):
     """Assemble log from current run.
     
     Parameters:
-    download_log (str): Raw text of the download log.
+    log (str): Raw text of the download log.
     t (datetime): Date and time script began running (America/Toronto).
     
     """
-    global success, failure
 
     ## process download log: place failures at the top, successes below
-    download_log = download_log.split('\n')
-    download_log.sort()
-    download_log = '\n'.join(download_log)
+    log = log.split('\n')
+    log.sort()
+    log = '\n'.join(log)
 
     ## count total files
-    total_files = str(success + failure)
+    total_files = str(Archivist.success + Archivist.failure)
 
     ## assemble log
-    log = 'Successful downloads : ' + str(success) + '/' + total_files + '\n' + 'Failed downloads: ' + str(failure) + '/' + total_files + '\n' + download_log + '\n'
-    if failure > 0:
-    	log = log + '\n' + generate_rerun_code()
+    log = 'Successful downloads : ' + str(Archivist.success) + '/' + total_files + '\n' + 'Failed downloads: ' + str(Archivist.failure) + '/' + total_files + '\n' + log + '\n'
+    if Archivist.failure > 0:
+        log = log + '\n' + generate_rerun_code()
     log = t.strftime("%Y-%m-%d %H:%M") + '\n\n' + log
 
     ## return log
@@ -187,7 +212,6 @@ def upload_log(log):
     log (str): Log entry from current run.
 
     """
-    global s3
     print("Uploading recent log...")
     try:
         ## write most recent log entry temporarily and upload
@@ -195,7 +219,7 @@ def upload_log(log):
         log_file = os.path.join(tmpdir.name, 'log.txt')
         with open(log_file, 'w') as local_file:
             local_file.write(log)
-        s3.upload_file(Filename=log_file, Key='archive/log_recent.txt')
+        Archivist.s3.upload_file(Filename=log_file, Key='archive/log_recent.txt')
 
         ## report success
         print(color('Recent log upload successful!', Colors.green))
@@ -206,7 +230,7 @@ def upload_log(log):
         ## read in full log
         tmpdir = tempfile.TemporaryDirectory()
         log_file = os.path.join(tmpdir.name, 'log.txt')
-        s3.download_file(Filename=log_file, Key='archive/log.txt')
+        Archivist.s3.download_file(Filename=log_file, Key='archive/log.txt')
         with open(log_file, 'r') as full_log:
             full_log = full_log.read()
 
@@ -218,7 +242,7 @@ def upload_log(log):
         log_file = os.path.join(tmpdir.name, 'log.txt')
         with open(log_file, 'w') as local_file:
             local_file.write(log)
-        s3.upload_file(Filename=log_file, Key='archive/log.txt')
+        Archivist.s3.upload_file(Filename=log_file, Key='archive/log.txt')
 
         ## report success
         print(color('Full log upload successful!', Colors.green))
@@ -251,7 +275,6 @@ def dl_file(url, dir_parent, dir_file, file, ext, uuid, user=False, rand_url=Fal
     mb_json_to_csv (bool): If True, this is a Manitoba JSON file that that should be converted to CSV. Default: False.
 
     """
-    global mode, download_log, success, failure, failure_uuid, prefix_root
 
     ## set names with timestamp and file ext
     name = file + '_' + get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
@@ -279,16 +302,15 @@ def dl_file(url, dir_parent, dir_file, file, ext, uuid, user=False, rand_url=Fal
         if not req.ok:
             ## print failure
             print(background('Error downloading: ' + full_name, Colors.red))
-            failure+=1
-            failure_uuid.append(uuid)
+            Archivist.recFailure(uuid)
             ## write failure to log message
-            download_log = download_log + 'Failure: ' + full_name + '\n'
+            Archivist.logEntry('Failure: ' + full_name + '\n')
         ## successful request: if mode == test, print success and end
-        elif mode == 'test':
+        elif Archivist.mode == 'test':
             ## print success and write to log
-            download_log = download_log + 'Success: ' + full_name + '\n'
+            Archivist.logEntry('Success: ' + full_name + '\n')
             print(color('Test download successful: ' + full_name, Colors.green))
-            success+=1
+            Archivist.recSuccess()
         ## successful request: mode == prod, upload file
         else:
             if unzip:
@@ -353,15 +375,14 @@ def dl_file(url, dir_parent, dir_file, file, ext, uuid, user=False, rand_url=Fal
                     local_file.write(req.content)
             ## upload file
             s3_dir = os.path.join(dir_parent, dir_file)
-            upload_file(full_name, f_path, uuid, s3_dir=s3_dir, s3_prefix=prefix_root)
+            upload_file(full_name, f_path, uuid, s3_dir=s3_dir, s3_prefix=Archivist.prefix_root)
     except Exception as e:
         ## print failure
         print(e)
         print(background('Error downloading: ' + full_name, Colors.red))
-        failure+=1
-        failure_uuid.append(uuid)
+        Archivist.recFailure(uuid)
         ## write failure to log message
-        download_log = download_log + 'Failure: ' + full_name + '\n'
+        Archivist.logEntry('Failure: ' + full_name + '\n')
 
 def load_webdriver(tmpdir, user=False):
     """Load Chromium headless webdriver for Selenium.
@@ -409,7 +430,6 @@ def html_page(url, dir_parent, dir_file, file, ext, uuid, user=False, js=False, 
     wait (int): Used only if js = True. Time in seconds that the function should wait for the page to render. If the time is too short, the source code may not be captured.
 
     """
-    global mode, download_log, success, failure, prefix_root
     
     ## set names with timestamp and file ext
     name = file + '_' + get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
@@ -479,21 +499,20 @@ def html_page(url, dir_parent, dir_file, file, ext, uuid, user=False, js=False, 
         if not os.path.isfile(f_path):
             ## print failure
             print(background('Error downloading: ' + full_name, Colors.red))
-            failure+=1
-            failure_uuid.append(uuid)
+            Archivist.recFailure(uuid)
             ## write failure to log message
-            download_log = download_log + 'Failure: ' + full_name + '\n'
+            Archivist.logEntry('Failure: ' + full_name + '\n')
         ## successful request: if mode == test, print success and end
-        elif mode == 'test':
+        elif Archivist.mode == 'test':
             ## print success and write to log
-            download_log = download_log + 'Success: ' + full_name + '\n'
+            Archivist.logEntry('Success: ' + full_name + '\n')
             print(color('Test download successful: ' + full_name, Colors.green))
-            success+=1
+            Archivist.recSuccess()
         ## successful request: mode == prod, prepare files for data upload
         else:
             ## upload file
             s3_dir = os.path.join(dir_parent, dir_file)
-            upload_file(full_name, f_path, uuid, s3_dir=s3_dir, s3_prefix=prefix_root)
+            upload_file(full_name, f_path, uuid, s3_dir=s3_dir, s3_prefix=Archivist.prefix_root)
 
         ## quit webdriver
         driver.quit()
@@ -501,10 +520,9 @@ def html_page(url, dir_parent, dir_file, file, ext, uuid, user=False, js=False, 
         ## print failure
         print(e)
         print(background('Error downloading: ' + full_name, Colors.red))
-        failure+=1
-        failure_uuid.append(uuid)
+        Archivist.recFailure(uuid)
         ## write failure to log message
-        download_log = download_log + 'Failure: ' + full_name + '\n'
+        Archivist.logEntry('Failure: ' + full_name + '\n')
 
 def ss_page(url, dir_parent, dir_file, file, ext, uuid, user=False, wait=5, width=None, height=None):
     """Take a screenshot of a webpage.
@@ -523,7 +541,6 @@ def ss_page(url, dir_parent, dir_file, file, ext, uuid, user=False, wait=5, widt
     height (int): Height of the output screenshot. Default: None. If not set, the function attempts to detect the maximum height.
 
     """
-    global mode, download_log, success, failure, prefix_root
 
     ## set names with timestamp and file ext
     name = file + '_' + get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
@@ -560,30 +577,28 @@ def ss_page(url, dir_parent, dir_file, file, ext, uuid, user=False, wait=5, widt
             if not os.path.isfile(f_path):
                 ## print failure
                 print(background('Error downloading: ' + full_name, Colors.red))
-                failure+=1
-                failure_uuid.append(uuid)
+                Archivist.recFailure(uuid)
                 ## write failure to log message if mode == prod
-                if mode == 'prod':
-                    download_log = download_log + 'Failure: ' + full_name + '\n'
-            elif mode == 'test':
+                if Archivist.mode == 'prod':
+                    Archivist.logEntry('Failure: ' + full_name + '\n')
+            elif Archivist.mode == 'test':
                 ## print success and write to log
-                download_log = download_log + 'Success: ' + full_name + '\n'
+                Archivist.logEntry('Success: ' + full_name + '\n')
                 print(color('Test download successful: ' + full_name, Colors.green))
-                success+=1
+                Archivist.recSuccess()
             else:
                 ## upload file
                 s3_dir = os.path.join(dir_parent, dir_file)
-                upload_file(full_name, f_path, uuid, s3_dir=s3_dir, s3_prefix=prefix_root)
+                upload_file(full_name, f_path, uuid, s3_dir=s3_dir, s3_prefix=Archivist.prefix_root)
         except Exception as e:
             ## print exception
             print(e)
             ## print failure
             print(background('Error downloading: ' + full_name, Colors.red))
-            failure+=1
-            failure_uuid.append(uuid)
+            Archivist.recFailure(uuid)
             ## write failure to log message if mode == prod
-            if mode == 'prod':
-                download_log = download_log + 'Failure: ' + full_name + '\n'
+            if Archivist.mode == 'prod':
+                Archivist.logEntry('Failure: ' + full_name + '\n')
 
         ## quit webdriver
         driver.quit()
@@ -591,11 +606,10 @@ def ss_page(url, dir_parent, dir_file, file, ext, uuid, user=False, wait=5, widt
         ## print failure
         print(e)
         print(background('Error downloading: ' + full_name, Colors.red))
-        failure+=1
-        failure_uuid.append(uuid)
+        Archivist.recFailure(uuid)
         ## write failure to log message if mode == prod
-        if mode == 'prod':
-            download_log = download_log + 'Failure: ' + full_name + '\n'
+        if Archivist.mode == 'prod':
+            Archivist.logEntry('Failure: ' + full_name + '\n')
 
 ## indexing
 
@@ -609,7 +623,6 @@ def create_index(url_base, bucket, aws_id, aws_key):
     aws_key (str): Key for AWS.
     
     """
-    global s3, prefix_root
     
     ## temporarily disable pandas chained assignment warning
     pd_option = pd.get_option('chained_assignment') # save previous value
@@ -631,7 +644,7 @@ def create_index(url_base, bucket, aws_id, aws_key):
         's3',
         aws_access_key_id=aws_id,
         aws_secret_access_key=aws_key).get_paginator('list_objects_v2')
-    pages = paginator.paginate(Bucket=bucket, Prefix=prefix_root)
+    pages = paginator.paginate(Bucket=bucket, Prefix=Archivist.prefix_root)
     
     ## create inventory of files in the archive
     inv = []
@@ -654,7 +667,7 @@ def create_index(url_base, bucket, aws_id, aws_key):
     inv['file_etag_duplicate'] = np.nan
     # remove directories, log files and supplementary files
     inv = inv[inv['file_name'] != ''] # remove directories
-    inv = inv[inv['dir_file'] != prefix_root] # remove log files (stored in root)
+    inv = inv[inv['dir_file'] != Archivist.prefix_root] # remove log files (stored in root)
     inv = inv[inv['dir_file'] != 'supplementary'] # remove supplementary files
     # keep only necessary columns and reorder
     inv = inv[['dir_parent', 'dir_file', 'file_name', 'file_timestamp', 'file_date', 'file_date_true', 'file_size', 'file_etag', 'file_etag_duplicate', 'file_url']]
@@ -723,7 +736,6 @@ def write_index(ind, file_path=None):
     file_path (str): Optional. Path to write file locally.
     
     """
-    global s3, prefix_root
     
     if file_path is None:
         print('Uploading file index...')
@@ -732,7 +744,7 @@ def write_index(ind, file_path=None):
             tmpdir = tempfile.TemporaryDirectory()
             file_index = os.path.join(tmpdir.name, 'file_index.csv')
             ind.to_csv(file_index, index=False)
-            s3.upload_file(Filename=file_index, Key=prefix_root + '/file_index.csv')
+            Archivist.s3.upload_file(Filename=file_index, Key=Archivist.prefix_root + '/file_index.csv')
             ## report success
             print(color('File index upload successful!', Colors.green))
         except:
@@ -742,7 +754,7 @@ def write_index(ind, file_path=None):
         print('Writing file index...')
         try:
             ## write file index
-            ind.to_csv(file_index, index=False)
+            ind.to_csv(file_path, index=False)
             ## report success
             print(color('File index upload successful!', Colors.green))
         except:

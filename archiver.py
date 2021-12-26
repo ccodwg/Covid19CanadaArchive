@@ -37,23 +37,17 @@ import archivist_utils
 ### run only the specified list of datasets (identified by UUID), otherwise run all datasets
 archivist.parse_args()
 
-# initialize global variables
-archivist.success = 0 # success counter
-archivist.failure = 0 # failure counter
-archivist.failure_uuid = [] # failed UUIDs
-archivist.download_log = '' # download log
-
 # access Amazon S3
-if archivist.mode == 'prod':
+if archivist.Archivist.mode == 'prod':
         ## load AWS credentials
-        archivist.aws_id = os.environ['AWS_ID']
-        archivist.aws_key = os.environ['AWS_KEY']
+        aws_id = os.environ['AWS_ID']
+        aws_key = os.environ['AWS_KEY']
         
         ## access S3
-        archivist.access_s3(bucket='data.opencovid.ca', aws_id=archivist.aws_id, aws_key=archivist.aws_key)
+        archivist.Archivist.setS3(archivist.access_s3(bucket='data.opencovid.ca', aws_id=aws_id, aws_key=aws_key))
         
         ## set S3 path prefix root for achived files
-        archivist.prefix_root = 'archive'
+        archivist.Archivist.setPrefixRoot('archive')
 
 # define time script started running in America/Toronto time zone
 t = archivist.get_datetime('America/Toronto')
@@ -70,13 +64,13 @@ for d in datasets:
                 ds[datasets[d][i]['uuid']] = datasets[d][i]
 
 # if uuid argument is specified, filter to the specified datasets
-if archivist.uuid:
-        invalid = list(set(archivist.uuid) - set(list(ds.keys())))
-        archivist.uuid = list(set(archivist.uuid) & set(list(ds.keys())))
+if archivist.Archivist.uuid:
+        invalid = list(set(archivist.Archivist.uuid) - set(list(ds.keys())))
+        archivist.Archivist.uuid = list(set(archivist.Archivist.uuid) & set(list(ds.keys())))
         if len(invalid) > 0:
                 print('Removing invalid UUIDs: ' + ', '.join(invalid))
-        if len(archivist.uuid) > 0:
-                ds = {key: ds[key] for key in archivist.uuid}
+        if len(archivist.Archivist.uuid) > 0:
+                ds = {key: ds[key] for key in archivist.Archivist.uuid}
         else:
                 sys.exit("No valid UUIDs specified.")
 
@@ -120,17 +114,19 @@ for key in ds:
         if 'url' not in ds[key]:
                 # try to get URL
                 try:
-                        exec(ds[key]['url_fun_python']) # url saved as global var 'url_current'
-                        ds[key]['url'] = url_current
+                        # create local namespace
+                        loc = {}
+                        # execute url_fun_python, which returns the URL as url_current in the local namespace
+                        url_current = exec(ds[key]['url_fun_python'], {}, loc)
+                        ds[key]['url'] = loc['url_current']
                         print('Retrieved URL: ' + ds[key]['url']) # print result
                 except Exception as e:
                         name_error = ds[key]['file_name'] + '_' + archivist.get_datetime('America/Toronto').strftime('%Y-%m-%d_%H-%M')
                         full_name_error = os.path.join(ds[key]['dir_parent'], ds[key]['dir_file'], name_error + '.' + ds[key]['file_ext']) 
-                        archivist.download_log = archivist.download_log + 'Failure: ' + full_name_error + '\n'
+                        archivist.Archivist.log = archivist.Archivist.log + 'Failure: ' + full_name_error + '\n'
                         print(e)
                         print(background('Failed to retrieve URL for dataset: ' + ds[key]['id_name'], Colors.red))
-                        archivist.failure+=1
-                        archivist.failure_uuid.append(key)
+                        archivist.Archivist.recFailure(key)
                         continue
         
         ## print key
@@ -198,35 +194,39 @@ for key in ds:
 archivist.print_success_failure()
 
 # print rerun code, if necessary
-if archivist.failure > 0:
+if archivist.Archivist.failure > 0:
         print(background('\n' + archivist.generate_rerun_code(), (150, 150, 150)))
         print('') # newline
 
 # assemble log entry
-log = archivist.output_log(archivist.download_log, t)
+log = archivist.output_log(archivist.Archivist.log, t)
 
 # upload and email log of file uploads (wehn mode == prod)
-if archivist.mode == 'prod':
+if archivist.Archivist.mode == 'prod':
         
         ## upload log
         archivist.upload_log(log)
         
         ## compose email message (current log entry)
-        subject = " ".join(['PROD', 'Covid19CanadaArchive Log', t.strftime('%Y-%m-%d %H:%M') + ',', 'Failed:', str(archivist.failure)])
+        subject = " ".join(['PROD', 'Covid19CanadaArchive Log', t.strftime('%Y-%m-%d %H:%M') + ',', 'Failed:', str(archivist.Archivist.failure)])
         body = log        
         
         ## email log
-        if archivist.email:
+        if archivist.Archivist.email:
                 archivist_utils.send_email(subject, body)
 
 # email log of failed downloads, if any (when mode == test)
-if archivist.mode == 'test':
+if archivist.Archivist.mode == 'test':
         
         ## email log if there are any failures
-        if archivist.failure > 0:
+        if archivist.Archivist.failure > 0:
                 
                 ## compose email message (current log entry)
-                subject = " ".join(['TEST', 'Covid19CanadaArchive Log', t.strftime('%Y-%m-%d %H:%M') + ',', 'Failed:', str(archivist.failure)])
+                subject = " ".join(['TEST', 'Covid19CanadaArchive Log', t.strftime('%Y-%m-%d %H:%M') + ',', 'Failed:', str(archivist.Archivist.failure)])
                 body = log
-                if archivist.email:
+                if archivist.Archivist.email:
                         archivist_utils.send_email(subject, body)
+        else:
+
+                ## inform user that log will not be sent as there were no errors
+                print("No errors detected during test run. Log will not be sent.")
