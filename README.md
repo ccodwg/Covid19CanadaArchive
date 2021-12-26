@@ -6,7 +6,7 @@ For information on how to access the datasets in the archive, see [Accessing the
 
 The easiest way to [contribute to this project](#contributing) is to help add new data (by providing a link to the data or by uploading files you have previously downloaded) using our [data submission form](https://docs.google.com/forms/d/e/1FAIpQLSeiUd415u_qdqNwNHVEeA_6KCEMRJhXJSL9_9i1UvLDN3LGQA/viewform?usp=sf_link) or by opening an issue on GitHub. We're also looking for help making this archive more useful and accessible by building tools to simplify discovering, downloading and working with the data contained within.
 
-File name timestamps are given in ET (America/Toronto) in the following format: %Y-%m-%d_%H-%M. Files are archived nightly around 22:00 ET.
+File name timestamps are given in ET (America/Toronto) in the following format: %Y-%m-%d_%H-%M. Files are archived nightly beginning around 22:00 ET.
 
 All code in this repository is covered by the [MIT License](https://github.com/ccodwg/Covid19CanadaArchive/blob/master/LICENSE). Archived datasets may be used under the licenses/terms of use assigned to them by the data creators.
 
@@ -23,57 +23,36 @@ Table of contents:
 * [Running archiver.py](#running-archiverpy)
 * [Data catalogue](#data-catalogue)
 * [Notes about the data archive](#notes-about-the-data-archive)
+* [Notes about the archival tool](#notes-about-the-archival-tool)
 * [Acknowledgements](#acknowledgements)
 
 ## Accessing the data
 
 The easiest way to explore the data in the archive and download individual files is with the interactive file explorer: [http://data.opencovid.ca/archive/index.html#archive/](http://data.opencovid.ca/archive/index.html#archive/).
 
-The files in the archive are hosted at the following URL: [https://data.opencovid.ca.s3.amazonaws.com/archive/](https://data.opencovid.ca.s3.amazonaws.com/archive/)
-
-For example, the PHAC Epidemiology Update from November 4, 2020 may be downloaded at the following URL: [https://data.opencovid.ca.s3.amazonaws.com/archive/can/epidemiology-update-2/covid19-download_2020-11-04_23-38.csv](https://data.opencovid.ca.s3.amazonaws.com/archive/can/epidemiology-update-2/covid19-download_2020-11-04_23-38.csv)
-
-A complete index of files in the archive, including flags for duplicated files and corrected file dates, is available at the following URL: [https://data.opencovid.ca.s3.amazonaws.com/archive/file_index.csv](https://data.opencovid.ca.s3.amazonaws.com/archive/file_index.csv). This index is refreshed nightly around 23:00 ET.
-
-Alternatively, software such as Python or R may be used to explore and download files from specific directories. Examples are provided below.
-
-All files in a particular directory may be listed in Python using the following code (change `Prefix` as desired):
+The files in the archive are hosted under the following domain: [https://data.opencovid.ca.s3.amazonaws.com/archive/](https://data.opencovid.ca.s3.amazonaws.com/archive/). For example, the PHAC Epidemiology Update from November 4, 2020 may be downloaded at the following URL:
 
 ```
-# load modules
-from boto3 import client
-
-# get list of files in directory
-cli = client('s3')
-files = [key['Key'] for key in cli.list_objects(Bucket='data.opencovid.ca', Prefix='archive/can/epidemiology-update-2')['Contents']]
-
-# (optional) filter out supplementary material from list of files in the directory
-import re
-pat = re.compile('^.*/supplementary/') # match files in supplementary folder
-files = [s for s in files if not pat.match(s)]
-
-# print list of files
-print(files)
+https://data.opencovid.ca.s3.amazonaws.com/archive/can/epidemiology-update-2/covid19-download_2020-11-04_23-38.csv
 ```
 
-These files could then be downloaded by appending the base URL to the above file list.
-
-In R, the above may be achieved using the following code:
+A complete index of files in the archive, including flags for duplicated files and corrected file dates (`file_data_true`), is available at the following URL:
 
 ```
-# load packages
-library(aws.s3)
-
-# get list of files in directory
-files <- aws.s3::get_bucket(bucket = "data.opencovid.ca" , prefix = "archive/can/epidemiology-update-2/", region = "us-east-2")
-files <- unlist(lapply(files, function(x) x[["Key"]]), use.names = FALSE)
-
-# (optional) filter out supplementary material from list of files in the directory
-files <- files[!grepl("^.*/supplementary/", files)]
-
-# print list of files
-print(files)
+https://data.opencovid.ca.s3.amazonaws.com/archive/file_index.csv
 ```
+
+This index is refreshed nightly around 23:00 ET. The file index is a searchable spreadsheet containing the download links to all files in the archive. Any programming language can be used to easily download a list of files.
+
+An experimental [JSON API](https://api.opencovid.ca/archive) is also available to search the file index, although it currently only supports filtering by UUID. For example, the following URL returns the index for the PHAC Epidemiology Update:
+
+```
+https://api.opencovid.ca/archive?uuid=f7db31d0-6504-4a55-86f7-608664517bdb
+```
+
+The API is not yet documented but will soon be added to [https://opencovid.ca/api/](https://opencovid.ca/api/).
+
+Finally, the entire contents of the archive are accessible via the R package [`Covid19CanadaData`](https://github.com/ccodwg/Covid19CanadaData) using the function `dl_archive`, which interfaces with the API described above. Be aware that this package is undergoing rapid development and may change at any time.
 
 Please note that the data in this archive were previously hosted on Google Drive. This product has been discontinued and all further data updates will occur on the [data.opencovid.ca](http://data.opencovid.ca/archive/index.html#archive/) site.
 
@@ -110,14 +89,6 @@ Some datasets continue to exist at a URL but are no longer updated. These datase
 ## Recommended citation
 
 COVID-19 Canada Open Data Working Group. Canadian COVID-19 Data Archive. https://github.com/ccodwg/Covid19CanadaArchive. (Access date).
-
-## Running archiver.py
-
-*archiver.py* can run in two modes:
-* `python archiver.py -m prod`: Download files and upload them to the archive.
-* `python archiver.py -m test`: Don't upload files to the archive, just test that they can be successfully downloaded. Sends a notification email if a URL cannot be reached.
-
-The script relies on setting environmental variables to function properly. See *archiver.py* for more details.
 
 ## Data catalogue
 
@@ -935,30 +906,21 @@ On several occasions, the nightly archival script has failed to run. Depending o
 * Wednesday, October 21, 2020
 * Thursday, November 19, 2020
 
-In the future, a package will be provided to more easily access the data provided in this archive and to document missing or incomplete data.
+## Notes about the archival tool
+
+The archival tool *archiver.py* is run nightly and depends on the *archivist* module, also present in this repository. Development of this tool will eventually be migrated to its [own repoistory](https://github.com/jeanpaulrsoucy/archivist).
+
+*archiver.py* can run in two modes:
+* `python archiver.py -m prod`: Download datasets and upload them to the archive.
+* `python archiver.py -m test`: Don't upload datasets to the archive, just test that they can be successfully downloaded. Sends a notification email if a dataset cannot be downloaded.
+
+The archival tool relies on setting environmental variables to function properly. See [*archiver.py*](https://github.com/ccodwg/Covid19CanadaArchive/blob/master/archiver.py) for more details.
 
 ## Acknowledgements
 
 Shannon Fiedler created the banner image for the Canadian COVID-19 Data Archive.
 
-Many people are to thank for contributing archived data and code to this repository.
- 
-* [Jens von Bergmann](https://github.com/mountainMath)
-* [Simon Coulombe](https://github.com/simoncoulombe)
-* [James E. Wright](https://twitter.com/JWright159)
-* [Farbod Abolhassani](https://github.com/farbodab)
-* [Shelby L. Sturrock](https://twitter.com/shelbysturrock)
-* [Safa Ahmad](https://twitter.com/birdseye47)
-* [Jacques Marcoux](https://twitter.com/jacquesmarcoux)
-* [Shraddha Pai](https://twitter.com/spaiglass)
-* [Matti Aleve](https://twitter.com/maleve)
-* [Scott van Millingen](https://github.com/svmillin)
-* [Robson Fletcher](https://twitter.com/CBCFletch)
-* [Les Perreaux](https://twitter.com/perreaux)
-* Allen Kwan ([Twitter](https://twitter.com/allenkwan)/[LinkedIn](https://www.linkedin.com/in/allen-kwan/))
-* Christine Hagyard ([Twitter](https://twitter.com/ChrisHagyard)/[LinkedIn](https://www.linkedin.com/in/christine-hagyard/))
-* Amy Bihari ([Twitter](https://twitter.com/AmyBihari)/[LinkedIn](https://www.linkedin.com/in/amy-bihari/))
-* Razieh Faraji ([Twitter](https://twitter.com/raziehfaraji)/[LinkedIn](https://www.linkedin.com/in/raziehfaraji/))
-* [David Lussier](https://twitter.com/LussiD)
-* [Matthias Schoettle](https://github.com/mschoettle)
-* [Jeremy Moreau](https://github.com/jeremymoreau)
+Many people are to thank for contributing archived data and code to this repository:
+
+[Jens von Bergmann](https://github.com/mountainMath) / [Simon Coulombe](https://github.com/simoncoulombe) / [James E. Wright](https://twitter.com/JWright159) / [Farbod Abolhassani](https://github.com/farbodab) / [Shelby L. Sturrock](https://twitter.com/shelbysturrock) / [Safa Ahmad](https://twitter.com/birdseye47) / [Jacques Marcoux](https://twitter.com/jacquesmarcoux) / [Shraddha Pai](https://twitter.com/spaiglass) / [Matti Aleve](https://twitter.com/maleve) / [Scott van Millingen](https://github.com/svmillin) / [Robson Fletcher](https://twitter.com/CBCFletch) / [Les Perreaux](https://twitter.com/perreaux) / Allen Kwan ([Twitter](https://twitter.com/allenkwan)/[LinkedIn](https://www.linkedin.com/in/allen-kwan/)) / Christine Hagyard ([Twitter](https://twitter.com/ChrisHagyard)/[LinkedIn](https://www.linkedin.com/in/christine-hagyard/))
+ / Amy Bihari ([Twitter](https://twitter.com/AmyBihari)/[LinkedIn](https://www.linkedin.com/in/amy-bihari/)) / Razieh Faraji ([Twitter](https://twitter.com/raziehfaraji)/[LinkedIn](https://www.linkedin.com/in/raziehfaraji/)) / [David Lussier](https://twitter.com/LussiD) / [Matthias Schoettle](https://github.com/mschoettle) / [Jeremy Moreau](https://github.com/jeremymoreau)
