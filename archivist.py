@@ -59,7 +59,7 @@ class Archivist:
         Archivist.success += 1
     def recFailure(uuid):
         Archivist.failure += 1
-        Archivist.failure_uuid = Archivist.failure_uuid.append(uuid)
+        Archivist.failure_uuid.append(uuid)
     def logEntry(entry):
         Archivist.log = Archivist.log + entry
     def setS3(s3):
