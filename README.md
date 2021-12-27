@@ -309,15 +309,14 @@ A note about data from Quebec: when both French and English data files are avail
     * Case Status by RHA (official): [mb/current-status-by-rha-official/Manitoba_COVID19_Case_Status_by_Geography.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Case Status by RHA (official FGDB): [mb/current-status-by-area-rha-fgdb/Manitoba_COVID19_Case_Status_by_Geography.gdb.zip](http://data.opencovid.ca/archive/index.html#archive/)
 * [Manitoba COVID-19 Vaccinations](https://www.gov.mb.ca/covid19/vaccine/reports.html)
-    * Vaccination time series: [mb/vaccination-time-series/mb_covid_vaccinations_daily_cumulative.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination time series 2: [mb/vaccination-time-series-2/mb_covid_vaccinations_daily_cumulative_02.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Vaccination by age group and sex: [mb/vaccination-by-age-sex/mb_covid_vaccinations_demographics.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vaccination by age group and sex 2: [mb/vaccination-by-age-sex-2/mb_covid_vaccinations_demographics_02.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination by manufacturer: [mb/vaccination-by-manufacturer/mb_covid_vaccinations_manufacturers.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Vaccination summary by Regional Health Authority: [mb/vaccination-summary-by-rha/mb_covid_vaccinations_summary_stats.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Vaccination coverage: [mb/vaccination-coverage/mb_covid_vaccinations_coverage.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vaccination summary by Regional Health Authority 2: [mb/vaccination-summary-by-rha-2/mb_covid_vaccinations_summary_stats_02.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vaccination coverage 2: [mb/vaccination-coverage-2/mb_covid_vaccinations_coverage_02.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Uptake by RHA, age, sex: [mb/vaccine-uptake-by-rha-age-sex/mb_covid_vaccine_uptake_demographics.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Uptake by Health District: [mb/vaccine-uptake-by-district/mb_covid_vaccine_uptake_district.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Inventory, delivered, administered, scheduled: [mb/vaccination-inventory-delivered-admin-scheduled/mb_covid_vaccinations_inventory_stats.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Uptake by Health District 2: [mb/vaccine-uptake-by-district-2/mb_covid_vaccine_uptake_district_2.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Inventory, delivered, administered, scheduled: [mb/vaccination-inventory-delivered-admin-scheduled-2/mb_covid_vaccinations_inventory_stats_02.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Regional Health Authorities: [mb/regional-health-authorities/Manitoba_Regional_Health_Authorities.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Health Districts: [mb/health-districts/Health_Districts.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Winnipeg Community Areas: [mb/winnipeg-community-areas/bdy_wha_community_areas_py_shp.json](http://data.opencovid.ca/archive/index.html#archive/)
@@ -329,6 +328,12 @@ A note about data from Quebec: when both French and English data files are avail
     * First nations vaccination by Tribal Council Region: [mb/first-nations-vaccination-by-tribal-council-region/mbfn_covid_vaccinations_tribal_council_summary.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination coverage by Regional Health Authority: [mb/vaccination-coverage-by-rha/mb_covid_vaccinations_18_coverage.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Projected vaccine doses: [mb/projected-vaccine-doses/mb_covid_vaccinations_projected_doses.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Uptake by Health District: [mb/vaccine-uptake-by-district/mb_covid_vaccine_uptake_district.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Vaccination by age group and sex: [mb/vaccination-by-age-sex/mb_covid_vaccinations_demographics.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Vaccination coverage: [mb/vaccination-coverage/mb_covid_vaccinations_coverage.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Vaccination summary by Regional Health Authority: [mb/vaccination-summary-by-rha/mb_covid_vaccinations_summary_stats.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Inventory, delivered, administered, scheduled: [mb/vaccination-inventory-delivered-admin-scheduled/mb_covid_vaccinations_inventory_stats.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Vaccination time series: [mb/vaccination-time-series/mb_covid_vaccinations_daily_cumulative.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [COVID-19 Dashboard: K-12 Schools in Manitoba](https://experience.arcgis.com/experience/6e7af13b3ffb447a99734b0119b169d3/)
     * COVID education statistics summary: [mb/covid-education-summary/covid-education-summary.json](http://data.opencovid.ca/archive/index.html#archive/)
     * COVID educations cases last 2 weeks: [mb/covid-education-cases-last-2-weeks/covid-education-cases-last-2-weeks.json](http://data.opencovid.ca/archive/index.html#archive/)
