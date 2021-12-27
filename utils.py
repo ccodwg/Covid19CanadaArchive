@@ -123,8 +123,20 @@ def gen_readme():
 ### list_inactive_datasets: List datasets that have not been updated in at least 7 days ###
 def list_inactive_datasets():
   
+  ## load active datasets and extract UUIDs as list
+  with open('datasets.json') as json_file:
+    datasets = json.load(json_file)
+  datasets = datasets['active'] # subset active datasets
+  uuids = [] # create empty list
+  for d in datasets:
+          for i in range(len(datasets[d])):
+                  uuids.append(datasets[d][i]['uuid'])
+  
   ## download file index
   ind = pd.read_csv("http://data.opencovid.ca.s3-us-east-2.amazonaws.com/archive/file_index.csv")
+
+  ## filter out datasets already marked as inactive
+  ind = ind[ind['uuid'].isin(uuids)]
   
   ## filter to longest consecutive sequence of duplicates starting from the bottom for each UUID
   ind = ind[['dir_parent', 'dir_file', 'uuid', 'file_etag_duplicate']] # subset to relevant columns
