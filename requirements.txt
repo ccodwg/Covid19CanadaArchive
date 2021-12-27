@@ -1,7 +1,0 @@
-pandas
-pytz
-requests
-selenium
-bs4
-color-it
-boto3

@@ -1,4 +1,4 @@
-# indexer.py: Index files included in Covid19CanadaArchive #
+# indexer.py: Update file index for the Canadian COVID-19 Data Archive #
 # https://github.com/ccodwg/Covid19CanadaArchive #
 # Maintainer: Jean-Paul R. Soucy #
 
@@ -8,10 +8,10 @@ print('Importing modules...')
 ## core utilities
 import os
 
-## archivist.py
+## archivist
 import archivist
 
-# list of environmental variables used in this script (through functions in archivist.py)
+# list of environmental variables used in this script (through functions in archivist)
 ## AWS_ID: environmental variable of AWS ID
 ## AWS_KEY: environmental variable of AWS key
 

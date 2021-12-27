@@ -1,4 +1,4 @@
-# archiver.py: Automated, daily backups of COVID-19 data from Canadian governmental and non-governmental sources #
+# archiver.py: Automated, daily dataset updates to the Canadian COVID-19 Data Archive #
 # https://github.com/ccodwg/Covid19CanadaArchive #
 # Maintainer: Jean-Paul R. Soucy #
 
@@ -10,14 +10,13 @@ import os
 import json
 
 ## other utilities
-from colorit import *  # colourful printing
+from colorit import * # colourful printing
 init_colorit() # enable printing with colour
 
-## archivist.py and archivist_utils.py
+## archivist
 import archivist
-import archivist_utils
 
-# list of environmental variables used in this script (through functions in archivist.py and archivist_utils.py)
+# list of environmental variables used in this script (through functions in archivist)
 ## AWS_ID: AWS ID [prod only]
 ## AWS_KEY: AWS key [prod only]
 ## MAIL_NAME: email account
@@ -35,6 +34,8 @@ import archivist_utils
 ### test: Download files but don't upload them to the server, just test that they can be successfully downloaded.
 ## --uuid
 ### run only the specified list of datasets (identified by UUID), otherwise run all datasets
+## --no-email
+### don't send an email at the end of the run
 archivist.parse_args()
 
 # access Amazon S3
@@ -213,7 +214,7 @@ if archivist.Archivist.mode == 'prod':
         
         ## email log
         if archivist.Archivist.email:
-                archivist_utils.send_email(subject, body)
+                archivist.send_email(subject, body)
 
 # email log of failed downloads, if any (when mode == test)
 if archivist.Archivist.mode == 'test':
@@ -225,7 +226,7 @@ if archivist.Archivist.mode == 'test':
                 subject = " ".join(['TEST', 'Covid19CanadaArchive Log', t.strftime('%Y-%m-%d %H:%M') + ',', 'Failed:', str(archivist.Archivist.failure)])
                 body = log
                 if archivist.Archivist.email:
-                        archivist_utils.send_email(subject, body)
+                        archivist.send_email(subject, body)
         else:
 
                 ## inform user that log will not be sent as there were no errors

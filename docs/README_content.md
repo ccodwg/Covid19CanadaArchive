@@ -107,11 +107,11 @@ On several occasions, the nightly archival script has failed to run. Depending o
 
 ## Notes about the archival tool
 
-The archival tool *archiver.py* is run nightly and depends on the *archivist* module, also present in this repository. Development of this tool will eventually be migrated to its [own repoistory](https://github.com/jeanpaulrsoucy/archivist).
+Updates to the Canadian COVID-19 Data Archive are managed by *archiver.py* via the [`archivist`](https://github.com/jeanpaulrsoucy/archivist) package. Development of `archivist` originally took place in this repository but has since been migrated to its [own repository](https://github.com/jeanpaulrsoucy/archivist).
 
 *archiver.py* can run in two modes:
 * `python archiver.py -m prod`: Download datasets and upload them to the archive.
-* `python archiver.py -m test`: Don't upload datasets to the archive, just test that they can be successfully downloaded. Sends a notification email if a dataset cannot be downloaded.
+* `python archiver.py -m test`: Don't upload datasets to the archive, just test that they can be successfully downloaded. Send an email summary of datasets that cannot be downloaded, if any.
 
 The archival tool relies on setting environmental variables to function properly. See [*archiver.py*](https://github.com/ccodwg/Covid19CanadaArchive/blob/master/archiver.py) for more details.
 

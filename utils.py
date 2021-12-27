@@ -1,4 +1,4 @@
-# archivist_utils.py: Utility functions for Covid19CanadaArchive #
+# utils.py: Utility functions for the Canadian COVID-19 Data Archive #
 # https://github.com/ccodwg/Covid19CanadaArchive #
 # Maintainer: Jean-Paul R. Soucy #
 
@@ -14,49 +14,8 @@ import collections
 ## other utilities
 import pandas as pd
 
-## email
-import smtplib
-
-# define functions
-
-### send_email: Send an email ###
-def send_email(subject, body):
-    """Send email (e.g., a download log).
-    
-    Parameters:
-    subject (str): Subject line for the email.
-    body (str): Body of the email.
-    """
-    
-    ## load email configuration
-    mail_name = os.environ['MAIL_NAME'] # email account the message will be sent from
-    mail_pass = os.environ['MAIL_PASS'] # email password for the account the message will be sent from
-    mail_to = os.environ['MAIL_TO'] # email the message will be sent to
-    mail_sender = (os.environ['MAIL_ALIAS'] if 'MAIL_ALIAS' in os.environ.keys() else os.environ['MAIL_NAME']) # the listed sender of the email (either the mail_name or an alias email)
-    smtp_server = os.environ['SMTP_SERVER'] # SMTP server address
-    smtp_port = int(os.environ['SMTP_PORT']) # SMTP server port
-    
-    ## compose message
-    email_text = """\
-From: %s
-To: %s
-Subject: %s
-
-%s
-""" % (mail_sender, mail_to, subject, body)
-    
-    ## send message
-    try:
-        print('Sending message...')
-        server = smtplib.SMTP_SSL(smtp_server, smtp_port)
-        server.ehlo()
-        server.login(mail_name, mail_pass)
-        server.sendmail(mail_sender, mail_to, email_text)
-        server.close()
-        print('Message sent!')
-    except Exception as e:
-        print(e)
-        print('Message failed to send.')
+## archivist
+import archivist
 
 ### gen_readme: Generate README.md (from datasets.json & docs/README_content.md) ###
 def gen_readme():
@@ -191,7 +150,7 @@ def list_inactive_datasets():
   body = log
   
   ## email message
-  send_email(subject, body)
+  archivist.send_email(subject, body)
 
 # run utility functions from command line by calling them by name
 if __name__ == '__main__':
