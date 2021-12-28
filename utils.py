@@ -163,7 +163,56 @@ def list_inactive_datasets():
   
   ## email message
   archivist.send_email(subject, body)
+  
+### retire_dataset: Move dataset from 'active' to 'inactive'
+def retire_dataset(uuid):
+
+  # load datasets.json
+  with open('datasets.json') as json_file:
+    datasets = json.load(json_file)
+  
+  # find location of dataset
+  i_uuid = None
+  k_uuid = None
+  for k in datasets['active'].keys():
+    for i in range(len(datasets['active'][k])):
+      u = datasets['active'][k][i]['uuid']
+      if u == uuid:
+        i_uuid = i
+        k_uuid = k
+        break
+    else:
+      continue
+    break
+
+  # stop if no matching active dataset found
+  if i_uuid is None:
+    print('No matching active dataset found with that UUID.')
+    return
+
+  # copy dataset
+  d = datasets['active'][k][i]
+  
+  # add inactive flag
+  d['active'] = 'False'
+
+  # remove dataset from active
+  datasets['active'][k].pop(i)
+
+  # append dataset to inactive
+  datasets['inactive'][k].append(d)
+
+  # write datasets.json
+  with open('datasets.json', 'w') as json_file:
+    json.dump(datasets, json_file, indent=2, ensure_ascii=False)
 
 # run utility functions from command line by calling them by name
 if __name__ == '__main__':
+  # no positional argument
+  if len(sys.argv) == 2:
     globals()[sys.argv[1]]()
+  # one positional argument
+  elif len(sys.argv) == 3:
+    globals()[sys.argv[1]](sys.argv[2])
+  else:
+    print("This method only accepts at most one positional argument.")
