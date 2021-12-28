@@ -6084,6 +6084,28 @@
         "notes": {}
       },
       {
+        "id_name": "ON - ICES dashboard vaccine coverage estimates for adults with developmental disabilities",
+        "uuid": "d7269b14-781c-493b-b295-ddd0789eb811",
+        "active": "True",
+        "url": "https://www.ices.on.ca/~/media/Files/COVID-19/Vaccine-coverage-for-adults-with-developmental-disabilities.ashx?la=en-CA",
+        "dir_parent": "on",
+        "dir_file": "ices-vaccine-coverage-for-adults-with-developmental-disabilities",
+        "file_name": "Vaccine-coverage-for-adults-with-developmental-disabilities",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine coverage estimates for adults with developmental disabilities",
+          "meta_url": "https://www.ices.on.ca/DAS/AHRQ/COVID-19-Dashboard",
+          "meta_url_name": "ICES COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - City of Toronto Daily Status of COVID-19 Cases",
         "uuid": "ebad185e-9706-44f4-921e-fc89d5cfa334",
         "active": "True",
