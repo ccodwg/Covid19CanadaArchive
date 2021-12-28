@@ -140,7 +140,6 @@ A note about data from Quebec: when both French and English data files are avail
     * VOC time series by RHA (2): [bc/voc-time-series-by-rha-2/Figure1_weeklyreport_data.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [COVID-19 Public Exposures](http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures)
     * Public exposures webpage screenshot: [bc/public-exposures-webpage/public-exposures-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
-    * Public exposures - flights: [bc/public-exposures-flights/public-exposures-flights-tables-Current.pdf](http://data.opencovid.ca/archive/index.html#archive/)
     * Public exposures Fraser webpage: [bc/regional-exposure-events-fraser-webpage/regional-exposure-events-fraser-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Public exposures Interior webpage: [bc/regional-exposure-events-interior-webpage/regional-exposure-events-interior-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Public exposures Island webpage: [bc/regional-exposure-events-island-webpage/regional-exposure-events-island-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
@@ -152,6 +151,7 @@ A note about data from Quebec: when both French and English data files are avail
     * School exposures Northern webpage: [bc/school-exposures-northern-webpage/school-exposures-northern-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * School exposures Vancouver Coastal webpage: [bc/school-exposures-vancouver-coastal-webpage/school-exposures-vancouver-coastal-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Public exposures - cruises, long distance bus, train, work sites, public events: [bc/public-exposures-cruises-bus-train-work-public/Archived_COVID-19_Exposures.pdf](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Public exposures - flights: [bc/public-exposures-flights/public-exposures-flights-tables-Current.pdf](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [British Columbia COVID-19 Dashboard](https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded)
     * Dashboard BC and Canada cumulative testing rate: [bc/bc-canada-cumulative-testing-rate/BC_COVID19__BC_Canadian_Testing_Rates_View.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Dashboard case demographics by Regional Health Authority: [bc/case-demographics-by-rha/BC_COVID19_Dashboard_Case_Details_Production.json](http://data.opencovid.ca/archive/index.html#archive/)
