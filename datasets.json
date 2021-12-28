@@ -413,28 +413,6 @@
         }
       },
       {
-        "id_name": "BC - Public exposures: flights",
-        "uuid": "5f4e5fb9-4c21-4e16-9e34-0303205cf410",
-        "active": "True",
-        "url": "http://www.bccdc.ca/Health-Info-Site/Documents/public-exposures-flights-tables-Current.pdf",
-        "dir_parent": "bc",
-        "dir_file": "public-exposures-flights",
-        "file_name": "public-exposures-flights-tables-Current",
-        "file_ext": "pdf",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Public exposures - flights",
-          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
-          "meta_url_name": "COVID-19 Public Exposures",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "British Columbia"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "BC - Public exposures: regional exposure events (Fraser webpage)",
         "uuid": "f6e71f39-eba3-4630-acaa-30433ee7d53c",
         "active": "True",
@@ -10173,6 +10151,28 @@
           "meta_name": "Dashboard Regional Health Authority labels",
           "meta_url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
           "meta_url_name": "British Columbia COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - Public exposures: flights",
+        "uuid": "5f4e5fb9-4c21-4e16-9e34-0303205cf410",
+        "active": "False",
+        "url": "http://www.bccdc.ca/Health-Info-Site/Documents/public-exposures-flights-tables-Current.pdf",
+        "dir_parent": "bc",
+        "dir_file": "public-exposures-flights",
+        "file_name": "public-exposures-flights-tables-Current",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Public exposures - flights",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
+          "meta_url_name": "COVID-19 Public Exposures",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "British Columbia"
