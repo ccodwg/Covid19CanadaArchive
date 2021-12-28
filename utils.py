@@ -2,20 +2,10 @@
 # https://github.com/ccodwg/Covid19CanadaArchive #
 # Maintainer: Jean-Paul R. Soucy #
 
-# import modules
-print('Importing modules...')
-
-## core utilities
+# import modules from Python standard library
 import sys
-import os
 import json
 import collections
-
-## other utilities
-import pandas as pd
-
-## archivist
-import archivist
 
 ### gen_readme: Generate README.md (from datasets.json & docs/README_content.md) ###
 def gen_readme():
@@ -122,6 +112,10 @@ def gen_readme():
 
 ### list_inactive_datasets: List datasets that have not been updated in at least 7 days ###
 def list_inactive_datasets():
+
+  ## import modules
+  import pandas as pd
+  import archivist
   
   ## load active datasets and extract UUIDs as list
   with open('datasets.json') as json_file:
