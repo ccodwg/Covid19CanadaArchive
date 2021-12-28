@@ -536,9 +536,9 @@ A note about data from Quebec: when both French and English data files are avail
 * [ICES COVID-19 Dashboard](https://www.ices.on.ca/DAS/AHRQ/COVID-19-Dashboard)
     * Percent positivity by FSA: [on/ices-percent-positivity-by-fsa/ICES-COVID19-Testing-Data-FSA-percent-positivity.xlsx](http://data.opencovid.ca/archive/index.html#archive/)
     * Percent positivity by age group and Public Health Unit (PHU): [on/ices-percent-positivity-by-age-group-and-phu/ICES-COVID19-Testing-Data_PHUxAge-Groups-percent-positivity.xlsx](http://data.opencovid.ca/archive/index.html#archive/)
-    * Map and list of Forward Sortation Areas (FSAs) by neighbourhood risk group: [on/ices-fsa-by-neighbourhood-risk-group/ICES-COVID19-Dashboard-Neighbourhood-Risk-Groups-Reference-File.xlsx](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccine coverage estimates for selected age groups by FSA: [on/ices-vaccine-coverage-by-age-group-and-fsa/ICES-COVID19-Vaccination-Data-by-FSA.xlsx](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccine coverage estimates by priority groups: [on/ices-vaccine-coverage-by-priority-group/ICES-COVID19-Vaccine-Coverage-by-Priority-Group.xlsx](http://data.opencovid.ca/archive/index.html#archive/)
+    * Map and list of Forward Sortation Areas (FSAs) by neighbourhood risk group: [on/ices-fsa-by-neighbourhood-risk-group/ICES-COVID19-Dashboard-Neighbourhood-Risk-Groups-Reference-File.xlsx](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [COVID-19 cases in schools and child care centres](https://www.ontario.ca/page/covid-19-cases-schools-and-child-care-centres)
     * Webpage: [on/cases-schools-and-child-care-centres-webpage/cases-schools-and-child-care-centres-webpage.html](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 
