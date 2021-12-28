@@ -8440,7 +8440,7 @@
         "file_name": "tableau-hospitalisations",
         "file_ext": "pdf",
         "dl_fun": "dl_file",
-         "args": {
+        "args": {
           "rand_url": "True"
         },
         "supplementary": {},
@@ -10596,7 +10596,7 @@
         },
         "notes": {}
       }
-  ],
+    ],
     "bc": [
       {
         "id_name": "BC - Public exposures: cruises, long distance bus, train, work sites, public events",
@@ -11026,7 +11026,7 @@
         },
         "notes": {}
       },
-       {
+      {
         "id_name": "NB - COVID-19 vaccine time series",
         "uuid": "055d13af-b801-4d34-9591-050b2da2ebff",
         "active": "False",
@@ -12269,7 +12269,7 @@
         "dir_parent": "sk",
         "dir_file": "tests-by-region-highlights-charts-tables-legacy",
         "file_name": "health-wellness-covid-19-tests-tests",
-         "file_ext": "json",
+        "file_ext": "json",
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
