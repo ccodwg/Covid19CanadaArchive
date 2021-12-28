@@ -6040,28 +6040,6 @@
         "notes": {}
       },
       {
-        "id_name": "ON - ICES dashboard map and list of Forward Sortation Areas (FSAs) by neighbourhood risk group",
-        "uuid": "c68789fc-2554-4764-a05a-3fbd20078d79",
-        "active": "True",
-        "url": "https://www.ices.on.ca/~/media/Files/COVID-19/ICES-COVID19-Dashboard-Neighbourhood-Risk-Groups-Reference-File.ashx?la=en-CA",
-        "dir_parent": "on",
-        "dir_file": "ices-fsa-by-neighbourhood-risk-group",
-        "file_name": "ICES-COVID19-Dashboard-Neighbourhood-Risk-Groups-Reference-File",
-        "file_ext": "xlsx",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Map and list of Forward Sortation Areas (FSAs) by neighbourhood risk group",
-          "meta_url": "https://www.ices.on.ca/DAS/AHRQ/COVID-19-Dashboard",
-          "meta_url_name": "ICES COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "ON - ICES dashboard vaccine coverage estimates for selected age groups by FSA",
         "uuid": "cd168371-86f5-41f3-9555-580cd50f9b3a",
         "active": "True",
@@ -11501,6 +11479,28 @@
           "meta_name": "Case rates by vaccination status and age group",
           "meta_url": "https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario",
           "meta_url_name": "COVID-19 Vaccine Data in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - ICES dashboard map and list of Forward Sortation Areas (FSAs) by neighbourhood risk group",
+        "uuid": "c68789fc-2554-4764-a05a-3fbd20078d79",
+        "active": "False",
+        "url": "https://www.ices.on.ca/~/media/Files/COVID-19/ICES-COVID19-Dashboard-Neighbourhood-Risk-Groups-Reference-File.ashx?la=en-CA",
+        "dir_parent": "on",
+        "dir_file": "ices-fsa-by-neighbourhood-risk-group",
+        "file_name": "ICES-COVID19-Dashboard-Neighbourhood-Risk-Groups-Reference-File",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Map and list of Forward Sortation Areas (FSAs) by neighbourhood risk group",
+          "meta_url": "https://www.ices.on.ca/DAS/AHRQ/COVID-19-Dashboard",
+          "meta_url_name": "ICES COVID-19 Dashboard",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario"
