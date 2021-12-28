@@ -157,13 +157,13 @@ A note about data from Quebec: when both French and English data files are avail
     * Dashboard case demographics by Regional Health Authority: [bc/case-demographics-by-rha/BC_COVID19_Dashboard_Case_Details_Production.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Dashboard 7-day and cumulative cases by HSDA: [bc/7-day-and-cumulative-cases-by-hsda/BC_COVID19_Dashboard_Cases_by_Health_Service_Delivery_Areas_HSDA_VIEW.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Dashboard testing time series by Regional Health Authority (2): [bc/testing-timeseries-by-rha-2/BC_COVID19_Laboratory_Information.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Dashboard testing time series by Regional Health Authority: [bc/testing-timeseries-by-rha/BC_COVID19_Lab_Information.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Dashboard Vaccine Doses by Regional Health Authority: [bc/vaccine-doses-by-rha/BC_COVID19Dashboard_Vaccine_Counts.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Dashboard case time series by Health Service Delivery Area: [bc/case-time-series-by-hsda/BCCOVID19_Dashboard_Regional_Summary_Data.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Dashboard cumulative case, death, recovered, hospitalization, ICU data by Regional Health Authority: [bc/cumulative-case-death-recover-hosp-icu-by-rha/COVID19_Cases_by_BC_Health_Authority.json](http://data.opencovid.ca/archive/index.html#archive/)
     * 7-day and cumulative cases by HSDA (2): [bc/7-day-and-cumulative-cases-by-hsda-2/CumulativeCases.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Dashboard Regional Health Authority labels: [bc/rha-labels/HA_Labels.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Dashboard Vaccine Doses by Regional Health Authority (2): [bc/vaccine-doses-by-rha-2/BCCOVID19DashboardVaccineCountsVIEWSTAGING.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Dashboard testing time series by Regional Health Authority: [bc/testing-timeseries-by-rha/BC_COVID19_Lab_Information.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Dashboard Regional Health Authority labels: [bc/rha-labels/HA_Labels.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [BCCDC COVID-19 Surveillance Dashboard](https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction)
     * Introduction: [bc/bccdc-surveillance-dashboard-introduction-webpage/bccdc-surveillance-dashboard-introduction-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Outcomes by Vax 1: [bc/bccdc-surveillance-dashboard-outcomes-by-vax-1-webpage/bccdc-surveillance-dashboard-outcomes-by-vax-1-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
@@ -210,8 +210,6 @@ A note about data from Quebec: when both French and English data files are avail
     * National overview (YYYY-MM-DD, JSON): [can/epidemiology-update-json/covid19.json](http://data.opencovid.ca/archive/index.html#archive/)
     * National overview (data dictionary): [can/epidemiology-update-data-dictionary/covid19-data-dictionary.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Epidemiology summary statements: [can/epidemiology-summary-statements/covid19-epiSummary-statements.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * NML summary: [can/nml-summary/covid19-epiSummary-NML.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * NML weekly testing: [can/nml-weekly-testing/NML_weekly_testing.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Lab indicators: [can/lab-testing-time-series/covid19-epiSummary-labIndicators.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Number of cases with detailed case report data: [can/detailed-case-report-n/covid19-nTotal.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Cases and deaths by health region time series: [can/cases-and-deaths-by-hr-time-series/file_out_v5.csv](http://data.opencovid.ca/archive/index.html#archive/)
@@ -223,14 +221,12 @@ A note about data from Quebec: when both French and English data files are avail
     * Cases by age group and sex: [can/cases-by-age-and-sex/covid19-epiSummary-agegroups2.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Cases by probable exposure setting: [can/cases-by-probable-exposure-setting/covid19-epiSummary-probableexposure2.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Cases by probable expsoure setting by province: [can/cases-by-probable-exposure-setting-and-province/covid19-epiSummary-exposureByPT.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * Symptoms summary: [can/symptoms-summary/covid19-epiSummary-symptoms.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Hospitalizations, intensive care unit (ICU), mechanical ventilation: [can/hospitalizations-icu-mechanical-ventilation/covid19-epiSummary-hospVentICU.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Cases on First Nations reserves: [can/covid-time-series-first-nations-reserves/covid19-isc.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Variant prevalence time series: [can/variant-prevalence-time-series/covid19-epiSummary-variants.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Variant sample size time series: [can/variant-sample-size-time-series/covid19-epiSummary-variants-sampleSize.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Detailed variant prevalence time series: [can/variant-prevalence-time-series-detailed/covid19-epiSummary-variants-detailed-download.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Variant contributing labs: [can/variant-contributing-labs/covid19-epiSummary-variants-contributingLabs.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * Variants of concern time series by province: [can/variants-of-concern-time-series-by-province/covid19-epiSummary-voc.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Cases following vaccination (cases, hospitalizations, deaths by vaccination): [can/cases-following-vaccination-cases-hosp-deaths-by-vaccination-status/covid19-epiSummary-casesAfterVaccination.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Cases following vaccination (cases by vaccination status and gender): [can/cases-following-vaccination-cases-by-vaccination-status-and-gender/covid19-epiSummary-casesAfterVaccinationGender.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Cases following vaccination (severe outcomes ratios): [can/cases-following-vaccination-severe-outcomes-ratios/covid19-epiSummary-casesAfterVaccinationSevereOutcome.csv](http://data.opencovid.ca/archive/index.html#archive/)
@@ -238,6 +234,10 @@ A note about data from Quebec: when both French and English data files are avail
     * Cases following vaccination (update date): [can/cases-following-vaccination-update-date/covid19-epiSummary-casesAfterVaccinationUpdateDate.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Update time: [can/situational-awareness-dashboard-update-time/covid19-updateTime.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * PHAC provincial data update notes: [can/provincial-data-update-notes/covid19-epiSummary-exceptions.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Symptoms summary: [can/symptoms-summary/covid19-epiSummary-symptoms.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * NML weekly testing: [can/nml-weekly-testing/NML_weekly_testing.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * NML summary: [can/nml-summary/covid19-epiSummary-NML.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Variants of concern time series by province: [can/variants-of-concern-time-series-by-province/covid19-epiSummary-voc.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [COVIDTrends](https://health-infobase.canada.ca/covid-19/covidtrends/)
     * Mobility: [can/covidtrends-mobility/mobility.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * FluWatchers: [can/covidtrends-fluwatchers/fluwatchers.csv](http://data.opencovid.ca/archive/index.html#archive/)
@@ -251,7 +251,6 @@ A note about data from Quebec: when both French and English data files are avail
     * Vaccination distribution (update date): [can/vaccination-distribution-update-date/vaccination-distribution-updateDate.csv](http://data.opencovid.ca/archive/index.html#archive/)
 * [COVID-19 vaccination in Canada - Vaccination coverage](https://health-infobase.canada.ca/covid-19/vaccination-coverage/)
     * Vaccination coverage overall: [can/vaccination-coverage-overall/vaccination-coverage-overall.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * Vaccination coverage for key populations: [can/vaccination-coverage-keypops/vaccination-coverage-keypops.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination coverage by age and sex: [can/vaccination-coverage-by-age-sex/vaccination-coverage-byAgeAndSex.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination coverage by age and sex (3): [can/vaccination-coverage-by-age-sex-3/vaccination-coverage-byAgeAndSexOT1.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination coverage by age and sex (current week): [can/vaccination-coverage-by-age-sex-current-week/vaccination-coverage-byAgeAndSex3.csv](http://data.opencovid.ca/archive/index.html#archive/)
@@ -265,6 +264,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Vaccination notes: [can/vaccination-notes/vaccination-notes.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Legend buckets: [can/vaccination-coverage-legend-buckets/vaccination-coverage-legendBuckets.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination coverage by age and sex (2): [can/vaccination-coverage-by-age-sex-2/vaccination-coverage-byAgeAndSex2.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Vaccination coverage for key populations: [can/vaccination-coverage-keypops/vaccination-coverage-keypops.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [COVID-19 vaccination in Canada - Technical notes](https://health-infobase.canada.ca/covid-19/vaccination-coverage/technical-notes.html)
     * Webpage: [can/vaccination-technical-notes-webpage/vaccination-technical-notes-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination coverage data availability by week: [can/vaccination-coverage-data-availability-by-week/vaccination-coverage-dataAvailability.csv](http://data.opencovid.ca/archive/index.html#archive/)
@@ -278,9 +278,9 @@ A note about data from Quebec: when both French and English data files are avail
     * AEFI summary including vaccination data: [can/aefi-figure-weekly-summary-including-vaccination/vaccine-safety-figure1.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * AEFI weekly summary by vaccine type: [can/aefi-figure-weekly-summary-by-vaccine-type/vaccine-safety-figure2.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * AEFI weekly summary by age and sex: [can/aefi-figure-weekly-summary-by-age-sex/vaccine-safety-figure3.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * AEFI weekly summary by serious events: [can/aefi-figure-weekly-summary-by-serious-events/vaccine-safety-figure4.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Reported side effects following COVID-19 vaccination in Canada: AEFI weekly summary (old): [can/aefi-weekly-summary-old/vaccine-safety-AEFI.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * AEFI weekly summary by serious event type (old): [can/aefi-weekly-summary-by-serious-event-type-old/vaccine-safety-severity.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * AEFI weekly summary by serious events: [can/aefi-figure-weekly-summary-by-serious-events/vaccine-safety-figure4.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [Detailed preliminary information on confirmed cases of COVID-19 (Revised)](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310078101)
     * Dataset: [can/detailed-preliminary-confirmed-case-info-revised/13100781.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 </details>
@@ -317,9 +317,6 @@ A note about data from Quebec: when both French and English data files are avail
     * Uptake by RHA, age, sex: [mb/vaccine-uptake-by-rha-age-sex/mb_covid_vaccine_uptake_demographics.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Uptake by Health District 2: [mb/vaccine-uptake-by-district-2/mb_covid_vaccine_uptake_district_2.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Inventory, delivered, administered, scheduled: [mb/vaccination-inventory-delivered-admin-scheduled-2/mb_covid_vaccinations_inventory_stats_02.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Regional Health Authorities: [mb/regional-health-authorities/Manitoba_Regional_Health_Authorities.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Health Districts: [mb/health-districts/Health_Districts.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Winnipeg Community Areas: [mb/winnipeg-community-areas/bdy_wha_community_areas_py_shp.json](http://data.opencovid.ca/archive/index.html#archive/)
     * First Nations vaccination time series: [mb/first-nations-vaccination-time-series/mbfn_covid_vaccinations_daily_cumulative.json](http://data.opencovid.ca/archive/index.html#archive/)
     * First Nations vaccination by age group and sex: [mb/first-nations-vaccination-by-age-sex/mbfn_covid_vaccinations_demographics.json](http://data.opencovid.ca/archive/index.html#archive/)
     * First Nations vaccination by provider: [mb/first-nations-vaccination-by-provider/mbfn_covid_vaccinations_provider_summary.json](http://data.opencovid.ca/archive/index.html#archive/)
@@ -334,10 +331,13 @@ A note about data from Quebec: when both French and English data files are avail
     * Vaccination summary by Regional Health Authority: [mb/vaccination-summary-by-rha/mb_covid_vaccinations_summary_stats.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Inventory, delivered, administered, scheduled: [mb/vaccination-inventory-delivered-admin-scheduled/mb_covid_vaccinations_inventory_stats.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Vaccination time series: [mb/vaccination-time-series/mb_covid_vaccinations_daily_cumulative.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Regional Health Authorities: [mb/regional-health-authorities/Manitoba_Regional_Health_Authorities.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Winnipeg Community Areas: [mb/winnipeg-community-areas/bdy_wha_community_areas_py_shp.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Health Districts: [mb/health-districts/Health_Districts.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [COVID-19 Dashboard: K-12 Schools in Manitoba](https://experience.arcgis.com/experience/6e7af13b3ffb447a99734b0119b169d3/)
     * COVID education statistics summary: [mb/covid-education-summary/covid-education-summary.json](http://data.opencovid.ca/archive/index.html#archive/)
     * COVID educations cases last 2 weeks: [mb/covid-education-cases-last-2-weeks/covid-education-cases-last-2-weeks.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Manitoba school divisions: [mb/school-divisions/school-divisions.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Manitoba school divisions: [mb/school-divisions/school-divisions.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [Cases and Risk of COVID-19 in Manitoba](https://www.gov.mb.ca/covid19/updates/cases.html)
     * COVID-19 Variant of Concern Cases in Manitoba: [mb/cumulative-variants-by-rha/mb_covid_variants.json](http://data.opencovid.ca/archive/index.html#archive/)
     * COVID-19 Cases by vaccination status: [mb/daily-cases-by-vaccination-status/mb_covid_cases_by_vaccination_status.json](http://data.opencovid.ca/archive/index.html#archive/)
@@ -349,18 +349,15 @@ A note about data from Quebec: when both French and English data files are avail
 * [COVID-19 By-law Enforcement](https://data.winnipeg.ca/Neighbourhood-Liveability-Property-Standards-Licen/COVID-19-By-law-Enforcement/ndr6-96vi)
     * Dataset: [mb/winnipeg-by-law-enforcement/COVID-19_By-law_Enforcement.csv](http://data.opencovid.ca/archive/index.html#archive/)
 * [COVID-19 Designated Active Transportation Route Counts](https://data.winnipeg.ca/Transportation-Planning-Traffic-Management/COVID-19-Designated-Active-Transportation-Route-Co/aqka-nz2g)
-    * Dataset: [mb/winnipeg-active-transportation/COVID-19_Designated_Active_Transportation_Route_Counts.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Dataset: [mb/winnipeg-active-transportation/COVID-19_Designated_Active_Transportation_Route_Counts.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 </details>
 </details>
 <details>
 <summary><b>New Brunswick</b></summary>
 
 * [New Brunswick COVID-19 Dashboard](https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa)
-    * Adult residential facilities: [nb/adult-residential-facilities/adult-residential-facilities.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Airports: [nb/airports/airports.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Counties: [nb/counties/counties.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Assessment sites: [nb/covid-assessment-sites/covid-assessment-sites.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Compliance by health zone: [nb/covid-compliance-by-health-zone/covid-compliance-by-health-zone.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Provincial case, death, recovered time series: [nb/provincial-case-death-recovered-time-series/provincial-case-death-recovered-time-series.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Provincial case, death, recovered time series 2: [nb/provincial-case-death-recovered-time-series-2/Covid19DailyCaseStats3.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Provincial cumulative test statistics by age and sex: [nb/provincial-cumulative-test-statistics-by-age-sex/provincial-cumulative-test-statistics-by-age-sex.json](http://data.opencovid.ca/archive/index.html#archive/)
@@ -375,18 +372,21 @@ A note about data from Quebec: when both French and English data files are avail
     * Vaccine data 2: [nb/vaccine-data-2/Covid19VaccineData2.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccine coverage by age groups: [nb/vaccine-coverage-by-age/Covid19VaccineAge.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccine time series 2: [nb/vaccine-time-series-2/Covid19DailyVaccineStats.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Ferries: [nb/ferries/ferries.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Health zone cumulative stats: [nb/health-zone-cumulative-stats/health-zone-cumulative-stats.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Hospitals: [nb/hospitals/hospitals.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * International border: [nb/international-border/international-border.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Communities: [nb/communities/communities.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Neighbour region cumulative stats: [nb/neighbour-regions-cumulative-stats/neighbour-regions-cumulative-stats.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Neighbour state/province cumulative stats: [nb/neighbour-state-prov-cumulative-stats/neighbour-state-prov-cumulative-stats.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Nursing homes: [nb/nursing-homes/nursing-homes.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Health zone and community recovery phases: [nb/health-zone-community-recovery-phases/health-zone-community-recovery-phases.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Traffic control points: [nb/traffic-control-points/traffic-control-points.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccine data: [nb/vaccine-data/vaccine-data.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Vaccine time series: [nb/vaccine-time-series/Covid19VaccineTimeline.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Compliance by health zone: [nb/covid-compliance-by-health-zone/covid-compliance-by-health-zone.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Health zone and community recovery phases: [nb/health-zone-community-recovery-phases/health-zone-community-recovery-phases.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Neighbour region cumulative stats: [nb/neighbour-regions-cumulative-stats/neighbour-regions-cumulative-stats.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Neighbour state/province cumulative stats: [nb/neighbour-state-prov-cumulative-stats/neighbour-state-prov-cumulative-stats.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Adult residential facilities: [nb/adult-residential-facilities/adult-residential-facilities.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Communities: [nb/communities/communities.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Nursing homes: [nb/nursing-homes/nursing-homes.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * International border: [nb/international-border/international-border.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Airports: [nb/airports/airports.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Traffic control points: [nb/traffic-control-points/traffic-control-points.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Ferries: [nb/ferries/ferries.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [Potential Public Exposures](https://www2.gnb.ca/content/gnb/en/corporate/promo/covid-19/potential_public_exposure.html)
     * Webpage: [nb/potential-public-exposures-webpage/potential-public-exposures-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 </details>
@@ -439,7 +439,6 @@ A note about data from Quebec: when both French and English data files are avail
     * Lab testing: [ns/lab-testing/lab-testing.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Lab testing, hospitalization, ICU summary: [ns/lab-testing-hos-icu-summary/lab-testing-hos-icu-summary.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Demographics summary: [ns/demographics-summary/demographics-summary.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Health boundaries: [ns/health-boundaries/health-boundaries.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Immunizations (3): [ns/immunizations-3/Immunizations_V4_PROD.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccine coverage by CHN: [ns/vaccine-coverage-by-chn/VaccineCoverageCHN_V4_PROD.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccine uptake by age: [ns/vaccine-uptake-by-age/VaccineUptakeAge_V4_PROD.json](http://data.opencovid.ca/archive/index.html#archive/)
@@ -447,6 +446,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Onset zones: [ns/onset-zones/Onset_Zones_V4_PROD.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Immunizations: [ns/immunizations/immunizations.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Immunizations (2): [ns/immunizations-2/Immunizations_3_PROD.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Health boundaries: [ns/health-boundaries/health-boundaries.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [Potential COVID Exposures](http://www.nshealth.ca/covid-exposures)
     * Webpage: [ns/ns-potential-covid-exposures-webpage/ns-potential-covid-exposures-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [COVID-19 Exposures Connected to Public Schools](https://backtoschool.ednet.ns.ca/school-exposures)
@@ -706,7 +706,6 @@ A note about data from Quebec: when both French and English data files are avail
     * Deaths time series by living environment: [qc/deaths-time-series-by-living-environment/decesquotidien.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Status report on confirmed cases and deaths by RPA: [qc/status-report-cases-and-deaths-by-rpa/etat_situation_rpa.pdf](http://data.opencovid.ca/archive/index.html#archive/)
     * Status report on confirmed cases and deaths by CHSLD: [qc/status-report-cases-and-deaths-by-chsld/etat_situation_chsld.pdf](http://data.opencovid.ca/archive/index.html#archive/)
-    * Situation in living environments for the elderly and vulnerable (RPA and CHSLD): [qc/status-report-cases-and-deaths-by-rpa-and-chsld/etat_situation_milieux-de-vie.pdf](http://data.opencovid.ca/archive/index.html#archive/)
     * Active hospitalizations per hospital: [qc/active-hospitalizations-per-hosp/tableau-hospitalisations.pdf](http://data.opencovid.ca/archive/index.html#archive/)
     * Outbreaks by setting (EN): [qc/outbreaks-by-setting-en/eclosions-par-milieu-en.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * COVID-19 daily data 7 days (FR): [qc/covid-data-daily-7-days/synthese-7jours.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
@@ -720,6 +719,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Recent daily cases by region (EN): [qc/recent-daily-cases-by-region-en/cas-region-en.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Vaccination of priority groups (FR): [qc/vaccination-of-priority-groups/20-279-07WF_Previsions_vaccination.pdf](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Vaccination of priority groups (EN): [qc/vaccination-of-priority-groups-en/20-279-07WA_Previsions_vaccination-anglais.pdf](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Situation in living environments for the elderly and vulnerable (RPA and CHSLD): [qc/status-report-cases-and-deaths-by-rpa-and-chsld/etat_situation_milieux-de-vie.pdf](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [Données de vaccination contre la COVID-19 au Québec](https://www.inspq.qc.ca/covid-19/donnees/vaccination)
     * Webpage: [qc/inspq-data-webpage/inspq-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination by RSS time series: [qc/vaccination-by-rss-time-series/vaccination.csv](http://data.opencovid.ca/archive/index.html#archive/)
@@ -808,11 +808,11 @@ A note about data from Quebec: when both French and English data files are avail
     * Vaccine coverage by neighbourhood (2): [qc/montreal-vaccine-coverage-by-neighbourhood-2/VAXarronMTL_ADEQ.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccine coverage by age group (3): [qc/montreal-vaccine-coverage-by-age-group-3/VAXparGrpAGE_CSVuploadv3_ADEQ.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccine administration time series (2): [qc/montreal-vaccine-administration-time-series-v2/VAXparJOUR_CSVuploadv2.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Vaccine administration time series: [qc/montreal-vaccine-administration-time-series/VAXparJOUR_googledrive.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Neighbourhoods: [qc/montreal-vaccine-dashboard-neighbourhoods/Arrondissements_et_municipalites.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccine coverage by age group: [qc/montreal-vaccine-coverage-by-age-group/VAXparGrpAGE_CSVupload.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Vaccine coverage by neighbourhood: [qc/montreal-vaccine-coverage-by-neighbourhood/VAXarrondissementsMTL.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Vaccine coverage by age group (2): [qc/montreal-vaccine-coverage-by-age-group-2/VAXparGrpAGE_CSVuploadv2.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Neighbourhoods: [qc/montreal-vaccine-dashboard-neighbourhoods/Arrondissements_et_municipalites.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Vaccine administration time series: [qc/montreal-vaccine-administration-time-series/VAXparJOUR_googledrive.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 </details>
 </details>
 <details>
