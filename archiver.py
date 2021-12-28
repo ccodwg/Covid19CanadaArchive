@@ -25,6 +25,8 @@ import archivist
 ## MAIL_ALIAS: (optional) alias email sender name
 ## SMTP_SERVER: email server address
 ## SMTP_PORT: email server port
+## PO_TOKEN: Pushover application token
+## PO_KEY: Pushover application key
 ## CHROME_BIN: path to Chromium/Chrome binary
 ## CHROMEDRIVER_BIN: path to Chromedriver
 
@@ -202,7 +204,7 @@ if archivist.Archivist.failure > 0:
 # assemble log entry
 log = archivist.output_log(archivist.Archivist.log, t)
 
-# upload and email log of file uploads (wehn mode == prod)
+# upload and email log of file uploads, send notification (when mode == prod)
 if archivist.Archivist.mode == 'prod':
         
         ## upload log
@@ -215,6 +217,11 @@ if archivist.Archivist.mode == 'prod':
         ## email log
         if archivist.Archivist.email:
                 archivist.send_email(subject, body)
+        
+        ## send notification
+        if archivist.Archivist.notify:
+                notif = 'Success: ' + str(archivist.Archivist.success) + '\nFailure: ' + str(archivist.Archivist.failure)
+                archivist.pushover(notif, priority=1, title = 'Archive update completed')
 
 # email log of failed downloads, if any (when mode == test)
 if archivist.Archivist.mode == 'test':
