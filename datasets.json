@@ -782,7 +782,9 @@
           "meta_licence_url": "",
           "meta_group_1": "British Columbia"
         },
-        "notes": {}
+        "notes": {
+          "notes_data": "For two days (2021-06-30 and 2021-07-01), this dataset was renamed 'BCCOVID19DashboardVaccineCountsVIEWSTAGING' but was otherwise identical. These files have been renamed. Note that the 2021-07-01 file is identical to the previous day. The updated version of this file may have been lost due to the temporary change in database name."
+        }
       },
       {
         "id_name": "BC - Dashboard case time series by Health Service Delivery Area",
@@ -10059,28 +10061,6 @@
           "meta_name": "VOC time series by RHA",
           "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
           "meta_url_name": "BC COVID-19 Data",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "British Columbia"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "BC - Dashboard Vaccine Doses by Regional Health Authority (2)",
-        "uuid": "8d2438a6-0610-4ffc-ab4b-22328ab83463",
-        "active": "False",
-        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BCCOVID19DashboardVaccineCountsVIEWSTAGING/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*&orderByFields=Vaccine_Type%20asc",
-        "dir_parent": "bc",
-        "dir_file": "vaccine-doses-by-rha-2",
-        "file_name": "BCCOVID19DashboardVaccineCountsVIEWSTAGING",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dashboard Vaccine Doses by Regional Health Authority (2)",
-          "meta_url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
-          "meta_url_name": "British Columbia COVID-19 Dashboard",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "British Columbia"

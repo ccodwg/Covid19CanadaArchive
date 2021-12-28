@@ -161,7 +161,6 @@ A note about data from Quebec: when both French and English data files are avail
     * Dashboard case time series by Health Service Delivery Area: [bc/case-time-series-by-hsda/BCCOVID19_Dashboard_Regional_Summary_Data.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Dashboard cumulative case, death, recovered, hospitalization, ICU data by Regional Health Authority: [bc/cumulative-case-death-recover-hosp-icu-by-rha/COVID19_Cases_by_BC_Health_Authority.json](http://data.opencovid.ca/archive/index.html#archive/)
     * 7-day and cumulative cases by HSDA (2): [bc/7-day-and-cumulative-cases-by-hsda-2/CumulativeCases.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Dashboard Vaccine Doses by Regional Health Authority (2): [bc/vaccine-doses-by-rha-2/BCCOVID19DashboardVaccineCountsVIEWSTAGING.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Dashboard testing time series by Regional Health Authority: [bc/testing-timeseries-by-rha/BC_COVID19_Lab_Information.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Dashboard Regional Health Authority labels: [bc/rha-labels/HA_Labels.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [BCCDC COVID-19 Surveillance Dashboard](https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction)
