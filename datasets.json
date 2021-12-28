@@ -1628,28 +1628,6 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 daily epidemiology update (NML weekly testing)",
-        "uuid": "8d8d6c9a-fc01-467f-85f2-8ee9cb6e50a6",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/NML_weekly_testing.csv",
-        "dir_parent": "can",
-        "dir_file": "nml-weekly-testing",
-        "file_name": "NML_weekly_testing",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "NML weekly testing",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "CAN - COVID-19 daily epidemiology update (Lab indicators)",
         "uuid": "366ce221-c1c9-4f41-a917-8ff4648f6a40",
         "active": "True",
@@ -1883,28 +1861,6 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Cases by probable expsoure setting by province",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Symptoms summary)",
-        "uuid": "36a34be2-12ad-4d4c-8a24-95435117aec9",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-symptoms.csv",
-        "dir_parent": "can",
-        "dir_file": "symptoms-summary",
-        "file_name": "covid19-epiSummary-symptoms",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Symptoms summary",
           "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
           "meta_url_name": "COVID-19 daily epidemiology update",
           "meta_licence": "",
@@ -9431,7 +9387,7 @@
         "id_name": "QC - Daily hospitalizations by age group",
         "uuid": "9ac04b47-9fd1-4e9c-8d22-3117429ec4e2",
         "active": "True",
-        "url": "https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_HospitCatAge.csv'",
+        "url": "https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_HospitCatAge.csv",
         "dir_parent": "qc",
         "dir_file": "daily-hosp-by-age-group",
         "file_name": "COVID19_Qc_HospitCatAge",
@@ -9447,7 +9403,9 @@
           "meta_licence_url": "",
           "meta_group_1": "Quebec"
         },
-        "notes": {}
+        "notes": {
+          "notes_data": "Unfortunately, datasets between 2021-01-28 and 2021-12-26 were lost due to an error in the URL."
+        }
       },
       {
         "id_name": "QC - Weekly deaths in Quebec by age group",
@@ -10753,6 +10711,50 @@
         "notes": {
           "notes_data": "Variable value definitions are given in footnotes (see supplementary material). This file has been processed to avoid the 100mb file limit on GitHub (base file size is > 400mb). Dataset has been pivoted from long to wide (names from: 'Case information', values from: 'VALUE'). Columns containing no information have been dropped (GEO, DGUID, UOM, UOM_ID, SCALAR_FACTOR, SCALAR_ID, VECTOR, COORDINATE, STATUS, SYMBOL, TERMINATED, DECIMALS). Example of original data format is preserved (see supplementary material)."
         }
+      },
+      {
+        "id_name": "CAN - COVID-19 daily epidemiology update (Symptoms summary)",
+        "uuid": "36a34be2-12ad-4d4c-8a24-95435117aec9",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-symptoms.csv",
+        "dir_parent": "can",
+        "dir_file": "symptoms-summary",
+        "file_name": "covid19-epiSummary-symptoms",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Symptoms summary",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
+          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 daily epidemiology update (NML weekly testing)",
+        "uuid": "8d8d6c9a-fc01-467f-85f2-8ee9cb6e50a6",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/NML_weekly_testing.csv",
+        "dir_parent": "can",
+        "dir_file": "nml-weekly-testing",
+        "file_name": "NML_weekly_testing",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "NML weekly testing",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
+          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
       },
       {
         "id_name": "CAN - Reported side effects following COVID-19 vaccination in Canada: AEFI weekly summary (old)",
