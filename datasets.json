@@ -851,28 +851,6 @@
         "notes": {}
       },
       {
-        "id_name": "BC - Dashboard Regional Health Authority labels",
-        "uuid": "f648b99c-8d10-40f4-aa3f-ca17b36e303d",
-        "active": "True",
-        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/HA_Labels/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "bc",
-        "dir_file": "rha-labels",
-        "file_name": "HA_Labels",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dashboard Regional Health Authority labels",
-          "meta_url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
-          "meta_url_name": "British Columbia COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "British Columbia"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Introduction (webpage)",
         "uuid": "a5424eed-6417-4edf-84de-a8f9e3c25e42",
         "active": "True",
@@ -2332,28 +2310,6 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - Vaccination coverage: Vaccination coverage for key populations",
-        "uuid": "2525c4e7-5412-412c-81be-0df91557ba98",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-keypops.csv",
-        "dir_parent": "can",
-        "dir_file": "vaccination-coverage-keypops",
-        "file_name": "vaccination-coverage-keypops",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Vaccination coverage for key populations",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
-          "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "CAN - Vaccination coverage: Vaccination coverage by age and sex",
         "uuid": "1260ba4d-57f7-4802-b496-390cfb7c859e",
         "active": "True",
@@ -3444,72 +3400,6 @@
         "notes": {}
       },
       {
-        "id_name": "MB - Vaccine dashboard: Regional Health Authorities",
-        "uuid": "4033a1fa-2dc2-4501-81de-66517fd9768b",
-        "active": "True",
-        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/Manitoba_Regional_Health_Authorities/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "mb",
-        "dir_file": "regional-health-authorities",
-        "file_name": "Manitoba_Regional_Health_Authorities",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Regional Health Authorities",
-          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
-          "meta_url_name": "Manitoba COVID-19 Vaccinations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "MB - Vaccine dashboard: Health Districts",
-        "uuid": "63f24596-8b02-4bc9-97d1-008d7a709ad5",
-        "active": "True",
-        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/Health_Districts/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "mb",
-        "dir_file": "health-districts",
-        "file_name": "Health_Districts",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Health Districts",
-          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
-          "meta_url_name": "Manitoba COVID-19 Vaccinations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "MB - Vaccine dashboard: Winnipeg Community Areas",
-        "uuid": "7046594b-33d4-4144-afd7-3534ad301907",
-        "active": "True",
-        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/bdy_wha_community_areas_py_shp/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "mb",
-        "dir_file": "winnipeg-community-areas",
-        "file_name": "bdy_wha_community_areas_py_shp",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Winnipeg Community Areas",
-          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
-          "meta_url_name": "Manitoba COVID-19 Vaccinations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "MB - Vaccine dashboard First Nations: vaccination time series",
         "uuid": "897d9f78-7b91-44e8-80df-e59204be4bb2",
         "active": "True",
@@ -3686,28 +3576,6 @@
         "notes": {}
       },
       {
-        "id_name": "MB - Manitoba school divisions",
-        "uuid": "3a967a4d-72c9-4e79-9b43-9054b55fbf49",
-        "active": "True",
-        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/Manitoba_School_Divisions/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
-        "dir_parent": "mb",
-        "dir_file": "school-divisions",
-        "file_name": "school-divisions",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Manitoba school divisions",
-          "meta_url": "https://experience.arcgis.com/experience/6e7af13b3ffb447a99734b0119b169d3/",
-          "meta_url_name": "COVID-19 Dashboard: K-12 Schools in Manitoba",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "MB - COVID-19 Variant of Concern Cases in Manitoba",
         "uuid": "91490caf-494c-4db3-8018-d9f6350c2051",
         "active": "True",
@@ -3795,76 +3663,9 @@
           "meta_group_2": "Winnipeg"
         },
         "notes": {}
-      },
-      {
-        "id_name": "MB - COVID-19 Designated Active Transportation Route Counts (Winnipeg)",
-        "uuid": "355e64da-bd78-43cd-a624-582a9c3cf81a",
-        "active": "True",
-        "url": "https://data.winnipeg.ca/api/views/aqka-nz2g/rows.csv?accessType=DOWNLOAD",
-        "dir_parent": "mb",
-        "dir_file": "winnipeg-active-transportation",
-        "file_name": "COVID-19_Designated_Active_Transportation_Route_Counts",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dataset",
-          "meta_url": "https://data.winnipeg.ca/Transportation-Planning-Traffic-Management/COVID-19-Designated-Active-Transportation-Route-Co/aqka-nz2g",
-          "meta_url_name": "COVID-19 Designated Active Transportation Route Counts",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba",
-          "meta_group_2": "Winnipeg"
-        },
-        "notes": {}
       }
     ],
     "nb": [
-      {
-        "id_name": "NB - Adult residential facilities",
-        "uuid": "a2024dd7-227c-40f4-b1a1-826cd2ea7e39",
-        "active": "True",
-        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/AdultResidentialFacilities/FeatureServer/1/query?f=json&where=1%3D1&returnGeometry=true&outFields=*",
-        "dir_parent": "nb",
-        "dir_file": "adult-residential-facilities",
-        "file_name": "adult-residential-facilities",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Adult residential facilities",
-          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
-          "meta_url_name": "New Brunswick COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "New Brunswick"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "NB - Airports",
-        "uuid": "0b1e4f3f-dade-4a0c-bf39-fc89ee84d4e9",
-        "active": "True",
-        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/Airports/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&outFields=*",
-        "dir_parent": "nb",
-        "dir_file": "airports",
-        "file_name": "airports",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Airports",
-          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
-          "meta_url_name": "New Brunswick COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "New Brunswick"
-        },
-        "notes": {}
-      },
       {
         "id_name": "NB - Counties",
         "uuid": "32e7e585-ccaa-491a-8c83-7ce86107d9e3",
@@ -4218,28 +4019,6 @@
         "notes": {}
       },
       {
-        "id_name": "NB - Ferries",
-        "uuid": "be2c33a9-0967-459b-afd1-89a3cb5e3e9e",
-        "active": "True",
-        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/Ferries/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&outFields=*",
-        "dir_parent": "nb",
-        "dir_file": "ferries",
-        "file_name": "ferries",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Ferries",
-          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
-          "meta_url_name": "New Brunswick COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "New Brunswick"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "NB - Health zone cumulative stats",
         "uuid": "4f194e3b-39fd-4fe0-b420-8cefa9001f7e",
         "active": "True",
@@ -4275,94 +4054,6 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Hospitals",
-          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
-          "meta_url_name": "New Brunswick COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "New Brunswick"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "NB - International border",
-        "uuid": "20bd0a7a-a836-4125-9cc7-76d8c13fe331",
-        "active": "True",
-        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/International_Border/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "nb",
-        "dir_file": "international-border",
-        "file_name": "international-border",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "International border",
-          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
-          "meta_url_name": "New Brunswick COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "New Brunswick"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "NB - Communities",
-        "uuid": "75e59fb7-0590-4e94-8395-cee2a30ae103",
-        "active": "True",
-        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/NBCommunities/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "nb",
-        "dir_file": "communities",
-        "file_name": "communities",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Communities",
-          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
-          "meta_url_name": "New Brunswick COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "New Brunswick"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "NB - Nursing homes",
-        "uuid": "95384f68-21c3-4b39-a3cb-83600eb51f93",
-        "active": "True",
-        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/NursingHomes/FeatureServer/1/query?f=json&where=1%3D1&returnGeometry=true&outFields=*",
-        "dir_parent": "nb",
-        "dir_file": "nursing-homes",
-        "file_name": "nursing-homes",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Nursing homes",
-          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
-          "meta_url_name": "New Brunswick COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "New Brunswick"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "NB - Traffic control points",
-        "uuid": "1830a741-d103-4c1c-a822-4a8c6afad622",
-        "active": "True",
-        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/TrafficControlPoints/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&outFields=*",
-        "dir_parent": "nb",
-        "dir_file": "traffic-control-points",
-        "file_name": "traffic-control-points",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Traffic control points",
           "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
           "meta_url_name": "New Brunswick COVID-19 Dashboard",
           "meta_licence": "",
@@ -4834,28 +4525,6 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Demographics summary",
-          "meta_url": "https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad",
-          "meta_url_name": "Nova Scotia COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Nova Scotia"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "NS - Nova Scotia COVID-19 Dashboard: Health boundaries",
-        "uuid": "1043edf2-85bd-4f30-8fb0-ebe9fffdc652",
-        "active": "True",
-        "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Health_Boundaries_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
-        "dir_parent": "ns",
-        "dir_file": "health-boundaries",
-        "file_name": "health-boundaries",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Health boundaries",
           "meta_url": "https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad",
           "meta_url_name": "Nova Scotia COVID-19 Dashboard",
           "meta_licence": "",
@@ -9476,52 +9145,6 @@
           "meta_group_2": "Montreal"
         },
         "notes": {}
-      },
-      {
-        "id_name": "QC - Montréal vaccination dashboard - Vaccine administration time series",
-        "uuid": "d0f77577-0500-459a-885b-0b1ba300b7e0",
-        "active": "True",
-        "url": "https://services5.arcgis.com/pBN1lh7yaF4K7Tod/arcgis/rest/services/VAXparJOUR_googledrive/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
-        "dir_parent": "qc",
-        "dir_file": "montreal-vaccine-administration-time-series",
-        "file_name": "VAXparJOUR_googledrive",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Vaccine administration time series",
-          "meta_url": "https://santemontreal.qc.ca/population/coronavirus-covid-19/vaccination/donnees/",
-          "meta_url_name": "Données sur la vaccination COVID-19 à Montréal",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec",
-          "meta_group_2": "Montreal"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Montréal vaccination dashboard - Neighbourhoods",
-        "uuid": "f6c9c02b-5637-4876-9ccc-86c0809399c6",
-        "active": "True",
-        "url": "https://services5.arcgis.com/pBN1lh7yaF4K7Tod/arcgis/rest/services/Arrondissements_et_municipalit%C3%A9s_MTL/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*",
-        "dir_parent": "qc",
-        "dir_file": "montreal-vaccine-dashboard-neighbourhoods",
-        "file_name": "Arrondissements_et_municipalites",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Neighbourhoods",
-          "meta_url": "https://santemontreal.qc.ca/population/coronavirus-covid-19/vaccination/donnees/",
-          "meta_url_name": "Données sur la vaccination COVID-19 à Montréal",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec",
-          "meta_group_2": "Montreal"
-        },
-        "notes": {}
       }
     ],
     "sk": [
@@ -10507,6 +10130,28 @@
           "meta_group_1": "British Columbia"
         },
         "notes": {}
+      },
+      {
+        "id_name": "BC - Dashboard Regional Health Authority labels",
+        "uuid": "f648b99c-8d10-40f4-aa3f-ca17b36e303d",
+        "active": "False",
+        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/HA_Labels/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "bc",
+        "dir_file": "rha-labels",
+        "file_name": "HA_Labels",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dashboard Regional Health Authority labels",
+          "meta_url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
+          "meta_url_name": "British Columbia COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
       }
     ],
     "can": [
@@ -10709,6 +10354,28 @@
           "meta_group_1": "Canada"
         },
         "notes": {}
+      },
+      {
+        "id_name": "CAN - Vaccination coverage: Vaccination coverage for key populations",
+        "uuid": "2525c4e7-5412-412c-81be-0df91557ba98",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-keypops.csv",
+        "dir_parent": "can",
+        "dir_file": "vaccination-coverage-keypops",
+        "file_name": "vaccination-coverage-keypops",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination coverage for key populations",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
+          "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
       }
     ],
     "mb": [
@@ -10889,6 +10556,117 @@
         "notes": {
           "notes_data": "This time series does not include third doses."
         }
+      },
+      {
+        "id_name": "MB - COVID-19 Designated Active Transportation Route Counts (Winnipeg)",
+        "uuid": "355e64da-bd78-43cd-a624-582a9c3cf81a",
+        "active": "False",
+        "url": "https://data.winnipeg.ca/api/views/aqka-nz2g/rows.csv?accessType=DOWNLOAD",
+        "dir_parent": "mb",
+        "dir_file": "winnipeg-active-transportation",
+        "file_name": "COVID-19_Designated_Active_Transportation_Route_Counts",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://data.winnipeg.ca/Transportation-Planning-Traffic-Management/COVID-19-Designated-Active-Transportation-Route-Co/aqka-nz2g",
+          "meta_url_name": "COVID-19 Designated Active Transportation Route Counts",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba",
+          "meta_group_2": "Winnipeg"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Manitoba school divisions",
+        "uuid": "3a967a4d-72c9-4e79-9b43-9054b55fbf49",
+        "active": "False",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/Manitoba_School_Divisions/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "school-divisions",
+        "file_name": "school-divisions",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Manitoba school divisions",
+          "meta_url": "https://experience.arcgis.com/experience/6e7af13b3ffb447a99734b0119b169d3/",
+          "meta_url_name": "COVID-19 Dashboard: K-12 Schools in Manitoba",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Vaccine dashboard: Regional Health Authorities",
+        "uuid": "4033a1fa-2dc2-4501-81de-66517fd9768b",
+        "active": "False",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/Manitoba_Regional_Health_Authorities/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "regional-health-authorities",
+        "file_name": "Manitoba_Regional_Health_Authorities",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Regional Health Authorities",
+          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
+          "meta_url_name": "Manitoba COVID-19 Vaccinations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Vaccine dashboard: Winnipeg Community Areas",
+        "uuid": "7046594b-33d4-4144-afd7-3534ad301907",
+        "active": "False",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/bdy_wha_community_areas_py_shp/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "winnipeg-community-areas",
+        "file_name": "bdy_wha_community_areas_py_shp",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Winnipeg Community Areas",
+          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
+          "meta_url_name": "Manitoba COVID-19 Vaccinations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Vaccine dashboard: Health Districts",
+        "uuid": "63f24596-8b02-4bc9-97d1-008d7a709ad5",
+        "active": "False",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/Health_Districts/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "health-districts",
+        "file_name": "Health_Districts",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Health Districts",
+          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
+          "meta_url_name": "Manitoba COVID-19 Vaccinations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
       }
     ],
     "nb": [
@@ -11016,6 +10794,160 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Neighbour state/province cumulative stats",
+          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
+          "meta_url_name": "New Brunswick COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NB - Adult residential facilities",
+        "uuid": "a2024dd7-227c-40f4-b1a1-826cd2ea7e39",
+        "active": "False",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/AdultResidentialFacilities/FeatureServer/1/query?f=json&where=1%3D1&returnGeometry=true&outFields=*",
+        "dir_parent": "nb",
+        "dir_file": "adult-residential-facilities",
+        "file_name": "adult-residential-facilities",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Adult residential facilities",
+          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
+          "meta_url_name": "New Brunswick COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NB - Communities",
+        "uuid": "75e59fb7-0590-4e94-8395-cee2a30ae103",
+        "active": "False",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/NBCommunities/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nb",
+        "dir_file": "communities",
+        "file_name": "communities",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Communities",
+          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
+          "meta_url_name": "New Brunswick COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NB - Nursing homes",
+        "uuid": "95384f68-21c3-4b39-a3cb-83600eb51f93",
+        "active": "False",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/NursingHomes/FeatureServer/1/query?f=json&where=1%3D1&returnGeometry=true&outFields=*",
+        "dir_parent": "nb",
+        "dir_file": "nursing-homes",
+        "file_name": "nursing-homes",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Nursing homes",
+          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
+          "meta_url_name": "New Brunswick COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NB - International border",
+        "uuid": "20bd0a7a-a836-4125-9cc7-76d8c13fe331",
+        "active": "False",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/International_Border/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nb",
+        "dir_file": "international-border",
+        "file_name": "international-border",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "International border",
+          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
+          "meta_url_name": "New Brunswick COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NB - Airports",
+        "uuid": "0b1e4f3f-dade-4a0c-bf39-fc89ee84d4e9",
+        "active": "False",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/Airports/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&outFields=*",
+        "dir_parent": "nb",
+        "dir_file": "airports",
+        "file_name": "airports",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Airports",
+          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
+          "meta_url_name": "New Brunswick COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NB - Traffic control points",
+        "uuid": "1830a741-d103-4c1c-a822-4a8c6afad622",
+        "active": "False",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/TrafficControlPoints/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&outFields=*",
+        "dir_parent": "nb",
+        "dir_file": "traffic-control-points",
+        "file_name": "traffic-control-points",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Traffic control points",
+          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
+          "meta_url_name": "New Brunswick COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NB - Ferries",
+        "uuid": "be2c33a9-0967-459b-afd1-89a3cb5e3e9e",
+        "active": "False",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/Ferries/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&outFields=*",
+        "dir_parent": "nb",
+        "dir_file": "ferries",
+        "file_name": "ferries",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Ferries",
           "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
           "meta_url_name": "New Brunswick COVID-19 Dashboard",
           "meta_licence": "",
@@ -11199,6 +11131,28 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Immunizations (2)",
+          "meta_url": "https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad",
+          "meta_url_name": "Nova Scotia COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Nova Scotia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NS - Nova Scotia COVID-19 Dashboard: Health boundaries",
+        "uuid": "1043edf2-85bd-4f30-8fb0-ebe9fffdc652",
+        "active": "False",
+        "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/Health_Boundaries_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "ns",
+        "dir_file": "health-boundaries",
+        "file_name": "health-boundaries",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Health boundaries",
           "meta_url": "https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad",
           "meta_url_name": "Nova Scotia COVID-19 Dashboard",
           "meta_licence": "",
@@ -12234,6 +12188,52 @@
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Montréal vaccination dashboard - Neighbourhoods",
+        "uuid": "f6c9c02b-5637-4876-9ccc-86c0809399c6",
+        "active": "False",
+        "url": "https://services5.arcgis.com/pBN1lh7yaF4K7Tod/arcgis/rest/services/Arrondissements_et_municipalit%C3%A9s_MTL/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "qc",
+        "dir_file": "montreal-vaccine-dashboard-neighbourhoods",
+        "file_name": "Arrondissements_et_municipalites",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Neighbourhoods",
+          "meta_url": "https://santemontreal.qc.ca/population/coronavirus-covid-19/vaccination/donnees/",
+          "meta_url_name": "Données sur la vaccination COVID-19 à Montréal",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec",
+          "meta_group_2": "Montreal"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Montréal vaccination dashboard - Vaccine administration time series",
+        "uuid": "d0f77577-0500-459a-885b-0b1ba300b7e0",
+        "active": "False",
+        "url": "https://services5.arcgis.com/pBN1lh7yaF4K7Tod/arcgis/rest/services/VAXparJOUR_googledrive/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "qc",
+        "dir_file": "montreal-vaccine-administration-time-series",
+        "file_name": "VAXparJOUR_googledrive",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine administration time series",
+          "meta_url": "https://santemontreal.qc.ca/population/coronavirus-covid-19/vaccination/donnees/",
+          "meta_url_name": "Données sur la vaccination COVID-19 à Montréal",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec",
+          "meta_group_2": "Montreal"
         },
         "notes": {}
       }
