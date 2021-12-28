@@ -1406,6 +1406,52 @@
         "notes": {}
       },
       {
+        "id_name": "CAN - PHAC - COVID-19 weekly epidemiological report (English report)",
+        "uuid": "6554c8fa-28d3-425b-8d04-931bd3ea0a20",
+        "active": "True",
+        "url_fun_python": "import re; import requests; url_current = 'https://www.canada.ca' + re.search('(?<=href=\")/content/dam/phac-aspc/documents/services/diseases/2019-novel-coronavirus-infection/surv-covid19-weekly-epi-update.*\\.pdf', requests.get('https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/epidemiological-economic-research-data.html').text).group(0)",
+        "url_fun_r": "library(rvest); paste0('https://www.canada.ca', grep('/content/dam/phac-aspc/documents/services/diseases/2019-novel-coronavirus-infection/surv-covid19-weekly-epi-update.*\\.pdf', html_attr(html_elements(read_html('https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/epidemiological-economic-research-data.html'), 'a'), 'href'), value = TRUE))",
+        "dir_parent": "can",
+        "dir_file": "phac-weekly-epidemiological-report-english",
+        "file_name": "surv-covid19-weekly-epi-update-en",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Report (English)",
+          "meta_url": "https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/epidemiological-economic-research-data.html",
+          "meta_url_name": "COVID-19 data trends",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - PHAC - COVID-19 weekly epidemiological report (French report)",
+        "uuid": "235a1c38-3d86-4c95-8b92-31f680ac4893",
+        "active": "True",
+        "url_fun_python": "import re; import requests; url_current = 'https://www.canada.ca' + re.search('(?<=href=\")/content/dam/phac-aspc/documents/services/diseases/2019-novel-coronavirus-infection/surv-covid19-weekly-epi-update.*\\.pdf', requests.get('https://www.canada.ca/fr/sante-publique/services/maladies/maladie-coronavirus-covid-19/recherches-donnees-epidemiologiques-economiques.html').text).group(0)",
+        "url_fun_r": "library(rvest); paste0('https://www.canada.ca', grep('/content/dam/phac-aspc/documents/services/diseases/2019-novel-coronavirus-infection/surv-covid19-weekly-epi-update.*\\.pdf', html_attr(html_elements(read_html('https://www.canada.ca/fr/sante-publique/services/maladies/maladie-coronavirus-covid-19/recherches-donnees-epidemiologiques-economiques.html'), 'a'), 'href'), value = TRUE))",
+        "dir_parent": "can",
+        "dir_file": "phac-weekly-epidemiological-report-french",
+        "file_name": "surv-covid19-weekly-epi-update-fr",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Report (French)",
+          "meta_url": "https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/epidemiological-economic-research-data.html",
+          "meta_url_name": "COVID-19 data trends",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "CAN - COVID-19 daily epidemiology update (English report)",
         "uuid": "1f990350-18f9-4cc4-baf2-9ed3c86ecf8e",
         "active": "True",
