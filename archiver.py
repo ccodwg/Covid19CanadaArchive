@@ -31,6 +31,7 @@ import archivist
 ## CHROMEDRIVER_BIN: path to Chromedriver
 
 # parse arguments
+## positional (first argument): file path to datasets.json
 ## -m / --mode
 ### prod: Download files and upload them to the server.
 ### test: Download files but don't upload them to the server, just test that they can be successfully downloaded.
@@ -38,7 +39,12 @@ import archivist
 ### run only the specified list of datasets (identified by UUID), otherwise run all datasets
 ## --no-email
 ### don't send an email at the end of the run
+
+# parse arguments
 archivist.parse_args()
+
+# define time script started running in America/Toronto time zone
+t = archivist.get_datetime('America/Toronto')
 
 # access Amazon S3
 if archivist.Archivist.mode == 'prod':
@@ -52,37 +58,15 @@ if archivist.Archivist.mode == 'prod':
         ## set S3 path prefix root for achived files
         archivist.Archivist.setPrefixRoot('archive')
 
-# define time script started running in America/Toronto time zone
-t = archivist.get_datetime('America/Toronto')
-
-# load active datasets
-with open('datasets.json') as json_file:
-        datasets = json.load(json_file)
-datasets = datasets['active'] # subset active datasets
-
-# convert datasets into single dictionary
-ds = {} # create empty dictionary
-for d in datasets:
-        for i in range(len(datasets[d])):
-                ds[datasets[d][i]['uuid']] = datasets[d][i]
-
-# if uuid argument is specified, filter to the specified datasets
-if archivist.Archivist.uuid:
-        invalid = list(set(archivist.Archivist.uuid) - set(list(ds.keys())))
-        archivist.Archivist.uuid = list(set(archivist.Archivist.uuid) & set(list(ds.keys())))
-        if len(invalid) > 0:
-                print('Removing invalid UUIDs: ' + ', '.join(invalid))
-        if len(archivist.Archivist.uuid) > 0:
-                ds = {key: ds[key] for key in archivist.Archivist.uuid}
-        else:
-                sys.exit("No valid UUIDs specified.")
-
 # create dict of download functions
 dl_funs = {
         "dl_file": archivist.dl_file,
         "html_page": archivist.html_page,
         "ss_page": archivist.ss_page
 }
+
+# import final dataset list
+ds = archivist.Archivist.ds
 
 # define functions to process arguments
 
