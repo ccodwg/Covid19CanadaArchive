@@ -24,6 +24,33 @@
         "notes": {}
       },
       {
+        "id_name": "AB - COVID-19 Alberta statistics (webpage) (backup)",
+        "uuid": "1467a98a-78ac-49e0-8843-5339cc260719",
+        "active": "True",
+        "url": "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm",
+        "dir_parent": "ab",
+        "dir_file": "ab-covid-statistics-backup-webpage",
+        "file_name": "ab-covid-statistics-backup-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm",
+          "meta_url_name": "COVID-19 Alberta statistics",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Alberta"
+        },
+        "notes": {
+          "notes_data": "This is a JS-enabled backup of the original page."
+        }
+      },
+      {
         "id_name": "AB - COVID-19 Alberta statistics: Case data",
         "uuid": "59da1de8-3b4e-429a-9e18-b67ba3834002",
         "active": "True",
@@ -149,7 +176,10 @@
         "file_name": "ab-cases-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -171,7 +201,10 @@
         "file_name": "ab-provincial-summary-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -193,7 +226,10 @@
         "file_name": "ab-vaccine-distribution-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -422,7 +458,10 @@
         "file_name": "regional-exposure-events-fraser-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Public exposures Fraser webpage",
@@ -446,7 +485,10 @@
         "file_name": "regional-exposure-events-interior-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Public exposures Interior webpage",
@@ -494,7 +536,10 @@
         "file_name": "regional-exposure-events-northern-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Public exposures Northern webpage",
@@ -542,7 +587,10 @@
         "file_name": "school-exposures-fraser-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "School exposures Fraser webpage",
@@ -566,7 +614,10 @@
         "file_name": "school-exposures-interior-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "School exposures Interior webpage",
@@ -614,7 +665,10 @@
         "file_name": "school-exposures-northern-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "School exposures Northern webpage",
@@ -638,7 +692,10 @@
         "file_name": "school-exposures-vancouver-coastal-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "School exposures Vancouver Coastal webpage",
@@ -1167,7 +1224,10 @@
         "file_name": "can-covid-summary-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -1189,7 +1249,10 @@
         "file_name": "vaccine-rollout-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -1211,7 +1274,10 @@
         "file_name": "testing-supply-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -1233,7 +1299,10 @@
         "file_name": "international-traveller-testing-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -1255,7 +1324,10 @@
         "file_name": "can-potential-exposures-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -2609,7 +2681,10 @@
         "file_name": "vaccination-technical-notes-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -2831,7 +2906,10 @@
         "file_name": "manitoba-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -4701,7 +4779,10 @@
         "file_name": "ns-public-school-covid-exposures-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -4922,7 +5003,10 @@
         "file_name": "nunavut-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -4944,7 +5028,10 @@
         "file_name": "nunavut-vaccination-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -4989,7 +5076,10 @@
         "file_name": "nunavut-exposure-notices-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -5285,7 +5375,10 @@
         "file_name": "vaccine-pharmacy-locations-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -6705,7 +6798,10 @@
         "file_name": "on-phu-eastern-covid-data-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -7064,7 +7160,10 @@
         "file_name": "on-phu-northwestern-covid-data-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -7138,7 +7237,10 @@
         "file_name": "on-phu-porcupine-covid-data-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -7233,7 +7335,10 @@
         "file_name": "on-phu-sudbury-covid-data-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -7357,7 +7462,10 @@
         "file_name": "on-phu-windsor-essex-covid-data-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -7428,7 +7536,10 @@
         "file_name": "queens-university-case-tracker-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -7551,7 +7662,9 @@
         "file_ext": "html",
         "dl_fun": "dl_file",
         "args": {
-          "user": "True"
+          "user": "True",
+          "js": "True",
+          "wait": "5"
         },
         "supplementary": {},
         "metadata": {
@@ -7600,7 +7713,10 @@
         "file_name": "qc-webpage-fr",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage (FR)",
@@ -7622,7 +7738,10 @@
         "file_name": "qc-webpage-en",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage (EN)",
@@ -8255,7 +8374,10 @@
         "file_name": "qc-vaccination-webpage-fr",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage (FR)",
@@ -8277,7 +8399,10 @@
         "file_name": "qc-vaccination-webpage-en",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage (EN)",
@@ -8731,7 +8856,10 @@
         "file_name": "schools-highlights-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage (FR)",
@@ -8753,7 +8881,10 @@
         "file_name": "schools-highlights-webpage-en",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage (EN)",
@@ -8775,7 +8906,10 @@
         "file_name": "schools-list-of-schools-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage (FR)",
@@ -8797,7 +8931,10 @@
         "file_name": "schools-list-of-schools-webpage-en",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage (EN)",
@@ -9232,7 +9369,10 @@
         "file_name": "cases-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -9299,7 +9439,10 @@
         "file_name": "tests-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -9344,7 +9487,10 @@
         "file_name": "hospitalized",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Dataset",
@@ -9433,7 +9579,10 @@
         "file_name": "seven-day-average-of-new-covid-cases-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -9500,7 +9649,10 @@
         "file_name": "vaccine-delivery-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -9544,7 +9696,10 @@
         "file_name": "summary-and-variant-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -9910,7 +10065,9 @@
         "file_ext": "html",
         "dl_fun": "html_page",
         "args": {
-          "user": "True"
+          "user": "True",
+          "js": "True",
+          "wait": "5"
         },
         "supplementary": {},
         "metadata": {
@@ -9934,7 +10091,10 @@
         "file_name": "loblaw-companies-tracker",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -9957,7 +10117,10 @@
         "file_name": "ctv-variant-tracker-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
