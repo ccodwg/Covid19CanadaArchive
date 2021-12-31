@@ -7516,6 +7516,29 @@
         "notes": {}
       },
       {
+        "id_name": "PE - COVID-19 news releases (webpage)",
+        "uuid": "fff9248e-fa24-4efb-ae04-000f3e5c815f",
+        "active": "True",
+        "url_fun_python": "import re; from bs4 import BeautifulSoup; import requests; headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0'}; url_current = 'https://www.princeedwardisland.ca' + BeautifulSoup(requests.get('https://www.princeedwardisland.ca/en/search/site?f%5B0%5D=type%3Anews&f%5B1%5D=field_news_type%3A22&f%5B2%5D=field_department%3A612', headers=headers).text, features='html.parser').find('a', text=re.compile('new cases of COVID-19')).attrs['href']",
+        "url_fun_r": "library(rvest); paste0('https://www.princeedwardisland.ca', html_text2(html_elements(read_html('https://www.princeedwardisland.ca/en/search/site?f%5B0%5D=type%3Anews&f%5B1%5D=field_news_type%3A22&f%5B2%5D=field_department%3A612'), xpath='//a[contains(text(), \"new cases of COVID-19\")]/@href')[1]))",
+        "dir_parent": "pe",
+        "dir_file": "covid-news-release-webpage",
+        "file_name": "covid-news-release-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.princeedwardisland.ca/en/search/site?f%5B0%5D=type%3Anews&f%5B1%5D=field_news_type%3A22&f%5B2%5D=field_department%3A612",
+          "meta_url_name": "COVID-19 news releases",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Prince Edward Island"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "PE - Potential COVID-19 Exposures (webpage)",
         "uuid": "d7cf25ac-9015-4494-b1d2-a53e78004cb5",
         "active": "True",
