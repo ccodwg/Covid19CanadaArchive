@@ -166,6 +166,7 @@ for key in ds:
                 if 'js' in ds[key]['args']:
                         if ds[key]['args']['js'] is False:
                                 dl_fun = archivist.dl_file
+                                ds[key]['args'].pop('js', None) # dl_fun will not accept this arg
                 else:
                         dl_fun = archivist.dl_file
 
