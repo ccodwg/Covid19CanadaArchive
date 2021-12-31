@@ -102,8 +102,10 @@ A note about data from Quebec: when both French and English data files are avail
 
 On several occasions, the nightly archival script has failed to run. Depending on when the failure was identified, this may have resulted in a partial or total loss of archival data for that day. A list of these days is provided below:
 
-* Wednesday, October 21, 2020
-* Thursday, November 19, 2020
+* 2020-10-21
+* 2020-11-19
+
+In addition, the method of archiving websites (HTML files) was modified on 2021-12-30. This may have caused a handful of HTML files not to be marked duplicates of the previous day's file when they otherwise would have been.
 
 ## Notes about the archival tool
 
