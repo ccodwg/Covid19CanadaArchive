@@ -7660,7 +7660,7 @@
         "dir_file": "pei-potential-exposures-webpage",
         "file_name": "pei-potential-exposures-webpage",
         "file_ext": "html",
-        "dl_fun": "dl_file",
+        "dl_fun": "html_page",
         "args": {
           "user": "True",
           "js": "True",
@@ -7686,7 +7686,7 @@
         "dir_file": "pei-possible-air-travel-exposures-webpage",
         "file_name": "pei-possible-air-travel-exposures-webpage",
         "file_ext": "html",
-        "dl_fun": "dl_file",
+        "dl_fun": "html_page",
         "args": {
           "user": "True"
         },
