@@ -160,10 +160,18 @@ for key in ds:
         ### height (html_page, ss_page)
         if 'height' in ds[key]['args']:
                 ds[key]['args']['height'] = arg_int('height')
+        
+        # use dl_file instead of html_page for simple HTML pages (no JS)
+        if dl_fun == archivist.html_page:
+                if 'js' in ds[key]['args']:
+                        if ds[key]['args']['js'] is False:
+                                dl_fun = archivist.dl_file
+                else:
+                        dl_fun = archivist.dl_file
 
         ## filter out unwanted keywords
         ### verify is not used for html_page() but is used elsewhere
-        if ds[key]['dl_fun'] == 'html_page':
+        if dl_fun == archivist.html_page:
                 ds[key]['args'].pop('verify', None)
 
         ## run download function
