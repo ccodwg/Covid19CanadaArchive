@@ -101,6 +101,7 @@ A note about data from Quebec: when both French and English data files are avail
 
 * [COVID-19 Alberta statistics](https://www.alberta.ca/stats/covid-19-alberta-statistics.htm)
     * Webpage: [ab/ab-covid-statistics-webpage/ab-covid-statistics-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Webpage: [ab/ab-covid-statistics-backup-webpage/ab-covid-statistics-backup-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Case data: [ab/cases/covid19dataexport.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Summary data time series: [ab/covid-summary-time-series/covid-19-alberta-statistics-summary-data.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Case time series (Local geographic area): [ab/case-time-series-by-lga/covid-19-alberta-statistics-map-data.csv](http://data.opencovid.ca/archive/index.html#archive/)
