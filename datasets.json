@@ -9487,10 +9487,7 @@
         "file_name": "hospitalized",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Dataset",
@@ -9512,7 +9509,10 @@
         "file_name": "hospitalized-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
