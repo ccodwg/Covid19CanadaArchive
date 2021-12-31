@@ -464,7 +464,7 @@
         "id_name": "BC - Public exposures: regional exposure events (Island webpage)",
         "uuid": "4517e966-04b8-45ea-b249-4d823694e0e2",
         "active": "True",
-        "url": "https://www.islandhealth.ca/learn-about-health/covid-19/outbreaks-and-exposures",
+        "url": "https://www.islandhealth.ca/news/covid-19-outbreaks",
         "dir_parent": "bc",
         "dir_file": "regional-exposure-events-island-webpage",
         "file_name": "regional-exposure-events-island-webpage",
@@ -481,7 +481,7 @@
           "meta_group_1": "British Columbia"
         },
         "notes": {
-          "notes_data": "Warning: some early files are .png screenshots and named differently."
+          "notes_data": "Warning: some early files are .png screenshots and named differently. 2021-12-30: New URL ('https://www.islandhealth.ca/news/covid-19-outbreaks') covers outbreaks only. However, exposure URL ('https://www.islandhealth.ca/news/covid-19-exposures') has not had an updated since February 2021."
         }
       },
       {
@@ -584,7 +584,7 @@
         "id_name": "BC - Public exposures: school exposures (Island webpage)",
         "uuid": "d3904d42-a08a-4820-b7d5-1a603a24b4ee",
         "active": "True",
-        "url": "https://www.islandhealth.ca/learn-about-health/covid-19/exposures-schools",
+        "url": "https://www.islandhealth.ca/learn-about-health/covid-19/schools",
         "dir_parent": "bc",
         "dir_file": "school-exposures-island-webpage",
         "file_name": "school-exposures-island-webpage",
@@ -7526,7 +7526,9 @@
         "file_name": "covid-news-release-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {},
+        "args": {
+          "user": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
