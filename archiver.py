@@ -7,7 +7,7 @@ print('Importing modules...')
 
 ## core utilities
 import os
-import json
+import tempfile
 
 ## other utilities
 from colorit import * # colourful printing
@@ -199,6 +199,15 @@ log = archivist.output_log(archivist.Archivist.log, t)
 # upload and email log of file uploads, send notification (when mode == prod)
 if archivist.Archivist.mode == 'prod':
         
+        # update update_time.txt in root directory
+        print('Updating update_time.txt...')
+        update_time = archivist.get_datetime('America/Toronto').strftime('%Y-%m-%d %H:%M %Z')
+        tmpdir = tempfile.TemporaryDirectory()
+        update_time_txt = os.path.join(tmpdir.name, 'update_time.txt')
+        with open(update_time_txt, 'w') as local_file:
+            local_file.write(update_time)
+        archivist.Archivist.s3.upload_file(Filename=update_time_txt, Key='archive/update_time.txt')
+
         ## upload log
         archivist.upload_log(log)
         
