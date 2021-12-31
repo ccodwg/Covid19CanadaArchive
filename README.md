@@ -685,6 +685,8 @@ A note about data from Quebec: when both French and English data files are avail
 * [COVID-19 Vaccination Data](https://www.princeedwardisland.ca/en/information/health-and-wellness/covid-19-vaccination-data)
     * Webpage: [pe/pei-vaccination-webpage/pei-vaccination-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Dataset: [pe/vaccine-data-cumulative/Vaccine_Rollout.xlsx](http://data.opencovid.ca/archive/index.html#archive/)
+* [COVID-19 news releases](https://www.princeedwardisland.ca/en/search/site?f%5B0%5D=type%3Anews&f%5B1%5D=field_news_type%3A22&f%5B2%5D=field_department%3A612)
+    * Webpage: [pe/covid-news-release-webpage/covid-news-release-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [Potential COVID-19 Exposures](https://www.princeedwardisland.ca/en/information/health-and-wellness/potential-covid-19-exposures)
     * Webpage: [pe/pei-potential-exposures-webpage/pei-potential-exposures-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [Possible Air Travel Exposures](https://www.princeedwardisland.ca/en/information/health-and-wellness/possible-air-travel-exposures)
