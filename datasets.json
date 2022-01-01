@@ -6621,7 +6621,7 @@
         "url": "https://opendata.arcgis.com/datasets/9189b061635a436bb078f4bd69af92c2_0/FeatureServer/0/query?outFields=*&where=1%3D1",
         "dir_parent": "on",
         "dir_file": "ottawa-vaccinations-by-day-and-type-non-residents-vaccinated-in-Ottawa",
-        "file_name": "",
+        "file_name": "ottawa-vaccinations-by-day-and-type-non-residents-vaccinated-in-Ottawa",
         "file_ext": "json",
         "dl_fun": "dl_file",
         "args": {},
