@@ -906,6 +906,7 @@ A note about data from Quebec: when both French and English data files are avail
 
 * [The Local (Toronto): RAT Tracker](https://thelocal.to/rat-tracker/)
     * Webpage: [other/on/the-local-toronto-rat-tracker-webpage/the-local-toronto-rat-tracker-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Map: [other/on/the-local-toronto-rat-tracker-map-webpage/the-local-toronto-rat-tracker-map-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 </details>
 
 <details>
