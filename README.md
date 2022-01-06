@@ -902,6 +902,13 @@ A note about data from Quebec: when both French and English data files are avail
 </details>
 
 <details>
+<summary><i>Ontario</i></summary>
+
+* [The Local (Toronto): RAT Tracker](https://thelocal.to/rat-tracker/)
+    * Webpage: [other/on/the-local-toronto-rat-tracker-webpage/the-local-toronto-rat-tracker-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+</details>
+
+<details>
 <summary><i>Quebec</i></summary>
 
 * [Covid Écoles Québec: Number of schools](https://www.covidecolesquebec.org/nombre-dcoles-20212022)

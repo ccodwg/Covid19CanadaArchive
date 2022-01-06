@@ -10157,6 +10157,56 @@
         "notes": {}
       }
     ],
+    "other/on": [
+      {
+        "id_name": "Other: ON - The Local (Toronto) - RAT Tracker (webpage)",
+        "uuid": "29dca94e-3f10-4a76-94b6-81437dc29b14",
+        "active": "True",
+        "url": "https://thelocal.to/rat-tracker/",
+        "dir_parent": "other/on",
+        "dir_file": "the-local-toronto-rat-tracker-webpage",
+        "file_name": "the-local-toronto-rat-tracker-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://thelocal.to/rat-tracker/",
+          "meta_url_name": "The Local (Toronto): RAT Tracker",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "Other: ON - The Local (Toronto) - RAT Tracker Map (webpage)",
+        "uuid": "e1651e8c-0304-453e-9049-ec0c7d0b4753",
+        "active": "True",
+        "url": "https://flo.uri.sh/visualisation/8290481/embed",
+        "dir_parent": "other/on",
+        "dir_file": "the-local-toronto-rat-tracker-map-webpage",
+        "file_name": "the-local-toronto-rat-tracker-map-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Map",
+          "meta_url": "https://thelocal.to/rat-tracker/",
+          "meta_url_name": "The Local (Toronto): RAT Tracker",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "Ontario"
+        },
+        "notes": {}
+      }
+    ],
     "other/qc": [
       {
         "id_name": "Other: QC - Covid Écoles Québec (Excel)",
@@ -12662,6 +12712,7 @@
         }
       }
     ],
+    "other/on": [],
     "other/qc": []
   }
 }
