@@ -554,28 +554,26 @@
         }
       },
       {
-        "id_name": "BC - Public exposures: regional exposure events (Vancouver Coastal webpage)",
-        "uuid": "e3f46460-ae51-4c6f-9f3a-ccefb4023829",
+        "id_name": "BC - Current outbreaks (Vancouver Coastal report)",
+        "uuid": "dabfe0d8-a5ba-48ca-b02f-bd80918363bd",
         "active": "True",
-        "url": "http://www.vch.ca/covid-19/public-exposures",
+        "url": "http://www.vch.ca/Documents/facility-outbreak-bulletin.pdf",
         "dir_parent": "bc",
-        "dir_file": "regional-exposure-events-vancouver-coastal-webpage",
-        "file_name": "regional-exposure-events-vancouver-coastal-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
+        "dir_file": "vancouver-coastal-facility-outbreak-bulletin",
+        "file_name": "facility-outbreak-bulletin",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Public exposures Vancouver Coastal webpage",
-          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
-          "meta_url_name": "COVID-19 Public Exposures",
+          "meta_name": "Report",
+          "meta_url": "http://www.vch.ca/your-care/your-safety-privacy/infection-control/current-outbreaks",
+          "meta_url_name": "Current outbreaks",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "British Columbia"
         },
-        "notes": {
-          "notes_data": "Warning: some early files are .png screenshots and named differently."
-        }
+        "notes": {}
       },
       {
         "id_name": "BC - Public exposures: school exposures (Fraser webpage)",
@@ -10416,6 +10414,30 @@
           "meta_group_1": "British Columbia"
         },
         "notes": {}
+      },
+      {
+        "id_name": "BC - Public exposures: regional exposure events (Vancouver Coastal webpage)",
+        "uuid": "e3f46460-ae51-4c6f-9f3a-ccefb4023829",
+        "active": "False",
+        "url": "http://www.vch.ca/covid-19/public-exposures",
+        "dir_parent": "bc",
+        "dir_file": "regional-exposure-events-vancouver-coastal-webpage",
+        "file_name": "regional-exposure-events-vancouver-coastal-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Public exposures Vancouver Coastal webpage",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
+          "meta_url_name": "COVID-19 Public Exposures",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {
+          "notes_data": "Warning: some early files are .png screenshots and named differently."
+        }
       }
     ],
     "can": [
