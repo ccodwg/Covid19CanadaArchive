@@ -145,7 +145,6 @@ A note about data from Quebec: when both French and English data files are avail
     * Public exposures Interior webpage: [bc/regional-exposure-events-interior-webpage/regional-exposure-events-interior-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Public exposures Island webpage: [bc/regional-exposure-events-island-webpage/regional-exposure-events-island-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Public exposures Northern webpage: [bc/regional-exposure-events-northern-webpage/regional-exposure-events-northern-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
-    * Public exposures Vancouver Coastal webpage: [bc/regional-exposure-events-vancouver-coastal-webpage/regional-exposure-events-vancouver-coastal-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * School exposures Fraser webpage: [bc/school-exposures-fraser-webpage/school-exposures-fraser-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * School exposures Interior webpage: [bc/school-exposures-interior-webpage/school-exposures-interior-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * School exposures Island webpage: [bc/school-exposures-island-webpage/school-exposures-island-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
@@ -153,6 +152,9 @@ A note about data from Quebec: when both French and English data files are avail
     * School exposures Vancouver Coastal webpage: [bc/school-exposures-vancouver-coastal-webpage/school-exposures-vancouver-coastal-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Public exposures - cruises, long distance bus, train, work sites, public events: [bc/public-exposures-cruises-bus-train-work-public/Archived_COVID-19_Exposures.pdf](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Public exposures - flights: [bc/public-exposures-flights/public-exposures-flights-tables-Current.pdf](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Public exposures Vancouver Coastal webpage: [bc/regional-exposure-events-vancouver-coastal-webpage/regional-exposure-events-vancouver-coastal-webpage.html](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+* [Current outbreaks](http://www.vch.ca/your-care/your-safety-privacy/infection-control/current-outbreaks)
+    * Report: [bc/vancouver-coastal-facility-outbreak-bulletin/facility-outbreak-bulletin.pdf](http://data.opencovid.ca/archive/index.html#archive/)
 * [British Columbia COVID-19 Dashboard](https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded)
     * Dashboard BC and Canada cumulative testing rate: [bc/bc-canada-cumulative-testing-rate/BC_COVID19__BC_Canadian_Testing_Rates_View.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Dashboard case demographics by Regional Health Authority: [bc/case-demographics-by-rha/BC_COVID19_Dashboard_Case_Details_Production.json](http://data.opencovid.ca/archive/index.html#archive/)
