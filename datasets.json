@@ -5771,7 +5771,7 @@
         "notes": {}
       },
       {
-        "id_name": "ON - Hospitalizations and cases by vaccination status",
+        "id_name": "ON - Cases and rates by vaccination status (old)",
         "uuid": "5104fade-9c4c-4287-8c68-c88eb3f78a57",
         "active": "True",
         "url": "https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/eed63cf2-83dd-4598-b337-b288c0a89a16/download/vac_status.csv",
@@ -5783,14 +5783,16 @@
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Hospitalizations and cases by vaccination status",
+          "meta_name": "Cases and rates by vaccination status (old)",
           "meta_url": "https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario",
           "meta_url_name": "COVID-19 Vaccine Data in Ontario",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario"
         },
-        "notes": {}
+        "notes": {
+          "notes_data": "This file contained hospitalizations and cases until 2021-08-20, when hospitalizations were split into a separate dataset (UUID: 5da7b5e8-4e34-4f51-90f4-37275d978401). On 2021-08-27, case rates per 100,000k were added. This dataset is now a duplicate of UUID: 042826c4-f833-4454-91eb-bbee8701b0dd."
+        }
       },
       {
         "id_name": "ON - Cases and rates by vaccination status",
