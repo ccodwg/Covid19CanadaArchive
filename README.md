@@ -532,7 +532,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Vaccine data: [on/vaccine-data/vaccine_doses.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccine data by age: [on/vaccine-data-by-age/vaccines_by_age.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccine data by Public Health Unit and by age: [on/vaccine-data-by-age-and-phu/vaccines_by_age_phu.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * Hospitalizations and cases by vaccination status: [on/hospitalizations-and-cases-by-vaccination-status/vac_status.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Cases and rates by vaccination status (old): [on/hospitalizations-and-cases-by-vaccination-status/vac_status.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Cases and rates by vaccination status: [on/cases-and-rates-by-vaccination-status/cases_by_vac_status.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Hospitalizations by vaccination status: [on/hospitalizations-by-vaccination-status/vac_status_hosp_icu.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Case rates by vaccination status and age group: [on/case-rates-by-vaccination-status-and-age-group/cases_by_age_vac_status.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
