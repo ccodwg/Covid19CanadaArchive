@@ -172,6 +172,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Outcomes by Vax 2: [bc/bccdc-surveillance-dashboard-outcomes-by-vax-2-webpage/bccdc-surveillance-dashboard-outcomes-by-vax-2-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Vax Donut Charts: [bc/bccdc-surveillance-dashboard-vax-donut-charts-webpage/bccdc-surveillance-dashboard-vax-donut-charts-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Vax by Age: [bc/bccdc-surveillance-dashboard-vax-by-age-webpage/bccdc-surveillance-dashboard-vax-by-age-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vax Progress: [bc/bccdc-surveillance-dashboard-vax-progress-webpage/bccdc-surveillance-dashboard-vax-progress-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Map: [bc/bccdc-surveillance-dashboard-map-webpage/bccdc-surveillance-dashboard-map-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Vertical Plots: [bc/bccdc-surveillance-dashboard-vertical-plots-webpage/bccdc-surveillance-dashboard-vertical-plots-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Scatter Plot: [bc/bccdc-surveillance-dashboard-scatter-plot-webpage/bccdc-surveillance-dashboard-scatter-plot-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
@@ -179,8 +180,6 @@ A note about data from Quebec: when both French and English data files are avail
     * Case Trends by LHA 2: [bc/bccdc-surveillance-dashboard-case-trends-by-lha-2-webpage/bccdc-surveillance-dashboard-case-trends-by-lha-2-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Weekly Change: [bc/bccdc-surveillance-dashboard-weekly-change-webpage/bccdc-surveillance-dashboard-weekly-change-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Data Notes: [bc/bccdc-surveillance-dashboard-data-notes-webpage/bccdc-surveillance-dashboard-data-notes-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
-* [BCCDC COVID-19 Surveillance Dashboard](https://public.tableau.com/shared/M5BYT5ZX9?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse)
-    * Vax Progress: [bc/bccdc-surveillance-dashboard-vax-progress-webpage/bccdc-surveillance-dashboard-vax-progress-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 </details>
 <details>
 <summary><b>Canada</b></summary>
