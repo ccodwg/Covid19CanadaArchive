@@ -1014,7 +1014,7 @@
         "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Vax Progress (webpage)",
         "uuid": "b49bc25e-90ab-406b-b40e-796e6bc47d30",
         "active": "True",
-        "url": "https://public.tableau.com/shared/M5BYT5ZX9",
+        "url": "https://public.tableau.com/shared/M5BYT5ZX9?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
         "dir_parent": "bc",
         "dir_file": "bccdc-surveillance-dashboard-vax-progress-webpage",
         "file_name": "bccdc-surveillance-dashboard-vax-progress-webpage",
@@ -1027,7 +1027,7 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Vax Progress",
-          "meta_url": "https://public.tableau.com/shared/M5BYT5ZX9?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
+          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
           "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
           "meta_licence": "",
           "meta_licence_url": "",
