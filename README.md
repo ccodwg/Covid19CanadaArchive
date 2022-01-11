@@ -623,6 +623,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Main: [on/on-phu-hastings-prince-edward-covid-data-main-webpage/on-phu-hastings-prince-edward-covid-data-main-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [Kingston Frontenac Lennox & Addington (PHU) - COVID-19 case data for KFL&A Region Dashboard](https://www.kflaph.ca/en/healthy-living/status-of-cases-in-kfla.aspx)
     * Cases: [on/on-phu-kingston-frontenac-lennox-addington-covid-data-cases-webpage/on-phu-kingston-frontenac-lennox-addington-covid-data-cases-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * Cases - New cases table: [on/on-phu-kingston-frontenac-lennox-addington-covid-data-cases-new-cases-table-webpage/on-phu-kingston-frontenac-lennox-addington-covid-data-cases-new-cases-table-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [Lambton (PHU) - COVID-19 Report](https://lambtonpublichealth.ca/2019-novel-coronavirus/)
     * Summary: [on/on-phu-lambton-covid-data-summary-webpage/on-phu-lambton-covid-data-summary-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Case details and trends: [on/on-phu-lambton-covid-data-case-details-trends-webpage/on-phu-lambton-covid-data-case-details-trends-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
