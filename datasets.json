@@ -7021,6 +7021,33 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Kingston Frontenac Lennox & Addington (PHU) - COVID-19 data - Cases - New cases table (webpage)",
+        "uuid": "0523eacc-9020-47a2-92f7-dfc4ddf8d0f8",
+        "active": "True",
+        "url_fun_python": "from bs4 import BeautifulSoup; import requests; url_current = BeautifulSoup(requests.get('https://www.kflaph.ca/en/healthy-living/status-of-cases-in-kfla.aspx').text, features='html.parser').find('iframe')['src']",
+        "url_fun_r": "library(rvest); html_attr(html_element(read_html('https://www.kflaph.ca/en/healthy-living/status-of-cases-in-kfla.aspx'), 'iframe'), 'src')",
+        "dir_parent": "on",
+        "dir_file": "on-phu-kingston-frontenac-lennox-addington-covid-data-cases-new-cases-table-webpage",
+        "file_name": "on-phu-kingston-frontenac-lennox-addington-covid-data-cases-new-cases-table-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "20"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases - New cases table",
+          "meta_url": "https://www.kflaph.ca/en/healthy-living/status-of-cases-in-kfla.aspx",
+          "meta_url_name": "Kingston Frontenac Lennox & Addington (PHU) - COVID-19 case data for KFL&A Region Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - Lambton (PHU) - COVID-19 data - Summary (webpage)",
         "uuid": "8d0cf226-b9b7-4fc3-8100-a4f56dec6792",
         "active": "True",
