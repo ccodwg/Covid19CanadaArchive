@@ -1454,6 +1454,52 @@
         "notes": {}
       },
       {
+        "id_name": "CAN - CIHI - COVID-19 Intervention Scan (English)",
+        "uuid": "25086ee8-6b82-4132-940f-85f3ea1d09e1",
+        "active": "True",
+        "url_fun_python": "import re; import requests; url_current = re.search('(?<=href=\")https://www.cihi.ca/sites/default/files/document/scan-data-tables-covid-19-intervention-update\\d*-en\\.xlsx', requests.get('https://www.cihi.ca/en/covid-19-intervention-scan').text).group(0)",
+        "url_fun_r": "library(rvest); grep('https://www.cihi.ca/sites/default/files/document/scan-data-tables-covid-19-intervention-update\\d*-en\\.xlsx', html_attr(html_elements(read_html('https://www.cihi.ca/en/covid-19-intervention-scan'), 'a'), 'href'), value = TRUE)[1]",
+        "dir_parent": "can",
+        "dir_file": "cihi-covid-intervention-scan-en",
+        "file_name": "scan-data-tables-covid-19-intervention-en",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "CIHI - COVID-19 Intervention Scan (English)",
+          "meta_url": "https://www.cihi.ca/en/covid-19-resources/cihis-covid-19-data-and-information",
+          "meta_url_name": "CIHI's COVID-19 data and information",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - CIHI - COVID-19 Intervention Scan (French)",
+        "uuid": "a2b4d3a5-2aae-41bc-be5f-423f11bb357a",
+        "active": "True",
+        "url_fun_python": "import re; import requests; url_current = re.search('(?<=href=\")https://www.cihi.ca/sites/default/files/document/scan-data-tables-covid-19-intervention-update\\d*-fr\\.xlsx', requests.get('https://www.cihi.ca/fr/analyse-des-interventions-liees-a-la-covid-19').text).group(0)",
+        "url_fun_r": "library(rvest); grep('https://www.cihi.ca/sites/default/files/document/scan-data-tables-covid-19-intervention-update\\d*-fr\\.xlsx', html_attr(html_elements(read_html('https://www.cihi.ca/fr/analyse-des-interventions-liees-a-la-covid-19'), 'a'), 'href'), value = TRUE)[1]",
+        "dir_parent": "can",
+        "dir_file": "cihi-covid-intervention-scan-fr",
+        "file_name": "scan-data-tables-covid-19-intervention-fr",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "CIHI - COVID-19 Intervention Scan (French)",
+          "meta_url": "https://www.cihi.ca/fr/ressources-sur-la-covid-19/donnees-et-information-de-licis-sur-la-covid-19",
+          "meta_url_name": "Données et information de l'ICIS sur la COVID-19",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "CAN - PHAC - COVID-19 weekly epidemiological report (English report)",
         "uuid": "6554c8fa-28d3-425b-8d04-931bd3ea0a20",
         "active": "True",
