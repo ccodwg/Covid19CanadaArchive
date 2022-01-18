@@ -367,10 +367,10 @@ A note about data from Quebec: when both French and English data files are avail
 * [New Brunswick COVID-19 Dashboard](https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa)
     * Counties: [nb/counties/counties.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Assessment sites: [nb/covid-assessment-sites/covid-assessment-sites.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Provincial case, death, recovered time series: [nb/provincial-case-death-recovered-time-series/provincial-case-death-recovered-time-series.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Provincial case, death, recovered time series 2: [nb/provincial-case-death-recovered-time-series-2/Covid19DailyCaseStats3.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Provincial cumulative test statistics by age and sex: [nb/provincial-cumulative-test-statistics-by-age-sex/provincial-cumulative-test-statistics-by-age-sex.json](http://data.opencovid.ca/archive/index.html#archive/)
     * New cases by age group and Health Zone: [nb/new-cases-by-age-group-and-zone/Covid19NewCaseAgeStats2.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * COVID-19 alert level by Health Zone: [nb/covid-alert-level-by-zone/COVID19_AlertLevel.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Current COVID-19 statistics by Health Zone: [nb/current-covid-stats-by-zone/WinterPlanLevel.json](http://data.opencovid.ca/archive/index.html#archive/)
     * COVID-19 hospitalization/ICU time series: [nb/hosp-icu-time-series/Covid19HospitalTrends.json](http://data.opencovid.ca/archive/index.html#archive/)
     * COVID-19 travel and enforcement statistics (7-day averages): [nb/covid-travel-enforcement-stats-7-day-avg/Covid19ComplianceEnforcement2.json](http://data.opencovid.ca/archive/index.html#archive/)
@@ -396,6 +396,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Airports: [nb/airports/airports.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Traffic control points: [nb/traffic-control-points/traffic-control-points.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Ferries: [nb/ferries/ferries.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Provincial case, death, recovered time series: [nb/provincial-case-death-recovered-time-series/provincial-case-death-recovered-time-series.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [Potential Public Exposures](https://www2.gnb.ca/content/gnb/en/corporate/promo/covid-19/potential_public_exposure.html)
     * Webpage: [nb/potential-public-exposures-webpage/potential-public-exposures-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 </details>
