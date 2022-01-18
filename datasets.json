@@ -3859,28 +3859,6 @@
         "notes": {}
       },
       {
-        "id_name": "NB - Provincial case, death, recovered time series",
-        "uuid": "37423172-8c3c-4d41-b006-d49bc5aa20b5",
-        "active": "True",
-        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/Covid19DailyCaseStats2/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&outFields=*&orderByFields=DATE%20desc",
-        "dir_parent": "nb",
-        "dir_file": "provincial-case-death-recovered-time-series",
-        "file_name": "provincial-case-death-recovered-time-series",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Provincial case, death, recovered time series",
-          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
-          "meta_url_name": "New Brunswick COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "New Brunswick"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "NB - Provincial case, death, recovered time series 2",
         "uuid": "40d93d2b-5c85-4592-b844-fb78b5ae5cec",
         "active": "True",
@@ -3938,6 +3916,28 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "New cases by age group and Health Zone",
+          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
+          "meta_url_name": "New Brunswick COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NB - COVID-19 alert level by Health Zone",
+        "uuid": "5f34b541-1176-4823-baf1-d49cb65273bb",
+        "active": "True",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/COVID19_AlertLevel/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "nb",
+        "dir_file": "covid-alert-level-by-zone",
+        "file_name": "COVID19_AlertLevel",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID-19 alert level by Health Zone",
           "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
           "meta_url_name": "New Brunswick COVID-19 Dashboard",
           "meta_licence": "",
@@ -11309,6 +11309,28 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Ferries",
+          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
+          "meta_url_name": "New Brunswick COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NB - Provincial case, death, recovered time series",
+        "uuid": "37423172-8c3c-4d41-b006-d49bc5aa20b5",
+        "active": "False",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/Covid19DailyCaseStats2/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&outFields=*&orderByFields=DATE%20desc",
+        "dir_parent": "nb",
+        "dir_file": "provincial-case-death-recovered-time-series",
+        "file_name": "provincial-case-death-recovered-time-series",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Provincial case, death, recovered time series",
           "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
           "meta_url_name": "New Brunswick COVID-19 Dashboard",
           "meta_licence": "",
