@@ -441,23 +441,28 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [ns/ns-webpage/ns-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
     * Case data: [ns/case-data/ns-covid19-data.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [Nova Scotia COVID-19 Dashboard](https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad)
-    * Cases by zone: [ns/cases-by-zone/cases-by-zone.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Zone summary: [ns/zone-summary/zone-summary.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Zone summary cases: [ns/zone-summary-cases/zone-summary-cases.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Community health network summary cases: [ns/chn-summary-cases/chn-summary-cases.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Serious outcomes: [ns/serious-outcomes/serious-outcomes.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Lab testing: [ns/lab-testing/lab-testing.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Lab testing, hospitalization, ICU summary: [ns/lab-testing-hos-icu-summary/lab-testing-hos-icu-summary.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Demographics summary: [ns/demographics-summary/demographics-summary.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * New cases, active cases, testing, hospitalizations, ICU: [ns/new-cases-active-cases-testing-hosp-icu/CasesReport_V5_PROD.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Nova Scotia deaths by sex and average age: [ns/ns-deaths-by-sex-avg-age/Deaths_V5_PROD.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Hospitalizations and ICU by vaccination status: [ns/hosp-icu-by-vaccination-status/Hospitalizations_V5_PROD.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vaccine coverage by CHN (2): [ns/vaccine-coverage-by-chn-2/VaccineCoverageCHN_V5_PROD.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Vaccine uptake by age (2): [ns/vaccine-uptake-by-age-2/VaccineUptakeAge_V5_PROD.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Immunizations (4): [ns/immunizations-4/Vaccine_V5_PROD.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Vaccine coverage by CHN: [ns/vaccine-coverage-by-chn/VaccineCoverageCHN_V4_PROD.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Vaccine uptake by age: [ns/vaccine-uptake-by-age/VaccineUptakeAge_V4_PROD.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Breakthough outcomes: [ns/breakthrough-outcomes/Breakthrough_Outcomes_V4_PROD.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Onset zones: [ns/onset-zones/Onset_Zones_V4_PROD.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Immunizations: [ns/immunizations/immunizations.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Immunizations (2): [ns/immunizations-2/Immunizations_3_PROD.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Health boundaries: [ns/health-boundaries/health-boundaries.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Immunizations (3): [ns/immunizations-3/Immunizations_V4_PROD.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Cases by zone: [ns/cases-by-zone/cases-by-zone.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Zone summary: [ns/zone-summary/zone-summary.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Zone summary cases: [ns/zone-summary-cases/zone-summary-cases.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Community health network summary cases: [ns/chn-summary-cases/chn-summary-cases.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Serious outcomes: [ns/serious-outcomes/serious-outcomes.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Lab testing: [ns/lab-testing/lab-testing.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Lab testing, hospitalization, ICU summary: [ns/lab-testing-hos-icu-summary/lab-testing-hos-icu-summary.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Demographics summary: [ns/demographics-summary/demographics-summary.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Vaccine coverage by CHN: [ns/vaccine-coverage-by-chn/VaccineCoverageCHN_V4_PROD.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Vaccine uptake by age: [ns/vaccine-uptake-by-age/VaccineUptakeAge_V4_PROD.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Breakthough outcomes: [ns/breakthrough-outcomes/Breakthrough_Outcomes_V4_PROD.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Onset zones: [ns/onset-zones/Onset_Zones_V4_PROD.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [Potential COVID Exposures](http://www.nshealth.ca/covid-exposures)
     * Webpage: [ns/ns-potential-covid-exposures-webpage/ns-potential-covid-exposures-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [COVID-19 Exposures Connected to Public Schools](https://backtoschool.ednet.ns.ca/school-exposures)
