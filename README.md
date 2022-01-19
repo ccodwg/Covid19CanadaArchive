@@ -449,7 +449,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Lab testing: [ns/lab-testing/lab-testing.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Lab testing, hospitalization, ICU summary: [ns/lab-testing-hos-icu-summary/lab-testing-hos-icu-summary.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Demographics summary: [ns/demographics-summary/demographics-summary.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Immunizations (3): [ns/immunizations-3/Immunizations_V4_PROD.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Immunizations (4): [ns/immunizations-4/Vaccine_V5_PROD.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccine coverage by CHN: [ns/vaccine-coverage-by-chn/VaccineCoverageCHN_V4_PROD.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccine uptake by age: [ns/vaccine-uptake-by-age/VaccineUptakeAge_V4_PROD.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Breakthough outcomes: [ns/breakthrough-outcomes/Breakthrough_Outcomes_V4_PROD.json](http://data.opencovid.ca/archive/index.html#archive/)
@@ -457,6 +457,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Immunizations: [ns/immunizations/immunizations.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Immunizations (2): [ns/immunizations-2/Immunizations_3_PROD.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Health boundaries: [ns/health-boundaries/health-boundaries.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Immunizations (3): [ns/immunizations-3/Immunizations_V4_PROD.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [Potential COVID Exposures](http://www.nshealth.ca/covid-exposures)
     * Webpage: [ns/ns-potential-covid-exposures-webpage/ns-potential-covid-exposures-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [COVID-19 Exposures Connected to Public Schools](https://backtoschool.ednet.ns.ca/school-exposures)
