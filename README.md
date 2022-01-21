@@ -588,6 +588,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Vaccinations by Day by Vaccine Type - Non-Residents Vaccinated in Ottawa: [on/ottawa-vaccinations-by-day-and-type-non-residents-vaccinated-in-Ottawa/ottawa-vaccinations-by-day-and-type-non-residents-vaccinated-in-Ottawa.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccinations by Day by Vaccine Type - Residents of Ottawa Vaccinated Outside of Ottawa: [on/ottawa-vaccinations-by-day-and-type-ottawa-residents-vaccinated-outside-ottawa/ottawa-vaccinations-by-day-and-type-ottawa-residents-vaccinated-outside-ottawa.json](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccination Coverage by Age for Ottawa Residents with at Least 1 Dose: [on/ottawa-vaccination-coverage-by-age-ottawa-residents/ottawa-vaccination-coverage-by-age-ottawa-residents.json](http://data.opencovid.ca/archive/index.html#archive/)
+* [Children's Hospital of Eastern Ontario (CHEO) - COVID-19 webpage and admissions dashboard](https://www.cheo.on.ca/en/visiting-cheo/covid-19.aspx)
+    * Webpage: [on/cheo-covid-admissions-dashboard-webpage/cheo-covid-admissions-dashboard-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 </details>
 
 <details>
