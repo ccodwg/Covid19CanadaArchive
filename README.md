@@ -248,6 +248,7 @@ A note about data from Quebec: when both French and English data files are avail
     * NML summary: [can/nml-summary/covid19-epiSummary-NML.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Variants of concern time series by province: [can/variants-of-concern-time-series-by-province/covid19-epiSummary-voc.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [COVIDTrends](https://health-infobase.canada.ca/covid-19/covidtrends/)
+    * Cases and deaths by health region - last 7 days: [can/covidtrends-cases-and-deaths-by-hr-last-7-days/file_out_v5_MZ7v2.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Mobility: [can/covidtrends-mobility/mobility.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * FluWatchers: [can/covidtrends-fluwatchers/fluwatchers.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Health region information: [can/health-region-info/hr_websites.csv](http://data.opencovid.ca/archive/index.html#archive/)
