@@ -2298,6 +2298,28 @@
         "notes": {}
       },
       {
+        "id_name": "CAN - FSA to health region correspondence",
+        "uuid": "8812aeee-c121-40e5-8f76-ab7712502fa8",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/FSA_HR2018.csv",
+        "dir_parent": "can",
+        "dir_file": "fsa-to-health-region-correspondence",
+        "file_name": "FSA_HR2018",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "FSA to health region correspondence",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/covidtrends/",
+          "meta_url_name": "COVIDTrends",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "CAN - Census district to health region correspondence",
         "uuid": "e4e13eb5-9dd3-4c8c-bf12-ed873419278a",
         "active": "True",
