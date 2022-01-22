@@ -251,6 +251,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Mobility: [can/covidtrends-mobility/mobility.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * FluWatchers: [can/covidtrends-fluwatchers/fluwatchers.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Health region information: [can/health-region-info/hr_websites.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * FSA to health region correspondence: [can/fsa-to-health-region-correspondence/FSA_HR2018.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Census district to health region correspondence: [can/census-district-to-health-region-correspondence/censusdistricts.csv](http://data.opencovid.ca/archive/index.html#archive/)
 * [COVID-19 vaccination in Canada - Vaccines administered](https://health-infobase.canada.ca/covid-19/vaccine-administration/)
     * Vaccination administration: [can/vaccination-administration/vaccination-administration.csv](http://data.opencovid.ca/archive/index.html#archive/)
