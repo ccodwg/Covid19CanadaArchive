@@ -2232,6 +2232,28 @@
         "notes": {}
       },
       {
+        "id_name": "CAN - COVIDTrends (Cases and deaths by health region - last 7 days)",
+        "uuid": "b5d91e59-a21f-45e9-a2c3-63c2df2d582f",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/file_out_v5_MZ7v2.csv",
+        "dir_parent": "can",
+        "dir_file": "covidtrends-cases-and-deaths-by-hr-last-7-days",
+        "file_name": "file_out_v5_MZ7v2",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases and deaths by health region - last 7 days",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/covidtrends/",
+          "meta_url_name": "COVIDTrends",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "CAN - COVIDTrends (Mobility)",
         "uuid": "4ff1d90c-af12-4212-b60c-8739991ecc7d",
         "active": "True",
