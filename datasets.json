@@ -4741,7 +4741,7 @@
         "dl_fun": "html_page",
         "args": {
           "js": "True",
-          "wait": "10"
+          "wait": "15"
         },
         "supplementary": {},
         "metadata": {
@@ -4791,7 +4791,7 @@
         "dl_fun": "html_page",
         "args": {
           "js": "True",
-          "wait": "10"
+          "wait": "15"
         },
         "supplementary": {},
         "metadata": {
@@ -4841,7 +4841,7 @@
         "dl_fun": "html_page",
         "args": {
           "js": "True",
-          "wait": "10"
+          "wait": "15"
         },
         "supplementary": {},
         "metadata": {
@@ -4866,7 +4866,7 @@
         "dl_fun": "html_page",
         "args": {
           "js": "True",
-          "wait": "10"
+          "wait": "15"
         },
         "supplementary": {},
         "metadata": {
