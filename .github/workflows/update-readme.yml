@@ -11,7 +11,7 @@ jobs:
           git add -A
           if ! git diff-index --quiet HEAD
           then
-            git commit -m "Update README."
+            git commit -m "Update README"
             git push
             echo "README update pushed successfully."
           else
