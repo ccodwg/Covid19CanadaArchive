@@ -7463,6 +7463,32 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Windsor-Essex (PHU) - COVID-19 data - cases (webpage)",
+        "uuid": "fb6ccf1c-498f-40d0-b70c-8fce37603be1",
+        "active": "True",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiMDI3MGZkYzMtY2I0Ny00OTIxLWFiZDItODlhZTE5OWNmNWQ5IiwidCI6IjIyODU0NjdmLWM5NmYtNDE0My05ZWRmLWU4OGQ2ODc4ZjZhYiJ9&pageName=ReportSection",
+        "dir_parent": "on",
+        "dir_file": "on-phu-windsor-essex-covid-data-cases-webpage",
+        "file_name": "on-phu-windsor-essex-covid-data-cases-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "20"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases",
+          "meta_url": "https://www.wechu.org/cv/local-updates",
+          "meta_url_name": "Windsor-Essex (PHU) - Local COVID-19 Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - York (PHU) - Individual-level case data",
         "uuid": "3821cc66-f88d-4f12-99ca-d36d368872cd",
         "active": "True",
