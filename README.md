@@ -777,16 +777,16 @@ A note about data from Quebec: when both French and English data files are avail
 * [Variants de SRAS-CoV-2 sous surveillance rehaussée](https://inspq.qc.ca/covid-19/donnees/variants)
     * Variants under enhanced surveillance (cumulative) 2: [qc/variants-2/variants-cumul.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Variants under enhanced surveillance (cumulative) 2 (alternative): [qc/vvariants-2-alternative/variants-cumul-v.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * Variants under enhanced surveillance (cumulative) 2 (archived): [qc/variants-2-archived/variants-cumul-ARCHIVES.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * Variants under enhanced surveillance (cumulative) 2 (last 8 weeks, archived): [qc/variants-2-last-8-weeks-archived/variants-cumul-8s-ARCHIVES.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Variant screening time series by RSS (weekly) 2: [qc/variant-screening-time-series-by-rss-weekly-2/variants-semaines.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * Variant screening time series by RSS (weekly) 2 (archived): [qc/variant-screening-time-series-by-rss-weekly-2-archived/variants-semaines-ARCHIVES.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Variants under enhanced surveillance (cumulative): [qc/variants/variants.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Variant screening time series by RSS (cumulative): [qc/variant-screening-time-series-by-rss-cumulative/variants-criblage.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Variant screening time series by RSS (weekly): [qc/variant-screening-time-series-by-rss-weekly/variants-criblage-sem.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Variant Rt time series: [qc/variants-rt-time-series/variants-rt.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Projection of variant dominance: [qc/variants-dominance-projection/variants-proj.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Delta variant screening time series (weekly): [qc/variant-delta-time-series-weekly/variant-delta.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Variants under enhanced surveillance (cumulative) 2 (last 8 weeks, archived): [qc/variants-2-last-8-weeks-archived/variants-cumul-8s-ARCHIVES.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Variants under enhanced surveillance (cumulative) 2 (archived): [qc/variants-2-archived/variants-cumul-ARCHIVES.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Variant screening time series by RSS (weekly) 2 (archived): [qc/variant-screening-time-series-by-rss-weekly-2-archived/variants-semaines-ARCHIVES.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [Éclosions de COVID-19 au Québec](https://www.inspq.qc.ca/covid-19/donnees/eclosions)
     * Dataset: [qc/active-outbreaks-time-series-by-setting/eclosions.csv](http://data.opencovid.ca/archive/index.html#archive/)
 * [Données COVID-19 au Québec (INSPQ)](https://www.inspq.qc.ca/covid-19/donnees)
