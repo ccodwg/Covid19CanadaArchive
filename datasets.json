@@ -1288,6 +1288,28 @@
         "notes": {}
       },
       {
+        "id_name": "CAN - Testing for COVID-19 - Canada's procurement of COVID-19 rapid tests (webpage)",
+        "uuid": "df1ae9a1-ff95-4a86-b6da-e05d164a37d4",
+        "active": "True",
+        "url": "https://www.canada.ca/en/public-services-procurement/services/securing-covid19-rapid-tests.html",
+        "dir_parent": "can",
+        "dir_file": "procurement-of-rapid-tests-webpage",
+        "file_name": "procurement-of-rapid-tests-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.canada.ca/en/public-services-procurement/services/securing-covid19-rapid-tests.html",
+          "meta_url_name": "Canada's procurement of COVID-19 rapid tests",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "CAN - Summary data about travellers, testing and compliance (webpage)",
         "uuid": "69319cc8-7f0d-4511-91e0-131b9f8775dc",
         "active": "True",
