@@ -490,6 +490,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [on/ontario-webpage/ontario-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [All Ontario: Case numbers and spread](https://covid-19.ontario.ca/data)
     * Webpage: [on/on-data-webpage/on-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+* [Hospitalizations](https://covid-19.ontario.ca/data/hospitalizations)
+    * Webpage: [on/on-hospitalization-data-webpage/on-hospitalization-data-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [Confirmed positive cases of COVID19 in Ontario](https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario/resource/455fd63b-603d-4608-8216-7d8647f43350)
     * Dataset: [on/confirmed-positive-cases/conposcovidloc.csv](http://data.opencovid.ca/archive/index.html#archive/)
 * [Status of COVID-19 cases in Ontario](https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/ed270bb8-340b-41f9-a7c6-e8ef587e6d11)
