@@ -5078,6 +5078,31 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Hospitalizations (webpage)",
+        "uuid": "3533447e-73f1-4e57-a42a-18a2bb4e91a5",
+        "active": "True",
+        "url": "https://covid-19.ontario.ca/data/hospitalizations",
+        "dir_parent": "on",
+        "dir_file": "on-hospitalization-data-webpage",
+        "file_name": "on-hospitalization-data-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://covid-19.ontario.ca/data/hospitalizations",
+          "meta_url_name": "Hospitalizations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - Confirmed positive cases of COVID19 in Ontario",
         "uuid": "921649fa-c6c0-43af-a112-23760da4d622",
         "active": "True",
