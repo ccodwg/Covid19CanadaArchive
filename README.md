@@ -190,6 +190,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [can/vaccine-rollout-webpage/vaccine-rollout-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [Testing for COVID-19: Increasing testing supply](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/symptoms/testing/increased-supply.html)
     * Webpage: [can/testing-supply-webpage/testing-supply-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
+* [Canada's procurement of COVID-19 rapid tests](https://www.canada.ca/en/public-services-procurement/services/securing-covid19-rapid-tests.html)
+    * Webpage: [can/procurement-of-rapid-tests-webpage/procurement-of-rapid-tests-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [COVID-19: Summary data about travellers, testing and compliance](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/testing-screening-contact-tracing/summary-data-travellers.html)
     * Webpage: [can/international-traveller-testing-webpage/international-traveller-testing-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [Coronavirus disease (COVID-19): Locations where you may have been exposed to COVID-19](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice/exposure-flights-cruise-ships-mass-gatherings.html)
