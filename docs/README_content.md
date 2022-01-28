@@ -28,7 +28,7 @@ Table of contents:
 
 ## Accessing the data
 
-The easiest way to explore the data in the archive and download individual files is with the interactive file explorer: [http://data.opencovid.ca/archive/index.html#archive/](http://data.opencovid.ca/archive/index.html#archive/).
+The easiest way to explore the data in the archive and download individual files is with the interactive file explorer: [https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/). A legacy version of the file explorer is [also available](http://data.opencovid.ca/archive/index.html#archive/).
 
 The files in the archive are hosted under the following domain: [https://data.opencovid.ca.s3.amazonaws.com/archive/](https://data.opencovid.ca.s3.amazonaws.com/archive/). For example, the PHAC Epidemiology Update from November 4, 2020 may be downloaded at the following URL:
 
