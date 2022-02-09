@@ -3746,19 +3746,19 @@
         "notes": {}
       },
       {
-        "id_name": "MB - COVID education statistics summary",
-        "uuid": "d7fd343e-80b8-44c0-80b8-34c5480fc516",
+        "id_name": "MB - COVID education statistics summary (2)",
+        "uuid": "900e69a9-c0c3-4141-a6c0-4d0f3d4694b7",
         "active": "True",
-        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_education_statistics_summary/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_education_stat_summary/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
         "dir_parent": "mb",
-        "dir_file": "covid-education-summary",
-        "file_name": "covid-education-summary",
+        "dir_file": "covid-education-summary-2",
+        "file_name": "mb_covid_education_statistics_summary",
         "file_ext": "json",
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "COVID education statistics summary",
+          "meta_name": "COVID education statistics summary (2)",
           "meta_url": "https://experience.arcgis.com/experience/6e7af13b3ffb447a99734b0119b169d3/",
           "meta_url_name": "COVID-19 Dashboard: K-12 Schools in Manitoba",
           "meta_licence": "",
@@ -3768,19 +3768,66 @@
         "notes": {}
       },
       {
-        "id_name": "MB - COVID educations cases last 2 weeks",
-        "uuid": "07199d75-5293-47aa-b8c2-14497956a135",
+        "id_name": "MB - COVID education cases last 2 weeks (2)",
+        "uuid": "e0141632-6ef4-4af5-8971-3ab81c535cac",
         "active": "True",
-        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_education_2week_map/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/Manitoba_COVID-19_in_Schools_-_14_Day_Report/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*",
         "dir_parent": "mb",
-        "dir_file": "covid-education-cases-last-2-weeks",
-        "file_name": "covid-education-cases-last-2-weeks",
+        "dir_file": "covid-education-cases-last-2-weeks-2",
+        "file_name": "Manitoba_COVID-19_in_Schools_-_14_Day_Report",
         "file_ext": "json",
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "COVID educations cases last 2 weeks",
+          "meta_name": "COVID education cases last 2 weeks (2)",
+          "meta_url": "https://experience.arcgis.com/experience/6e7af13b3ffb447a99734b0119b169d3/",
+          "meta_url_name": "COVID-19 Dashboard: K-12 Schools in Manitoba",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Manitoba school divisions",
+        "uuid": "3a967a4d-72c9-4e79-9b43-9054b55fbf49",
+        "active": "True",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/Manitoba_School_Divisions/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "school-divisions",
+        "file_name": "school-divisions",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Manitoba school divisions",
+          "meta_url": "https://experience.arcgis.com/experience/6e7af13b3ffb447a99734b0119b169d3/",
+          "meta_url_name": "COVID-19 Dashboard: K-12 Schools in Manitoba",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - COVID education cases - Definitions",
+        "uuid": "6bd17128-48f9-473b-bc35-7e9339163866",
+        "active": "True",
+        "url": "https://experience.arcgis.com/experience/6e7af13b3ffb447a99734b0119b169d3/page/Outbreaks/?views=Definitions",
+        "dir_parent": "mb",
+        "dir_file": "covid-education-cases-definitions",
+        "file_name": "covid-education-cases-definitions",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID education cases - Definitions",
           "meta_url": "https://experience.arcgis.com/experience/6e7af13b3ffb447a99734b0119b169d3/",
           "meta_url_name": "COVID-19 Dashboard: K-12 Schools in Manitoba",
           "meta_licence": "",
@@ -10854,28 +10901,6 @@
         "notes": {}
       },
       {
-        "id_name": "MB - Manitoba school divisions",
-        "uuid": "3a967a4d-72c9-4e79-9b43-9054b55fbf49",
-        "active": "False",
-        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/Manitoba_School_Divisions/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
-        "dir_parent": "mb",
-        "dir_file": "school-divisions",
-        "file_name": "school-divisions",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Manitoba school divisions",
-          "meta_url": "https://experience.arcgis.com/experience/6e7af13b3ffb447a99734b0119b169d3/",
-          "meta_url_name": "COVID-19 Dashboard: K-12 Schools in Manitoba",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "MB - Vaccine dashboard: Regional Health Authorities",
         "uuid": "4033a1fa-2dc2-4501-81de-66517fd9768b",
         "active": "False",
@@ -10935,6 +10960,50 @@
           "meta_name": "Health Districts",
           "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
           "meta_url_name": "Manitoba COVID-19 Vaccinations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - COVID education statistics summary",
+        "uuid": "d7fd343e-80b8-44c0-80b8-34c5480fc516",
+        "active": "False",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_education_statistics_summary/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "covid-education-summary",
+        "file_name": "covid-education-summary",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID education statistics summary",
+          "meta_url": "https://experience.arcgis.com/experience/6e7af13b3ffb447a99734b0119b169d3/",
+          "meta_url_name": "COVID-19 Dashboard: K-12 Schools in Manitoba",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - COVID education cases last 2 weeks",
+        "uuid": "07199d75-5293-47aa-b8c2-14497956a135",
+        "active": "False",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_education_2week_map/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "covid-education-cases-last-2-weeks",
+        "file_name": "covid-education-cases-last-2-weeks",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID education cases last 2 weeks",
+          "meta_url": "https://experience.arcgis.com/experience/6e7af13b3ffb447a99734b0119b169d3/",
+          "meta_url_name": "COVID-19 Dashboard: K-12 Schools in Manitoba",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Manitoba"
