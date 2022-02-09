@@ -348,9 +348,12 @@ A note about data from Quebec: when both French and English data files are avail
     * Winnipeg Community Areas: [mb/winnipeg-community-areas/bdy_wha_community_areas_py_shp.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Health Districts: [mb/health-districts/Health_Districts.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [COVID-19 Dashboard: K-12 Schools in Manitoba](https://experience.arcgis.com/experience/6e7af13b3ffb447a99734b0119b169d3/)
-    * COVID education statistics summary: [mb/covid-education-summary/covid-education-summary.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * COVID educations cases last 2 weeks: [mb/covid-education-cases-last-2-weeks/covid-education-cases-last-2-weeks.json](http://data.opencovid.ca/archive/index.html#archive/)
-    * Manitoba school divisions: [mb/school-divisions/school-divisions.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * COVID education statistics summary (2): [mb/covid-education-summary-2/mb_covid_education_statistics_summary.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * COVID education cases last 2 weeks (2): [mb/covid-education-cases-last-2-weeks-2/Manitoba_COVID-19_in_Schools_-_14_Day_Report.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * Manitoba school divisions: [mb/school-divisions/school-divisions.json](http://data.opencovid.ca/archive/index.html#archive/)
+    * COVID education cases - Definitions: [mb/covid-education-cases-definitions/covid-education-cases-definitions.html](http://data.opencovid.ca/archive/index.html#archive/)
+    * COVID education statistics summary: [mb/covid-education-summary/covid-education-summary.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * COVID education cases last 2 weeks: [mb/covid-education-cases-last-2-weeks/covid-education-cases-last-2-weeks.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [Cases and Risk of COVID-19 in Manitoba](https://www.gov.mb.ca/covid19/updates/cases.html)
     * COVID-19 Variant of Concern Cases in Manitoba: [mb/cumulative-variants-by-rha/mb_covid_variants.json](http://data.opencovid.ca/archive/index.html#archive/)
     * COVID-19 Cases by vaccination status: [mb/daily-cases-by-vaccination-status/mb_covid_cases_by_vaccination_status.json](http://data.opencovid.ca/archive/index.html#archive/)
