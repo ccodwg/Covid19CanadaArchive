@@ -532,11 +532,9 @@ A note about data from Quebec: when both French and English data files are avail
     * LTC home COVID-19 staff vaccination rates: [on/long-term-care-home-staff-vaccination-rates/ltc_immunization_data.csv](http://data.opencovid.ca/archive/index.html#archive/)
 * [COVID-19 cases in schools](https://www.ontario.ca/page/covid-19-cases-schools)
     * Webpage: [on/cases-schools-webpage/cases-schools-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
-* [COVID-19 cases in child care centres](https://www.ontario.ca/page/covid-19-cases-child-care-centres)
-    * Webpage: [on/cases-child-care-centres-webpage/cases-child-care-centres-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [Schools COVID-19 data](https://data.ontario.ca/dataset/summary-of-cases-in-schools)
-    * 2021-22: Summary of cases in schools: [on/schools-summary-2021-2022/schoolcovidsummary2021_2022.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * 2021-22: Schools with recent COVID-19 cases: [on/schools-recent-2021-2022/schoolrecentcovid2021_2022.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * 2022: School Closures: [on/school-closures-2022/schoolclosures2022.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * 2022: School Closures: [on/school-absences-2022/schoolabsences2022.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Summary of cases in schools: [on/schools-summary/schoolcovidsummary.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Schools with active COVID-19 cases: [on/schools-active/schoolsactivecovid.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * Cases in school board partners: [on/school-board-partners/schoolpartnersactivecovid.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
@@ -545,9 +543,14 @@ A note about data from Quebec: when both French and English data files are avail
     * School Targeted Testing Partners: [on/school-targeted-testing-partners/schoolcovidtesting_partners.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * School Pharmacy Testing: [on/school-pharmacy-testing/school_pharmacy_covidtesting.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
     * School Pharmacy Testing Locations: [on/school-pharmacy-testing-locations/school-pharmacy-testing-locations.json](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * 2021-22: Summary of cases in schools: [on/schools-summary-2021-2022/schoolcovidsummary2021_2022.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * 2021-22: Schools with recent COVID-19 cases: [on/schools-recent-2021-2022/schoolrecentcovid2021_2022.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+* [COVID-19 cases in child care centres](https://www.ontario.ca/page/covid-19-cases-child-care-centres)
+    * Webpage: [on/cases-child-care-centres-webpage/cases-child-care-centres-webpage.html](http://data.opencovid.ca/archive/index.html#archive/)
 * [Licensed child care settings COVID-19 data](https://data.ontario.ca/dataset/summary-of-cases-in-licensed-child-care-settings)
-    * Summary of cases in licensed child care settings: [on/licensed-child-care-settings-summary/lccovidsummary.csv](http://data.opencovid.ca/archive/index.html#archive/)
-    * Licensed child care centres and agencies with active COVID-19 cases: [on/licensed-child-care-settings-active/lccactivecovid.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * 2022: Child Care Centre Closures: [on/licensed-child-care-centre-closures-2022/lccclosures2022.csv](http://data.opencovid.ca/archive/index.html#archive/)
+    * Licensed child care centres and agencies with active COVID-19 cases: [on/licensed-child-care-settings-active/lccactivecovid.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
+    * Summary of cases in licensed child care settings: [on/licensed-child-care-settings-summary/lccovidsummary.csv](http://data.opencovid.ca/archive/index.html#archive/) [inactive, no longer updated]
 * [COVID-19 Vaccine Data in Ontario](https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario)
     * Vaccine data: [on/vaccine-data/vaccine_doses.csv](http://data.opencovid.ca/archive/index.html#archive/)
     * Vaccine data by age: [on/vaccine-data-by-age/vaccines_by_age.csv](http://data.opencovid.ca/archive/index.html#archive/)
