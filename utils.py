@@ -13,7 +13,7 @@ def gen_readme():
   ## function: process metadata into list entries
   def meta_items(ds, txt):
     # generic archive index link
-    archive_link = 'http://data.opencovid.ca/archive/index.html#archive/'
+    archive_link = 'https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/'
     # processing
     urls = list({d: ds[d]['metadata']['meta_url'] for d in ds}.values())
     urls = list(dict.fromkeys(urls)) # remove duplicates

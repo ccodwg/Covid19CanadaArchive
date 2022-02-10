@@ -20,7 +20,6 @@ Table of contents:
   * [Retire an inactive dataset](#retire-an-inactive-dataset)
   * [Contribute historical data](#contribute-historical-data)
 * [Recommended citation](#recommended-citation)
-* [Running archiver.py](#running-archiverpy)
 * [Data catalogue](#data-catalogue)
 * [Notes about the data archive](#notes-about-the-data-archive)
 * [Notes about the archival tool](#notes-about-the-archival-tool)
