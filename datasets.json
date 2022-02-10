@@ -6368,6 +6368,52 @@
         }
       },
       {
+        "id_name": "ON - COVID-19 Testing Sites",
+        "uuid": "bc6247fd-cbc9-4b70-b995-e505ec47b95c",
+        "active": "True",
+        "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/download_resource/308efc49-5428-439a-b504-e327ab632c4f?format=geojson&projection=4326",
+        "dir_parent": "on",
+        "dir_file": "toronto-testing-sites",
+        "file_name": "covid-19-testing-sites",
+        "file_ext": "geojson",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://open.toronto.ca/dataset/covid-19-testing-sites/",
+          "meta_url_name": "COVID-19 Testing Sites",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Toronto"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - COVID-19 Immunization Clinics",
+        "uuid": "6854ad10-999b-4165-878d-be1dbed769c0",
+        "active": "True",
+        "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/download_resource/00ebee09-a602-4f82-978b-ad0a40f3846f?format=geojson&projection=4326",
+        "dir_parent": "on",
+        "dir_file": "toronto-immunization-clinics",
+        "file_name": "covid-19-immunization-clinics",
+        "file_ext": "geojson",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://open.toronto.ca/dataset/covid-19-immunization-clinics/",
+          "meta_url_name": "COVID-19 Immunization Clinics",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Toronto"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - Ottawa Demographics and Source of Infection for Cases, Deaths, and Hospitalizations",
         "uuid": "d8d4cbc6-d0a5-4544-ad3e-5a3c3060f973",
         "active": "True",
