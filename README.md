@@ -702,6 +702,10 @@ A note about data from Quebec: when both French and English data files are avail
     * Dataset: [on/toronto-active-outbreaks/CityofToronto_COVID-19_OutbreakData.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19 Cases in Toronto](https://open.toronto.ca/dataset/covid-19-cases-in-toronto/)
     * Dataset: [on/toronto-cases/COVID19_cases.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [COVID-19 Testing Sites](https://open.toronto.ca/dataset/covid-19-testing-sites/)
+    * Dataset: [on/toronto-testing-sites/covid-19-testing-sites.geojson](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [COVID-19 Immunization Clinics](https://open.toronto.ca/dataset/covid-19-immunization-clinics/)
+    * Dataset: [on/toronto-immunization-clinics/covid-19-immunization-clinics.geojson](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID 19: Ethno-Racial Identity & Income](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-pandemic-data/covid-19-ethno-racial-group-income-infection-data/)
     * Dataset: [on/toronto-ethno-racial-income/Ethno-Racial_Group,_Income,_and_COVID-19_Infection.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 </details>
