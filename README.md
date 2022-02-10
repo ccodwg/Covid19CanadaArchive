@@ -883,6 +883,10 @@ A note about data from Quebec: when both French and English data files are avail
     * Highlights, charts, tables (legacy): [sk/vaccination-by-region-highlights-charts-tables-legacy/health-wellness-covid-19-vaccines-vaccines.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Cases and Risk of COVID-19 in Saskatchewan](https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan)
     * Webpage: [sk/summary-and-variant-webpage/summary-and-variant-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [COVID-19 Active Outbreaks](https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/covid-19-active-outbreaks)
+    * Webpage: [sk/active-outbreaks-webpage/active-outbreaks-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [Weekly Monitoring Report - Children and Youth](https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/weekly-monitoring-report-children-and-youth)
+    * Webpage: [sk/children-youth-weekly-report-webpage/children-youth-weekly-report-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 </details>
 <details>
 <summary><b>Yukon</b></summary>
