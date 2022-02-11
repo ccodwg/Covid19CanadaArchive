@@ -5845,6 +5845,28 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Rapid testing for at-home use (JSON)",
+        "uuid": "1716b663-7aad-40a1-abf1-9e257177ab97",
+        "active": "True",
+        "url": "https://api.ontario.ca/api/data/79527?count=0&download=1",
+        "dir_parent": "on",
+        "dir_file": "rapid-testing-participating-locations",
+        "file_name": "moh-covid-19-rapid-testing-home-use",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset (JSON)",
+          "meta_url": "https://www.ontario.ca/page/rapid-testing-home-use",
+          "meta_url_name": "Rapid testing for at-home use",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "Public Health Ontario: COVID-19 Data and Surveillance - Daily epidemiologic summary",
         "uuid": "6eee7470-216f-4332-84ab-8d28875688d6",
         "active": "True",
