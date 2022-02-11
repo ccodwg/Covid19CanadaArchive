@@ -726,6 +726,10 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [pe/pei-potential-exposures-webpage/pei-potential-exposures-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Possible Air Travel Exposures](https://www.princeedwardisland.ca/en/information/health-and-wellness/possible-air-travel-exposures)
     * Webpage: [pe/pei-possible-air-travel-exposures-webpage/pei-possible-air-travel-exposures-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [https://edu.princeedwardisland.ca/psb/parents_students/covid-19-resources/potential-covid-19-school-exposures/](Potential COVID-19 School Exposures)
+    * Webpage: [pe/pei-potential-school-exposures-webpage/pei-potential-school-exposures-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [Potential COVID-19 School Exposures (French School Board)](https://cslf.edu.pe.ca/avis-dexposition-covid-19)
+    * Webpage: [pe/pei-potential-school-exposures-french-school-board-webpage/pei-potential-school-exposures-french-school-board-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 </details>
 <details>
 <summary><b>Quebec</b></summary>
