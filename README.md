@@ -558,8 +558,6 @@ A note about data from Quebec: when both French and English data files are avail
     * Cases and rates by vaccination status: [on/cases-and-rates-by-vaccination-status/cases_by_vac_status.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Hospitalizations by vaccination status: [on/hospitalizations-by-vaccination-status/vac_status_hosp_icu.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Case rates by vaccination status and age group: [on/case-rates-by-vaccination-status-and-age-group/cases_by_age_vac_status.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-* [Rapid testing for at-home use](https://www.ontario.ca/page/rapid-testing-home-use)
-    * Dataset (JSON): [on/rapid-testing-participating-locations/moh-covid-19-rapid-testing-home-use.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [ICES COVID-19 Dashboard](https://www.ices.on.ca/DAS/AHRQ/COVID-19-Dashboard)
     * Percent positivity by FSA: [on/ices-percent-positivity-by-fsa/ICES-COVID19-Testing-Data-FSA-percent-positivity.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Percent positivity by age group and Public Health Unit (PHU): [on/ices-percent-positivity-by-age-group-and-phu/ICES-COVID19-Testing-Data_PHUxAge-Groups-percent-positivity.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
@@ -569,6 +567,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Map and list of Forward Sortation Areas (FSAs) by neighbourhood risk group: [on/ices-fsa-by-neighbourhood-risk-group/ICES-COVID19-Dashboard-Neighbourhood-Risk-Groups-Reference-File.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [COVID-19 cases in schools and child care centres](https://www.ontario.ca/page/covid-19-cases-schools-and-child-care-centres)
     * Webpage: [on/cases-schools-and-child-care-centres-webpage/cases-schools-and-child-care-centres-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [Rapid testing for at-home use](https://www.ontario.ca/page/rapid-testing-home-use)
+    * Dataset (JSON): [on/rapid-testing-participating-locations/moh-covid-19-rapid-testing-home-use.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 
 <details>
 <summary><i>Ontario universities</i></summary>
