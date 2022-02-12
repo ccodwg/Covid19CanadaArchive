@@ -7152,7 +7152,9 @@
           "meta_group_1": "Ontario",
           "meta_group_2": "Public Health Units"
         },
-        "notes": {}
+        "notes": {
+          "notes_data": "As of 2022-02-11, this page shows vaccination data for Halton (rather than case counts)."
+        }
       },
       {
         "id_name": "ON - Hamilton (PHU) - COVID-19 data - cases & tests (webpage)",
