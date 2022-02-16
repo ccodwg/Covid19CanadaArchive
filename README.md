@@ -728,14 +728,14 @@ A note about data from Quebec: when both French and English data files are avail
     * Dataset: [pe/vaccine-data-cumulative/Vaccine_Rollout.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19 news releases](https://www.princeedwardisland.ca/en/search/site?f%5B0%5D=type%3Anews&f%5B1%5D=field_news_type%3A22&f%5B2%5D=field_department%3A612)
     * Webpage: [pe/covid-news-release-webpage/covid-news-release-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-* [Potential COVID-19 Exposures](https://www.princeedwardisland.ca/en/information/health-and-wellness/potential-covid-19-exposures)
-    * Webpage: [pe/pei-potential-exposures-webpage/pei-potential-exposures-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-* [Possible Air Travel Exposures](https://www.princeedwardisland.ca/en/information/health-and-wellness/possible-air-travel-exposures)
-    * Webpage: [pe/pei-possible-air-travel-exposures-webpage/pei-possible-air-travel-exposures-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [https://edu.princeedwardisland.ca/psb/parents_students/covid-19-resources/potential-covid-19-school-exposures/](Potential COVID-19 School Exposures)
     * Webpage: [pe/pei-potential-school-exposures-webpage/pei-potential-school-exposures-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Potential COVID-19 School Exposures (French School Board)](https://cslf.edu.pe.ca/avis-dexposition-covid-19)
     * Webpage: [pe/pei-potential-school-exposures-french-school-board-webpage/pei-potential-school-exposures-french-school-board-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [Possible Air Travel Exposures](https://www.princeedwardisland.ca/en/information/health-and-wellness/possible-air-travel-exposures)
+    * Webpage: [pe/pei-possible-air-travel-exposures-webpage/pei-possible-air-travel-exposures-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [Potential COVID-19 Exposures](https://www.princeedwardisland.ca/en/information/health-and-wellness/potential-covid-19-exposures)
+    * Webpage: [pe/pei-potential-exposures-webpage/pei-potential-exposures-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 </details>
 <details>
 <summary><b>Quebec</b></summary>
