@@ -7920,56 +7920,6 @@
         "notes": {}
       },
       {
-        "id_name": "PE - Potential COVID-19 Exposures (webpage)",
-        "uuid": "d7cf25ac-9015-4494-b1d2-a53e78004cb5",
-        "active": "True",
-        "url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/potential-covid-19-exposures",
-        "dir_parent": "pe",
-        "dir_file": "pei-potential-exposures-webpage",
-        "file_name": "pei-potential-exposures-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "user": "True",
-          "js": "True",
-          "wait": "5"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/potential-covid-19-exposures",
-          "meta_url_name": "Potential COVID-19 Exposures",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Prince Edward Island"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "PE - Possible Air Travel Exposures (webpage)",
-        "uuid": "41670b43-e0d2-4008-b126-970d907d21b4",
-        "active": "True",
-        "url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/possible-air-travel-exposures",
-        "dir_parent": "pe",
-        "dir_file": "pei-possible-air-travel-exposures-webpage",
-        "file_name": "pei-possible-air-travel-exposures-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "user": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/possible-air-travel-exposures",
-          "meta_url_name": "Possible Air Travel Exposures",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Prince Edward Island"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "PE - Potential COVID-19 School Exposures (webpage)",
         "uuid": "5ba188ec-b973-463d-8462-fdd914b6802e",
         "active": "True",
@@ -12520,7 +12470,58 @@
         "notes": {}
       }
     ],
-    "pe": [],
+    "pe": [
+      {
+        "id_name": "PE - Possible Air Travel Exposures (webpage)",
+        "uuid": "41670b43-e0d2-4008-b126-970d907d21b4",
+        "active": "False",
+        "url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/possible-air-travel-exposures",
+        "dir_parent": "pe",
+        "dir_file": "pei-possible-air-travel-exposures-webpage",
+        "file_name": "pei-possible-air-travel-exposures-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/possible-air-travel-exposures",
+          "meta_url_name": "Possible Air Travel Exposures",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Prince Edward Island"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "PE - Potential COVID-19 Exposures (webpage)",
+        "uuid": "d7cf25ac-9015-4494-b1d2-a53e78004cb5",
+        "active": "False",
+        "url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/potential-covid-19-exposures",
+        "dir_parent": "pe",
+        "dir_file": "pei-potential-exposures-webpage",
+        "file_name": "pei-potential-exposures-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "user": "True",
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/potential-covid-19-exposures",
+          "meta_url_name": "Potential COVID-19 Exposures",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Prince Edward Island"
+        },
+        "notes": {}
+      }
+    ],
     "qc": [
       {
         "id_name": "QC - Outbreaks by setting (EN)",
