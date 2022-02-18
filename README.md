@@ -905,6 +905,17 @@ A note about data from Quebec: when both French and English data files are avail
 <details>
 <summary><b>Yukon</b></summary>
 
+* [COVID-19 data dashboard](https://covid-19-data-dashboard.service.yukon.ca/)
+    * Cases by vaccine status weekly time series: [yt/cases-by-vaccine-status-weekly-time-series/Cases_by_vax_status_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Cases time series: [yt/cases-time-series/Cases_time_trend_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Cumulative and active cases by community: [yt/cumulative-and-active-cases-by-community/Community_cases_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Daily current stats: [yt/daily-current-stats/Daily_current_stats_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Case rate by vaccination status monthly time series: [yt/case-rate-by-vaccination-status-monthly-time-series/Monthly_rate_by_vax_status_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Vaccine coverage by gender: [yt/vaccine-coverage-by-gender/Vaccines_(gender)_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Vaccine coverage by age group: [yt/vaccine-coverage-by-age-group/Vaccines_(age_group)_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Vaccine coverage by community and age group: [yt/vaccine-coverage-by-community-and-age-group/Community_vaccinations_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Testing time series: [yt/testing-time-series/Testing_time_trend_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Hospitalization time series: [yt/hospitalization-time-series/Hospitalizations_by_day_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Case and vaccine counts: COVID-19](https://yukon.ca/en/case-counts-covid-19)
     * Webpage: [yt/yukon-case-counts-webpage/yukon-case-counts-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Current COVID-19 situation](https://yukon.ca/en/health-and-wellness/covid-19-information/latest-updates-covid-19/current-covid-19-situation)
