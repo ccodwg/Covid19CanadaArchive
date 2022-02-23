@@ -617,6 +617,7 @@ A note about data from Quebec: when both French and English data files are avail
 * [Public Health Ontario: COVID-19 Data and Surveillance](https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance)
     * Daily epidemiologic summary: [on/pho-daily-epi-summary-report/covid-19-daily-epi-summary-report.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Weekly epidemiologic summary: [on/pho-weekly-epi-summary-report/covid-19-weekly-epi-summary-report.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * COVID-19 Cases with Severe Outcomes: [on/pho-cases-with-severe-outcomes-report/covid-19-cases-severe-outcomes-epi-summary.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * SARS-CoV-2 Whole Genome Sequencing in Ontario: [on/pho-wgs-summary-report/covid-19-sars-cov2-whole-genome-sequencing-epi-summary.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * COVID-19 in Long-Term Care Homes: [on/pho-ltc-summary-report/covid-19-long-term-care-epi-summary.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * COVID-19 Regional Incidence and Time to Case Notification in Ontario: [on/pho-regional-summary-report/covid-19-regional-epi-summary-report.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
