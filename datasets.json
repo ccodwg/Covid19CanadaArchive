@@ -5048,7 +5048,7 @@
         "id_name": "NU - COVID-19 Vaccination Table",
         "uuid": "bd18a4e4-bc22-47c6-b601-1aae39667a03",
         "active": "True",
-        "url_fun_python": "import re; import requests; url_current = 'https://www.gov.nu.ca' + re.search('(?<=src=\")/sites/default/files/.*vaccine_table.*\\.jpg', requests.get('https://www.gov.nu.ca/health/information/covid-19-vaccination').text).group(0)",
+        "url_fun_python": "import re; import requests; url_current = 'https://www.gov.nu.ca' + re.search('(?<=src=\")/sites/default/files/.*\\.jpg', requests.get('https://www.gov.nu.ca/health/information/covid-19-vaccination').text).group(0)",
         "url_fun_r": "library(rvest); paste0('https://www.gov.nu.ca', html_attr(html_elements(html_node(read_html('https://www.gov.nu.ca/health/information/covid-19-vaccination'), 'body'), 'img')[[2]], 'src'))",
         "dir_parent": "nu",
         "dir_file": "nunavut-vaccination-table",
