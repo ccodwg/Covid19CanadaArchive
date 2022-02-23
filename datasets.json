@@ -5895,6 +5895,31 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Public Health Ontario: COVID-19 Data and Surveillance - COVID-19 Cases with Severe Outcomes",
+        "uuid": "ecbd0ad8-6425-445f-a89a-294431c0100f",
+        "active": "True",
+        "url": "https://www.publichealthontario.ca/-/media/Documents/nCoV/epi/covid-19-cases-severe-outcomes-epi-summary.pdf?sc_lang=en",
+        "dir_parent": "on",
+        "dir_file": "pho-cases-with-severe-outcomes-report",
+        "file_name": "covid-19-cases-severe-outcomes-epi-summary",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID-19 Cases with Severe Outcomes",
+          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance",
+          "meta_url_name": "Public Health Ontario: COVID-19 Data and Surveillance",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Ontario"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - Public Health Ontario: COVID-19 Data and Surveillance - SARS-CoV-2 Whole Genome Sequencing in Ontario",
         "uuid": "3f3c2731-be92-4ec4-825e-0db90d534f24",
         "active": "True",
