@@ -569,6 +569,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [on/cases-schools-and-child-care-centres-webpage/cases-schools-and-child-care-centres-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Rapid testing for at-home use](https://www.ontario.ca/page/rapid-testing-home-use)
     * Dataset (JSON): [on/rapid-testing-participating-locations/moh-covid-19-rapid-testing-home-use.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Dataset (CSV): [on/rapid-testing-participating-locations-csv/moh-covid-19-rapid-testing-home-use.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 
 <details>
 <summary><i>Ontario universities</i></summary>
