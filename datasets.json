@@ -2056,28 +2056,6 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Detailed variant prevalence time series)",
-        "uuid": "dceeaea4-5355-4ac1-b284-c6074e136cc3",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-variants-detailed-download.csv",
-        "dir_parent": "can",
-        "dir_file": "variant-prevalence-time-series-detailed",
-        "file_name": "covid19-epiSummary-variants-detailed-download",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Detailed variant prevalence time series",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "CAN - COVID-19 daily epidemiology update (Variant contributing labs)",
         "uuid": "1f38590d-2bc1-4dbb-8910-643c5c180dc6",
         "active": "True",
@@ -3614,138 +3592,6 @@
         "notes": {}
       },
       {
-        "id_name": "MB - Vaccine dashboard First Nations: vaccination time series",
-        "uuid": "897d9f78-7b91-44e8-80df-e59204be4bb2",
-        "active": "True",
-        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mbfn_covid_vaccinations_daily_cumulative/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "mb",
-        "dir_file": "first-nations-vaccination-time-series",
-        "file_name": "mbfn_covid_vaccinations_daily_cumulative",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "First Nations vaccination time series",
-          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
-          "meta_url_name": "Manitoba COVID-19 Vaccinations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "MB - Vaccine dashboard First Nations: vaccination by age group and sex",
-        "uuid": "b6686dd0-e0b6-47c9-a160-5fa6f197edb1",
-        "active": "True",
-        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mbfn_covid_vaccinations_demographics/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "mb",
-        "dir_file": "first-nations-vaccination-by-age-sex",
-        "file_name": "mbfn_covid_vaccinations_demographics",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "First Nations vaccination by age group and sex",
-          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
-          "meta_url_name": "Manitoba COVID-19 Vaccinations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "MB - Vaccine dashboard First Nations: vaccination by provider",
-        "uuid": "182bc88a-cceb-4160-9c77-4533b2eacb3a",
-        "active": "True",
-        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mbfn_covid_vaccinations_provider_summary/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "mb",
-        "dir_file": "first-nations-vaccination-by-provider",
-        "file_name": "mbfn_covid_vaccinations_provider_summary",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "First Nations vaccination by provider",
-          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
-          "meta_url_name": "Manitoba COVID-19 Vaccinations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "MB - Vaccine dashboard First Nations: vaccination by Regional Health Authority",
-        "uuid": "99f6f926-05b9-4807-bd00-7aa582bdfdb2",
-        "active": "True",
-        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mbfn_covid_vaccinations_rha_summary/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "mb",
-        "dir_file": "first-nations-vaccination-by-rha",
-        "file_name": "mbfn_covid_vaccinations_rha_summary",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "First Nations vaccination by Regional Health Authority",
-          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
-          "meta_url_name": "Manitoba COVID-19 Vaccinations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "MB - Vaccine dashboard First Nations: vaccination summary on reserve and off reserve",
-        "uuid": "0787d620-9d2e-4f80-a65f-98b05476bd81",
-        "active": "True",
-        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mbfn_covid_vaccinations_summary_statistics/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "mb",
-        "dir_file": "first-nations-vaccination-summary-on-reserve-off-reserve",
-        "file_name": "mbfn_covid_vaccinations_summary_statistics",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "First Nations vaccination summary on reserve and off reserve",
-          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
-          "meta_url_name": "Manitoba COVID-19 Vaccinations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "MB - Vaccine dashboard First Nations: vaccination by Tribal Council Region",
-        "uuid": "09e5e271-b204-46f5-852e-3f1b99e46df4",
-        "active": "True",
-        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mbfn_covid_vaccinations_tribal_council_summary/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "mb",
-        "dir_file": "first-nations-vaccination-by-tribal-council-region",
-        "file_name": "mbfn_covid_vaccinations_tribal_council_summary",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "First nations vaccination by Tribal Council Region",
-          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
-          "meta_url_name": "Manitoba COVID-19 Vaccinations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "MB - COVID education statistics summary (2)",
         "uuid": "900e69a9-c0c3-4141-a6c0-4d0f3d4694b7",
         "active": "True",
@@ -3837,50 +3683,6 @@
         "notes": {}
       },
       {
-        "id_name": "MB - COVID-19 Variant of Concern Cases in Manitoba",
-        "uuid": "91490caf-494c-4db3-8018-d9f6350c2051",
-        "active": "True",
-        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_variants/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
-        "dir_parent": "mb",
-        "dir_file": "cumulative-variants-by-rha",
-        "file_name": "mb_covid_variants",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "COVID-19 Variant of Concern Cases in Manitoba",
-          "meta_url": "https://www.gov.mb.ca/covid19/updates/cases.html",
-          "meta_url_name": "Cases and Risk of COVID-19 in Manitoba",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "MB - COVID-19 Cases by vaccination status",
-        "uuid": "cc3a399c-f4a1-4bfa-af4d-1786a6482652",
-        "active": "True",
-        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_by_vaccination_status/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
-        "dir_parent": "mb",
-        "dir_file": "daily-cases-by-vaccination-status",
-        "file_name": "mb_covid_cases_by_vaccination_status",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "COVID-19 Cases by vaccination status",
-          "meta_url": "https://www.gov.mb.ca/covid19/updates/cases.html",
-          "meta_url_name": "Cases and Risk of COVID-19 in Manitoba",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "MB - Select COVID-19 Outbreaks in Manitoba",
         "uuid": "4688b79c-eed6-4911-8111-e6d4b7442f4b",
         "active": "True",
@@ -3899,29 +3701,6 @@
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Manitoba"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "MB - COVID-19 By-law Enforcement (Winnipeg)",
-        "uuid": "dcbae7c9-bbf9-46c0-a181-4c10bb06de10",
-        "active": "True",
-        "url": "https://data.winnipeg.ca/api/views/ndr6-96vi/rows.csv?accessType=DOWNLOAD",
-        "dir_parent": "mb",
-        "dir_file": "winnipeg-by-law-enforcement",
-        "file_name": "COVID-19_By-law_Enforcement",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dataset",
-          "meta_url": "https://data.winnipeg.ca/Neighbourhood-Liveability-Property-Standards-Licen/COVID-19-By-law-Enforcement/ndr6-96vi",
-          "meta_url_name": "COVID-19 By-law Enforcement",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba",
-          "meta_group_2": "Winnipeg"
         },
         "notes": {}
       }
@@ -4060,28 +3839,6 @@
         "notes": {}
       },
       {
-        "id_name": "NB - Current COVID-19 statistics by Health Zone",
-        "uuid": "e3c7a370-08e4-4e7a-b61d-48b8eee8dd48",
-        "active": "True",
-        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/WinterPlanLevel/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
-        "dir_parent": "nb",
-        "dir_file": "current-covid-stats-by-zone",
-        "file_name": "WinterPlanLevel",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Current COVID-19 statistics by Health Zone",
-          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
-          "meta_url_name": "New Brunswick COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "New Brunswick"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "NB - COVID-19 hospitalization/ICU time series",
         "uuid": "4cf063fa-1bca-409c-867c-f710ef9d17e5",
         "active": "True",
@@ -4161,28 +3918,6 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Case/hospitalization/ICU/death rate by vaccination status",
-          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
-          "meta_url_name": "New Brunswick COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "New Brunswick"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "NB - COVID-19 schools 2021",
-        "uuid": "66d02ad0-b0b5-4644-a1e2-59ec717a10f1",
-        "active": "True",
-        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/Covid19SchoolsData/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
-        "dir_parent": "nb",
-        "dir_file": "covid-schools-2021",
-        "file_name": "Covid19SchoolsData",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "COVID-19 schools 2021",
           "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
           "meta_url_name": "New Brunswick COVID-19 Dashboard",
           "meta_licence": "",
@@ -8051,30 +7786,6 @@
         "notes": {}
       },
       {
-        "id_name": "QC - Outbreaks by setting (FR)",
-        "uuid": "b2cd8112-7423-4da3-9b70-567aec42e05b",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/eclosions-par-milieu.csv",
-        "dir_parent": "qc",
-        "dir_file": "outbreaks-by-setting",
-        "file_name": "eclosions-par-milieu",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Outbreaks by setting (FR)",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
-          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "QC - Cases percentage by age group (FR)",
         "uuid": "b9d563b5-2cc4-45f8-ad7c-a43ba2ca967e",
         "active": "True",
@@ -11007,6 +10718,28 @@
           "meta_group_1": "Canada"
         },
         "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 daily epidemiology update (Detailed variant prevalence time series)",
+        "uuid": "dceeaea4-5355-4ac1-b284-c6074e136cc3",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-variants-detailed-download.csv",
+        "dir_parent": "can",
+        "dir_file": "variant-prevalence-time-series-detailed",
+        "file_name": "covid19-epiSummary-variants-detailed-download",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Detailed variant prevalence time series",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
+          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
       }
     ],
     "mb": [
@@ -11320,6 +11053,205 @@
           "meta_group_1": "Manitoba"
         },
         "notes": {}
+      },
+      {
+        "id_name": "MB - COVID-19 Variant of Concern Cases in Manitoba",
+        "uuid": "91490caf-494c-4db3-8018-d9f6350c2051",
+        "active": "False",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_variants/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "cumulative-variants-by-rha",
+        "file_name": "mb_covid_variants",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID-19 Variant of Concern Cases in Manitoba",
+          "meta_url": "https://www.gov.mb.ca/covid19/updates/cases.html",
+          "meta_url_name": "Cases and Risk of COVID-19 in Manitoba",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Vaccine dashboard First Nations: vaccination by provider",
+        "uuid": "182bc88a-cceb-4160-9c77-4533b2eacb3a",
+        "active": "False",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mbfn_covid_vaccinations_provider_summary/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "first-nations-vaccination-by-provider",
+        "file_name": "mbfn_covid_vaccinations_provider_summary",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "First Nations vaccination by provider",
+          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
+          "meta_url_name": "Manitoba COVID-19 Vaccinations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Vaccine dashboard First Nations: vaccination by Tribal Council Region",
+        "uuid": "09e5e271-b204-46f5-852e-3f1b99e46df4",
+        "active": "False",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mbfn_covid_vaccinations_tribal_council_summary/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "first-nations-vaccination-by-tribal-council-region",
+        "file_name": "mbfn_covid_vaccinations_tribal_council_summary",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "First nations vaccination by Tribal Council Region",
+          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
+          "meta_url_name": "Manitoba COVID-19 Vaccinations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Vaccine dashboard First Nations: vaccination by Regional Health Authority",
+        "uuid": "99f6f926-05b9-4807-bd00-7aa582bdfdb2",
+        "active": "False",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mbfn_covid_vaccinations_rha_summary/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "first-nations-vaccination-by-rha",
+        "file_name": "mbfn_covid_vaccinations_rha_summary",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "First Nations vaccination by Regional Health Authority",
+          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
+          "meta_url_name": "Manitoba COVID-19 Vaccinations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Vaccine dashboard First Nations: vaccination summary on reserve and off reserve",
+        "uuid": "0787d620-9d2e-4f80-a65f-98b05476bd81",
+        "active": "False",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mbfn_covid_vaccinations_summary_statistics/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "first-nations-vaccination-summary-on-reserve-off-reserve",
+        "file_name": "mbfn_covid_vaccinations_summary_statistics",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "First Nations vaccination summary on reserve and off reserve",
+          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
+          "meta_url_name": "Manitoba COVID-19 Vaccinations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Vaccine dashboard First Nations: vaccination time series",
+        "uuid": "897d9f78-7b91-44e8-80df-e59204be4bb2",
+        "active": "False",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mbfn_covid_vaccinations_daily_cumulative/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "first-nations-vaccination-time-series",
+        "file_name": "mbfn_covid_vaccinations_daily_cumulative",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "First Nations vaccination time series",
+          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
+          "meta_url_name": "Manitoba COVID-19 Vaccinations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Vaccine dashboard First Nations: vaccination by age group and sex",
+        "uuid": "b6686dd0-e0b6-47c9-a160-5fa6f197edb1",
+        "active": "False",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mbfn_covid_vaccinations_demographics/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "first-nations-vaccination-by-age-sex",
+        "file_name": "mbfn_covid_vaccinations_demographics",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "First Nations vaccination by age group and sex",
+          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
+          "meta_url_name": "Manitoba COVID-19 Vaccinations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - COVID-19 Cases by vaccination status",
+        "uuid": "cc3a399c-f4a1-4bfa-af4d-1786a6482652",
+        "active": "False",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_cases_by_vaccination_status/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "daily-cases-by-vaccination-status",
+        "file_name": "mb_covid_cases_by_vaccination_status",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID-19 Cases by vaccination status",
+          "meta_url": "https://www.gov.mb.ca/covid19/updates/cases.html",
+          "meta_url_name": "Cases and Risk of COVID-19 in Manitoba",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - COVID-19 By-law Enforcement (Winnipeg)",
+        "uuid": "dcbae7c9-bbf9-46c0-a181-4c10bb06de10",
+        "active": "False",
+        "url": "https://data.winnipeg.ca/api/views/ndr6-96vi/rows.csv?accessType=DOWNLOAD",
+        "dir_parent": "mb",
+        "dir_file": "winnipeg-by-law-enforcement",
+        "file_name": "COVID-19_By-law_Enforcement",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://data.winnipeg.ca/Neighbourhood-Liveability-Property-Standards-Licen/COVID-19-By-law-Enforcement/ndr6-96vi",
+          "meta_url_name": "COVID-19 By-law Enforcement",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba",
+          "meta_group_2": "Winnipeg"
+        },
+        "notes": {}
       }
     ],
     "nb": [
@@ -11623,6 +11555,50 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Provincial case, death, recovered time series",
+          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
+          "meta_url_name": "New Brunswick COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NB - Current COVID-19 statistics by Health Zone",
+        "uuid": "e3c7a370-08e4-4e7a-b61d-48b8eee8dd48",
+        "active": "False",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/WinterPlanLevel/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "nb",
+        "dir_file": "current-covid-stats-by-zone",
+        "file_name": "WinterPlanLevel",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Current COVID-19 statistics by Health Zone",
+          "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
+          "meta_url_name": "New Brunswick COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NB - COVID-19 schools 2021",
+        "uuid": "66d02ad0-b0b5-4644-a1e2-59ec717a10f1",
+        "active": "False",
+        "url": "https://services5.arcgis.com/WO0dQcVbxj7TZHkH/arcgis/rest/services/Covid19SchoolsData/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "nb",
+        "dir_file": "covid-schools-2021",
+        "file_name": "Covid19SchoolsData",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID-19 schools 2021",
           "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
           "meta_url_name": "New Brunswick COVID-19 Dashboard",
           "meta_licence": "",
@@ -13609,6 +13585,30 @@
           "meta_name": "Variant screening time series by RSS (weekly) 2 (archived)",
           "meta_url": "https://inspq.qc.ca/covid-19/donnees/variants",
           "meta_url_name": "Variants de SRAS-CoV-2 sous surveillance rehaussée",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Outbreaks by setting (FR)",
+        "uuid": "b2cd8112-7423-4da3-9b70-567aec42e05b",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/eclosions-par-milieu.csv",
+        "dir_parent": "qc",
+        "dir_file": "outbreaks-by-setting",
+        "file_name": "eclosions-par-milieu",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Outbreaks by setting (FR)",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Quebec"
