@@ -12577,6 +12577,28 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Rapid testing for at-home use (CSV)",
+        "uuid": "9f1f9a5a-2e33-4aba-81d6-0d5e3f665996",
+        "active": "False",
+        "url": "https://www.ontario.ca/page/rapid-testing-home-use",
+        "dir_parent": "on",
+        "dir_file": "rapid-testing-participating-locations-csv",
+        "file_name": "moh-covid-19-rapid-testing-home-use",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset (CSV)",
+          "meta_url": "https://www.ontario.ca/page/rapid-testing-home-use",
+          "meta_url_name": "Rapid testing for at-home use",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - Ottawa vaccine dashboard - COVID-19 Vaccinations by Day by Vaccine Type - Ottawa Residents",
         "uuid": "62cb992a-8a60-4af0-b7d3-deb0c1bf6902",
         "active": "False",
