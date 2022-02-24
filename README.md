@@ -235,7 +235,6 @@ A note about data from Quebec: when both French and English data files are avail
     * Cases on First Nations reserves: [can/covid-time-series-first-nations-reserves/covid19-isc.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Variant prevalence time series: [can/variant-prevalence-time-series/covid19-epiSummary-variants.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Variant sample size time series: [can/variant-sample-size-time-series/covid19-epiSummary-variants-sampleSize.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Detailed variant prevalence time series: [can/variant-prevalence-time-series-detailed/covid19-epiSummary-variants-detailed-download.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Variant contributing labs: [can/variant-contributing-labs/covid19-epiSummary-variants-contributingLabs.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Cases following vaccination (cases, hospitalizations, deaths by vaccination): [can/cases-following-vaccination-cases-hosp-deaths-by-vaccination-status/covid19-epiSummary-casesAfterVaccination.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Cases following vaccination (cases by vaccination status and gender): [can/cases-following-vaccination-cases-by-vaccination-status-and-gender/covid19-epiSummary-casesAfterVaccinationGender.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
@@ -248,6 +247,7 @@ A note about data from Quebec: when both French and English data files are avail
     * NML weekly testing: [can/nml-weekly-testing/NML_weekly_testing.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * NML summary: [can/nml-summary/covid19-epiSummary-NML.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Variants of concern time series by province: [can/variants-of-concern-time-series-by-province/covid19-epiSummary-voc.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Detailed variant prevalence time series: [can/variant-prevalence-time-series-detailed/covid19-epiSummary-variants-detailed-download.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [COVIDTrends](https://health-infobase.canada.ca/covid-19/covidtrends/)
     * Cases and deaths by health region - last 7 days: [can/covidtrends-cases-and-deaths-by-hr-last-7-days/file_out_v5_MZ7v2.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Mobility: [can/covidtrends-mobility/mobility.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
@@ -329,12 +329,6 @@ A note about data from Quebec: when both French and English data files are avail
     * Uptake by RHA, age, sex: [mb/vaccine-uptake-by-rha-age-sex/mb_covid_vaccine_uptake_demographics.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Uptake by Health District 2: [mb/vaccine-uptake-by-district-2/mb_covid_vaccine_uptake_district_2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Inventory, delivered, administered, scheduled: [mb/vaccination-inventory-delivered-admin-scheduled-2/mb_covid_vaccinations_inventory_stats_02.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * First Nations vaccination time series: [mb/first-nations-vaccination-time-series/mbfn_covid_vaccinations_daily_cumulative.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * First Nations vaccination by age group and sex: [mb/first-nations-vaccination-by-age-sex/mbfn_covid_vaccinations_demographics.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * First Nations vaccination by provider: [mb/first-nations-vaccination-by-provider/mbfn_covid_vaccinations_provider_summary.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * First Nations vaccination by Regional Health Authority: [mb/first-nations-vaccination-by-rha/mbfn_covid_vaccinations_rha_summary.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * First Nations vaccination summary on reserve and off reserve: [mb/first-nations-vaccination-summary-on-reserve-off-reserve/mbfn_covid_vaccinations_summary_statistics.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * First nations vaccination by Tribal Council Region: [mb/first-nations-vaccination-by-tribal-council-region/mbfn_covid_vaccinations_tribal_council_summary.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Vaccination coverage by Regional Health Authority: [mb/vaccination-coverage-by-rha/mb_covid_vaccinations_18_coverage.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Projected vaccine doses: [mb/projected-vaccine-doses/mb_covid_vaccinations_projected_doses.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Uptake by Health District: [mb/vaccine-uptake-by-district/mb_covid_vaccine_uptake_district.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
@@ -346,6 +340,12 @@ A note about data from Quebec: when both French and English data files are avail
     * Regional Health Authorities: [mb/regional-health-authorities/Manitoba_Regional_Health_Authorities.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Winnipeg Community Areas: [mb/winnipeg-community-areas/bdy_wha_community_areas_py_shp.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Health Districts: [mb/health-districts/Health_Districts.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * First Nations vaccination by provider: [mb/first-nations-vaccination-by-provider/mbfn_covid_vaccinations_provider_summary.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * First nations vaccination by Tribal Council Region: [mb/first-nations-vaccination-by-tribal-council-region/mbfn_covid_vaccinations_tribal_council_summary.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * First Nations vaccination by Regional Health Authority: [mb/first-nations-vaccination-by-rha/mbfn_covid_vaccinations_rha_summary.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * First Nations vaccination summary on reserve and off reserve: [mb/first-nations-vaccination-summary-on-reserve-off-reserve/mbfn_covid_vaccinations_summary_statistics.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * First Nations vaccination time series: [mb/first-nations-vaccination-time-series/mbfn_covid_vaccinations_daily_cumulative.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * First Nations vaccination by age group and sex: [mb/first-nations-vaccination-by-age-sex/mbfn_covid_vaccinations_demographics.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [COVID-19 Dashboard: K-12 Schools in Manitoba](https://experience.arcgis.com/experience/6e7af13b3ffb447a99734b0119b169d3/)
     * COVID education statistics summary (2): [mb/covid-education-summary-2/mb_covid_education_statistics_summary.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * COVID education cases last 2 weeks (2): [mb/covid-education-cases-last-2-weeks-2/Manitoba_COVID-19_in_Schools_-_14_Day_Report.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
@@ -354,17 +354,17 @@ A note about data from Quebec: when both French and English data files are avail
     * COVID education statistics summary: [mb/covid-education-summary/covid-education-summary.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * COVID education cases last 2 weeks: [mb/covid-education-cases-last-2-weeks/covid-education-cases-last-2-weeks.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Cases and Risk of COVID-19 in Manitoba](https://www.gov.mb.ca/covid19/updates/cases.html)
-    * COVID-19 Variant of Concern Cases in Manitoba: [mb/cumulative-variants-by-rha/mb_covid_variants.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * COVID-19 Cases by vaccination status: [mb/daily-cases-by-vaccination-status/mb_covid_cases_by_vaccination_status.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Select COVID-19 Outbreaks in Manitoba: [mb/acive-outbreaks-ltc-institutions-healthcare-schools/Current_MB_COVID_Outbreaks.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * COVID-19 Variant of Concern Cases in Manitoba: [mb/cumulative-variants-by-rha/mb_covid_variants.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * COVID-19 Cases by vaccination status: [mb/daily-cases-by-vaccination-status/mb_covid_cases_by_vaccination_status.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 
 <details>
 <summary><i>Winnipeg</i></summary>
 
-* [COVID-19 By-law Enforcement](https://data.winnipeg.ca/Neighbourhood-Liveability-Property-Standards-Licen/COVID-19-By-law-Enforcement/ndr6-96vi)
-    * Dataset: [mb/winnipeg-by-law-enforcement/COVID-19_By-law_Enforcement.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19 Designated Active Transportation Route Counts](https://data.winnipeg.ca/Transportation-Planning-Traffic-Management/COVID-19-Designated-Active-Transportation-Route-Co/aqka-nz2g)
     * Dataset: [mb/winnipeg-active-transportation/COVID-19_Designated_Active_Transportation_Route_Counts.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [COVID-19 By-law Enforcement](https://data.winnipeg.ca/Neighbourhood-Liveability-Property-Standards-Licen/COVID-19-By-law-Enforcement/ndr6-96vi)
+    * Dataset: [mb/winnipeg-by-law-enforcement/COVID-19_By-law_Enforcement.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 </details>
 </details>
 <details>
@@ -377,12 +377,10 @@ A note about data from Quebec: when both French and English data files are avail
     * Provincial cumulative test statistics by age and sex: [nb/provincial-cumulative-test-statistics-by-age-sex/provincial-cumulative-test-statistics-by-age-sex.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * New cases by age group and Health Zone: [nb/new-cases-by-age-group-and-zone/Covid19NewCaseAgeStats2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * COVID-19 alert level by Health Zone: [nb/covid-alert-level-by-zone/COVID19_AlertLevel.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Current COVID-19 statistics by Health Zone: [nb/current-covid-stats-by-zone/WinterPlanLevel.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * COVID-19 hospitalization/ICU time series: [nb/hosp-icu-time-series/Covid19HospitalTrends.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * COVID-19 travel and enforcement statistics (7-day averages): [nb/covid-travel-enforcement-stats-7-day-avg/Covid19ComplianceEnforcement2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * COVID-19 potential public exposures: [nb/potential-public-exposures/Covid19_Exposures2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Case/hospitalization/ICU/death rate by vaccination status: [nb/case-hosp-icu-death-rate-by-vaccination-status/Covid19CaseVaccinationRates2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * COVID-19 schools 2021: [nb/covid-schools-2021/Covid19SchoolsData.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Schools: [nb/schools/Covid19NBSchools.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Vaccine data 2: [nb/vaccine-data-2/Covid19VaccineData2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Vaccine coverage by age groups: [nb/vaccine-coverage-by-age/Covid19VaccineAge.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
@@ -403,6 +401,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Traffic control points: [nb/traffic-control-points/traffic-control-points.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Ferries: [nb/ferries/ferries.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Provincial case, death, recovered time series: [nb/provincial-case-death-recovered-time-series/provincial-case-death-recovered-time-series.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Current COVID-19 statistics by Health Zone: [nb/current-covid-stats-by-zone/WinterPlanLevel.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * COVID-19 schools 2021: [nb/covid-schools-2021/Covid19SchoolsData.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Potential Public Exposures](https://www2.gnb.ca/content/gnb/en/corporate/promo/covid-19/potential_public_exposure.html)
     * Webpage: [nb/potential-public-exposures-webpage/potential-public-exposures-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 </details>
@@ -751,7 +751,6 @@ A note about data from Quebec: when both French and English data files are avail
     * Correctional facilities - cases among employees (EN): [qc/correctional-cases-employees-en/donnees_covid_detention_employes_EN.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Correctional facilities - cases among detainees (FR): [qc/correctional-cases-detainees/donnees_covid_detention_personnes_incarcerees_FR.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Correctional facilities - cases among detainees (EN): [qc/correctional-cases-detainees-en/donnees_covid_detention_personnes_incarcerees_EN.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Outbreaks by setting (FR): [qc/outbreaks-by-setting/eclosions-par-milieu.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Cases percentage by age group (FR): [qc/cases-percentage-by-age-group/pourcentage-cas-age.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Deaths percentage by age group (FR): [qc/deaths-percentage-by-age-group/pourcentage-deces-age.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Cumulative deaths by region (FR): [qc/cumulative-deaths-by-region/deces-region.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
@@ -772,6 +771,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Vaccination of priority groups (FR): [qc/vaccination-of-priority-groups/20-279-07WF_Previsions_vaccination.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Vaccination of priority groups (EN): [qc/vaccination-of-priority-groups-en/20-279-07WA_Previsions_vaccination-anglais.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Situation in living environments for the elderly and vulnerable (RPA and CHSLD): [qc/status-report-cases-and-deaths-by-rpa-and-chsld/etat_situation_milieux-de-vie.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Outbreaks by setting (FR): [qc/outbreaks-by-setting/eclosions-par-milieu.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Données de vaccination contre la COVID-19 au Québec](https://www.inspq.qc.ca/covid-19/donnees/vaccination)
     * Webpage: [qc/inspq-data-webpage/inspq-data-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Vaccination by RSS time series: [qc/vaccination-by-rss-time-series/vaccination.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
@@ -871,30 +871,30 @@ A note about data from Quebec: when both French and English data files are avail
 <summary><b>Saskatchewan</b></summary>
 
 * [Saskatchewan's Dashboard - Total Cases](https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases)
-    * Dataset: [sk/cases-by-region/cases.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Webpage: [sk/cases-by-region-webpage/cases-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Highlights, charts, tables: [sk/cases-by-region-highlights-charts-tables/health-wellness-covid-19-cases.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Highlights, charts, tables (legacy): [sk/cases-by-region-highlights-charts-tables-legacy/health-wellness-covid-19-cases.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Highlights, charts, tables: [sk/cases-by-region-highlights-charts-tables/health-wellness-covid-19-cases.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Dataset: [sk/cases-by-region/cases.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Saskatchewan's Dashboard - Total Tests](https://dashboard.saskatchewan.ca/health-wellness/covid-19-tests/tests)
-    * Dataset: [sk/tests-by-region/tests.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Webpage: [sk/tests-by-region-webpage/tests-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Highlights, charts, tables: [sk/tests-by-region-highlights-charts-tables/health-wellness-covid-19-tests-tests.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Highlights, charts, tables (legacy): [sk/tests-by-region-highlights-charts-tables-legacy/health-wellness-covid-19-tests-tests.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Highlights, charts, tables: [sk/tests-by-region-highlights-charts-tables/health-wellness-covid-19-tests-tests.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Dataset: [sk/tests-by-region/tests.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Saskatchewan's Dashboard - Hospitalized Cases](https://dashboard.saskatchewan.ca/health-wellness/covid-19-cases/hospitalized)
-    * Dataset: [sk/hosp-icu-by-region/hospitalized.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Webpage: [sk/hosp-icu-by-region-webpage/hospitalized-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Highlights, charts, tables: [sk/hosp-icu-by-region-highlights-charts-tables/health-wellness-covid-19-cases-hospitalized.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Highlights, charts, tables (legacy): [sk/hosp-icu-by-region-highlights-charts-tables-legacy/health-wellness-covid-19-cases-hospitalized.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Highlights, charts, tables: [sk/hosp-icu-by-region-highlights-charts-tables/health-wellness-covid-19-cases-hospitalized.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Dataset: [sk/hosp-icu-by-region/hospitalized.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Saskatchewan's Dashboard - Seven-day Average of Daily New Cases](https://dashboard.saskatchewan.ca/health-wellness/covid-19/seven-day-average-of-new-covid-cases)
-    * Dataset: [sk/seven-day-avg-cases-by-region/seven-day-average-of-new-covid-cases.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Webpage: [sk/seven-day-avg-cases-by-region-webpage/seven-day-average-of-new-covid-cases-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Highlights, charts, tables: [sk/seven-day-avg-cases-by-region-highlights-charts-tables/health-wellness-covid-19-seven-day-average-of-new-covid-cases.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Highlights, charts, tables (legacy): [sk/seven-day-avg-cases-by-region-highlights-charts-tables-legacy/health-wellness-covid-19-seven-day-average-of-new-covid-cases.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Highlights, charts, tables: [sk/seven-day-avg-cases-by-region-highlights-charts-tables/health-wellness-covid-19-seven-day-average-of-new-covid-cases.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Dataset: [sk/seven-day-avg-cases-by-region/seven-day-average-of-new-covid-cases.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Saskatchewan's Dashboard - Total Doses](https://dashboard.saskatchewan.ca/health-wellness/covid-19-vaccines/vaccines)
-    * Dataset: [sk/vaccination-by-region/vaccines.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Webpage: [sk/vaccine-delivery-webpage/vaccine-delivery-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Highlights, charts, tables: [sk/vaccination-by-region-highlights-charts-tables/health-wellness-covid-19-vaccines-vaccines.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Highlights, charts, tables (legacy): [sk/vaccination-by-region-highlights-charts-tables-legacy/health-wellness-covid-19-vaccines-vaccines.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Highlights, charts, tables: [sk/vaccination-by-region-highlights-charts-tables/health-wellness-covid-19-vaccines-vaccines.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Dataset: [sk/vaccination-by-region/vaccines.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [COVID-19 Active Outbreaks](https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/covid-19-active-outbreaks)
     * Webpage: [sk/active-outbreaks-webpage/active-outbreaks-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Weekly Monitoring Report - Children and Youth](https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/weekly-monitoring-report-children-and-youth)
