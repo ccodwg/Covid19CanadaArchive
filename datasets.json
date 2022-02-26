@@ -6907,13 +6907,13 @@
         "notes": {}
       },
       {
-        "id_name": "ON - Lambton (PHU) - COVID-19 data - Summary (webpage)",
-        "uuid": "8d0cf226-b9b7-4fc3-8100-a4f56dec6792",
+        "id_name": "ON - Lambton (PHU) - COVID-19 data - Cases details and trends (2) (webpage)",
+        "uuid": "f0ec062f-f1ed-4231-ba2e-803f3c37d805",
         "active": "True",
-        "url": "https://app.powerbi.com/view?r=eyJrIjoiMjIxNTZjNTgtMzAwZS00MjMzLTljMjUtOGJmMjIwZmQwNzY2IiwidCI6IjY5ZjQ2MTYwLTYyNmEtNDQ1NS1hNTliLWZkZGU0NmJmZTkwNCJ9&pageName=ReportSection",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiZDgyMzlkYmYtNjNlZi00ZmRmLWE4ZjUtMzI2NzE0MWRkYjUyIiwidCI6IjY5ZjQ2MTYwLTYyNmEtNDQ1NS1hNTliLWZkZGU0NmJmZTkwNCJ9&pageName=ReportSection",
         "dir_parent": "on",
-        "dir_file": "on-phu-lambton-covid-data-summary-webpage",
-        "file_name": "on-phu-lambton-covid-data-summary-webpage",
+        "dir_file": "on-phu-lambton-covid-data-case-details-trends-2-webpage",
+        "file_name": "on-phu-lambton-covid-data-case-details-trends-2-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
         "args": {
@@ -6922,33 +6922,7 @@
         },
         "supplementary": {},
         "metadata": {
-          "meta_name": "Summary",
-          "meta_url": "https://lambtonpublichealth.ca/2019-novel-coronavirus/",
-          "meta_url_name": "Lambton (PHU) - COVID-19 Report",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Public Health Units"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Lambton (PHU) - COVID-19 data - Cases details and trends (webpage)",
-        "uuid": "958da0fc-a1cd-4a9a-bad5-76adab3634d2",
-        "active": "True",
-        "url": "https://app.powerbi.com/view?r=eyJrIjoiZGRlMTA2NzMtYzhmMC00ZDI2LWFmYTQtMGExODAzYzZiN2YyIiwidCI6IjY5ZjQ2MTYwLTYyNmEtNDQ1NS1hNTliLWZkZGU0NmJmZTkwNCJ9",
-        "dir_parent": "on",
-        "dir_file": "on-phu-lambton-covid-data-case-details-trends-webpage",
-        "file_name": "on-phu-lambton-covid-data-case-details-trends-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "20"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Case details and trends",
+          "meta_name": "Case details and trends (2)",
           "meta_url": "https://lambtonpublichealth.ca/2019-novel-coronavirus/",
           "meta_url_name": "Lambton (PHU) - COVID-19 Report",
           "meta_licence": "",
@@ -12506,6 +12480,58 @@
           "meta_licence_url": "",
           "meta_group_1": "Ontario",
           "meta_group_2": "Ottawa"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Lambton (PHU) - COVID-19 data - Summary (webpage)",
+        "uuid": "8d0cf226-b9b7-4fc3-8100-a4f56dec6792",
+        "active": "False",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiMjIxNTZjNTgtMzAwZS00MjMzLTljMjUtOGJmMjIwZmQwNzY2IiwidCI6IjY5ZjQ2MTYwLTYyNmEtNDQ1NS1hNTliLWZkZGU0NmJmZTkwNCJ9&pageName=ReportSection",
+        "dir_parent": "on",
+        "dir_file": "on-phu-lambton-covid-data-summary-webpage",
+        "file_name": "on-phu-lambton-covid-data-summary-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "20"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Summary",
+          "meta_url": "https://lambtonpublichealth.ca/2019-novel-coronavirus/",
+          "meta_url_name": "Lambton (PHU) - COVID-19 Report",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Lambton (PHU) - COVID-19 data - Cases details and trends (webpage)",
+        "uuid": "958da0fc-a1cd-4a9a-bad5-76adab3634d2",
+        "active": "False",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiZGRlMTA2NzMtYzhmMC00ZDI2LWFmYTQtMGExODAzYzZiN2YyIiwidCI6IjY5ZjQ2MTYwLTYyNmEtNDQ1NS1hNTliLWZkZGU0NmJmZTkwNCJ9",
+        "dir_parent": "on",
+        "dir_file": "on-phu-lambton-covid-data-case-details-trends-webpage",
+        "file_name": "on-phu-lambton-covid-data-case-details-trends-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "20"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Case details and trends",
+          "meta_url": "https://lambtonpublichealth.ca/2019-novel-coronavirus/",
+          "meta_url_name": "Lambton (PHU) - COVID-19 Report",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
         },
         "notes": {}
       }
