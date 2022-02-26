@@ -5152,6 +5152,28 @@
         "notes": {}
       },
       {
+        "id_name": "ON - COVID-19 rapid test locations (webpage)",
+        "uuid": "574f927f-191b-4c08-a24e-bac3a7fd14e5",
+        "active": "True",
+        "url": "https://covid-19.ontario.ca/rapid-test-locator",
+        "dir_parent": "on",
+        "dir_file": "rapid-test-locations-webpage",
+        "file_name": "rapid-test-locations-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://covid-19.ontario.ca/rapid-test-locator",
+          "meta_url_name": "COVID-19 rapid test locations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - Ongoing outbreaks",
         "uuid": "c40ee593-226d-4ccd-ba56-cd426435f286",
         "active": "True",
