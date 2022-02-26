@@ -517,6 +517,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Dataset: [on/testing-locations/locations.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19 pharmacy vaccine locations](https://covid-19.ontario.ca/vaccine-locations/)
     * Webpage: [on/vaccine-pharmacy-locations-webpage/vaccine-pharmacy-locations-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [COVID-19 rapid test locations](https://covid-19.ontario.ca/rapid-test-locator)
+    * Webpage: [on/rapid-test-locations-webpage/rapid-test-locations-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Ontario COVID-19 outbreaks data](https://data.ontario.ca/dataset/ontario-covid-19-outbreaks-data)
     * Ongoing outbreaks: [on/ongoing-outbreaks/ongoing_outbreaks.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Summary of cases associated with outbreaks: [on/summary-outbreak-cases/outbreak_cases.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
