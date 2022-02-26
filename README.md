@@ -661,8 +661,9 @@ A note about data from Quebec: when both French and English data files are avail
     * Cases: [on/on-phu-kingston-frontenac-lennox-addington-covid-data-cases-webpage/on-phu-kingston-frontenac-lennox-addington-covid-data-cases-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Cases - New cases table: [on/on-phu-kingston-frontenac-lennox-addington-covid-data-cases-new-cases-table-webpage/on-phu-kingston-frontenac-lennox-addington-covid-data-cases-new-cases-table-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Lambton (PHU) - COVID-19 Report](https://lambtonpublichealth.ca/2019-novel-coronavirus/)
-    * Summary: [on/on-phu-lambton-covid-data-summary-webpage/on-phu-lambton-covid-data-summary-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Case details and trends: [on/on-phu-lambton-covid-data-case-details-trends-webpage/on-phu-lambton-covid-data-case-details-trends-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Case details and trends (2): [on/on-phu-lambton-covid-data-case-details-trends-2-webpage/on-phu-lambton-covid-data-case-details-trends-2-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Summary: [on/on-phu-lambton-covid-data-summary-webpage/on-phu-lambton-covid-data-summary-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Case details and trends: [on/on-phu-lambton-covid-data-case-details-trends-webpage/on-phu-lambton-covid-data-case-details-trends-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Middlesex-London (PHU) - Summary of COVID-19 Cases in Middlesex-London](https://www.healthunit.com/novel-coronavirus)
     * Case status: [on/on-phu-middlesex-london-covid-data-case-status-webpage/on-phu-middlesex-london-covid-data-case-status-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Niagara (PHU) - COVID-19 Statistics in Niagara](https://www.niagararegion.ca/health/covid-19/statistics/statistics.aspx)
