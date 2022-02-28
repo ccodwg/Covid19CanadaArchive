@@ -9272,28 +9272,6 @@
         "notes": {}
       },
       {
-        "id_name": "SK - Weekly Monitoring Report - Children and Youth (webpage)",
-        "uuid": "9befd89f-e356-487c-8185-965d4157e8ea",
-        "active": "True",
-        "url": "https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/weekly-monitoring-report-children-and-youth",
-        "dir_parent": "sk",
-        "dir_file": "children-youth-weekly-report-webpage",
-        "file_name": "children-youth-weekly-report-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/weekly-monitoring-report-children-and-youth",
-          "meta_url_name": "Weekly Monitoring Report - Children and Youth",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Saskatchewan"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "SK - Weekly COVID-19 Situation Reports (report)",
         "uuid": "2b3954e7-a659-4555-b02e-3fcc4b1f0960",
         "active": "True",
@@ -13818,6 +13796,28 @@
           "meta_name": "Dataset",
           "meta_url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases",
           "meta_url_name": "Saskatchewan's Dashboard - Total Cases",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Saskatchewan"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "SK - Weekly Monitoring Report - Children and Youth (webpage)",
+        "uuid": "9befd89f-e356-487c-8185-965d4157e8ea",
+        "active": "False",
+        "url": "https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/weekly-monitoring-report-children-and-youth",
+        "dir_parent": "sk",
+        "dir_file": "children-youth-weekly-report-webpage",
+        "file_name": "children-youth-weekly-report-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/weekly-monitoring-report-children-and-youth",
+          "meta_url_name": "Weekly Monitoring Report - Children and Youth",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Saskatchewan"
