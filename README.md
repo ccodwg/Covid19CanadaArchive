@@ -900,12 +900,12 @@ A note about data from Quebec: when both French and English data files are avail
     * Dataset: [sk/vaccination-by-region/vaccines.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [COVID-19 Active Outbreaks](https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/covid-19-active-outbreaks)
     * Webpage: [sk/active-outbreaks-webpage/active-outbreaks-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-* [Weekly Monitoring Report - Children and Youth](https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/weekly-monitoring-report-children-and-youth)
-    * Webpage: [sk/children-youth-weekly-report-webpage/children-youth-weekly-report-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Cases and Risk of COVID-19 in Saskatchewan](https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan)
     * Weekly COVID-19 Situation Reports (report): [sk/covid-weekly-epi-report/covid-weekly-epi-report.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Cases and Risk of COVID-19 in Saskatchewan: [sk/summary-and-variant-webpage/summary-and-variant-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Weekly COVID-19 Situation Reports (news release): [sk/covid-weekly-epi-report-news-release-webpage/covid-weekly-epi-report-news-release-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [Weekly Monitoring Report - Children and Youth](https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/weekly-monitoring-report-children-and-youth)
+    * Webpage: [sk/children-youth-weekly-report-webpage/children-youth-weekly-report-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 </details>
 <details>
 <summary><b>Yukon</b></summary>
