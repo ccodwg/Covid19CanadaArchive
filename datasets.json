@@ -4804,31 +4804,6 @@
         "notes": {}
       },
       {
-        "id_name": "NT - Northwest Territories COVID-19 dashboard - Testing (webpage)",
-        "uuid": "66fbe91e-34c0-4f7f-aa94-cf6c14db0158",
-        "active": "True",
-        "url": "https://nwt-covid.shinyapps.io/Testing-and-Cases/?lang=1",
-        "dir_parent": "nt",
-        "dir_file": "nwt-dashboard-testing-webpage",
-        "file_name": "nwt-dashboard-testing-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "15"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Testing webpage",
-          "meta_url": "https://nwt-covid.shinyapps.io/Testing-and-Cases/?lang=1",
-          "meta_url_name": "Northwest Territories COVID-19 dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Northwest Territories"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "NT - Northwest Territories COVID-19 dashboard - Wastewater (webpage)",
         "uuid": "391d177d-1ea8-45ac-bca4-d9f86733c253",
         "active": "True",
@@ -11645,7 +11620,33 @@
         "notes": {}
       }
     ],
-    "nt": [],
+    "nt": [
+      {
+        "id_name": "NT - Northwest Territories COVID-19 dashboard - Testing (webpage)",
+        "uuid": "66fbe91e-34c0-4f7f-aa94-cf6c14db0158",
+        "active": "False",
+        "url": "https://nwt-covid.shinyapps.io/Testing-and-Cases/?lang=1",
+        "dir_parent": "nt",
+        "dir_file": "nwt-dashboard-testing-webpage",
+        "file_name": "nwt-dashboard-testing-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "15"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Testing webpage",
+          "meta_url": "https://nwt-covid.shinyapps.io/Testing-and-Cases/?lang=1",
+          "meta_url_name": "Northwest Territories COVID-19 dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Northwest Territories"
+        },
+        "notes": {}
+      }
+    ],
     "ns": [
       {
         "id_name": "NS - Coronavirus (COVID-19): case data",
