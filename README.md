@@ -444,10 +444,10 @@ A note about data from Quebec: when both French and English data files are avail
 * [Northwest Territories COVID-19 dashboard](https://nwt-covid.shinyapps.io/Testing-and-Cases/?lang=1)
     * Cases webpage: [nt/nwt-dashboard-cases-webpage/nwt-dashboard-cases-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Communities webpage: [nt/nwt-dashboard-communities-webpage/nwt-dashboard-communities-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Testing webpage: [nt/nwt-dashboard-testing-webpage/nwt-dashboard-testing-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Wastewater webpage: [nt/nwt-dashboard-wastewater-webpage/nwt-dashboard-wastewater-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Vaccinations coverage webpage: [nt/nwt-dashboard-vaccination-coverage-webpage/nwt-dashboard-vaccination-coverage-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Vaccinations doses webpage: [nt/nwt-dashboard-vaccination-doses-webpage/nwt-dashboard-vaccination-doses-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Testing webpage: [nt/nwt-dashboard-testing-webpage/nwt-dashboard-testing-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 </details>
 <details>
 <summary><b>Nova Scotia</b></summary>
