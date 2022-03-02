@@ -882,37 +882,37 @@ A note about data from Quebec: when both French and English data files are avail
 <details>
 <summary><b>Saskatchewan</b></summary>
 
-* [Saskatchewan's Dashboard - Total Cases](https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases)
-    * Webpage: [sk/cases-by-region-webpage/cases-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Highlights, charts, tables (legacy): [sk/cases-by-region-highlights-charts-tables-legacy/health-wellness-covid-19-cases.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-    * Highlights, charts, tables: [sk/cases-by-region-highlights-charts-tables/health-wellness-covid-19-cases.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-    * Dataset: [sk/cases-by-region/cases.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-* [Saskatchewan's Dashboard - Total Tests](https://dashboard.saskatchewan.ca/health-wellness/covid-19-tests/tests)
-    * Webpage: [sk/tests-by-region-webpage/tests-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Highlights, charts, tables (legacy): [sk/tests-by-region-highlights-charts-tables-legacy/health-wellness-covid-19-tests-tests.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-    * Highlights, charts, tables: [sk/tests-by-region-highlights-charts-tables/health-wellness-covid-19-tests-tests.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-    * Dataset: [sk/tests-by-region/tests.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-* [Saskatchewan's Dashboard - Hospitalized Cases](https://dashboard.saskatchewan.ca/health-wellness/covid-19-cases/hospitalized)
-    * Webpage: [sk/hosp-icu-by-region-webpage/hospitalized-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Highlights, charts, tables (legacy): [sk/hosp-icu-by-region-highlights-charts-tables-legacy/health-wellness-covid-19-cases-hospitalized.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-    * Highlights, charts, tables: [sk/hosp-icu-by-region-highlights-charts-tables/health-wellness-covid-19-cases-hospitalized.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-    * Dataset: [sk/hosp-icu-by-region/hospitalized.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-* [Saskatchewan's Dashboard - Seven-day Average of Daily New Cases](https://dashboard.saskatchewan.ca/health-wellness/covid-19/seven-day-average-of-new-covid-cases)
-    * Webpage: [sk/seven-day-avg-cases-by-region-webpage/seven-day-average-of-new-covid-cases-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Highlights, charts, tables (legacy): [sk/seven-day-avg-cases-by-region-highlights-charts-tables-legacy/health-wellness-covid-19-seven-day-average-of-new-covid-cases.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-    * Highlights, charts, tables: [sk/seven-day-avg-cases-by-region-highlights-charts-tables/health-wellness-covid-19-seven-day-average-of-new-covid-cases.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-    * Dataset: [sk/seven-day-avg-cases-by-region/seven-day-average-of-new-covid-cases.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-* [Saskatchewan's Dashboard - Total Doses](https://dashboard.saskatchewan.ca/health-wellness/covid-19-vaccines/vaccines)
-    * Webpage: [sk/vaccine-delivery-webpage/vaccine-delivery-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Highlights, charts, tables (legacy): [sk/vaccination-by-region-highlights-charts-tables-legacy/health-wellness-covid-19-vaccines-vaccines.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-    * Highlights, charts, tables: [sk/vaccination-by-region-highlights-charts-tables/health-wellness-covid-19-vaccines-vaccines.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-    * Dataset: [sk/vaccination-by-region/vaccines.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [COVID-19 Active Outbreaks](https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/covid-19-active-outbreaks)
     * Webpage: [sk/active-outbreaks-webpage/active-outbreaks-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Cases and Risk of COVID-19 in Saskatchewan](https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan)
     * Weekly COVID-19 Situation Reports (report): [sk/covid-weekly-epi-report/covid-weekly-epi-report.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Cases and Risk of COVID-19 in Saskatchewan: [sk/summary-and-variant-webpage/summary-and-variant-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Weekly COVID-19 Situation Reports (news release): [sk/covid-weekly-epi-report-news-release-webpage/covid-weekly-epi-report-news-release-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [Saskatchewan's Dashboard - Total Cases](https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases)
+    * Highlights, charts, tables (legacy): [sk/cases-by-region-highlights-charts-tables-legacy/health-wellness-covid-19-cases.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Highlights, charts, tables: [sk/cases-by-region-highlights-charts-tables/health-wellness-covid-19-cases.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Dataset: [sk/cases-by-region/cases.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Webpage: [sk/cases-by-region-webpage/cases-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [Saskatchewan's Dashboard - Total Tests](https://dashboard.saskatchewan.ca/health-wellness/covid-19-tests/tests)
+    * Highlights, charts, tables (legacy): [sk/tests-by-region-highlights-charts-tables-legacy/health-wellness-covid-19-tests-tests.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Highlights, charts, tables: [sk/tests-by-region-highlights-charts-tables/health-wellness-covid-19-tests-tests.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Dataset: [sk/tests-by-region/tests.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Webpage: [sk/tests-by-region-webpage/tests-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [Saskatchewan's Dashboard - Hospitalized Cases](https://dashboard.saskatchewan.ca/health-wellness/covid-19-cases/hospitalized)
+    * Highlights, charts, tables (legacy): [sk/hosp-icu-by-region-highlights-charts-tables-legacy/health-wellness-covid-19-cases-hospitalized.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Highlights, charts, tables: [sk/hosp-icu-by-region-highlights-charts-tables/health-wellness-covid-19-cases-hospitalized.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Dataset: [sk/hosp-icu-by-region/hospitalized.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Webpage: [sk/hosp-icu-by-region-webpage/hospitalized-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [Saskatchewan's Dashboard - Seven-day Average of Daily New Cases](https://dashboard.saskatchewan.ca/health-wellness/covid-19/seven-day-average-of-new-covid-cases)
+    * Highlights, charts, tables (legacy): [sk/seven-day-avg-cases-by-region-highlights-charts-tables-legacy/health-wellness-covid-19-seven-day-average-of-new-covid-cases.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Highlights, charts, tables: [sk/seven-day-avg-cases-by-region-highlights-charts-tables/health-wellness-covid-19-seven-day-average-of-new-covid-cases.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Dataset: [sk/seven-day-avg-cases-by-region/seven-day-average-of-new-covid-cases.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Webpage: [sk/seven-day-avg-cases-by-region-webpage/seven-day-average-of-new-covid-cases-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [Saskatchewan's Dashboard - Total Doses](https://dashboard.saskatchewan.ca/health-wellness/covid-19-vaccines/vaccines)
+    * Highlights, charts, tables (legacy): [sk/vaccination-by-region-highlights-charts-tables-legacy/health-wellness-covid-19-vaccines-vaccines.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Highlights, charts, tables: [sk/vaccination-by-region-highlights-charts-tables/health-wellness-covid-19-vaccines-vaccines.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Dataset: [sk/vaccination-by-region/vaccines.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Webpage: [sk/vaccine-delivery-webpage/vaccine-delivery-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Weekly Monitoring Report - Children and Youth](https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/weekly-monitoring-report-children-and-youth)
     * Webpage: [sk/children-youth-weekly-report-webpage/children-youth-weekly-report-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 </details>
