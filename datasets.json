@@ -9276,131 +9276,6 @@
     ],
     "sk": [
       {
-        "id_name": "SK - Saskatchewan's Dashboard - Total Cases (webpage)",
-        "uuid": "c861d4cc-c893-40c3-a335-0f46c8f1b9f8",
-        "active": "True",
-        "url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases",
-        "dir_parent": "sk",
-        "dir_file": "cases-by-region-webpage",
-        "file_name": "cases-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases",
-          "meta_url_name": "Saskatchewan's Dashboard - Total Cases",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Saskatchewan"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "SK - Saskatchewan's Dashboard - Total Tests (webpage)",
-        "uuid": "cdbb8bba-e26a-4415-b729-9882c2575d38",
-        "active": "True",
-        "url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19-tests/tests",
-        "dir_parent": "sk",
-        "dir_file": "tests-by-region-webpage",
-        "file_name": "tests-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19-tests/tests",
-          "meta_url_name": "Saskatchewan's Dashboard - Total Tests",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Saskatchewan"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "SK - Saskatchewan's Dashboard - Hospitalized Cases (webpage)",
-        "uuid": "a5e19ab0-3cdb-4ad8-b1b3-facc4a968c2f",
-        "active": "True",
-        "url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19-cases/hospitalized",
-        "dir_parent": "sk",
-        "dir_file": "hosp-icu-by-region-webpage",
-        "file_name": "hospitalized-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19-cases/hospitalized",
-          "meta_url_name": "Saskatchewan's Dashboard - Hospitalized Cases",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Saskatchewan"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "SK - Saskatchewan's Dashboard - Seven-day Average of Daily New Cases (webpage)",
-        "uuid": "a8e44fb0-cc82-425e-92c2-f98c5d24ae73",
-        "active": "True",
-        "url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19/seven-day-average-of-new-covid-cases",
-        "dir_parent": "sk",
-        "dir_file": "seven-day-avg-cases-by-region-webpage",
-        "file_name": "seven-day-average-of-new-covid-cases-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19/seven-day-average-of-new-covid-cases",
-          "meta_url_name": "Saskatchewan's Dashboard - Seven-day Average of Daily New Cases",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Saskatchewan"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "SK - Total Doses (webpage)",
-        "uuid": "0a31ad95-0e5b-4012-8805-871dd79e96d1",
-        "active": "True",
-        "url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19-vaccines/vaccines",
-        "dir_parent": "sk",
-        "dir_file": "vaccine-delivery-webpage",
-        "file_name": "vaccine-delivery-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19-vaccines/vaccines",
-          "meta_url_name": "Saskatchewan's Dashboard - Total Doses",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Saskatchewan"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "SK - COVID-19 Active Outbreaks (webpage)",
         "uuid": "dd622812-7fbb-4bdc-8329-7023a928dd6d",
         "active": "True",
@@ -13995,6 +13870,131 @@
           "meta_name": "Webpage",
           "meta_url": "https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/weekly-monitoring-report-children-and-youth",
           "meta_url_name": "Weekly Monitoring Report - Children and Youth",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Saskatchewan"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "SK - Saskatchewan's Dashboard - Total Cases (webpage)",
+        "uuid": "c861d4cc-c893-40c3-a335-0f46c8f1b9f8",
+        "active": "False",
+        "url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases",
+        "dir_parent": "sk",
+        "dir_file": "cases-by-region-webpage",
+        "file_name": "cases-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases",
+          "meta_url_name": "Saskatchewan's Dashboard - Total Cases",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Saskatchewan"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "SK - Saskatchewan's Dashboard - Total Tests (webpage)",
+        "uuid": "cdbb8bba-e26a-4415-b729-9882c2575d38",
+        "active": "False",
+        "url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19-tests/tests",
+        "dir_parent": "sk",
+        "dir_file": "tests-by-region-webpage",
+        "file_name": "tests-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19-tests/tests",
+          "meta_url_name": "Saskatchewan's Dashboard - Total Tests",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Saskatchewan"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "SK - Saskatchewan's Dashboard - Hospitalized Cases (webpage)",
+        "uuid": "a5e19ab0-3cdb-4ad8-b1b3-facc4a968c2f",
+        "active": "False",
+        "url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19-cases/hospitalized",
+        "dir_parent": "sk",
+        "dir_file": "hosp-icu-by-region-webpage",
+        "file_name": "hospitalized-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19-cases/hospitalized",
+          "meta_url_name": "Saskatchewan's Dashboard - Hospitalized Cases",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Saskatchewan"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "SK - Saskatchewan's Dashboard - Seven-day Average of Daily New Cases (webpage)",
+        "uuid": "a8e44fb0-cc82-425e-92c2-f98c5d24ae73",
+        "active": "False",
+        "url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19/seven-day-average-of-new-covid-cases",
+        "dir_parent": "sk",
+        "dir_file": "seven-day-avg-cases-by-region-webpage",
+        "file_name": "seven-day-average-of-new-covid-cases-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19/seven-day-average-of-new-covid-cases",
+          "meta_url_name": "Saskatchewan's Dashboard - Seven-day Average of Daily New Cases",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Saskatchewan"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "SK - Saskatchewan's Dashboard - Total Doses (webpage)",
+        "uuid": "0a31ad95-0e5b-4012-8805-871dd79e96d1",
+        "active": "False",
+        "url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19-vaccines/vaccines",
+        "dir_parent": "sk",
+        "dir_file": "vaccine-delivery-webpage",
+        "file_name": "vaccine-delivery-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://dashboard.saskatchewan.ca/health-wellness/covid-19-vaccines/vaccines",
+          "meta_url_name": "Saskatchewan's Dashboard - Total Doses",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Saskatchewan"
