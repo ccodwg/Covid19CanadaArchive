@@ -571,6 +571,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Case rates by vaccination status and age group: [on/case-rates-by-vaccination-status-and-age-group/cases_by_age_vac_status.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Deaths involving COVID-19 by Fatality Type](https://data.ontario.ca/dataset/deaths-involving-covid-19-by-fatality-type)
     * Dataset: [on/deaths-involving-covid-by-fatality-type/deaths_fatality_type.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [Deaths Involving COVID-19 by Vaccination Status](https://data.ontario.ca/dataset/deaths-involving-covid-19-by-vaccination-status)
+    * Dataset: [on/deaths-involving-covid-by-vaccination-status/deaths_by_vac_status.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [ICES COVID-19 Dashboard](https://www.ices.on.ca/DAS/AHRQ/COVID-19-Dashboard)
     * Percent positivity by FSA: [on/ices-percent-positivity-by-fsa/ICES-COVID19-Testing-Data-FSA-percent-positivity.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Percent positivity by age group and Public Health Unit (PHU): [on/ices-percent-positivity-by-age-group-and-phu/ICES-COVID19-Testing-Data_PHUxAge-Groups-percent-positivity.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
