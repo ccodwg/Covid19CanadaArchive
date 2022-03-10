@@ -5753,6 +5753,28 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Deaths involving COVID-19 by Fatality Type",
+        "uuid": "ecc3f27d-4d97-4643-be2e-fdb92f29e53a",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/c43fd28d-3288-4ad2-87f1-a95abac706b8/resource/3273c977-416f-407e-86d2-1e45a7261e7b/download/deaths_fatality_type.csv",
+        "dir_parent": "on",
+        "dir_file": "deaths-involving-covid-by-fatality-type",
+        "file_name": "deaths_fatality_type",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://data.ontario.ca/dataset/deaths-involving-covid-19-by-fatality-type",
+          "meta_url_name": "Deaths involving COVID-19 by Fatality Type",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "Public Health Ontario: COVID-19 Data and Surveillance - Daily epidemiologic summary",
         "uuid": "6eee7470-216f-4332-84ab-8d28875688d6",
         "active": "True",
