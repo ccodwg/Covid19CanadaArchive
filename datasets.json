@@ -5775,6 +5775,28 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Deaths Involving COVID-19 by Vaccination Status",
+        "uuid": "f949b753-d848-4115-8971-abd72b998ae1",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/1375bb00-6454-4d3e-a723-4ae9e849d655/resource/2aa6e2ce-40de-4910-a737-81762e014b0b/download/deaths_by_vac_status.csv",
+        "dir_parent": "on",
+        "dir_file": "deaths-involving-covid-by-vaccination-status",
+        "file_name": "deaths_by_vac_status",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://data.ontario.ca/dataset/deaths-involving-covid-19-by-vaccination-status",
+          "meta_url_name": "Deaths Involving COVID-19 by Vaccination Status",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "Public Health Ontario: COVID-19 Data and Surveillance - Daily epidemiologic summary",
         "uuid": "6eee7470-216f-4332-84ab-8d28875688d6",
         "active": "True",
