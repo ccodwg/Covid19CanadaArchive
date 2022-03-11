@@ -456,12 +456,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [ns/ns-webpage/ns-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Case data: [ns/case-data/ns-covid19-data.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Nova Scotia COVID-19 Dashboard](https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad)
-    * New cases, active cases, testing, hospitalizations, ICU: [ns/new-cases-active-cases-testing-hosp-icu/CasesReport_V5_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Nova Scotia deaths by sex and average age: [ns/ns-deaths-by-sex-avg-age/Deaths_V5_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Hospitalizations and ICU by vaccination status: [ns/hosp-icu-by-vaccination-status/Hospitalizations_V5_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Vaccine coverage by CHN (2): [ns/vaccine-coverage-by-chn-2/VaccineCoverageCHN_V5_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Vaccine uptake by age (2): [ns/vaccine-uptake-by-age-2/VaccineUptakeAge_V5_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Immunizations (4): [ns/immunizations-4/Vaccine_V5_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Weekly Data: [ns/weekly-data/COVID19_DashboardV6_WeeklyData_Production.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Immunizations: [ns/immunizations/immunizations.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Immunizations (2): [ns/immunizations-2/Immunizations_3_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Health boundaries: [ns/health-boundaries/health-boundaries.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
@@ -478,12 +473,18 @@ A note about data from Quebec: when both French and English data files are avail
     * Vaccine uptake by age: [ns/vaccine-uptake-by-age/VaccineUptakeAge_V4_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Breakthough outcomes: [ns/breakthrough-outcomes/Breakthrough_Outcomes_V4_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Onset zones: [ns/onset-zones/Onset_Zones_V4_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-* [Potential COVID Exposures](http://www.nshealth.ca/covid-exposures)
-    * Webpage: [ns/ns-potential-covid-exposures-webpage/ns-potential-covid-exposures-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * New cases, active cases, testing, hospitalizations, ICU: [ns/new-cases-active-cases-testing-hosp-icu/CasesReport_V5_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Nova Scotia deaths by sex and average age: [ns/ns-deaths-by-sex-avg-age/Deaths_V5_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Hospitalizations and ICU by vaccination status: [ns/hosp-icu-by-vaccination-status/Hospitalizations_V5_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Vaccine coverage by CHN (2): [ns/vaccine-coverage-by-chn-2/VaccineCoverageCHN_V5_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Vaccine uptake by age (2): [ns/vaccine-uptake-by-age-2/VaccineUptakeAge_V5_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Immunizations (4): [ns/immunizations-4/Vaccine_V5_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [COVID-19 Exposures Connected to Public Schools](https://backtoschool.ednet.ns.ca/school-exposures)
     * Webpage: [ns/ns-public-school-covid-exposures-webpage/ns-public-school-covid-exposures-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19 news releases](https://novascotia.ca/news/search/?dept=180)
     * Webpage: [ns/daily-covid-news-release-webpage/daily-covid-news-release-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [Potential COVID Exposures](http://www.nshealth.ca/covid-exposures)
+    * Webpage: [ns/ns-potential-covid-exposures-webpage/ns-potential-covid-exposures-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 </details>
 <details>
 <summary><b>Nunavut</b></summary>
