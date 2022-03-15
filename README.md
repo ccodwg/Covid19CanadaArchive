@@ -418,23 +418,31 @@ A note about data from Quebec: when both French and English data files are avail
 <details>
 <summary><b>Newfoundland and Labrador</b></summary>
 
+* [Newfoundland and Labrador COVID-19 Dashboard](https://experience.arcgis.com/experience/280d17f9bd5d47e9870b6aba8222e5f4)
+    * Recent daily new cases time series: [nl/recent-daily-new-cases-time-series/Case_overTime.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Recent deaths by vaccination status: [nl/recent-deaths-by-vaccination-status/Deaths_Vax.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Health region summary: [nl/health-region-summary/HealthRegions_Covid.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Recent hospitalizations by vaccination status: [nl/recent-hospitalizations-by-vaccination-status/Hospitalizations_Vax.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Vaccination proportions: [nl/vaccination-proportions/Pie_Proportion.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Recent case counts and rates by vaccination status: [nl/recent-case-counts-and-rates-by-vaccination-status/Vax_Status.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Vaccination rates by age group: [nl/vaccination-rates-by-age-group/VaxRates_Age.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Newfoundland and Labrador COVID-19 Pandemic Update Hub](https://covid-19-newfoundland-and-labrador-gnl.hub.arcgis.com/)
-    * Webpage: [nl/nl-pandemic-hub-webpage/nl-pandemic-hub-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Province summary: [nl/nl-summary/ProvCovidDailyStats.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Province time series: [nl/nl-summary-time-series/Prov_Covid_Daily_Stats_v2_Public_View.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Regional Health Authority summary: [nl/rha-summary/RHA_CurrentStats2_Public2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Cumulative cases by Primary Health Care Zone: [nl/cumulative-cases-by-phcz/PHZ_Zone_Public.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Cases by likely exposure setting: [nl/cases-by-likely-exposure-setting/Exposure_New_Public.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Cases by age and sex: [nl/cases-by-age-and-sex/Covid_AgeLayerPublic2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Cases by vaccination status: [nl/cases-by-vaccination-status/CasesByVaccineStatus_Public.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Cumulative vaccination (5): [nl/cumulative-vaccination-5/Daily_Vaccination_Update_v5_Public.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Percent fully vaccinated by Primary Health Care Area (PHC): [nl/fully-vaccinated-by-phc/PHC_FullyVaccinated_LabMerge.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Vaccine doses received and expected this week: [nl/vaccine-doses-received-and-expected/WeeklyDoses_Public.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Cumulative vaccination: [nl/cumulative-vaccination/Vaccine_LatestPublic_v2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Cumulative vaccination (2): [nl/cumulative-vaccination-2/DailyVaccination_Public.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Cumulative vaccination (3): [nl/cumulative-vaccination-3/DailyVaccineUpdatePublic.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Cumulative vaccination (4): [nl/cumulative-vaccination-4/DailyVaxUpdatePublicV3.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Primary Health Care Zone populations: [nl/phcz-populations/PHC_Zones_Combined_Public.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Webpage: [nl/nl-pandemic-hub-webpage/nl-pandemic-hub-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Province summary: [nl/nl-summary/ProvCovidDailyStats.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Province time series: [nl/nl-summary-time-series/Prov_Covid_Daily_Stats_v2_Public_View.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Regional Health Authority summary: [nl/rha-summary/RHA_CurrentStats2_Public2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Cumulative cases by Primary Health Care Zone: [nl/cumulative-cases-by-phcz/PHZ_Zone_Public.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Cases by likely exposure setting: [nl/cases-by-likely-exposure-setting/Exposure_New_Public.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Cases by age and sex: [nl/cases-by-age-and-sex/Covid_AgeLayerPublic2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Cases by vaccination status: [nl/cases-by-vaccination-status/CasesByVaccineStatus_Public.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Cumulative vaccination (5): [nl/cumulative-vaccination-5/Daily_Vaccination_Update_v5_Public.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Vaccine doses received and expected this week: [nl/vaccine-doses-received-and-expected/WeeklyDoses_Public.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 </details>
 <details>
 <summary><b>Northwest Territories</b></summary>
