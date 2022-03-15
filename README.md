@@ -410,10 +410,10 @@ A note about data from Quebec: when both French and English data files are avail
     * Provincial case, death, recovered time series: [nb/provincial-case-death-recovered-time-series/provincial-case-death-recovered-time-series.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Current COVID-19 statistics by Health Zone: [nb/current-covid-stats-by-zone/WinterPlanLevel.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * COVID-19 schools 2021: [nb/covid-schools-2021/Covid19SchoolsData.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-* [Potential Public Exposures](https://www2.gnb.ca/content/gnb/en/corporate/promo/covid-19/potential_public_exposure.html)
-    * Webpage: [nb/potential-public-exposures-webpage/potential-public-exposures-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Education and Early Childhood Development COVID-19 Updates](https://www2.gnb.ca/content/gnb/en/corporate/promo/education-and-early-childhood-development-covid-19.html)
-    * Webpage: [nb/education-and-early-childhood-development-covid-webpage/education-and-early-childhood-development-covid-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Webpage: [nb/education-and-early-childhood-development-covid-webpage/education-and-early-childhood-development-covid-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [Potential Public Exposures](https://www2.gnb.ca/content/gnb/en/corporate/promo/covid-19/potential_public_exposure.html)
+    * Webpage: [nb/potential-public-exposures-webpage/potential-public-exposures-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 </details>
 <details>
 <summary><b>Newfoundland and Labrador</b></summary>
