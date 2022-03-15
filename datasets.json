@@ -4211,50 +4211,6 @@
           "meta_group_1": "New Brunswick"
         },
         "notes": {}
-      },
-      {
-        "id_name": "NB - Potential public exposures (webpage)",
-        "uuid": "f1bdb24f-e3c4-4987-bda0-851903dadb46",
-        "active": "True",
-        "url": "https://www2.gnb.ca/content/gnb/en/corporate/promo/covid-19/potential_public_exposure.html",
-        "dir_parent": "nb",
-        "dir_file": "potential-public-exposures-webpage",
-        "file_name": "potential-public-exposures-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://www2.gnb.ca/content/gnb/en/corporate/promo/covid-19/potential_public_exposure.html",
-          "meta_url_name": "Potential Public Exposures",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "New Brunswick"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "NB - Education and Early Childhood Development COVID-19 Updates (webpage)",
-        "uuid": "e64ca130-27bf-4660-920a-da3533eeb503",
-        "active": "True",
-        "url": "https://www2.gnb.ca/content/gnb/en/corporate/promo/education-and-early-childhood-development-covid-19.html",
-        "dir_parent": "nb",
-        "dir_file": "education-and-early-childhood-development-covid-webpage",
-        "file_name": "education-and-early-childhood-development-covid-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://www2.gnb.ca/content/gnb/en/corporate/promo/education-and-early-childhood-development-covid-19.html",
-          "meta_url_name": "Education and Early Childhood Development COVID-19 Updates",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "New Brunswick"
-        },
-        "notes": {}
       }
     ],
     "nl": [
@@ -11288,6 +11244,50 @@
           "meta_name": "COVID-19 schools 2021",
           "meta_url": "https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa",
           "meta_url_name": "New Brunswick COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NB - Education and Early Childhood Development COVID-19 Updates (webpage)",
+        "uuid": "e64ca130-27bf-4660-920a-da3533eeb503",
+        "active": "False",
+        "url": "https://www2.gnb.ca/content/gnb/en/corporate/promo/education-and-early-childhood-development-covid-19.html",
+        "dir_parent": "nb",
+        "dir_file": "education-and-early-childhood-development-covid-webpage",
+        "file_name": "education-and-early-childhood-development-covid-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www2.gnb.ca/content/gnb/en/corporate/promo/education-and-early-childhood-development-covid-19.html",
+          "meta_url_name": "Education and Early Childhood Development COVID-19 Updates",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NB - Potential public exposures (webpage)",
+        "uuid": "f1bdb24f-e3c4-4987-bda0-851903dadb46",
+        "active": "False",
+        "url": "https://www2.gnb.ca/content/gnb/en/corporate/promo/covid-19/potential_public_exposure.html",
+        "dir_parent": "nb",
+        "dir_file": "potential-public-exposures-webpage",
+        "file_name": "potential-public-exposures-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www2.gnb.ca/content/gnb/en/corporate/promo/covid-19/potential_public_exposure.html",
+          "meta_url_name": "Potential Public Exposures",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "New Brunswick"
