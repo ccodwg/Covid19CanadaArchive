@@ -4282,7 +4282,9 @@
           "meta_licence_url": "",
           "meta_group_1": "Newfoundland and Labrador"
         },
-        "notes": {}
+        "notes": {
+          "notes_data": "Only the mortality, hospitalization and ICU values appear to be accurate."
+        }
       },
       {
         "id_name": "NL - Recent hospitalizations by vaccination status",
