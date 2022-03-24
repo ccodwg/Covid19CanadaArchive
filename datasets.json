@@ -141,32 +141,6 @@
         "notes": {}
       },
       {
-        "id_name": "AB - COVID-19 relaunch status map",
-        "uuid": "1fdcbf04-fe46-4f71-890c-6230c5321b19",
-        "active": "True",
-        "url": "https://www.alberta.ca/maps/covid-19-status-map.htm",
-        "dir_parent": "ab",
-        "dir_file": "active-cases-by-region",
-        "file_name": "covid19dataexport-relaunch",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "ab_json_to_csv": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Active cases by region",
-          "meta_url": "https://www.alberta.ca/maps/covid-19-status-map.htm",
-          "meta_url_name": "COVID-19 relaunch status map",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Alberta"
-        },
-        "notes": {
-          "notes_data": "Some historical versions of this file may have misaligned/incorrect column names."
-        }
-      },
-      {
         "id_name": "AB - Cases in Alberta (webpage)",
         "uuid": "d3b170a7-bb86-4bb0-b362-2adc5e6438c2",
         "active": "True",
@@ -257,6 +231,28 @@
           "meta_name": "Webpage",
           "meta_url": "https://www.alberta.ca/stats/influenza/influenza-statistics.htm",
           "meta_url_name": "Alberta influenza statistics",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Alberta"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "AB - Acute Care Outbreaks in Alberta",
+        "uuid": "6ff541aa-928e-4cac-b2a5-b0120d617250",
+        "active": "True",
+        "url": "https://www.albertahealthservices.ca/assets/info/ppih/if-ppih-covid-19-acute-care-outbreaks-list.pdf",
+        "dir_parent": "ab",
+        "dir_file": "acute-care-outbreaks-report",
+        "file_name": "if-ppih-covid-19-acute-care-outbreaks-list",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Report",
+          "meta_url": "https://www.albertahealthservices.ca/topics/Page17232.aspx",
+          "meta_url_name": "Acute Care Outbreaks in Alberta",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Alberta"
@@ -9939,6 +9935,32 @@
           "meta_group_1": "Alberta"
         },
         "notes": {}
+      },
+      {
+        "id_name": "AB - COVID-19 relaunch status map",
+        "uuid": "1fdcbf04-fe46-4f71-890c-6230c5321b19",
+        "active": "False",
+        "url": "https://www.alberta.ca/maps/covid-19-status-map.htm",
+        "dir_parent": "ab",
+        "dir_file": "active-cases-by-region",
+        "file_name": "covid19dataexport-relaunch",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "ab_json_to_csv": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Active cases by region",
+          "meta_url": "https://www.alberta.ca/maps/covid-19-status-map.htm",
+          "meta_url_name": "COVID-19 relaunch status map",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Alberta"
+        },
+        "notes": {
+          "notes_data": "Some historical versions of this file may have misaligned/incorrect column names."
+        }
       }
     ],
     "bc": [
