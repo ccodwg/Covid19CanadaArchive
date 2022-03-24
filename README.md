@@ -106,8 +106,6 @@ A note about data from Quebec: when both French and English data files are avail
     * Case time series (Local geographic area): [ab/case-time-series-by-lga/covid-19-alberta-statistics-map-data.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Vaccine data (Local geographic area): [ab/vaccine-coverage-by-lga/lga-coverage.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Vaccine data (Zone): [ab/vaccine-coverage-by-zone/zone-coverage.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-* [COVID-19 relaunch status map](https://www.alberta.ca/maps/covid-19-status-map.htm)
-    * Active cases by region: [ab/active-cases-by-region/covid19dataexport-relaunch.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Cases in Alberta](https://www.alberta.ca/covid-19-alberta-data.aspx)
     * Webpage: [ab/ab-cases-webpage/ab-cases-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19 info for Albertans](https://www.alberta.ca/coronavirus-info-for-albertans.aspx)
@@ -116,8 +114,12 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [ab/ab-vaccine-distribution-webpage/ab-vaccine-distribution-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Alberta influenza statistics](https://www.alberta.ca/stats/influenza/influenza-statistics.htm)
     * Webpage: [ab/ab-influenza-stats-webpage/ab-influenza-stats-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [Acute Care Outbreaks in Alberta](https://www.albertahealthservices.ca/topics/Page17232.aspx)
+    * Report: [ab/acute-care-outbreaks-report/if-ppih-covid-19-acute-care-outbreaks-list.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19 school status map](https://www.alberta.ca/schools/covid-19-school-status-map.htm)
     * School status map: [ab/school-status-by-region/covid19dataexport-schools.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [COVID-19 relaunch status map](https://www.alberta.ca/maps/covid-19-status-map.htm)
+    * Active cases by region: [ab/active-cases-by-region/covid19dataexport-relaunch.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 
 <details>
 <summary><i>Edmonton</i></summary>
