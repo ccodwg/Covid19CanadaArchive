@@ -7513,30 +7513,6 @@
         "notes": {}
       },
       {
-        "id_name": "PE - Potential COVID-19 School Exposures (webpage)",
-        "uuid": "5ba188ec-b973-463d-8462-fdd914b6802e",
-        "active": "True",
-        "url": "https://edu.princeedwardisland.ca/psb/parents_students/covid-19-resources/potential-covid-19-school-exposures/",
-        "dir_parent": "pe",
-        "dir_file": "pei-potential-school-exposures-webpage",
-        "file_name": "pei-potential-school-exposures-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "user": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "Potential COVID-19 School Exposures",
-          "meta_url_name": "https://edu.princeedwardisland.ca/psb/parents_students/covid-19-resources/potential-covid-19-school-exposures/",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Prince Edward Island"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "PE - Potential COVID-19 School Exposures (French School Board) (webpage)",
         "uuid": "47dd2332-e4a6-4c35-be65-fe392b122f4e",
         "active": "True",
@@ -12929,6 +12905,30 @@
           "meta_name": "Webpage",
           "meta_url": "https://www.princeedwardisland.ca/en/search/site?f%5B0%5D=type%3Anews&f%5B1%5D=field_news_type%3A22&f%5B2%5D=field_department%3A612",
           "meta_url_name": "COVID-19 news releases",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Prince Edward Island"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "PE - Potential COVID-19 School Exposures (webpage)",
+        "uuid": "5ba188ec-b973-463d-8462-fdd914b6802e",
+        "active": "False",
+        "url": "https://edu.princeedwardisland.ca/psb/parents_students/covid-19-resources/potential-covid-19-school-exposures/",
+        "dir_parent": "pe",
+        "dir_file": "pei-potential-school-exposures-webpage",
+        "file_name": "pei-potential-school-exposures-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "Potential COVID-19 School Exposures",
+          "meta_url_name": "https://edu.princeedwardisland.ca/psb/parents_students/covid-19-resources/potential-covid-19-school-exposures/",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Prince Edward Island"
