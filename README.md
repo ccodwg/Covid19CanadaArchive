@@ -1018,7 +1018,7 @@ On several occasions, the nightly archival script has failed to run. Depending o
 * 2020-10-21
 * 2020-11-19
 
-In addition, the method of archiving websites (HTML files) was modified on 2021-12-30. This may have caused a handful of HTML files not to be marked duplicates of the previous day's file when they otherwise would have been.
+In addition, the method of archiving websites (HTML files) was modified on 2021-12-30. This may have caused a handful of HTML files not to be marked duplicates of the previous day's file when they otherwise would have been. On 2022-03-26, the old method of archiving websites was erroneously used, once again resulting in some HTML files not being marked duplicates when they otherwise would have been.
 
 ## Notes about the archival tool
 
