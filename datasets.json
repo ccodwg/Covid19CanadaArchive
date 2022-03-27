@@ -7451,7 +7451,7 @@
         "dir_file": "pei-webpage",
         "file_name": "pei-webpage",
         "file_ext": "html",
-        "dl_fun": "dl_file",
+        "dl_fun": "html_page",
         "args": {
           "user": "True"
         },
@@ -7475,7 +7475,7 @@
         "dir_file": "pei-vaccination-webpage",
         "file_name": "pei-vaccination-webpage",
         "file_ext": "html",
-        "dl_fun": "dl_file",
+        "dl_fun": "html_page",
         "args": {
           "user": "True"
         },
