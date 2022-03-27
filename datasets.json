@@ -1588,7 +1588,7 @@
         }
       },
       {
-        "id_name": "CAN - Mise à jour quotidienne sur l’épidémiologie de laCOVID-19 (French report)",
+        "id_name": "CAN - Mise à jour quotidienne sur l’épidémiologie de la COVID-19 (French report)",
         "uuid": "5067ddb4-c90a-423e-bd09-77c43e1b2a2c",
         "active": "True",
         "url": "https://sante-infobase.canada.ca/src/data/covidLive/Resume-epidemiologique-des-cas-de-COVID-19-au-Canada.pdf",
