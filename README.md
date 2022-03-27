@@ -1022,13 +1022,7 @@ In addition, the method of archiving websites (HTML files) was modified on 2021-
 
 ## Notes about the archival tool
 
-Updates to the Canadian COVID-19 Data Archive are managed by *archiver.py* via the [`archivist`](https://github.com/jeanpaulrsoucy/archivist) package. Development of `archivist` originally took place in this repository but has since been migrated to its [own repository](https://github.com/jeanpaulrsoucy/archivist).
-
-*archiver.py* can run in two modes:
-* `python archiver.py -m prod`: Download datasets and upload them to the archive.
-* `python archiver.py -m test`: Don't upload datasets to the archive, just test that they can be successfully downloaded. Send an email summary of datasets that cannot be downloaded, if any.
-
-The archival tool relies on setting environmental variables to function properly. See [*archiver.py*](https://github.com/ccodwg/Covid19CanadaArchive/blob/master/archiver.py) for more details.
+Updates to the Canadian COVID-19 Data Archive are managed by the [`archivist`](https://github.com/jeanpaulrsoucy/archivist) package. Development of `archivist` originally took place in this repository but has since been migrated to its [own repository](https://github.com/jeanpaulrsoucy/archivist).
 
 ## Acknowledgements
 
