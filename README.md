@@ -303,25 +303,8 @@ A note about data from Quebec: when both French and English data files are avail
 
 * [Province of Manitoba - COVID-19](https://www.gov.mb.ca/covid19/updates/index.html)
     * Webpage: [mb/manitoba-webpage/manitoba-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-* [Manitoba COVID-19](https://experience.arcgis.com/experience/f55693e56018406ebbd08b3492e99771)
-    * COVID-19 data by RHA and district: [mb/covid-data-by-rha-and-district/covid-data-by-rha-and-district.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * COVID-19 data by RHA and district (JSON to CSV): [mb/covid-data-by-rha-and-district-csv/covid-data-by-rha-and-district.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Cases by demographics and RHA: [mb/cases-demographics-by-rha/cases-demographics-by-rha.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Cases by demographics and RHA (JSON to CSV): [mb/cases-demographics-by-rha-csv/cases-demographics-by-rha.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Cases by demographics and RHA (official): [mb/cases-demographics-by-rha-official/cases-demographics-by-rha.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Daily Cases by Status and RHA: [mb/cases-by-status-and-rha/cases-by-status-and-rha.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Daily Cases by Status and RHA (JSON to CSV): [mb/cases-by-status-and-rha-csv/cases-by-status-and-rha.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Daily Cases by Status and RHA (official): [mb/cases-by-status-and-rha-official/mb_covid_cases_by_status_daily_rha.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Manitoba five-day test positivity rate: [mb/five-day-test-positivity/five-day-test-positivity.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Manitoba five-day test positivity rate (JSON to CSV): [mb/five-day-test-positivity-csv/five-day-test-positivity.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Manitoba five-day test positivity rate (official): [mb/five-day-test-positivity-official/mb_covid_5_day_positivity_rate.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Summary Statistics by Geography: [mb/summary-stats-by-area/summary-stats-by-area.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Summary Statistics by Geography (official): [mb/summary-stats-by-area-official/mb_covid_cases_summary_statistics.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Case Status by District: [mb/current-status-by-area/current-status-by-area.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Case Status by District (official): [mb/current-status-by-area-official/Manitoba_COVID19_Case_Status_by_Geography.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Case Status by District (official FGDB): [mb/current-status-by-area-official-fgdb/Manitoba_COVID19_Case_Status_by_Geography.gdb.zip](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Case Status by RHA (official): [mb/current-status-by-rha-official/Manitoba_COVID19_Case_Status_by_Geography.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Case Status by RHA (official FGDB): [mb/current-status-by-area-rha-fgdb/Manitoba_COVID19_Case_Status_by_Geography.gdb.zip](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [Provincial Respiratory Surveillance Report - COVID-19](https://www.gov.mb.ca/health/publichealth/surveillance/covid-19/index.html)
+    * Webpage: [mb/mb-surveillance-report-covid-webpage/mb-surveillance-report-covid-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Manitoba COVID-19 Vaccinations](https://www.gov.mb.ca/covid19/vaccine/reports.html)
     * Vaccination time series 2: [mb/vaccination-time-series-2/mb_covid_vaccinations_daily_cumulative_02.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Vaccination by age group and sex 2: [mb/vaccination-by-age-sex-2/mb_covid_vaccinations_demographics_02.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
@@ -349,16 +332,35 @@ A note about data from Quebec: when both French and English data files are avail
     * First Nations vaccination time series: [mb/first-nations-vaccination-time-series/mbfn_covid_vaccinations_daily_cumulative.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * First Nations vaccination by age group and sex: [mb/first-nations-vaccination-by-age-sex/mbfn_covid_vaccinations_demographics.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [COVID-19 Dashboard: K-12 Schools in Manitoba](https://experience.arcgis.com/experience/6e7af13b3ffb447a99734b0119b169d3/)
-    * COVID education statistics summary (2): [mb/covid-education-summary-2/mb_covid_education_statistics_summary.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * COVID education cases last 2 weeks (2): [mb/covid-education-cases-last-2-weeks-2/Manitoba_COVID-19_in_Schools_-_14_Day_Report.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Manitoba school divisions: [mb/school-divisions/school-divisions.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * COVID education cases - Definitions: [mb/covid-education-cases-definitions/covid-education-cases-definitions.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * COVID education statistics summary: [mb/covid-education-summary/covid-education-summary.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * COVID education cases last 2 weeks: [mb/covid-education-cases-last-2-weeks/covid-education-cases-last-2-weeks.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * COVID education statistics summary (2): [mb/covid-education-summary-2/mb_covid_education_statistics_summary.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * COVID education cases last 2 weeks (2): [mb/covid-education-cases-last-2-weeks-2/Manitoba_COVID-19_in_Schools_-_14_Day_Report.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Manitoba school divisions: [mb/school-divisions/school-divisions.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * COVID education cases - Definitions: [mb/covid-education-cases-definitions/covid-education-cases-definitions.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Cases and Risk of COVID-19 in Manitoba](https://www.gov.mb.ca/covid19/updates/cases.html)
-    * Select COVID-19 Outbreaks in Manitoba: [mb/acive-outbreaks-ltc-institutions-healthcare-schools/Current_MB_COVID_Outbreaks.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * COVID-19 Variant of Concern Cases in Manitoba: [mb/cumulative-variants-by-rha/mb_covid_variants.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * COVID-19 Cases by vaccination status: [mb/daily-cases-by-vaccination-status/mb_covid_cases_by_vaccination_status.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Select COVID-19 Outbreaks in Manitoba: [mb/acive-outbreaks-ltc-institutions-healthcare-schools/Current_MB_COVID_Outbreaks.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [Manitoba COVID-19](https://experience.arcgis.com/experience/f55693e56018406ebbd08b3492e99771)
+    * COVID-19 data by RHA and district: [mb/covid-data-by-rha-and-district/covid-data-by-rha-and-district.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * COVID-19 data by RHA and district (JSON to CSV): [mb/covid-data-by-rha-and-district-csv/covid-data-by-rha-and-district.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Cases by demographics and RHA: [mb/cases-demographics-by-rha/cases-demographics-by-rha.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Cases by demographics and RHA (JSON to CSV): [mb/cases-demographics-by-rha-csv/cases-demographics-by-rha.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Cases by demographics and RHA (official): [mb/cases-demographics-by-rha-official/cases-demographics-by-rha.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Daily Cases by Status and RHA: [mb/cases-by-status-and-rha/cases-by-status-and-rha.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Daily Cases by Status and RHA (JSON to CSV): [mb/cases-by-status-and-rha-csv/cases-by-status-and-rha.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Daily Cases by Status and RHA (official): [mb/cases-by-status-and-rha-official/mb_covid_cases_by_status_daily_rha.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Manitoba five-day test positivity rate: [mb/five-day-test-positivity/five-day-test-positivity.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Manitoba five-day test positivity rate (JSON to CSV): [mb/five-day-test-positivity-csv/five-day-test-positivity.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Manitoba five-day test positivity rate (official): [mb/five-day-test-positivity-official/mb_covid_5_day_positivity_rate.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Summary Statistics by Geography: [mb/summary-stats-by-area/summary-stats-by-area.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Summary Statistics by Geography (official): [mb/summary-stats-by-area-official/mb_covid_cases_summary_statistics.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Case Status by District: [mb/current-status-by-area/current-status-by-area.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Case Status by District (official): [mb/current-status-by-area-official/Manitoba_COVID19_Case_Status_by_Geography.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Case Status by District (official FGDB): [mb/current-status-by-area-official-fgdb/Manitoba_COVID19_Case_Status_by_Geography.gdb.zip](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Case Status by RHA (official): [mb/current-status-by-rha-official/Manitoba_COVID19_Case_Status_by_Geography.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Case Status by RHA (official FGDB): [mb/current-status-by-area-rha-fgdb/Manitoba_COVID19_Case_Status_by_Geography.gdb.zip](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 
 <details>
 <summary><i>Winnipeg</i></summary>
