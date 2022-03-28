@@ -305,6 +305,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [mb/manitoba-webpage/manitoba-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Provincial Respiratory Surveillance Report - COVID-19](https://www.gov.mb.ca/health/publichealth/surveillance/covid-19/index.html)
     * Webpage: [mb/mb-surveillance-report-covid-webpage/mb-surveillance-report-covid-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [COVID-19 Outbreaks](https://www.gov.mb.ca/covid19/prs/index.html)
+    * Webpage: [mb/mb-outbreaks-webpage/mb-outbreaks-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Manitoba COVID-19 Vaccinations](https://www.gov.mb.ca/covid19/vaccine/reports.html)
     * Vaccination time series 2: [mb/vaccination-time-series-2/mb_covid_vaccinations_daily_cumulative_02.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Vaccination by age group and sex 2: [mb/vaccination-by-age-sex-2/mb_covid_vaccinations_demographics_02.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
