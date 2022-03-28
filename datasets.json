@@ -2981,7 +2981,7 @@
     ],
     "mb": [
       {
-        "id_name": "MB - COVID 19 Updates",
+        "id_name": "MB - COVID 19 Updates (webpage)",
         "uuid": "9282e729-3d3e-4bd3-bc83-1ab3dc48bc0f",
         "active": "True",
         "url": "https://www.gov.mb.ca/covid19/updates/index.html",
@@ -3006,7 +3006,7 @@
         "notes": {}
       },
       {
-        "id_name": "MB - Provincial Respiratory Surveillance Report - COVID-19",
+        "id_name": "MB - Provincial Respiratory Surveillance Report - COVID-19 (webpage)",
         "uuid": "363c937c-c384-4f4e-be24-fbd47fac9e83",
         "active": "True",
         "url": "https://www.gov.mb.ca/health/publichealth/surveillance/covid-19/index.html",
@@ -3021,6 +3021,28 @@
           "meta_name": "Webpage",
           "meta_url": "https://www.gov.mb.ca/health/publichealth/surveillance/covid-19/index.html",
           "meta_url_name": "Provincial Respiratory Surveillance Report - COVID-19",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - COVID-19 Outbreaks (webpage)",
+        "uuid": "48526eac-fa66-4d57-904b-81babc17f8a2",
+        "active": "True",
+        "url": "https://www.gov.mb.ca/covid19/prs/index.html",
+        "dir_parent": "mb",
+        "dir_file": "mb-outbreaks-webpage",
+        "file_name": "mb-outbreaks-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.gov.mb.ca/covid19/prs/index.html",
+          "meta_url_name": "COVID-19 Outbreaks",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Manitoba"
