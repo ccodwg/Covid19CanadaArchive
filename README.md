@@ -900,6 +900,14 @@ A note about data from Quebec: when both French and English data files are avail
     * Neighbourhoods: [qc/montreal-vaccine-dashboard-neighbourhoods/Arrondissements_et_municipalites.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Vaccine administration time series: [qc/montreal-vaccine-administration-time-series/VAXparJOUR_googledrive.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 </details>
+
+<details>
+<summary><i>Quebec universities</i></summary>
+
+* [McGill University - Cornavirus information](https://www.mcgill.ca/coronavirus/)
+    * COVID-19 Case Tracker: [qc/mcgill-covid-case-tracker/case-status.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * COVID-19 Situation Dashboard: [qc/mcgill-covid-situation-dashboard/covid-19-situation-dashboard.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+</details>
 </details>
 <details>
 <summary><b>Saskatchewan</b></summary>
