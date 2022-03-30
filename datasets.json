@@ -6615,6 +6615,32 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Peterborough (PHU) - Local COVID tracker - Overview (webpage)",
+        "uuid": "821645cf-acbb-49d1-ae28-0e65037c61bf",
+        "active": "True",
+        "url": "https://localcovidtracker.ca/",
+        "dir_parent": "on",
+        "dir_file": "on-phu-peterborough-covid-tracker-overview-webpage",
+        "file_name": "on-phu-peterborough-covid-tracker-overview-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Overview",
+          "meta_url": "https://localcovidtracker.ca/",
+          "meta_url_name": "Peterborough (PHU) - Local COVID tracker",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - Porcupine (PHU) - COVID-19 data (webpage)",
         "uuid": "00cc3ae2-7bf8-4074-81b7-8e06e91c947a",
         "active": "True",
