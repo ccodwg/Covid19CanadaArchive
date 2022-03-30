@@ -707,6 +707,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Summary: [on/on-phu-peel-covid-data-summary-webpage/on-phu-peel-covid-data-summary-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Peterborough (PHU) - Local COVID-19 Cases & Status](https://www.peterboroughpublichealth.ca/local-covid-19-status/)
     * Webpage: [on/on-phu-peterborough-covid-data-webpage/on-phu-peterborough-covid-data-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [Peterborough (PHU) - Local COVID tracker](https://localcovidtracker.ca/)
+    * Overview: [on/on-phu-peterborough-covid-tracker-overview-webpage/on-phu-peterborough-covid-tracker-overview-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Porcupine (PHU) - Novel Coronavirus (COVID-19)](https://www.porcupinehu.on.ca/en/your-health/infectious-diseases/novel-coronavirus/)
     * Webpage: [on/on-phu-porcupine-covid-data-webpage/on-phu-porcupine-covid-data-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Renfrew (PHU) - COVID-19 local cases](https://www.rcdhu.com/novel-coronavirus-covid-19-2/)
