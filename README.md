@@ -308,14 +308,6 @@ A note about data from Quebec: when both French and English data files are avail
 * [COVID-19 Outbreaks](https://www.gov.mb.ca/covid19/prs/index.html)
     * Webpage: [mb/mb-outbreaks-webpage/mb-outbreaks-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Manitoba COVID-19 Vaccinations](https://www.gov.mb.ca/covid19/vaccine/reports.html)
-    * Vaccination time series 2: [mb/vaccination-time-series-2/mb_covid_vaccinations_daily_cumulative_02.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Vaccination by age group and sex 2: [mb/vaccination-by-age-sex-2/mb_covid_vaccinations_demographics_02.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Vaccination by manufacturer: [mb/vaccination-by-manufacturer/mb_covid_vaccinations_manufacturers.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Vaccination summary by Regional Health Authority 2: [mb/vaccination-summary-by-rha-2/mb_covid_vaccinations_summary_stats_02.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Vaccination coverage 2: [mb/vaccination-coverage-2/mb_covid_vaccinations_coverage_02.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Uptake by RHA, age, sex: [mb/vaccine-uptake-by-rha-age-sex/mb_covid_vaccine_uptake_demographics.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Uptake by Health District 2: [mb/vaccine-uptake-by-district-2/mb_covid_vaccine_uptake_district_2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Inventory, delivered, administered, scheduled: [mb/vaccination-inventory-delivered-admin-scheduled-2/mb_covid_vaccinations_inventory_stats_02.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Vaccination coverage by Regional Health Authority: [mb/vaccination-coverage-by-rha/mb_covid_vaccinations_18_coverage.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Projected vaccine doses: [mb/projected-vaccine-doses/mb_covid_vaccinations_projected_doses.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Uptake by Health District: [mb/vaccine-uptake-by-district/mb_covid_vaccine_uptake_district.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
@@ -333,6 +325,14 @@ A note about data from Quebec: when both French and English data files are avail
     * First Nations vaccination summary on reserve and off reserve: [mb/first-nations-vaccination-summary-on-reserve-off-reserve/mbfn_covid_vaccinations_summary_statistics.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * First Nations vaccination time series: [mb/first-nations-vaccination-time-series/mbfn_covid_vaccinations_daily_cumulative.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * First Nations vaccination by age group and sex: [mb/first-nations-vaccination-by-age-sex/mbfn_covid_vaccinations_demographics.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Vaccination time series 2: [mb/vaccination-time-series-2/mb_covid_vaccinations_daily_cumulative_02.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Vaccination by age group and sex 2: [mb/vaccination-by-age-sex-2/mb_covid_vaccinations_demographics_02.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Vaccination by manufacturer: [mb/vaccination-by-manufacturer/mb_covid_vaccinations_manufacturers.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Vaccination summary by Regional Health Authority 2: [mb/vaccination-summary-by-rha-2/mb_covid_vaccinations_summary_stats_02.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Vaccination coverage 2: [mb/vaccination-coverage-2/mb_covid_vaccinations_coverage_02.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Uptake by RHA, age, sex: [mb/vaccine-uptake-by-rha-age-sex/mb_covid_vaccine_uptake_demographics.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Uptake by Health District 2: [mb/vaccine-uptake-by-district-2/mb_covid_vaccine_uptake_district_2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Inventory, delivered, administered, scheduled: [mb/vaccination-inventory-delivered-admin-scheduled-2/mb_covid_vaccinations_inventory_stats_02.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [COVID-19 Dashboard: K-12 Schools in Manitoba](https://experience.arcgis.com/experience/6e7af13b3ffb447a99734b0119b169d3/)
     * COVID education statistics summary: [mb/covid-education-summary/covid-education-summary.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * COVID education cases last 2 weeks: [mb/covid-education-cases-last-2-weeks/covid-education-cases-last-2-weeks.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
