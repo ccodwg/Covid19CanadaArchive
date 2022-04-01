@@ -3048,184 +3048,6 @@
           "meta_group_1": "Manitoba"
         },
         "notes": {}
-      },
-      {
-        "id_name": "MB - Vaccine dashboard: vaccination time series 2",
-        "uuid": "a5801472-42ae-409e-aedd-9bf92831434a",
-        "active": "True",
-        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_vaccinations_daily_cumulative_02/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "mb",
-        "dir_file": "vaccination-time-series-2",
-        "file_name": "mb_covid_vaccinations_daily_cumulative_02",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Vaccination time series 2",
-          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
-          "meta_url_name": "Manitoba COVID-19 Vaccinations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba"
-        },
-        "notes": {
-          "notes_data": "This time series includes third doses."
-        }
-      },
-      {
-        "id_name": "MB - Vaccine dashboard: vaccination by age group and sex 2",
-        "uuid": "5aff9782-2391-4c13-82d9-c640337a82c1",
-        "active": "True",
-        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_vaccinations_demographics_02/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "mb",
-        "dir_file": "vaccination-by-age-sex-2",
-        "file_name": "mb_covid_vaccinations_demographics_02",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Vaccination by age group and sex 2",
-          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
-          "meta_url_name": "Manitoba COVID-19 Vaccinations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "MB - Vaccine dashboard: vaccination by manufacturer",
-        "uuid": "1e9f40b2-853f-49d5-a9c4-ed04fee1bea2",
-        "active": "True",
-        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_vaccinations_manufacturers/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "mb",
-        "dir_file": "vaccination-by-manufacturer",
-        "file_name": "mb_covid_vaccinations_manufacturers",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Vaccination by manufacturer",
-          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
-          "meta_url_name": "Manitoba COVID-19 Vaccinations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "MB - Vaccine dashboard: vaccination summary by Regional Health Authority 2",
-        "uuid": "86e3bae5-bdd4-492a-a743-69ccbd074f4c",
-        "active": "True",
-        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_vaccinations_summary_stats_02/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "mb",
-        "dir_file": "vaccination-summary-by-rha-2",
-        "file_name": "mb_covid_vaccinations_summary_stats_02",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Vaccination summary by Regional Health Authority 2",
-          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
-          "meta_url_name": "Manitoba COVID-19 Vaccinations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "MB - Vaccine dashboard: vaccination coverage 2",
-        "uuid": "59d68e11-aeb1-46e7-a874-b683ae28a88c",
-        "active": "True",
-        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_vaccinations_coverage_02/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "mb",
-        "dir_file": "vaccination-coverage-2",
-        "file_name": "mb_covid_vaccinations_coverage_02",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Vaccination coverage 2",
-          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
-          "meta_url_name": "Manitoba COVID-19 Vaccinations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "MB - Vaccine dashboard: uptake by RHA, age, sex",
-        "uuid": "aaffefee-bda6-419f-b1f5-c061e7b33c73",
-        "active": "True",
-        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_vaccine_uptake_demographics/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "mb",
-        "dir_file": "vaccine-uptake-by-rha-age-sex",
-        "file_name": "mb_covid_vaccine_uptake_demographics",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Uptake by RHA, age, sex",
-          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
-          "meta_url_name": "Manitoba COVID-19 Vaccinations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "MB - Vaccine dashboard: uptake by Health District 2",
-        "uuid": "b45c5e64-2ce7-410a-bfb8-78c0165919b2",
-        "active": "True",
-        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_vaccine_uptake_district_2/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "mb",
-        "dir_file": "vaccine-uptake-by-district-2",
-        "file_name": "mb_covid_vaccine_uptake_district_2",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Uptake by Health District 2",
-          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
-          "meta_url_name": "Manitoba COVID-19 Vaccinations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "MB - Vaccine dashboard: inventory, delivered, administered, scheduled 2",
-        "uuid": "1504879a-ff82-4799-918a-c2bb47842cf5",
-        "active": "True",
-        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_vaccinations_inventory_stats_02/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "mb",
-        "dir_file": "vaccination-inventory-delivered-admin-scheduled-2",
-        "file_name": "mb_covid_vaccinations_inventory_stats_02",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Inventory, delivered, administered, scheduled",
-          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
-          "meta_url_name": "Manitoba COVID-19 Vaccinations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba"
-        },
-        "notes": {}
       }
     ],
     "nb": [
@@ -10966,6 +10788,184 @@
           "meta_name": "Select COVID-19 Outbreaks in Manitoba",
           "meta_url": "https://www.gov.mb.ca/covid19/updates/cases.html",
           "meta_url_name": "Cases and Risk of COVID-19 in Manitoba",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Vaccine dashboard: vaccination time series 2",
+        "uuid": "a5801472-42ae-409e-aedd-9bf92831434a",
+        "active": "False",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_vaccinations_daily_cumulative_02/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "vaccination-time-series-2",
+        "file_name": "mb_covid_vaccinations_daily_cumulative_02",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination time series 2",
+          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
+          "meta_url_name": "Manitoba COVID-19 Vaccinations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {
+          "notes_data": "This time series includes third doses."
+        }
+      },
+      {
+        "id_name": "MB - Vaccine dashboard: vaccination by age group and sex 2",
+        "uuid": "5aff9782-2391-4c13-82d9-c640337a82c1",
+        "active": "False",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_vaccinations_demographics_02/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "vaccination-by-age-sex-2",
+        "file_name": "mb_covid_vaccinations_demographics_02",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination by age group and sex 2",
+          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
+          "meta_url_name": "Manitoba COVID-19 Vaccinations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Vaccine dashboard: vaccination by manufacturer",
+        "uuid": "1e9f40b2-853f-49d5-a9c4-ed04fee1bea2",
+        "active": "False",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_vaccinations_manufacturers/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "vaccination-by-manufacturer",
+        "file_name": "mb_covid_vaccinations_manufacturers",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination by manufacturer",
+          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
+          "meta_url_name": "Manitoba COVID-19 Vaccinations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Vaccine dashboard: vaccination summary by Regional Health Authority 2",
+        "uuid": "86e3bae5-bdd4-492a-a743-69ccbd074f4c",
+        "active": "False",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_vaccinations_summary_stats_02/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "vaccination-summary-by-rha-2",
+        "file_name": "mb_covid_vaccinations_summary_stats_02",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination summary by Regional Health Authority 2",
+          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
+          "meta_url_name": "Manitoba COVID-19 Vaccinations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Vaccine dashboard: vaccination coverage 2",
+        "uuid": "59d68e11-aeb1-46e7-a874-b683ae28a88c",
+        "active": "False",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_vaccinations_coverage_02/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "vaccination-coverage-2",
+        "file_name": "mb_covid_vaccinations_coverage_02",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination coverage 2",
+          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
+          "meta_url_name": "Manitoba COVID-19 Vaccinations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Vaccine dashboard: uptake by RHA, age, sex",
+        "uuid": "aaffefee-bda6-419f-b1f5-c061e7b33c73",
+        "active": "False",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_vaccine_uptake_demographics/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "vaccine-uptake-by-rha-age-sex",
+        "file_name": "mb_covid_vaccine_uptake_demographics",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Uptake by RHA, age, sex",
+          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
+          "meta_url_name": "Manitoba COVID-19 Vaccinations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Vaccine dashboard: uptake by Health District 2",
+        "uuid": "b45c5e64-2ce7-410a-bfb8-78c0165919b2",
+        "active": "False",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_vaccine_uptake_district_2/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "vaccine-uptake-by-district-2",
+        "file_name": "mb_covid_vaccine_uptake_district_2",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Uptake by Health District 2",
+          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
+          "meta_url_name": "Manitoba COVID-19 Vaccinations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - Vaccine dashboard: inventory, delivered, administered, scheduled 2",
+        "uuid": "1504879a-ff82-4799-918a-c2bb47842cf5",
+        "active": "False",
+        "url": "https://services.arcgis.com/mMUesHYPkXjaFGfS/arcgis/rest/services/mb_covid_vaccinations_inventory_stats_02/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "mb",
+        "dir_file": "vaccination-inventory-delivered-admin-scheduled-2",
+        "file_name": "mb_covid_vaccinations_inventory_stats_02",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Inventory, delivered, administered, scheduled",
+          "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
+          "meta_url_name": "Manitoba COVID-19 Vaccinations",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Manitoba"
