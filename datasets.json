@@ -5231,50 +5231,6 @@
         "notes": {}
       },
       {
-        "id_name": "ON - ICES dashboard percent positivity by FSA",
-        "uuid": "bceb2acd-68d3-443f-8b0a-0f16fc80c54f",
-        "active": "True",
-        "url": "https://www.ices.on.ca/~/media/Files/COVID-19/ICES-COVID19-Testing-Data-FSA-percent-positivity.ashx?la=en-CA",
-        "dir_parent": "on",
-        "dir_file": "ices-percent-positivity-by-fsa",
-        "file_name": "ICES-COVID19-Testing-Data-FSA-percent-positivity",
-        "file_ext": "xlsx",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Percent positivity by FSA",
-          "meta_url": "https://www.ices.on.ca/DAS/AHRQ/COVID-19-Dashboard",
-          "meta_url_name": "ICES COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - ICES dashboard percent positivity by age group and Public Health Unit (PHU)",
-        "uuid": "3f89584e-9189-4477-9a1b-06b6522a63b2",
-        "active": "True",
-        "url": "https://www.ices.on.ca/~/media/Files/COVID-19/ICES-COVID19-Testing-Data_PHUxAge-Groups-percent-positivity.ashx?la=en-CA",
-        "dir_parent": "on",
-        "dir_file": "ices-percent-positivity-by-age-group-and-phu",
-        "file_name": "ICES-COVID19-Testing-Data_PHUxAge-Groups-percent-positivity",
-        "file_ext": "xlsx",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Percent positivity by age group and Public Health Unit (PHU)",
-          "meta_url": "https://www.ices.on.ca/DAS/AHRQ/COVID-19-Dashboard",
-          "meta_url_name": "ICES COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "ON - ICES dashboard vaccine coverage estimates for selected age groups by FSA",
         "uuid": "cd168371-86f5-41f3-9555-580cd50f9b3a",
         "active": "True",
@@ -12954,6 +12910,50 @@
           "meta_licence_url": "",
           "meta_group_1": "Ontario",
           "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - ICES dashboard percent positivity by FSA",
+        "uuid": "bceb2acd-68d3-443f-8b0a-0f16fc80c54f",
+        "active": "False",
+        "url": "https://www.ices.on.ca/~/media/Files/COVID-19/ICES-COVID19-Testing-Data-FSA-percent-positivity.ashx?la=en-CA",
+        "dir_parent": "on",
+        "dir_file": "ices-percent-positivity-by-fsa",
+        "file_name": "ICES-COVID19-Testing-Data-FSA-percent-positivity",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Percent positivity by FSA",
+          "meta_url": "https://www.ices.on.ca/DAS/AHRQ/COVID-19-Dashboard",
+          "meta_url_name": "ICES COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - ICES dashboard percent positivity by age group and Public Health Unit (PHU)",
+        "uuid": "3f89584e-9189-4477-9a1b-06b6522a63b2",
+        "active": "False",
+        "url": "https://www.ices.on.ca/~/media/Files/COVID-19/ICES-COVID19-Testing-Data_PHUxAge-Groups-percent-positivity.ashx?la=en-CA",
+        "dir_parent": "on",
+        "dir_file": "ices-percent-positivity-by-age-group-and-phu",
+        "file_name": "ICES-COVID19-Testing-Data_PHUxAge-Groups-percent-positivity",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Percent positivity by age group and Public Health Unit (PHU)",
+          "meta_url": "https://www.ices.on.ca/DAS/AHRQ/COVID-19-Dashboard",
+          "meta_url_name": "ICES COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
         },
         "notes": {}
       }
