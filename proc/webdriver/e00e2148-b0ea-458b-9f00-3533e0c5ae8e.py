@@ -1,2 +1,2 @@
 # wait for tab link to be clickable then click
-self.click_xpath(wait, '/html/body/div[1]/report-embed/div/div/div[1]/div/div/div/exploration-container/div/div/div/exploration-host/div/div/exploration/div/explore-canvas/div/div[2]/div/div[2]/div[2]/visual-container-repeat/visual-container-group[2]/transform/div/div[2]/visual-container[3]/transform/div/div[3]/div/visual-modern')
+self.click_xpath(wait, '/html/body/div[1]/report-embed/div/div/div[1]/div/div/div/exploration-container/div/docking-container/div/div/div/div/exploration-host/div/div/exploration/div/explore-canvas/div/div[2]/div/div[2]/div[2]/visual-container-repeat/visual-container-group[2]/transform/div/div[2]/visual-container[3]/transform/div/div[3]/div/visual-modern')
