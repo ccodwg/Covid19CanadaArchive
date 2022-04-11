@@ -4090,29 +4090,6 @@
         "notes": {}
       },
       {
-        "id_name": "NU - COVID-19 Vaccination Table",
-        "uuid": "bd18a4e4-bc22-47c6-b601-1aae39667a03",
-        "active": "True",
-        "url_fun_python": "import re; import requests; url_current = 'https://www.gov.nu.ca' + re.search('(?<=src=\")/sites/default/files/.*\\.png', requests.get('https://www.gov.nu.ca/health/information/covid-19-vaccination').text).group(0)",
-        "url_fun_r": "library(rvest); paste0('https://www.gov.nu.ca', html_attr(html_elements(html_node(read_html('https://www.gov.nu.ca/health/information/covid-19-vaccination'), 'body'), 'img')[[2]], 'src'))",
-        "dir_parent": "nu",
-        "dir_file": "nunavut-vaccination-table",
-        "file_name": "vaccine_table",
-        "file_ext": "png",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Table (image)",
-          "meta_url": "https://www.gov.nu.ca/health/information/covid-19-vaccination",
-          "meta_url_name": "COVID-19 Vaccination",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Nunavut"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "NU - COVID-19 Exposure Notices (webpage)",
         "uuid": "ef9003cc-e55f-433f-9e9b-0f2d32a5ccbb",
         "active": "True",
@@ -12250,7 +12227,31 @@
         "notes": {}
       }
     ],
-    "nu": [],
+    "nu": [
+      {
+        "id_name": "NU - COVID-19 Vaccination Table",
+        "uuid": "bd18a4e4-bc22-47c6-b601-1aae39667a03",
+        "active": "False",
+        "url_fun_python": "import re; import requests; url_current = 'https://www.gov.nu.ca' + re.search('(?<=src=\")/sites/default/files/.*\\.png', requests.get('https://www.gov.nu.ca/health/information/covid-19-vaccination').text).group(0)",
+        "url_fun_r": "library(rvest); paste0('https://www.gov.nu.ca', html_attr(html_elements(html_node(read_html('https://www.gov.nu.ca/health/information/covid-19-vaccination'), 'body'), 'img')[[2]], 'src'))",
+        "dir_parent": "nu",
+        "dir_file": "nunavut-vaccination-table",
+        "file_name": "vaccine_table",
+        "file_ext": "png",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Table (image)",
+          "meta_url": "https://www.gov.nu.ca/health/information/covid-19-vaccination",
+          "meta_url_name": "COVID-19 Vaccination",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Nunavut"
+        },
+        "notes": {}
+      }
+    ],
     "on": [
       {
         "id_name": "ON - COVID 19: Ethno-Racial Identity & Income (Toronto)",
