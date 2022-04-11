@@ -510,7 +510,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [nu/nunavut-webpage/nunavut-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19 Vaccination](https://www.gov.nu.ca/health/information/covid-19-vaccination)
     * Webpage: [nu/nunavut-vaccination-webpage/nunavut-vaccination-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Table (image): [nu/nunavut-vaccination-table/vaccine_table.png](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Table (image): [nu/nunavut-vaccination-table/vaccine_table.png](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [COVID-19 Exposure Notices](https://www.gov.nu.ca/health/information/covid-19-exposure-notices)
     * Webpage: [nu/nunavut-exposure-notices-webpage/nunavut-exposure-notices-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 </details>
