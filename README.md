@@ -376,30 +376,11 @@ A note about data from Quebec: when both French and English data files are avail
 <details>
 <summary><b>New Brunswick</b></summary>
 
+* [COVIDWATCH](https://www2.gnb.ca/content/gnb/en/corporate/promo/covid-19/COVIDWATCH.html)
+    * Webpage: [nb/covidwatch-webpage/covidwatch-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Weekly update highlights: [nb/covidwatch-weekly-update-highlights/covidwatch-weekly-update-highlights.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Weekly full report (report): [nb/weekly-update-full-report/weekly-update-full-report.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [New Brunswick COVID-19 Dashboard](https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa)
-    * Counties: [nb/counties/counties.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Assessment sites: [nb/covid-assessment-sites/covid-assessment-sites.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * New cases by age group and Health Zone: [nb/new-cases-by-age-group-and-zone/Covid19NewCaseAgeStats2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * COVID-19 alert level by Health Zone: [nb/covid-alert-level-by-zone/COVID19_AlertLevel.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * COVID-19 hospitalization/ICU time series: [nb/hosp-icu-time-series/Covid19HospitalTrends.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * COVID-19 travel and enforcement statistics (7-day averages): [nb/covid-travel-enforcement-stats-7-day-avg/Covid19ComplianceEnforcement2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * COVID-19 potential public exposures: [nb/potential-public-exposures/Covid19_Exposures2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Case/hospitalization/ICU/death rate by vaccination status: [nb/case-hosp-icu-death-rate-by-vaccination-status/Covid19CaseVaccinationRates2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Schools: [nb/schools/Covid19NBSchools.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Hospitals: [nb/hospitals/hospitals.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Vaccine data 2: [nb/vaccine-data-2/Covid19VaccineData2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Health zone cumulative stats: [nb/health-zone-cumulative-stats/health-zone-cumulative-stats.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Provincial case, death, recovered time series 2: [nb/provincial-case-death-recovered-time-series-2/Covid19DailyCaseStats3.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Vaccine time series 2: [nb/vaccine-time-series-2/Covid19DailyVaccineStats.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Provincial cumulative test statistics by age and sex: [nb/provincial-cumulative-test-statistics-by-age-sex/provincial-cumulative-test-statistics-by-age-sex.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Vaccine coverage by age groups: [nb/vaccine-coverage-by-age/Covid19VaccineAge.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Case and outcome rates by vaccine status: [nb/case-and-outcome-rates-by-vaccine-status/Covid19CaseVaccineStats.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Healthcare status and number of healthcare workers positive and isolating: [nb/healthcare-status-and-number-of-healthcare-workers-positive-and-isolating/Covid19HealthCareStatus.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * New cases by age group and Health Zone (2): [nb/new-cases-by-age-group-and-zone-2/Covid19AgeGroupCaseStats.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Hospitalizations and ICU by age group: [nb/hosp-and-icu-by-age-group/Covid19HospitalizationAgeStats.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * New deaths by age group and zone: [nb/new-deaths-by-age-group-and-zone/Covid19NewDeathAgeStats.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Total deaths by age group and zone: [nb/total-deaths-by-age-group-and-zone/Covid19TotalDeathAgeStats.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Enforcement data by zone and date: [nb/enforcement-data-by-zone-and-date/Covid19EnforcementData.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Vaccine data: [nb/vaccine-data/vaccine-data.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Vaccine time series: [nb/vaccine-time-series/Covid19VaccineTimeline.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Compliance by health zone: [nb/covid-compliance-by-health-zone/covid-compliance-by-health-zone.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
@@ -416,6 +397,29 @@ A note about data from Quebec: when both French and English data files are avail
     * Provincial case, death, recovered time series: [nb/provincial-case-death-recovered-time-series/provincial-case-death-recovered-time-series.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Current COVID-19 statistics by Health Zone: [nb/current-covid-stats-by-zone/WinterPlanLevel.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * COVID-19 schools 2021: [nb/covid-schools-2021/Covid19SchoolsData.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Counties: [nb/counties/counties.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Assessment sites: [nb/covid-assessment-sites/covid-assessment-sites.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * New cases by age group and Health Zone: [nb/new-cases-by-age-group-and-zone/Covid19NewCaseAgeStats2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * COVID-19 alert level by Health Zone: [nb/covid-alert-level-by-zone/COVID19_AlertLevel.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * COVID-19 hospitalization/ICU time series: [nb/hosp-icu-time-series/Covid19HospitalTrends.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * COVID-19 travel and enforcement statistics (7-day averages): [nb/covid-travel-enforcement-stats-7-day-avg/Covid19ComplianceEnforcement2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * COVID-19 potential public exposures: [nb/potential-public-exposures/Covid19_Exposures2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Case/hospitalization/ICU/death rate by vaccination status: [nb/case-hosp-icu-death-rate-by-vaccination-status/Covid19CaseVaccinationRates2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Schools: [nb/schools/Covid19NBSchools.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Hospitals: [nb/hospitals/hospitals.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Vaccine data 2: [nb/vaccine-data-2/Covid19VaccineData2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Health zone cumulative stats: [nb/health-zone-cumulative-stats/health-zone-cumulative-stats.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Provincial case, death, recovered time series 2: [nb/provincial-case-death-recovered-time-series-2/Covid19DailyCaseStats3.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Vaccine time series 2: [nb/vaccine-time-series-2/Covid19DailyVaccineStats.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Provincial cumulative test statistics by age and sex: [nb/provincial-cumulative-test-statistics-by-age-sex/provincial-cumulative-test-statistics-by-age-sex.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Vaccine coverage by age groups: [nb/vaccine-coverage-by-age/Covid19VaccineAge.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Case and outcome rates by vaccine status: [nb/case-and-outcome-rates-by-vaccine-status/Covid19CaseVaccineStats.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Healthcare status and number of healthcare workers positive and isolating: [nb/healthcare-status-and-number-of-healthcare-workers-positive-and-isolating/Covid19HealthCareStatus.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * New cases by age group and Health Zone (2): [nb/new-cases-by-age-group-and-zone-2/Covid19AgeGroupCaseStats.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Hospitalizations and ICU by age group: [nb/hosp-and-icu-by-age-group/Covid19HospitalizationAgeStats.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * New deaths by age group and zone: [nb/new-deaths-by-age-group-and-zone/Covid19NewDeathAgeStats.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Total deaths by age group and zone: [nb/total-deaths-by-age-group-and-zone/Covid19TotalDeathAgeStats.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Enforcement data by zone and date: [nb/enforcement-data-by-zone-and-date/Covid19EnforcementData.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Education and Early Childhood Development COVID-19 Updates](https://www2.gnb.ca/content/gnb/en/corporate/promo/education-and-early-childhood-development-covid-19.html)
     * Webpage: [nb/education-and-early-childhood-development-covid-webpage/education-and-early-childhood-development-covid-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Potential Public Exposures](https://www2.gnb.ca/content/gnb/en/corporate/promo/covid-19/potential_public_exposure.html)
