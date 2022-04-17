@@ -1,3 +1,9 @@
 [project]
 title = "Canadian COVID-19 Data Archive"
 tz = "America/Toronto"
+
+[downloading]
+# time in seconds to wait before beginning each dataset download
+wait_before_downloads = 0
+# maximum allowed retries for a failed dataset download
+max_retries = 3
