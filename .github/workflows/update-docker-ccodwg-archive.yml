@@ -1,0 +1,14 @@
+on: push
+env:
+  TOKEN: ${{ secrets.GH_PAT }}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          curl -i -u jeanpaulrsoucy:$TOKEN \
+            -X POST \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/ccodwg/Covid19CanadaBot/actions/workflows/docker-ccodwg-archive.yml/dispatches \
+            -d '{"ref":"main"}'
