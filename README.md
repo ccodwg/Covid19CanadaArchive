@@ -588,9 +588,9 @@ A note about data from Quebec: when both French and English data files are avail
     * Vaccine data by age: [on/vaccine-data-by-age/vaccines_by_age.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Vaccine data by Public Health Unit and by age: [on/vaccine-data-by-age-and-phu/vaccines_by_age_phu.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Cases and rates by vaccination status (old): [on/hospitalizations-and-cases-by-vaccination-status/vac_status.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Case rates by vaccination status and age group: [on/case-rates-by-vaccination-status-and-age-group/cases_by_age_vac_status.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Cases and rates by vaccination status: [on/cases-and-rates-by-vaccination-status/cases_by_vac_status.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Hospitalizations by vaccination status: [on/hospitalizations-by-vaccination-status/vac_status_hosp_icu.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Case rates by vaccination status and age group: [on/case-rates-by-vaccination-status-and-age-group/cases_by_age_vac_status.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Deaths involving COVID-19 by Fatality Type](https://data.ontario.ca/dataset/deaths-involving-covid-19-by-fatality-type)
     * Dataset: [on/deaths-involving-covid-by-fatality-type/deaths_fatality_type.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Deaths Involving COVID-19 by Vaccination Status](https://data.ontario.ca/dataset/deaths-involving-covid-19-by-vaccination-status)
