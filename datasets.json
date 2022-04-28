@@ -5069,7 +5069,7 @@
         "id_name": "ON - Ottawa Demographics and Source of Infection for Cases, Deaths, and Hospitalizations",
         "uuid": "d8d4cbc6-d0a5-4544-ad3e-5a3c3060f973",
         "active": "True",
-        "url": "https://www.arcgis.com/sharing/rest/content/items/6bfe7832017546e5b30c5cc6a201091b/data",
+        "url": "https://opendata.arcgis.com/api/v3/datasets/b87fb824d0514960b380cba68a2df0ba/downloads/data?format=csv&spatialRefId=4326",
         "dir_parent": "on",
         "dir_file": "ottawa-cases-deaths-hosp-demographics-source-of-infection",
         "file_name": "COVID-19_Cases_and_Deaths_Ottawa_EN",
