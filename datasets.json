@@ -5878,7 +5878,9 @@
           "meta_group_1": "Ontario",
           "meta_group_2": "Public Health Units"
         },
-        "notes": {}
+        "notes": {
+          "notes_data": "From 2022-04-27 to 2022-04-28, this dataset captured the 'Testing' tab. From 2022-04-29 to 2022-05-01, this dataset captured the 'Cases' tab."
+        }
       },
       {
         "id_name": "ON - Northwestern (PHU) - COVID-19 data (webpage)",
