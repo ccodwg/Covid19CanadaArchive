@@ -1573,7 +1573,9 @@
         "file_name": "Epidemiological-summary-of-COVID-19-cases-in-Canada-Canada.ca",
         "file_ext": "pdf",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Report (English)",
@@ -1597,7 +1599,9 @@
         "file_name": "Resume-epidemiologique-des-cas-de-COVID-19-au-Canada",
         "file_ext": "pdf",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Report (French)",
@@ -1621,7 +1625,9 @@
         "file_name": "covid19",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "National overview (DD-MM-YYYY)",
@@ -1643,7 +1649,9 @@
         "file_name": "covid19-download",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "National overview (YYYY-MM-DD)",
@@ -1665,7 +1673,9 @@
         "file_name": "covid19",
         "file_ext": "json",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "National overview (YYYY-MM-DD, JSON)",
@@ -1687,7 +1697,9 @@
         "file_name": "covid19-data-dictionary",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "National overview (data dictionary)",
@@ -1709,7 +1721,9 @@
         "file_name": "covid19-epiSummary-statements",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Epidemiology summary statements",
@@ -1731,7 +1745,9 @@
         "file_name": "covid19-epiSummary-labIndicators",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Lab indicators",
@@ -1753,7 +1769,9 @@
         "file_name": "covid19-nTotal",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Number of cases with detailed case report data",
@@ -1775,7 +1793,9 @@
         "file_name": "file_out_v5",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Cases and deaths by health region time series",
@@ -1797,7 +1817,9 @@
         "file_name": "covid19-healthregions-hruid",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Health region UID table",
@@ -1819,7 +1841,9 @@
         "file_name": "covid19-epiSummary-casesovertime",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Cases by exposure setting time series",
@@ -1841,7 +1865,9 @@
         "file_name": "covid19-epiSummary-epiCurveByAge",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Epidemic curve by date of illness onset by age group",
@@ -1863,7 +1889,9 @@
         "file_name": "covid19-epiSummary-severityUpdate",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Severity by age group and sex",
@@ -1885,7 +1913,9 @@
         "file_name": "covid19-epiSummary-severity",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Cases by severity",
@@ -1907,7 +1937,9 @@
         "file_name": "covid19-epiSummary-agegroups2",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Cases by age group and sex",
@@ -1929,7 +1961,9 @@
         "file_name": "covid19-epiSummary-probableexposure2",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Cases by probable exposure setting",
@@ -1951,7 +1985,9 @@
         "file_name": "covid19-epiSummary-exposureByPT",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Cases by probable expsoure setting by province",
@@ -1973,7 +2009,9 @@
         "file_name": "covid19-epiSummary-hospVentICU",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Hospitalizations, intensive care unit (ICU), mechanical ventilation",
@@ -1995,7 +2033,9 @@
         "file_name": "covid19-isc",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Cases on First Nations reserves",
@@ -2017,7 +2057,9 @@
         "file_name": "covid19-epiSummary-variants",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Variant prevalence time series",
@@ -2039,7 +2081,9 @@
         "file_name": "covid19-epiSummary-variants-sampleSize",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Variant sample size time series",
@@ -2061,7 +2105,9 @@
         "file_name": "covid19-epiSummary-variants-contributingLabs",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Variant contributing labs",
@@ -2083,7 +2129,9 @@
         "file_name": "covid19-epiSummary-casesAfterVaccination",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Cases following vaccination (cases, hospitalizations, deaths by vaccination)",
@@ -2105,7 +2153,9 @@
         "file_name": "covid19-epiSummary-casesAfterVaccinationGender",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Cases following vaccination (cases by vaccination status and gender)",
@@ -2127,7 +2177,9 @@
         "file_name": "covid19-epiSummary-casesAfterVaccinationSevereOutcome",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Cases following vaccination (severe outcomes ratios)",
@@ -2149,7 +2201,9 @@
         "file_name": "covid19-epiSummary-casesAfterVaccinationPageStatements",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Cases following vaccination (page statements)",
@@ -2171,7 +2225,9 @@
         "file_name": "covid19-epiSummary-casesAfterVaccinationUpdateDate",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Cases following vaccination (update date)",
@@ -2193,7 +2249,9 @@
         "file_name": "covid19-updateTime",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Update time",
@@ -2215,7 +2273,9 @@
         "file_name": "covid19-epiSummary-exceptions",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "PHAC provincial data update notes",
@@ -2237,7 +2297,9 @@
         "file_name": "file_out_v5_MZ7v2",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Cases and deaths by health region - last 7 days",
@@ -2259,7 +2321,9 @@
         "file_name": "mobility",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Mobility",
@@ -2281,7 +2345,9 @@
         "file_name": "fluwatchers",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "FluWatchers",
@@ -2303,7 +2369,9 @@
         "file_name": "hr_websites",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Health region information",
@@ -2325,7 +2393,9 @@
         "file_name": "FSA_HR2018",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "FSA to health region correspondence",
@@ -2347,7 +2417,9 @@
         "file_name": "censusdistricts",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Census district to health region correspondence",
@@ -2369,7 +2441,9 @@
         "file_name": "vaccination-administration",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination administration",
@@ -2391,7 +2465,9 @@
         "file_name": "vaccination-administration-bydosenumber",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination administration by dose number",
@@ -2413,7 +2489,9 @@
         "file_name": "vaccination-administration-updateDate",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination administration (update date)",
@@ -2435,7 +2513,9 @@
         "file_name": "vaccination-distribution",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination distribution",
@@ -2457,7 +2537,9 @@
         "file_name": "vaccination-distribution-updateDate",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination distribution (update date)",
@@ -2479,7 +2561,9 @@
         "file_name": "vaccination-coverage-overall",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination coverage overall",
@@ -2501,7 +2585,9 @@
         "file_name": "vaccination-coverage-byAgeAndSex",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination coverage by age and sex",
@@ -2523,7 +2609,9 @@
         "file_name": "vaccination-coverage-byAgeAndSexOT1",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination coverage by age and sex (3)",
@@ -2545,7 +2633,9 @@
         "file_name": "vaccination-coverage-byAgeAndSex3",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination coverage by age and sex (current week)",
@@ -2567,7 +2657,9 @@
         "file_name": "vaccination-coverage-byAgeAndSexOT",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination coverage by age and sex (condensed)",
@@ -2589,7 +2681,9 @@
         "file_name": "vaccination-coverage-byAgeAndSex-overTime",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination coverage by age and sex (alternative)",
@@ -2611,7 +2705,9 @@
         "file_name": "vaccination-coverage-byAgeAndSexDenominators",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination coverage by age and sex with denominators",
@@ -2633,7 +2729,9 @@
         "file_name": "vaccination-coverage-byVaccineType",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination coverage by vaccine type",
@@ -2655,7 +2753,9 @@
         "file_name": "vaccination-coverage-map",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination coverage by province",
@@ -2677,7 +2777,9 @@
         "file_name": "vaccination-coverage-updateDate",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination coverage by province (update date)",
@@ -2699,7 +2801,9 @@
         "file_name": "vaccination-statements",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination statements",
@@ -2721,7 +2825,9 @@
         "file_name": "vaccination-notes",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination notes",
@@ -2743,7 +2849,9 @@
         "file_name": "vaccination-coverage-legendBuckets",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Legend buckets",
@@ -2790,7 +2898,9 @@
         "file_name": "vaccination-coverage-dataAvailability",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination coverage data availability by week",
@@ -2812,7 +2922,9 @@
         "file_name": "InternationalCovid19Cases",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "International case and death time series",
@@ -2834,7 +2946,9 @@
         "file_name": "updated",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "International case and death time series update date",
@@ -2856,7 +2970,9 @@
         "file_name": "vaccine-safety-AEFI-figure",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "AEFI weekly reports by event category and vaccine type",
@@ -2878,7 +2994,9 @@
         "file_name": "vaccine-safety-AESIs-table",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "AESI weekly reports by event category and vaccine type",
@@ -2900,7 +3018,9 @@
         "file_name": "vaccine-safety-keyupdates",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "AEFI weekly reports key updates",
@@ -2922,7 +3042,9 @@
         "file_name": "vaccine-safety-figure1",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "AEFI summary including vaccination data",
@@ -2944,7 +3066,9 @@
         "file_name": "vaccine-safety-figure2",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "AEFI weekly summary by vaccine type",
@@ -2966,7 +3090,9 @@
         "file_name": "vaccine-safety-figure3",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "AEFI weekly summary by age and sex",
