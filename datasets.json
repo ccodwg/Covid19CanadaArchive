@@ -6172,7 +6172,8 @@
         "dl_fun": "html_page",
         "args": {
           "js": "True",
-          "wait": "20"
+          "wait": "20",
+          "min_size": "200kb"
         },
         "supplementary": {},
         "metadata": {
@@ -6198,7 +6199,8 @@
         "dl_fun": "html_page",
         "args": {
           "js": "True",
-          "wait": "20"
+          "wait": "20",
+          "min_size": "200kb"
         },
         "supplementary": {},
         "metadata": {
