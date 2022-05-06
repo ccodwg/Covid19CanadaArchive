@@ -252,8 +252,10 @@ A note about data from Quebec: when both French and English data files are avail
     * Detailed variant prevalence time series: [can/variant-prevalence-time-series-detailed/covid19-epiSummary-variants-detailed-download.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [COVIDTrends](https://health-infobase.canada.ca/covid-19/covidtrends/)
     * Cases and deaths by health region - last 7 days: [can/covidtrends-cases-and-deaths-by-hr-last-7-days/file_out_v5_MZ7v2.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Vaccine coverage by health region: [can/covidtrends-vaccine-coverage-by-hr/hr_vaccination.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Mobility: [can/covidtrends-mobility/mobility.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * FluWatchers: [can/covidtrends-fluwatchers/fluwatchers.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Health region populations: [can/hr-populations/covid19-healthregions-hruid.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Health region information: [can/health-region-info/hr_websites.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * FSA to health region correspondence: [can/fsa-to-health-region-correspondence/FSA_HR2018.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Census district to health region correspondence: [can/census-district-to-health-region-correspondence/censusdistricts.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
@@ -282,6 +284,8 @@ A note about data from Quebec: when both French and English data files are avail
 * [COVID-19 vaccination in Canada - Technical notes](https://health-infobase.canada.ca/covid-19/vaccination-coverage/technical-notes.html)
     * Webpage: [can/vaccination-technical-notes-webpage/vaccination-technical-notes-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Vaccination coverage data availability by week: [can/vaccination-coverage-data-availability-by-week/vaccination-coverage-dataAvailability.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [COVID-19 vaccination in Canada - Technical notes (FR)](https://sante-infobase.canada.ca/covid-19/couverture-vaccinale/notes-techniques.html)
+    * Webpage (FR): [can/vaccination-technical-notes-webpage-fr/vaccination-technical-notes-webpage-fr.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19 international data](https://health-infobase.canada.ca/covid-19/international/)
     * International case and death time series: [can/international-covid-cases-deaths-time-series/InternationalCovid19Cases.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * International case and death time series update date: [can/international-covid-cases-deaths-time-series-update-date/updated.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
@@ -295,6 +299,17 @@ A note about data from Quebec: when both French and English data files are avail
     * Reported side effects following COVID-19 vaccination in Canada: AEFI weekly summary (old): [can/aefi-weekly-summary-old/vaccine-safety-AEFI.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * AEFI weekly summary by serious event type (old): [can/aefi-weekly-summary-by-serious-event-type-old/vaccine-safety-severity.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * AEFI weekly summary by serious events: [can/aefi-figure-weekly-summary-by-serious-events/vaccine-safety-figure4.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [https://health-infobase.canada.ca/covid-19/wastewater/](https://health-infobase.canada.ca/covid-19/wastewater/)
+    * Wastewater data: [can/wastewater-data/covid19-wastewater.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Wastewater trends: [can/wastewater-trends/covid19-wastewater-trend.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Data dictionary (EN): [can/wastewater-data-dictionary-en/covid19-wastewater-data-dictionary-en.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Data dictionary (FR): [can/wastewater-data-dictionary-fr/covid19-wastewater-data-dictionary-fr.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Report (EN): [can/wastewater-report-en/covid19-wastewater-dashboard.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Report (FR): [can/wastewater-report-fr/covid19-eaux-usees-tableau-de-bord.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [COVID-19 wastewater surveillance dashboard - Technical notes](https://health-infobase.canada.ca/covid-19/wastewater/technical-notes.html)
+    * Webpage: [can/wastewater-technical-notes-webpage/wastewater-technical-notes-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [COVID-19 wastewater surveillance dashboard - Technical notes (FR)](https://sante-infobase.canada.ca/covid-19/eaux-usees/notes-techniques.html)
+    * Webpage (FR): [can/wastewater-technical-notes-webpage-fr/wastewater-technical-notes-webpage-fr.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Detailed preliminary information on confirmed cases of COVID-19 (Revised)](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310078101)
     * Dataset: [can/detailed-preliminary-confirmed-case-info-revised/13100781.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 </details>
