@@ -2312,6 +2312,30 @@
         "notes": {}
       },
       {
+        "id_name": "CAN - COVIDTrends (Vaccine coverage by health region)",
+        "uuid": "2cce14bb-7e7b-4839-87b3-696c0059d488",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/hr_vaccination.csv",
+        "dir_parent": "can",
+        "dir_file": "covidtrends-vaccine-coverage-by-hr",
+        "file_name": "hr_vaccination",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine coverage by health region",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/covidtrends/",
+          "meta_url_name": "COVIDTrends",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "CAN - COVIDTrends (Mobility)",
         "uuid": "4ff1d90c-af12-4212-b60c-8739991ecc7d",
         "active": "True",
@@ -2351,6 +2375,30 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "FluWatchers",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/covidtrends/",
+          "meta_url_name": "COVIDTrends",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Health region populations",
+        "uuid": "cb23041c-cf99-412b-baf2-c0a4a5282c3e",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/covid19-healthregions-hruid.csv",
+        "dir_parent": "can",
+        "dir_file": "hr-populations",
+        "file_name": "covid19-healthregions-hruid",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Health region populations",
           "meta_url": "https://health-infobase.canada.ca/covid-19/covidtrends/",
           "meta_url_name": "COVIDTrends",
           "meta_licence": "",
@@ -2889,6 +2937,31 @@
         "notes": {}
       },
       {
+        "id_name": "CAN - COVID-19 vaccination in Canada: Technical notes (webpage) (FR)",
+        "uuid": "7c8020cd-07b3-4521-8e2a-9407245b95a0",
+        "active": "True",
+        "url": "https://sante-infobase.canada.ca/covid-19/couverture-vaccinale/notes-techniques.html",
+        "dir_parent": "can",
+        "dir_file": "vaccination-technical-notes-webpage-fr",
+        "file_name": "vaccination-technical-notes-webpage-fr",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage (FR)",
+          "meta_url": "https://sante-infobase.canada.ca/covid-19/couverture-vaccinale/notes-techniques.html",
+          "meta_url_name": "COVID-19 vaccination in Canada - Technical notes (FR)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "CAN - COVID 19 vaccination in Canada: Vaccination coverage data availability by week",
         "uuid": "d3e0e24b-f94c-4369-9967-eb11dc6c462b",
         "active": "True",
@@ -3098,6 +3171,200 @@
           "meta_name": "AEFI weekly summary by age and sex",
           "meta_url": "https://health-infobase.canada.ca/covid-19/vaccine-safety/",
           "meta_url_name": "Reported side effects following COVID-19 vaccination in Canada",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 wastewater surveillance dashboard - Wastewater data",
+        "uuid": "ea3718c1-83f1-46a1-8b21-e25aebd1ebee",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/wastewater/covid19-wastewater.csv",
+        "dir_parent": "can",
+        "dir_file": "wastewater-data",
+        "file_name": "covid19-wastewater",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Wastewater data",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/wastewater/",
+          "meta_url_name": "https://health-infobase.canada.ca/covid-19/wastewater/",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 wastewater surveillance dashboard - Wastewater trends",
+        "uuid": "e37f968f-0e21-49c2-bdd1-a7a80fa2aaf6",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/wastewater/covid19-wastewater-trend.csv",
+        "dir_parent": "can",
+        "dir_file": "wastewater-trends",
+        "file_name": "covid19-wastewater-trend",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Wastewater trends",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/wastewater/",
+          "meta_url_name": "https://health-infobase.canada.ca/covid-19/wastewater/",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 wastewater surveillance dashboard - Data dictionary (EN)",
+        "uuid": "e09f31d5-b6f8-4d87-ba8d-1e022604b3f7",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/wastewater/covid19-wastewater-data-dictionary-en.csv",
+        "dir_parent": "can",
+        "dir_file": "wastewater-data-dictionary-en",
+        "file_name": "covid19-wastewater-data-dictionary-en",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Data dictionary (EN)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/wastewater/",
+          "meta_url_name": "https://health-infobase.canada.ca/covid-19/wastewater/",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 wastewater surveillance dashboard - Data dictionary (FR)",
+        "uuid": "b3ac2b38-46ad-4445-b23a-d96329fa69d8",
+        "active": "True",
+        "url": "https://sante-infobase.canada.ca/src/data/covidLive/wastewater/covid19-wastewater-data-dictionary-fr.csv",
+        "dir_parent": "can",
+        "dir_file": "wastewater-data-dictionary-fr",
+        "file_name": "covid19-wastewater-data-dictionary-fr",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Data dictionary (FR)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/wastewater/",
+          "meta_url_name": "https://health-infobase.canada.ca/covid-19/wastewater/",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 wastewater surveillance dashboard - Report (EN)",
+        "uuid": "9eb52bee-3337-4a7b-858f-c48232693392",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/wastewater/covid19-wastewater-dashboard.pdf",
+        "dir_parent": "can",
+        "dir_file": "wastewater-report-en",
+        "file_name": "covid19-wastewater-dashboard",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Report (EN)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/wastewater/",
+          "meta_url_name": "https://health-infobase.canada.ca/covid-19/wastewater/",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 wastewater surveillance dashboard - Report (FR)",
+        "uuid": "1aac73c4-ee2a-4d8f-9658-d97214f08132",
+        "active": "True",
+        "url": "https://sante-infobase.canada.ca/src/data/covidLive/wastewater/covid19-eaux-usees-tableau-de-bord.pdf",
+        "dir_parent": "can",
+        "dir_file": "wastewater-report-fr",
+        "file_name": "covid19-eaux-usees-tableau-de-bord",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Report (FR)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/wastewater/",
+          "meta_url_name": "https://health-infobase.canada.ca/covid-19/wastewater/",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 wastewater surveillance dashboard: Technical notes (webpage)",
+        "uuid": "5ad0e86a-129b-499f-86ea-19fe585da745",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/covid-19/wastewater/technical-notes.html",
+        "dir_parent": "can",
+        "dir_file": "wastewater-technical-notes-webpage",
+        "file_name": "wastewater-technical-notes-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/wastewater/technical-notes.html",
+          "meta_url_name": "COVID-19 wastewater surveillance dashboard - Technical notes",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 wastewater surveillance dashboard: Technical notes (webpage) (FR)",
+        "uuid": "f9e798c3-09e1-49e6-bf11-c77ac5089c23",
+        "active": "True",
+        "url": "https://sante-infobase.canada.ca/covid-19/eaux-usees/notes-techniques.html",
+        "dir_parent": "can",
+        "dir_file": "wastewater-technical-notes-webpage-fr",
+        "file_name": "wastewater-technical-notes-webpage-fr",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage (FR)",
+          "meta_url": "https://sante-infobase.canada.ca/covid-19/eaux-usees/notes-techniques.html",
+          "meta_url_name": "COVID-19 wastewater surveillance dashboard - Technical notes (FR)",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
