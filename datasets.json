@@ -2567,8 +2567,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination distribution",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccine-administration/",
-          "meta_url_name": "COVID-19 vaccination in Canada - Vaccines administered",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccine-distribution/",
+          "meta_url_name": "COVID-19 vaccination in Canada - Vaccine doses distributed in Canada",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -2591,8 +2591,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination distribution (update date)",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccine-administration/",
-          "meta_url_name": "COVID-19 vaccination in Canada - Vaccines administered",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccine-distribution/",
+          "meta_url_name": "COVID-19 vaccination in Canada - Vaccine doses distributed in Canada",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
