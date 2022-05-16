@@ -263,6 +263,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Vaccination administration: [can/vaccination-administration/vaccination-administration.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Vaccination administration by dose number: [can/vaccination-administration-by-dose-number/vaccination-administration-bydosenumber.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Vaccination administration (update date): [can/vaccination-administration-update-date/vaccination-administration-updateDate.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [COVID-19 vaccination in Canada - Vaccine doses distributed in Canada](https://health-infobase.canada.ca/covid-19/vaccine-distribution/)
     * Vaccination distribution: [can/vaccination-distribution/vaccination-distribution.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Vaccination distribution (update date): [can/vaccination-distribution-update-date/vaccination-distribution-updateDate.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19 vaccination in Canada - Vaccination coverage](https://health-infobase.canada.ca/covid-19/vaccination-coverage/)
