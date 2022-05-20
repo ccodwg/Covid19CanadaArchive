@@ -2793,7 +2793,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - Vaccination coverage: Vaccination coverage by vaccine type",
+        "id_name": "CAN - Vaccination coverage: Vaccination coverage by province and vaccine type",
         "uuid": "5549f769-d4c8-4032-8434-7952fd2f349a",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-byVaccineType.csv",
@@ -2807,7 +2807,31 @@
         },
         "supplementary": {},
         "metadata": {
-          "meta_name": "Vaccination coverage by vaccine type",
+          "meta_name": "Vaccination coverage by province and vaccine type",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
+          "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Vaccination coverage: Vaccination coverage by province and vaccine type (additional doses)",
+        "uuid": "7c77b927-3390-45e9-877a-3b2835886196",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-byVaccineTypeAdditional.csv",
+        "dir_parent": "can",
+        "dir_file": "vaccination-coverage-by-vaccine-type-additional-doses",
+        "file_name": "vaccination-coverage-byVaccineTypeAdditional",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination coverage by province and vaccine type (additional doses)",
           "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
           "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
           "meta_licence": "",
