@@ -704,6 +704,31 @@
         }
       },
       {
+        "id_name": "BC - British Columbia COVID-19 Dashboard (webpage)",
+        "uuid": "6db751a2-7b78-48f7-8c73-d5ebf5addd03",
+        "active": "True",
+        "url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
+        "dir_parent": "bc",
+        "dir_file": "bc-covid-dashboard-webpage",
+        "file_name": "bc-covid-dashboard-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
+          "meta_url_name": "British Columbia COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "BC - Dashboard BC and Canada cumulative testing rate",
         "uuid": "2c87dd51-4fc3-4309-a730-18118db09cde",
         "active": "True",
