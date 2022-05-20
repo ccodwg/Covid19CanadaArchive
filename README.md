@@ -157,6 +157,7 @@ A note about data from Quebec: when both French and English data files are avail
 * [Current outbreaks](http://www.vch.ca/your-care/your-safety-privacy/infection-control/current-outbreaks)
     * Report: [bc/vancouver-coastal-facility-outbreak-bulletin/facility-outbreak-bulletin.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [British Columbia COVID-19 Dashboard](https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded)
+    * Webpage: [bc/bc-covid-dashboard-webpage/bc-covid-dashboard-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Dashboard BC and Canada cumulative testing rate: [bc/bc-canada-cumulative-testing-rate/BC_COVID19__BC_Canadian_Testing_Rates_View.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Dashboard case demographics by Regional Health Authority: [bc/case-demographics-by-rha/BC_COVID19_Dashboard_Case_Details_Production.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Dashboard 7-day and cumulative cases by HSDA: [bc/7-day-and-cumulative-cases-by-hsda/BC_COVID19_Dashboard_Cases_by_Health_Service_Delivery_Areas_HSDA_VIEW.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
