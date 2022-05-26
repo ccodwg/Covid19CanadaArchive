@@ -198,6 +198,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [can/international-traveller-testing-webpage/international-traveller-testing-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Coronavirus disease (COVID-19): Locations where you may have been exposed to COVID-19](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice/exposure-flights-cruise-ships-mass-gatherings.html)
     * Webpage: [can/can-potential-exposures-webpage/can-potential-exposures-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [Monkeypox: Outbreak update](https://www.canada.ca/en/public-health/services/diseases/monkeypox.html)
+    * Webpage: [can/monkeypox-outbreak-webpage/monkeypox-outbreak-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Epidemiological summary of COVID-19 cases in First Nations communities](https://www.sac-isc.gc.ca/eng/1589895506010/1589895527965)
     * Webpage: [can/isc-epi-summary-first-nations-webpage/isc-epi-summary-first-nations-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Detailed preliminary information on cases of COVID-19: 6 Dimensions (Aggregated data)](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310077401)
