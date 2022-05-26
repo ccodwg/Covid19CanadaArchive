@@ -1381,6 +1381,28 @@
         "notes": {}
       },
       {
+        "id_name": "CAN - Monkeypox: Outbreak update (webpage)",
+        "uuid": "091968c8-6b63-4a6f-999e-0508935c34f3",
+        "active": "True",
+        "url": "https://www.canada.ca/en/public-health/services/diseases/monkeypox.html",
+        "dir_parent": "can",
+        "dir_file": "monkeypox-outbreak-webpage",
+        "file_name": "monkeypox-outbreak-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.canada.ca/en/public-health/services/diseases/monkeypox.html",
+          "meta_url_name": "Monkeypox: Outbreak update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "CAN - Epidemiological summary of COVID-19 cases in First Nations communities (webpage)",
         "uuid": "e9ef2ae1-423f-4c99-a56c-d863d4f8185f",
         "active": "True",
