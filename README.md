@@ -206,6 +206,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Dataset: [can/detailed-preliminary-case-info-aggregated-4-dimensions/13100775.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Preliminary dataset on confirmed cases of COVID-19, Public Health Agency of Canada](https://www150.statcan.gc.ca/n1/pub/13-26-0003/132600032020001-eng.htm)
     * Dataset: [can/preliminary-dataset-on-confirmed-cases/COVID19-eng.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [Provisional weekly estimates of the number of deaths, expected number of deaths and excess mortality](https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1310078401)
+    * Dataset: [can/provisional-weekly-estimates-of-deaths-and-excess-mortality/13100784.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19 Canada Case Counts (Hospital Vs. ICU)](https://canadiancriticalcare.org/COVID-19-Case-Counts)
     * Canadian Critical Care Society hospital and ICU counts: [can/cccs-hospital-icu-counts/COVID-19_DAILY_TRACKING_STATISTICS.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [CIHI's COVID-19 data and information](https://www.cihi.ca/en/covid-19-resources/cihis-covid-19-data-and-information)
