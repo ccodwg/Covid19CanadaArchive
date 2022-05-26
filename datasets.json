@@ -1475,6 +1475,30 @@
         "notes": {}
       },
       {
+        "id_name": "CAN - Provisional weekly estimates of the number of deaths, expected number of deaths and excess mortality",
+        "uuid": "7e3ec573-7cc1-4e74-b710-78cee09e5907",
+        "active": "True",
+        "url": "https://www150.statcan.gc.ca/n1/tbl/csv/13100784-eng.zip",
+        "dir_parent": "can",
+        "dir_file": "provisional-weekly-estimates-of-deaths-and-excess-mortality",
+        "file_name": "13100784",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "unzip": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1310078401",
+          "meta_url_name": "Provisional weekly estimates of the number of deaths, expected number of deaths and excess mortality",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "CAN - Canadian Critical Care Society hospital and ICU counts",
         "uuid": "1bf52899-1fa9-4732-83c6-21a95e08a7d9",
         "active": "True",
