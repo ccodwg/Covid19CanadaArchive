@@ -494,6 +494,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [ns/ns-webpage/ns-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Case data: [ns/case-data/ns-covid19-data.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Nova Scotia COVID-19 Dashboard](https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad)
+    * Webpage: [ns/ns-dashboard-webpage/ns-dashboard-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Weekly Data (2): [ns/weekly-data-2/COVID_WEEKREPT_V6_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Positive PCR test time series (PCR only/PCR after rapid test): [ns/positive-pcr-test-time-series/COVID_TESTING_V6_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Hospital/ICU admissions time series: [ns/hosp-icu-time-series/COVID_HOSP_ADM_V6_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
