@@ -71,7 +71,7 @@
           "meta_group_1": "Alberta"
         },
         "notes": {
-          "notes_data": "Some historical versions of this file may have misaligned/incorrect column names."
+          "notes_data": "Versions of this file from 2021-01-27 to 2021-04-25 have misaligned column names. The final column name is missing and should be 'Case type'. This was due to the unexpected removal of the initial, unnamed ID column. Additionally, this file is missing for 2020-11-30."
         }
       },
       {
@@ -9325,7 +9325,7 @@
           "meta_group_1": "Alberta"
         },
         "notes": {
-          "notes_data": "Some historical versions of this file may have misaligned/incorrect column names."
+          "notes_data": "Some historical versions of this file may have misaligned/incorrect column names. Additionally, this file is missing for 2020-11-29."
         }
       }
     ],
