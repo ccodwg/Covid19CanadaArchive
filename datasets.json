@@ -3797,6 +3797,31 @@
         "notes": {}
       },
       {
+        "id_name": "NS - Nova Scotia COVID-19 Dashboard (webpage)",
+        "uuid": "abbaa0d9-7e54-4425-a9be-f91cde27f358",
+        "active": "True",
+        "url": "https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad",
+        "dir_parent": "ns",
+        "dir_file": "ns-dashboard-webpage",
+        "file_name": "ns-dashboard-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad",
+          "meta_url_name": "Nova Scotia COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Nova Scotia"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "NS - Nova Scotia COVID-19 Dashboard: Weekly Data (2)",
         "uuid": "5d37261a-fcb0-46aa-ab53-9f86dccb2902",
         "active": "True",
