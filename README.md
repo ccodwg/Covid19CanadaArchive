@@ -562,6 +562,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Dataset: [on/percent-positive-by-age-group/percent_positive_by_agegrp.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19 cases in hospital and ICU, by Ontario Health (OH) region](https://data.ontario.ca/dataset/covid-19-cases-in-hospital-and-icu-by-ontario-health-region)
     * Dataset: [on/hosp-icu-by-lhin/lhin_hospital_icu_covid_data.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [Breakdown of COVID-19 positive hospital admissions](https://data.ontario.ca/dataset/breakdown-of-covid-19-positive-hospital-admissions)
+    * Dataset: [on/breakdown-of-covid-positive-hospital-admissions/hosp_icu_c19_breakdown.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Effective reproduction number (Re) for COVID-19 in Ontario](https://data.ontario.ca/dataset/effective-reproduction-number-re-for-covid-19-in-ontario)
     * Dataset: [on/effective-reproduction-number/effective_reproduction_number_ontario.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID Alert Impact Data](https://data.ontario.ca/dataset/covid-alert-impact-data)
