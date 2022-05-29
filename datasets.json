@@ -4400,6 +4400,28 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Breakdown of COVID-19 positive hospital admissions",
+        "uuid": "306a16a4-25a7-4495-ad18-ba2e76cb8031",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/8033f5df-6db8-41fe-921a-5f1160b4d75b/resource/d1199d1b-dc82-4e63-bb80-5c715e97a127/download/hosp_icu_c19_breakdown.csv",
+        "dir_parent": "on",
+        "dir_file": "breakdown-of-covid-positive-hospital-admissions",
+        "file_name": "hosp_icu_c19_breakdown",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://data.ontario.ca/dataset/breakdown-of-covid-19-positive-hospital-admissions",
+          "meta_url_name": "Breakdown of COVID-19 positive hospital admissions",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - Effective reproduction number (Re) for COVID-19 in Ontario",
         "uuid": "a3a39ddf-d676-4acd-843a-cf8e0927b18b",
         "active": "True",
