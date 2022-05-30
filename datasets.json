@@ -1521,6 +1521,78 @@
         "notes": {}
       },
       {
+        "id_name": "CAN - Provisional weekly death counts, by age group and sex",
+        "uuid": "5f58345c-a348-476d-a47a-5f896c782b9a",
+        "active": "True",
+        "url": "https://www150.statcan.gc.ca/n1/tbl/csv/13100768-eng.zip",
+        "dir_parent": "can",
+        "dir_file": "provisional-weekly-death-counts-by-age-group-and-sex",
+        "file_name": "13100768",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "unzip": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1310076801",
+          "meta_url_name": "Provisional weekly death counts, by age group and sex",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Deaths and age-specific mortality rates, by selected grouped causes",
+        "uuid": "4e30201f-f63c-453c-9763-34f1d573ad96",
+        "active": "True",
+        "url": "https://www150.statcan.gc.ca/n1/en/tbl/csv/13100392-eng.zip",
+        "dir_parent": "can",
+        "dir_file": "deaths-and-age-specific-mortality-rates-by-selected-grouped-causes",
+        "file_name": "13100392",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "unzip": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://www150.statcan.gc.ca/t1/tbl1/en/cv.action?pid=1310039201",
+          "meta_url_name": "Deaths and age-specific mortality rates, by selected grouped causes",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Mortality rates, by age group",
+        "uuid": "4b253c9c-4a09-4d00-b262-2d2e8e2e2739",
+        "active": "True",
+        "url": "https://www150.statcan.gc.ca/n1/tbl/csv/13100710-eng.zip",
+        "dir_parent": "can",
+        "dir_file": "mortality-rates-by-age-group",
+        "file_name": "13100710",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "unzip": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310071001",
+          "meta_url_name": "Mortality rates, by age group",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "CAN - Canadian Critical Care Society hospital and ICU counts",
         "uuid": "1bf52899-1fa9-4732-83c6-21a95e08a7d9",
         "active": "True",
