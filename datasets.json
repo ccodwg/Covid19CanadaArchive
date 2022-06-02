@@ -8674,6 +8674,29 @@
           "meta_group_1": "Saskatchewan"
         },
         "notes": {}
+      },
+      {
+        "id_name": "SK - Weekly COVID-19 Situation Reports - news release (webpage)",
+        "uuid": "e06317c2-5068-4d2c-8d70-7d23af5c72dd",
+        "active": "True",
+        "url_fun_python": "import re; from bs4 import BeautifulSoup; import requests; url_current = BeautifulSoup(requests.get('https://www.saskatchewan.ca/government/news-and-media?ministry=5FD58D569A72474B8D543396985C0409').text, features='html.parser').find('a', text=re.compile('COVID-19 Weekly EPI Report')).attrs['href']",
+        "url_fun_r": "library(rvest); d1 <- read_html('https://www.saskatchewan.ca/government/news-and-media?ministry=5FD58D569A72474B8D543396985C0409'); d2 <- html_elements(d1, 'a'); html_attr(d2[grep('COVID-19 Weekly EPI Report', d2)], 'href')[1]",
+        "dir_parent": "sk",
+        "dir_file": "covid-weekly-epi-report-news-release-webpage",
+        "file_name": "covid-weekly-epi-report-news-release-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Weekly COVID-19 Situation Reports (news release)",
+          "meta_url": "https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan",
+          "meta_url_name": "Cases and Risk of COVID-19 in Saskatchewan",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Saskatchewan"
+        },
+        "notes": {}
       }
     ],
     "yt": [
@@ -14724,30 +14747,6 @@
           "meta_group_1": "Saskatchewan"
         },
         "notes": {}
-      },
-      {
-        "id_name": "SK - Weekly COVID-19 Situation Reports - news release (webpage)",
-        "uuid": "e06317c2-5068-4d2c-8d70-7d23af5c72dd",
-        "active": "False",
-        "url": "https://www.saskatchewan.ca/government/news-and-media",
-        "dir_parent": "sk",
-        "dir_file": "covid-weekly-epi-report-news-release-webpage",
-        "file_name": "covid-weekly-epi-report-news-release-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Weekly COVID-19 Situation Reports (news release)",
-          "meta_url": "https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan",
-          "meta_url_name": "Cases and Risk of COVID-19 in Saskatchewan",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Saskatchewan"
-        },
-        "notes": {
-          "notes_data": "COVID-19 weekly epi report news releases will be manually added each Thursday."
-        }
       },
       {
         "id_name": "SK - Saskatchewan's Dashboard - Total Doses (highlights, charts, tables)",
