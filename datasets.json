@@ -8581,52 +8581,6 @@
           "meta_group_2": "Montreal"
         },
         "notes": {}
-      },
-      {
-        "id_name": "QC - McGill University - COVID-19 Case Tracker",
-        "uuid": "afb09743-645c-4f93-8885-06dd41e613ef",
-        "active": "True",
-        "url": "https://www.mcgill.ca/coronavirus/case-status",
-        "dir_parent": "qc",
-        "dir_file": "mcgill-covid-case-tracker",
-        "file_name": "case-status",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "COVID-19 Case Tracker",
-          "meta_url": "https://www.mcgill.ca/coronavirus/",
-          "meta_url_name": "McGill University - Cornavirus information",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec",
-          "meta_group_2": "Quebec universities"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - McGill University - COVID-19 Situation Dashboard",
-        "uuid": "21f94808-1ba4-4848-a274-b229925d221f",
-        "active": "True",
-        "url": "https://www.mcgill.ca/coronavirus/case-status/covid-19-situation-dashboard",
-        "dir_parent": "qc",
-        "dir_file": "mcgill-covid-situation-dashboard",
-        "file_name": "covid-19-situation-dashboard",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "COVID-19 Situation Dashboard",
-          "meta_url": "https://www.mcgill.ca/coronavirus/",
-          "meta_url_name": "McGill University - Cornavirus information",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec",
-          "meta_group_2": "Quebec universities"
-        },
-        "notes": {}
       }
     ],
     "sk": [
@@ -14608,6 +14562,52 @@
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - McGill University - COVID-19 Case Tracker",
+        "uuid": "afb09743-645c-4f93-8885-06dd41e613ef",
+        "active": "False",
+        "url": "https://www.mcgill.ca/coronavirus/case-status",
+        "dir_parent": "qc",
+        "dir_file": "mcgill-covid-case-tracker",
+        "file_name": "case-status",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID-19 Case Tracker",
+          "meta_url": "https://www.mcgill.ca/coronavirus/",
+          "meta_url_name": "McGill University - Cornavirus information",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec",
+          "meta_group_2": "Quebec universities"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - McGill University - COVID-19 Situation Dashboard",
+        "uuid": "21f94808-1ba4-4848-a274-b229925d221f",
+        "active": "False",
+        "url": "https://www.mcgill.ca/coronavirus/case-status/covid-19-situation-dashboard",
+        "dir_parent": "qc",
+        "dir_file": "mcgill-covid-situation-dashboard",
+        "file_name": "covid-19-situation-dashboard",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID-19 Situation Dashboard",
+          "meta_url": "https://www.mcgill.ca/coronavirus/",
+          "meta_url_name": "McGill University - Cornavirus information",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec",
+          "meta_group_2": "Quebec universities"
         },
         "notes": {}
       }
