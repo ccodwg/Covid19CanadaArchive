@@ -942,8 +942,8 @@ A note about data from Quebec: when both French and English data files are avail
 <summary><i>Quebec universities</i></summary>
 
 * [McGill University - Cornavirus information](https://www.mcgill.ca/coronavirus/)
-    * COVID-19 Case Tracker: [qc/mcgill-covid-case-tracker/case-status.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * COVID-19 Situation Dashboard: [qc/mcgill-covid-situation-dashboard/covid-19-situation-dashboard.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * COVID-19 Case Tracker: [qc/mcgill-covid-case-tracker/case-status.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * COVID-19 Situation Dashboard: [qc/mcgill-covid-situation-dashboard/covid-19-situation-dashboard.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 </details>
 </details>
 <details>
