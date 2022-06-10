@@ -1805,6 +1805,30 @@
         "notes": {}
       },
       {
+        "id_name": "CAN - COVID-19 daily epidemiology update (Epidemiology update v2)",
+        "uuid": "314c507d-7e48-476e-937b-965499f51e8e",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19v2.csv",
+        "dir_parent": "can",
+        "dir_file": "epidemiology-update-3",
+        "file_name": "covid19v2",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "National overview v2",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
+          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "CAN - COVID-19 daily epidemiology update (Epidemiology update - JSON format)",
         "uuid": "9b91c562-449a-4e9d-a389-353adfb44e64",
         "active": "True",
@@ -1964,6 +1988,30 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Health region UID table",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
+          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 daily epidemiology update (Health region UID table 2022)",
+        "uuid": "10361ed7-846d-4dde-b42d-4803f2144ed0",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-healthregions-hruid-2022.csv",
+        "dir_parent": "can",
+        "dir_file": "health-region-uid-2022",
+        "file_name": "covid19-healthregions-hruid-2022",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Health region UID table 2022",
           "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
           "meta_url_name": "COVID-19 daily epidemiology update",
           "meta_licence": "",
