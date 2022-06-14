@@ -281,6 +281,31 @@
           "meta_group_2": "Edmonton"
         },
         "notes": {}
+      },
+      {
+        "id_name": "AB - Alberta Wastewater COVID-19 Tracker (webpage)",
+        "uuid": "75eba13e-fc9b-4762-9c65-de7ed7285494",
+        "active": "True",
+        "url": "https://covid-tracker.chi-csm.ca/",
+        "dir_parent": "ab",
+        "dir_file": "ab-wastewater-covid-tracker-webpage",
+        "file_name": "ab-wastewater-covid-tracker-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://covid-tracker.chi-csm.ca/",
+          "meta_url_name": "Alberta Wastewater COVID-19 Tracker",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Alberta"
+        },
+        "notes": {}
       }
     ],
     "bc": [
