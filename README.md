@@ -116,6 +116,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [ab/ab-influenza-stats-webpage/ab-influenza-stats-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Acute Care Outbreaks in Alberta](https://www.albertahealthservices.ca/topics/Page17232.aspx)
     * Report: [ab/acute-care-outbreaks-report/if-ppih-covid-19-acute-care-outbreaks-list.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [Alberta Wastewater COVID-19 Tracker](https://covid-tracker.chi-csm.ca/)
+    * Webpage: [ab/ab-wastewater-covid-tracker-webpage/ab-wastewater-covid-tracker-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19 school status map](https://www.alberta.ca/schools/covid-19-school-status-map.htm)
     * School status map: [ab/school-status-by-region/covid19dataexport-schools.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [COVID-19 relaunch status map](https://www.alberta.ca/maps/covid-19-status-map.htm)
