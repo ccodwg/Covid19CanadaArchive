@@ -9944,6 +9944,50 @@
           "meta_group_1": "Canada"
         },
         "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID Alert (webpage)",
+        "uuid": "fcba741f-0ed9-4001-b2fe-c4b488453a6d",
+        "active": "False",
+        "url": "https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/covid-alert.html",
+        "dir_parent": "can",
+        "dir_file": "covid-alert-webpage",
+        "file_name": "covid-alert-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/covid-alert.html",
+          "meta_url_name": "COVID Alert",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID Alert performance metrics (webpage)",
+        "uuid": "af50ac94-fd0e-4d7f-a9f5-c8575a4c703b",
+        "active": "False",
+        "url": "https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/covid-alert/performance-metrics.html",
+        "dir_parent": "can",
+        "dir_file": "covid-alert-performance-metrics-webpage",
+        "file_name": "covid-alert-performance-metrics-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/covid-alert/performance-metrics.html",
+          "meta_url_name": "COVID Alert performance metrics",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
       }
     ],
     "mb": [
