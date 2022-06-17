@@ -224,9 +224,6 @@ A note about data from Quebec: when both French and English data files are avail
     * CIHI - COVID-19 Intervention Scan (English): [can/cihi-covid-intervention-scan-en/scan-data-tables-covid-19-intervention-en.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Données et information de l'ICIS sur la COVID-19](https://www.cihi.ca/fr/ressources-sur-la-covid-19/donnees-et-information-de-licis-sur-la-covid-19)
     * CIHI - COVID-19 Intervention Scan (French): [can/cihi-covid-intervention-scan-fr/scan-data-tables-covid-19-intervention-fr.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-* [COVID-19 data trends](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/epidemiological-economic-research-data.html)
-    * Report (English): [can/phac-weekly-epidemiological-report-english/surv-covid19-weekly-epi-update-en.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Report (French): [can/phac-weekly-epidemiological-report-french/surv-covid19-weekly-epi-update-fr.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19 daily epidemiology update](https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html)
     * Report (English): [can/phac-daily-epidemiology-update-report-english/Epidemiological-summary-of-COVID-19-cases-in-Canada-Canada.ca.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Report (French): [can/phac-daily-epidemiology-update-report-french/Resume-epidemiologique-des-cas-de-COVID-19-au-Canada.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
@@ -333,6 +330,9 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [can/covid-alert-webpage/covid-alert-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [COVID Alert performance metrics](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/covid-alert/performance-metrics.html)
     * Webpage: [can/covid-alert-performance-metrics-webpage/covid-alert-performance-metrics-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [COVID-19 data trends](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/epidemiological-economic-research-data.html)
+    * Report (English): [can/phac-weekly-epidemiological-report-english/surv-covid19-weekly-epi-update-en.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Report (French): [can/phac-weekly-epidemiological-report-french/surv-covid19-weekly-epi-update-fr.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 </details>
 <details>
 <summary><b>Manitoba</b></summary>
