@@ -139,9 +139,9 @@ A note about data from Quebec: when both French and English data files are avail
     * Laboratory data: [bc/laboratory-data/BCCDC_COVID19_Dashboard_Lab_Information.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Regional data: [bc/regional-case-summary/BCCDC_COVID19_Regional_Summary_Data.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Case, testing, vaccine summary by CHSA and LHA: [bc/case-testing-vaccine-summary-by-CHSA-and-LHA/BCCDC_COVID19_LHA_CHSA_Data.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * VoC Weekly Lineage Frequency Table: [bc/voc-weekly-lineage-frequency-table/Weekly_lineage_table.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * VOC time series by RHA: [bc/voc-time-series-by-rha/COVID19_VoC_data.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * VOC time series by RHA (2): [bc/voc-time-series-by-rha-2/Figure1_weeklyreport_data.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * VoC Weekly Lineage Frequency Table: [bc/voc-weekly-lineage-frequency-table/Weekly_lineage_table.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [COVID-19 Public Exposures](http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures)
     * Public exposures webpage screenshot: [bc/public-exposures-webpage/public-exposures-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Public exposures Fraser webpage: [bc/regional-exposure-events-fraser-webpage/regional-exposure-events-fraser-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
@@ -160,7 +160,6 @@ A note about data from Quebec: when both French and English data files are avail
     * Report: [bc/vancouver-coastal-facility-outbreak-bulletin/facility-outbreak-bulletin.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [British Columbia COVID-19 Dashboard](https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded)
     * Webpage: [bc/bc-covid-dashboard-webpage/bc-covid-dashboard-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Dashboard BC and Canada cumulative testing rate: [bc/bc-canada-cumulative-testing-rate/BC_COVID19__BC_Canadian_Testing_Rates_View.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Dashboard case demographics by Regional Health Authority: [bc/case-demographics-by-rha/BC_COVID19_Dashboard_Case_Details_Production.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Dashboard 7-day and cumulative cases by HSDA: [bc/7-day-and-cumulative-cases-by-hsda/BC_COVID19_Dashboard_Cases_by_Health_Service_Delivery_Areas_HSDA_VIEW.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Dashboard testing time series by Regional Health Authority (2): [bc/testing-timeseries-by-rha-2/BC_COVID19_Laboratory_Information.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
@@ -170,6 +169,7 @@ A note about data from Quebec: when both French and English data files are avail
     * 7-day and cumulative cases by HSDA (2): [bc/7-day-and-cumulative-cases-by-hsda-2/CumulativeCases.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Dashboard testing time series by Regional Health Authority: [bc/testing-timeseries-by-rha/BC_COVID19_Lab_Information.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Dashboard Regional Health Authority labels: [bc/rha-labels/HA_Labels.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Dashboard BC and Canada cumulative testing rate: [bc/bc-canada-cumulative-testing-rate/BC_COVID19__BC_Canadian_Testing_Rates_View.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [BCCDC COVID-19 Surveillance Dashboard](https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction)
     * Introduction: [bc/bccdc-surveillance-dashboard-introduction-webpage/bccdc-surveillance-dashboard-introduction-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Outcomes by Vax 1: [bc/bccdc-surveillance-dashboard-outcomes-by-vax-1-webpage/bccdc-surveillance-dashboard-outcomes-by-vax-1-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
@@ -578,8 +578,6 @@ A note about data from Quebec: when both French and English data files are avail
     * Dataset: [on/hosp-icu-by-lhin/lhin_hospital_icu_covid_data.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Breakdown of COVID-19 positive hospital admissions](https://data.ontario.ca/dataset/breakdown-of-covid-19-positive-hospital-admissions)
     * Dataset: [on/breakdown-of-covid-positive-hospital-admissions/hosp_icu_c19_breakdown.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-* [Effective reproduction number (Re) for COVID-19 in Ontario](https://data.ontario.ca/dataset/effective-reproduction-number-re-for-covid-19-in-ontario)
-    * Dataset: [on/effective-reproduction-number/effective_reproduction_number_ontario.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID Alert Impact Data](https://data.ontario.ca/dataset/covid-alert-impact-data)
     * COVID Alert downloads - Canada: [on/covid_alert_downloads_canada/covid_alert_downloads_canada.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Uploads of COVID-19 diagnosis to COVID Alert - Ontario: [on/covid-alert-uploads-ontario/covid_alert_positive_uploads_ontario.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
@@ -646,6 +644,8 @@ A note about data from Quebec: when both French and English data files are avail
 * [Rapid testing for at-home use](https://www.ontario.ca/page/rapid-testing-home-use)
     * Dataset (JSON): [on/rapid-testing-participating-locations/moh-covid-19-rapid-testing-home-use.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Dataset (CSV): [on/rapid-testing-participating-locations-csv/moh-covid-19-rapid-testing-home-use.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [Effective reproduction number (Re) for COVID-19 in Ontario](https://data.ontario.ca/dataset/effective-reproduction-number-re-for-covid-19-in-ontario)
+    * Dataset: [on/effective-reproduction-number/effective_reproduction_number_ontario.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 
 <details>
 <summary><i>Ontario universities</i></summary>
@@ -697,12 +697,12 @@ A note about data from Quebec: when both French and English data files are avail
     * COVID-19 Cases with Severe Outcomes: [on/pho-cases-with-severe-outcomes-report/covid-19-cases-severe-outcomes-epi-summary.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * SARS-CoV-2 Whole Genome Sequencing in Ontario: [on/pho-wgs-summary-report/covid-19-sars-cov2-whole-genome-sequencing-epi-summary.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * COVID-19 in Long-Term Care Homes: [on/pho-ltc-summary-report/covid-19-long-term-care-epi-summary.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * COVID-19 Regional Incidence and Time to Case Notification in Ontario: [on/pho-regional-summary-report/covid-19-regional-epi-summary-report.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * COVID-19 in Children and Education Settings: [on/pho-children-school-outbreak-summary-report/covid-19-children-school-outbreaks-epi-summary.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * COVID-19 Vaccine Uptake and Program Impact in Ontario: [on/pho-vaccine-uptake-summary-report/covid-19-vaccine-uptake-ontario-epi-summary.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Adverse Events Following Immunization (AEFIs) for COVID-19 in Ontario: [on/pho-aefi-report/covid-19-aefi-report.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Trends of COVID-19 Incidence in Ontario: [on/pho-incidence-trends-report/covid-19-epi-trends-incidence-ontario.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Confirmed Cases of COVID-19 Following Vaccination in Ontario: [on/pho-confirmed-cases-post-vaccination-report/covid-19-epi-confirmed-cases-post-vaccination.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Trends of COVID-19 Incidence in Ontario: [on/pho-incidence-trends-report/covid-19-epi-trends-incidence-ontario.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * COVID-19 Regional Incidence and Time to Case Notification in Ontario: [on/pho-regional-summary-report/covid-19-regional-epi-summary-report.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 </details>
 
 <details>
@@ -938,12 +938,13 @@ A note about data from Quebec: when both French and English data files are avail
 * [Données sur la vaccination COVID-19 à Montréal](https://santemontreal.qc.ca/population/coronavirus-covid-19/vaccination/donnees/)
     * Vaccine coverage by neighbourhood (2): [qc/montreal-vaccine-coverage-by-neighbourhood-2/VAXarronMTL_ADEQ.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Vaccine coverage by age group (3): [qc/montreal-vaccine-coverage-by-age-group-3/VAXparGrpAGE_CSVuploadv3_ADEQ.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Vaccine administration time series (2): [qc/montreal-vaccine-administration-time-series-v2/VAXparJOUR_CSVuploadv2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Vaccine administration time series (3): [qc/montreal-vaccine-administration-time-series-v3/VAXparJOUR_CSVupload_V3.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Vaccine coverage by age group: [qc/montreal-vaccine-coverage-by-age-group/VAXparGrpAGE_CSVupload.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Vaccine coverage by neighbourhood: [qc/montreal-vaccine-coverage-by-neighbourhood/VAXarrondissementsMTL.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Vaccine coverage by age group (2): [qc/montreal-vaccine-coverage-by-age-group-2/VAXparGrpAGE_CSVuploadv2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Neighbourhoods: [qc/montreal-vaccine-dashboard-neighbourhoods/Arrondissements_et_municipalites.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Vaccine administration time series: [qc/montreal-vaccine-administration-time-series/VAXparJOUR_googledrive.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Vaccine administration time series (2): [qc/montreal-vaccine-administration-time-series-v2/VAXparJOUR_CSVuploadv2.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 </details>
 
 <details>
