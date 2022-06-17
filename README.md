@@ -329,6 +329,10 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage (FR): [can/wastewater-technical-notes-webpage-fr/wastewater-technical-notes-webpage-fr.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Detailed preliminary information on confirmed cases of COVID-19 (Revised)](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310078101)
     * Dataset: [can/detailed-preliminary-confirmed-case-info-revised/13100781.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [COVID Alert](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/covid-alert.html)
+    * Webpage: [can/covid-alert-webpage/covid-alert-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [COVID Alert performance metrics](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/covid-alert/performance-metrics.html)
+    * Webpage: [can/covid-alert-performance-metrics-webpage/covid-alert-performance-metrics-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 </details>
 <details>
 <summary><b>Manitoba</b></summary>
