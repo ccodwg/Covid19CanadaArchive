@@ -424,28 +424,6 @@
         "notes": {}
       },
       {
-        "id_name": "BC - BC COVID-19 Data (VoC Weekly Lineage Frequency Table)",
-        "uuid": "33eb7e27-2c84-4c3d-bc99-e1b5d0189ecb",
-        "active": "True",
-        "url": "http://www.bccdc.ca/Health-Info-Site/Documents/VoC/Weekly_lineage_table.csv",
-        "dir_parent": "bc",
-        "dir_file": "voc-weekly-lineage-frequency-table",
-        "file_name": "Weekly_lineage_table",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "VoC Weekly Lineage Frequency Table",
-          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
-          "meta_url_name": "BC COVID-19 Data",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "British Columbia"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "BC - Public exposures (webpage)",
         "uuid": "eb51ca24-d862-4ab9-85c7-7843a9f3cb75",
         "active": "True",
@@ -745,28 +723,6 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
-          "meta_url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
-          "meta_url_name": "British Columbia COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "British Columbia"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "BC - Dashboard BC and Canada cumulative testing rate",
-        "uuid": "2c87dd51-4fc3-4309-a730-18118db09cde",
-        "active": "True",
-        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BC_COVID19__BC_Canadian_Testing_Rates_View/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "bc",
-        "dir_file": "bc-canada-cumulative-testing-rate",
-        "file_name": "BC_COVID19__BC_Canadian_Testing_Rates_View",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dashboard BC and Canada cumulative testing rate",
           "meta_url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
           "meta_url_name": "British Columbia COVID-19 Dashboard",
           "meta_licence": "",
@@ -4519,28 +4475,6 @@
         "notes": {}
       },
       {
-        "id_name": "ON - Effective reproduction number (Re) for COVID-19 in Ontario",
-        "uuid": "a3a39ddf-d676-4acd-843a-cf8e0927b18b",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/8da73272-8078-4cbd-ae35-1b5c60c57796/resource/1ffdf824-2712-4f64-b7fc-f8b2509f9204/download/effective_reproduction_number_ontario.csv",
-        "dir_parent": "on",
-        "dir_file": "effective-reproduction-number",
-        "file_name": "effective_reproduction_number_ontario",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dataset",
-          "meta_url": "https://data.ontario.ca/dataset/effective-reproduction-number-re-for-covid-19-in-ontario",
-          "meta_url_name": "Effective reproduction number (Re) for COVID-19 in Ontario",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "ON - COVID Alert Impact Data (COVID Alert downloads - Canada)",
         "uuid": "12837cab-72e4-4ea9-b4eb-71a4866653ef",
         "active": "True",
@@ -5273,31 +5207,6 @@
         "notes": {}
       },
       {
-        "id_name": "ON - Public Health Ontario: COVID-19 Data and Surveillance - COVID-19 Regional Incidence and Time to Case Notification in Ontario",
-        "uuid": "206f598e-2eaf-4df7-85cb-6c39000301bb",
-        "active": "True",
-        "url": "https://www.publichealthontario.ca/-/media/documents/ncov/epi/covid-19-regional-epi-summary-report.pdf?sc_lang=en",
-        "dir_parent": "on",
-        "dir_file": "pho-regional-summary-report",
-        "file_name": "covid-19-regional-epi-summary-report",
-        "file_ext": "pdf",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "COVID-19 Regional Incidence and Time to Case Notification in Ontario",
-          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance",
-          "meta_url_name": "Public Health Ontario: COVID-19 Data and Surveillance",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Public Health Ontario"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "ON - Public Health Ontario: COVID-19 Data and Surveillance - COVID-19 in Children and Education Settings",
         "uuid": "af683564-382d-4d01-ae2a-376ac6504add",
         "active": "True",
@@ -5363,31 +5272,6 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Adverse Events Following Immunization (AEFIs) for COVID-19 in Ontario",
-          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance",
-          "meta_url_name": "Public Health Ontario: COVID-19 Data and Surveillance",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Public Health Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Public Health Ontario: COVID-19 Data and Surveillance - Trends of COVID-19 Incidence in Ontario",
-        "uuid": "38318ba9-6a00-4f65-83ff-dc5725628983",
-        "active": "True",
-        "url": "https://www.publichealthontario.ca/-/media/documents/ncov/epi/covid-19-epi-trends-incidence-ontario.pdf?sc_lang=en",
-        "dir_parent": "on",
-        "dir_file": "pho-incidence-trends-report",
-        "file_name": "covid-19-epi-trends-incidence-ontario",
-        "file_ext": "pdf",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Trends of COVID-19 Incidence in Ontario",
           "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance",
           "meta_url_name": "Public Health Ontario: COVID-19 Data and Surveillance",
           "meta_licence": "",
@@ -8585,19 +8469,19 @@
         "notes": {}
       },
       {
-        "id_name": "QC - Montréal vaccination dashboard - Vaccine administration time series (2)",
-        "uuid": "f921c384-42f4-4ca1-8754-a820005f574f",
+        "id_name": "QC - Montréal vaccination dashboard - Vaccine administration time series (3)",
+        "uuid": "fb4df749-ae0b-4c57-9060-5fdfa3d12275",
         "active": "True",
-        "url": "https://services5.arcgis.com/pBN1lh7yaF4K7Tod/arcgis/rest/services/VAXparJOUR_CSVuploadv2/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "url": "https://services5.arcgis.com/pBN1lh7yaF4K7Tod/arcgis/rest/services/VAXparJOUR_CSVupload_V3/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
         "dir_parent": "qc",
-        "dir_file": "montreal-vaccine-administration-time-series-v2",
-        "file_name": "VAXparJOUR_CSVuploadv2",
+        "dir_file": "montreal-vaccine-administration-time-series-v3",
+        "file_name": "VAXparJOUR_CSVupload_V3",
         "file_ext": "json",
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Vaccine administration time series (2)",
+          "meta_name": "Vaccine administration time series (3)",
           "meta_url": "https://santemontreal.qc.ca/population/coronavirus-covid-19/vaccination/donnees/",
           "meta_url_name": "Données sur la vaccination COVID-19 à Montréal",
           "meta_licence": "",
@@ -9652,6 +9536,50 @@
         "notes": {
           "notes_data": "Warning: some early files are .png screenshots and named differently."
         }
+      },
+      {
+        "id_name": "BC - BC COVID-19 Data (VoC Weekly Lineage Frequency Table)",
+        "uuid": "33eb7e27-2c84-4c3d-bc99-e1b5d0189ecb",
+        "active": "False",
+        "url": "http://www.bccdc.ca/Health-Info-Site/Documents/VoC/Weekly_lineage_table.csv",
+        "dir_parent": "bc",
+        "dir_file": "voc-weekly-lineage-frequency-table",
+        "file_name": "Weekly_lineage_table",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "VoC Weekly Lineage Frequency Table",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
+          "meta_url_name": "BC COVID-19 Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - Dashboard BC and Canada cumulative testing rate",
+        "uuid": "2c87dd51-4fc3-4309-a730-18118db09cde",
+        "active": "False",
+        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BC_COVID19__BC_Canadian_Testing_Rates_View/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "bc",
+        "dir_file": "bc-canada-cumulative-testing-rate",
+        "file_name": "BC_COVID19__BC_Canadian_Testing_Rates_View",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dashboard BC and Canada cumulative testing rate",
+          "meta_url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
+          "meta_url_name": "British Columbia COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
       }
     ],
     "can": [
@@ -13727,6 +13655,78 @@
           "meta_group_1": "Ontario"
         },
         "notes": {}
+      },
+      {
+        "id_name": "ON - Public Health Ontario: COVID-19 Data and Surveillance - Trends of COVID-19 Incidence in Ontario",
+        "uuid": "38318ba9-6a00-4f65-83ff-dc5725628983",
+        "active": "False",
+        "url": "https://www.publichealthontario.ca/-/media/documents/ncov/epi/covid-19-epi-trends-incidence-ontario.pdf?sc_lang=en",
+        "dir_parent": "on",
+        "dir_file": "pho-incidence-trends-report",
+        "file_name": "covid-19-epi-trends-incidence-ontario",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Trends of COVID-19 Incidence in Ontario",
+          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance",
+          "meta_url_name": "Public Health Ontario: COVID-19 Data and Surveillance",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Public Health Ontario: COVID-19 Data and Surveillance - COVID-19 Regional Incidence and Time to Case Notification in Ontario",
+        "uuid": "206f598e-2eaf-4df7-85cb-6c39000301bb",
+        "active": "False",
+        "url": "https://www.publichealthontario.ca/-/media/documents/ncov/epi/covid-19-regional-epi-summary-report.pdf?sc_lang=en",
+        "dir_parent": "on",
+        "dir_file": "pho-regional-summary-report",
+        "file_name": "covid-19-regional-epi-summary-report",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID-19 Regional Incidence and Time to Case Notification in Ontario",
+          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance",
+          "meta_url_name": "Public Health Ontario: COVID-19 Data and Surveillance",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Effective reproduction number (Re) for COVID-19 in Ontario",
+        "uuid": "a3a39ddf-d676-4acd-843a-cf8e0927b18b",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/8da73272-8078-4cbd-ae35-1b5c60c57796/resource/1ffdf824-2712-4f64-b7fc-f8b2509f9204/download/effective_reproduction_number_ontario.csv",
+        "dir_parent": "on",
+        "dir_file": "effective-reproduction-number",
+        "file_name": "effective_reproduction_number_ontario",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://data.ontario.ca/dataset/effective-reproduction-number-re-for-covid-19-in-ontario",
+          "meta_url_name": "Effective reproduction number (Re) for COVID-19 in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
       }
     ],
     "pe": [
@@ -14723,6 +14723,29 @@
           "meta_licence_url": "",
           "meta_group_1": "Quebec",
           "meta_group_2": "Quebec universities"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Montréal vaccination dashboard - Vaccine administration time series (2)",
+        "uuid": "f921c384-42f4-4ca1-8754-a820005f574f",
+        "active": "False",
+        "url": "https://services5.arcgis.com/pBN1lh7yaF4K7Tod/arcgis/rest/services/VAXparJOUR_CSVuploadv2/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "qc",
+        "dir_file": "montreal-vaccine-administration-time-series-v2",
+        "file_name": "VAXparJOUR_CSVuploadv2",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine administration time series (2)",
+          "meta_url": "https://santemontreal.qc.ca/population/coronavirus-covid-19/vaccination/donnees/",
+          "meta_url_name": "Données sur la vaccination COVID-19 à Montréal",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec",
+          "meta_group_2": "Montreal"
         },
         "notes": {}
       }
