@@ -595,11 +595,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Active outbreaks: [on/long-term-care-home-active/activeltcoutbreak.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Resolved outbreaks: [on/long-term-care-home-resolved/resolvedltc.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Summary by PHU: [on/long-term-care-home-summary-by-phu/ltccovidsummarybyphu.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * LTC home COVID-19 staff vaccination rates: [on/long-term-care-home-staff-vaccination-rates/ltc_immunization_data.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-* [COVID-19 cases in schools](https://www.ontario.ca/page/covid-19-cases-schools)
-    * Webpage: [on/cases-schools-webpage/cases-schools-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-* [COVID-19 cases in child care centres](https://www.ontario.ca/page/covid-19-cases-child-care-centres)
-    * Webpage: [on/cases-child-care-centres-webpage/cases-child-care-centres-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * LTC home COVID-19 staff vaccination rates: [on/long-term-care-home-staff-vaccination-rates/ltc_immunization_data.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Licensed child care settings COVID-19 data](https://data.ontario.ca/dataset/summary-of-cases-in-licensed-child-care-settings)
     * 2022: Child Care Centre Closures: [on/licensed-child-care-centre-closures-2022/lccclosures2022.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Licensed child care centres and agencies with active COVID-19 cases: [on/licensed-child-care-settings-active/lccactivecovid.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
@@ -662,6 +658,10 @@ A note about data from Quebec: when both French and English data files are avail
     * Dataset (GeoJSON): [on/testing-locations-geojson/assessment_centre_locations.geojson](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Ontario COVID-19 zones](https://data.ontario.ca/en/dataset/ontario-covid-19-zones)
     * Dataset: [on/on-covid-zone-dates-by-phu/response_framework.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [COVID-19 cases in schools](https://www.ontario.ca/page/covid-19-cases-schools)
+    * Webpage: [on/cases-schools-webpage/cases-schools-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [COVID-19 cases in child care centres](https://www.ontario.ca/page/covid-19-cases-child-care-centres)
+    * Webpage: [on/cases-child-care-centres-webpage/cases-child-care-centres-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 
 <details>
 <summary><i>Ontario universities</i></summary>
@@ -798,11 +798,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Dataset: [on/toronto-daily-status/CityofToronto_COVID-19_Daily_Public_Reporting.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19: Epidemiological Summary of Cases](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-pandemic-data/covid-19-epidemiological-summary-of-cases-data/)
     * Dataset: [on/toronto-covid-summary/CityofToronto_COVID-19_Data.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-* [COVID-19: Neighbourhood Maps](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-pandemic-data/covid-19-neighbourhood-maps-data/)
-    * Case Data: [on/toronto-neighbourhood-data/CityofToronto_COVID-19_NeighbourhoodData.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Testing Data: [on/toronto-neighbourhood-test-data/CityofToronto_COVID-19_Testing.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-* [COVID-19: Monitoring Dashboard](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-pandemic-data/covid-19-monitoring-dashboard-data/)
-    * Dataset: [on/toronto-monitoring-dashboard/CityofToronto_COVID-19_RecoveryData.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [COVID-19: Monitoring Dashboard (2)](https://www.toronto.ca/home/covid-19/covid-19-pandemic-data/covid-19-monitoring-dashboard-data/)
+    * Dataset: [on/toronto-monitoring-dashboard-2/CityofToronto_COVID-19_RecoveryData_2.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19: Active Outbreaks](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-pandemic-data/covid-19-active-outbreaks-data/)
     * Dataset: [on/toronto-active-outbreaks/CityofToronto_COVID-19_OutbreakData.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19 Cases in Toronto](https://open.toronto.ca/dataset/covid-19-cases-in-toronto/)
@@ -813,6 +810,11 @@ A note about data from Quebec: when both French and English data files are avail
     * Dataset: [on/toronto-immunization-clinics/covid-19-immunization-clinics.geojson](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID 19: Ethno-Racial Identity & Income](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-pandemic-data/covid-19-ethno-racial-group-income-infection-data/)
     * Dataset: [on/toronto-ethno-racial-income/Ethno-Racial_Group,_Income,_and_COVID-19_Infection.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [COVID-19: Neighbourhood Maps](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-pandemic-data/covid-19-neighbourhood-maps-data/)
+    * Testing Data: [on/toronto-neighbourhood-test-data/CityofToronto_COVID-19_Testing.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Case Data: [on/toronto-neighbourhood-data/CityofToronto_COVID-19_NeighbourhoodData.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [COVID-19: Monitoring Dashboard](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-pandemic-data/covid-19-monitoring-dashboard-data/)
+    * Dataset: [on/toronto-monitoring-dashboard/CityofToronto_COVID-19_RecoveryData.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 </details>
 </details>
 <details>
@@ -922,15 +924,6 @@ A note about data from Quebec: when both French and English data files are avail
     * Deaths by RSS (health region) and number of pre-existing conditions: [qc/deaths-by-rss-and-pre-existing-conditions/comorbidite.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Données COVID-19 par âge et sexe au Québec](https://www.inspq.qc.ca/covid-19/donnees/age-sexe)
     * Dataset: [qc/covid-data-by-age-and-sex/PL_AGE_SEXE.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-* [Faits saillants des cas de COVID-19 dans les écoles du Québec](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/faits-saillants-covid-ecoles/)
-    * Webpage (FR): [qc/schools-highlights-webpage/schools-highlights-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Webpage (EN): [qc/schools-highlights-webpage-en/schools-highlights-webpage-en.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-* [Liste des écoles comptant des cas de COVID-19](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/liste-des-cas-de-covid-19-dans-les-ecoles/)
-    * Webpage (FR): [qc/schools-list-of-schools-webpage/schools-list-of-schools-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Webpage (EN): [qc/schools-list-of-schools-webpage-en/schools-list-of-schools-webpage-en.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Dataset (CSV): [qc/schools-list-of-schools-csv/Liste_ecole_DCOM.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Report (PDF FR): [qc/schools-list-of-schools/reseauScolaire_listeEcoles.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Report (PDF EN): [qc/schools-list-of-schools-en/reseauScolaire_listeEcoles_ANG.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Portrait quotidien des hospitalisations](https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-des-hospitalisations)
     * Daily hospitalizations by RSS and care unit: [qc/daily-hosp-by-rss-and-care-unit/COVID19_Qc_HistoHospit.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Daily hospitalizations by age group: [qc/daily-hosp-by-age-group/COVID19_Qc_HospitCatAge.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
@@ -941,6 +934,15 @@ A note about data from Quebec: when both French and English data files are avail
 * []()
     * Highlights - public and private school system (FR): [qc/schools-highlights/reseauScolaire_faitsSaillants.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Highlights - public and private school system (EN): [qc/schools-highlights-en/reseauScolaire_faitsSaillants_ANG.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [Liste des écoles comptant des cas de COVID-19](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/liste-des-cas-de-covid-19-dans-les-ecoles/)
+    * Report (PDF EN): [qc/schools-list-of-schools-en/reseauScolaire_listeEcoles_ANG.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Report (PDF FR): [qc/schools-list-of-schools/reseauScolaire_listeEcoles.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Dataset (CSV): [qc/schools-list-of-schools-csv/Liste_ecole_DCOM.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Webpage (FR): [qc/schools-list-of-schools-webpage/schools-list-of-schools-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Webpage (EN): [qc/schools-list-of-schools-webpage-en/schools-list-of-schools-webpage-en.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [Faits saillants des cas de COVID-19 dans les écoles du Québec](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/faits-saillants-covid-ecoles/)
+    * Webpage (FR): [qc/schools-highlights-webpage/schools-highlights-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Webpage (EN): [qc/schools-highlights-webpage-en/schools-highlights-webpage-en.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 
 <details>
 <summary><i>Montreal</i></summary>
