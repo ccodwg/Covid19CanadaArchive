@@ -5056,6 +5056,94 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Availability of adult and pediatric ICU beds and occupancy for COVID-related critical illness (CRCI)",
+        "uuid": "7d3cfbbf-07be-40d3-b7ee-540e041dd7a7",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/1b5ff63f-48a1-4db6-965f-ab6acbab9f29/resource/c7f2590f-362a-498f-a06c-da127ec41a33/download/icu_beds.csv",
+        "dir_parent": "on",
+        "dir_file": "icu-bed-availability",
+        "file_name": "icu_beds",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://data.ontario.ca/en/dataset/availability-of-adult-icu-beds-and-occupancy-for-covid-related-critical-illness-crci",
+          "meta_url_name": "Availability of adult and pediatric ICU beds and occupancy for COVID-related critical illness (CRCI)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Enhanced vaccine certificate downloads",
+        "uuid": "cb10c1ee-ca79-43be-86df-e750d00e001b",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/26adecbb-dea9-41b6-a493-7ef5f8a0b951/resource/6282f89a-aa70-4f13-93fd-d6e3c0834597/download/qr_download.csv",
+        "dir_parent": "on",
+        "dir_file": "verify-ontario-vaccine-certificate-downloads",
+        "file_name": "qr_download",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Enhanced vaccine certificate downloads",
+          "meta_url": "https://data.ontario.ca/en/dataset/verify-ontario-download-and-usage-data",
+          "meta_url_name": "Verify Ontario and enhanced vaccine certificate download and usage data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Verify Ontario app results",
+        "uuid": "916e20e0-ec4a-49d1-81be-74cb37b8c4b1",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/26adecbb-dea9-41b6-a493-7ef5f8a0b951/resource/96dfca7a-d89b-45de-9e51-fe6933024902/download/scan_results.csv",
+        "dir_parent": "on",
+        "dir_file": "verify-ontario-app-results",
+        "file_name": "scan_results",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "",
+          "meta_url": "https://data.ontario.ca/en/dataset/verify-ontario-download-and-usage-data",
+          "meta_url_name": "Verify Ontario and enhanced vaccine certificate download and usage data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Verify Ontario downloads",
+        "uuid": "d8023d30-926e-4d84-b11f-63269490ccdf",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/26adecbb-dea9-41b6-a493-7ef5f8a0b951/resource/22f68fa9-13be-4ef7-896f-3eed5ac8b1db/download/app_download_data.csv",
+        "dir_parent": "on",
+        "dir_file": "verify-ontario-app-downloads",
+        "file_name": "app_download_data",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Verify Ontario downloads",
+          "meta_url": "https://data.ontario.ca/en/dataset/verify-ontario-download-and-usage-data",
+          "meta_url_name": "Verify Ontario and enhanced vaccine certificate download and usage data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "Public Health Ontario: COVID-19 Data and Surveillance - Daily epidemiologic summary",
         "uuid": "6eee7470-216f-4332-84ab-8d28875688d6",
         "active": "True",
@@ -13905,6 +13993,30 @@
           "meta_group_1": "Ontario"
         },
         "notes": {}
+      },
+      {
+        "id_name": "ON - Ontario COVID-19 zones",
+        "uuid": "89eee1a3-4972-4113-94d0-cec585d1a66e",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/cbb4d08c-4e56-4b07-9db6-48335241b88a/resource/ce9f043d-f0d4-40f0-9b96-4c8a83ded3f6/download/response_framework.csv",
+        "dir_parent": "on",
+        "dir_file": "on-covid-zone-dates-by-phu",
+        "file_name": "response_framework",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://data.ontario.ca/en/dataset/ontario-covid-19-zones",
+          "meta_url_name": "Ontario COVID-19 zones",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {
+          "notes_misc": "On November 3, 2020, Ontario released a COVID-19 Response Framework which categorized public health unit regions into five zones: Green-Prevent, Yellow-Protect, Orange-Restrict, Red-Control, Grey-Lockdown. This dataset was last updated April 1, 2021."
+        }
       }
     ],
     "pe": [
