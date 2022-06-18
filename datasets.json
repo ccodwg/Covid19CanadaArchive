@@ -4760,80 +4760,6 @@
         "notes": {}
       },
       {
-        "id_name": "ON - Long term care homes: LTC home COVID-19 staff vaccination rates",
-        "uuid": "aaf940a2-94a5-44fc-98e1-f79d6152cd28",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/resource/f8c54e4a-62b6-4efa-9ce6-a0de42a3867b/download/ltc_immunization_data.csv",
-        "dir_parent": "on",
-        "dir_file": "long-term-care-home-staff-vaccination-rates",
-        "file_name": "ltc_immunization_data",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "LTC home COVID-19 staff vaccination rates",
-          "meta_url": "https://data.ontario.ca/dataset/long-term-care-home-covid-19-data",
-          "meta_url_name": "Long-Term Care Home COVID-19 Data",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {
-          "notes_data": "Changed file name from 'august2021_ltc_immunization_data_2021-10-01' to 'ltc_immunization_data'."
-        }
-      },
-      {
-        "id_name": "ON - COVID-19 cases in schools (webpage)",
-        "uuid": "04d5c49d-623c-4196-adcc-413c9dab7174",
-        "active": "True",
-        "url": "https://www.ontario.ca/page/covid-19-cases-schools",
-        "dir_parent": "on",
-        "dir_file": "cases-schools-webpage",
-        "file_name": "cases-schools-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "10"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://www.ontario.ca/page/covid-19-cases-schools",
-          "meta_url_name": "COVID-19 cases in schools",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - COVID-19 cases in child care centres (webpage)",
-        "uuid": "9218792e-ca62-4e3d-9902-6aa89773aec1",
-        "active": "True",
-        "url": "https://www.ontario.ca/page/covid-19-cases-child-care-centres",
-        "dir_parent": "on",
-        "dir_file": "cases-child-care-centres-webpage",
-        "file_name": "cases-child-care-centres-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "10"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://www.ontario.ca/page/covid-19-cases-child-care-centres",
-          "meta_url_name": "COVID-19 cases in child care centres",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "ON - 2022: Child Care Centre Closures",
         "uuid": "d832054c-125b-4d53-ab07-8593c4e14608",
         "active": "True",
@@ -5481,67 +5407,21 @@
         "notes": {}
       },
       {
-        "id_name": "ON - City of Toronto COVID-19 Neighbourhood Case Data",
-        "uuid": "74c30b74-c6cc-46c5-a9cb-e60d2552c8dc",
+        "id_name": "ON - COVID-19: Monitoring Dashboard (2)",
+        "uuid": "5946386c-ae3a-4b4c-8c69-b80b2ee999b1",
         "active": "True",
-        "url": "https://docs.google.com/spreadsheets/d/1jzH64LvFQ-UsDibXO0MOtvjbL2CvnV3N/export?format=xlsx&id=1jzH64LvFQ-UsDibXO0MOtvjbL2CvnV3N",
+        "url": "https://docs.google.com/spreadsheets/d/1gm3qV5XQJjCPw5V4V1zEZqwGV0cZzBzl/export?format=xlsx&id=1gm3qV5XQJjCPw5V4V1zEZqwGV0cZzBzl",
         "dir_parent": "on",
-        "dir_file": "toronto-neighbourhood-data",
-        "file_name": "CityofToronto_COVID-19_NeighbourhoodData",
-        "file_ext": "xlsx",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Case Data",
-          "meta_url": "https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-pandemic-data/covid-19-neighbourhood-maps-data/",
-          "meta_url_name": "COVID-19: Neighbourhood Maps",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Toronto"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - City of Toronto COVID-19 Neighbourhood Testing Data",
-        "uuid": "5a9aa1a4-b8fd-423b-a2eb-a8a0c6dd9549",
-        "active": "True",
-        "url": "https://docs.google.com/spreadsheets/d/1xI6ckKQIOt_RNCuI0HXs7WJsgqFP015c/export?format=xlsx&id=1xI6ckKQIOt_RNCuI0HXs7WJsgqFP015c",
-        "dir_parent": "on",
-        "dir_file": "toronto-neighbourhood-test-data",
-        "file_name": "CityofToronto_COVID-19_Testing",
-        "file_ext": "xlsx",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Testing Data",
-          "meta_url": "https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-pandemic-data/covid-19-neighbourhood-maps-data/",
-          "meta_url_name": "COVID-19: Neighbourhood Maps",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Toronto"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - City of Toronto COVID-19 Monitoring Dashboard",
-        "uuid": "185b115b-efa6-4bcc-a396-fe5cd673fa32",
-        "active": "True",
-        "url": "https://docs.google.com/spreadsheets/d/1-7j48S_KQY-I-4Qu3N3lsEOALXON2StG/export?format=xlsx&id=1-7j48S_KQY-I-4Qu3N3lsEOALXON2StG",
-        "dir_parent": "on",
-        "dir_file": "toronto-monitoring-dashboard",
-        "file_name": "CityofToronto_COVID-19_RecoveryData",
+        "dir_file": "toronto-monitoring-dashboard-2",
+        "file_name": "CityofToronto_COVID-19_RecoveryData_2",
         "file_ext": "xlsx",
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Dataset",
-          "meta_url": "https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-pandemic-data/covid-19-monitoring-dashboard-data/",
-          "meta_url_name": "COVID-19: Monitoring Dashboard",
+          "meta_url": "https://www.toronto.ca/home/covid-19/covid-19-pandemic-data/covid-19-monitoring-dashboard-data/",
+          "meta_url_name": "COVID-19: Monitoring Dashboard (2)",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario",
@@ -8059,178 +7939,6 @@
           "meta_name": "Dataset",
           "meta_url": "https://www.inspq.qc.ca/covid-19/donnees/age-sexe",
           "meta_url_name": "Données COVID-19 par âge et sexe au Québec",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Highlights - Public and Private School Systems (webpage FR)",
-        "uuid": "b2c27ad7-8d16-43f5-a45b-7a15eb3955d3",
-        "active": "True",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/faits-saillants-covid-ecoles/",
-        "dir_parent": "qc",
-        "dir_file": "schools-highlights-webpage",
-        "file_name": "schools-highlights-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage (FR)",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/faits-saillants-covid-ecoles/",
-          "meta_url_name": "Faits saillants des cas de COVID-19 dans les écoles du Québec",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Highlights - Public and Private School Systems (webpage EN)",
-        "uuid": "98c5da11-fd0f-4bb8-bc6b-ed147697fe62",
-        "active": "True",
-        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/highlights-public-private-school-systems/",
-        "dir_parent": "qc",
-        "dir_file": "schools-highlights-webpage-en",
-        "file_name": "schools-highlights-webpage-en",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage (EN)",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/faits-saillants-covid-ecoles/",
-          "meta_url_name": "Faits saillants des cas de COVID-19 dans les écoles du Québec",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Liste des écoles comptant des cas de COVID-19 (webpage FR)",
-        "uuid": "4776c254-1fc2-4878-a6be-19caf86fb264",
-        "active": "True",
-        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/liste-des-cas-de-covid-19-dans-les-ecoles/",
-        "dir_parent": "qc",
-        "dir_file": "schools-list-of-schools-webpage",
-        "file_name": "schools-list-of-schools-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage (FR)",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/liste-des-cas-de-covid-19-dans-les-ecoles/",
-          "meta_url_name": "Liste des écoles comptant des cas de COVID-19",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - List of schools reporting COVID-19 cases (webpage EN)",
-        "uuid": "495d8176-194b-49bd-b7c7-253b61175d3b",
-        "active": "True",
-        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/list-schools-reporting-covid-19-cases/",
-        "dir_parent": "qc",
-        "dir_file": "schools-list-of-schools-webpage-en",
-        "file_name": "schools-list-of-schools-webpage-en",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage (EN)",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/liste-des-cas-de-covid-19-dans-les-ecoles/",
-          "meta_url_name": "Liste des écoles comptant des cas de COVID-19",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - List of schools - public and private school system (CSV)",
-        "uuid": "d816b524-72d1-484d-9b6f-3f8effead9ed",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/education/coronavirus/Liste_ecole_DCOM.csv",
-        "dir_parent": "qc",
-        "dir_file": "schools-list-of-schools-csv",
-        "file_name": "Liste_ecole_DCOM",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dataset (CSV)",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/liste-des-cas-de-covid-19-dans-les-ecoles/",
-          "meta_url_name": "Liste des écoles comptant des cas de COVID-19",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - List of schools - public and private school system (PDF FR)",
-        "uuid": "f6a80d30-2617-4dc9-9ece-694dbe2340ad",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/education/publications-adm/covid-19/reseauScolaire_listeEcoles.pdf",
-        "dir_parent": "qc",
-        "dir_file": "schools-list-of-schools",
-        "file_name": "reseauScolaire_listeEcoles",
-        "file_ext": "pdf",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Report (PDF FR)",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/liste-des-cas-de-covid-19-dans-les-ecoles/",
-          "meta_url_name": "Liste des écoles comptant des cas de COVID-19",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - List of schools - public and private school system (PDF EN)",
-        "uuid": "95d423ee-06a3-4cc9-96d5-704192bb3df2",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/education/publications-adm/covid-19/reseauScolaire_listeEcoles_ANG.pdf",
-        "dir_parent": "qc",
-        "dir_file": "schools-list-of-schools-en",
-        "file_name": "reseauScolaire_listeEcoles_ANG",
-        "file_ext": "pdf",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Report (PDF EN)",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/liste-des-cas-de-covid-19-dans-les-ecoles/",
-          "meta_url_name": "Liste des écoles comptant des cas de COVID-19",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Quebec"
@@ -14017,6 +13725,149 @@
         "notes": {
           "notes_misc": "On November 3, 2020, Ontario released a COVID-19 Response Framework which categorized public health unit regions into five zones: Green-Prevent, Yellow-Protect, Orange-Restrict, Red-Control, Grey-Lockdown. This dataset was last updated April 1, 2021."
         }
+      },
+      {
+        "id_name": "ON - Long term care homes: LTC home COVID-19 staff vaccination rates",
+        "uuid": "aaf940a2-94a5-44fc-98e1-f79d6152cd28",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/resource/f8c54e4a-62b6-4efa-9ce6-a0de42a3867b/download/ltc_immunization_data.csv",
+        "dir_parent": "on",
+        "dir_file": "long-term-care-home-staff-vaccination-rates",
+        "file_name": "ltc_immunization_data",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "LTC home COVID-19 staff vaccination rates",
+          "meta_url": "https://data.ontario.ca/dataset/long-term-care-home-covid-19-data",
+          "meta_url_name": "Long-Term Care Home COVID-19 Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {
+          "notes_data": "Changed file name from 'august2021_ltc_immunization_data_2021-10-01' to 'ltc_immunization_data'."
+        }
+      },
+      {
+        "id_name": "ON - COVID-19 cases in schools (webpage)",
+        "uuid": "04d5c49d-623c-4196-adcc-413c9dab7174",
+        "active": "False",
+        "url": "https://www.ontario.ca/page/covid-19-cases-schools",
+        "dir_parent": "on",
+        "dir_file": "cases-schools-webpage",
+        "file_name": "cases-schools-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.ontario.ca/page/covid-19-cases-schools",
+          "meta_url_name": "COVID-19 cases in schools",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - COVID-19 cases in child care centres (webpage)",
+        "uuid": "9218792e-ca62-4e3d-9902-6aa89773aec1",
+        "active": "False",
+        "url": "https://www.ontario.ca/page/covid-19-cases-child-care-centres",
+        "dir_parent": "on",
+        "dir_file": "cases-child-care-centres-webpage",
+        "file_name": "cases-child-care-centres-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.ontario.ca/page/covid-19-cases-child-care-centres",
+          "meta_url_name": "COVID-19 cases in child care centres",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - City of Toronto COVID-19 Neighbourhood Testing Data",
+        "uuid": "5a9aa1a4-b8fd-423b-a2eb-a8a0c6dd9549",
+        "active": "False",
+        "url": "https://docs.google.com/spreadsheets/d/1xI6ckKQIOt_RNCuI0HXs7WJsgqFP015c/export?format=xlsx&id=1xI6ckKQIOt_RNCuI0HXs7WJsgqFP015c",
+        "dir_parent": "on",
+        "dir_file": "toronto-neighbourhood-test-data",
+        "file_name": "CityofToronto_COVID-19_Testing",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Testing Data",
+          "meta_url": "https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-pandemic-data/covid-19-neighbourhood-maps-data/",
+          "meta_url_name": "COVID-19: Neighbourhood Maps",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Toronto"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - City of Toronto COVID-19 Neighbourhood Case Data",
+        "uuid": "74c30b74-c6cc-46c5-a9cb-e60d2552c8dc",
+        "active": "False",
+        "url": "https://docs.google.com/spreadsheets/d/1jzH64LvFQ-UsDibXO0MOtvjbL2CvnV3N/export?format=xlsx&id=1jzH64LvFQ-UsDibXO0MOtvjbL2CvnV3N",
+        "dir_parent": "on",
+        "dir_file": "toronto-neighbourhood-data",
+        "file_name": "CityofToronto_COVID-19_NeighbourhoodData",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Case Data",
+          "meta_url": "https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-pandemic-data/covid-19-neighbourhood-maps-data/",
+          "meta_url_name": "COVID-19: Neighbourhood Maps",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Toronto"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - City of Toronto COVID-19 Monitoring Dashboard",
+        "uuid": "185b115b-efa6-4bcc-a396-fe5cd673fa32",
+        "active": "False",
+        "url": "https://docs.google.com/spreadsheets/d/1-7j48S_KQY-I-4Qu3N3lsEOALXON2StG/export?format=xlsx&id=1-7j48S_KQY-I-4Qu3N3lsEOALXON2StG",
+        "dir_parent": "on",
+        "dir_file": "toronto-monitoring-dashboard",
+        "file_name": "CityofToronto_COVID-19_RecoveryData",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-pandemic-data/covid-19-monitoring-dashboard-data/",
+          "meta_url_name": "COVID-19: Monitoring Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Toronto"
+        },
+        "notes": {}
       }
     ],
     "pe": [
@@ -15036,6 +14887,178 @@
           "meta_licence_url": "",
           "meta_group_1": "Quebec",
           "meta_group_2": "Montreal"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - List of schools - public and private school system (PDF EN)",
+        "uuid": "95d423ee-06a3-4cc9-96d5-704192bb3df2",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/education/publications-adm/covid-19/reseauScolaire_listeEcoles_ANG.pdf",
+        "dir_parent": "qc",
+        "dir_file": "schools-list-of-schools-en",
+        "file_name": "reseauScolaire_listeEcoles_ANG",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Report (PDF EN)",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/liste-des-cas-de-covid-19-dans-les-ecoles/",
+          "meta_url_name": "Liste des écoles comptant des cas de COVID-19",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - List of schools - public and private school system (PDF FR)",
+        "uuid": "f6a80d30-2617-4dc9-9ece-694dbe2340ad",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/adm/min/education/publications-adm/covid-19/reseauScolaire_listeEcoles.pdf",
+        "dir_parent": "qc",
+        "dir_file": "schools-list-of-schools",
+        "file_name": "reseauScolaire_listeEcoles",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Report (PDF FR)",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/liste-des-cas-de-covid-19-dans-les-ecoles/",
+          "meta_url_name": "Liste des écoles comptant des cas de COVID-19",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - List of schools - public and private school system (CSV)",
+        "uuid": "d816b524-72d1-484d-9b6f-3f8effead9ed",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/education/coronavirus/Liste_ecole_DCOM.csv",
+        "dir_parent": "qc",
+        "dir_file": "schools-list-of-schools-csv",
+        "file_name": "Liste_ecole_DCOM",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset (CSV)",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/liste-des-cas-de-covid-19-dans-les-ecoles/",
+          "meta_url_name": "Liste des écoles comptant des cas de COVID-19",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Highlights - Public and Private School Systems (webpage FR)",
+        "uuid": "b2c27ad7-8d16-43f5-a45b-7a15eb3955d3",
+        "active": "False",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/faits-saillants-covid-ecoles/",
+        "dir_parent": "qc",
+        "dir_file": "schools-highlights-webpage",
+        "file_name": "schools-highlights-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage (FR)",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/faits-saillants-covid-ecoles/",
+          "meta_url_name": "Faits saillants des cas de COVID-19 dans les écoles du Québec",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Highlights - Public and Private School Systems (webpage EN)",
+        "uuid": "98c5da11-fd0f-4bb8-bc6b-ed147697fe62",
+        "active": "False",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/highlights-public-private-school-systems/",
+        "dir_parent": "qc",
+        "dir_file": "schools-highlights-webpage-en",
+        "file_name": "schools-highlights-webpage-en",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage (EN)",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/faits-saillants-covid-ecoles/",
+          "meta_url_name": "Faits saillants des cas de COVID-19 dans les écoles du Québec",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Liste des écoles comptant des cas de COVID-19 (webpage FR)",
+        "uuid": "4776c254-1fc2-4878-a6be-19caf86fb264",
+        "active": "False",
+        "url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/liste-des-cas-de-covid-19-dans-les-ecoles/",
+        "dir_parent": "qc",
+        "dir_file": "schools-list-of-schools-webpage",
+        "file_name": "schools-list-of-schools-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage (FR)",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/liste-des-cas-de-covid-19-dans-les-ecoles/",
+          "meta_url_name": "Liste des écoles comptant des cas de COVID-19",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - List of schools reporting COVID-19 cases (webpage EN)",
+        "uuid": "495d8176-194b-49bd-b7c7-253b61175d3b",
+        "active": "False",
+        "url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/list-schools-reporting-covid-19-cases/",
+        "dir_parent": "qc",
+        "dir_file": "schools-list-of-schools-webpage-en",
+        "file_name": "schools-list-of-schools-webpage-en",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage (EN)",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/liste-des-cas-de-covid-19-dans-les-ecoles/",
+          "meta_url_name": "Liste des écoles comptant des cas de COVID-19",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
         },
         "notes": {}
       }
