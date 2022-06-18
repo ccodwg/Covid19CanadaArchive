@@ -198,6 +198,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [can/procurement-of-rapid-tests-webpage/procurement-of-rapid-tests-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19: Summary data about travellers, testing and compliance](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/testing-screening-contact-tracing/summary-data-travellers.html)
     * Webpage: [can/international-traveller-testing-webpage/international-traveller-testing-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Weekly variant breakdown of travellers entering Canada: [can/variant-prevalence-time-series-travellers-poe/covid19-epiSummary-variants-poe.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Coronavirus disease (COVID-19): Locations where you may have been exposed to COVID-19](https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice/exposure-flights-cruise-ships-mass-gatherings.html)
     * Webpage: [can/can-potential-exposures-webpage/can-potential-exposures-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Monkeypox: Outbreak update](https://www.canada.ca/en/public-health/services/diseases/monkeypox.html)
