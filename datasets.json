@@ -4295,56 +4295,6 @@
         }
       },
       {
-        "id_name": "ON - All Ontario: Case numbers and spread (webpage)",
-        "uuid": "84aa5972-60d6-4b0b-99d7-d4bea064906d",
-        "active": "True",
-        "url": "https://covid-19.ontario.ca/data",
-        "dir_parent": "on",
-        "dir_file": "on-data-webpage",
-        "file_name": "on-data-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "10"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://covid-19.ontario.ca/data",
-          "meta_url_name": "All Ontario: Case numbers and spread",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Hospitalizations (webpage)",
-        "uuid": "3533447e-73f1-4e57-a42a-18a2bb4e91a5",
-        "active": "True",
-        "url": "https://covid-19.ontario.ca/data/hospitalizations",
-        "dir_parent": "on",
-        "dir_file": "on-hospitalization-data-webpage",
-        "file_name": "on-hospitalization-data-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "10"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://covid-19.ontario.ca/data/hospitalizations",
-          "meta_url_name": "Hospitalizations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "ON - Confirmed positive cases of COVID19 in Ontario",
         "uuid": "921649fa-c6c0-43af-a112-23760da4d622",
         "active": "True",
@@ -13746,6 +13696,56 @@
           "meta_name": "Dataset",
           "meta_url": "https://data.ontario.ca/dataset/effective-reproduction-number-re-for-covid-19-in-ontario",
           "meta_url_name": "Effective reproduction number (Re) for COVID-19 in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - All Ontario: Case numbers and spread (webpage)",
+        "uuid": "84aa5972-60d6-4b0b-99d7-d4bea064906d",
+        "active": "False",
+        "url": "https://covid-19.ontario.ca/data",
+        "dir_parent": "on",
+        "dir_file": "on-data-webpage",
+        "file_name": "on-data-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://covid-19.ontario.ca/data",
+          "meta_url_name": "All Ontario: Case numbers and spread",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Hospitalizations (webpage)",
+        "uuid": "3533447e-73f1-4e57-a42a-18a2bb4e91a5",
+        "active": "False",
+        "url": "https://covid-19.ontario.ca/data/hospitalizations",
+        "dir_parent": "on",
+        "dir_file": "on-hospitalization-data-webpage",
+        "file_name": "on-hospitalization-data-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://covid-19.ontario.ca/data/hospitalizations",
+          "meta_url_name": "Hospitalizations",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario"
