@@ -561,14 +561,12 @@ A note about data from Quebec: when both French and English data files are avail
 
 * [How Ontario is responding to COVID-19](https://www.ontario.ca/page/how-ontario-is-responding-covid-19)
     * Webpage: [on/ontario-webpage/ontario-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-* [All Ontario: Case numbers and spread](https://covid-19.ontario.ca/data)
-    * Webpage: [on/on-data-webpage/on-data-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-* [Hospitalizations](https://covid-19.ontario.ca/data/hospitalizations)
-    * Webpage: [on/on-hospitalization-data-webpage/on-hospitalization-data-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Confirmed positive cases of COVID19 in Ontario](https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario/resource/455fd63b-603d-4608-8216-7d8647f43350)
     * Dataset: [on/confirmed-positive-cases/conposcovidloc.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Status of COVID-19 cases in Ontario](https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/ed270bb8-340b-41f9-a7c6-e8ef587e6d11)
-    * Dataset: [on/status-of-cases/covidtesting.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Status of COVID-19 cases in Ontario: [on/status-of-cases/covidtesting.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Daily change in cases by PHU: [on/daily-changes-in-cases-by-phu/daily_change_in_cases_by_phu.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Cumulative deaths (new methodology): [on/cumulative-deaths-new-methodology/cumulative_deaths.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Status of COVID-19 cases in Ontario by Public Health Unit (PHU)](https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario-by-public-health-unit-phu)
     * Dataset: [on/status-of-cases-by-phu/cases_by_status_and_phu.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Ontario COVID-19 testing metrics by Public Health Unit (PHU)](https://data.ontario.ca/dataset/ontario-covid-19-testing-metrics-by-public-health-unit-phu)
@@ -582,39 +580,24 @@ A note about data from Quebec: when both French and English data files are avail
 * [COVID Alert Impact Data](https://data.ontario.ca/dataset/covid-alert-impact-data)
     * COVID Alert downloads - Canada: [on/covid_alert_downloads_canada/covid_alert_downloads_canada.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Uploads of COVID-19 diagnosis to COVID Alert - Ontario: [on/covid-alert-uploads-ontario/covid_alert_positive_uploads_ontario.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-* [COVID-19 testing locations](https://data.ontario.ca/dataset/covid-19-assessment-centre-locations)
-    * Dataset: [on/testing-locations/locations.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19 pharmacy vaccine locations](https://covid-19.ontario.ca/vaccine-locations/)
     * Webpage: [on/vaccine-pharmacy-locations-webpage/vaccine-pharmacy-locations-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19 rapid test locations](https://covid-19.ontario.ca/rapid-test-locator)
     * Webpage: [on/rapid-test-locations-webpage/rapid-test-locations-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Ontario COVID-19 outbreaks data](https://data.ontario.ca/dataset/ontario-covid-19-outbreaks-data)
     * Ongoing outbreaks: [on/ongoing-outbreaks/ongoing_outbreaks.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Ongoing outbreaks by PHU: [on/ongoing-outbreaks-by-phu/ongoing_outbreaks_phu.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Summary of cases associated with outbreaks: [on/summary-outbreak-cases/outbreak_cases.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-* [COVID-19 testing of inmates in Ontario’s Provincial Correctional Institutions](https://data.ontario.ca/dataset/covid-19-testing-of-inmates-in-ontario-s-correctional-institutions)
-    * Dataset: [on/correctional-institutions-inmates-testing/inmatetesting.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Status of COVID-19 cases in Ontario’s Provincial Correctional Institutions](https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario-s-correctional-institutions)
     * Dataset: [on/correctional-institutions-status/correctionsinmatecases.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Long-Term Care Home COVID-19 Data](https://data.ontario.ca/dataset/long-term-care-home-covid-19-data)
     * Summary data: [on/long-term-care-home-summary/ltccovidsummary.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Active outbreaks: [on/long-term-care-home-active/activeltcoutbreak.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Resolved outbreaks: [on/long-term-care-home-resolved/resolvedltc.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Summary by PHU: [on/long-term-care-home-summary-by-phu/ltccovidsummarybyphu.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * LTC home COVID-19 staff vaccination rates: [on/long-term-care-home-staff-vaccination-rates/ltc_immunization_data.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19 cases in schools](https://www.ontario.ca/page/covid-19-cases-schools)
     * Webpage: [on/cases-schools-webpage/cases-schools-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-* [Schools COVID-19 data](https://data.ontario.ca/dataset/summary-of-cases-in-schools)
-    * 2022: School Closures: [on/school-closures-2022/schoolclosures2022.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * 2022: School Closures: [on/school-absences-2022/schoolabsences2022.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Summary of cases in schools: [on/schools-summary/schoolcovidsummary.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-    * Schools with active COVID-19 cases: [on/schools-active/schoolsactivecovid.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-    * Cases in school board partners: [on/school-board-partners/schoolpartnersactivecovid.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-    * School Targeted Testing Summary: [on/school-targeted-testing-summary/schoolcovidtesting.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-    * School Targeted Testing Sites: [on/school-targeted-testing-sites/schooltestingsites.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-    * School Targeted Testing Partners: [on/school-targeted-testing-partners/schoolcovidtesting_partners.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-    * School Pharmacy Testing: [on/school-pharmacy-testing/school_pharmacy_covidtesting.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-    * School Pharmacy Testing Locations: [on/school-pharmacy-testing-locations/school-pharmacy-testing-locations.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-    * 2021-22: Summary of cases in schools: [on/schools-summary-2021-2022/schoolcovidsummary2021_2022.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-    * 2021-22: Schools with recent COVID-19 cases: [on/schools-recent-2021-2022/schoolrecentcovid2021_2022.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [COVID-19 cases in child care centres](https://www.ontario.ca/page/covid-19-cases-child-care-centres)
     * Webpage: [on/cases-child-care-centres-webpage/cases-child-care-centres-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Licensed child care settings COVID-19 data](https://data.ontario.ca/dataset/summary-of-cases-in-licensed-child-care-settings)
@@ -633,6 +616,12 @@ A note about data from Quebec: when both French and English data files are avail
     * Dataset: [on/deaths-involving-covid-by-fatality-type/deaths_fatality_type.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Deaths Involving COVID-19 by Vaccination Status](https://data.ontario.ca/dataset/deaths-involving-covid-19-by-vaccination-status)
     * Dataset: [on/deaths-involving-covid-by-vaccination-status/deaths_by_vac_status.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [Availability of adult and pediatric ICU beds and occupancy for COVID-related critical illness (CRCI)](https://data.ontario.ca/en/dataset/availability-of-adult-icu-beds-and-occupancy-for-covid-related-critical-illness-crci)
+    * Dataset: [on/icu-bed-availability/icu_beds.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [Verify Ontario and enhanced vaccine certificate download and usage data](https://data.ontario.ca/en/dataset/verify-ontario-download-and-usage-data)
+    * Enhanced vaccine certificate downloads: [on/verify-ontario-vaccine-certificate-downloads/qr_download.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * : [on/verify-ontario-app-results/scan_results.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Verify Ontario downloads: [on/verify-ontario-app-downloads/app_download_data.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [ICES COVID-19 Dashboard](https://www.ices.on.ca/DAS/AHRQ/COVID-19-Dashboard)
     * Vaccine coverage estimates for selected age groups by FSA: [on/ices-vaccine-coverage-by-age-group-and-fsa/ICES-COVID19-Vaccination-Data-by-FSA.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Vaccine coverage estimates by priority groups: [on/ices-vaccine-coverage-by-priority-group/ICES-COVID19-Vaccine-Coverage-by-Priority-Group.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
@@ -642,11 +631,37 @@ A note about data from Quebec: when both French and English data files are avail
     * Percent positivity by age group and Public Health Unit (PHU): [on/ices-percent-positivity-by-age-group-and-phu/ICES-COVID19-Testing-Data_PHUxAge-Groups-percent-positivity.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [COVID-19 cases in schools and child care centres](https://www.ontario.ca/page/covid-19-cases-schools-and-child-care-centres)
     * Webpage: [on/cases-schools-and-child-care-centres-webpage/cases-schools-and-child-care-centres-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [Schools COVID-19 data](https://data.ontario.ca/dataset/summary-of-cases-in-schools)
+    * 2020-21: Summary of cases in schools: [on/schools-summary/schoolcovidsummary.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * 2020-21: Schools with active COVID-19 cases: [on/schools-active/schoolsactivecovid.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * 2020-21: Cases in school board partners: [on/school-board-partners/schoolpartnersactivecovid.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * School Targeted Testing Summary: [on/school-targeted-testing-summary/schoolcovidtesting.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * School Targeted Testing Sites: [on/school-targeted-testing-sites/schooltestingsites.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * School Targeted Testing Partners: [on/school-targeted-testing-partners/schoolcovidtesting_partners.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * School Pharmacy Testing: [on/school-pharmacy-testing/school_pharmacy_covidtesting.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * School Pharmacy Testing Locations: [on/school-pharmacy-testing-locations/school-pharmacy-testing-locations.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * 2021-22: Summary of cases in schools: [on/schools-summary-2021-2022/schoolcovidsummary2021_2022.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * 2021-22: Schools with recent COVID-19 cases: [on/schools-recent-2021-2022/schoolrecentcovid2021_2022.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * 2021-22: Cases in school board partners: [on/school-board-partners-2021-2022/schoolpartners2021_2022.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * 2022: School Closures: [on/school-closures-2022/schoolclosures2022.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * 2022: School Absenteeism: [on/school-absences-2022/schoolabsences2022.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Rapid testing for at-home use](https://www.ontario.ca/page/rapid-testing-home-use)
     * Dataset (JSON): [on/rapid-testing-participating-locations/moh-covid-19-rapid-testing-home-use.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Dataset (CSV): [on/rapid-testing-participating-locations-csv/moh-covid-19-rapid-testing-home-use.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Effective reproduction number (Re) for COVID-19 in Ontario](https://data.ontario.ca/dataset/effective-reproduction-number-re-for-covid-19-in-ontario)
     * Dataset: [on/effective-reproduction-number/effective_reproduction_number_ontario.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [All Ontario: Case numbers and spread](https://covid-19.ontario.ca/data)
+    * Webpage: [on/on-data-webpage/on-data-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [Hospitalizations](https://covid-19.ontario.ca/data/hospitalizations)
+    * Webpage: [on/on-hospitalization-data-webpage/on-hospitalization-data-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [COVID-19 testing of inmates in Ontario’s Provincial Correctional Institutions](https://data.ontario.ca/dataset/covid-19-testing-of-inmates-in-ontario-s-correctional-institutions)
+    * Dataset: [on/correctional-institutions-inmates-testing/inmatetesting.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [COVID-19 testing locations](https://data.ontario.ca/dataset/covid-19-assessment-centre-locations)
+    * Dataset (JSON): [on/testing-locations/locations.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Dataset (CSV): [on/testing-locations-csv/assessment_centre_locations.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Dataset (GeoJSON): [on/testing-locations-geojson/assessment_centre_locations.geojson](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [Ontario COVID-19 zones](https://data.ontario.ca/en/dataset/ontario-covid-19-zones)
+    * Dataset: [on/on-covid-zone-dates-by-phu/response_framework.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 
 <details>
 <summary><i>Ontario universities</i></summary>
