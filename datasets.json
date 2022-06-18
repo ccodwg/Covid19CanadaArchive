@@ -4329,7 +4329,51 @@
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Dataset",
+          "meta_name": "Status of COVID-19 cases in Ontario",
+          "meta_url": "https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/ed270bb8-340b-41f9-a7c6-e8ef587e6d11",
+          "meta_url_name": "Status of COVID-19 cases in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Daily change in cases by PHU",
+        "uuid": "aa73b27a-6bbd-41b3-bb47-2ee004b3adf5",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/8a88fe6d-d8fb-41a3-9d04-f0550a44999f/download/daily_change_in_cases_by_phu.csv",
+        "dir_parent": "on",
+        "dir_file": "daily-changes-in-cases-by-phu",
+        "file_name": "daily_change_in_cases_by_phu",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Daily change in cases by PHU",
+          "meta_url": "https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/ed270bb8-340b-41f9-a7c6-e8ef587e6d11",
+          "meta_url_name": "Status of COVID-19 cases in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Cumulative deaths (new methodology)",
+        "uuid": "75dd0545-f728-4af5-8185-4269596785ef",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/58e648f1-ae1e-4ed7-9003-7da5983b0a77/download/cumulative_deaths.csv",
+        "dir_parent": "on",
+        "dir_file": "cumulative-deaths-new-methodology",
+        "file_name": "cumulative_deaths",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cumulative deaths (new methodology)",
           "meta_url": "https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/ed270bb8-340b-41f9-a7c6-e8ef587e6d11",
           "meta_url_name": "Status of COVID-19 cases in Ontario",
           "meta_licence": "",
@@ -4493,28 +4537,6 @@
         "notes": {}
       },
       {
-        "id_name": "ON - COVID-19 testing locations",
-        "uuid": "9c49917b-9c4a-4fdc-963e-675c93b89ef6",
-        "active": "True",
-        "url": "https://covid-19.ontario.ca/covid-19-ac-assets/data/locations.json",
-        "dir_parent": "on",
-        "dir_file": "testing-locations",
-        "file_name": "locations",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dataset",
-          "meta_url": "https://data.ontario.ca/dataset/covid-19-assessment-centre-locations",
-          "meta_url_name": "COVID-19 testing locations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "ON - COVID-19 pharmacy vaccine locations (webpage)",
         "uuid": "a742f52a-0df0-4f37-ad09-056854abc41d",
         "active": "True",
@@ -4584,6 +4606,28 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Ongoing outbreaks by PHU",
+        "uuid": "cdf98171-8342-46f6-b4e8-d0ea3e00c734",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/5472ffc1-88e2-48ca-bc9f-4aa249c1298d/resource/36048cc1-3c47-48ff-a49f-8c7840e32cc2/download/ongoing_outbreaks_phu.csv",
+        "dir_parent": "on",
+        "dir_file": "ongoing-outbreaks-by-phu",
+        "file_name": "ongoing_outbreaks_phu",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Ongoing outbreaks by PHU",
+          "meta_url": "https://data.ontario.ca/dataset/ontario-covid-19-outbreaks-data",
+          "meta_url_name": "Ontario COVID-19 outbreaks data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - Summary of cases associated with outbreaks",
         "uuid": "a0002ffe-0b39-4af2-956e-90e97914f39c",
         "active": "True",
@@ -4599,28 +4643,6 @@
           "meta_name": "Summary of cases associated with outbreaks",
           "meta_url": "https://data.ontario.ca/dataset/ontario-covid-19-outbreaks-data",
           "meta_url_name": "Ontario COVID-19 outbreaks data",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Testing of inmates in provincial correctional institutions",
-        "uuid": "8f287d14-c338-4d13-b355-734395b858ef",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/c4022f0f-6f3d-4e16-bd28-5312333a4bac/resource/d0d6ccc7-fc60-4a18-ac96-7f9493e9f10e/download/inmatetesting.csv",
-        "dir_parent": "on",
-        "dir_file": "correctional-institutions-inmates-testing",
-        "file_name": "inmatetesting",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dataset",
-          "meta_url": "https://data.ontario.ca/dataset/covid-19-testing-of-inmates-in-ontario-s-correctional-institutions",
-          "meta_url_name": "COVID-19 testing of inmates in Ontario’s Provincial Correctional Institutions",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario"
@@ -4716,6 +4738,28 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Long term care homes: Summary by PHU",
+        "uuid": "6b671f64-19ba-416c-aaaf-97fa657d8c92",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/resource/31ad93fc-9afd-46b7-a9e7-0508a24ee330/download/ltccovidsummarybyphu.csv",
+        "dir_parent": "on",
+        "dir_file": "long-term-care-home-summary-by-phu",
+        "file_name": "ltccovidsummarybyphu",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Summary by PHU",
+          "meta_url": "https://data.ontario.ca/dataset/long-term-care-home-covid-19-data",
+          "meta_url_name": "Long-Term Care Home COVID-19 Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - Long term care homes: LTC home COVID-19 staff vaccination rates",
         "uuid": "aaf940a2-94a5-44fc-98e1-f79d6152cd28",
         "active": "True",
@@ -4758,50 +4802,6 @@
           "meta_name": "Webpage",
           "meta_url": "https://www.ontario.ca/page/covid-19-cases-schools",
           "meta_url_name": "COVID-19 cases in schools",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - 2022: School Closures",
-        "uuid": "49233b97-bac0-4324-ba8b-70f168ecee08",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/abc82e5c-44ed-41c9-817c-8cacd9b07d00/download/schoolclosures2022.csv",
-        "dir_parent": "on",
-        "dir_file": "school-closures-2022",
-        "file_name": "schoolclosures2022",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "2022: School Closures",
-          "meta_url": "https://data.ontario.ca/dataset/summary-of-cases-in-schools",
-          "meta_url_name": "Schools COVID-19 data",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - 2022: School Closures",
-        "uuid": "e789c6cc-9103-4863-a6cf-71070df0a148",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/e3214f57-9c24-4297-be27-a1809f9044ba/download/schoolabsences2022.csv",
-        "dir_parent": "on",
-        "dir_file": "school-absences-2022",
-        "file_name": "schoolabsences2022",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "2022: School Closures",
-          "meta_url": "https://data.ontario.ca/dataset/summary-of-cases-in-schools",
-          "meta_url_name": "Schools COVID-19 data",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario"
@@ -13067,7 +13067,7 @@
         "notes": {}
       },
       {
-        "id_name": "ON - Schools: Summary of cases in schools",
+        "id_name": "ON - 2020-21: Summary of cases in schools",
         "uuid": "8faa37ca-607e-4b6f-a929-c9d2961fb2ee",
         "active": "False",
         "url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/7fbdbb48-d074-45d9-93cb-f7de58950418/download/schoolcovidsummary.csv",
@@ -13079,7 +13079,7 @@
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Summary of cases in schools",
+          "meta_name": "2020-21: Summary of cases in schools",
           "meta_url": "https://data.ontario.ca/dataset/summary-of-cases-in-schools",
           "meta_url_name": "Schools COVID-19 data",
           "meta_licence": "",
@@ -13089,7 +13089,7 @@
         "notes": {}
       },
       {
-        "id_name": "ON - Schools: Schools with active COVID-19 cases",
+        "id_name": "ON - 2020-21: Schools with active COVID-19 cases",
         "uuid": "e7889f26-f53a-4b6e-bf7f-abcc0f3809a3",
         "active": "False",
         "url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/8b6d22e2-7065-4b0f-966f-02640be366f2/download/schoolsactivecovid.csv",
@@ -13101,7 +13101,7 @@
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Schools with active COVID-19 cases",
+          "meta_name": "2020-21: Schools with active COVID-19 cases",
           "meta_url": "https://data.ontario.ca/dataset/summary-of-cases-in-schools",
           "meta_url_name": "Schools COVID-19 data",
           "meta_licence": "",
@@ -13111,7 +13111,7 @@
         "notes": {}
       },
       {
-        "id_name": "ON - Schools: Cases in school board partners",
+        "id_name": "ON - 2020-21: Cases in school board partners",
         "uuid": "087b1997-bc4c-4565-ad4b-d83e7df711c8",
         "active": "False",
         "url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/245479eb-db0a-4ec4-97af-459d61da0801/download/schoolpartnersactivecovid.csv",
@@ -13123,7 +13123,7 @@
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Cases in school board partners",
+          "meta_name": "2020-21: Cases in school board partners",
           "meta_url": "https://data.ontario.ca/dataset/summary-of-cases-in-schools",
           "meta_url_name": "Schools COVID-19 data",
           "meta_licence": "",
@@ -13300,6 +13300,28 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "2021-22: Schools with recent COVID-19 cases",
+          "meta_url": "https://data.ontario.ca/dataset/summary-of-cases-in-schools",
+          "meta_url_name": "Schools COVID-19 data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - 2021-22: Cases in school board partners",
+        "uuid": "bf1450e0-bbd8-43c5-9065-2a872599e9fd",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/bc80de23-b9c6-44cb-833a-b43cfd3977f7/download/schoolpartners2021_2022.csv",
+        "dir_parent": "on",
+        "dir_file": "school-board-partners-2021-2022",
+        "file_name": "schoolpartners2021_2022",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "2021-22: Cases in school board partners",
           "meta_url": "https://data.ontario.ca/dataset/summary-of-cases-in-schools",
           "meta_url_name": "Schools COVID-19 data",
           "meta_licence": "",
@@ -13684,7 +13706,7 @@
         "id_name": "ON - Effective reproduction number (Re) for COVID-19 in Ontario",
         "uuid": "a3a39ddf-d676-4acd-843a-cf8e0927b18b",
         "active": "False",
-        "url": "https://data.ontario.ca/dataset/8da73272-8078-4cbd-ae35-1b5c60c57796/resource/1ffdf824-2712-4f64-b7fc-f8b2509f9204/download/effective_reproduction_number_ontario.csv",
+        "url": "https://data.ontario.ca/dataset/8da73272-8078-4cbd-ae35-1b5c60c57796/resource/1ffdf824-2712-4f64-b7fc-f8b2509f9204/download/re_estimates_on.csv",
         "dir_parent": "on",
         "dir_file": "effective-reproduction-number",
         "file_name": "effective_reproduction_number_ontario",
@@ -13746,6 +13768,138 @@
           "meta_name": "Webpage",
           "meta_url": "https://covid-19.ontario.ca/data/hospitalizations",
           "meta_url_name": "Hospitalizations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - 2022: School Closures",
+        "uuid": "49233b97-bac0-4324-ba8b-70f168ecee08",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/abc82e5c-44ed-41c9-817c-8cacd9b07d00/download/schoolclosures2022.csv",
+        "dir_parent": "on",
+        "dir_file": "school-closures-2022",
+        "file_name": "schoolclosures2022",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "2022: School Closures",
+          "meta_url": "https://data.ontario.ca/dataset/summary-of-cases-in-schools",
+          "meta_url_name": "Schools COVID-19 data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - 2022: School Absenteeism",
+        "uuid": "e789c6cc-9103-4863-a6cf-71070df0a148",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/b1fef838-8784-4338-8ef9-ae7cfd405b41/resource/e3214f57-9c24-4297-be27-a1809f9044ba/download/schoolabsences2022.csv",
+        "dir_parent": "on",
+        "dir_file": "school-absences-2022",
+        "file_name": "schoolabsences2022",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "2022: School Absenteeism",
+          "meta_url": "https://data.ontario.ca/dataset/summary-of-cases-in-schools",
+          "meta_url_name": "Schools COVID-19 data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Testing of inmates in provincial correctional institutions",
+        "uuid": "8f287d14-c338-4d13-b355-734395b858ef",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/c4022f0f-6f3d-4e16-bd28-5312333a4bac/resource/d0d6ccc7-fc60-4a18-ac96-7f9493e9f10e/download/inmatetesting.csv",
+        "dir_parent": "on",
+        "dir_file": "correctional-institutions-inmates-testing",
+        "file_name": "inmatetesting",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://data.ontario.ca/dataset/covid-19-testing-of-inmates-in-ontario-s-correctional-institutions",
+          "meta_url_name": "COVID-19 testing of inmates in Ontario’s Provincial Correctional Institutions",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - COVID-19 testing locations (JSON)",
+        "uuid": "9c49917b-9c4a-4fdc-963e-675c93b89ef6",
+        "active": "False",
+        "url": "https://covid-19.ontario.ca/covid-19-ac-assets/data/locations.json",
+        "dir_parent": "on",
+        "dir_file": "testing-locations",
+        "file_name": "locations",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset (JSON)",
+          "meta_url": "https://data.ontario.ca/dataset/covid-19-assessment-centre-locations",
+          "meta_url_name": "COVID-19 testing locations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - COVID-19 testing locations (CSV)",
+        "uuid": "e8ab355d-976b-419a-900f-fff285d67092",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/8ba078b2-ca9b-44c1-b5db-9674d85421f9/resource/c60993bb-3988-4648-9be9-398dee480514/download/assessment_centre_locations.csv",
+        "dir_parent": "on",
+        "dir_file": "testing-locations-csv",
+        "file_name": "assessment_centre_locations",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset (CSV)",
+          "meta_url": "https://data.ontario.ca/dataset/covid-19-assessment-centre-locations",
+          "meta_url_name": "COVID-19 testing locations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - COVID-19 testing locations (GeoJSON)",
+        "uuid": "178a1d96-c09f-4172-8097-c07b4c251ad7",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/8ba078b2-ca9b-44c1-b5db-9674d85421f9/resource/f4aba44a-a90f-446d-9852-f12cb2d2e0b6/download/assessment_centre_locations.geojson",
+        "dir_parent": "on",
+        "dir_file": "testing-locations-geojson",
+        "file_name": "assessment_centre_locations",
+        "file_ext": "geojson",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset (GeoJSON)",
+          "meta_url": "https://data.ontario.ca/dataset/covid-19-assessment-centre-locations",
+          "meta_url_name": "COVID-19 testing locations",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario"
