@@ -151,13 +151,6 @@ def list_inactive_datasets():
   ## print result
   print(log)
   
-  ## compose email message
-  subject = 'Covid19CanadaArchive Inactive Datasets'
-  body = log
-  
-  ## email message
-  archivist.send_email(subject, body)
-  
 ### retire_dataset: Move dataset from 'active' to 'inactive'
 def retire_dataset(uuid):
 
