@@ -800,6 +800,10 @@ A note about data from Quebec: when both French and English data files are avail
     * Dataset: [on/toronto-covid-summary/CityofToronto_COVID-19_Data.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19: Monitoring Dashboard (2)](https://www.toronto.ca/home/covid-19/covid-19-pandemic-data/covid-19-monitoring-dashboard-data/)
     * Dataset: [on/toronto-monitoring-dashboard-2/CityofToronto_COVID-19_RecoveryData_2.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [COVID: Case & Outbreak Counts](https://www.toronto.ca/home/covid-19/covid-19-pandemic-data/covid-19-case-outbreak-counts/)
+    * Dataset: [on/toronto-case-outbreak-counts/CityofToronto_COVID-19_Status_Public_Reporting.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [COVID-19: Hospitalizations & Deaths](https://www.toronto.ca/home/covid-19/covid-19-pandemic-data/covid-19-hospitalizations-deaths/)
+    * Dataset: [on/toronto-hospitalizations-deaths/CityofToronto_COVID-19_Data.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19: Active Outbreaks](https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-pandemic-data/covid-19-active-outbreaks-data/)
     * Dataset: [on/toronto-active-outbreaks/CityofToronto_COVID-19_OutbreakData.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19 Cases in Toronto](https://open.toronto.ca/dataset/covid-19-cases-in-toronto/)
@@ -1074,8 +1078,8 @@ A note about data from Quebec: when both French and English data files are avail
 <summary><i>Ontario</i></summary>
 
 * [The Local (Toronto): RAT Tracker](https://thelocal.to/rat-tracker/)
-    * Webpage: [other/on/the-local-toronto-rat-tracker-webpage/the-local-toronto-rat-tracker-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Map: [other/on/the-local-toronto-rat-tracker-map-webpage/the-local-toronto-rat-tracker-map-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Webpage: [other/on/the-local-toronto-rat-tracker-webpage/the-local-toronto-rat-tracker-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Map: [other/on/the-local-toronto-rat-tracker-map-webpage/the-local-toronto-rat-tracker-map-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 </details>
 
 <details>
