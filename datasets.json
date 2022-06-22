@@ -7009,7 +7009,31 @@
         },
         "supplementary": {},
         "metadata": {
-          "meta_name": "Dashboard (image)",
+          "meta_name": "of the COVID-19 situation in Quebec (image)",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Dashboard on absenteeism in the education sector (FR)",
+        "uuid": "554df1c3-6644-4d99-bcf2-08586da88880",
+        "active": "True",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/education/coronavirus/absenteisme-ecoles-covid-19.pdf",
+        "dir_parent": "qc",
+        "dir_file": "qc-covid-dashboard-education-absenteeism",
+        "file_name": "absenteisme-ecoles-covid-19",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dashboard on absenteeism in the education sector (PDF)",
           "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
           "meta_url_name": "Données sur la COVID-19 au Québec (province)",
           "meta_licence": "",
