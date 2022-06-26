@@ -4441,50 +4441,6 @@
         "notes": {}
       },
       {
-        "id_name": "ON - COVID Alert Impact Data (COVID Alert downloads - Canada)",
-        "uuid": "12837cab-72e4-4ea9-b4eb-71a4866653ef",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/06a61019-62c1-48d8-8d4d-2267ae0f1144/resource/37cfeca2-059e-4a5f-a228-249f6ab1b771/download/covid_alert_downloads_canada.csv",
-        "dir_parent": "on",
-        "dir_file": "covid_alert_downloads_canada",
-        "file_name": "covid_alert_downloads_canada",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "COVID Alert downloads - Canada",
-          "meta_url": "https://data.ontario.ca/dataset/covid-alert-impact-data",
-          "meta_url_name": "COVID Alert Impact Data",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - COVID Alert Impact Data (Uploads of COVID-19 diagnosis to COVID Alert - Ontario)",
-        "uuid": "c05981c6-b235-4198-b839-85e51420b20e",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/06a61019-62c1-48d8-8d4d-2267ae0f1144/resource/b792e734-9c69-47d5-8451-40fc85c2f3c6/download/covid_alert_positive_uploads_ontario.csv",
-        "dir_parent": "on",
-        "dir_file": "covid-alert-uploads-ontario",
-        "file_name": "covid_alert_positive_uploads_ontario",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Uploads of COVID-19 diagnosis to COVID Alert - Ontario",
-          "meta_url": "https://data.ontario.ca/dataset/covid-alert-impact-data",
-          "meta_url_name": "COVID Alert Impact Data",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "ON - COVID-19 pharmacy vaccine locations (webpage)",
         "uuid": "a742f52a-0df0-4f37-ad09-056854abc41d",
         "active": "True",
@@ -13821,6 +13777,50 @@
           "meta_licence_url": "",
           "meta_group_1": "Ontario",
           "meta_group_2": "Public Health Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - COVID Alert Impact Data (COVID Alert downloads - Canada)",
+        "uuid": "12837cab-72e4-4ea9-b4eb-71a4866653ef",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/06a61019-62c1-48d8-8d4d-2267ae0f1144/resource/37cfeca2-059e-4a5f-a228-249f6ab1b771/download/covid_alert_downloads_canada.csv",
+        "dir_parent": "on",
+        "dir_file": "covid_alert_downloads_canada",
+        "file_name": "covid_alert_downloads_canada",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID Alert downloads - Canada",
+          "meta_url": "https://data.ontario.ca/dataset/covid-alert-impact-data",
+          "meta_url_name": "COVID Alert Impact Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - COVID Alert Impact Data (Uploads of COVID-19 diagnosis to COVID Alert - Ontario)",
+        "uuid": "c05981c6-b235-4198-b839-85e51420b20e",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/06a61019-62c1-48d8-8d4d-2267ae0f1144/resource/b792e734-9c69-47d5-8451-40fc85c2f3c6/download/covid_alert_positive_uploads_ontario.csv",
+        "dir_parent": "on",
+        "dir_file": "covid-alert-uploads-ontario",
+        "file_name": "covid_alert_positive_uploads_ontario",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Uploads of COVID-19 diagnosis to COVID Alert - Ontario",
+          "meta_url": "https://data.ontario.ca/dataset/covid-alert-impact-data",
+          "meta_url_name": "COVID Alert Impact Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
         },
         "notes": {}
       }
