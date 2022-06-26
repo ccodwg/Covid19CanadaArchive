@@ -680,33 +680,6 @@
         }
       },
       {
-        "id_name": "BC - Public exposures: school exposures (Vancouver Coastal webpage)",
-        "uuid": "4a910c38-4453-44fa-9e5a-b499db3c5320",
-        "active": "True",
-        "url": "http://www.vch.ca/covid-19/school-outbreaks",
-        "dir_parent": "bc",
-        "dir_file": "school-exposures-vancouver-coastal-webpage",
-        "file_name": "school-exposures-vancouver-coastal-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "School exposures Vancouver Coastal webpage",
-          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
-          "meta_url_name": "COVID-19 Public Exposures",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "British Columbia"
-        },
-        "notes": {
-          "notes_data": "Warning: some early files are .png screenshots and named differently. Vancouver Coastal reported its first school outbreak on 2020-09-22. However, due to a change in the page format, the first day these data were captured in the dataset was 2020-10-05. Screenshots prior to this date ommit the list of schools. However, it is unlikely that any schools were removed from the list prior to it first being captured on 2020-10-05."
-        }
-      },
-      {
         "id_name": "BC - British Columbia COVID-19 Dashboard (webpage)",
         "uuid": "6db751a2-7b78-48f7-8c73-d5ebf5addd03",
         "active": "True",
@@ -2508,30 +2481,6 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVIDTrends (Mobility)",
-        "uuid": "4ff1d90c-af12-4212-b60c-8739991ecc7d",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/mobility.csv",
-        "dir_parent": "can",
-        "dir_file": "covidtrends-mobility",
-        "file_name": "mobility",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Mobility",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/covidtrends/",
-          "meta_url_name": "COVIDTrends",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "CAN - COVIDTrends (FluWatchers)",
         "uuid": "76b6b477-4b71-4944-8f51-9ef47f87944f",
         "active": "True",
@@ -4011,31 +3960,6 @@
         "notes": {}
       },
       {
-        "id_name": "NS - COVID-19 Exposures Connected to Public Schools (webpage)",
-        "uuid": "ff713012-5bc3-4f15-a7dd-85c3b5748b34",
-        "active": "True",
-        "url": "https://backtoschool.ednet.ns.ca/school-exposures",
-        "dir_parent": "ns",
-        "dir_file": "ns-public-school-covid-exposures-webpage",
-        "file_name": "ns-public-school-covid-exposures-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://backtoschool.ednet.ns.ca/school-exposures",
-          "meta_url_name": "COVID-19 Exposures Connected to Public Schools",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Nova Scotia"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "NS - Daily COVID-19 news releases (webpage)",
         "uuid": "7b7be246-cd65-4f35-b354-faa705cacecc",
         "active": "True",
@@ -5209,31 +5133,6 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "COVID-19 in Long-Term Care Homes",
-          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance",
-          "meta_url_name": "Public Health Ontario: COVID-19 Data and Surveillance",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Public Health Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Public Health Ontario: COVID-19 Data and Surveillance - COVID-19 in Children and Education Settings",
-        "uuid": "af683564-382d-4d01-ae2a-376ac6504add",
-        "active": "True",
-        "url": "https://www.publichealthontario.ca/-/media/documents/ncov/epi/covid-19-children-school-outbreaks-epi-summary.pdf?sc_lang=en",
-        "dir_parent": "on",
-        "dir_file": "pho-children-school-outbreak-summary-report",
-        "file_name": "covid-19-children-school-outbreaks-epi-summary",
-        "file_ext": "pdf",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "COVID-19 in Children and Education Settings",
           "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance",
           "meta_url_name": "Public Health Ontario: COVID-19 Data and Surveillance",
           "meta_licence": "",
@@ -7728,13 +7627,13 @@
         "notes": {}
       },
       {
-        "id_name": "QC - Variants under enhanced surveillance (cumulative) 2",
-        "uuid": "c5bf958d-d642-461d-aec9-f439ffce6953",
+        "id_name": "QC - Variants under enhanced surveillance - Weekly time series of variant proportions from random sequencing",
+        "uuid": "1dbd4456-6c61-42c1-bfd5-5422dfcb46e3",
         "active": "True",
-        "url": "https://inspq.qc.ca/sites/default/files/covid/donnees/variants-cumul.csv",
+        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/seqaleatoire-semaines.csv",
         "dir_parent": "qc",
-        "dir_file": "variants-2",
-        "file_name": "variants-cumul",
+        "dir_file": "random-sequencing-variant-proportion-weekly-time-series",
+        "file_name": "seqaleatoire-semaines",
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {
@@ -7742,31 +7641,7 @@
         },
         "supplementary": {},
         "metadata": {
-          "meta_name": "Variants under enhanced surveillance (cumulative) 2",
-          "meta_url": "https://inspq.qc.ca/covid-19/donnees/variants",
-          "meta_url_name": "Variants de SRAS-CoV-2 sous surveillance rehaussée",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Variants under enhanced surveillance (cumulative) 2 (alternative)",
-        "uuid": "d5cf16a6-0a9b-4557-a67d-6a9e7ad0eb00",
-        "active": "True",
-        "url": "https://inspq.qc.ca/sites/default/files/covid/donnees/variants-cumul-v.csv",
-        "dir_parent": "qc",
-        "dir_file": "vvariants-2-alternative",
-        "file_name": "variants-cumul-v",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Variants under enhanced surveillance (cumulative) 2 (alternative)",
+          "meta_name": "Weekly time series of variant proportions from random sequencing",
           "meta_url": "https://inspq.qc.ca/covid-19/donnees/variants",
           "meta_url_name": "Variants de SRAS-CoV-2 sous surveillance rehaussée",
           "meta_licence": "",
@@ -7846,6 +7721,32 @@
           "meta_group_1": "Quebec"
         },
         "notes": {}
+      },
+      {
+        "id_name": "QC - COVID-19 data (notices)",
+        "uuid": "ca039fa0-8e78-46f6-a3d2-616a2522bd3f",
+        "active": "True",
+        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/avertissements.csv",
+        "dir_parent": "qc",
+        "dir_file": "covid-19-data-notices",
+        "file_name": "avertissements",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Notices",
+          "meta_url": "https://www.inspq.qc.ca/covid-19/donnees",
+          "meta_url_name": "Données COVID-19 au Québec (INSPQ)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {
+          "notes_misc": "This file contains notices that appear temporarily on various INSPQ COVID-19 data pages."
+        }
       },
       {
         "id_name": "QC - COVID-19 data (charts - summary, time series, and hospitalization by age)",
@@ -7985,30 +7886,6 @@
           "meta_name": "Comparisons (countries)",
           "meta_url": "https://www.inspq.qc.ca/covid-19/donnees",
           "meta_url_name": "Données COVID-19 au Québec (INSPQ)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Deaths by RSS (health region) and number of pre-existing conditions",
-        "uuid": "08f77785-cf54-40c0-a594-fc6b7e7243e5",
-        "active": "True",
-        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/comorbidite.csv",
-        "dir_parent": "qc",
-        "dir_file": "deaths-by-rss-and-pre-existing-conditions",
-        "file_name": "comorbidite",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Deaths by RSS (health region) and number of pre-existing conditions",
-          "meta_url": "https://www.inspq.qc.ca/covid-19/donnees/conditions-medicales-preexistantes",
-          "meta_url_name": "Conditions médicales préexistantes et COVID-19 (INSPQ)",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Quebec"
@@ -8782,98 +8659,6 @@
     ],
     "other/can": [
       {
-        "id_name": "Other: CAN - Radio-Canada - Quebec data",
-        "uuid": "f2031057-bf4d-4387-aa70-23ada6b49556",
-        "active": "True",
-        "url": "https://kustom.radio-canada.ca/data/covid-19/quebec.csv",
-        "dir_parent": "other/can",
-        "dir_file": "radio-canada-quebec-data",
-        "file_name": "quebec",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Quebec data",
-          "meta_url": "https://ici.radio-canada.ca/info/2020/coronavirus-covid-19-pandemie-cas-carte-maladie-symptomes-propagation/index-en.html",
-          "meta_url_name": "Radio-Canada - The latest numbers",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Other: Non-governmental sources",
-          "meta_group_2": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "Other: CAN - Radio-Canada - Canada data",
-        "uuid": "275b3a8b-7af5-41f8-bfc1-de15d64908e6",
-        "active": "True",
-        "url": "https://kustom.radio-canada.ca/data/covid-19/canada.csv",
-        "dir_parent": "other/can",
-        "dir_file": "radio-canada-canada-data",
-        "file_name": "canada",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Canada data",
-          "meta_url": "https://ici.radio-canada.ca/info/2020/coronavirus-covid-19-pandemie-cas-carte-maladie-symptomes-propagation/index-en.html",
-          "meta_url_name": "Radio-Canada - The latest numbers",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Other: Non-governmental sources",
-          "meta_group_2": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "Other: CAN - Radio-Canada - USA data",
-        "uuid": "c42680d1-d0b2-46a2-8b39-ebc2db235982",
-        "active": "True",
-        "url": "https://kustom.radio-canada.ca/data/covid-19/usa.csv",
-        "dir_parent": "other/can",
-        "dir_file": "radio-canada-usa-data",
-        "file_name": "usa",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "USA data",
-          "meta_url": "https://ici.radio-canada.ca/info/2020/coronavirus-covid-19-pandemie-cas-carte-maladie-symptomes-propagation/index-en.html",
-          "meta_url_name": "Radio-Canada - The latest numbers",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Other: Non-governmental sources",
-          "meta_group_2": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "Other: CAN - Radio-Canada - International data",
-        "uuid": "ee26d1ad-ea0f-43c1-87f5-15bdcfcd81ce",
-        "active": "True",
-        "url": "https://kustom.radio-canada.ca/data/covid-19/international.csv",
-        "dir_parent": "other/can",
-        "dir_file": "radio-canada-international-data",
-        "file_name": "international",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "International data",
-          "meta_url": "https://ici.radio-canada.ca/info/2020/coronavirus-covid-19-pandemie-cas-carte-maladie-symptomes-propagation/index-en.html",
-          "meta_url_name": "Radio-Canada - The latest numbers",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Other: Non-governmental sources",
-          "meta_group_2": "Canada"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "Other: CAN - Unofficial COVID Alert Dashboard - Diagnosis Keys Analysis",
         "uuid": "a729d28f-2b1e-4139-a120-83c6baa1a36e",
         "active": "True",
@@ -9395,6 +9180,33 @@
           "meta_group_1": "British Columbia"
         },
         "notes": {}
+      },
+      {
+        "id_name": "BC - Public exposures: school exposures (Vancouver Coastal webpage)",
+        "uuid": "4a910c38-4453-44fa-9e5a-b499db3c5320",
+        "active": "False",
+        "url": "http://www.vch.ca/covid-19/school-outbreaks",
+        "dir_parent": "bc",
+        "dir_file": "school-exposures-vancouver-coastal-webpage",
+        "file_name": "school-exposures-vancouver-coastal-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "School exposures Vancouver Coastal webpage",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
+          "meta_url_name": "COVID-19 Public Exposures",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {
+          "notes_data": "Warning: some early files are .png screenshots and named differently. Vancouver Coastal reported its first school outbreak on 2020-09-22. However, due to a change in the page format, the first day these data were captured in the dataset was 2020-10-05. Screenshots prior to this date ommit the list of schools. However, it is unlikely that any schools were removed from the list prior to it first being captured on 2020-10-05."
+        }
       }
     ],
     "can": [
@@ -9750,6 +9562,30 @@
           "meta_name": "National overview (data dictionary)",
           "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
           "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVIDTrends (Mobility)",
+        "uuid": "4ff1d90c-af12-4212-b60c-8739991ecc7d",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/mobility.csv",
+        "dir_parent": "can",
+        "dir_file": "covidtrends-mobility",
+        "file_name": "mobility",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Mobility",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/covidtrends/",
+          "meta_url_name": "COVIDTrends",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -12784,6 +12620,31 @@
           "meta_group_1": "Nova Scotia"
         },
         "notes": {}
+      },
+      {
+        "id_name": "NS - COVID-19 Exposures Connected to Public Schools (webpage)",
+        "uuid": "ff713012-5bc3-4f15-a7dd-85c3b5748b34",
+        "active": "False",
+        "url": "https://backtoschool.ednet.ns.ca/school-exposures",
+        "dir_parent": "ns",
+        "dir_file": "ns-public-school-covid-exposures-webpage",
+        "file_name": "ns-public-school-covid-exposures-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://backtoschool.ednet.ns.ca/school-exposures",
+          "meta_url_name": "COVID-19 Exposures Connected to Public Schools",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Nova Scotia"
+        },
+        "notes": {}
       }
     ],
     "nu": [
@@ -13935,6 +13796,31 @@
           "meta_licence_url": "",
           "meta_group_1": "Ontario",
           "meta_group_2": "Toronto"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Public Health Ontario: COVID-19 Data and Surveillance - COVID-19 in Children and Education Settings",
+        "uuid": "af683564-382d-4d01-ae2a-376ac6504add",
+        "active": "False",
+        "url": "https://www.publichealthontario.ca/-/media/documents/ncov/epi/covid-19-children-school-outbreaks-epi-summary.pdf?sc_lang=en",
+        "dir_parent": "on",
+        "dir_file": "pho-children-school-outbreak-summary-report",
+        "file_name": "covid-19-children-school-outbreaks-epi-summary",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID-19 in Children and Education Settings",
+          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance",
+          "meta_url_name": "Public Health Ontario: COVID-19 Data and Surveillance",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Ontario"
         },
         "notes": {}
       }
@@ -15130,6 +15016,78 @@
           "meta_group_1": "Quebec"
         },
         "notes": {}
+      },
+      {
+        "id_name": "QC - Deaths by RSS (health region) and number of pre-existing conditions",
+        "uuid": "08f77785-cf54-40c0-a594-fc6b7e7243e5",
+        "active": "False",
+        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/comorbidite.csv",
+        "dir_parent": "qc",
+        "dir_file": "deaths-by-rss-and-pre-existing-conditions",
+        "file_name": "comorbidite",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Deaths by RSS (health region) and number of pre-existing conditions",
+          "meta_url": "https://www.inspq.qc.ca/covid-19/donnees/conditions-medicales-preexistantes",
+          "meta_url_name": "Conditions médicales préexistantes et COVID-19 (INSPQ)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Variants under enhanced surveillance (cumulative) 2 (alternative)",
+        "uuid": "d5cf16a6-0a9b-4557-a67d-6a9e7ad0eb00",
+        "active": "False",
+        "url": "https://inspq.qc.ca/sites/default/files/covid/donnees/variants-cumul-v.csv",
+        "dir_parent": "qc",
+        "dir_file": "vvariants-2-alternative",
+        "file_name": "variants-cumul-v",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Variants under enhanced surveillance (cumulative) 2 (alternative)",
+          "meta_url": "https://inspq.qc.ca/covid-19/donnees/variants",
+          "meta_url_name": "Variants de SRAS-CoV-2 sous surveillance rehaussée",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Variants under enhanced surveillance (cumulative) 2",
+        "uuid": "c5bf958d-d642-461d-aec9-f439ffce6953",
+        "active": "False",
+        "url": "https://inspq.qc.ca/sites/default/files/covid/donnees/variants-cumul.csv",
+        "dir_parent": "qc",
+        "dir_file": "variants-2",
+        "file_name": "variants-cumul",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Variants under enhanced surveillance (cumulative) 2",
+          "meta_url": "https://inspq.qc.ca/covid-19/donnees/variants",
+          "meta_url_name": "Variants de SRAS-CoV-2 sous surveillance rehaussée",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
       }
     ],
     "sk": [
@@ -15715,6 +15673,98 @@
         "notes": {
           "notes_data": "Final update date was February 16, 2021."
         }
+      },
+      {
+        "id_name": "Other: CAN - Radio-Canada - Canada data",
+        "uuid": "275b3a8b-7af5-41f8-bfc1-de15d64908e6",
+        "active": "False",
+        "url": "https://kustom.radio-canada.ca/data/covid-19/canada.csv",
+        "dir_parent": "other/can",
+        "dir_file": "radio-canada-canada-data",
+        "file_name": "canada",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Canada data",
+          "meta_url": "https://ici.radio-canada.ca/info/2020/coronavirus-covid-19-pandemie-cas-carte-maladie-symptomes-propagation/index-en.html",
+          "meta_url_name": "Radio-Canada - The latest numbers",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "Other: CAN - Radio-Canada - USA data",
+        "uuid": "c42680d1-d0b2-46a2-8b39-ebc2db235982",
+        "active": "False",
+        "url": "https://kustom.radio-canada.ca/data/covid-19/usa.csv",
+        "dir_parent": "other/can",
+        "dir_file": "radio-canada-usa-data",
+        "file_name": "usa",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "USA data",
+          "meta_url": "https://ici.radio-canada.ca/info/2020/coronavirus-covid-19-pandemie-cas-carte-maladie-symptomes-propagation/index-en.html",
+          "meta_url_name": "Radio-Canada - The latest numbers",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "Other: CAN - Radio-Canada - International data",
+        "uuid": "ee26d1ad-ea0f-43c1-87f5-15bdcfcd81ce",
+        "active": "False",
+        "url": "https://kustom.radio-canada.ca/data/covid-19/international.csv",
+        "dir_parent": "other/can",
+        "dir_file": "radio-canada-international-data",
+        "file_name": "international",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "International data",
+          "meta_url": "https://ici.radio-canada.ca/info/2020/coronavirus-covid-19-pandemie-cas-carte-maladie-symptomes-propagation/index-en.html",
+          "meta_url_name": "Radio-Canada - The latest numbers",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "Other: CAN - Radio-Canada - Quebec data",
+        "uuid": "f2031057-bf4d-4387-aa70-23ada6b49556",
+        "active": "False",
+        "url": "https://kustom.radio-canada.ca/data/covid-19/quebec.csv",
+        "dir_parent": "other/can",
+        "dir_file": "radio-canada-quebec-data",
+        "file_name": "quebec",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Quebec data",
+          "meta_url": "https://ici.radio-canada.ca/info/2020/coronavirus-covid-19-pandemie-cas-carte-maladie-symptomes-propagation/index-en.html",
+          "meta_url_name": "Radio-Canada - The latest numbers",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "Canada"
+        },
+        "notes": {}
       }
     ],
     "other/on": [
