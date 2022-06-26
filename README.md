@@ -579,9 +579,6 @@ A note about data from Quebec: when both French and English data files are avail
     * Dataset: [on/hosp-icu-by-lhin/lhin_hospital_icu_covid_data.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Breakdown of COVID-19 positive hospital admissions](https://data.ontario.ca/dataset/breakdown-of-covid-19-positive-hospital-admissions)
     * Dataset: [on/breakdown-of-covid-positive-hospital-admissions/hosp_icu_c19_breakdown.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-* [COVID Alert Impact Data](https://data.ontario.ca/dataset/covid-alert-impact-data)
-    * COVID Alert downloads - Canada: [on/covid_alert_downloads_canada/covid_alert_downloads_canada.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Uploads of COVID-19 diagnosis to COVID Alert - Ontario: [on/covid-alert-uploads-ontario/covid_alert_positive_uploads_ontario.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19 pharmacy vaccine locations](https://covid-19.ontario.ca/vaccine-locations/)
     * Webpage: [on/vaccine-pharmacy-locations-webpage/vaccine-pharmacy-locations-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19 rapid test locations](https://covid-19.ontario.ca/rapid-test-locator)
@@ -664,6 +661,9 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [on/cases-schools-webpage/cases-schools-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [COVID-19 cases in child care centres](https://www.ontario.ca/page/covid-19-cases-child-care-centres)
     * Webpage: [on/cases-child-care-centres-webpage/cases-child-care-centres-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [COVID Alert Impact Data](https://data.ontario.ca/dataset/covid-alert-impact-data)
+    * COVID Alert downloads - Canada: [on/covid_alert_downloads_canada/covid_alert_downloads_canada.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Uploads of COVID-19 diagnosis to COVID Alert - Ontario: [on/covid-alert-uploads-ontario/covid_alert_positive_uploads_ontario.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 
 <details>
 <summary><i>Ontario universities</i></summary>
