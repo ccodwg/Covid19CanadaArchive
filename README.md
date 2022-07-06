@@ -679,6 +679,7 @@ A note about data from Quebec: when both French and English data files are avail
 
 * [Daily COVID-19 Dashboard](https://www.ottawapublichealth.ca/en/reports-research-and-statistics/daily-covid19-dashboard.aspx)
     * Demographics and Source of Infection for Cases, Deaths, and Hospitalizations: [on/ottawa-cases-deaths-hosp-demographics-source-of-infection/COVID-19_Cases_and_Deaths_Ottawa_EN.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Demographics and Source of Infection for Cases, Deaths, and Hospitalizations (JSON): [on/ottawa-cases-deaths-hosp-demographics-source-of-infection-json/COVID-19_Cases_and_Deaths_Ottawa_EN.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Outbreaks in Healthcare Institutions, Childcare, Summer Camps, and Educational Establishments: [on/ottawa-outbreaks-healthcare-childcare-camps-schools/COVID-19_Institutional_Outbreaks.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Community Outbreaks: [on/ottawa-community-outbreaks/COVID-19_Community_Outbreaks_in_Ottawa.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Ottawa Community Outbreaks (JSON): [on/ottawa-community-outbreaks-json/COVID-19_Community_Outbreaks_in_Ottawa.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
