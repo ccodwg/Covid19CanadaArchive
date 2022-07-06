@@ -5322,7 +5322,7 @@
         "id_name": "ON - Ottawa Demographics and Source of Infection for Cases, Deaths, and Hospitalizations",
         "uuid": "d8d4cbc6-d0a5-4544-ad3e-5a3c3060f973",
         "active": "True",
-        "url": "https://opendata.arcgis.com/api/v3/datasets/b87fb824d0514960b380cba68a2df0ba/downloads/data?format=csv&spatialRefId=4326",
+        "url": "https://opendata.arcgis.com/api/v3/datasets/70efcf2b491f493d9a255a9f780a39d2/downloads?spatialRefId=4326&formats=csv&where=1%3D1",
         "dir_parent": "on",
         "dir_file": "ottawa-cases-deaths-hosp-demographics-source-of-infection",
         "file_name": "COVID-19_Cases_and_Deaths_Ottawa_EN",
@@ -5339,7 +5339,34 @@
           "meta_group_1": "Ontario",
           "meta_group_2": "Ottawa"
         },
-        "notes": {}
+        "notes": {
+          "notes_data": "CSV version may have issues as of 2022-07-05; use JSON version following this date (f392e8df-b816-4841-b5a5-ca46150b7486)."
+        }
+      },
+      {
+        "id_name": "ON - Ottawa Demographics and Source of Infection for Cases, Deaths, and Hospitalizations (JSON)",
+        "uuid": "f392e8df-b816-4841-b5a5-ca46150b7486",
+        "active": "True",
+        "url": "https://opendata.arcgis.com/datasets/70efcf2b491f493d9a255a9f780a39d2_0/FeatureServer/0/query?outFields=*&where=1%3D1",
+        "dir_parent": "on",
+        "dir_file": "ottawa-cases-deaths-hosp-demographics-source-of-infection-json",
+        "file_name": "COVID-19_Cases_and_Deaths_Ottawa_EN",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Demographics and Source of Infection for Cases, Deaths, and Hospitalizations (JSON)",
+          "meta_url": "https://www.ottawapublichealth.ca/en/reports-research-and-statistics/daily-covid19-dashboard.aspx",
+          "meta_url_name": "Daily COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Ottawa"
+        },
+        "notes": {
+          "notes_data": "Replaces CSV version (d8d4cbc6-d0a5-4544-ad3e-5a3c3060f973) as of 2022-07-05."
+        }
       },
       {
         "id_name": "ON - Ottawa Outbreaks in Healthcare Institutions, Childcare, Summer Camps, and Educational Establishments",
