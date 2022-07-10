@@ -1574,7 +1574,7 @@
         "id_name": "CAN - Canadian Critical Care Society hospital and ICU counts",
         "uuid": "1bf52899-1fa9-4732-83c6-21a95e08a7d9",
         "active": "True",
-        "url": "https://www.canadiancriticalcare.org/resources/Documents/Job%20Postings/COVID-19%20DAILY%20TRACKING%20STATISTICS.xlsx",
+        "url": "https://canadiancriticalcare.org/resources/Documents/COVID-19%20DAILY%20TRACKING%20STATISTICS.xlsx",
         "dir_parent": "can",
         "dir_file": "cccs-hospital-icu-counts",
         "file_name": "COVID-19_DAILY_TRACKING_STATISTICS",
