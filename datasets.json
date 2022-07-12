@@ -3655,6 +3655,97 @@
           "meta_group_1": "New Brunswick"
         },
         "notes": {}
+      },
+      {
+        "id_name": "NB - Vitalité Health Network - Weekly report",
+        "uuid": "96542eb2-ec92-4152-b9b9-0fea2ea8c9a6",
+        "active": "True",
+        "url": "https://www.vitalitenb.ca/en/covid-19/weekly-report",
+        "dir_parent": "nb",
+        "dir_file": "vitalite-health-network-weekly-report-webpage",
+        "file_name": "vitalite-health-network-weekly-report-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Weekly report",
+          "meta_url": "https://www.vitalitenb.ca/en/covid-19/weekly-report",
+          "meta_url_name": "Vitalité Health Network",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NB - Vitalité Health Network - Units with COVID-19 outbreak",
+        "uuid": "4e2c558b-59d0-4e19-9a70-6d04cd058bb1",
+        "active": "True",
+        "url": "https://www.vitalitenb.ca/en/covid-19/visits/suspensions",
+        "dir_parent": "nb",
+        "dir_file": "vitalite-health-network-units-with-outbreak-webpage",
+        "file_name": "vitalite-health-network-units-with-outbreak-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Units with COVID-19 outbreak",
+          "meta_url": "https://www.vitalitenb.ca/en/covid-19/weekly-report",
+          "meta_url_name": "Vitalité Health Network",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NB - Horizon Health Network - Dashboard",
+        "uuid": "a195414e-e445-48d9-bb6b-f15593bdc79a",
+        "active": "True",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiMmYwMjNmMDQtOGIxNC00YmZkLTkyNmYtM2E3NmVhN2E1M2VmIiwidCI6ImUwOGI3ZWVmLWI1MDEtNGE2Ny05ZWQwLTA3ZTM4YmZjY2VlNyJ9",
+        "dir_parent": "nb",
+        "dir_file": "horizon-health-network-dashboard-webpage",
+        "file_name": "horizon-health-network-dashboard-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dashboard",
+          "meta_url": "https://horizonnb.ca/coronavirus-covid-19/covid-19-data/",
+          "meta_url_name": "Horizon Health Network",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NB - Horizon Health Network - Dashboard notes",
+        "uuid": "c5b0b00b-db56-4d5e-89c8-7fbcc7347fa9",
+        "active": "True",
+        "url": "https://horizonnb.ca/coronavirus-covid-19/covid-19-data/",
+        "dir_parent": "nb",
+        "dir_file": "horizon-health-network-dashboard-notes-webpage",
+        "file_name": "horizon-health-network-dashboard-notes-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dashboard notes",
+          "meta_url": "https://horizonnb.ca/coronavirus-covid-19/covid-19-data/",
+          "meta_url_name": "Horizon Health Network",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "New Brunswick"
+        },
+        "notes": {}
       }
     ],
     "nl": [
