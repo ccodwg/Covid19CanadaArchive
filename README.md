@@ -419,6 +419,12 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [nb/covidwatch-webpage/covidwatch-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Weekly update highlights: [nb/covidwatch-weekly-update-highlights/covidwatch-weekly-update-highlights.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Weekly full report (report): [nb/weekly-update-full-report/weekly-update-full-report.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [Vitalité Health Network](https://www.vitalitenb.ca/en/covid-19/weekly-report)
+    * Weekly report: [nb/vitalite-health-network-weekly-report-webpage/vitalite-health-network-weekly-report-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Units with COVID-19 outbreak: [nb/vitalite-health-network-units-with-outbreak-webpage/vitalite-health-network-units-with-outbreak-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [Horizon Health Network](https://horizonnb.ca/coronavirus-covid-19/covid-19-data/)
+    * Dashboard: [nb/horizon-health-network-dashboard-webpage/horizon-health-network-dashboard-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Dashboard notes: [nb/horizon-health-network-dashboard-notes-webpage/horizon-health-network-dashboard-notes-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [New Brunswick COVID-19 Dashboard](https://experience.arcgis.com/experience/8eeb9a2052d641c996dba5de8f25a8aa)
     * Vaccine data: [nb/vaccine-data/vaccine-data.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Vaccine time series: [nb/vaccine-time-series/Covid19VaccineTimeline.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
