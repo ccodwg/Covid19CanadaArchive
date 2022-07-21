@@ -327,6 +327,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [can/wastewater-technical-notes-webpage/wastewater-technical-notes-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19 wastewater surveillance dashboard - Technical notes (FR)](https://sante-infobase.canada.ca/covid-19/eaux-usees/notes-techniques.html)
     * Webpage (FR): [can/wastewater-technical-notes-webpage-fr/wastewater-technical-notes-webpage-fr.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [Correctional Service of Canada - Testing of inmates in federal correctional institutions for COVID-19](https://www.canada.ca/en/correctional-service/campaigns/covid-19/inmate-testing.html)
+    * Webpage: [can/csc-federal-testing-inmates-covid-webpage/csc-federal-testing-inmates-covid-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Detailed preliminary information on confirmed cases of COVID-19 (Revised)](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310078101)
     * Dataset: [can/detailed-preliminary-confirmed-case-info-revised/13100781.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [COVID Alert](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/covid-alert.html)
