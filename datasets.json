@@ -8224,22 +8224,22 @@
         "notes": {}
       },
       {
-        "id_name": "SK - Weekly COVID-19 Situation Reports (report)",
-        "uuid": "2b3954e7-a659-4555-b02e-3fcc4b1f0960",
+        "id_name": "SK - Monthly COVID-19 Situation Reports (report)",
+        "uuid": "105cb0f6-2565-48fa-beee-7d36cbdc7ef1",
         "active": "True",
         "url_fun_python": "import re; import requests; url_current = re.search('(?<=href=\").*/download(?=\")', requests.get('https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan').text).group(0)",
         "url_fun_r": "library(rvest); library(stringr); str_extract(as.character(html_node(read_html('https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan'), 'body')), '(?<=href=\").*/download(?=\")')",
         "dir_parent": "sk",
-        "dir_file": "covid-weekly-epi-report",
-        "file_name": "covid-weekly-epi-report",
+        "dir_file": "covid-monthly-epi-report",
+        "file_name": "covid-monthly-epi-report",
         "file_ext": "pdf",
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Weekly COVID-19 Situation Reports (report)",
+          "meta_name": "Monthly COVID-19 Situation Reports (report)",
           "meta_url": "https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan",
-          "meta_url_name": "Cases and Risk of COVID-19 in Saskatchewan",
+          "meta_url_name": "COVID-19 Situation Reports",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Saskatchewan"
@@ -15733,6 +15733,29 @@
           "meta_name": "Weekly COVID-19 Situation Reports (news release)",
           "meta_url": "https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan",
           "meta_url_name": "Cases and Risk of COVID-19 in Saskatchewan",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Saskatchewan"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "SK - Weekly COVID-19 Situation Reports (report)",
+        "uuid": "2b3954e7-a659-4555-b02e-3fcc4b1f0960",
+        "active": "False",
+        "url_fun_python": "import re; import requests; url_current = re.search('(?<=href=\").*/download(?=\")', requests.get('https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan').text).group(0)",
+        "url_fun_r": "library(rvest); library(stringr); str_extract(as.character(html_node(read_html('https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan'), 'body')), '(?<=href=\").*/download(?=\")')",
+        "dir_parent": "sk",
+        "dir_file": "covid-weekly-epi-report",
+        "file_name": "covid-weekly-epi-report",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Weekly COVID-19 Situation Reports (report)",
+          "meta_url": "https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan",
+          "meta_url_name": "COVID-19 Situation Reports",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Saskatchewan"
