@@ -3515,6 +3515,28 @@
           "meta_group_1": "Canada"
         },
         "notes": {}
+      },
+      {
+        "id_name": "CAN - Correctional Service of Canada - Testing of inmates in federal correctional institutions for COVID-19 (webpage)",
+        "uuid": "eaab533c-b239-419f-ae98-857668e9db16",
+        "active": "True",
+        "url": "https://www.canada.ca/en/correctional-service/campaigns/covid-19/inmate-testing.html",
+        "dir_parent": "can",
+        "dir_file": "csc-federal-testing-inmates-covid-webpage",
+        "file_name": "csc-federal-testing-inmates-covid-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.canada.ca/en/correctional-service/campaigns/covid-19/inmate-testing.html",
+          "meta_url_name": "Correctional Service of Canada - Testing of inmates in federal correctional institutions for COVID-19",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
       }
     ],
     "mb": [
