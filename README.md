@@ -996,10 +996,11 @@ A note about data from Quebec: when both French and English data files are avail
 
 * [COVID-19 Active Outbreaks](https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/covid-19-active-outbreaks)
     * Webpage: [sk/active-outbreaks-webpage/active-outbreaks-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-* [Cases and Risk of COVID-19 in Saskatchewan](https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan)
-    * Weekly COVID-19 Situation Reports (report): [sk/covid-weekly-epi-report/covid-weekly-epi-report.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [COVID-19 Situation Reports](https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/cases-and-risk-of-covid-19-in-saskatchewan)
+    * Monthly COVID-19 Situation Reports (report): [sk/covid-monthly-epi-report/covid-monthly-epi-report.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Cases and Risk of COVID-19 in Saskatchewan: [sk/summary-and-variant-webpage/summary-and-variant-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Weekly COVID-19 Situation Reports (news release): [sk/covid-weekly-epi-report-news-release-webpage/covid-weekly-epi-report-news-release-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Weekly COVID-19 Situation Reports (report): [sk/covid-weekly-epi-report/covid-weekly-epi-report.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Saskatchewan's Dashboard - Total Cases](https://dashboard.saskatchewan.ca/health-wellness/covid-19/cases)
     * Highlights, charts, tables (legacy): [sk/cases-by-region-highlights-charts-tables-legacy/health-wellness-covid-19-cases.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Highlights, charts, tables: [sk/cases-by-region-highlights-charts-tables/health-wellness-covid-19-cases.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
