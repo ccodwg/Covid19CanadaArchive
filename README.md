@@ -419,8 +419,8 @@ A note about data from Quebec: when both French and English data files are avail
 
 * [COVIDWATCH](https://www2.gnb.ca/content/gnb/en/corporate/promo/covid-19/COVIDWATCH.html)
     * Webpage: [nb/covidwatch-webpage/covidwatch-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Weekly update highlights: [nb/covidwatch-weekly-update-highlights/covidwatch-weekly-update-highlights.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Weekly full report (report): [nb/weekly-update-full-report/weekly-update-full-report.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+    * Weekly update highlights: [nb/covidwatch-weekly-update-highlights/covidwatch-weekly-update-highlights.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Vitalité Health Network](https://www.vitalitenb.ca/en/covid-19/weekly-report)
     * Weekly report: [nb/vitalite-health-network-weekly-report-webpage/vitalite-health-network-weekly-report-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Units with COVID-19 outbreak: [nb/vitalite-health-network-units-with-outbreak-webpage/vitalite-health-network-units-with-outbreak-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
