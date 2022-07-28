@@ -4979,26 +4979,76 @@
         "notes": {}
       },
       {
-        "id_name": "ON - Ontario COVID-19 Data Tool - Trends",
+        "id_name": "ON - Ontario COVID-19 Data Tool - Trends time series by PHU 1",
         "uuid": "75f397c6-ebb2-478e-b8b3-0ee7d4cf2a5d",
         "active": "True",
         "url": "https://ws1.publichealthontario.ca/appdata/COVID/PROD/trends1.xlsx",
         "dir_parent": "on",
-        "dir_file": "pho-covid-data-tool-trends",
+        "dir_file": "pho-covid-data-tool-trends-time-series-phu-1",
         "file_name": "trends1",
         "file_ext": "xlsx",
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Trends",
+          "meta_name": "Trends time series by PHU 1",
           "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance/covid-19-data-tool?tab=summary",
           "meta_url_name": "Ontario COVID-19 Data Tool",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario"
         },
-        "notes": {}
+        "notes": {
+          "notes_data": "This set of time series contain tabs for Ontario and various PHUs."
+        }
+      },
+      {
+        "id_name": "ON - Ontario COVID-19 Data Tool - Trends time series by PHU 2",
+        "uuid": "6803d544-1aa1-47fa-a045-0e2ead2b995e",
+        "active": "True",
+        "url": "https://ws1.publichealthontario.ca/appdata/COVID/PROD/trends2.xlsx",
+        "dir_parent": "on",
+        "dir_file": "pho-covid-data-tool-trends-time-series-phu-2",
+        "file_name": "trends2",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Trends time series by PHU 2",
+          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance/covid-19-data-tool?tab=summary",
+          "meta_url_name": "Ontario COVID-19 Data Tool",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {
+          "notes_data": "This set of time series contain tabs for Ontario and various PHUs."
+        }
+      },
+      {
+        "id_name": "ON - Ontario COVID-19 Data Tool - Trends time series by PHU 3",
+        "uuid": "95107720-6285-411d-adad-c154b1d4bf33",
+        "active": "True",
+        "url": "https://ws1.publichealthontario.ca/appdata/COVID/PROD/trends3.xlsx",
+        "dir_parent": "on",
+        "dir_file": "pho-covid-data-tool-trends-time-series-phu-3",
+        "file_name": "trends3",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Trends time series by PHU 3",
+          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance/covid-19-data-tool?tab=summary",
+          "meta_url_name": "Ontario COVID-19 Data Tool",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {
+          "notes_data": "This set of time series contain tabs for Ontario and various PHUs."
+        }
       },
       {
         "id_name": "ON - Ontario COVID-19 Data Tool - Vaccine data dictionary",
@@ -5045,19 +5095,19 @@
         "notes": {}
       },
       {
-        "id_name": "ON - Ontario COVID-19 Data Tool - Vaccine time series",
+        "id_name": "ON - Ontario COVID-19 Data Tool - Vaccine time series by PHU 1",
         "uuid": "21da57a2-c95d-4456-873a-cedff3634722",
         "active": "True",
         "url": "https://ws1.publichealthontario.ca/appdata/COVID/PROD/vaccine_1.xlsx",
         "dir_parent": "on",
-        "dir_file": "pho-covid-data-tool-vaccine-time-series",
+        "dir_file": "pho-covid-data-tool-vaccine-time-series-phu-1",
         "file_name": "vaccine_1",
         "file_ext": "xlsx",
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Vaccine time series",
+          "meta_name": "Vaccine time series by PHU 1",
           "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance/covid-19-data-tool?tab=summary",
           "meta_url_name": "Ontario COVID-19 Data Tool",
           "meta_licence": "",
@@ -5065,7 +5115,151 @@
           "meta_group_1": "Ontario"
         },
         "notes": {
-          "notes_data": "May contain time series for Ontario and a handful of PHUs."
+          "notes_data": "This set of time series contain tabs for Ontario and various PHUs."
+        }
+      },
+      {
+        "id_name": "ON - Ontario COVID-19 Data Tool - Vaccine time series by PHU 2",
+        "uuid": "968f2a24-9f05-4516-9b47-e89e0f2b0290",
+        "active": "True",
+        "url": "https://ws1.publichealthontario.ca/appdata/COVID/PROD/vaccine_2.xlsx",
+        "dir_parent": "on",
+        "dir_file": "pho-covid-data-tool-vaccine-time-series-phu-2",
+        "file_name": "vaccine_2",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine time series by PHU 2",
+          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance/covid-19-data-tool?tab=summary",
+          "meta_url_name": "Ontario COVID-19 Data Tool",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {
+          "notes_data": "This set of time series contain tabs for Ontario and various PHUs."
+        }
+      },
+      {
+        "id_name": "ON - Ontario COVID-19 Data Tool - Vaccine time series by PHU 3",
+        "uuid": "8f983d64-c9e7-40e1-8f90-698253082d15",
+        "active": "True",
+        "url": "https://ws1.publichealthontario.ca/appdata/COVID/PROD/vaccine_3.xlsx",
+        "dir_parent": "on",
+        "dir_file": "pho-covid-data-tool-vaccine-time-series-phu-3",
+        "file_name": "vaccine_3",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine time series by PHU 3",
+          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance/covid-19-data-tool?tab=summary",
+          "meta_url_name": "Ontario COVID-19 Data Tool",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {
+          "notes_data": "This set of time series contain tabs for Ontario and various PHUs."
+        }
+      },
+      {
+        "id_name": "ON - Ontario COVID-19 Data Tool - Vaccine time series by PHU 4",
+        "uuid": "d20728ad-67b5-4ffa-9e1a-aef45f2f962c",
+        "active": "True",
+        "url": "https://ws1.publichealthontario.ca/appdata/COVID/PROD/vaccine_4.xlsx",
+        "dir_parent": "on",
+        "dir_file": "pho-covid-data-tool-vaccine-time-series-phu-4",
+        "file_name": "vaccine_4",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine time series by PHU 4",
+          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance/covid-19-data-tool?tab=summary",
+          "meta_url_name": "Ontario COVID-19 Data Tool",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {
+          "notes_data": "This set of time series contain tabs for Ontario and various PHUs."
+        }
+      },
+      {
+        "id_name": "ON - Ontario COVID-19 Data Tool - Vaccine time series by PHU 5",
+        "uuid": "fed83b8b-5dce-4bde-9b7b-adb4d00c3005",
+        "active": "True",
+        "url": "https://ws1.publichealthontario.ca/appdata/COVID/PROD/vaccine_5.xlsx",
+        "dir_parent": "on",
+        "dir_file": "pho-covid-data-tool-vaccine-time-series-phu-5",
+        "file_name": "vaccine_5",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine time series by PHU 5",
+          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance/covid-19-data-tool?tab=summary",
+          "meta_url_name": "Ontario COVID-19 Data Tool",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {
+          "notes_data": "This set of time series contain tabs for Ontario and various PHUs."
+        }
+      },
+      {
+        "id_name": "ON - Ontario COVID-19 Data Tool - Vaccine time series by PHU 6",
+        "uuid": "f8780ee8-2be1-4cbe-b02f-20ff6cdda55e",
+        "active": "True",
+        "url": "https://ws1.publichealthontario.ca/appdata/COVID/PROD/vaccine_6.xlsx",
+        "dir_parent": "on",
+        "dir_file": "pho-covid-data-tool-vaccine-time-series-phu-6",
+        "file_name": "vaccine_6",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine time series by PHU 6",
+          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance/covid-19-data-tool?tab=summary",
+          "meta_url_name": "Ontario COVID-19 Data Tool",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {
+          "notes_data": "This set of time series contain tabs for Ontario and various PHUs."
+        }
+      },
+      {
+        "id_name": "ON - Ontario COVID-19 Data Tool - Vaccine time series by PHU 7",
+        "uuid": "2a61f4d7-e78d-47fa-87ac-5530d4bffce6",
+        "active": "True",
+        "url": "https://ws1.publichealthontario.ca/appdata/COVID/PROD/vaccine_7.xlsx",
+        "dir_parent": "on",
+        "dir_file": "pho-covid-data-tool-vaccine-time-series-phu-7",
+        "file_name": "vaccine_7",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine time series by PHU 7",
+          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance/covid-19-data-tool?tab=summary",
+          "meta_url_name": "Ontario COVID-19 Data Tool",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {
+          "notes_data": "This set of time series contain tabs for Ontario and various PHUs."
         }
       },
       {
@@ -5201,19 +5395,19 @@
         "notes": {}
       },
       {
-        "id_name": "ON - Ontario COVID-19 Data Tool - Outbreaks time series",
+        "id_name": "ON - Ontario COVID-19 Data Tool - Outbreaks time series by PHU 1",
         "uuid": "ecb8d327-144e-42ab-9532-07850c070ab7",
         "active": "True",
         "url": "https://ws1.publichealthontario.ca/appdata/COVID/PROD/outbreaks1.xlsx",
         "dir_parent": "on",
-        "dir_file": "pho-covid-data-tool-outbreaks-time-series",
+        "dir_file": "pho-covid-data-tool-outbreaks-time-series-phu-1",
         "file_name": "outbreaks1",
         "file_ext": "xlsx",
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Outbreaks time series",
+          "meta_name": "Outbreaks time series by PHU 1",
           "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance/covid-19-data-tool?tab=summary",
           "meta_url_name": "Ontario COVID-19 Data Tool",
           "meta_licence": "",
@@ -5221,7 +5415,127 @@
           "meta_group_1": "Ontario"
         },
         "notes": {
-          "notes_data": "May contain time series for Ontario and a handful of PHUs."
+          "notes_data": "This set of time series contain tabs for Ontario and various PHUs."
+        }
+      },
+      {
+        "id_name": "ON - Ontario COVID-19 Data Tool - Outbreaks time series by PHU 2",
+        "uuid": "4c744eeb-ef8d-4965-8d3b-14228bee327d",
+        "active": "True",
+        "url": "https://ws1.publichealthontario.ca/appdata/COVID/PROD/outbreaks2.xlsx",
+        "dir_parent": "on",
+        "dir_file": "pho-covid-data-tool-outbreaks-time-series-phu-2",
+        "file_name": "outbreaks2",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Outbreaks time series by PHU 2",
+          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance/covid-19-data-tool?tab=summary",
+          "meta_url_name": "Ontario COVID-19 Data Tool",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {
+          "notes_data": "This set of time series contain tabs for Ontario and various PHUs."
+        }
+      },
+      {
+        "id_name": "ON - Ontario COVID-19 Data Tool - Outbreaks time series by PHU 3",
+        "uuid": "6ce093bf-3dd4-4a51-ad9a-e46959dd28fc",
+        "active": "True",
+        "url": "https://ws1.publichealthontario.ca/appdata/COVID/PROD/outbreaks3.xlsx",
+        "dir_parent": "on",
+        "dir_file": "pho-covid-data-tool-outbreaks-time-series-phu-3",
+        "file_name": "outbreaks3",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Outbreaks time series by PHU 3",
+          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance/covid-19-data-tool?tab=summary",
+          "meta_url_name": "Ontario COVID-19 Data Tool",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {
+          "notes_data": "This set of time series contain tabs for Ontario and various PHUs."
+        }
+      },
+      {
+        "id_name": "ON - Ontario COVID-19 Data Tool - Outbreaks time series by PHU 4",
+        "uuid": "d4fca0a7-31e8-4e0b-b62e-4d9ff3cfb04c",
+        "active": "True",
+        "url": "https://ws1.publichealthontario.ca/appdata/COVID/PROD/outbreaks4.xlsx",
+        "dir_parent": "on",
+        "dir_file": "pho-covid-data-tool-outbreaks-time-series-phu-4",
+        "file_name": "outbreaks4",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Outbreaks time series by PHU 4",
+          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance/covid-19-data-tool?tab=summary",
+          "meta_url_name": "Ontario COVID-19 Data Tool",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {
+          "notes_data": "This set of time series contain tabs for Ontario and various PHUs."
+        }
+      },
+      {
+        "id_name": "ON - Ontario COVID-19 Data Tool - Outbreaks time series by PHU 5",
+        "uuid": "c2fe999b-9515-405a-8a8f-0ea68e89bb96",
+        "active": "True",
+        "url": "https://ws1.publichealthontario.ca/appdata/COVID/PROD/outbreaks5.xlsx",
+        "dir_parent": "on",
+        "dir_file": "pho-covid-data-tool-outbreaks-time-series-phu-5",
+        "file_name": "outbreaks5",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Outbreaks time series by PHU 5",
+          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance/covid-19-data-tool?tab=summary",
+          "meta_url_name": "Ontario COVID-19 Data Tool",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {
+          "notes_data": "This set of time series contain tabs for Ontario and various PHUs."
+        }
+      },
+      {
+        "id_name": "ON - Ontario COVID-19 Data Tool - Outbreaks time series by PHU 6",
+        "uuid": "c8902fc2-794c-4878-bae9-56e53c4a0c9e",
+        "active": "True",
+        "url": "https://ws1.publichealthontario.ca/appdata/COVID/PROD/outbreaks6.xlsx",
+        "dir_parent": "on",
+        "dir_file": "pho-covid-data-tool-outbreaks-time-series-phu-6",
+        "file_name": "outbreaks6",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Outbreaks time series by PHU 6",
+          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance/covid-19-data-tool?tab=summary",
+          "meta_url_name": "Ontario COVID-19 Data Tool",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {
+          "notes_data": "This set of time series contain tabs for Ontario and various PHUs."
         }
       },
       {
