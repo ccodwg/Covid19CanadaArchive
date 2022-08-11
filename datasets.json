@@ -3938,28 +3938,6 @@
     ],
     "ns": [
       {
-        "id_name": "NS - Nova Scotia (COVID-19): cases (webpage)",
-        "uuid": "987160a1-f4a9-4d18-8d7f-47a1056f6985",
-        "active": "True",
-        "url": "https://novascotia.ca/coronavirus/data/",
-        "dir_parent": "ns",
-        "dir_file": "ns-webpage",
-        "file_name": "ns-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://novascotia.ca/coronavirus/data/",
-          "meta_url_name": "Coronavirus (COVID-19): case data",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Nova Scotia"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "NS - Nova Scotia COVID-19 Dashboard (webpage)",
         "uuid": "abbaa0d9-7e54-4425-a9be-f91cde27f358",
         "active": "True",
@@ -13364,6 +13342,28 @@
           "meta_name": "Webpage",
           "meta_url": "https://backtoschool.ednet.ns.ca/school-exposures",
           "meta_url_name": "COVID-19 Exposures Connected to Public Schools",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Nova Scotia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NS - Nova Scotia (COVID-19): cases (webpage)",
+        "uuid": "987160a1-f4a9-4d18-8d7f-47a1056f6985",
+        "active": "False",
+        "url": "https://novascotia.ca/coronavirus/data/",
+        "dir_parent": "ns",
+        "dir_file": "ns-webpage",
+        "file_name": "ns-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://novascotia.ca/coronavirus/data/",
+          "meta_url_name": "Coronavirus (COVID-19): case data",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Nova Scotia"
