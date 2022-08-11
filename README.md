@@ -517,9 +517,6 @@ A note about data from Quebec: when both French and English data files are avail
 <details>
 <summary><b>Nova Scotia</b></summary>
 
-* [Coronavirus (COVID-19): case data](https://novascotia.ca/coronavirus/data/)
-    * Webpage: [ns/ns-webpage/ns-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Case data: [ns/case-data/ns-covid19-data.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Nova Scotia COVID-19 Dashboard](https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad)
     * Webpage: [ns/ns-dashboard-webpage/ns-dashboard-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Weekly Data (2): [ns/weekly-data-2/COVID_WEEKREPT_V6_PROD.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
@@ -550,6 +547,9 @@ A note about data from Quebec: when both French and English data files are avail
     * Weekly Data: [ns/weekly-data/COVID19_DashboardV6_WeeklyData_Production.json](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [COVID-19 news releases](https://novascotia.ca/news/search/?dept=180)
     * Webpage: [ns/daily-covid-news-release-webpage/daily-covid-news-release-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
+* [Coronavirus (COVID-19): case data](https://novascotia.ca/coronavirus/data/)
+    * Case data: [ns/case-data/ns-covid19-data.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Webpage: [ns/ns-webpage/ns-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Potential COVID Exposures](http://www.nshealth.ca/covid-exposures)
     * Webpage: [ns/ns-potential-covid-exposures-webpage/ns-potential-covid-exposures-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [COVID-19 Exposures Connected to Public Schools](https://backtoschool.ednet.ns.ca/school-exposures)
