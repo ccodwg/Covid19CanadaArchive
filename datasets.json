@@ -1381,6 +1381,138 @@
         "notes": {}
       },
       {
+        "id_name": "CAN - Monkeypox epidemiology update (webpage)",
+        "uuid": "ea77437f-7a77-463c-92d5-8896d4a4868c",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/monkeypox/",
+        "dir_parent": "can",
+        "dir_file": "monkeypox-epidemiology-update-webpage",
+        "file_name": "monkeypox-epidemiology-update-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://health-infobase.canada.ca/monkeypox/",
+          "meta_url_name": "Monkeypox epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Monkeypox epidemiology update (English report)",
+        "uuid": "dccb7597-6de4-42ea-b8a6-edad46173263",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/monkeypox/Monkeypox-epidemiology-update-Public-Health-Agency-of-Canada.pdf",
+        "dir_parent": "can",
+        "dir_file": "monkeypox-epidemiology-update-report-en",
+        "file_name": "Monkeypox-epidemiology-update-Public-Health-Agency-of-Canada",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Report (English)",
+          "meta_url": "https://health-infobase.canada.ca/monkeypox/",
+          "meta_url_name": "Monkeypox epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Monkeypox epidemiology update (French report)",
+        "uuid": "56efa9cb-9065-47eb-8341-f109742d73f7",
+        "active": "True",
+        "url": "https://sante-infobase.canada.ca/src/data/monkeypox/Mise-a-jour-sur-epidemiologie-de-la-variole-simienne-Agence-de-la-sante-publique-du-Canada.pdf",
+        "dir_parent": "can",
+        "dir_file": "monkeypox-epidemiology-update-report-fr",
+        "file_name": "Mise-a-jour-sur-epidemiologie-de-la-variole-simienne-Agence-de-la-sante-publique-du-Canada",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Report (French)",
+          "meta_url": "https://health-infobase.canada.ca/monkeypox/",
+          "meta_url_name": "Monkeypox epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Monkeypox epidemiology update - Monkeypox time series by province/territory",
+        "uuid": "9448b236-de06-4542-b862-ecb0f102bf14",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/monkeypox/monkeypox-map.csv",
+        "dir_parent": "can",
+        "dir_file": "monkeypox-timeseries-by-pt",
+        "file_name": "monkeypox-map",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Monkeypox time series by province/territory",
+          "meta_url": "https://health-infobase.canada.ca/monkeypox/",
+          "meta_url_name": "Monkeypox epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Monkeypox epidemiology update - Monkeypox time series by province/territory (detailed)",
+        "uuid": "9c1631af-276b-410e-8548-c1ffb4233ee3",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/monkeypox/monkeypox-detailed.csv",
+        "dir_parent": "can",
+        "dir_file": "monkeypox-timeseries-by-pt-detailed",
+        "file_name": "monkeypox-detailed",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Monkeypox time series by province/territory (detailed)",
+          "meta_url": "https://health-infobase.canada.ca/monkeypox/",
+          "meta_url_name": "Monkeypox epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Monkeypox epidemiology update - International time series (Our World in Data)",
+        "uuid": "1561a266-3634-4f4e-bdc5-624b22555114",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/monkeypox/monkeypox-international.csv",
+        "dir_parent": "can",
+        "dir_file": "monkeypox-international-timeseries-owid",
+        "file_name": "monkeypox-international",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "International time series (Our World in Data)",
+          "meta_url": "https://health-infobase.canada.ca/monkeypox/",
+          "meta_url_name": "Monkeypox epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "CAN - Epidemiological summary of COVID-19 cases in First Nations communities (webpage)",
         "uuid": "e9ef2ae1-423f-4c99-a56c-d863d4f8185f",
         "active": "True",
