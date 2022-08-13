@@ -1089,10 +1089,10 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [yt/yukon-covid-updates-2021-webpage/yukon-covid-updates-2021-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [Enforcement statistics: COVID-19](https://yukon.ca/en/health-and-wellness/covid-19-information/borders-and-travel-covid-19/find-enforcement-statistics)
     * Webpage: [yt/yukon-covid-enforcement-webpage/yukon-covid-enforcement-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-* [Potential COVID-19 exposure notices](https://yukon.ca/en/health-and-wellness/covid-19-information/your-health-covid-19/potential-covid-19-exposure-notices)
-    * Webpage: [yt/yukon-potential-exposures-webpage/yukon-potential-exposures-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [News releases: COVID-19 pandemic (2020)](https://yukon.ca/en/health-and-wellness/covid-19-information/latest-updates-covid-19/2020-news-releases-covid-19)
     * Webpage: [yt/yukon-covid-updates-2020-webpage/yukon-covid-updates-2020-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [Potential COVID-19 exposure notices](https://yukon.ca/en/health-and-wellness/covid-19-information/your-health-covid-19/potential-covid-19-exposure-notices)
+    * Webpage: [yt/yukon-potential-exposures-webpage/yukon-potential-exposures-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 </details>
 <details>
 <summary><b>Other: Non-governmental sources</b></summary>
