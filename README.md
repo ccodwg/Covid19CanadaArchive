@@ -1101,12 +1101,6 @@ A note about data from Quebec: when both French and English data files are avail
 <details>
 <summary><i>Canada</i></summary>
 
-* [Unofficial COVID Alert Dashboard](https://github.com/uhengart/covid-alert-dashboard)
-    * Diagnosis Keys Analysis: [other/can/unofficial-covid-alert-dashboard-analysis/DiagnosisKeysAnalysis.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Upload Delay: [other/can/unofficial-covid-alert-dashboard-upload-delay/UploadDelay.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Cumulative cases reported plot: [other/can/unofficial-covid-alert-dashboard-cumulative-cases-reported-plot/Cumulative.png](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Daily number and percentage of cases reported plot: [other/can/unofficial-covid-alert-dashboard-daily-and-percent-cases-reported-plot/Daily.png](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-    * Reporting delay plot: [other/can/unofficial-covid-alert-dashboard-reporting-delay-plot/Delay.png](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19 - McDonald's Tracker](https://news.mcdonalds.ca/covid-19-tracker)
     * Webpage: [other/can/mcdonalds-tracker/mcdonalds-tracker-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
 * [COVID-19 - Loblaw Companies Ltd.](https://www.loblaw.ca/en/covid-19/)
@@ -1123,6 +1117,12 @@ A note about data from Quebec: when both French and English data files are avail
     * USA data: [other/can/radio-canada-usa-data/usa.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * International data: [other/can/radio-canada-international-data/international.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Quebec data: [other/can/radio-canada-quebec-data/quebec.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+* [Unofficial COVID Alert Dashboard](https://github.com/uhengart/covid-alert-dashboard)
+    * Diagnosis Keys Analysis: [other/can/unofficial-covid-alert-dashboard-analysis/DiagnosisKeysAnalysis.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Upload Delay: [other/can/unofficial-covid-alert-dashboard-upload-delay/UploadDelay.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Cumulative cases reported plot: [other/can/unofficial-covid-alert-dashboard-cumulative-cases-reported-plot/Cumulative.png](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Daily number and percentage of cases reported plot: [other/can/unofficial-covid-alert-dashboard-daily-and-percent-cases-reported-plot/Daily.png](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Reporting delay plot: [other/can/unofficial-covid-alert-dashboard-reporting-delay-plot/Delay.png](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 </details>
 
 <details>
