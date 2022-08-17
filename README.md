@@ -884,7 +884,7 @@ A note about data from Quebec: when both French and English data files are avail
     * Webpage: [pe/pei-potential-exposures-webpage/pei-potential-exposures-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [COVID-19 news releases](https://www.princeedwardisland.ca/en/search/site?f%5B0%5D=type%3Anews&f%5B1%5D=field_news_type%3A22&f%5B2%5D=field_department%3A612)
     * Webpage: [pe/covid-news-release-webpage/covid-news-release-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-* [https://edu.princeedwardisland.ca/psb/parents_students/covid-19-resources/potential-covid-19-school-exposures/](Potential COVID-19 School Exposures)
+* [Potential COVID-19 School Exposures](https://edu.princeedwardisland.ca/psb/parents_students/covid-19-resources/potential-covid-19-school-exposures/)
     * Webpage: [pe/pei-potential-school-exposures-webpage/pei-potential-school-exposures-webpage.html](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 </details>
 <details>
@@ -917,6 +917,8 @@ A note about data from Quebec: when both French and English data files are avail
     * Deaths percentage by age group (EN): [qc/deaths-percentage-by-age-group-en/pourcentage-deces-age-en.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Recent daily cases by region (FR): [qc/recent-daily-cases-by-region/cas-region.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Recent daily cases by region (EN): [qc/recent-daily-cases-by-region-en/cas-region-en.csv](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Highlights - public and private school system (FR): [qc/schools-highlights/reseauScolaire_faitsSaillants.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
+    * Highlights - public and private school system (EN): [qc/schools-highlights-en/reseauScolaire_faitsSaillants_ANG.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Vaccination of priority groups (FR): [qc/vaccination-of-priority-groups/20-279-07WF_Previsions_vaccination.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Vaccination of priority groups (EN): [qc/vaccination-of-priority-groups-en/20-279-07WA_Previsions_vaccination-anglais.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Situation in living environments for the elderly and vulnerable (RPA and CHSLD): [qc/status-report-cases-and-deaths-by-rpa-and-chsld/etat_situation_milieux-de-vie.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
@@ -983,9 +985,6 @@ A note about data from Quebec: when both French and English data files are avail
     * Weekly deaths in Quebec by age group: [qc/weekly-deaths-by-age-group/DecesSemaine_QC_GrAge.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Weekly deaths in Quebec by region: [qc/weekly-deaths-by-region/DecesSemaine_QC_Region.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
     * Weekly deaths in Quebec by sex: [qc/weekly-deaths-by-sex/DecesSemaine_QC_Sexe.xlsx](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/)
-* []()
-    * Highlights - public and private school system (FR): [qc/schools-highlights/reseauScolaire_faitsSaillants.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
-    * Highlights - public and private school system (EN): [qc/schools-highlights-en/reseauScolaire_faitsSaillants_ANG.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
 * [Liste des écoles comptant des cas de COVID-19](https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/liste-des-cas-de-covid-19-dans-les-ecoles/)
     * Report (PDF EN): [qc/schools-list-of-schools-en/reseauScolaire_listeEcoles_ANG.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
     * Report (PDF FR): [qc/schools-list-of-schools/reseauScolaire_listeEcoles.pdf](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/) [inactive, no longer updated]
