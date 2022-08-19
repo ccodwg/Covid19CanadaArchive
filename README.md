@@ -14,20 +14,28 @@ This repository is maintained by [Jean-Paul R. Soucy](https://jeanpaulsoucy.com/
 
 Table of contents:
 
+* [Data catalogue](#data-catalogue)
 * [Accessing the data](#accessing-the-data)
 * [Contributing](#contributing)
   * [Add a new dataset](#add-a-new-dataset)
   * [Retire an inactive dataset](#retire-an-inactive-dataset)
   * [Contribute historical data](#contribute-historical-data)
 * [Recommended citation](#recommended-citation)
-* [Data catalogue](#data-catalogue)
 * [Notes about the data archive](#notes-about-the-data-archive)
 * [Notes about the archival tool](#notes-about-the-archival-tool)
 * [Acknowledgements](#acknowledgements)
 
+## Data catalogue
+
+A searchable catalogue of datasets, sorted by province/territory (and city/organization, if applicable), is available in the [Data Explorer](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/). Note that the Data Explorer has its own [GitHub repository](https://github.com/ccodwg/Covid19CanadaArchive-data-explorer) for feature requests and bug reports.
+
+Full details for each dataset, including any notes pertaining to them, are given in [`datasets.json`](https://github.com/ccodwg/Covid19CanadaArchive/blob/master/datasets.json).
+
+A note about data from Quebec: when both French and English data files are available, French files should generally be considered definitive (and in many cases, these files have been captured in the archive for a longer duration). The English versions of files available in both languages have "-en" appended to their directory names.
+
 ## Accessing the data
 
-The easiest way to explore the data in the archive and download individual files is with the interactive file explorer: [https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/). A legacy version of the file explorer is [also available](http://data.opencovid.ca/archive/index.html#archive/).
+The easiest way to explore the data in the archive and download individual files is the aforementioned Data Explorer(https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/).
 
 The files in the archive are hosted under the following domain: [https://data.opencovid.ca.s3.amazonaws.com/archive/](https://data.opencovid.ca.s3.amazonaws.com/archive/). For example, the PHAC Epidemiology Update from November 4, 2020 may be downloaded at the following URL:
 
@@ -88,14 +96,6 @@ Some datasets continue to exist at a URL but are no longer updated. These datase
 ## Recommended citation
 
 COVID-19 Canada Open Data Working Group. Canadian COVID-19 Data Archive. https://github.com/ccodwg/Covid19CanadaArchive. (Access date).
-
-## Data catalogue
-
-A searchable catalogue of datasets, sorted by province/territory (and city/organization, if applicable), is available in the [Data Explorer](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/). Note that the Data Explorer has its own [GitHub repository](https://github.com/ccodwg/Covid19CanadaArchive-data-explorer) for feature requests and bug reports.
-
-Full details for each dataset, including any notes pertaining to them, are given in [`datasets.json`](https://github.com/ccodwg/Covid19CanadaArchive/blob/master/datasets.json).
-
-A note about data from Quebec: when both French and English data files are available, French files should generally be considered definitive (and in many cases, these files have been captured in the archive for a longer duration). The English versions of files available in both languages have "-en" appended to their directory names.
 
 ## Notes about the data archive
 
