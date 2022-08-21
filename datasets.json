@@ -937,6 +937,30 @@
         }
       },
       {
+        "id_name": "BC - Dashboard case time series by Health Service Delivery Area (Out of Canada)",
+        "uuid": "c0ab9514-92ea-4dda-b714-bab9985e58be",
+        "active": "True",
+        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BCCOVID19_Dashboard_Regional_Summary_Data/FeatureServer/0/query?f=json&where=(HA=%27Out%20of%20Canada%27%20and%20HSDA=%27Out%20of%20Canada%27)&returnGeometry=false&outFields=*&orderByFields=Date%20desc",
+        "dir_parent": "bc",
+        "dir_file": "case-time-series-by-hsda-out-of-canada",
+        "file_name": "BCCOVID19_Dashboard_Regional_Summary_Data",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dashboard case time series by Health Service Delivery Area (Out of Canada)",
+          "meta_url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
+          "meta_url_name": "British Columbia COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {
+          "notes_data": "This time series was created because the parent time series (4f9dc8b7-7b42-450e-a741-a0f6a621d2af) has a record limit of 1,000."
+        }
+      },
+      {
         "id_name": "BC - Dashboard cumulative case, death, recovered, hospitalization, ICU data by Regional Health Authority",
         "uuid": "91367e1d-8b79-422c-b314-9b3441ba4f42",
         "active": "True",
