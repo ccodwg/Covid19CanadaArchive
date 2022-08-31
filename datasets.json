@@ -7686,30 +7686,6 @@
           "meta_group_1": "Prince Edward Island"
         },
         "notes": {}
-      },
-      {
-        "id_name": "PE - Potential COVID-19 School Exposures (French School Board) (webpage)",
-        "uuid": "47dd2332-e4a6-4c35-be65-fe392b122f4e",
-        "active": "True",
-        "url": "https://cslf.edu.pe.ca/avis-dexposition-covid-19",
-        "dir_parent": "pe",
-        "dir_file": "pei-potential-school-exposures-french-school-board-webpage",
-        "file_name": "pei-potential-school-exposures-french-school-board-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "user": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://cslf.edu.pe.ca/avis-dexposition-covid-19",
-          "meta_url_name": "Potential COVID-19 School Exposures (French School Board)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Prince Edward Island"
-        },
-        "notes": {}
       }
     ],
     "qc": [
@@ -14826,6 +14802,30 @@
           "meta_name": "Webpage",
           "meta_url": "https://edu.princeedwardisland.ca/psb/parents_students/covid-19-resources/potential-covid-19-school-exposures/",
           "meta_url_name": "Potential COVID-19 School Exposures",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Prince Edward Island"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "PE - Potential COVID-19 School Exposures (French School Board) (webpage)",
+        "uuid": "47dd2332-e4a6-4c35-be65-fe392b122f4e",
+        "active": "False",
+        "url": "https://cslf.edu.pe.ca/avis-dexposition-covid-19",
+        "dir_parent": "pe",
+        "dir_file": "pei-potential-school-exposures-french-school-board-webpage",
+        "file_name": "pei-potential-school-exposures-french-school-board-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://cslf.edu.pe.ca/avis-dexposition-covid-19",
+          "meta_url_name": "Potential COVID-19 School Exposures (French School Board)",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Prince Edward Island"
