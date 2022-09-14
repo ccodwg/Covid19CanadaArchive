@@ -14505,7 +14505,7 @@
         "active": "False",
         "url": "https://data.ontario.ca/dataset/cbb4d08c-4e56-4b07-9db6-48335241b88a/resource/ce9f043d-f0d4-40f0-9b96-4c8a83ded3f6/download/response_framework.csv",
         "dir_parent": "on",
-        "dir_file": "on-covid-zone-dates-by-phu",
+        "dir_file": "on-covid-zone-time-series-by-phu",
         "file_name": "response_framework",
         "file_ext": "csv",
         "dl_fun": "dl_file",
