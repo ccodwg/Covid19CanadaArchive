@@ -3835,6 +3835,481 @@
           "meta_group_1": "Canada"
         },
         "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 Immunity Task Force - Seroprevalence in Canada - Anti-nucleocapsid seropositivity for all age groups, combined, by region (webpage)",
+        "uuid": "6c4c0945-babe-48f4-a656-992cf815b8c5",
+        "active": "True",
+        "url": "https://www.covid19immunitytaskforce.ca/wp-content/uploads/2021/10/sars-cov-2-antibody-seroprevalence-in-canadian-blood-donors-over-time-canada-excluding-quebec-and-the-territories.html",
+        "dir_parent": "can",
+        "dir_file": "citf-seroprevalence-in-canada-sars-cov-2-antibody-seroprevalence-in-canadian-blood-donors-over-time-canada-excluding-quebec-and-the-territories-webpage",
+        "file_name": "citf-seroprevalence-in-canada-sars-cov-2-antibody-seroprevalence-in-canadian-blood-donors-over-time-canada-excluding-quebec-and-the-territories-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: Anti-nucleocapsid seropositivity for all age groups, combined, by region",
+          "meta_url": "https://www.covid19immunitytaskforce.ca/seroprevalence-in-canada/",
+          "meta_url_name": "COVID-19 Immunity Task Force - Seroprevalence in Canada",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 Immunity Task Force - Seroprevalence in Canada - The state of infection-induced seroprevalence in Canada (webpage)",
+        "uuid": "18b3e392-661d-4558-8dfd-a74c4236c110",
+        "active": "True",
+        "url": "https://www.covid19immunitytaskforce.ca/wp-content/uploads/2021/10/seroprevalence-map-en.html",
+        "dir_parent": "can",
+        "dir_file": "citf-seroprevalence-in-canada-seroprevalence-map-en-webpage",
+        "file_name": "citf-seroprevalence-in-canada-seroprevalence-map-en-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: The state of infection-induced seroprevalence in Canada",
+          "meta_url": "https://www.covid19immunitytaskforce.ca/seroprevalence-in-canada/",
+          "meta_url_name": "COVID-19 Immunity Task Force - Seroprevalence in Canada",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 Immunity Task Force - Seroprevalence in Canada - Seroprevalence by province over time (webpage)",
+        "uuid": "8693e1b4-70db-4abd-910c-c39f650ca912",
+        "active": "True",
+        "url": "https://www.covid19immunitytaskforce.ca/wp-content/uploads/2021/10/provincial-seroprevalence-estimates-en.html",
+        "dir_parent": "can",
+        "dir_file": "citf-seroprevalence-in-canada-provincial-seroprevalence-estimates-en-webpage",
+        "file_name": "citf-seroprevalence-in-canada-provincial-seroprevalence-estimates-en-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: Seroprevalence by province over time",
+          "meta_url": "https://www.covid19immunitytaskforce.ca/seroprevalence-in-canada/",
+          "meta_url_name": "COVID-19 Immunity Task Force - Seroprevalence in Canada",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 Immunity Task Force - Seroprevalence in Canada - British Columbia (webpage)",
+        "uuid": "8cd25413-03fb-4773-9c59-868e24dc5b73",
+        "active": "True",
+        "url": "https://www.covid19immunitytaskforce.ca/wp-content/uploads/2021/10/seroprevalence-by-province-over-time-british-columbia.html",
+        "dir_parent": "can",
+        "dir_file": "citf-seroprevalence-in-canada-seroprevalence-by-province-over-time-british-columbia-webpage",
+        "file_name": "citf-seroprevalence-in-canada-seroprevalence-by-province-over-time-british-columbia-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: British Columbia",
+          "meta_url": "https://www.covid19immunitytaskforce.ca/seroprevalence-in-canada/",
+          "meta_url_name": "COVID-19 Immunity Task Force - Seroprevalence in Canada",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 Immunity Task Force - Seroprevalence in Canada - Alberta (webpage)",
+        "uuid": "b976836d-d827-47e2-b5bd-94e9848ef2ea",
+        "active": "True",
+        "url": "https://www.covid19immunitytaskforce.ca/wp-content/uploads/2021/10/seroprevalence-by-province-over-time-alberta.html",
+        "dir_parent": "can",
+        "dir_file": "citf-seroprevalence-in-canada-seroprevalence-by-province-over-time-alberta-webpage",
+        "file_name": "citf-seroprevalence-in-canada-seroprevalence-by-province-over-time-alberta-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: Alberta",
+          "meta_url": "https://www.covid19immunitytaskforce.ca/seroprevalence-in-canada/",
+          "meta_url_name": "COVID-19 Immunity Task Force - Seroprevalence in Canada",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 Immunity Task Force - Seroprevalence in Canada - Saskatchewan (webpage)",
+        "uuid": "b598be0e-7a8b-468e-86cd-8b135517ce50",
+        "active": "True",
+        "url": "https://www.covid19immunitytaskforce.ca/wp-content/uploads/2021/10/seroprevalence-by-province-over-time-saskatchewan.html",
+        "dir_parent": "can",
+        "dir_file": "citf-seroprevalence-in-canada-seroprevalence-by-province-over-time-saskatchewan-webpage",
+        "file_name": "citf-seroprevalence-in-canada-seroprevalence-by-province-over-time-saskatchewan-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: Saskatchewan",
+          "meta_url": "https://www.covid19immunitytaskforce.ca/seroprevalence-in-canada/",
+          "meta_url_name": "COVID-19 Immunity Task Force - Seroprevalence in Canada",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 Immunity Task Force - Seroprevalence in Canada - Manitoba (webpage)",
+        "uuid": "2de7bb57-419b-4aa3-a9b7-77839c682575",
+        "active": "True",
+        "url": "https://www.covid19immunitytaskforce.ca/wp-content/uploads/2021/10/seroprevalence-by-province-over-time-manitoba.html",
+        "dir_parent": "can",
+        "dir_file": "citf-seroprevalence-in-canada-seroprevalence-by-province-over-time-manitoba-webpage",
+        "file_name": "citf-seroprevalence-in-canada-seroprevalence-by-province-over-time-manitoba-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: Manitoba",
+          "meta_url": "https://www.covid19immunitytaskforce.ca/seroprevalence-in-canada/",
+          "meta_url_name": "COVID-19 Immunity Task Force - Seroprevalence in Canada",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 Immunity Task Force - Seroprevalence in Canada - Ontario (webpage)",
+        "uuid": "10b9e92f-dc08-439a-b865-c2a46fb3c050",
+        "active": "True",
+        "url": "https://www.covid19immunitytaskforce.ca/wp-content/uploads/2021/10/seroprevalence-by-province-over-time-ontario.html",
+        "dir_parent": "can",
+        "dir_file": "citf-seroprevalence-in-canada-seroprevalence-by-province-over-time-ontario-webpage",
+        "file_name": "citf-seroprevalence-in-canada-seroprevalence-by-province-over-time-ontario-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: Ontario",
+          "meta_url": "https://www.covid19immunitytaskforce.ca/seroprevalence-in-canada/",
+          "meta_url_name": "COVID-19 Immunity Task Force - Seroprevalence in Canada",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 Immunity Task Force - Seroprevalence in Canada - Quebec (webpage)",
+        "uuid": "26258dc2-5352-4834-9e07-fb576fa88e10",
+        "active": "True",
+        "url": "https://www.covid19immunitytaskforce.ca/wp-content/uploads/2021/10/seroprevalence-by-province-over-time-quebec.html",
+        "dir_parent": "can",
+        "dir_file": "citf-seroprevalence-in-canada-seroprevalence-by-province-over-time-quebec-webpage",
+        "file_name": "citf-seroprevalence-in-canada-seroprevalence-by-province-over-time-quebec-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: Quebec",
+          "meta_url": "https://www.covid19immunitytaskforce.ca/seroprevalence-in-canada/",
+          "meta_url_name": "COVID-19 Immunity Task Force - Seroprevalence in Canada",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 Immunity Task Force - Seroprevalence in Canada - Nova Scotia (webpage)",
+        "uuid": "b62d49a3-09f5-4135-ad4b-b52d9870ffd7",
+        "active": "True",
+        "url": "https://www.covid19immunitytaskforce.ca/wp-content/uploads/2021/10/seroprevalence-by-province-over-time-nova-scotia.html",
+        "dir_parent": "can",
+        "dir_file": "citf-seroprevalence-in-canada-seroprevalence-by-province-over-time-nova-scotia-webpage",
+        "file_name": "citf-seroprevalence-in-canada-seroprevalence-by-province-over-time-nova-scotia-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: Nova Scotia",
+          "meta_url": "https://www.covid19immunitytaskforce.ca/seroprevalence-in-canada/",
+          "meta_url_name": "COVID-19 Immunity Task Force - Seroprevalence in Canada",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 Immunity Task Force - Seroprevalence in Canada - Prince Edward Island (webpage)",
+        "uuid": "1794d512-f8ae-41c7-b542-eea3ff19a4ee",
+        "active": "True",
+        "url": "https://www.covid19immunitytaskforce.ca/wp-content/uploads/2021/10/seroprevalence-by-province-over-time-prince-edward-island.html",
+        "dir_parent": "can",
+        "dir_file": "citf-seroprevalence-in-canada-seroprevalence-by-province-over-time-prince-edward-island-webpage",
+        "file_name": "citf-seroprevalence-in-canada-seroprevalence-by-province-over-time-prince-edward-island-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: Prince Edward Island",
+          "meta_url": "https://www.covid19immunitytaskforce.ca/seroprevalence-in-canada/",
+          "meta_url_name": "COVID-19 Immunity Task Force - Seroprevalence in Canada",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 Immunity Task Force - Seroprevalence in Canada - Newfoundland (webpage)",
+        "uuid": "103b5fe5-e13b-44b7-adaa-cca415735f95",
+        "active": "True",
+        "url": "https://www.covid19immunitytaskforce.ca/wp-content/uploads/2021/10/seroprevalence-by-province-over-time-newfoundland.html",
+        "dir_parent": "can",
+        "dir_file": "citf-seroprevalence-in-canada-seroprevalence-by-province-over-time-newfoundland-webpage",
+        "file_name": "citf-seroprevalence-in-canada-seroprevalence-by-province-over-time-newfoundland-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: Newfoundland",
+          "meta_url": "https://www.covid19immunitytaskforce.ca/seroprevalence-in-canada/",
+          "meta_url_name": "COVID-19 Immunity Task Force - Seroprevalence in Canada",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 Immunity Task Force - Seroprevalence in Canada - New Brunswick (webpage)",
+        "uuid": "8dc9b40c-a648-4b16-95ee-e4bb12e7946c",
+        "active": "True",
+        "url": "https://www.covid19immunitytaskforce.ca/wp-content/uploads/2021/10/seroprevalence-by-province-over-time-new-brunswick.html",
+        "dir_parent": "can",
+        "dir_file": "citf-seroprevalence-in-canada-seroprevalence-by-province-over-time-new-brunswick-webpage",
+        "file_name": "citf-seroprevalence-in-canada-seroprevalence-by-province-over-time-new-brunswick-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: New Brunswick",
+          "meta_url": "https://www.covid19immunitytaskforce.ca/seroprevalence-in-canada/",
+          "meta_url_name": "COVID-19 Immunity Task Force - Seroprevalence in Canada",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 Immunity Task Force - Seroprevalence in Canada - Seroprevalence due to infection by age in Canada (webpage)",
+        "uuid": "5a5eaf4d-0bbe-423b-bae9-594d23665a35",
+        "active": "True",
+        "url": "https://www.covid19immunitytaskforce.ca/wp-content/uploads/2021/10/anti-n-estimates-by-age.html",
+        "dir_parent": "can",
+        "dir_file": "citf-seroprevalence-in-canada-anti-n-estimates-by-age-webpage",
+        "file_name": "citf-seroprevalence-in-canada-anti-n-estimates-by-age-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: Seroprevalence due to infection by age in Canada",
+          "meta_url": "https://www.covid19immunitytaskforce.ca/seroprevalence-in-canada/",
+          "meta_url_name": "COVID-19 Immunity Task Force - Seroprevalence in Canada",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 Immunity Task Force - Seroprevalence in Canada - Infection-acquired seroprevalence over time in Canada (webpage)",
+        "uuid": "2c491e6a-b7f5-4bd4-8e29-b695f2c345d9",
+        "active": "True",
+        "url": "https://www.covid19immunitytaskforce.ca/wp-content/uploads/2021/10/detailed-anti-N-estimates-by-pop.html",
+        "dir_parent": "can",
+        "dir_file": "citf-seroprevalence-in-canada-detailed-anti-N-estimates-by-pop-webpage",
+        "file_name": "citf-seroprevalence-in-canada-detailed-anti-N-estimates-by-pop-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: Infection-acquired seroprevalence over time in Canada",
+          "meta_url": "https://www.covid19immunitytaskforce.ca/seroprevalence-in-canada/",
+          "meta_url_name": "COVID-19 Immunity Task Force - Seroprevalence in Canada",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 Immunity Task Force - Seroprevalence in Canada - Seroprevalence by socioeconomic status over time - Canada (excluding Quebec and the Territories) (webpage)",
+        "uuid": "b1a054ea-02a6-472c-8358-84486c0439d9",
+        "active": "True",
+        "url": "https://www.covid19immunitytaskforce.ca/wp-content/uploads/2021/10/seroprevalence-by-socioeconomic-status-over-time-for-canada-excluding-quebec-and-territories.html",
+        "dir_parent": "can",
+        "dir_file": "citf-seroprevalence-in-canada-seroprevalence-by-socioeconomic-status-over-time-for-canada-excluding-quebec-and-territories-webpage",
+        "file_name": "citf-seroprevalence-in-canada-seroprevalence-by-socioeconomic-status-over-time-for-canada-excluding-quebec-and-territories-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: Seroprevalence by socioeconomic status over time - Canada (excluding Quebec and the Territories)",
+          "meta_url": "https://www.covid19immunitytaskforce.ca/seroprevalence-in-canada/",
+          "meta_url_name": "COVID-19 Immunity Task Force - Seroprevalence in Canada",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 Immunity Task Force - Seroprevalence in Canada - Seroprevalence by socioeconomic status over time - Quebec (webpage)",
+        "uuid": "31b7ea49-80fa-4127-a945-495ad8ab49f2",
+        "active": "True",
+        "url": "https://www.covid19immunitytaskforce.ca/wp-content/uploads/2021/10/seroprevalence-by-socioeconomic-status-over-time-quebec.html",
+        "dir_parent": "can",
+        "dir_file": "citf-seroprevalence-in-canada-seroprevalence-by-socioeconomic-status-over-time-quebec-webpage",
+        "file_name": "citf-seroprevalence-in-canada-seroprevalence-by-socioeconomic-status-over-time-quebec-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: Seroprevalence by socioeconomic status over time - Quebec",
+          "meta_url": "https://www.covid19immunitytaskforce.ca/seroprevalence-in-canada/",
+          "meta_url_name": "COVID-19 Immunity Task Force - Seroprevalence in Canada",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 Immunity Task Force - Seroprevalence in Canada - Seroprevalence by socioeconomic status over time - Quebec - Ratio approach (webpage)",
+        "uuid": "f75d89be-86df-4548-b052-7b0be6c29d92",
+        "active": "True",
+        "url": "https://www.covid19immunitytaskforce.ca/wp-content/uploads/2021/10/seroprevalence-by-socioeconomic-status-over-time-quebec-ratio.html",
+        "dir_parent": "can",
+        "dir_file": "citf-seroprevalence-in-canada-seroprevalence-by-socioeconomic-status-over-time-quebec-ratio-webpage",
+        "file_name": "citf-seroprevalence-in-canada-seroprevalence-by-socioeconomic-status-over-time-quebec-ratio-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: Seroprevalence in Canada - Seroprevalence by socioeconomic status over time - Quebec - Ratio approach",
+          "meta_url": "https://www.covid19immunitytaskforce.ca/seroprevalence-in-canada/",
+          "meta_url_name": "COVID-19 Immunity Task Force - Seroprevalence in Canada",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 Immunity Task Force - Seroprevalence in Canada - Seroprevalence by race, month, and source of antibodies for Canada (excluding Quebec and the Territories) (webpage)",
+        "uuid": "2ad6f18f-60b9-4aec-b0df-59bd73d9c3df",
+        "active": "True",
+        "url": "https://www.covid19immunitytaskforce.ca/wp-content/uploads/2021/10/seroprevalence-by-racial-group-over-time-for-canada-excluding-quebec-and-territories.html",
+        "dir_parent": "can",
+        "dir_file": "citf-seroprevalence-in-canada-seroprevalence-by-racial-group-over-time-for-canada-excluding-quebec-and-territories-webpage",
+        "file_name": "citf-seroprevalence-in-canada-seroprevalence-by-racial-group-over-time-for-canada-excluding-quebec-and-territories-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: Seroprevalence by race, month, and source of antibodies for Canada (excluding Quebec and the Territories)",
+          "meta_url": "https://www.covid19immunitytaskforce.ca/seroprevalence-in-canada/",
+          "meta_url_name": "COVID-19 Immunity Task Force - Seroprevalence in Canada",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
       }
     ],
     "mb": [
