@@ -10065,6 +10065,31 @@
         "notes": {}
       }
     ],
+    "other/nb": [
+      {
+        "id_name": "Other: NB - COVID-19 in New Brunswick Schools: List of Schools Impacted by Covid",
+        "uuid": "ea06c40a-ac18-4dcb-9d3a-4988e818ab36",
+        "active": "True",
+        "url": "https://newbrunswickschools.wordpress.com/2022/09/15/update-september-15-2022/",
+        "dir_parent": "other/nb",
+        "dir_file": "nb-covid-schools-list-of-schools",
+        "file_name": "nb-covid-schools-list-of-schools",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID-19 in New Brunswick Schools: List of Schools Impacted by Covid",
+          "meta_url": "https://newbrunswickschools.wordpress.com/",
+          "meta_url_name": "COVID-19 in New Brunswick Schools",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "New Brunswick"
+        },
+        "notes": {}
+      }
+    ],
     "other/on": [],
     "other/qc": [
       {
