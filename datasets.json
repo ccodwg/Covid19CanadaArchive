@@ -6562,6 +6562,204 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Public Health Ontario: COVID-19 Wastewater Surveillance in Ontario - Webpage",
+        "uuid": "15ae9f5e-7a79-427f-b08a-c4c4b7545555",
+        "active": "True",
+        "url": "https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/COVID-19-Data-Surveillance/Wastewater",
+        "dir_parent": "on",
+        "dir_file": "pho-wastewater-surveillance-webpage",
+        "file_name": "pho-wastewater-surveillance-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/COVID-19-Data-Surveillance/Wastewater",
+          "meta_url_name": "Public Health Ontario: COVID-19 Wastewater Surveillance in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Public Health Ontario: COVID-19 Wastewater Surveillance in Ontario - Province",
+        "uuid": "8161f3d0-5805-4056-bfbe-a0335b9dd957",
+        "active": "True",
+        "url": "https://www.publichealthontario.ca/-/media/Images/OPHESAC-Science-Table/COVID-19-Wastewater-Signals/en/province-wastewater-graphic.png",
+        "dir_parent": "on",
+        "dir_file": "pho-wastewater-surveillance-province",
+        "file_name": "province-wastewater-graphic",
+        "file_ext": "png",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: Province",
+          "meta_url": "https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/COVID-19-Data-Surveillance/Wastewater",
+          "meta_url_name": "Public Health Ontario: COVID-19 Wastewater Surveillance in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Public Health Ontario: COVID-19 Wastewater Surveillance in Ontario - North",
+        "uuid": "c41e4e3f-9d95-45d5-85c7-41d8bcc39c13",
+        "active": "True",
+        "url": "https://www.publichealthontario.ca/-/media/Images/OPHESAC-Science-Table/COVID-19-Wastewater-Signals/en/north-wastewater-graphic.png",
+        "dir_parent": "on",
+        "dir_file": "pho-wastewater-surveillance-north",
+        "file_name": "north-wastewater-graphic",
+        "file_ext": "png",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: North",
+          "meta_url": "https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/COVID-19-Data-Surveillance/Wastewater",
+          "meta_url_name": "Public Health Ontario: COVID-19 Wastewater Surveillance in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Public Health Ontario: COVID-19 Wastewater Surveillance in Ontario - Central East, excluding GTA",
+        "uuid": "c7149f83-b147-4e64-b936-0ea794d0b70c",
+        "active": "True",
+        "url": "https://www.publichealthontario.ca/-/media/Images/OPHESAC-Science-Table/COVID-19-Wastewater-Signals/en/central-east-wastewater-graphic.png",
+        "dir_parent": "on",
+        "dir_file": "pho-wastewater-surveillance-central-east-excluding-gta",
+        "file_name": "central-east-wastewater-graphic",
+        "file_ext": "png",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: Central East, excluding GTA",
+          "meta_url": "https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/COVID-19-Data-Surveillance/Wastewater",
+          "meta_url_name": "Public Health Ontario: COVID-19 Wastewater Surveillance in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Public Health Ontario: COVID-19 Wastewater Surveillance in Ontario - Eastern",
+        "uuid": "71cb6476-ee65-4195-aefe-7532a16c16a1",
+        "active": "True",
+        "url": "https://www.publichealthontario.ca/-/media/Images/OPHESAC-Science-Table/COVID-19-Wastewater-Signals/en/eastern-wastewater-graphic.png",
+        "dir_parent": "on",
+        "dir_file": "pho-wastewater-surveillance-eastern",
+        "file_name": "eastern-wastewater-graphic",
+        "file_ext": "png",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: Eastern",
+          "meta_url": "https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/COVID-19-Data-Surveillance/Wastewater",
+          "meta_url_name": "Public Health Ontario: COVID-19 Wastewater Surveillance in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Public Health Ontario: COVID-19 Wastewater Surveillance in Ontario - South West",
+        "uuid": "67a885b2-7f18-444a-93c7-b08cc0de37e0",
+        "active": "True",
+        "url": "https://www.publichealthontario.ca/-/media/Images/OPHESAC-Science-Table/COVID-19-Wastewater-Signals/en/south-west-wastewater-graphic.png",
+        "dir_parent": "on",
+        "dir_file": "pho-wastewater-surveillance-south-west",
+        "file_name": "south-west-wastewater-graphic",
+        "file_ext": "png",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: South West",
+          "meta_url": "https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/COVID-19-Data-Surveillance/Wastewater",
+          "meta_url_name": "Public Health Ontario: COVID-19 Wastewater Surveillance in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Public Health Ontario: COVID-19 Wastewater Surveillance in Ontario - GTA",
+        "uuid": "c2841456-86d2-4f52-bccc-ae68bcaa09b9",
+        "active": "True",
+        "url": "https://www.publichealthontario.ca/-/media/Images/OPHESAC-Science-Table/COVID-19-Wastewater-Signals/en/gta-wastewater-graphic.png",
+        "dir_parent": "on",
+        "dir_file": "pho-wastewater-surveillance-gta",
+        "file_name": "gta-wastewater-graphic",
+        "file_ext": "png",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: GTA",
+          "meta_url": "https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/COVID-19-Data-Surveillance/Wastewater",
+          "meta_url_name": "Public Health Ontario: COVID-19 Wastewater Surveillance in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Public Health Ontario: COVID-19 Wastewater Surveillance in Ontario - Central West, excluding GTA",
+        "uuid": "ab7e2dfc-8326-44ea-aa4d-a6dd82e5152f",
+        "active": "True",
+        "url": "https://www.publichealthontario.ca/-/media/Images/OPHESAC-Science-Table/COVID-19-Wastewater-Signals/en/central-west-wastewater-graphic.png",
+        "dir_parent": "on",
+        "dir_file": "pho-wastewater-surveillance-central-west-excluding-gta",
+        "file_name": "central-west-wastewater-graphic",
+        "file_ext": "png",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure: Central West, excluding GTA",
+          "meta_url": "https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/COVID-19-Data-Surveillance/Wastewater",
+          "meta_url_name": "Public Health Ontario: COVID-19 Wastewater Surveillance in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Ontario"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - ICES dashboard vaccine coverage estimates for selected age groups by FSA",
         "uuid": "cd168371-86f5-41f3-9555-580cd50f9b3a",
         "active": "True",
