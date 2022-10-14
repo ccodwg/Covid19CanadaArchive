@@ -839,10 +839,10 @@
         "notes": {}
       },
       {
-        "id_name": "BC - Dashboard case time series by Health Service Delivery Area (Interior)",
+        "id_name": "BC - Dashboard case time series by Health Service Delivery Area (Interior) (up to 2022-10-08)",
         "uuid": "a8637b6c-babf-48cd-aeab-2f38c713f596",
         "active": "True",
-        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BCCOVID19_Dashboard_Regional_Summary_Data/FeatureServer/0/query?f=json&where=(HA=%27Interior%27%20and%20HSDA=%27All%27)&returnGeometry=false&outFields=*&orderByFields=Date%20desc",
+        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BCCOVID19_Dashboard_Regional_Summary_Data/FeatureServer/0/query?f=json&where=(HA=%27Interior%27%20and%20HSDA=%27All%27%20and%20Date%3C=timestamp%20%272022-10-08%2007%3A00%3A00%27)&returnGeometry=false&outFields=*&orderByFields=Date%20desc",
         "dir_parent": "bc",
         "dir_file": "case-time-series-by-hsda-interior",
         "file_name": "BCCOVID19_Dashboard_Regional_Summary_Data",
@@ -851,7 +851,7 @@
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Dashboard case time series by Health Service Delivery Area (Interior)",
+          "meta_name": "Dashboard case time series by Health Service Delivery Area (Interior) (up to 2022-10-08)",
           "meta_url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
           "meta_url_name": "British Columbia COVID-19 Dashboard",
           "meta_licence": "",
@@ -863,10 +863,10 @@
         }
       },
       {
-        "id_name": "BC - Dashboard case time series by Health Service Delivery Area (Fraser)",
+        "id_name": "BC - Dashboard case time series by Health Service Delivery Area (Fraser) (up to 2022-10-08)",
         "uuid": "f7cd5492-f23b-45a5-9d9b-118ac2b47529",
         "active": "True",
-        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BCCOVID19_Dashboard_Regional_Summary_Data/FeatureServer/0/query?f=json&where=(HA=%27Fraser%27%20and%20HSDA=%27All%27)&returnGeometry=false&outFields=*&orderByFields=Date%20desc",
+        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BCCOVID19_Dashboard_Regional_Summary_Data/FeatureServer/0/query?f=json&where=(HA=%27Fraser%27%20and%20HSDA=%27All%27%20and%20Date%3C=timestamp%20%272022-10-08%2007%3A00%3A00%27)&returnGeometry=false&outFields=*&orderByFields=Date%20desc",
         "dir_parent": "bc",
         "dir_file": "case-time-series-by-hsda-fraser",
         "file_name": "BCCOVID19_Dashboard_Regional_Summary_Data",
@@ -875,7 +875,7 @@
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Dashboard case time series by Health Service Delivery Area (Fraser)",
+          "meta_name": "Dashboard case time series by Health Service Delivery Area (Fraser) (up to 2022-10-08)",
           "meta_url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
           "meta_url_name": "British Columbia COVID-19 Dashboard",
           "meta_licence": "",
@@ -887,10 +887,10 @@
         }
       },
       {
-        "id_name": "BC - Dashboard case time series by Health Service Delivery Area (Vancouver Coastal)",
+        "id_name": "BC - Dashboard case time series by Health Service Delivery Area (Vancouver Coastal) (up to 2022-10-08)",
         "uuid": "1ad7ef1b-1b02-4d5c-aec2-4923ea100e97",
         "active": "True",
-        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BCCOVID19_Dashboard_Regional_Summary_Data/FeatureServer/0/query?f=json&where=(HA=%27Vancouver%20Coastal%27%20and%20HSDA=%27All%27)&returnGeometry=false&outFields=*&orderByFields=Date%20desc",
+        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BCCOVID19_Dashboard_Regional_Summary_Data/FeatureServer/0/query?f=json&where=(HA=%27Vancouver%20Coastal%27%20and%20HSDA=%27All%27%20and%20Date%3C=timestamp%20%272022-10-08%2007%3A00%3A00%27)&returnGeometry=false&outFields=*&orderByFields=Date%20desc",
         "dir_parent": "bc",
         "dir_file": "case-time-series-by-hsda-vancouver-coastal",
         "file_name": "BCCOVID19_Dashboard_Regional_Summary_Data",
@@ -899,7 +899,7 @@
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Dashboard case time series by Health Service Delivery Area (Vancouver Coastal)",
+          "meta_name": "Dashboard case time series by Health Service Delivery Area (Vancouver Coastal) (up to 2022-10-08)",
           "meta_url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
           "meta_url_name": "British Columbia COVID-19 Dashboard",
           "meta_licence": "",
@@ -911,10 +911,10 @@
         }
       },
       {
-        "id_name": "BC - Dashboard case time series by Health Service Delivery Area (Vancouver Island)",
+        "id_name": "BC - Dashboard case time series by Health Service Delivery Area (Vancouver Island) (up to 2022-10-08)",
         "uuid": "89b48da6-bed9-4cd4-824c-8b6d82ffba24",
         "active": "True",
-        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BCCOVID19_Dashboard_Regional_Summary_Data/FeatureServer/0/query?f=json&where=(HA=%27Vancouver%20Island%27%20and%20HSDA=%27All%27)&returnGeometry=false&outFields=*&orderByFields=Date%20desc",
+        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BCCOVID19_Dashboard_Regional_Summary_Data/FeatureServer/0/query?f=json&where=(HA=%27Vancouver%20Island%27%20and%20HSDA=%27All%27%20and%20Date%3C=timestamp%20%272022-10-08%2007%3A00%3A00%27)&returnGeometry=false&outFields=*&orderByFields=Date%20desc",
         "dir_parent": "bc",
         "dir_file": "case-time-series-by-hsda-vancouver-island",
         "file_name": "BCCOVID19_Dashboard_Regional_Summary_Data",
@@ -923,7 +923,7 @@
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Dashboard case time series by Health Service Delivery Area (Vancouver Island)",
+          "meta_name": "Dashboard case time series by Health Service Delivery Area (Vancouver Island) (up to 2022-10-08)",
           "meta_url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
           "meta_url_name": "British Columbia COVID-19 Dashboard",
           "meta_licence": "",
@@ -935,10 +935,10 @@
         }
       },
       {
-        "id_name": "BC - Dashboard case time series by Health Service Delivery Area (Northern)",
+        "id_name": "BC - Dashboard case time series by Health Service Delivery Area (Northern) (up to 2022-10-08)",
         "uuid": "def3aca2-3595-4d70-a5d2-d51f78912dda",
         "active": "True",
-        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BCCOVID19_Dashboard_Regional_Summary_Data/FeatureServer/0/query?f=json&where=(HA=%27Northern%27%20and%20HSDA=%27All%27)&returnGeometry=false&outFields=*&orderByFields=Date%20desc",
+        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BCCOVID19_Dashboard_Regional_Summary_Data/FeatureServer/0/query?f=json&where=(HA=%27Northern%27%20and%20HSDA=%27All%27%20and%20Date%3C=timestamp%20%272022-10-08%2007%3A00%3A00%27)&returnGeometry=false&outFields=*&orderByFields=Date%20desc",
         "dir_parent": "bc",
         "dir_file": "case-time-series-by-hsda-northern",
         "file_name": "BCCOVID19_Dashboard_Regional_Summary_Data",
@@ -947,7 +947,7 @@
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Dashboard case time series by Health Service Delivery Area (Northern)",
+          "meta_name": "Dashboard case time series by Health Service Delivery Area (Northern) (up to 2022-10-08)",
           "meta_url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
           "meta_url_name": "British Columbia COVID-19 Dashboard",
           "meta_licence": "",
@@ -959,10 +959,10 @@
         }
       },
       {
-        "id_name": "BC - Dashboard case time series by Health Service Delivery Area (Out of Canada)",
+        "id_name": "BC - Dashboard case time series by Health Service Delivery Area (Out of Canada) (up to 2022-10-08)",
         "uuid": "c0ab9514-92ea-4dda-b714-bab9985e58be",
         "active": "True",
-        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BCCOVID19_Dashboard_Regional_Summary_Data/FeatureServer/0/query?f=json&where=(HA=%27Out%20of%20Canada%27%20and%20HSDA=%27Out%20of%20Canada%27)&returnGeometry=false&outFields=*&orderByFields=Date%20desc",
+        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BCCOVID19_Dashboard_Regional_Summary_Data/FeatureServer/0/query?f=json&where=(HA=%27Out%20of%20Canada%27%20and%20HSDA=%27Out%20of%20Canada%27%20and%20Date%3C=timestamp%20%272022-10-08%2007%3A00%3A00%27)&returnGeometry=false&outFields=*&orderByFields=Date%20desc",
         "dir_parent": "bc",
         "dir_file": "case-time-series-by-hsda-out-of-canada",
         "file_name": "BCCOVID19_Dashboard_Regional_Summary_Data",
@@ -971,7 +971,151 @@
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Dashboard case time series by Health Service Delivery Area (Out of Canada)",
+          "meta_name": "Dashboard case time series by Health Service Delivery Area (Out of Canada) (up to 2022-10-08)",
+          "meta_url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
+          "meta_url_name": "British Columbia COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {
+          "notes_data": "This time series was created because the parent time series (4f9dc8b7-7b42-450e-a741-a0f6a621d2af) has a record limit of 1,000."
+        }
+      },
+      {
+        "id_name": "BC - Dashboard case time series by Health Service Delivery Area (Interior) (2022-10-09 and later)",
+        "uuid": "878c0e41-ec21-4bd5-87e8-3b4a5969de84",
+        "active": "True",
+        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BCCOVID19_Dashboard_Regional_Summary_Data/FeatureServer/0/query?f=json&where=(HA=%27Interior%27%20and%20HSDA=%27All%27%20and%20Date%3Etimestamp%20%272022-10-08%2007%3A00%3A00%27)&returnGeometry=false&outFields=*&orderByFields=Date%20desc",
+        "dir_parent": "bc",
+        "dir_file": "case-time-series-by-hsda-interior-2022-10-09",
+        "file_name": "BCCOVID19_Dashboard_Regional_Summary_Data",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dashboard case time series by Health Service Delivery Area (Interior) (2022-10-09 and later)",
+          "meta_url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
+          "meta_url_name": "British Columbia COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {
+          "notes_data": "This time series was created because the parent time series (4f9dc8b7-7b42-450e-a741-a0f6a621d2af) has a record limit of 1,000."
+        }
+      },
+      {
+        "id_name": "BC - Dashboard case time series by Health Service Delivery Area (Fraser) (2022-10-09 and later)",
+        "uuid": "29c5a1e0-2f4d-409d-b10a-d6a62caad835",
+        "active": "True",
+        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BCCOVID19_Dashboard_Regional_Summary_Data/FeatureServer/0/query?f=json&where=(HA=%27Fraser%27%20and%20HSDA=%27All%27%20and%20Date%3Etimestamp%20%272022-10-08%2007%3A00%3A00%27)&returnGeometry=false&outFields=*&orderByFields=Date%20desc",
+        "dir_parent": "bc",
+        "dir_file": "case-time-series-by-hsda-fraser-2022-10-09",
+        "file_name": "BCCOVID19_Dashboard_Regional_Summary_Data",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dashboard case time series by Health Service Delivery Area (Fraser) (2022-10-09 and later)",
+          "meta_url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
+          "meta_url_name": "British Columbia COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {
+          "notes_data": "This time series was created because the parent time series (4f9dc8b7-7b42-450e-a741-a0f6a621d2af) has a record limit of 1,000."
+        }
+      },
+      {
+        "id_name": "BC - Dashboard case time series by Health Service Delivery Area (Vancouver Coastal) (2022-10-09 and later)",
+        "uuid": "635e4440-a4a3-457b-ac0f-7511f567afda",
+        "active": "True",
+        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BCCOVID19_Dashboard_Regional_Summary_Data/FeatureServer/0/query?f=json&where=(HA=%27Vancouver%20Coastal%27%20and%20HSDA=%27All%27%20and%20Date%3Etimestamp%20%272022-10-08%2007%3A00%3A00%27)&returnGeometry=false&outFields=*&orderByFields=Date%20desc",
+        "dir_parent": "bc",
+        "dir_file": "case-time-series-by-hsda-vancouver-coastal-2022-10-09",
+        "file_name": "BCCOVID19_Dashboard_Regional_Summary_Data",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dashboard case time series by Health Service Delivery Area (Vancouver Coastal) (2022-10-09 and later)",
+          "meta_url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
+          "meta_url_name": "British Columbia COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {
+          "notes_data": "This time series was created because the parent time series (4f9dc8b7-7b42-450e-a741-a0f6a621d2af) has a record limit of 1,000."
+        }
+      },
+      {
+        "id_name": "BC - Dashboard case time series by Health Service Delivery Area (Vancouver Island) (2022-10-09 and later)",
+        "uuid": "2111db2e-f894-40ad-b7ad-aeea0c851a51",
+        "active": "True",
+        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BCCOVID19_Dashboard_Regional_Summary_Data/FeatureServer/0/query?f=json&where=(HA=%27Vancouver%20Island%27%20and%20HSDA=%27All%27%20and%20Date%3Etimestamp%20%272022-10-08%2007%3A00%3A00%27)&returnGeometry=false&outFields=*&orderByFields=Date%20desc",
+        "dir_parent": "bc",
+        "dir_file": "case-time-series-by-hsda-vancouver-island-2022-10-09",
+        "file_name": "BCCOVID19_Dashboard_Regional_Summary_Data",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dashboard case time series by Health Service Delivery Area (Vancouver Island) (2022-10-09 and later)",
+          "meta_url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
+          "meta_url_name": "British Columbia COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {
+          "notes_data": "This time series was created because the parent time series (4f9dc8b7-7b42-450e-a741-a0f6a621d2af) has a record limit of 1,000."
+        }
+      },
+      {
+        "id_name": "BC - Dashboard case time series by Health Service Delivery Area (Northern) (2022-10-09 and later)",
+        "uuid": "b8aa2bec-cad8-45cf-901b-79f9f9aad545",
+        "active": "True",
+        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BCCOVID19_Dashboard_Regional_Summary_Data/FeatureServer/0/query?f=json&where=(HA=%27Northern%27%20and%20HSDA=%27All%27%20and%20Date%3Etimestamp%20%272022-10-08%2007%3A00%3A00%27)&returnGeometry=false&outFields=*&orderByFields=Date%20desc",
+        "dir_parent": "bc",
+        "dir_file": "case-time-series-by-hsda-northern-2022-10-09",
+        "file_name": "BCCOVID19_Dashboard_Regional_Summary_Data",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dashboard case time series by Health Service Delivery Area (Northern) (2022-10-09 and later)",
+          "meta_url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
+          "meta_url_name": "British Columbia COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {
+          "notes_data": "This time series was created because the parent time series (4f9dc8b7-7b42-450e-a741-a0f6a621d2af) has a record limit of 1,000."
+        }
+      },
+      {
+        "id_name": "BC - Dashboard case time series by Health Service Delivery Area (Out of Canada) (2022-10-09 and later)",
+        "uuid": "f056e795-1502-43f2-b87d-603aac0edf05",
+        "active": "True",
+        "url": "https://services1.arcgis.com/xeMpV7tU1t4KD3Ei/arcgis/rest/services/BCCOVID19_Dashboard_Regional_Summary_Data/FeatureServer/0/query?f=json&where=(HA=%27Out%20of%20Canada%27%20and%20HSDA=%27Out%20of%20Canada%27%20and%20Date%3Etimestamp%20%272022-10-08%2007%3A00%3A00%27)&returnGeometry=false&outFields=*&orderByFields=Date%20desc",
+        "dir_parent": "bc",
+        "dir_file": "case-time-series-by-hsda-out-of-canada-2022-10-09",
+        "file_name": "BCCOVID19_Dashboard_Regional_Summary_Data",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dashboard case time series by Health Service Delivery Area (Out of Canada) (2022-10-09 and later)",
           "meta_url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
           "meta_url_name": "British Columbia COVID-19 Dashboard",
           "meta_licence": "",
