@@ -332,6 +332,28 @@
         "notes": {}
       },
       {
+        "id_name": "BC - BCCDC Respiratory Diseases (webpage)",
+        "uuid": "a7f0ecce-2b7a-4564-851c-d65769a2a8cf",
+        "active": "True",
+        "url": "http://www.bccdc.ca/health-professionals/data-reports/respiratory-diseases",
+        "dir_parent": "bc",
+        "dir_file": "bccdc-respiratory-diseases-webpage",
+        "file_name": "bccdc-respiratory-diseases-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "http://www.bccdc.ca/health-professionals/data-reports/respiratory-diseases",
+          "meta_url_name": "BCCDC Respiratory Diseases",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "BC - BC COVID-19 Data (Case data)",
         "uuid": "ab6abe51-c9b1-4093-b625-93de1ddb6302",
         "active": "True",
