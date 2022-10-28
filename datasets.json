@@ -4003,6 +4003,28 @@
         "notes": {}
       },
       {
+        "id_name": "CAN - COVID-19 Immunity Task Force - Seroprevalence in Canada - Dataset",
+        "uuid": "d6c26190-f273-4917-993a-20d5f3bb20d6",
+        "active": "True",
+        "url": "https://www.covid19immunitytaskforce.ca/wp-content/uploads/2021/10/citf-seroprevalence-in-canada-data.xlsx",
+        "dir_parent": "can",
+        "dir_file": "citf-seroprevalence-in-canada-dataset",
+        "file_name": "citf-seroprevalence-in-canada-dataset",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://www.covid19immunitytaskforce.ca/seroprevalence-in-canada/",
+          "meta_url_name": "COVID-19 Immunity Task Force - Seroprevalence in Canada",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "CAN - COVID-19 Immunity Task Force - Seroprevalence in Canada - Anti-nucleocapsid seropositivity for all age groups, combined, by region (webpage)",
         "uuid": "6c4c0945-babe-48f4-a656-992cf815b8c5",
         "active": "True",
