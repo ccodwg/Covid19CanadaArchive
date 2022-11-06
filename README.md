@@ -35,16 +35,16 @@ A note about data from Quebec: when both French and English data files are avail
 
 The easiest way to explore the data in the archive and download individual files is the aforementioned [Data Explorer](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/).
 
-The files in the archive are hosted under the following domain: [https://data.opencovid.ca.s3.amazonaws.com/archive/](https://data.opencovid.ca.s3.amazonaws.com/archive/). For example, the PHAC Epidemiology Update from November 4, 2020 may be downloaded at the following URL:
+The files in the archive are hosted under the following domain: [https://data.opencovid.ca/archive](https://data.opencovid.ca/archive). For example, the PHAC Epidemiology Update from November 4, 2020 may be downloaded at the following URL:
 
 ```
-https://data.opencovid.ca.s3.amazonaws.com/archive/can/epidemiology-update-2/covid19-download_2020-11-04_23-38.csv
+https://data.opencovid.ca/archive/can/epidemiology-update-2/covid19-download_2020-11-04_23-38.csv
 ```
 
 A complete index of files in the archive, including flags for duplicated files and corrected file dates (`file_data_true`), is available at the following URL:
 
 ```
-https://data.opencovid.ca.s3.amazonaws.com/archive/file_index.csv
+https://data.opencovid.ca/archive/file_index.csv
 ```
 
 This index is refreshed nightly around 23:00 ET. The file index is a searchable spreadsheet containing the download links to all files in the archive. Any programming language can be used to easily download a list of files.
@@ -58,8 +58,6 @@ https://api.opencovid.ca/archive?uuid=f7db31d0-6504-4a55-86f7-608664517bdb
 The API is not yet documented but will soon be added to [https://opencovid.ca/api/](https://opencovid.ca/api/).
 
 Finally, the entire contents of the archive are accessible via the R package [`Covid19CanadaData`](https://github.com/ccodwg/Covid19CanadaData) using the function `dl_archive`, which interfaces with the API described above. Be aware that this package is undergoing rapid development and may change at any time.
-
-Please note that the data in this archive were previously hosted on Google Drive. This product has been discontinued and all further data updates will occur on the [data.opencovid.ca](http://data.opencovid.ca/archive/index.html#archive/) site.
 
 ## Contributing
 
