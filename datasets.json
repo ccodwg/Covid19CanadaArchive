@@ -10062,6 +10062,28 @@
         "notes": {}
       },
       {
+        "id_name": "YT - Historical COVID-19 data dashboard - Cases by vaccine status weekly time series",
+        "uuid": "726b50ba-daa7-4d0a-b3ed-b86ddc965270",
+        "active": "True",
+        "url": "https://open.yukon.ca/sites/default/files/cases_by_vax_status_2022-11-01.csv",
+        "dir_parent": "yt",
+        "dir_file": "cases-by-vaccine-status-weekly-time-series-historical",
+        "file_name": "cases_by_vax_status_2022-11-01",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases by vaccine status weekly time series",
+          "meta_url": "https://open.yukon.ca/information/publications/historical-covid-19-dashboard-data",
+          "meta_url_name": "Historical COVID-19 Dashboard Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Yukon"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "YT - COVID-19 data dashboard - Cases time series",
         "uuid": "8eb9a22f-a2c0-4bdb-8f6c-ef8134901efe",
         "active": "True",
@@ -10077,6 +10099,28 @@
           "meta_name": "Cases time series",
           "meta_url": "https://covid-19-data-dashboard.service.yukon.ca/",
           "meta_url_name": "COVID-19 data dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Yukon"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "YT - Historical COVID-19 data dashboard - Cases time series",
+        "uuid": "da39e741-b37d-4d18-99c1-a47bcddf1769",
+        "active": "True",
+        "url": "https://open.yukon.ca/sites/default/files/cases_time_trend_2022-11-01.csv",
+        "dir_parent": "yt",
+        "dir_file": "cases-time-series-historical",
+        "file_name": "cases_time_trend_2022-11-01",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases time series",
+          "meta_url": "https://open.yukon.ca/information/publications/historical-covid-19-dashboard-data",
+          "meta_url_name": "Historical COVID-19 Dashboard Data",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Yukon"
@@ -10106,6 +10150,28 @@
         "notes": {}
       },
       {
+        "id_name": "YT - Historical COVID-19 data dashboard - Cumulative and active cases by community",
+        "uuid": "9a331cbb-232c-4709-85fa-fc2400bb87a2",
+        "active": "True",
+        "url": "https://open.yukon.ca/sites/default/files/community_cases_2022-11-01.csv",
+        "dir_parent": "yt",
+        "dir_file": "cumulative-and-active-cases-by-community-historical",
+        "file_name": "community_cases_2022-11-01",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cumulative and active cases by community",
+          "meta_url": "https://open.yukon.ca/information/publications/historical-covid-19-dashboard-data",
+          "meta_url_name": "Historical COVID-19 Dashboard Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Yukon"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "YT - COVID-19 data dashboard - Daily current stats",
         "uuid": "9c29c29f-fd38-45d5-a471-9bfb95abb683",
         "active": "True",
@@ -10121,6 +10187,28 @@
           "meta_name": "Daily current stats",
           "meta_url": "https://covid-19-data-dashboard.service.yukon.ca/",
           "meta_url_name": "COVID-19 data dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Yukon"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "YT - Historical COVID-19 data dashboard - Daily current stats",
+        "uuid": "dbb2c80d-cbcc-4652-bd10-36a0468dddc7",
+        "active": "True",
+        "url": "https://open.yukon.ca/sites/default/files/daily_current_stats_2022-11-01.csv",
+        "dir_parent": "yt",
+        "dir_file": "daily-current-stats-historical",
+        "file_name": "daily_current_stats_2022-11-01",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Daily current stats",
+          "meta_url": "https://open.yukon.ca/information/publications/historical-covid-19-dashboard-data",
+          "meta_url_name": "Historical COVID-19 Dashboard Data",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Yukon"
@@ -10150,6 +10238,28 @@
         "notes": {}
       },
       {
+        "id_name": "YT - Historical COVID-19 data dashboard - Case rate by vaccination status monthly time series",
+        "uuid": "5d3998e5-eea7-4580-b156-2bdc4c5c7b68",
+        "active": "True",
+        "url": "https://open.yukon.ca/sites/default/files/case_rate_doses_2022-11-01.csv",
+        "dir_parent": "yt",
+        "dir_file": "case-rate-by-vaccination-status-monthly-time-series-historical",
+        "file_name": "case_rate_doses_2022-11-01",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Case rate by vaccination status monthly time series",
+          "meta_url": "https://open.yukon.ca/information/publications/historical-covid-19-dashboard-data",
+          "meta_url_name": "Historical COVID-19 Dashboard Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Yukon"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "YT - COVID-19 data dashboard - Vaccine coverage by gender",
         "uuid": "0a59cfff-4ad6-4f3f-8fef-a954dc720a79",
         "active": "True",
@@ -10165,6 +10275,28 @@
           "meta_name": "Vaccine coverage by gender",
           "meta_url": "https://covid-19-data-dashboard.service.yukon.ca/",
           "meta_url_name": "COVID-19 data dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Yukon"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "YT - Historical COVID-19 data dashboard - Vaccine coverage by gender",
+        "uuid": "b676048e-8912-463c-991e-23efd60c8104",
+        "active": "True",
+        "url": "https://open.yukon.ca/sites/default/files/vax_by_sex_2022-11-01.csv",
+        "dir_parent": "yt",
+        "dir_file": "vaccine-coverage-by-gender-historical",
+        "file_name": "vax_by_sex_2022-11-01",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine coverage by gender",
+          "meta_url": "https://open.yukon.ca/information/publications/historical-covid-19-dashboard-data",
+          "meta_url_name": "Historical COVID-19 Dashboard Data",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Yukon"
@@ -10194,6 +10326,28 @@
         "notes": {}
       },
       {
+        "id_name": "YT - Historical COVID-19 data dashboard - Vaccine coverage by age group",
+        "uuid": "e404e23c-3619-4827-8bc7-8c5e5deeeeba",
+        "active": "True",
+        "url": "https://open.yukon.ca/sites/default/files/vax_by_age_group_2022-11-01.csv",
+        "dir_parent": "yt",
+        "dir_file": "vaccine-coverage-by-age-group-historical",
+        "file_name": "vax_by_age_group_2022-11-01",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine coverage by age group",
+          "meta_url": "https://open.yukon.ca/information/publications/historical-covid-19-dashboard-data",
+          "meta_url_name": "Historical COVID-19 Dashboard Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Yukon"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "YT - COVID-19 data dashboard - Vaccine coverage by community and age group",
         "uuid": "18b561ad-aa06-4dec-b786-06691afca600",
         "active": "True",
@@ -10209,6 +10363,28 @@
           "meta_name": "Vaccine coverage by community and age group",
           "meta_url": "https://covid-19-data-dashboard.service.yukon.ca/",
           "meta_url_name": "COVID-19 data dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Yukon"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "YT - Historical COVID-19 data dashboard - Vaccine coverage by community and age group",
+        "uuid": "427cb241-608b-441b-97a8-0669a92d4d82",
+        "active": "True",
+        "url": "https://open.yukon.ca/sites/default/files/community_vaccines_2022-11-01.csv",
+        "dir_parent": "yt",
+        "dir_file": "vaccine-coverage-by-community-and-age-group-historical",
+        "file_name": "community_vaccines_2022-11-01",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine coverage by community and age group",
+          "meta_url": "https://open.yukon.ca/information/publications/historical-covid-19-dashboard-data",
+          "meta_url_name": "Historical COVID-19 Dashboard Data",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Yukon"
@@ -10238,6 +10414,28 @@
         "notes": {}
       },
       {
+        "id_name": "YT - Historical COVID-19 data dashboard - Testing time series",
+        "uuid": "df85acd3-c536-4b85-8ee1-5edcfde28a08",
+        "active": "True",
+        "url": "https://open.yukon.ca/sites/default/files/testing_time_trend_2022-11-01.csv",
+        "dir_parent": "yt",
+        "dir_file": "testing-time-series-historical",
+        "file_name": "testing_time_trend_2022-11-01",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Testing time series",
+          "meta_url": "https://open.yukon.ca/information/publications/historical-covid-19-dashboard-data",
+          "meta_url_name": "Historical COVID-19 Dashboard Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Yukon"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "YT - COVID-19 data dashboard - Hospitalization time series",
         "uuid": "2fb9f970-04e0-4502-ae4a-67ec866dcad9",
         "active": "True",
@@ -10253,6 +10451,28 @@
           "meta_name": "Hospitalization time series",
           "meta_url": "https://covid-19-data-dashboard.service.yukon.ca/",
           "meta_url_name": "COVID-19 data dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Yukon"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "YT - Historical COVID-19 data dashboard - Hospitalization time series",
+        "uuid": "d720af0b-070a-4f67-ba5e-b1393757ba79",
+        "active": "True",
+        "url": "https://open.yukon.ca/sites/default/files/hospitalizations_daily_2022-11-01.csv",
+        "dir_parent": "yt",
+        "dir_file": "hospitalization-time-series-historical",
+        "file_name": "hospitalizations_daily_2022-11-01",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Hospitalization time series",
+          "meta_url": "https://open.yukon.ca/information/publications/historical-covid-19-dashboard-data",
+          "meta_url_name": "Historical COVID-19 Dashboard Data",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Yukon"
