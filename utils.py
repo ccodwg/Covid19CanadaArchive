@@ -22,7 +22,7 @@ def list_inactive_datasets():
                   uuids.append(datasets[d][i]['uuid'])
   
   ## download file index
-  ind = pd.read_csv("http://data.opencovid.ca.s3-us-east-2.amazonaws.com/archive/file_index.csv")
+  ind = pd.read_csv("http://data.opencovid.ca/archive/file_index.csv")
 
   ## filter out datasets already marked as inactive
   ind = ind[ind['uuid'].isin(uuids)]
