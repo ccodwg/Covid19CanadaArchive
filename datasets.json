@@ -260,29 +260,6 @@
         "notes": {}
       },
       {
-        "id_name": "AB - COVID-19 in Alberta: Current cases by local geographic area (Edmonton)",
-        "uuid": "d0fe0532-73f0-4ac8-9b73-2afa43673946",
-        "active": "True",
-        "url": "https://data.edmonton.ca/api/views/ix8f-s9xp/rows.csv?accessType=DOWNLOAD",
-        "dir_parent": "ab",
-        "dir_file": "edmonton-cases-by-area",
-        "file_name": "COVID-19_in_Alberta__Current_cases_by_local_geographic_area",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Current cases by local geographic area",
-          "meta_url": "https://data.edmonton.ca/Community-Services/COVID-19-in-Alberta-Current-cases-by-local-geograp/ix8f-s9xp",
-          "meta_url_name": "COVID-19 in Alberta: Current cases by local geographic area (Edmonton)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Alberta",
-          "meta_group_2": "Edmonton"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "AB - Alberta Wastewater COVID-19 Tracker (webpage)",
         "uuid": "75eba13e-fc9b-4762-9c65-de7ed7285494",
         "active": "True",
@@ -446,135 +423,6 @@
         "notes": {}
       },
       {
-        "id_name": "BC - Public exposures (webpage)",
-        "uuid": "eb51ca24-d862-4ab9-85c7-7843a9f3cb75",
-        "active": "True",
-        "url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
-        "dir_parent": "bc",
-        "dir_file": "public-exposures-webpage",
-        "file_name": "public-exposures-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Public exposures webpage screenshot",
-          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
-          "meta_url_name": "COVID-19 Public Exposures",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "British Columbia"
-        },
-        "notes": {
-          "notes_data": "Warning: some early files are .png screenshots and named differently."
-        }
-      },
-      {
-        "id_name": "BC - Public exposures: regional exposure events (Fraser webpage)",
-        "uuid": "f6e71f39-eba3-4630-acaa-30433ee7d53c",
-        "active": "True",
-        "url": "https://www.fraserhealth.ca/covid19exposure",
-        "dir_parent": "bc",
-        "dir_file": "regional-exposure-events-fraser-webpage",
-        "file_name": "regional-exposure-events-fraser-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Public exposures Fraser webpage",
-          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
-          "meta_url_name": "COVID-19 Public Exposures",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "British Columbia"
-        },
-        "notes": {
-          "notes_data": "Warning: some early files are .png screenshots and named differently."
-        }
-      },
-      {
-        "id_name": "BC - Public exposures: regional exposure events (Interior webpage)",
-        "uuid": "7743fdfc-2ff7-417c-88a9-6899d532d8ab",
-        "active": "True",
-        "url": "https://www.interiorhealth.ca/health-and-wellness/disease-outbreaks/covid-19/public-exposures",
-        "dir_parent": "bc",
-        "dir_file": "regional-exposure-events-interior-webpage",
-        "file_name": "regional-exposure-events-interior-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Public exposures Interior webpage",
-          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
-          "meta_url_name": "COVID-19 Public Exposures",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "British Columbia"
-        },
-        "notes": {
-          "notes_data": "Warning: some early files are .png screenshots and named differently."
-        }
-      },
-      {
-        "id_name": "BC - Public exposures: regional exposure events (Island webpage)",
-        "uuid": "4517e966-04b8-45ea-b249-4d823694e0e2",
-        "active": "True",
-        "url": "https://www.islandhealth.ca/news/covid-19-outbreaks",
-        "dir_parent": "bc",
-        "dir_file": "regional-exposure-events-island-webpage",
-        "file_name": "regional-exposure-events-island-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Public exposures Island webpage",
-          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
-          "meta_url_name": "COVID-19 Public Exposures",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "British Columbia"
-        },
-        "notes": {
-          "notes_data": "Warning: some early files are .png screenshots and named differently. 2021-12-30: New URL ('https://www.islandhealth.ca/news/covid-19-outbreaks') covers outbreaks only. However, exposure URL ('https://www.islandhealth.ca/news/covid-19-exposures') has not had an updated since February 2021."
-        }
-      },
-      {
-        "id_name": "BC - Public exposures: regional exposure events (Northern webpage)",
-        "uuid": "5d2f5cd7-e6d4-4bd8-9885-3b5394669c80",
-        "active": "True",
-        "url": "https://www.northernhealth.ca/health-topics/public-exposures-and-outbreaks#covid-19-public-exposures#covid-19-communityfacility-outbreaks#non-covid-19-communityfacility-outbreaks",
-        "dir_parent": "bc",
-        "dir_file": "regional-exposure-events-northern-webpage",
-        "file_name": "regional-exposure-events-northern-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Public exposures Northern webpage",
-          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
-          "meta_url_name": "COVID-19 Public Exposures",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "British Columbia"
-        },
-        "notes": {
-          "notes_data": "Warning: some early files are .png screenshots and named differently."
-        }
-      },
-      {
         "id_name": "BC - Current outbreaks (Vancouver Coastal report)",
         "uuid": "dabfe0d8-a5ba-48ca-b02f-bd80918363bd",
         "active": "True",
@@ -640,57 +488,6 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "School exposures Interior webpage",
-          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
-          "meta_url_name": "COVID-19 Public Exposures",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "British Columbia"
-        },
-        "notes": {
-          "notes_data": "Warning: some early files are .png screenshots and named differently."
-        }
-      },
-      {
-        "id_name": "BC - Public exposures: school exposures (Island webpage)",
-        "uuid": "d3904d42-a08a-4820-b7d5-1a603a24b4ee",
-        "active": "True",
-        "url": "https://www.islandhealth.ca/learn-about-health/covid-19/schools",
-        "dir_parent": "bc",
-        "dir_file": "school-exposures-island-webpage",
-        "file_name": "school-exposures-island-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "School exposures Island webpage",
-          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
-          "meta_url_name": "COVID-19 Public Exposures",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "British Columbia"
-        },
-        "notes": {
-          "notes_data": "Warning: some early files are .png screenshots and named differently."
-        }
-      },
-      {
-        "id_name": "BC - Public exposures: school exposures (Northern webpage)",
-        "uuid": "c4073577-cfa4-4529-aae4-e9bbbf554509",
-        "active": "True",
-        "url": "https://www.northernhealth.ca/health-topics/public-exposures-and-outbreaks#covid-19-school-exposures",
-        "dir_parent": "bc",
-        "dir_file": "school-exposures-northern-webpage",
-        "file_name": "school-exposures-northern-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "School exposures Northern webpage",
           "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
           "meta_url_name": "COVID-19 Public Exposures",
           "meta_licence": "",
@@ -1644,31 +1441,6 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - Locations where you may have been exposed to COVID-19 (webpage)",
-        "uuid": "7110c65b-9cd4-4810-b65c-44473ac2beb6",
-        "active": "True",
-        "url": "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice/exposure-flights-cruise-ships-mass-gatherings.html",
-        "dir_parent": "can",
-        "dir_file": "can-potential-exposures-webpage",
-        "file_name": "can-potential-exposures-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice/exposure-flights-cruise-ships-mass-gatherings.html",
-          "meta_url_name": "Coronavirus disease (COVID-19): Locations where you may have been exposed to COVID-19",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "CAN - Monkeypox: Outbreak update (webpage)",
         "uuid": "091968c8-6b63-4a6f-999e-0508935c34f3",
         "active": "True",
@@ -2028,50 +1800,6 @@
           "meta_name": "Canadian Critical Care Society hospital and ICU counts",
           "meta_url": "https://canadiancriticalcare.org/COVID-19-Case-Counts",
           "meta_url_name": "COVID-19 Canada Case Counts (Hospital Vs. ICU)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - CIHI - COVID-19 Intervention Scan (English)",
-        "uuid": "25086ee8-6b82-4132-940f-85f3ea1d09e1",
-        "active": "True",
-        "url": "https://www.cihi.ca/sites/default/files/document/covid-19-intervention-scan-data-tables-en.xlsx",
-        "dir_parent": "can",
-        "dir_file": "cihi-covid-intervention-scan-en",
-        "file_name": "scan-data-tables-covid-19-intervention-en",
-        "file_ext": "xlsx",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "CIHI - COVID-19 Intervention Scan (English)",
-          "meta_url": "https://www.cihi.ca/en/covid-19-resources/cihis-covid-19-data-and-information",
-          "meta_url_name": "CIHI's COVID-19 data and information",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - CIHI - COVID-19 Intervention Scan (French)",
-        "uuid": "a2b4d3a5-2aae-41bc-be5f-423f11bb357a",
-        "active": "True",
-        "url": "https://www.cihi.ca/sites/default/files/document/covid-19-intervention-scan-data-tables-fr.xlsx",
-        "dir_parent": "can",
-        "dir_file": "cihi-covid-intervention-scan-fr",
-        "file_name": "scan-data-tables-covid-19-intervention-fr",
-        "file_ext": "xlsx",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "CIHI - COVID-19 Intervention Scan (French)",
-          "meta_url": "https://www.cihi.ca/fr/ressources-sur-la-covid-19/donnees-et-information-de-licis-sur-la-covid-19",
-          "meta_url_name": "Données et information de l'ICIS sur la COVID-19",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -2530,54 +2258,6 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Cases by age group and sex",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Cases by probable exposure setting)",
-        "uuid": "9c8fc3bf-b5ec-4c56-bb8e-add6c71ddf41",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-probableexposure2.csv",
-        "dir_parent": "can",
-        "dir_file": "cases-by-probable-exposure-setting",
-        "file_name": "covid19-epiSummary-probableexposure2",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases by probable exposure setting",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Cases by probable expsoure setting by province)",
-        "uuid": "a29a2831-8a45-49ba-8359-a87c59029185",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-exposureByPT.csv",
-        "dir_parent": "can",
-        "dir_file": "cases-by-probable-exposure-setting-and-province",
-        "file_name": "covid19-epiSummary-exposureByPT",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases by probable expsoure setting by province",
           "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
           "meta_url_name": "COVID-19 daily epidemiology update",
           "meta_licence": "",
@@ -3418,30 +3098,6 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination coverage by province (update date)",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
-          "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - Vaccination coverage: Vaccination statements",
-        "uuid": "8bc07886-2405-473e-bd96-44f7a7985d8e",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-statements.csv",
-        "dir_parent": "can",
-        "dir_file": "vaccination-statements",
-        "file_name": "vaccination-statements",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Vaccination statements",
           "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
           "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
           "meta_licence": "",
@@ -4547,28 +4203,6 @@
           "meta_group_1": "Manitoba"
         },
         "notes": {}
-      },
-      {
-        "id_name": "MB - COVID-19 Outbreaks (webpage)",
-        "uuid": "48526eac-fa66-4d57-904b-81babc17f8a2",
-        "active": "True",
-        "url": "https://www.gov.mb.ca/covid19/prs/index.html",
-        "dir_parent": "mb",
-        "dir_file": "mb-outbreaks-webpage",
-        "file_name": "mb-outbreaks-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://www.gov.mb.ca/covid19/prs/index.html",
-          "meta_url_name": "COVID-19 Outbreaks",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba"
-        },
-        "notes": {}
       }
     ],
     "nb": [
@@ -5541,28 +5175,6 @@
         "notes": {}
       },
       {
-        "id_name": "ON - 2022: Child Care Centre Closures",
-        "uuid": "d832054c-125b-4d53-ab07-8593c4e14608",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/5bf54477-6147-413f-bab0-312f06fcb388/resource/92019110-15b2-4457-ba45-11dd18c11180/download/lccclosures2022.csv",
-        "dir_parent": "on",
-        "dir_file": "licensed-child-care-centre-closures-2022",
-        "file_name": "lccclosures2022",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "2022: Child Care Centre Closures",
-          "meta_url": "https://data.ontario.ca/dataset/summary-of-cases-in-licensed-child-care-settings",
-          "meta_url_name": "Licensed child care settings COVID-19 data",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "ON - COVID-19 Vaccine data",
         "uuid": "170057c4-3231-4f15-9438-2165c5438dda",
         "active": "True",
@@ -5620,96 +5232,6 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccine data by Public Health Unit and by age",
-          "meta_url": "https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario",
-          "meta_url_name": "COVID-19 Vaccine Data in Ontario",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Cases and rates by vaccination status (old)",
-        "uuid": "5104fade-9c4c-4287-8c68-c88eb3f78a57",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/eed63cf2-83dd-4598-b337-b288c0a89a16/download/vac_status.csv",
-        "dir_parent": "on",
-        "dir_file": "hospitalizations-and-cases-by-vaccination-status",
-        "file_name": "vac_status",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases and rates by vaccination status (old)",
-          "meta_url": "https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario",
-          "meta_url_name": "COVID-19 Vaccine Data in Ontario",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {
-          "notes_data": "This file contained hospitalizations and cases until 2021-08-20, when hospitalizations were split into a separate dataset (UUID: 5da7b5e8-4e34-4f51-90f4-37275d978401). On 2021-08-27, case rates per 100,000k were added. This dataset is now a duplicate of UUID: 042826c4-f833-4454-91eb-bbee8701b0dd."
-        }
-      },
-      {
-        "id_name": "ON - Case rates by vaccination status and age group",
-        "uuid": "f095fd6f-5c93-44aa-985b-d6feb993f39c",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/c08620e0-a055-4d35-8cec-875a459642c3/download/cases_by_age_vac_status.csv",
-        "dir_parent": "on",
-        "dir_file": "case-rates-by-vaccination-status-and-age-group",
-        "file_name": "cases_by_age_vac_status",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Case rates by vaccination status and age group",
-          "meta_url": "https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario",
-          "meta_url_name": "COVID-19 Vaccine Data in Ontario",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Cases and rates by vaccination status",
-        "uuid": "042826c4-f833-4454-91eb-bbee8701b0dd",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/eed63cf2-83dd-4598-b337-b288c0a89a16/download/cases_by_vac_status.csv",
-        "dir_parent": "on",
-        "dir_file": "cases-and-rates-by-vaccination-status",
-        "file_name": "cases_by_vac_status",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases and rates by vaccination status",
-          "meta_url": "https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario",
-          "meta_url_name": "COVID-19 Vaccine Data in Ontario",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Hospitalizations by vaccination status",
-        "uuid": "5da7b5e8-4e34-4f51-90f4-37275d978401",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/274b819c-5d69-4539-a4db-f2950794138c/download/vac_status_hosp_icu.csv",
-        "dir_parent": "on",
-        "dir_file": "hospitalizations-by-vaccination-status",
-        "file_name": "vac_status_hosp_icu",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Hospitalizations by vaccination status",
           "meta_url": "https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario",
           "meta_url_name": "COVID-19 Vaccine Data in Ontario",
           "meta_licence": "",
@@ -5778,72 +5300,6 @@
           "meta_name": "Dataset",
           "meta_url": "https://data.ontario.ca/en/dataset/availability-of-adult-icu-beds-and-occupancy-for-covid-related-critical-illness-crci",
           "meta_url_name": "Availability of adult and pediatric ICU beds and occupancy for COVID-related critical illness (CRCI)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Enhanced vaccine certificate downloads",
-        "uuid": "cb10c1ee-ca79-43be-86df-e750d00e001b",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/26adecbb-dea9-41b6-a493-7ef5f8a0b951/resource/6282f89a-aa70-4f13-93fd-d6e3c0834597/download/qr_download.csv",
-        "dir_parent": "on",
-        "dir_file": "verify-ontario-vaccine-certificate-downloads",
-        "file_name": "qr_download",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Enhanced vaccine certificate downloads",
-          "meta_url": "https://data.ontario.ca/en/dataset/verify-ontario-download-and-usage-data",
-          "meta_url_name": "Verify Ontario and enhanced vaccine certificate download and usage data",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Verify Ontario app results",
-        "uuid": "916e20e0-ec4a-49d1-81be-74cb37b8c4b1",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/26adecbb-dea9-41b6-a493-7ef5f8a0b951/resource/96dfca7a-d89b-45de-9e51-fe6933024902/download/scan_results.csv",
-        "dir_parent": "on",
-        "dir_file": "verify-ontario-app-results",
-        "file_name": "scan_results",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Verify Ontario app results",
-          "meta_url": "https://data.ontario.ca/en/dataset/verify-ontario-download-and-usage-data",
-          "meta_url_name": "Verify Ontario and enhanced vaccine certificate download and usage data",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Verify Ontario downloads",
-        "uuid": "d8023d30-926e-4d84-b11f-63269490ccdf",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/26adecbb-dea9-41b6-a493-7ef5f8a0b951/resource/22f68fa9-13be-4ef7-896f-3eed5ac8b1db/download/app_download_data.csv",
-        "dir_parent": "on",
-        "dir_file": "verify-ontario-app-downloads",
-        "file_name": "app_download_data",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Verify Ontario downloads",
-          "meta_url": "https://data.ontario.ca/en/dataset/verify-ontario-download-and-usage-data",
-          "meta_url_name": "Verify Ontario and enhanced vaccine certificate download and usage data",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario"
@@ -6519,31 +5975,6 @@
           "meta_name": "Summary",
           "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance/covid-19-data-tool?tab=summary",
           "meta_url_name": "Ontario COVID-19 Data Tool",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Public Health Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "Public Health Ontario: COVID-19 Data and Surveillance - Daily epidemiologic summary",
-        "uuid": "6eee7470-216f-4332-84ab-8d28875688d6",
-        "active": "True",
-        "url": "https://www.publichealthontario.ca/-/media/documents/ncov/epi/covid-19-daily-epi-summary-report.pdf?sc_lang=en",
-        "dir_parent": "on",
-        "dir_file": "pho-daily-epi-summary-report",
-        "file_name": "covid-19-daily-epi-summary-report",
-        "file_ext": "pdf",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Daily epidemiologic summary",
-          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance",
-          "meta_url_name": "Public Health Ontario: COVID-19 Data and Surveillance",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario",
@@ -7342,29 +6773,6 @@
         "notes": {}
       },
       {
-        "id_name": "ON - Ottawa Estimated Reproduction Number in Ottawa",
-        "uuid": "8eb16d5a-9de4-4b76-ac37-ece0f5ac2bff",
-        "active": "True",
-        "url": "https://www.arcgis.com/sharing/rest/content/items/d010a848b6e54f4990d60a202f2f2f99/data",
-        "dir_parent": "on",
-        "dir_file": "ottawa-estimated-rt",
-        "file_name": "EN_-_Covid-19_Reproduction_Number,_R(t)",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Estimated Reproduction Number in Ottawa",
-          "meta_url": "https://www.ottawapublichealth.ca/en/reports-research-and-statistics/daily-covid19-dashboard.aspx",
-          "meta_url_name": "Daily COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Ottawa"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "ON - Ottawa Testing - Ottawa Residents",
         "uuid": "e1a76cbe-3a1f-49fc-aa56-f09292eafb35",
         "active": "True",
@@ -7380,167 +6788,6 @@
           "meta_name": "Ottawa Residents",
           "meta_url": "https://www.ottawapublichealth.ca/en/reports-research-and-statistics/daily-covid19-dashboard.aspx",
           "meta_url_name": "Daily COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Ottawa"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Ottawa Data tables for Public COVID-19 Maps",
-        "uuid": "c561f688-bf5d-4997-b8af-ea60df901a57",
-        "active": "True",
-        "url": "https://www.arcgis.com/sharing/rest/content/items/ae347819064d45489ed732306f959a7e/data",
-        "dir_parent": "on",
-        "dir_file": "ottawa-wards-cases-cumulative",
-        "file_name": "COVID19_MapPublic_DataTables_EN",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Data tables for Public COVID-19 Maps",
-          "meta_url": "https://www.ottawapublichealth.ca/en/reports-research-and-statistics/daily-covid19-dashboard.aspx",
-          "meta_url_name": "Daily COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Ottawa"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Ottawa vaccine dashboard - COVID-19 Vaccine Administration by Vaccine Type by Day in Ottawa (CSV)",
-        "uuid": "cf44d4b8-ceaa-4bbc-b1c6-451b71eeccdd",
-        "active": "True",
-        "url": "https://opendata.arcgis.com/api/v3/datasets/691e786f545349c6a4f23341ddfcad41_0/downloads/data?format=csv&spatialRefId=4326",
-        "dir_parent": "on",
-        "dir_file": "ottawa-vaccine-administration-by-vaccine-type-by-day-csv",
-        "file_name": "COVID-19_Vaccine_Administration_by_Vaccine_Type_by_Day_in_Ottawa",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "COVID-19 Vaccine Administration by Vaccine Type by Day in Ottawa (CSV)",
-          "meta_url": "https://www.ottawapublichealth.ca/en/reports-research-and-statistics/COVID-19_Vaccination_Dashboard.aspx",
-          "meta_url_name": "COVID-19 Vaccination Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Ottawa"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Ottawa vaccine dashboard - COVID-19 Vaccine Administration by Vaccine Type and Dose in Ottawa (CSV)",
-        "uuid": "7df67033-6123-406a-b13f-adce74a91287",
-        "active": "True",
-        "url": "https://opendata.arcgis.com/api/v3/datasets/ca08618f0a7f4b79857c52308033711f_0/downloads/data?format=csv&spatialRefId=4326",
-        "dir_parent": "on",
-        "dir_file": "ottawa-vaccine-administration-by-vaccine-type-and-dose-csv",
-        "file_name": "COVID-19_Vaccine_Administration_by_Vaccine_Type_and_Dose_in_Ottawa",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "COVID-19 Vaccine Administration by Vaccine Type and Dose in Ottawa (CSV)",
-          "meta_url": "https://www.ottawapublichealth.ca/en/reports-research-and-statistics/COVID-19_Vaccination_Dashboard.aspx",
-          "meta_url_name": "COVID-19 Vaccination Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Ottawa"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Ottawa vaccine dashboard - COVID-19 Vaccine Coverage by Day and Location of Vaccination for Ottawa Residents (CSV)",
-        "uuid": "aa092b5f-5794-4b37-a9d5-160e06de5c61",
-        "active": "True",
-        "url": "https://opendata.arcgis.com/api/v3/datasets/f3a180567bb448309d3c2338b857fe98_0/downloads/data?format=csv&spatialRefId=4326",
-        "dir_parent": "on",
-        "dir_file": "ottawa-vaccine-coverage-by-day-and-location-of-vaccination-for-ottawa-residents-csv",
-        "file_name": "COVID-19_Vaccine_Coverage_by_Day_and_Location_of_Vaccination_for_Ottawa_Residents",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "COVID-19 Vaccine Coverage by Day and Location of Vaccination for Ottawa Residents (CSV)",
-          "meta_url": "https://www.ottawapublichealth.ca/en/reports-research-and-statistics/COVID-19_Vaccination_Dashboard.aspx",
-          "meta_url_name": "COVID-19 Vaccination Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Ottawa"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Ottawa vaccine dashboard - COVID-19 Vaccine Coverage by Age and Location of Vaccination for Ottawa Residents (CSV)",
-        "uuid": "b7683d1c-f214-4b10-b638-c9754c322463",
-        "active": "True",
-        "url": "https://opendata.arcgis.com/api/v3/datasets/c711844754b64083bee13226a9bf21e7_0/downloads/data?format=csv&spatialRefId=4326",
-        "dir_parent": "on",
-        "dir_file": "ottawa-vaccine-coverage-by-and-location-of-vaccination-for-ottawa-residents-csv",
-        "file_name": "COVID-19_Vaccine_Coverage_by_Age_and_Location_of_Vaccination_for_Ottawa_Residents",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "COVID-19 Vaccine Coverage by Age and Location of Vaccination for Ottawa Residents (CSV)",
-          "meta_url": "https://www.ottawapublichealth.ca/en/reports-research-and-statistics/COVID-19_Vaccination_Dashboard.aspx",
-          "meta_url_name": "COVID-19 Vaccination Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Ottawa"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Ottawa vaccine dashboard - COVID-19 Vaccine Coverage by Day by Age by Dose for Ottawa Residents (CSV)",
-        "uuid": "4c8a0931-9667-46dc-b7f3-730d74c2de85",
-        "active": "True",
-        "url": "https://opendata.arcgis.com/api/v3/datasets/fe3d9001fec04c4b826895417f89569a_0/downloads/data?format=csv&spatialRefId=4326",
-        "dir_parent": "on",
-        "dir_file": "ottawa-vaccine-coverage-by-day-by-age-by-dose-for-ottawa-residents-csv",
-        "file_name": "COVID-19_Vaccine_Coverage_by_Day_by_Age_by_Dose_for_Ottawa_Residents",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "COVID-19 Vaccine Coverage by Day by Age by Dose for Ottawa Residents (CSV)",
-          "meta_url": "https://www.ottawapublichealth.ca/en/reports-research-and-statistics/COVID-19_Vaccination_Dashboard.aspx",
-          "meta_url_name": "COVID-19 Vaccination Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Ottawa"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Ottawa vaccine dashboard - COVID-19 Vaccine Cumulative Coverage for Ottawa Residents (CSV)",
-        "uuid": "5a3dc39a-5bcc-456d-bbeb-c656e6b4f2c2",
-        "active": "True",
-        "url": "https://opendata.arcgis.com/api/v3/datasets/589557c1785b4f7381bcdd399edf8bfe_0/downloads/data?format=csv&spatialRefId=4326",
-        "dir_parent": "on",
-        "dir_file": "ottawa-vaccine-cumulative-coverage-for-ottawa-residents-csv",
-        "file_name": "COVID-19_Vaccine_Cumulative_Coverage_for_Ottawa_Residents",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "COVID-19 Vaccine Cumulative Coverage for Ottawa Residents (CSV)",
-          "meta_url": "https://www.ottawapublichealth.ca/en/reports-research-and-statistics/COVID-19_Vaccination_Dashboard.aspx",
-          "meta_url_name": "COVID-19 Vaccination Dashboard",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario",
@@ -8474,32 +7721,6 @@
         "notes": {
           "notes_data": "Some early files are .png screenshots and named differently."
         }
-      },
-      {
-        "id_name": "ON - Queen’s University Case Tracker (webpage)",
-        "uuid": "44c371e0-2883-4f16-88f5-173899ce1972",
-        "active": "True",
-        "url": "https://www.queensu.ca/safereturn/health-safety/case-tracker",
-        "dir_parent": "on",
-        "dir_file": "queens-university-case-tracker-webpage",
-        "file_name": "queens-university-case-tracker-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://www.queensu.ca/safereturn/health-safety/case-tracker",
-          "meta_url_name": "Queen’s University Case Tracker",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Ontario universities"
-        },
-        "notes": {}
       }
     ],
     "pe": [
@@ -8652,30 +7873,6 @@
         "notes": {}
       },
       {
-        "id_name": "QC - Dashboard on absenteeism in the education sector (FR)",
-        "uuid": "554df1c3-6644-4d99-bcf2-08586da88880",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/education/coronavirus/absenteisme-ecoles-covid-19.pdf",
-        "dir_parent": "qc",
-        "dir_file": "qc-covid-dashboard-education-absenteeism",
-        "file_name": "absenteisme-ecoles-covid-19",
-        "file_ext": "pdf",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dashboard on absenteeism in the education sector (PDF)",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
-          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "QC - Situation in Quebec",
         "uuid": "cad4b36c-e985-4347-8cda-c7f40907c76c",
         "active": "True",
@@ -8691,102 +7888,6 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Situation in Quebec",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
-          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Correctional facilities - cases among employees (FR)",
-        "uuid": "c71e9f8b-17f9-48aa-8924-2564aef85511",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/donnees-covid/donnees_covid_detention_employes_FR.csv",
-        "dir_parent": "qc",
-        "dir_file": "correctional-cases-employees",
-        "file_name": "donnees_covid_detention_employes_FR",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Correctional facilities - cases among employees (FR)",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
-          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Correctional facilities - cases among employees (EN)",
-        "uuid": "5c69cace-81da-4c21-abd0-bf3fb82bff98",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/donnees-covid/donnees_covid_detention_employes_EN.csv",
-        "dir_parent": "qc",
-        "dir_file": "correctional-cases-employees-en",
-        "file_name": "donnees_covid_detention_employes_EN",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Correctional facilities - cases among employees (EN)",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
-          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Correctional facilities - cases among detainees (FR)",
-        "uuid": "408e9e0a-3b54-4921-ab9a-0c495f1a64b1",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/donnees-covid/donnees_covid_detention_personnes_incarcerees_FR.csv",
-        "dir_parent": "qc",
-        "dir_file": "correctional-cases-detainees",
-        "file_name": "donnees_covid_detention_personnes_incarcerees_FR",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Correctional facilities - cases among detainees (FR)",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
-          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Correctional facilities - cases among detainees (EN)",
-        "uuid": "3b67bebb-3654-4b86-9091-0d2da0084273",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/donnees-covid/donnees_covid_detention_personnes_incarcerees_EN.csv",
-        "dir_parent": "qc",
-        "dir_file": "correctional-cases-detainees-en",
-        "file_name": "donnees_covid_detention_personnes_incarcerees_EN",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Correctional facilities - cases among detainees (EN)",
           "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
           "meta_url_name": "Données sur la COVID-19 au Québec (province)",
           "meta_licence": "",
@@ -9017,30 +8118,6 @@
         "notes": {}
       },
       {
-        "id_name": "QC - Cumulative vaccination adverse events by vaccine type",
-        "uuid": "d78f27a0-4669-4582-93df-09eb6eba60b9",
-        "active": "True",
-        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/vaccination-mci.csv",
-        "dir_parent": "qc",
-        "dir_file": "cumulative-vaccination-adverse-events-by-vaccine-type",
-        "file_name": "vaccination-mci",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cumulative vaccination adverse events by vaccine type",
-          "meta_url": "https://www.inspq.qc.ca/covid-19/donnees/vaccination",
-          "meta_url_name": "Données de vaccination contre la COVID-19 au Québec",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "QC - Historique du portrait quotidien des cas confirmés",
         "uuid": "d546a7f6-27ac-4305-bad6-b04435211e79",
         "active": "True",
@@ -9142,50 +8219,6 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Doses administered by age group",
-          "meta_url": "https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-de-la-vaccination",
-          "meta_url_name": "COVID-19 - Portrait quotidien de la vaccination",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Portrait des rendez-vous à venir pour une 1ère dose par région d'administration",
-        "uuid": "db0b45b4-d407-48f1-8644-3d5778bca86e",
-        "active": "True",
-        "url": "https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_RDVVaccination_RegionAdministration.csv",
-        "dir_parent": "qc",
-        "dir_file": "first-vaccine-dose-appointments-by-rss",
-        "file_name": "COVID19_Qc_RDVVaccination_RegionAdministration",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Upcoming first dose appointments by region of administration",
-          "meta_url": "https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-de-la-vaccination",
-          "meta_url_name": "COVID-19 - Portrait quotidien de la vaccination",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Portrait des rendez-vous à venir pour une 1ère dose par groupe d’âge",
-        "uuid": "d48a7259-ae16-4512-8c34-86e969e070cb",
-        "active": "True",
-        "url": "https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_RDVVaccination_CatAge.csv",
-        "dir_parent": "qc",
-        "dir_file": "first-vaccine-dose-appointments-by-age-group",
-        "file_name": "COVID19_Qc_RDVVaccination_CatAge",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Upcoming 1st dose appointments by age group",
           "meta_url": "https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-de-la-vaccination",
           "meta_url_name": "COVID-19 - Portrait quotidien de la vaccination",
           "meta_licence": "",
@@ -10293,6 +9326,29 @@
         "notes": {
           "notes_data": "Some historical versions of this file may have misaligned/incorrect column names. Additionally, this file is missing for 2020-11-29."
         }
+      },
+      {
+        "id_name": "AB - COVID-19 in Alberta: Current cases by local geographic area (Edmonton)",
+        "uuid": "d0fe0532-73f0-4ac8-9b73-2afa43673946",
+        "active": "False",
+        "url": "https://data.edmonton.ca/api/views/ix8f-s9xp/rows.csv?accessType=DOWNLOAD",
+        "dir_parent": "ab",
+        "dir_file": "edmonton-cases-by-area",
+        "file_name": "COVID-19_in_Alberta__Current_cases_by_local_geographic_area",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Current cases by local geographic area",
+          "meta_url": "https://data.edmonton.ca/Community-Services/COVID-19-in-Alberta-Current-cases-by-local-geograp/ix8f-s9xp",
+          "meta_url_name": "COVID-19 in Alberta: Current cases by local geographic area (Edmonton)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Alberta",
+          "meta_group_2": "Edmonton"
+        },
+        "notes": {}
       }
     ],
     "bc": [
@@ -10521,6 +9577,186 @@
         },
         "notes": {
           "notes_data": "Warning: some early files are .png screenshots and named differently. Vancouver Coastal reported its first school outbreak on 2020-09-22. However, due to a change in the page format, the first day these data were captured in the dataset was 2020-10-05. Screenshots prior to this date ommit the list of schools. However, it is unlikely that any schools were removed from the list prior to it first being captured on 2020-10-05."
+        }
+      },
+      {
+        "id_name": "BC - Public exposures: regional exposure events (Northern webpage)",
+        "uuid": "5d2f5cd7-e6d4-4bd8-9885-3b5394669c80",
+        "active": "False",
+        "url": "https://www.northernhealth.ca/health-topics/public-exposures-and-outbreaks#covid-19-public-exposures#covid-19-communityfacility-outbreaks#non-covid-19-communityfacility-outbreaks",
+        "dir_parent": "bc",
+        "dir_file": "regional-exposure-events-northern-webpage",
+        "file_name": "regional-exposure-events-northern-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Public exposures Northern webpage",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
+          "meta_url_name": "COVID-19 Public Exposures",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {
+          "notes_data": "Warning: some early files are .png screenshots and named differently."
+        }
+      },
+      {
+        "id_name": "BC - Public exposures: school exposures (Northern webpage)",
+        "uuid": "c4073577-cfa4-4529-aae4-e9bbbf554509",
+        "active": "False",
+        "url": "https://www.northernhealth.ca/health-topics/public-exposures-and-outbreaks#covid-19-school-exposures",
+        "dir_parent": "bc",
+        "dir_file": "school-exposures-northern-webpage",
+        "file_name": "school-exposures-northern-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "School exposures Northern webpage",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
+          "meta_url_name": "COVID-19 Public Exposures",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {
+          "notes_data": "Warning: some early files are .png screenshots and named differently."
+        }
+      },
+      {
+        "id_name": "BC - Public exposures (webpage)",
+        "uuid": "eb51ca24-d862-4ab9-85c7-7843a9f3cb75",
+        "active": "False",
+        "url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
+        "dir_parent": "bc",
+        "dir_file": "public-exposures-webpage",
+        "file_name": "public-exposures-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Public exposures webpage screenshot",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
+          "meta_url_name": "COVID-19 Public Exposures",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {
+          "notes_data": "Warning: some early files are .png screenshots and named differently."
+        }
+      },
+      {
+        "id_name": "BC - Public exposures: regional exposure events (Fraser webpage)",
+        "uuid": "f6e71f39-eba3-4630-acaa-30433ee7d53c",
+        "active": "False",
+        "url": "https://www.fraserhealth.ca/covid19exposure",
+        "dir_parent": "bc",
+        "dir_file": "regional-exposure-events-fraser-webpage",
+        "file_name": "regional-exposure-events-fraser-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Public exposures Fraser webpage",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
+          "meta_url_name": "COVID-19 Public Exposures",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {
+          "notes_data": "Warning: some early files are .png screenshots and named differently."
+        }
+      },
+      {
+        "id_name": "BC - Public exposures: regional exposure events (Interior webpage)",
+        "uuid": "7743fdfc-2ff7-417c-88a9-6899d532d8ab",
+        "active": "False",
+        "url": "https://www.interiorhealth.ca/health-and-wellness/disease-outbreaks/covid-19/public-exposures",
+        "dir_parent": "bc",
+        "dir_file": "regional-exposure-events-interior-webpage",
+        "file_name": "regional-exposure-events-interior-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Public exposures Interior webpage",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
+          "meta_url_name": "COVID-19 Public Exposures",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {
+          "notes_data": "Warning: some early files are .png screenshots and named differently."
+        }
+      },
+      {
+        "id_name": "BC - Public exposures: regional exposure events (Island webpage)",
+        "uuid": "4517e966-04b8-45ea-b249-4d823694e0e2",
+        "active": "False",
+        "url": "https://www.islandhealth.ca/news/covid-19-outbreaks",
+        "dir_parent": "bc",
+        "dir_file": "regional-exposure-events-island-webpage",
+        "file_name": "regional-exposure-events-island-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Public exposures Island webpage",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
+          "meta_url_name": "COVID-19 Public Exposures",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {
+          "notes_data": "Warning: some early files are .png screenshots and named differently. 2021-12-30: New URL ('https://www.islandhealth.ca/news/covid-19-outbreaks') covers outbreaks only. However, exposure URL ('https://www.islandhealth.ca/news/covid-19-exposures') has not had an updated since February 2021."
+        }
+      },
+      {
+        "id_name": "BC - Public exposures: school exposures (Island webpage)",
+        "uuid": "d3904d42-a08a-4820-b7d5-1a603a24b4ee",
+        "active": "False",
+        "url": "https://www.islandhealth.ca/learn-about-health/covid-19/schools",
+        "dir_parent": "bc",
+        "dir_file": "school-exposures-island-webpage",
+        "file_name": "school-exposures-island-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "School exposures Island webpage",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
+          "meta_url_name": "COVID-19 Public Exposures",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {
+          "notes_data": "Warning: some early files are .png screenshots and named differently."
         }
       }
     ],
@@ -10901,6 +10137,147 @@
           "meta_name": "Mobility",
           "meta_url": "https://health-infobase.canada.ca/covid-19/covidtrends/",
           "meta_url_name": "COVIDTrends",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Vaccination coverage: Vaccination statements",
+        "uuid": "8bc07886-2405-473e-bd96-44f7a7985d8e",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-statements.csv",
+        "dir_parent": "can",
+        "dir_file": "vaccination-statements",
+        "file_name": "vaccination-statements",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination statements",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
+          "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 daily epidemiology update (Cases by probable exposure setting)",
+        "uuid": "9c8fc3bf-b5ec-4c56-bb8e-add6c71ddf41",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-probableexposure2.csv",
+        "dir_parent": "can",
+        "dir_file": "cases-by-probable-exposure-setting",
+        "file_name": "covid19-epiSummary-probableexposure2",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases by probable exposure setting",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
+          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 daily epidemiology update (Cases by probable expsoure setting by province)",
+        "uuid": "a29a2831-8a45-49ba-8359-a87c59029185",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-exposureByPT.csv",
+        "dir_parent": "can",
+        "dir_file": "cases-by-probable-exposure-setting-and-province",
+        "file_name": "covid19-epiSummary-exposureByPT",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases by probable expsoure setting by province",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
+          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - CIHI - COVID-19 Intervention Scan (English)",
+        "uuid": "25086ee8-6b82-4132-940f-85f3ea1d09e1",
+        "active": "False",
+        "url": "https://www.cihi.ca/sites/default/files/document/covid-19-intervention-scan-data-tables-en.xlsx",
+        "dir_parent": "can",
+        "dir_file": "cihi-covid-intervention-scan-en",
+        "file_name": "scan-data-tables-covid-19-intervention-en",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "CIHI - COVID-19 Intervention Scan (English)",
+          "meta_url": "https://www.cihi.ca/en/covid-19-resources/cihis-covid-19-data-and-information",
+          "meta_url_name": "CIHI's COVID-19 data and information",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - CIHI - COVID-19 Intervention Scan (French)",
+        "uuid": "a2b4d3a5-2aae-41bc-be5f-423f11bb357a",
+        "active": "False",
+        "url": "https://www.cihi.ca/sites/default/files/document/covid-19-intervention-scan-data-tables-fr.xlsx",
+        "dir_parent": "can",
+        "dir_file": "cihi-covid-intervention-scan-fr",
+        "file_name": "scan-data-tables-covid-19-intervention-fr",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "CIHI - COVID-19 Intervention Scan (French)",
+          "meta_url": "https://www.cihi.ca/fr/ressources-sur-la-covid-19/donnees-et-information-de-licis-sur-la-covid-19",
+          "meta_url_name": "Données et information de l'ICIS sur la COVID-19",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Locations where you may have been exposed to COVID-19 (webpage)",
+        "uuid": "7110c65b-9cd4-4810-b65c-44473ac2beb6",
+        "active": "False",
+        "url": "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice/exposure-flights-cruise-ships-mass-gatherings.html",
+        "dir_parent": "can",
+        "dir_file": "can-potential-exposures-webpage",
+        "file_name": "can-potential-exposures-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice/exposure-flights-cruise-ships-mass-gatherings.html",
+          "meta_url_name": "Coronavirus disease (COVID-19): Locations where you may have been exposed to COVID-19",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -12108,6 +11485,28 @@
           "meta_name": "Inventory, delivered, administered, scheduled",
           "meta_url": "https://www.gov.mb.ca/covid19/vaccine/reports.html",
           "meta_url_name": "Manitoba COVID-19 Vaccinations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "MB - COVID-19 Outbreaks (webpage)",
+        "uuid": "48526eac-fa66-4d57-904b-81babc17f8a2",
+        "active": "False",
+        "url": "https://www.gov.mb.ca/covid19/prs/index.html",
+        "dir_parent": "mb",
+        "dir_file": "mb-outbreaks-webpage",
+        "file_name": "mb-outbreaks-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.gov.mb.ca/covid19/prs/index.html",
+          "meta_url_name": "COVID-19 Outbreaks",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Manitoba"
@@ -15380,6 +14779,419 @@
           "meta_group_1": "Ontario"
         },
         "notes": {}
+      },
+      {
+        "id_name": "ON - Ottawa vaccine dashboard - COVID-19 Vaccine Administration by Vaccine Type by Day in Ottawa (CSV)",
+        "uuid": "cf44d4b8-ceaa-4bbc-b1c6-451b71eeccdd",
+        "active": "False",
+        "url": "https://opendata.arcgis.com/api/v3/datasets/691e786f545349c6a4f23341ddfcad41_0/downloads/data?format=csv&spatialRefId=4326",
+        "dir_parent": "on",
+        "dir_file": "ottawa-vaccine-administration-by-vaccine-type-by-day-csv",
+        "file_name": "COVID-19_Vaccine_Administration_by_Vaccine_Type_by_Day_in_Ottawa",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID-19 Vaccine Administration by Vaccine Type by Day in Ottawa (CSV)",
+          "meta_url": "https://www.ottawapublichealth.ca/en/reports-research-and-statistics/COVID-19_Vaccination_Dashboard.aspx",
+          "meta_url_name": "COVID-19 Vaccination Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Ottawa"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Ottawa vaccine dashboard - COVID-19 Vaccine Cumulative Coverage for Ottawa Residents (CSV)",
+        "uuid": "5a3dc39a-5bcc-456d-bbeb-c656e6b4f2c2",
+        "active": "False",
+        "url": "https://opendata.arcgis.com/api/v3/datasets/589557c1785b4f7381bcdd399edf8bfe_0/downloads/data?format=csv&spatialRefId=4326",
+        "dir_parent": "on",
+        "dir_file": "ottawa-vaccine-cumulative-coverage-for-ottawa-residents-csv",
+        "file_name": "COVID-19_Vaccine_Cumulative_Coverage_for_Ottawa_Residents",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID-19 Vaccine Cumulative Coverage for Ottawa Residents (CSV)",
+          "meta_url": "https://www.ottawapublichealth.ca/en/reports-research-and-statistics/COVID-19_Vaccination_Dashboard.aspx",
+          "meta_url_name": "COVID-19 Vaccination Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Ottawa"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Ottawa vaccine dashboard - COVID-19 Vaccine Coverage by Day by Age by Dose for Ottawa Residents (CSV)",
+        "uuid": "4c8a0931-9667-46dc-b7f3-730d74c2de85",
+        "active": "False",
+        "url": "https://opendata.arcgis.com/api/v3/datasets/fe3d9001fec04c4b826895417f89569a_0/downloads/data?format=csv&spatialRefId=4326",
+        "dir_parent": "on",
+        "dir_file": "ottawa-vaccine-coverage-by-day-by-age-by-dose-for-ottawa-residents-csv",
+        "file_name": "COVID-19_Vaccine_Coverage_by_Day_by_Age_by_Dose_for_Ottawa_Residents",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID-19 Vaccine Coverage by Day by Age by Dose for Ottawa Residents (CSV)",
+          "meta_url": "https://www.ottawapublichealth.ca/en/reports-research-and-statistics/COVID-19_Vaccination_Dashboard.aspx",
+          "meta_url_name": "COVID-19 Vaccination Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Ottawa"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Ottawa vaccine dashboard - COVID-19 Vaccine Administration by Vaccine Type and Dose in Ottawa (CSV)",
+        "uuid": "7df67033-6123-406a-b13f-adce74a91287",
+        "active": "False",
+        "url": "https://opendata.arcgis.com/api/v3/datasets/ca08618f0a7f4b79857c52308033711f_0/downloads/data?format=csv&spatialRefId=4326",
+        "dir_parent": "on",
+        "dir_file": "ottawa-vaccine-administration-by-vaccine-type-and-dose-csv",
+        "file_name": "COVID-19_Vaccine_Administration_by_Vaccine_Type_and_Dose_in_Ottawa",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID-19 Vaccine Administration by Vaccine Type and Dose in Ottawa (CSV)",
+          "meta_url": "https://www.ottawapublichealth.ca/en/reports-research-and-statistics/COVID-19_Vaccination_Dashboard.aspx",
+          "meta_url_name": "COVID-19 Vaccination Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Ottawa"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Ottawa vaccine dashboard - COVID-19 Vaccine Coverage by Day and Location of Vaccination for Ottawa Residents (CSV)",
+        "uuid": "aa092b5f-5794-4b37-a9d5-160e06de5c61",
+        "active": "False",
+        "url": "https://opendata.arcgis.com/api/v3/datasets/f3a180567bb448309d3c2338b857fe98_0/downloads/data?format=csv&spatialRefId=4326",
+        "dir_parent": "on",
+        "dir_file": "ottawa-vaccine-coverage-by-day-and-location-of-vaccination-for-ottawa-residents-csv",
+        "file_name": "COVID-19_Vaccine_Coverage_by_Day_and_Location_of_Vaccination_for_Ottawa_Residents",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID-19 Vaccine Coverage by Day and Location of Vaccination for Ottawa Residents (CSV)",
+          "meta_url": "https://www.ottawapublichealth.ca/en/reports-research-and-statistics/COVID-19_Vaccination_Dashboard.aspx",
+          "meta_url_name": "COVID-19 Vaccination Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Ottawa"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Ottawa vaccine dashboard - COVID-19 Vaccine Coverage by Age and Location of Vaccination for Ottawa Residents (CSV)",
+        "uuid": "b7683d1c-f214-4b10-b638-c9754c322463",
+        "active": "False",
+        "url": "https://opendata.arcgis.com/api/v3/datasets/c711844754b64083bee13226a9bf21e7_0/downloads/data?format=csv&spatialRefId=4326",
+        "dir_parent": "on",
+        "dir_file": "ottawa-vaccine-coverage-by-and-location-of-vaccination-for-ottawa-residents-csv",
+        "file_name": "COVID-19_Vaccine_Coverage_by_Age_and_Location_of_Vaccination_for_Ottawa_Residents",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID-19 Vaccine Coverage by Age and Location of Vaccination for Ottawa Residents (CSV)",
+          "meta_url": "https://www.ottawapublichealth.ca/en/reports-research-and-statistics/COVID-19_Vaccination_Dashboard.aspx",
+          "meta_url_name": "COVID-19 Vaccination Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Ottawa"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Ottawa Data tables for Public COVID-19 Maps",
+        "uuid": "c561f688-bf5d-4997-b8af-ea60df901a57",
+        "active": "False",
+        "url": "https://www.arcgis.com/sharing/rest/content/items/ae347819064d45489ed732306f959a7e/data",
+        "dir_parent": "on",
+        "dir_file": "ottawa-wards-cases-cumulative",
+        "file_name": "COVID19_MapPublic_DataTables_EN",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Data tables for Public COVID-19 Maps",
+          "meta_url": "https://www.ottawapublichealth.ca/en/reports-research-and-statistics/daily-covid19-dashboard.aspx",
+          "meta_url_name": "Daily COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Ottawa"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Ottawa Estimated Reproduction Number in Ottawa",
+        "uuid": "8eb16d5a-9de4-4b76-ac37-ece0f5ac2bff",
+        "active": "False",
+        "url": "https://www.arcgis.com/sharing/rest/content/items/d010a848b6e54f4990d60a202f2f2f99/data",
+        "dir_parent": "on",
+        "dir_file": "ottawa-estimated-rt",
+        "file_name": "EN_-_Covid-19_Reproduction_Number,_R(t)",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Estimated Reproduction Number in Ottawa",
+          "meta_url": "https://www.ottawapublichealth.ca/en/reports-research-and-statistics/daily-covid19-dashboard.aspx",
+          "meta_url_name": "Daily COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Ottawa"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - 2022: Child Care Centre Closures",
+        "uuid": "d832054c-125b-4d53-ab07-8593c4e14608",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/5bf54477-6147-413f-bab0-312f06fcb388/resource/92019110-15b2-4457-ba45-11dd18c11180/download/lccclosures2022.csv",
+        "dir_parent": "on",
+        "dir_file": "licensed-child-care-centre-closures-2022",
+        "file_name": "lccclosures2022",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "2022: Child Care Centre Closures",
+          "meta_url": "https://data.ontario.ca/dataset/summary-of-cases-in-licensed-child-care-settings",
+          "meta_url_name": "Licensed child care settings COVID-19 data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Enhanced vaccine certificate downloads",
+        "uuid": "cb10c1ee-ca79-43be-86df-e750d00e001b",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/26adecbb-dea9-41b6-a493-7ef5f8a0b951/resource/6282f89a-aa70-4f13-93fd-d6e3c0834597/download/qr_download.csv",
+        "dir_parent": "on",
+        "dir_file": "verify-ontario-vaccine-certificate-downloads",
+        "file_name": "qr_download",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Enhanced vaccine certificate downloads",
+          "meta_url": "https://data.ontario.ca/en/dataset/verify-ontario-download-and-usage-data",
+          "meta_url_name": "Verify Ontario and enhanced vaccine certificate download and usage data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "Public Health Ontario: COVID-19 Data and Surveillance - Daily epidemiologic summary",
+        "uuid": "6eee7470-216f-4332-84ab-8d28875688d6",
+        "active": "False",
+        "url": "https://www.publichealthontario.ca/-/media/documents/ncov/epi/covid-19-daily-epi-summary-report.pdf?sc_lang=en",
+        "dir_parent": "on",
+        "dir_file": "pho-daily-epi-summary-report",
+        "file_name": "covid-19-daily-epi-summary-report",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Daily epidemiologic summary",
+          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance",
+          "meta_url_name": "Public Health Ontario: COVID-19 Data and Surveillance",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Verify Ontario downloads",
+        "uuid": "d8023d30-926e-4d84-b11f-63269490ccdf",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/26adecbb-dea9-41b6-a493-7ef5f8a0b951/resource/22f68fa9-13be-4ef7-896f-3eed5ac8b1db/download/app_download_data.csv",
+        "dir_parent": "on",
+        "dir_file": "verify-ontario-app-downloads",
+        "file_name": "app_download_data",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Verify Ontario downloads",
+          "meta_url": "https://data.ontario.ca/en/dataset/verify-ontario-download-and-usage-data",
+          "meta_url_name": "Verify Ontario and enhanced vaccine certificate download and usage data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Verify Ontario app results",
+        "uuid": "916e20e0-ec4a-49d1-81be-74cb37b8c4b1",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/26adecbb-dea9-41b6-a493-7ef5f8a0b951/resource/96dfca7a-d89b-45de-9e51-fe6933024902/download/scan_results.csv",
+        "dir_parent": "on",
+        "dir_file": "verify-ontario-app-results",
+        "file_name": "scan_results",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Verify Ontario app results",
+          "meta_url": "https://data.ontario.ca/en/dataset/verify-ontario-download-and-usage-data",
+          "meta_url_name": "Verify Ontario and enhanced vaccine certificate download and usage data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Hospitalizations by vaccination status",
+        "uuid": "5da7b5e8-4e34-4f51-90f4-37275d978401",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/274b819c-5d69-4539-a4db-f2950794138c/download/vac_status_hosp_icu.csv",
+        "dir_parent": "on",
+        "dir_file": "hospitalizations-by-vaccination-status",
+        "file_name": "vac_status_hosp_icu",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Hospitalizations by vaccination status",
+          "meta_url": "https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario",
+          "meta_url_name": "COVID-19 Vaccine Data in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Cases and rates by vaccination status (old)",
+        "uuid": "5104fade-9c4c-4287-8c68-c88eb3f78a57",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/eed63cf2-83dd-4598-b337-b288c0a89a16/download/vac_status.csv",
+        "dir_parent": "on",
+        "dir_file": "hospitalizations-and-cases-by-vaccination-status",
+        "file_name": "vac_status",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases and rates by vaccination status (old)",
+          "meta_url": "https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario",
+          "meta_url_name": "COVID-19 Vaccine Data in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {
+          "notes_data": "This file contained hospitalizations and cases until 2021-08-20, when hospitalizations were split into a separate dataset (UUID: 5da7b5e8-4e34-4f51-90f4-37275d978401). On 2021-08-27, case rates per 100,000k were added. This dataset is now a duplicate of UUID: 042826c4-f833-4454-91eb-bbee8701b0dd."
+        }
+      },
+      {
+        "id_name": "ON - Cases and rates by vaccination status",
+        "uuid": "042826c4-f833-4454-91eb-bbee8701b0dd",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/eed63cf2-83dd-4598-b337-b288c0a89a16/download/cases_by_vac_status.csv",
+        "dir_parent": "on",
+        "dir_file": "cases-and-rates-by-vaccination-status",
+        "file_name": "cases_by_vac_status",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases and rates by vaccination status",
+          "meta_url": "https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario",
+          "meta_url_name": "COVID-19 Vaccine Data in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Case rates by vaccination status and age group",
+        "uuid": "f095fd6f-5c93-44aa-985b-d6feb993f39c",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/c08620e0-a055-4d35-8cec-875a459642c3/download/cases_by_age_vac_status.csv",
+        "dir_parent": "on",
+        "dir_file": "case-rates-by-vaccination-status-and-age-group",
+        "file_name": "cases_by_age_vac_status",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Case rates by vaccination status and age group",
+          "meta_url": "https://data.ontario.ca/dataset/covid-19-vaccine-data-in-ontario",
+          "meta_url_name": "COVID-19 Vaccine Data in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Queen’s University Case Tracker (webpage)",
+        "uuid": "44c371e0-2883-4f16-88f5-173899ce1972",
+        "active": "False",
+        "url": "https://www.queensu.ca/safereturn/health-safety/case-tracker",
+        "dir_parent": "on",
+        "dir_file": "queens-university-case-tracker-webpage",
+        "file_name": "queens-university-case-tracker-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.queensu.ca/safereturn/health-safety/case-tracker",
+          "meta_url_name": "Queen’s University Case Tracker",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Ontario universities"
+        },
+        "notes": {}
       }
     ],
     "pe": [
@@ -16664,6 +16476,194 @@
           "meta_name": "Variants under enhanced surveillance (cumulative) 2",
           "meta_url": "https://inspq.qc.ca/covid-19/donnees/variants",
           "meta_url_name": "Variants de SRAS-CoV-2 sous surveillance rehaussée",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Portrait des rendez-vous à venir pour une 1ère dose par région d'administration",
+        "uuid": "db0b45b4-d407-48f1-8644-3d5778bca86e",
+        "active": "False",
+        "url": "https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_RDVVaccination_RegionAdministration.csv",
+        "dir_parent": "qc",
+        "dir_file": "first-vaccine-dose-appointments-by-rss",
+        "file_name": "COVID19_Qc_RDVVaccination_RegionAdministration",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Upcoming first dose appointments by region of administration",
+          "meta_url": "https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-de-la-vaccination",
+          "meta_url_name": "COVID-19 - Portrait quotidien de la vaccination",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Portrait des rendez-vous à venir pour une 1ère dose par groupe d’âge",
+        "uuid": "d48a7259-ae16-4512-8c34-86e969e070cb",
+        "active": "False",
+        "url": "https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_RDVVaccination_CatAge.csv",
+        "dir_parent": "qc",
+        "dir_file": "first-vaccine-dose-appointments-by-age-group",
+        "file_name": "COVID19_Qc_RDVVaccination_CatAge",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Upcoming 1st dose appointments by age group",
+          "meta_url": "https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-de-la-vaccination",
+          "meta_url_name": "COVID-19 - Portrait quotidien de la vaccination",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Cumulative vaccination adverse events by vaccine type",
+        "uuid": "d78f27a0-4669-4582-93df-09eb6eba60b9",
+        "active": "False",
+        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/vaccination-mci.csv",
+        "dir_parent": "qc",
+        "dir_file": "cumulative-vaccination-adverse-events-by-vaccine-type",
+        "file_name": "vaccination-mci",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cumulative vaccination adverse events by vaccine type",
+          "meta_url": "https://www.inspq.qc.ca/covid-19/donnees/vaccination",
+          "meta_url_name": "Données de vaccination contre la COVID-19 au Québec",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Dashboard on absenteeism in the education sector (FR)",
+        "uuid": "554df1c3-6644-4d99-bcf2-08586da88880",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/education/coronavirus/absenteisme-ecoles-covid-19.pdf",
+        "dir_parent": "qc",
+        "dir_file": "qc-covid-dashboard-education-absenteeism",
+        "file_name": "absenteisme-ecoles-covid-19",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dashboard on absenteeism in the education sector (PDF)",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Correctional facilities - cases among employees (EN)",
+        "uuid": "5c69cace-81da-4c21-abd0-bf3fb82bff98",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/donnees-covid/donnees_covid_detention_employes_EN.csv",
+        "dir_parent": "qc",
+        "dir_file": "correctional-cases-employees-en",
+        "file_name": "donnees_covid_detention_employes_EN",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Correctional facilities - cases among employees (EN)",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Correctional facilities - cases among employees (FR)",
+        "uuid": "c71e9f8b-17f9-48aa-8924-2564aef85511",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/donnees-covid/donnees_covid_detention_employes_FR.csv",
+        "dir_parent": "qc",
+        "dir_file": "correctional-cases-employees",
+        "file_name": "donnees_covid_detention_employes_FR",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Correctional facilities - cases among employees (FR)",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Correctional facilities - cases among detainees (EN)",
+        "uuid": "3b67bebb-3654-4b86-9091-0d2da0084273",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/donnees-covid/donnees_covid_detention_personnes_incarcerees_EN.csv",
+        "dir_parent": "qc",
+        "dir_file": "correctional-cases-detainees-en",
+        "file_name": "donnees_covid_detention_personnes_incarcerees_EN",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Correctional facilities - cases among detainees (EN)",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Correctional facilities - cases among detainees (FR)",
+        "uuid": "408e9e0a-3b54-4921-ab9a-0c495f1a64b1",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/securitepublique/donnees-covid/donnees_covid_detention_personnes_incarcerees_FR.csv",
+        "dir_parent": "qc",
+        "dir_file": "correctional-cases-detainees",
+        "file_name": "donnees_covid_detention_personnes_incarcerees_FR",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Correctional facilities - cases among detainees (FR)",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Quebec"
