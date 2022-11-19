@@ -4203,6 +4203,29 @@
           "meta_group_1": "Manitoba"
         },
         "notes": {}
+      },
+      {
+        "id_name": "MB - Provincial Respiratory Surveillance Report - COVID-19 and Seasonal Influenza (Report)",
+        "uuid": "f80d6cbd-60d9-4460-a7b6-7f895b69a4cb",
+        "active": "True",
+        "url_fun_python": "from bs4 import BeautifulSoup; import requests; url_current = 'https://www.gov.mb.ca/health/publichealth/surveillance/influenza/' + BeautifulSoup(requests.get('https://www.gov.mb.ca/health/publichealth/surveillance/influenza/index.html').text, features='html.parser').select_one('a[href*=\\.pdf]').attrs['href']",
+        "url_fun_r": "library(rvest); paste0('https://www.gov.mb.ca/health/publichealth/surveillance/influenza/', html_attr(html_element(read_html('https://www.gov.mb.ca/health/publichealth/surveillance/influenza/index.html'), 'a[href*=\\.pdf]'), 'href'))",
+        "dir_parent": "mb",
+        "dir_file": "mb-surveillance-report-covid-influenza",
+        "file_name": "mb-surveillance-report-covid-influenza",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Report",
+          "meta_url": "https://www.gov.mb.ca/health/publichealth/surveillance/influenza/index.html",
+          "meta_url_name": "MB - Provincial Respiratory Surveillance Report - COVID-19 and Seasonal Influenza",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
       }
     ],
     "nb": [
