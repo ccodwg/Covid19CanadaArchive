@@ -1485,50 +1485,6 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - Monkeypox epidemiology update (English report)",
-        "uuid": "dccb7597-6de4-42ea-b8a6-edad46173263",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/monkeypox/Monkeypox-epidemiology-update-Public-Health-Agency-of-Canada.pdf",
-        "dir_parent": "can",
-        "dir_file": "monkeypox-epidemiology-update-report-en",
-        "file_name": "Monkeypox-epidemiology-update-Public-Health-Agency-of-Canada",
-        "file_ext": "pdf",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Report (English)",
-          "meta_url": "https://health-infobase.canada.ca/monkeypox/",
-          "meta_url_name": "Monkeypox epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - Monkeypox epidemiology update (French report)",
-        "uuid": "56efa9cb-9065-47eb-8341-f109742d73f7",
-        "active": "True",
-        "url": "https://sante-infobase.canada.ca/src/data/monkeypox/Mise-a-jour-sur-epidemiologie-de-la-variole-simienne-Agence-de-la-sante-publique-du-Canada.pdf",
-        "dir_parent": "can",
-        "dir_file": "monkeypox-epidemiology-update-report-fr",
-        "file_name": "Mise-a-jour-sur-epidemiologie-de-la-variole-simienne-Agence-de-la-sante-publique-du-Canada",
-        "file_ext": "pdf",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Report (French)",
-          "meta_url": "https://health-infobase.canada.ca/monkeypox/",
-          "meta_url_name": "Monkeypox epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "CAN - Monkeypox epidemiology update - Monkeypox time series by province/territory",
         "uuid": "9448b236-de06-4542-b862-ecb0f102bf14",
         "active": "True",
@@ -1807,7 +1763,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 daily epidemiology update (English report)",
+        "id_name": "CAN - COVID-19 epidemiology update (English report)",
         "uuid": "1f990350-18f9-4cc4-baf2-9ed3c86ecf8e",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/Epidemiological-summary-of-COVID-19-cases-in-Canada-Canada.ca.pdf",
@@ -1822,8 +1778,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Report (English)",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -1833,7 +1789,7 @@
         }
       },
       {
-        "id_name": "CAN - Mise à jour quotidienne sur l’épidémiologie de la COVID-19 (French report)",
+        "id_name": "CAN - Mise à jour sur l’épidémiologie de la COVID-19 (French report)",
         "uuid": "5067ddb4-c90a-423e-bd09-77c43e1b2a2c",
         "active": "True",
         "url": "https://sante-infobase.canada.ca/src/data/covidLive/Resume-epidemiologique-des-cas-de-COVID-19-au-Canada.pdf",
@@ -1848,8 +1804,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Report (French)",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -1859,7 +1815,7 @@
         }
       },
       {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Epidemiology update)",
+        "id_name": "CAN - COVID-19 epidemiology update (Epidemiology update)",
         "uuid": "5bd8bfe4-b332-4bc6-90ad-fec7ec7f9cfb",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19.csv",
@@ -1874,8 +1830,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "National overview (DD-MM-YYYY)",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -1883,7 +1839,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Epidemiology update - as above but YYYY-MM-DD format)",
+        "id_name": "CAN - COVID-19 epidemiology update (Epidemiology update - as above but YYYY-MM-DD format)",
         "uuid": "f7db31d0-6504-4a55-86f7-608664517bdb",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-download.csv",
@@ -1898,8 +1854,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "National overview (YYYY-MM-DD)",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -1907,7 +1863,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Epidemiology update v2)",
+        "id_name": "CAN - COVID-19 epidemiology update (Epidemiology update v2)",
         "uuid": "314c507d-7e48-476e-937b-965499f51e8e",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19v2.csv",
@@ -1922,8 +1878,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "National overview v2",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -1931,7 +1887,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Epidemiology update - JSON format)",
+        "id_name": "CAN - COVID-19 epidemiology update (Epidemiology update - JSON format)",
         "uuid": "9b91c562-449a-4e9d-a389-353adfb44e64",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19.json",
@@ -1946,8 +1902,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "National overview (YYYY-MM-DD, JSON)",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -1955,559 +1911,7 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Epidemiology update - Data dictionary) (weekly)",
-        "uuid": "e5833cfb-d926-4384-b927-819eb0f178fc",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-casesdeaths-data-dictionary.csv",
-        "dir_parent": "can",
-        "dir_file": "epidemiology-update-data-dictionary-weekly",
-        "file_name": "covid19-casesdeaths-data-dictionary",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "National overview (data dictionary) (weekly)",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Lab indicators - Data dictionary)",
-        "uuid": "e517e678-4761-46c0-816b-259dd88ec286",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-labtesting-data-dictionary.csv",
-        "dir_parent": "can",
-        "dir_file": "lab-testing-data-dictionary",
-        "file_name": "covid19-labtesting-data-dictionary",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Lab indicators (data dictionary)",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Epidemiology summary statements)",
-        "uuid": "820115eb-18ff-4886-8c70-210a9702223b",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-statements.csv",
-        "dir_parent": "can",
-        "dir_file": "epidemiology-summary-statements",
-        "file_name": "covid19-epiSummary-statements",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Epidemiology summary statements",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Lab indicators)",
-        "uuid": "366ce221-c1c9-4f41-a917-8ff4648f6a40",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-labIndicators.csv",
-        "dir_parent": "can",
-        "dir_file": "lab-testing-time-series",
-        "file_name": "covid19-epiSummary-labIndicators",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Lab indicators",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Number of cases with detailed case report data)",
-        "uuid": "6ea77a66-d8e5-4989-824d-403db4bfbda5",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-nTotal.csv",
-        "dir_parent": "can",
-        "dir_file": "detailed-case-report-n",
-        "file_name": "covid19-nTotal",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Number of cases with detailed case report data",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Cases and deaths by health region time series)",
-        "uuid": "746c01f3-e597-4413-89e0-afa561bf81d8",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/file_out_v5.csv",
-        "dir_parent": "can",
-        "dir_file": "cases-and-deaths-by-hr-time-series",
-        "file_name": "file_out_v5",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases and deaths by health region time series",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Health region UID table)",
-        "uuid": "493a59b8-3417-458e-b846-0531b1652940",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-healthregions-hruid.csv",
-        "dir_parent": "can",
-        "dir_file": "health-region-uid",
-        "file_name": "covid19-healthregions-hruid",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Health region UID table",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Health region UID table 2022)",
-        "uuid": "10361ed7-846d-4dde-b42d-4803f2144ed0",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-healthregions-hruid-2022.csv",
-        "dir_parent": "can",
-        "dir_file": "health-region-uid-2022",
-        "file_name": "covid19-healthregions-hruid-2022",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Health region UID table 2022",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Cases by exposure setting time series)",
-        "uuid": "558ccc64-799f-4329-95a4-f944dac21eb1",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesovertime.csv",
-        "dir_parent": "can",
-        "dir_file": "cases-by-exposure-time-series",
-        "file_name": "covid19-epiSummary-casesovertime",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases by exposure setting time series",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Epidemic curve by date of illness onset by age group)",
-        "uuid": "a2d8ad51-d0f8-4313-8542-d56e4638671b",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-epiCurveByAge.csv",
-        "dir_parent": "can",
-        "dir_file": "epidemic-curve-by-age",
-        "file_name": "covid19-epiSummary-epiCurveByAge",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Epidemic curve by date of illness onset by age group",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Severity by age group and sex)",
-        "uuid": "c66b12ae-3bcc-4c03-a4ad-a914f35aa842",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-severityUpdate.csv",
-        "dir_parent": "can",
-        "dir_file": "severity-by-age-and-sex",
-        "file_name": "covid19-epiSummary-severityUpdate",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Severity by age group and sex",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Cases by severity)",
-        "uuid": "768d81a5-ca7c-4546-8b0c-60428e8af0fb",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-severity.csv",
-        "dir_parent": "can",
-        "dir_file": "cases-by-severity",
-        "file_name": "covid19-epiSummary-severity",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases by severity",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Cases by age group and sex)",
-        "uuid": "24dae553-09d3-4c5a-a3f9-c01fefb1b710",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-agegroups2.csv",
-        "dir_parent": "can",
-        "dir_file": "cases-by-age-and-sex",
-        "file_name": "covid19-epiSummary-agegroups2",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases by age group and sex",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Hospitalizations, intensive care unit (ICU), mechanical ventilation)",
-        "uuid": "f1e1a857-fab8-4c25-a132-f474fab93622",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-hospVentICU.csv",
-        "dir_parent": "can",
-        "dir_file": "hospitalizations-icu-mechanical-ventilation",
-        "file_name": "covid19-epiSummary-hospVentICU",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Hospitalizations, intensive care unit (ICU), mechanical ventilation",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Cases on First Nations reserves)",
-        "uuid": "d94b5520-3a90-41e9-bda7-0a1b74581751",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-isc.csv",
-        "dir_parent": "can",
-        "dir_file": "covid-time-series-first-nations-reserves",
-        "file_name": "covid19-isc",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases on First Nations reserves",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Variant prevalence time series)",
-        "uuid": "909a7c17-2773-4536-add4-717b59deea4c",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-variants.csv",
-        "dir_parent": "can",
-        "dir_file": "variant-prevalence-time-series",
-        "file_name": "covid19-epiSummary-variants",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Variant prevalence time series",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Variant sample size time series)",
-        "uuid": "37c33067-66bd-418d-bda7-0a8ba8c8f239",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-variants-sampleSize.csv",
-        "dir_parent": "can",
-        "dir_file": "variant-sample-size-time-series",
-        "file_name": "covid19-epiSummary-variants-sampleSize",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Variant sample size time series",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Variant contributing labs)",
-        "uuid": "1f38590d-2bc1-4dbb-8910-643c5c180dc6",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-variants-contributingLabs.csv",
-        "dir_parent": "can",
-        "dir_file": "variant-contributing-labs",
-        "file_name": "covid19-epiSummary-variants-contributingLabs",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Variant contributing labs",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Cases following vaccination - cases, hospitalizations, deaths by vaccination status)",
-        "uuid": "123ad392-02cc-48ef-b328-cadf34e4d224",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesAfterVaccination.csv",
-        "dir_parent": "can",
-        "dir_file": "cases-following-vaccination-cases-hosp-deaths-by-vaccination-status",
-        "file_name": "covid19-epiSummary-casesAfterVaccination",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases following vaccination (cases, hospitalizations, deaths by vaccination)",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Cases following vaccination - cases by vaccination status and gender)",
-        "uuid": "40c82d2e-7bfb-47dd-83f4-84273ddb7872",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesAfterVaccinationGender.csv",
-        "dir_parent": "can",
-        "dir_file": "cases-following-vaccination-cases-by-vaccination-status-and-gender",
-        "file_name": "covid19-epiSummary-casesAfterVaccinationGender",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases following vaccination (cases by vaccination status and gender)",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Cases following vaccination - severe outcomes ratios)",
-        "uuid": "8b07772b-099b-4acd-ad86-6cf6be52b50e",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesAfterVaccinationSevereOutcome.csv",
-        "dir_parent": "can",
-        "dir_file": "cases-following-vaccination-severe-outcomes-ratios",
-        "file_name": "covid19-epiSummary-casesAfterVaccinationSevereOutcome",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases following vaccination (severe outcomes ratios)",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Cases following vaccination - page statements)",
-        "uuid": "fe7cde9c-41f3-4d2c-af98-c9d88b0763eb",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesAfterVaccinationPageStatements.csv",
-        "dir_parent": "can",
-        "dir_file": "cases-following-vaccination-page-statements",
-        "file_name": "covid19-epiSummary-casesAfterVaccinationPageStatements",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases following vaccination (page statements)",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Cases following vaccination - update date)",
-        "uuid": "312e8007-1bca-4b03-93d5-136c3f4263f3",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesAfterVaccinationUpdateDate.csv",
-        "dir_parent": "can",
-        "dir_file": "cases-following-vaccination-update-date",
-        "file_name": "covid19-epiSummary-casesAfterVaccinationUpdateDate",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases following vaccination (update date)",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 daily epidemiology update (Update time)",
+        "id_name": "CAN - COVID-19 epidemiology update (Update time)",
         "uuid": "8676ed3d-91e3-417c-85fb-93b40e44aad6",
         "active": "True",
         "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-updateTime.csv",
@@ -2522,8 +1926,776 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Update time",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Update time) (2)",
+        "uuid": "4268f6af-c17c-4e45-ac8a-7c763d28a0f6",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-updateTime.csv",
+        "dir_parent": "can",
+        "dir_file": "epidemiology-update-update-time",
+        "file_name": "covid19-epiSummary-updateTime",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Update time (2)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Epidemiology update - Data dictionary) (weekly)",
+        "uuid": "e5833cfb-d926-4384-b927-819eb0f178fc",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-casesdeaths-data-dictionary.csv",
+        "dir_parent": "can",
+        "dir_file": "epidemiology-update-data-dictionary-weekly",
+        "file_name": "covid19-casesdeaths-data-dictionary",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "National overview (data dictionary) (weekly)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Lab indicators - Data dictionary)",
+        "uuid": "e517e678-4761-46c0-816b-259dd88ec286",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-labtesting-data-dictionary.csv",
+        "dir_parent": "can",
+        "dir_file": "lab-testing-data-dictionary",
+        "file_name": "covid19-labtesting-data-dictionary",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Lab indicators (data dictionary)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Epidemiology summary statements)",
+        "uuid": "820115eb-18ff-4886-8c70-210a9702223b",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-statements.csv",
+        "dir_parent": "can",
+        "dir_file": "epidemiology-summary-statements",
+        "file_name": "covid19-epiSummary-statements",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Epidemiology summary statements",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Lab indicators)",
+        "uuid": "366ce221-c1c9-4f41-a917-8ff4648f6a40",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-labIndicators.csv",
+        "dir_parent": "can",
+        "dir_file": "lab-testing-time-series",
+        "file_name": "covid19-epiSummary-labIndicators",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Lab indicators",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Number of cases with detailed case report data)",
+        "uuid": "6ea77a66-d8e5-4989-824d-403db4bfbda5",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-nTotal.csv",
+        "dir_parent": "can",
+        "dir_file": "detailed-case-report-n",
+        "file_name": "covid19-nTotal",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Number of cases with detailed case report data",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Cases and deaths by health region time series) (2)",
+        "uuid": "bd0f827d-1e48-46ce-87bd-ea4188ccdfd0",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-health-regions.csv",
+        "dir_parent": "can",
+        "dir_file": "cases-and-deaths-by-hr-time-series-2",
+        "file_name": "covid19-health-regions",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases and deaths by health region time series (2)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Health region UID table)",
+        "uuid": "493a59b8-3417-458e-b846-0531b1652940",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-healthregions-hruid.csv",
+        "dir_parent": "can",
+        "dir_file": "health-region-uid",
+        "file_name": "covid19-healthregions-hruid",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Health region UID table",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Health region UID table 2022)",
+        "uuid": "10361ed7-846d-4dde-b42d-4803f2144ed0",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-healthregions-hruid-2022.csv",
+        "dir_parent": "can",
+        "dir_file": "health-region-uid-2022",
+        "file_name": "covid19-healthregions-hruid-2022",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Health region UID table 2022",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Cases by exposure setting time series)",
+        "uuid": "558ccc64-799f-4329-95a4-f944dac21eb1",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesovertime.csv",
+        "dir_parent": "can",
+        "dir_file": "cases-by-exposure-time-series",
+        "file_name": "covid19-epiSummary-casesovertime",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases by exposure setting time series",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Epidemic curve by date of illness onset by age group)",
+        "uuid": "a2d8ad51-d0f8-4313-8542-d56e4638671b",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-epiCurveByAge.csv",
+        "dir_parent": "can",
+        "dir_file": "epidemic-curve-by-age",
+        "file_name": "covid19-epiSummary-epiCurveByAge",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Epidemic curve by date of illness onset by age group",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Severity by age group and sex)",
+        "uuid": "c66b12ae-3bcc-4c03-a4ad-a914f35aa842",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-severityUpdate.csv",
+        "dir_parent": "can",
+        "dir_file": "severity-by-age-and-sex",
+        "file_name": "covid19-epiSummary-severityUpdate",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Severity by age group and sex",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Severity by age group and sex) (2)",
+        "uuid": "2ce45cf9-cc51-4cf8-a82c-ca76846baf27",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-severityUpdate2.csv",
+        "dir_parent": "can",
+        "dir_file": "severity-by-age-and-sex-2",
+        "file_name": "covid19-epiSummary-severityUpdate2",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Severity by age group and sex (2)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Cases by severity)",
+        "uuid": "768d81a5-ca7c-4546-8b0c-60428e8af0fb",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-severity.csv",
+        "dir_parent": "can",
+        "dir_file": "cases-by-severity",
+        "file_name": "covid19-epiSummary-severity",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases by severity",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Cases by age group and sex)",
+        "uuid": "24dae553-09d3-4c5a-a3f9-c01fefb1b710",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-agegroups2.csv",
+        "dir_parent": "can",
+        "dir_file": "cases-by-age-and-sex",
+        "file_name": "covid19-epiSummary-agegroups2",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases by age group and sex",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Hospitalizations, intensive care unit (ICU), mechanical ventilation)",
+        "uuid": "f1e1a857-fab8-4c25-a132-f474fab93622",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-hospVentICU.csv",
+        "dir_parent": "can",
+        "dir_file": "hospitalizations-icu-mechanical-ventilation",
+        "file_name": "covid19-epiSummary-hospVentICU",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Hospitalizations, intensive care unit (ICU), mechanical ventilation",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Cases on First Nations reserves)",
+        "uuid": "d94b5520-3a90-41e9-bda7-0a1b74581751",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-isc.csv",
+        "dir_parent": "can",
+        "dir_file": "covid-time-series-first-nations-reserves",
+        "file_name": "covid19-isc",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases on First Nations reserves",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Variant prevalence time series)",
+        "uuid": "909a7c17-2773-4536-add4-717b59deea4c",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-variants.csv",
+        "dir_parent": "can",
+        "dir_file": "variant-prevalence-time-series",
+        "file_name": "covid19-epiSummary-variants",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Variant prevalence time series",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Variant sample size time series)",
+        "uuid": "37c33067-66bd-418d-bda7-0a8ba8c8f239",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-variants-sampleSize.csv",
+        "dir_parent": "can",
+        "dir_file": "variant-sample-size-time-series",
+        "file_name": "covid19-epiSummary-variants-sampleSize",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Variant sample size time series",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Variant contributing labs)",
+        "uuid": "1f38590d-2bc1-4dbb-8910-643c5c180dc6",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-variants-contributingLabs.csv",
+        "dir_parent": "can",
+        "dir_file": "variant-contributing-labs",
+        "file_name": "covid19-epiSummary-variants-contributingLabs",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Variant contributing labs",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Variant update date)",
+        "uuid": "4b4139ec-a3fa-451b-b9ff-c1b4afd66b46",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-variants-updateDate.csv",
+        "dir_parent": "can",
+        "dir_file": "variant-update-date",
+        "file_name": "covid19-epiSummary-variants-updateDate",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Variant update date",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Cases following vaccination - cases, hospitalizations, deaths by vaccination status)",
+        "uuid": "123ad392-02cc-48ef-b328-cadf34e4d224",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesAfterVaccination.csv",
+        "dir_parent": "can",
+        "dir_file": "cases-following-vaccination-cases-hosp-deaths-by-vaccination-status",
+        "file_name": "covid19-epiSummary-casesAfterVaccination",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases following vaccination (cases, hospitalizations, deaths by vaccination)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Cases following vaccination - cases by vaccination status and gender)",
+        "uuid": "40c82d2e-7bfb-47dd-83f4-84273ddb7872",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesAfterVaccinationGender.csv",
+        "dir_parent": "can",
+        "dir_file": "cases-following-vaccination-cases-by-vaccination-status-and-gender",
+        "file_name": "covid19-epiSummary-casesAfterVaccinationGender",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases following vaccination (cases by vaccination status and gender)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Cases following vaccination - severe outcomes ratios)",
+        "uuid": "8b07772b-099b-4acd-ad86-6cf6be52b50e",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesAfterVaccinationSevereOutcome.csv",
+        "dir_parent": "can",
+        "dir_file": "cases-following-vaccination-severe-outcomes-ratios",
+        "file_name": "covid19-epiSummary-casesAfterVaccinationSevereOutcome",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases following vaccination (severe outcomes ratios)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Cases following vaccination - page statements)",
+        "uuid": "fe7cde9c-41f3-4d2c-af98-c9d88b0763eb",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesAfterVaccinationPageStatements.csv",
+        "dir_parent": "can",
+        "dir_file": "cases-following-vaccination-page-statements",
+        "file_name": "covid19-epiSummary-casesAfterVaccinationPageStatements",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases following vaccination (page statements)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Cases following vaccination - update date)",
+        "uuid": "312e8007-1bca-4b03-93d5-136c3f4263f3",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesAfterVaccinationUpdateDate.csv",
+        "dir_parent": "can",
+        "dir_file": "cases-following-vaccination-update-date",
+        "file_name": "covid19-epiSummary-casesAfterVaccinationUpdateDate",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases following vaccination (update date)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Outbreaks time series by setting)",
+        "uuid": "2b8a7f50-8d4a-4913-90d2-eaebb8b7d98a",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-outbreaks-settings.csv",
+        "dir_parent": "can",
+        "dir_file": "outbreaks-time-series-by-setting",
+        "file_name": "covid19-epiSummary-outbreaks-settings",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Outbreaks time series by setting",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Outbreak time series by setting and size)",
+        "uuid": "7e1fcd47-cddd-4d90-aee6-c7ddc5732a99",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-outbreaks-size.csv",
+        "dir_parent": "can",
+        "dir_file": "outbreaks-time-series-by-setting-and-size",
+        "file_name": "covid19-epiSummary-outbreaks-size",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Outbreak time series by setting and size",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Outbreaks median size by year)",
+        "uuid": "e8ed0d75-1f73-4bac-9edc-c7d1776932bf",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-outbreaks-size-median.csv",
+        "dir_parent": "can",
+        "dir_file": "outbreaks-median-size-by-year",
+        "file_name": "covid19-epiSummary-outbreaks-size-median",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Outbreaks median size by year",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Case rates time series by age and gender)",
+        "uuid": "8df88998-bd06-4dd0-9069-7cf1c826c306",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-ageGender.csv",
+        "dir_parent": "can",
+        "dir_file": "case-rate-time-series-by-age-and-gender",
+        "file_name": "covid19-epiSummary-ageGender",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Case rates time series by age and gender",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Weekly epidemic curve)",
+        "uuid": "e2a6bab7-44b8-4d11-bbe3-1f9780209048",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-weeklyEpiCurve.csv",
+        "dir_parent": "can",
+        "dir_file": "weekly-epidemic-curve",
+        "file_name": "covid19-epiSummary-weeklyEpiCurve",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Weekly epidemic curve",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Accumulating periods)",
+        "uuid": "eb50255a-312a-47b4-9e9f-f3e000b28db4",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-accumulatingPeriods.csv",
+        "dir_parent": "can",
+        "dir_file": "accumulating-periods",
+        "file_name": "covid19-epiSummary-accumulatingPeriods",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Accumulating periods",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -2546,8 +2718,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "PHAC provincial data update notes",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -2771,6 +2943,30 @@
         "notes": {}
       },
       {
+        "id_name": "CAN - Vaccines administered: Vaccination administration by dose number (2)",
+        "uuid": "386b67f3-b23d-47c3-80b5-340d9f89f013",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-administration-bydosenumber2.csv",
+        "dir_parent": "can",
+        "dir_file": "vaccination-administration-by-dose-number-2",
+        "file_name": "vaccination-administration-bydosenumber2",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination administration by dose number (2)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccine-administration/",
+          "meta_url_name": "COVID-19 vaccination in Canada - Vaccines administered",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "CAN - Vaccines administered: Vaccination administration (update date)",
         "uuid": "928819e8-000d-4428-b2b2-5710f69f8980",
         "active": "True",
@@ -2867,30 +3063,6 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - Vaccination coverage: Vaccination coverage by age and sex",
-        "uuid": "1260ba4d-57f7-4802-b496-390cfb7c859e",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-byAgeAndSex.csv",
-        "dir_parent": "can",
-        "dir_file": "vaccination-coverage-by-age-sex",
-        "file_name": "vaccination-coverage-byAgeAndSex",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Vaccination coverage by age and sex",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
-          "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "CAN - Vaccination coverage: Vaccination coverage by age and sex (3)",
         "uuid": "6f763c49-2163-4464-9910-41cc7b6a2084",
         "active": "True",
@@ -2906,30 +3078,6 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination coverage by age and sex (3)",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
-          "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - Vaccination coverage: Vaccination coverage by age and sex (current week)",
-        "uuid": "8fba2a13-287a-4945-8035-0210cabf899a",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage/vaccination-coverage-byAgeAndSex3.csv",
-        "dir_parent": "can",
-        "dir_file": "vaccination-coverage-by-age-sex-current-week",
-        "file_name": "vaccination-coverage-byAgeAndSex3",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Vaccination coverage by age and sex (current week)",
           "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
           "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
           "meta_licence": "",
@@ -3146,6 +3294,30 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Legend buckets",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
+          "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Vaccination coverage: Vaccination campaign",
+        "uuid": "3f5de0c5-1c6c-45fa-9e7a-73abc1bc74af",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-campaign.csv",
+        "dir_parent": "can",
+        "dir_file": "vaccination-coverage-campaign",
+        "file_name": "vaccination-coverage-campaign",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination campaign",
           "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
           "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
           "meta_licence": "",
@@ -9173,47 +9345,21 @@
         "notes": {}
       },
       {
-        "id_name": "Other: CAN - CTV Variant Tracker (webpage)",
-        "uuid": "57debfa6-e336-45e1-ac73-656e67988c7d",
+        "id_name": "Other: CAN - COVID-19 - Loblaw Companies Ltd. - Ontario store list with free rapid tests",
+        "uuid": "a51b2ab7-fe46-4e1e-b9ed-7c6af3ff8187",
         "active": "True",
-        "url": "https://www.ctvnews.ca/health/coronavirus/tracking-variants-of-the-novel-coronavirus-in-canada-1.5296141",
+        "url": "https://dis-prod.assetful.loblaw.ca/content/dam/loblaw-companies-limited/creative-assets/loblaw-ca/Ontario%20store%20list%20RATs.pdf",
         "dir_parent": "other/can",
-        "dir_file": "ctv-variant-tracker-webpage",
-        "file_name": "ctv-variant-tracker-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://www.ctvnews.ca/health/coronavirus/tracking-variants-of-the-novel-coronavirus-in-canada-1.5296141",
-          "meta_url_name": "CTV: Tracking variants of the novel coronavirus in Canada",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Other: Non-governmental sources",
-          "meta_group_2": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "Other: CAN - CTV Variant Tracker",
-        "uuid": "daa6be69-acf4-4d1b-a05a-84d3a2a9022e",
-        "active": "True",
-        "url": "https://beta.ctvnews.ca/content/dam/common/exceltojson/COVID-Variants.txt",
-        "dir_parent": "other/can",
-        "dir_file": "ctv-variant-tracker",
-        "file_name": "COVID-Variants",
-        "file_ext": "txt",
+        "dir_file": "loblaw-companies-on-store-list-rapid-tests",
+        "file_name": "Ontario-store-list-RATs",
+        "file_ext": "pdf",
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Dataset",
-          "meta_url": "https://www.ctvnews.ca/health/coronavirus/tracking-variants-of-the-novel-coronavirus-in-canada-1.5296141",
-          "meta_url_name": "CTV: Tracking variants of the novel coronavirus in Canada",
+          "meta_name": "Ontario store list with free rapid tests",
+          "meta_url": "https://www.loblaw.ca/en/covid-19/",
+          "meta_url_name": "COVID-19 - Loblaw Companies Ltd.",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Other: Non-governmental sources",
@@ -9822,8 +9968,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Symptoms summary",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -9844,8 +9990,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "NML weekly testing",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -9932,8 +10078,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "NML summary",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -9954,8 +10100,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Variants of concern time series by province",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -10020,8 +10166,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Detailed variant prevalence time series",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -10134,8 +10280,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "National overview (data dictionary)",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -10206,8 +10352,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Cases by probable exposure setting",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -10230,8 +10376,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Cases by probable expsoure setting by province",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/epidemiological-summary-covid-19-cases.html",
-          "meta_url_name": "COVID-19 daily epidemiology update",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -10301,6 +10447,122 @@
           "meta_name": "Webpage",
           "meta_url": "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice/exposure-flights-cruise-ships-mass-gatherings.html",
           "meta_url_name": "Coronavirus disease (COVID-19): Locations where you may have been exposed to COVID-19",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Cases and deaths by health region time series)",
+        "uuid": "746c01f3-e597-4413-89e0-afa561bf81d8",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/file_out_v5.csv",
+        "dir_parent": "can",
+        "dir_file": "cases-and-deaths-by-hr-time-series",
+        "file_name": "file_out_v5",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases and deaths by health region time series",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Monkeypox epidemiology update (English report)",
+        "uuid": "dccb7597-6de4-42ea-b8a6-edad46173263",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/monkeypox/Monkeypox-epidemiology-update-Public-Health-Agency-of-Canada.pdf",
+        "dir_parent": "can",
+        "dir_file": "monkeypox-epidemiology-update-report-en",
+        "file_name": "Monkeypox-epidemiology-update-Public-Health-Agency-of-Canada",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Report (English)",
+          "meta_url": "https://health-infobase.canada.ca/monkeypox/",
+          "meta_url_name": "Monkeypox epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Monkeypox epidemiology update (French report)",
+        "uuid": "56efa9cb-9065-47eb-8341-f109742d73f7",
+        "active": "False",
+        "url": "https://sante-infobase.canada.ca/src/data/monkeypox/Mise-a-jour-sur-epidemiologie-de-la-variole-simienne-Agence-de-la-sante-publique-du-Canada.pdf",
+        "dir_parent": "can",
+        "dir_file": "monkeypox-epidemiology-update-report-fr",
+        "file_name": "Mise-a-jour-sur-epidemiologie-de-la-variole-simienne-Agence-de-la-sante-publique-du-Canada",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Report (French)",
+          "meta_url": "https://health-infobase.canada.ca/monkeypox/",
+          "meta_url_name": "Monkeypox epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Vaccination coverage: Vaccination coverage by age and sex",
+        "uuid": "1260ba4d-57f7-4802-b496-390cfb7c859e",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-byAgeAndSex.csv",
+        "dir_parent": "can",
+        "dir_file": "vaccination-coverage-by-age-sex",
+        "file_name": "vaccination-coverage-byAgeAndSex",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination coverage by age and sex",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
+          "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Vaccination coverage: Vaccination coverage by age and sex (current week)",
+        "uuid": "8fba2a13-287a-4945-8035-0210cabf899a",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage/vaccination-coverage-byAgeAndSex3.csv",
+        "dir_parent": "can",
+        "dir_file": "vaccination-coverage-by-age-sex-current-week",
+        "file_name": "vaccination-coverage-byAgeAndSex3",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination coverage by age and sex (current week)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
+          "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -18099,6 +18361,55 @@
           "meta_name": "Reporting delay plot",
           "meta_url": "https://github.com/uhengart/covid-alert-dashboard",
           "meta_url_name": "Unofficial COVID Alert Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "Other: CAN - CTV Variant Tracker (webpage)",
+        "uuid": "57debfa6-e336-45e1-ac73-656e67988c7d",
+        "active": "False",
+        "url": "https://www.ctvnews.ca/health/coronavirus/tracking-variants-of-the-novel-coronavirus-in-canada-1.5296141",
+        "dir_parent": "other/can",
+        "dir_file": "ctv-variant-tracker-webpage",
+        "file_name": "ctv-variant-tracker-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.ctvnews.ca/health/coronavirus/tracking-variants-of-the-novel-coronavirus-in-canada-1.5296141",
+          "meta_url_name": "CTV: Tracking variants of the novel coronavirus in Canada",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "Other: CAN - CTV Variant Tracker",
+        "uuid": "daa6be69-acf4-4d1b-a05a-84d3a2a9022e",
+        "active": "False",
+        "url": "https://beta.ctvnews.ca/content/dam/common/exceltojson/COVID-Variants.txt",
+        "dir_parent": "other/can",
+        "dir_file": "ctv-variant-tracker",
+        "file_name": "COVID-Variants",
+        "file_ext": "txt",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://www.ctvnews.ca/health/coronavirus/tracking-variants-of-the-novel-coronavirus-in-canada-1.5296141",
+          "meta_url_name": "CTV: Tracking variants of the novel coronavirus in Canada",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Other: Non-governmental sources",
