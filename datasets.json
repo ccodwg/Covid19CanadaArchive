@@ -1093,7 +1093,7 @@
         "notes": {}
       },
       {
-        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard (2) - Data Notes (webpage))",
+        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard (2) - Data Notes (webpage)",
         "uuid": "250ba809-9d1d-454d-b0fd-be8f1887d451",
         "active": "True",
         "url": "https://public.tableau.com/views/COVID-19VaccinationCoverageDashboard/DataNotes?%3Adisplay_static_image=y&%3Aembed=true&%3Aembed=y&%3Alanguage=en-US&%3AshowVizHome=n&%3AapiID=host0#navType=0&navSrc=Parse",
@@ -6557,29 +6557,6 @@
         "notes": {}
       },
       {
-        "id_name": "ON - City of Toronto COVID-19 Outbreak Data",
-        "uuid": "e91d794a-e99c-4955-89ff-ea059b34011e",
-        "active": "True",
-        "url": "https://docs.google.com/spreadsheets/d/1pYoXchhmnpiOrFBY7WP9rxGRJNgnerMN/export?format=xlsx&id=1pYoXchhmnpiOrFBY7WP9rxGRJNgnerMN",
-        "dir_parent": "on",
-        "dir_file": "toronto-active-outbreaks",
-        "file_name": "CityofToronto_COVID-19_OutbreakData",
-        "file_ext": "xlsx",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dataset",
-          "meta_url": "https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-pandemic-data/covid-19-active-outbreaks-data/",
-          "meta_url_name": "COVID-19: Active Outbreaks",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Toronto"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "ON - COVID-19 Cases in Toronto",
         "uuid": "50e54f16-6676-4e69-b398-df9483ba56cc",
         "active": "True",
@@ -7363,38 +7340,13 @@
         "notes": {}
       },
       {
-        "id_name": "ON - Peterborough (PHU) - COVID-19 data (webpage)",
-        "uuid": "c3aa6a5e-2ff5-4158-83ab-dcde251bc365",
+        "id_name": "ON - Peterborough (PHU) - Status of COVID-19 in Peterborough Region - Community Risk Index (webpage)",
+        "uuid": "f1b0df65-766e-4966-90fd-fad79310e83c",
         "active": "True",
-        "url": "https://www.peterboroughpublichealth.ca/local-covid-19-status/",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiMDRhYWQ1NzktNjlkMi00YTQ2LWI0NDItOTQ0ZDU2MDk3YTllIiwidCI6IjQ4OTJlODVlLTM1NzEtNGUzNy1hZjU1LTE4NTU3MjA2NDBjOCJ9&pageName=ReportSectionb42f1cb240c9ad8780d8",
         "dir_parent": "on",
-        "dir_file": "on-phu-peterborough-covid-data-webpage",
-        "file_name": "on-phu-peterborough-covid-data-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://www.peterboroughpublichealth.ca/local-covid-19-status/",
-          "meta_url_name": "Peterborough (PHU) - Local COVID-19 Cases & Status",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Public Health Units"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Peterborough (PHU) - Local COVID tracker - Overview (webpage)",
-        "uuid": "821645cf-acbb-49d1-ae28-0e65037c61bf",
-        "active": "True",
-        "url": "https://localcovidtracker.ca/",
-        "dir_parent": "on",
-        "dir_file": "on-phu-peterborough-covid-tracker-overview-webpage",
-        "file_name": "on-phu-peterborough-covid-tracker-overview-webpage",
+        "dir_file": "on-phu-peterborough-covid-status-dashboard-community-risk-index-webpage",
+        "file_name": "on-phu-peterborough-covid-status-dashboard-community-risk-index-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
         "args": {
@@ -7403,9 +7355,35 @@
         },
         "supplementary": {},
         "metadata": {
-          "meta_name": "Overview",
-          "meta_url": "https://localcovidtracker.ca/",
-          "meta_url_name": "Peterborough (PHU) - Local COVID tracker",
+          "meta_name": "Community Risk Index",
+          "meta_url": "https://www.peterboroughpublichealth.ca/covid-19-risk-index/",
+          "meta_url_name": "Peterborough (PHU) - Status of COVID-19 in Peterborough Region",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Peterborough (PHU) - Status of COVID-19 in Peterborough Region - COVID-19 Cases (webpage)",
+        "uuid": "6558ecad-8e2c-4734-b895-4875bca1a7e5",
+        "active": "True",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiMDRhYWQ1NzktNjlkMi00YTQ2LWI0NDItOTQ0ZDU2MDk3YTllIiwidCI6IjQ4OTJlODVlLTM1NzEtNGUzNy1hZjU1LTE4NTU3MjA2NDBjOCJ9&pageName=ReportSection8ff8c384b1901a59f556",
+        "dir_parent": "on",
+        "dir_file": "on-phu-peterborough-covid-status-dashboard-covid-19-cases-webpage",
+        "file_name": "on-phu-peterborough-covid-status-dashboard-covid-19-cases-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID-19 Cases",
+          "meta_url": "https://www.peterboroughpublichealth.ca/covid-19-risk-index/",
+          "meta_url_name": "Peterborough (PHU) - Status of COVID-19 in Peterborough Region",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario",
@@ -15581,6 +15559,80 @@
           "meta_licence_url": "",
           "meta_group_1": "Ontario",
           "meta_group_2": "Ontario universities"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - City of Toronto COVID-19 Outbreak Data",
+        "uuid": "e91d794a-e99c-4955-89ff-ea059b34011e",
+        "active": "False",
+        "url": "https://docs.google.com/spreadsheets/d/1pYoXchhmnpiOrFBY7WP9rxGRJNgnerMN/export?format=xlsx&id=1pYoXchhmnpiOrFBY7WP9rxGRJNgnerMN",
+        "dir_parent": "on",
+        "dir_file": "toronto-active-outbreaks",
+        "file_name": "CityofToronto_COVID-19_OutbreakData",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-pandemic-data/covid-19-active-outbreaks-data/",
+          "meta_url_name": "COVID-19: Active Outbreaks",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Toronto"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Peterborough (PHU) - Local COVID tracker - Overview (webpage)",
+        "uuid": "821645cf-acbb-49d1-ae28-0e65037c61bf",
+        "active": "False",
+        "url": "https://localcovidtracker.ca/",
+        "dir_parent": "on",
+        "dir_file": "on-phu-peterborough-covid-tracker-overview-webpage",
+        "file_name": "on-phu-peterborough-covid-tracker-overview-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Overview",
+          "meta_url": "https://localcovidtracker.ca/",
+          "meta_url_name": "Peterborough (PHU) - Local COVID tracker",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Peterborough (PHU) - COVID-19 data (webpage)",
+        "uuid": "c3aa6a5e-2ff5-4158-83ab-dcde251bc365",
+        "active": "False",
+        "url": "https://www.peterboroughpublichealth.ca/local-covid-19-status/",
+        "dir_parent": "on",
+        "dir_file": "on-phu-peterborough-covid-data-webpage",
+        "file_name": "on-phu-peterborough-covid-data-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.peterboroughpublichealth.ca/local-covid-19-status/",
+          "meta_url_name": "Peterborough (PHU) - Local COVID-19 Cases & Status",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
         },
         "notes": {}
       }
