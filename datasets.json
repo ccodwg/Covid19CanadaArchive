@@ -968,13 +968,13 @@
         "notes": {}
       },
       {
-        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Introduction (webpage)",
-        "uuid": "a5424eed-6417-4edf-84de-a8f9e3c25e42",
+        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard (2) - Introduction (webpage)",
+        "uuid": "97b00c04-0285-4fd2-b1a0-a64a932e6241",
         "active": "True",
-        "url": "https://public.tableau.com/views/BCCDCCOVID-19SurveillanceDashboard/Introduction?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
+        "url": "https://public.tableau.com/views/COVID-19VaccinationCoverageDashboard/Introduction?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
         "dir_parent": "bc",
-        "dir_file": "bccdc-surveillance-dashboard-introduction-webpage",
-        "file_name": "bccdc-surveillance-dashboard-introduction-webpage",
+        "dir_file": "bccdc-surveillance-dashboard-introduction-2-webpage",
+        "file_name": "bccdc-surveillance-dashboard-introduction-2-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
         "args": {
@@ -984,8 +984,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Introduction",
-          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
-          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
+          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/COVID-19VaccinationCoverageDashboard/Introduction",
+          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard (2)",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "British Columbia"
@@ -993,88 +993,13 @@
         "notes": {}
       },
       {
-        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Outcomes by Vax 1 (webpage)",
-        "uuid": "c56f68a8-29ab-4a6b-9b32-216fc8278eb6",
+        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard (2) - Vax by Age (webpage)",
+        "uuid": "c7aaf84b-844a-4985-bfbe-b9cdbaf91052",
         "active": "True",
-        "url": "https://public.tableau.com/views/BCCDCCOVID-19SurveillanceDashboard/OutcomesbyVax1?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
+        "url": "https://public.tableau.com/views/COVID-19VaccinationCoverageDashboard/VaxbyAge?%3Adisplay_static_image=y&%3Aembed=true&%3Aembed=y&%3Alanguage=en-US&%3AshowVizHome=n&%3AapiID=host0#navType=0&navSrc=Parse",
         "dir_parent": "bc",
-        "dir_file": "bccdc-surveillance-dashboard-outcomes-by-vax-1-webpage",
-        "file_name": "bccdc-surveillance-dashboard-outcomes-by-vax-1-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "10"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Outcomes by Vax 1",
-          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
-          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "British Columbia"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Outcomes by Vax 2 (webpage)",
-        "uuid": "b73f883f-3273-4108-8792-a55add5c9bb5",
-        "active": "True",
-        "url": "https://public.tableau.com/views/BCCDCCOVID-19SurveillanceDashboard/OutcomesbyVax2?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
-        "dir_parent": "bc",
-        "dir_file": "bccdc-surveillance-dashboard-outcomes-by-vax-2-webpage",
-        "file_name": "bccdc-surveillance-dashboard-outcomes-by-vax-2-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "10"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Outcomes by Vax 2",
-          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
-          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "British Columbia"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Vax Donut Charts (webpage)",
-        "uuid": "ef550c85-bb50-4b24-a43f-46f7c73f1180",
-        "active": "True",
-        "url": "https://public.tableau.com/views/BCCDCCOVID-19SurveillanceDashboard/VaxDonutCharts?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
-        "dir_parent": "bc",
-        "dir_file": "bccdc-surveillance-dashboard-vax-donut-charts-webpage",
-        "file_name": "bccdc-surveillance-dashboard-vax-donut-charts-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "10"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Vax Donut Charts",
-          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
-          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "British Columbia"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Vax by Age (webpage)",
-        "uuid": "9b8aef42-4d21-4b2d-8e35-2dc90f8fc0bc",
-        "active": "True",
-        "url": "https://public.tableau.com/views/BCCDCCOVID-19SurveillanceDashboard/VaxbyAge?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
-        "dir_parent": "bc",
-        "dir_file": "bccdc-surveillance-dashboard-vax-by-age-webpage",
-        "file_name": "bccdc-surveillance-dashboard-vax-by-age-webpage",
+        "dir_file": "bccdc-surveillance-dashboard-vax-by-age-2-webpage",
+        "file_name": "bccdc-surveillance-dashboard-vax-by-age-2-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
         "args": {
@@ -1084,8 +1009,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Vax by Age",
-          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
-          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
+          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/COVID-19VaccinationCoverageDashboard/Introduction",
+          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard (2)",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "British Columbia"
@@ -1093,13 +1018,13 @@
         "notes": {}
       },
       {
-        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Vax Progress (webpage)",
-        "uuid": "b49bc25e-90ab-406b-b40e-796e6bc47d30",
+        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard (2) - Vax Progress (webpage)",
+        "uuid": "d2dd5071-8f7c-42bb-ab2d-3ae28d42ed4c",
         "active": "True",
-        "url": "https://public.tableau.com/shared/M5BYT5ZX9?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
+        "url": "https://public.tableau.com/views/COVID-19VaccinationCoverageDashboard/VaxProgress?%3Adisplay_static_image=y&%3Aembed=true&%3Aembed=y&%3Alanguage=en-US&%3AshowVizHome=n&%3AapiID=host0#navType=0&navSrc=Parse",
         "dir_parent": "bc",
-        "dir_file": "bccdc-surveillance-dashboard-vax-progress-webpage",
-        "file_name": "bccdc-surveillance-dashboard-vax-progress-webpage",
+        "dir_file": "bccdc-surveillance-dashboard-vax-progress-2-webpage",
+        "file_name": "bccdc-surveillance-dashboard-vax-progress-2-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
         "args": {
@@ -1109,8 +1034,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Vax Progress",
-          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
-          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
+          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/COVID-19VaccinationCoverageDashboard/Introduction",
+          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard (2)",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "British Columbia"
@@ -1118,13 +1043,13 @@
         "notes": {}
       },
       {
-        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Map (webpage)",
-        "uuid": "e7a25db5-7a2d-480b-be33-765c443cc432",
+        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard (2) - Map (webpage)",
+        "uuid": "cc7b3292-5b83-4c7c-b72b-2a7535384aa7",
         "active": "True",
-        "url": "https://public.tableau.com/shared/WCC6XTJS6?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
+        "url": "https://public.tableau.com/views/COVID-19VaccinationCoverageDashboard/Map?%3Adisplay_static_image=y&%3Aembed=true&%3Aembed=y&%3Alanguage=en-US&%3AshowVizHome=n&%3AapiID=host0#navType=0&navSrc=Parse",
         "dir_parent": "bc",
-        "dir_file": "bccdc-surveillance-dashboard-map-webpage",
-        "file_name": "bccdc-surveillance-dashboard-map-webpage",
+        "dir_file": "bccdc-surveillance-dashboard-map-2-webpage",
+        "file_name": "bccdc-surveillance-dashboard-map-2-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
         "args": {
@@ -1134,8 +1059,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Map",
-          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
-          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
+          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/COVID-19VaccinationCoverageDashboard/Introduction",
+          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard (2)",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "British Columbia"
@@ -1143,13 +1068,13 @@
         "notes": {}
       },
       {
-        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Vertical Plots (webpage)",
-        "uuid": "ab2e7503-cfbe-47c5-b816-20f9edcf8189",
+        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard (2) - Vertical Plots (webpage)",
+        "uuid": "b370dbfe-cdff-4bc0-8ad9-a8e77f00e29c",
         "active": "True",
-        "url": "https://public.tableau.com/shared/3PJ88BTXZ?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
+        "url": "https://public.tableau.com/views/COVID-19VaccinationCoverageDashboard/VerticalPlots?%3Adisplay_static_image=y&%3Aembed=true&%3Aembed=y&%3Alanguage=en-US&%3AshowVizHome=n&%3AapiID=host0#navType=0&navSrc=Parse",
         "dir_parent": "bc",
-        "dir_file": "bccdc-surveillance-dashboard-vertical-plots-webpage",
-        "file_name": "bccdc-surveillance-dashboard-vertical-plots-webpage",
+        "dir_file": "bccdc-surveillance-dashboard-vertical-plots-2-webpage",
+        "file_name": "bccdc-surveillance-dashboard-vertical-plots-2-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
         "args": {
@@ -1159,8 +1084,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Vertical Plots",
-          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
-          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
+          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/COVID-19VaccinationCoverageDashboard/Introduction",
+          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard (2)",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "British Columbia"
@@ -1168,113 +1093,13 @@
         "notes": {}
       },
       {
-        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Scatter Plot (webpage)",
-        "uuid": "52fa3f67-fd34-49bc-aff1-457bd2943216",
+        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard (2) - Data Notes (webpage))",
+        "uuid": "250ba809-9d1d-454d-b0fd-be8f1887d451",
         "active": "True",
-        "url": "https://public.tableau.com/shared/PNRGJBM49?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
+        "url": "https://public.tableau.com/views/COVID-19VaccinationCoverageDashboard/DataNotes?%3Adisplay_static_image=y&%3Aembed=true&%3Aembed=y&%3Alanguage=en-US&%3AshowVizHome=n&%3AapiID=host0#navType=0&navSrc=Parse",
         "dir_parent": "bc",
-        "dir_file": "bccdc-surveillance-dashboard-scatter-plot-webpage",
-        "file_name": "bccdc-surveillance-dashboard-scatter-plot-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "10"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Scatter Plot",
-          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
-          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "British Columbia"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Case Trends by LHA 1 (webpage)",
-        "uuid": "47aecbda-c936-4190-8809-53b649330a51",
-        "active": "True",
-        "url": "https://public.tableau.com/shared/6PRCTCJTX?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
-        "dir_parent": "bc",
-        "dir_file": "bccdc-surveillance-dashboard-case-trends-by-lha-1-webpage",
-        "file_name": "bccdc-surveillance-dashboard-case-trends-by-lha-1-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "10"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Case Trends by LHA 1",
-          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
-          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "British Columbia"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Case Trends by LHA 2 (webpage)",
-        "uuid": "5750db5b-c0b0-4059-90c8-225ee84d24cf",
-        "active": "True",
-        "url": "https://public.tableau.com/shared/RM3Q9B5ZH?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
-        "dir_parent": "bc",
-        "dir_file": "bccdc-surveillance-dashboard-case-trends-by-lha-2-webpage",
-        "file_name": "bccdc-surveillance-dashboard-case-trends-by-lha-2-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "10"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Case Trends by LHA 2",
-          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
-          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "British Columbia"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Weekly Change (webpage)",
-        "uuid": "ede181a4-8cec-4085-895f-77ba4d2b14da",
-        "active": "True",
-        "url": "https://public.tableau.com/views/BCCDCCOVID-19SurveillanceDashboard/WeeklyChange?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
-        "dir_parent": "bc",
-        "dir_file": "bccdc-surveillance-dashboard-weekly-change-webpage",
-        "file_name": "bccdc-surveillance-dashboard-weekly-change-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "10"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Weekly Change",
-          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
-          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "British Columbia"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Data Notes (webpage)",
-        "uuid": "dee3ccf4-9243-4d62-854e-61fa87289cbf",
-        "active": "True",
-        "url": "https://public.tableau.com/views/BCCDCCOVID-19SurveillanceDashboard/DataNotes?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
-        "dir_parent": "bc",
-        "dir_file": "bccdc-surveillance-dashboard-data-notes-webpage",
-        "file_name": "bccdc-surveillance-dashboard-data-notes-webpage",
+        "dir_file": "bccdc-surveillance-dashboard-data-notes-2-webpage",
+        "file_name": "bccdc-surveillance-dashboard-data-notes-2-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
         "args": {
@@ -1284,8 +1109,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Data Notes",
-          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
-          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
+          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/COVID-19VaccinationCoverageDashboard/Introduction",
+          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard (2)",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "British Columbia"
@@ -8423,50 +8248,6 @@
         "notes": {}
       },
       {
-        "id_name": "QC - Historique du portrait quotidien du statut vaccinal des nouveaux cas confirmés",
-        "uuid": "5c1ef873-2538-4f99-b8cf-102728c63fea",
-        "active": "True",
-        "url": "https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_RapportINSPQ_CasSelonStatutVaccinalEtAge.csv",
-        "dir_parent": "qc",
-        "dir_file": "new-cases-by-age-and-vaccination-status-timeseries",
-        "file_name": "COVID19_Qc_RapportINSPQ_CasSelonStatutVaccinalEtAge",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "New cases by age and vaccination status time series",
-          "meta_url": "https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-du-statut-vaccinal-des-nouveaux-cas-et-des-nouvelles-hospitalisations",
-          "meta_url_name": "COVID-19 - Portrait quotidien du statut vaccinal des nouveaux cas et des nouvelles hospitalisations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Historique du portrait quotidien du statut vaccinal des nouvelles hospitalisations",
-        "uuid": "bf806684-60ff-4f48-b34b-e292487586c7",
-        "active": "True",
-        "url": "https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_RapportINSPQ_HospitalisationsSelonStatutVaccinalEtAge.csv",
-        "dir_parent": "qc",
-        "dir_file": "new-hosp-by-age-and-vaccination-status-timeseries",
-        "file_name": "COVID19_Qc_RapportINSPQ_HospitalisationsSelonStatutVaccinalEtAge",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "New hospitalizations by age and vaccination status time series",
-          "meta_url": "https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-du-statut-vaccinal-des-nouveaux-cas-et-des-nouvelles-hospitalisations",
-          "meta_url_name": "COVID-19 - Portrait quotidien du statut vaccinal des nouveaux cas et des nouvelles hospitalisations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "QC - COVID-19 vaccination data (webpage FR)",
         "uuid": "c7db162a-fa36-4107-8b53-9a1333ae76d1",
         "active": "True",
@@ -9927,6 +9708,331 @@
         "notes": {
           "notes_data": "Warning: some early files are .png screenshots and named differently."
         }
+      },
+      {
+        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Introduction (webpage)",
+        "uuid": "a5424eed-6417-4edf-84de-a8f9e3c25e42",
+        "active": "False",
+        "url": "https://public.tableau.com/views/BCCDCCOVID-19SurveillanceDashboard/Introduction?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
+        "dir_parent": "bc",
+        "dir_file": "bccdc-surveillance-dashboard-introduction-webpage",
+        "file_name": "bccdc-surveillance-dashboard-introduction-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Introduction",
+          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
+          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Outcomes by Vax 1 (webpage)",
+        "uuid": "c56f68a8-29ab-4a6b-9b32-216fc8278eb6",
+        "active": "False",
+        "url": "https://public.tableau.com/views/BCCDCCOVID-19SurveillanceDashboard/OutcomesbyVax1?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
+        "dir_parent": "bc",
+        "dir_file": "bccdc-surveillance-dashboard-outcomes-by-vax-1-webpage",
+        "file_name": "bccdc-surveillance-dashboard-outcomes-by-vax-1-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Outcomes by Vax 1",
+          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
+          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Outcomes by Vax 2 (webpage)",
+        "uuid": "b73f883f-3273-4108-8792-a55add5c9bb5",
+        "active": "False",
+        "url": "https://public.tableau.com/views/BCCDCCOVID-19SurveillanceDashboard/OutcomesbyVax2?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
+        "dir_parent": "bc",
+        "dir_file": "bccdc-surveillance-dashboard-outcomes-by-vax-2-webpage",
+        "file_name": "bccdc-surveillance-dashboard-outcomes-by-vax-2-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Outcomes by Vax 2",
+          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
+          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Vax Donut Charts (webpage)",
+        "uuid": "ef550c85-bb50-4b24-a43f-46f7c73f1180",
+        "active": "False",
+        "url": "https://public.tableau.com/views/BCCDCCOVID-19SurveillanceDashboard/VaxDonutCharts?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
+        "dir_parent": "bc",
+        "dir_file": "bccdc-surveillance-dashboard-vax-donut-charts-webpage",
+        "file_name": "bccdc-surveillance-dashboard-vax-donut-charts-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vax Donut Charts",
+          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
+          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Vax by Age (webpage)",
+        "uuid": "9b8aef42-4d21-4b2d-8e35-2dc90f8fc0bc",
+        "active": "False",
+        "url": "https://public.tableau.com/views/BCCDCCOVID-19SurveillanceDashboard/VaxbyAge?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
+        "dir_parent": "bc",
+        "dir_file": "bccdc-surveillance-dashboard-vax-by-age-webpage",
+        "file_name": "bccdc-surveillance-dashboard-vax-by-age-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vax by Age",
+          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
+          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Vax Progress (webpage)",
+        "uuid": "b49bc25e-90ab-406b-b40e-796e6bc47d30",
+        "active": "False",
+        "url": "https://public.tableau.com/shared/M5BYT5ZX9?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
+        "dir_parent": "bc",
+        "dir_file": "bccdc-surveillance-dashboard-vax-progress-webpage",
+        "file_name": "bccdc-surveillance-dashboard-vax-progress-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vax Progress",
+          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
+          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Map (webpage)",
+        "uuid": "e7a25db5-7a2d-480b-be33-765c443cc432",
+        "active": "False",
+        "url": "https://public.tableau.com/shared/WCC6XTJS6?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
+        "dir_parent": "bc",
+        "dir_file": "bccdc-surveillance-dashboard-map-webpage",
+        "file_name": "bccdc-surveillance-dashboard-map-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Map",
+          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
+          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Vertical Plots (webpage)",
+        "uuid": "ab2e7503-cfbe-47c5-b816-20f9edcf8189",
+        "active": "False",
+        "url": "https://public.tableau.com/shared/3PJ88BTXZ?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
+        "dir_parent": "bc",
+        "dir_file": "bccdc-surveillance-dashboard-vertical-plots-webpage",
+        "file_name": "bccdc-surveillance-dashboard-vertical-plots-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vertical Plots",
+          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
+          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Scatter Plot (webpage)",
+        "uuid": "52fa3f67-fd34-49bc-aff1-457bd2943216",
+        "active": "False",
+        "url": "https://public.tableau.com/shared/PNRGJBM49?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
+        "dir_parent": "bc",
+        "dir_file": "bccdc-surveillance-dashboard-scatter-plot-webpage",
+        "file_name": "bccdc-surveillance-dashboard-scatter-plot-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Scatter Plot",
+          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
+          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Case Trends by LHA 1 (webpage)",
+        "uuid": "47aecbda-c936-4190-8809-53b649330a51",
+        "active": "False",
+        "url": "https://public.tableau.com/shared/6PRCTCJTX?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
+        "dir_parent": "bc",
+        "dir_file": "bccdc-surveillance-dashboard-case-trends-by-lha-1-webpage",
+        "file_name": "bccdc-surveillance-dashboard-case-trends-by-lha-1-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Case Trends by LHA 1",
+          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
+          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Case Trends by LHA 2 (webpage)",
+        "uuid": "5750db5b-c0b0-4059-90c8-225ee84d24cf",
+        "active": "False",
+        "url": "https://public.tableau.com/shared/RM3Q9B5ZH?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
+        "dir_parent": "bc",
+        "dir_file": "bccdc-surveillance-dashboard-case-trends-by-lha-2-webpage",
+        "file_name": "bccdc-surveillance-dashboard-case-trends-by-lha-2-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Case Trends by LHA 2",
+          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
+          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Weekly Change (webpage)",
+        "uuid": "ede181a4-8cec-4085-895f-77ba4d2b14da",
+        "active": "False",
+        "url": "https://public.tableau.com/views/BCCDCCOVID-19SurveillanceDashboard/WeeklyChange?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
+        "dir_parent": "bc",
+        "dir_file": "bccdc-surveillance-dashboard-weekly-change-webpage",
+        "file_name": "bccdc-surveillance-dashboard-weekly-change-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Weekly Change",
+          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
+          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard - Data Notes (webpage)",
+        "uuid": "dee3ccf4-9243-4d62-854e-61fa87289cbf",
+        "active": "False",
+        "url": "https://public.tableau.com/views/BCCDCCOVID-19SurveillanceDashboard/DataNotes?%3Adisplay_static_image=y&%3AbootstrapWhenNotified=true&%3Aembed=true&%3Alanguage=en-US&:embed=y&:showVizHome=n&:apiID=host0#navType=0&navSrc=Parse",
+        "dir_parent": "bc",
+        "dir_file": "bccdc-surveillance-dashboard-data-notes-webpage",
+        "file_name": "bccdc-surveillance-dashboard-data-notes-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Data Notes",
+          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/BCCDCCOVID-19SurveillanceDashboard/Introduction",
+          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
       }
     ],
     "can": [
@@ -16949,6 +17055,50 @@
           "meta_name": "Correctional facilities - cases among detainees (FR)",
           "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
           "meta_url_name": "Données sur la COVID-19 au Québec (province)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Historique du portrait quotidien du statut vaccinal des nouvelles hospitalisations",
+        "uuid": "bf806684-60ff-4f48-b34b-e292487586c7",
+        "active": "False",
+        "url": "https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_RapportINSPQ_HospitalisationsSelonStatutVaccinalEtAge.csv",
+        "dir_parent": "qc",
+        "dir_file": "new-hosp-by-age-and-vaccination-status-timeseries",
+        "file_name": "COVID19_Qc_RapportINSPQ_HospitalisationsSelonStatutVaccinalEtAge",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "New hospitalizations by age and vaccination status time series",
+          "meta_url": "https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-du-statut-vaccinal-des-nouveaux-cas-et-des-nouvelles-hospitalisations",
+          "meta_url_name": "COVID-19 - Portrait quotidien du statut vaccinal des nouveaux cas et des nouvelles hospitalisations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Historique du portrait quotidien du statut vaccinal des nouveaux cas confirmés",
+        "uuid": "5c1ef873-2538-4f99-b8cf-102728c63fea",
+        "active": "False",
+        "url": "https://msss.gouv.qc.ca/professionnels/statistiques/documents/covid19/COVID19_Qc_RapportINSPQ_CasSelonStatutVaccinalEtAge.csv",
+        "dir_parent": "qc",
+        "dir_file": "new-cases-by-age-and-vaccination-status-timeseries",
+        "file_name": "COVID19_Qc_RapportINSPQ_CasSelonStatutVaccinalEtAge",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "New cases by age and vaccination status time series",
+          "meta_url": "https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-du-statut-vaccinal-des-nouveaux-cas-et-des-nouvelles-hospitalisations",
+          "meta_url_name": "COVID-19 - Portrait quotidien du statut vaccinal des nouveaux cas et des nouvelles hospitalisations",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Quebec"
