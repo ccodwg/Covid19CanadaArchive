@@ -6741,6 +6741,52 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Integrated Respiratory Diseases Dashboard - Dataset - (Toronto)",
+        "uuid": "ab451b80-4c02-41d9-8792-8bb5d7497ece",
+        "active": "True",
+        "url": "https://docs.google.com/spreadsheets/d/1iICMMYV-6Jjniep0g0sbgljGZFXKUR33/export?format=xlsx&id=1iICMMYV-6Jjniep0g0sbgljGZFXKUR33",
+        "dir_parent": "on",
+        "dir_file": "toronto-integrated-respiratory-diseases-dataset",
+        "file_name": "CityofToronto_RespiratoryDiseasesData",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://www.toronto.ca/community-people/health-wellness-care/health-inspections-monitoring/communicable-disease-surveillance-reports/integrated-respiratory-diseases-dashboard/",
+          "meta_url_name": "Toronto Public Health - Integrated Respiratory Diseases Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Toronto"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Integrated Respiratory Diseases Dashboard - Technical Notes - (Toronto)",
+        "uuid": "30481885-b98c-4680-8eb0-d3ab19824989",
+        "active": "True",
+        "url": "https://drive.google.com/uc?id=19FdpCxZKAm3I1nBhbB4u6U4bBW_kPoOr&export=download",
+        "dir_parent": "on",
+        "dir_file": "toronto-integrated-respiratory-diseases-technical-notes",
+        "file_name": "Integrated_Respiratory_Diseases_Dashboard_EXTERNAL_Technical_Notes-3",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Technical Notes",
+          "meta_url": "https://www.toronto.ca/community-people/health-wellness-care/health-inspections-monitoring/communicable-disease-surveillance-reports/integrated-respiratory-diseases-dashboard/",
+          "meta_url_name": "Toronto Public Health - Integrated Respiratory Diseases Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Toronto"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - Ottawa Demographics and Source of Infection for Cases, Deaths, and Hospitalizations",
         "uuid": "d8d4cbc6-d0a5-4544-ad3e-5a3c3060f973",
         "active": "True",
