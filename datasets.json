@@ -10523,6 +10523,188 @@
           "meta_group_1": "British Columbia"
         },
         "notes": {}
+      },
+      {
+        "id_name": "BC - Weekly COVID-19 case counts by Local Health Area (LHA) maps (2020)",
+        "uuid": "020a7bdd-cc3b-4259-954a-032221947dc6",
+        "active": "False",
+        "url": "http://www.bccdc.ca/Health-Info-Site/Documents/COVID-19_LHA_Maps/covid19_lha_weekly_2020images.pdf",
+        "dir_parent": "bc",
+        "dir_file": "bc-cases-weekly-lha-maps-2020",
+        "file_name": "covid19_lha_weekly_2020images",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Weekly COVID-19 case counts by Local Health Area (LHA) maps (2020)",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
+          "meta_url_name": "BC COVID-19 Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - Weekly COVID-19 case counts by Local Health Area (LHA) maps (2021)",
+        "uuid": "2f7bf2f2-02e6-43ee-8ca8-a8e21b9f1b7d",
+        "active": "False",
+        "url": "http://www.bccdc.ca/Health-Info-Site/Documents/COVID-19_LHA_Maps/covid19_lha_weekly_2021images.pdf",
+        "dir_parent": "bc",
+        "dir_file": "bc-cases-weekly-lha-maps-2021",
+        "file_name": "covid19_lha_weekly_2021images",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Weekly COVID-19 case counts by Local Health Area (LHA) maps (2021)",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
+          "meta_url_name": "BC COVID-19 Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - Weekly COVID-19 case counts by Local Health Area (LHA) maps (2022)",
+        "uuid": "0b2ddef7-46e3-43b3-8066-7bb07d0db1b0",
+        "active": "False",
+        "url": "NA",
+        "dir_parent": "bc",
+        "dir_file": "bc-cases-weekly-lha-maps-2022",
+        "file_name": "covid19_lha",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Weekly COVID-19 case counts by Local Health Area (LHA) maps (2022)",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
+          "meta_url_name": "BC COVID-19 Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {
+          "notes_data": "Many of the early files are in .png format rather than .pdf. Date in file name assumes a constant 5 day delay between the final date covered by the map and the date the map was released."
+        }
+      },
+      {
+        "id_name": "BC - Cumulative/weekly COVID-19 case counts by Local Health Area (LHA) maps (2020-2021)",
+        "uuid": "0d6660f3-f71a-4255-abd0-75bbd7f2c087",
+        "active": "False",
+        "url": "http://www.bccdc.ca/Health-Info-Site/Documents/COVID-19_LHA_Maps/covid19_lha_cumulative_2021images.pdf",
+        "dir_parent": "bc",
+        "dir_file": "bc-cases-cumulative-lha-maps-2020-2021",
+        "file_name": "covid19_lha_cumulative_2021images",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cumulative/weekly COVID-19 case counts by Local Health Area (LHA) maps (2020-2021)",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
+          "meta_url_name": "BC COVID-19 Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - Cumulative/weekly COVID-19 case counts by Local Health Area (LHA) maps (2022)",
+        "uuid": "c8a4c4ba-e5f3-4d52-8885-aca85ed65bf0",
+        "active": "False",
+        "url": "NA",
+        "dir_parent": "bc",
+        "dir_file": "bc-cases-cumulative-lha-maps-2022",
+        "file_name": "covid19_lha_cumulative",
+        "file_ext": "png",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cumulative/weekly COVID-19 case counts by Local Health Area (LHA) maps (2022)",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
+          "meta_url_name": "BC COVID-19 Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - Cumulative/last 7 or 14 days COVID-19 case counts by Health Service Delivery Area (HSDA) maps",
+        "uuid": "b889668f-ee33-408b-a12e-554264d27772",
+        "active": "False",
+        "url": "NA",
+        "dir_parent": "bc",
+        "dir_file": "bc-cases-cumulative-7-14-days-hsda-maps",
+        "file_name": "covid19_hsda_cumulative_7_14_days",
+        "file_ext": "png",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cumulative/last 7 or 14 days COVID-19 case counts by Health Service Delivery Area (HSDA) maps",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
+          "meta_url_name": "BC COVID-19 Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {
+          "notes_data": "Early versions of the map contained covered the last 14 days of data; later versions of the map covered the last 7 days of data. Date in the file name assumes the final date covered by the map was the date the map was released."
+        }
+      },
+      {
+        "id_name": "BC - Weekly COVID-19 reports (April-September 2022)",
+        "uuid": "98a58540-ce93-4bd5-b63f-5c04be1a7ca7",
+        "active": "False",
+        "url": "NA",
+        "dir_parent": "bc",
+        "dir_file": "bc-weekly-reports-2022",
+        "file_name": "COVID_weekly_report",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Weekly COVID-19 reports (April-September 2022)",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
+          "meta_url_name": "BC COVID-19 Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - Data Summary (May-December 2021)",
+        "uuid": "98cc0f4d-c81a-45cf-8650-d221a69be80e",
+        "active": "False",
+        "url": "NA",
+        "dir_parent": "bc",
+        "dir_file": "bc-data-summary-2021",
+        "file_name": "Data_Summary",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Data Summary (May-December 2021)",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
+          "meta_url_name": "BC COVID-19 Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {
+          "notes_data": "Dates in the file name reflect the date used in the name of the original file. Metadata on the website they were downloaded from indicate that the actual delay in posting was around 4 to 6 days."
+        }
       }
     ],
     "can": [
