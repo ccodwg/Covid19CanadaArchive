@@ -19176,6 +19176,31 @@
           "meta_group_2": "Canada"
         },
         "notes": {}
+      },
+      {
+        "id_name": "Other: CAN - Covid Canada (skel625)",
+        "uuid": "1fc8a091-0c18-4640-bc45-84ea5fed72e6",
+        "active": "False",
+        "url": "https://docs.google.com/spreadsheets/d/1DAQ8_YJKdczjhFms9e8Hb0eVKX_GL5Et5CWvVcPKogM/export?format=xlsx&id=1DAQ8_YJKdczjhFms9e8Hb0eVKX_GL5Et5CWvVcPKogM",
+        "dir_parent": "other/can",
+        "dir_file": "skel625-covid-canada",
+        "file_name": "Covid_Canada",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://docs.google.com/spreadsheets/d/1DAQ8_YJKdczjhFms9e8Hb0eVKX_GL5Et5CWvVcPKogM/edit?usp=sharing",
+          "meta_url_name": "Covid Canada (skel625)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "Canada"
+        },
+        "notes": {
+          "notes_data": "This dataset created by reddit user skel625 contains COIVD-19 data for all of Canada (but focused on Alberta) for part of 2020."
+        }
       }
     ],
     "other/on": [
