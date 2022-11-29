@@ -18451,6 +18451,54 @@
         "notes": {}
       },
       {
+        "id_name": "SK - Saskatchewan's Dashboard - 32 sub-zones map",
+        "uuid": "181a946d-b7cf-4f9d-9962-9ef78e2f7af2",
+        "active": "False",
+        "url": "NA",
+        "dir_parent": "sk",
+        "dir_file": "sk-32-subzones-map",
+        "file_name": "covidSubzones",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "32 sub-zones map",
+          "meta_url": "https://dashboard.saskatchewan.ca/health-wellness",
+          "meta_url_name": "Saskatchewan's Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Saskatchewan"
+        },
+        "notes": {
+          "notes_data": "This map file was extracted from the following script on the Saskatchewan dashboard: https://dashboard.saskatchewan.ca/build/app.js"
+        }
+      },
+      {
+        "id_name": "SK - Saskatchewan's Dashboard - 13 zones map",
+        "uuid": "ff0dc9d7-260b-4225-a401-8f4852a753d6",
+        "active": "False",
+        "url": "NA",
+        "dir_parent": "sk",
+        "dir_file": "sk-13-zones-map",
+        "file_name": "covidZones",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "13 zones map",
+          "meta_url": "https://dashboard.saskatchewan.ca/health-wellness",
+          "meta_url_name": "Saskatchewan's Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Saskatchewan"
+        },
+        "notes": {
+          "notes_data": "This map file was extracted from the following script on the Saskatchewan dashboard: https://dashboard.saskatchewan.ca/build/app.js"
+        }
+      },
+      {
         "id_name": "SK - Weekly COVID-19 Situation Reports - news release (webpage)",
         "uuid": "e06317c2-5068-4d2c-8d70-7d23af5c72dd",
         "active": "False",
