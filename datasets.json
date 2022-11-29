@@ -18407,6 +18407,50 @@
         "notes": {}
       },
       {
+        "id_name": "SK - Saskatchewan's Dashboard - 32 sub-zones population, cases, active cases",
+        "uuid": "92c38c29-19d6-48a6-abdb-666d70e11503",
+        "active": "False",
+        "url": "https://dashboard.saskatchewan.ca/api/health/subgeography/summary",
+        "dir_parent": "sk",
+        "dir_file": "sk-32-subzones-pop-cases-active",
+        "file_name": "summary",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "32 sub-zones population, cases, active cases",
+          "meta_url": "https://dashboard.saskatchewan.ca/health-wellness",
+          "meta_url_name": "Saskatchewan's Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Saskatchewan"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "SK - Saskatchewan's Dashboard - 13 zones indicators",
+        "uuid": "d9879a87-593b-4afc-a79f-3c1c3341e043",
+        "active": "False",
+        "url": "https://dashboard.saskatchewan.ca/api/health/dashboard/indicators",
+        "dir_parent": "sk",
+        "dir_file": "sk-13-zones-indicators",
+        "file_name": "indicators",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "13 zones indicators",
+          "meta_url": "https://dashboard.saskatchewan.ca/health-wellness",
+          "meta_url_name": "Saskatchewan's Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Saskatchewan"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "SK - Weekly COVID-19 Situation Reports - news release (webpage)",
         "uuid": "e06317c2-5068-4d2c-8d70-7d23af5c72dd",
         "active": "False",
