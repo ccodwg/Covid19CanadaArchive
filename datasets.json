@@ -5463,6 +5463,52 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Ontario COVID-19 Data Tool - Overview (COVID-19 and Flu Activity)",
+        "uuid": "455c651a-9005-4059-81cb-bd8e36b5bc85",
+        "active": "True",
+        "url": "https://ws1.publichealthontario.ca/appdata/COVID/PROD/overview.xlsx",
+        "dir_parent": "on",
+        "dir_file": "pho-covid-data-tool-overview-covid-flu",
+        "file_name": "overview",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Overview (COVID-19 and Flu Activity)",
+          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance/covid-19-data-tool?tab=summary",
+          "meta_url_name": "Ontario COVID-19 Data Tool",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Ontario COVID-19 Data Tool - Overview (COVID-19 and Flu Activity) - Data dictionary",
+        "uuid": "055f2d1b-a7d8-4ecc-8614-ae1a66ccb9f2",
+        "active": "True",
+        "url": "https://ws1.publichealthontario.ca/appdata/COVID/PROD/staticFilesDoNotTouch/overviewSpecs.xlsx",
+        "dir_parent": "on",
+        "dir_file": "pho-covid-data-tool-overview-covid-flu-data-dictionary",
+        "file_name": "overviewSpecs",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Overview (COVID-19 and Flu Activity) - Data dictionary",
+          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance/covid-19-data-tool?tab=summary",
+          "meta_url_name": "Ontario COVID-19 Data Tool",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Ontario"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - Ontario COVID-19 Data Tool - Trends data dictionary",
         "uuid": "7523f1d0-0bb6-43bf-be05-5bcefb968e16",
         "active": "True",
