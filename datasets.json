@@ -19549,6 +19549,56 @@
         "notes": {
           "notes_data": "This dataset created by reddit user skel625 contains COIVD-19 data for all of Canada (but focused on Alberta) for part of 2020."
         }
+      },
+      {
+        "id_name": "Other: CAN - Healthy Debate: The Faces & Phases of COVID-19 - Vaccine rollout (Summary)",
+        "uuid": "07de5d70-d306-46a5-9e6e-ac0aaf9f426f",
+        "active": "False",
+        "url": "https://healthydebate.ca/wp-content/uploads/2022/10/Chart-Vaccine-eligibility.pdf",
+        "dir_parent": "other/can",
+        "dir_file": "healthy-debate-vaccine-rollout-summary",
+        "file_name": "Chart-Vaccine-eligibility",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Summary",
+          "meta_url": "https://healthydebate.ca/2022/11/topic/faces-phases-covid/",
+          "meta_url_name": "Healthy Debate: The Faces & Phases of COVID-19",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "Canada"
+        },
+        "notes": {
+          "notes_data": "This vaccine rollout dataset was prepared for Healthy Debate, primarily by Nicole Naimer."
+        }
+      },
+      {
+        "id_name": "Other: CAN - Healthy Debate: The Faces & Phases of COVID-19 - Vaccine rollout (Dataset)",
+        "uuid": "ab7da67c-bca4-46d3-9c24-ef8fee888727",
+        "active": "False",
+        "url": "NA",
+        "dir_parent": "other/can",
+        "dir_file": "healthy-debate-vaccine-rollout-dataset",
+        "file_name": "Vaccine_rollout_by_province",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://healthydebate.ca/2022/11/topic/faces-phases-covid/",
+          "meta_url_name": "Healthy Debate: The Faces & Phases of COVID-19",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "Canada"
+        },
+        "notes": {
+          "notes_data": "This vaccine rollout dataset was prepared for Healthy Debate, primarily by Nicole Naimer."
+        }
       }
     ],
     "other/on": [
