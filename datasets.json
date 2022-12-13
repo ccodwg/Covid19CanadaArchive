@@ -4862,33 +4862,6 @@
     ],
     "on": [
       {
-        "id_name": "ON - How Ontario is responding to COVID-19 (webpage)",
-        "uuid": "f664fdf0-4697-42c2-80d7-5202df44b766",
-        "active": "True",
-        "url": "https://www.ontario.ca/page/how-ontario-is-responding-covid-19",
-        "dir_parent": "on",
-        "dir_file": "ontario-webpage",
-        "file_name": "ontario-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "10"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://www.ontario.ca/page/how-ontario-is-responding-covid-19",
-          "meta_url_name": "How Ontario is responding to COVID-19",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {
-          "notes_data": "Some early files are .png screenshots and named differently."
-        }
-      },
-      {
         "id_name": "ON - Confirmed positive cases of COVID19 in Ontario",
         "uuid": "921649fa-c6c0-43af-a112-23760da4d622",
         "active": "True",
@@ -16449,6 +16422,33 @@
           "meta_group_2": "Public Health Units"
         },
         "notes": {}
+      },
+      {
+        "id_name": "ON - How Ontario is responding to COVID-19 (webpage)",
+        "uuid": "f664fdf0-4697-42c2-80d7-5202df44b766",
+        "active": "False",
+        "url": "https://www.ontario.ca/page/how-ontario-is-responding-covid-19",
+        "dir_parent": "on",
+        "dir_file": "ontario-webpage",
+        "file_name": "ontario-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.ontario.ca/page/how-ontario-is-responding-covid-19",
+          "meta_url_name": "How Ontario is responding to COVID-19",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {
+          "notes_data": "Some early files are .png screenshots and named differently."
+        }
       }
     ],
     "pe": [
