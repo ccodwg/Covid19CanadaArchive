@@ -6519,7 +6519,9 @@
         "file_name": "ICES-COVID19-Vaccination-Data-by-FSA",
         "file_ext": "xlsx",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "legacy_ssl": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccine coverage estimates for selected age groups by FSA",
@@ -6541,7 +6543,9 @@
         "file_name": "ICES-COVID19-Vaccine-Coverage-by-Priority-Group",
         "file_ext": "xlsx",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "legacy_ssl": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccine coverage estimates by priority groups",
@@ -6563,7 +6567,9 @@
         "file_name": "Vaccine-coverage-for-adults-with-developmental-disabilities",
         "file_ext": "xlsx",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "legacy_ssl": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccine coverage estimates for adults with developmental disabilities",
@@ -7862,7 +7868,9 @@
         "file_name": "YR_CaseData",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "legacy_ssl": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Individual-level case dataset",
