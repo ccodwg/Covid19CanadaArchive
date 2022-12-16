@@ -35,29 +35,27 @@ A note about data from Quebec: when both French and English data files are avail
 
 The easiest way to explore the data in the archive and download individual files is the aforementioned [Data Explorer](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/).
 
-The files in the archive are hosted under the following domain: [https://data.opencovid.ca/archive](https://data.opencovid.ca/archive). For example, the PHAC Epidemiology Update from November 4, 2020 may be downloaded at the following URL:
+The files in the archive are hosted under the following domain under the domain `https://data.opencovid.ca/archive`. For example, the PHAC Epidemiology Update from November 4, 2020 may be downloaded at the following URL:
 
 ```
 https://data.opencovid.ca/archive/can/epidemiology-update-2/covid19-download_2020-11-04_23-38.csv
 ```
 
-A complete index of files in the archive, including flags for duplicated files and corrected file dates (`file_data_true`), is available at the following URL:
-
-```
-https://data.opencovid.ca/archive/file_index.csv
-```
-
-This index is refreshed nightly around 23:00 ET. The file index is a searchable spreadsheet containing the download links to all files in the archive. Any programming language can be used to easily download a list of files.
-
-An experimental [JSON API](https://api.opencovid.ca/archive) is also available to search the file index, although it currently only supports filtering by UUID. For example, the following URL returns the index for the PHAC Epidemiology Update:
+Our [JSON API](https://api.opencovid.ca/) is available to search the file index, supporting filtering by UUID and date ranges, as well as removing duplicate files. For example, the following URL returns the index for the PHAC Epidemiology Update:
 
 ```
 https://api.opencovid.ca/archive?uuid=f7db31d0-6504-4a55-86f7-608664517bdb
 ```
 
-The API is not yet documented but will soon be added to [https://opencovid.ca/api/](https://opencovid.ca/api/).
+Alternatively, the entire contents of the archive are accessible via the R package [`Covid19CanadaData`](https://github.com/ccodwg/Covid19CanadaData) using the function `dl_archive`, which interfaces with the API described above. Be aware that this package is undergoing rapid development and may change at any time.
 
-Finally, the entire contents of the archive are accessible via the R package [`Covid19CanadaData`](https://github.com/ccodwg/Covid19CanadaData) using the function `dl_archive`, which interfaces with the API described above. Be aware that this package is undergoing rapid development and may change at any time.
+Finally, a complete copy of the index is available as a SQLite database at the following URL:
+
+```
+https://data.opencovid.ca/archive/index.db
+```
+
+This database can easily be queried using a programming language and used to download a list of files.
 
 ## Contributing
 
