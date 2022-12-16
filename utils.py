@@ -5,6 +5,9 @@
 # import modules from Python standard library
 import sys
 import json
+import tempfile
+import requests
+import sqlite3
 
 ### list_inactive_datasets: List datasets that have not been updated in at least 7 days ###
 def list_inactive_datasets():
@@ -12,27 +15,39 @@ def list_inactive_datasets():
   ## import modules
   import pandas as pd
   
-  ## load active datasets and extract UUIDs as list
+  ## load active datasets and extract active UUIDs as list
   with open('datasets.json') as json_file:
     datasets = json.load(json_file)
   datasets = datasets['active'] # subset active datasets
-  uuids = [] # create empty list
+  ds = {}
   for d in datasets:
-          for i in range(len(datasets[d])):
-                  uuids.append(datasets[d][i]['uuid'])
+    for i in range(len(datasets[d])):
+      ds[datasets[d][i]["uuid"]] = datasets[d][i]
   
-  ## download file index
-  ind = pd.read_csv("http://data.opencovid.ca/archive/file_index.csv")
+  ## download file index and read into dataframe
+  no_cache_headers = {"Cache-Control": "no-cache", "Pragma": "no-cache"}
+  temp = tempfile.NamedTemporaryFile()
+  with open(temp.name, "wb") as f:
+    f.write(requests.get("https://data.opencovid.ca/archive/index.db", headers = no_cache_headers).content)
+    ind = pd.read_sql("SELECT * FROM archive", sqlite3.connect(temp.name))
 
   ## filter out datasets already marked as inactive
-  ind = ind[ind['uuid'].isin(uuids)]
+  ind = ind[ind['uuid'].isin(ds.keys())]
+
+  ## filter to final file from each date
+  ind["file_final_for_date"] = ind.groupby(["uuid", "file_date"])["file_timestamp"].transform(max) == ind["file_timestamp"]
+  ind = ind[ind["file_final_for_date"] == True]
+
+  ## join datasets metadata
+  datasets_meta = pd.DataFrame.from_dict(ds, orient = "index")[["uuid", "dir_parent", "dir_file"]]
+  ind = pd.merge(ind, datasets_meta, on = "uuid", how = "left")
   
   ## filter to longest consecutive sequence of duplicates starting from the bottom for each UUID
-  ind = ind[['dir_parent', 'dir_file', 'uuid', 'file_etag_duplicate']] # subset to relevant columns
+  ind = ind[['dir_parent', 'dir_file', 'uuid', 'file_duplicate']] # subset to relevant columns
   ind['name'] = ind['dir_parent'] + '/' + ind['dir_file']
-  ind = ind[['name', 'uuid', 'file_etag_duplicate']]
+  ind = ind[['name', 'uuid', 'file_duplicate']]
   ind = ind.reindex(index=ind.index[::-1]) # reverse order
-  ind['dup'] = ind['file_etag_duplicate'] == 0
+  ind['dup'] = ind['file_duplicate'] == 0
   ind['dup'] = ind['dup'].astype(int)
   ind['dup'] = ind.groupby(['name', 'uuid'])['dup'].cumsum()
   ind = ind.query('dup == 0')
