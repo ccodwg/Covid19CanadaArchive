@@ -61,43 +61,43 @@ def list_inactive_datasets():
   ## print result
   print(log)
   
-### retire_dataset: Move dataset from 'active' to 'inactive'
-def retire_dataset(uuid):
+### retire_datasets: Move dataset(s) from 'active' to 'inactive'
+def retire_datasets(uuids):
 
   # load datasets.json
   with open('datasets.json') as json_file:
     datasets = json.load(json_file)
   
-  # find location of dataset
-  i_uuid = None
-  k_uuid = None
-  for k in datasets['active'].keys():
-    for i in range(len(datasets['active'][k])):
-      u = datasets['active'][k][i]['uuid']
-      if u == uuid:
-        i_uuid = i
-        k_uuid = k
-        break
+  # loops through UUIDs
+  for uuid in uuids:
+    # find location of dataset
+    i_uuid = None
+    for k in datasets['active'].keys():
+      for i in range(len(datasets['active'][k])):
+        u = datasets['active'][k][i]['uuid']
+        if u == uuid:
+          i_uuid = i
+          k_uuid = k
+          break
+      else:
+        continue
+      break
+
+    # stop if no matching active dataset found
+    if i_uuid is None:
+      print('No matching active dataset found with UUID: ' + u)
     else:
-      continue
-    break
+      # copy dataset
+      d = datasets['active'][k_uuid][i_uuid]
+      
+      # add inactive flag
+      d['active'] = 'False'
 
-  # stop if no matching active dataset found
-  if i_uuid is None:
-    print('No matching active dataset found with that UUID.')
-    return
+      # remove dataset from active
+      datasets['active'][k_uuid].pop(i_uuid)
 
-  # copy dataset
-  d = datasets['active'][k][i]
-  
-  # add inactive flag
-  d['active'] = 'False'
-
-  # remove dataset from active
-  datasets['active'][k].pop(i)
-
-  # append dataset to inactive
-  datasets['inactive'][k].append(d)
+      # append dataset to inactive
+      datasets['inactive'][k_uuid].append(d)
 
   # write datasets.json
   with open('datasets.json', 'w') as json_file:
@@ -108,8 +108,6 @@ if __name__ == '__main__':
   # no positional argument
   if len(sys.argv) == 2:
     globals()[sys.argv[1]]()
-  # one positional argument
-  elif len(sys.argv) == 3:
-    globals()[sys.argv[1]](sys.argv[2])
-  else:
-    print("This method only accepts at most one positional argument.")
+  # one or more positional arguments
+  elif len(sys.argv) > 2:
+    globals()[sys.argv[1]](sys.argv[2:len(sys.argv)])
