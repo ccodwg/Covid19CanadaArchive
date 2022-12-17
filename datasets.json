@@ -1943,13 +1943,13 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 epidemiology update (Lab indicators - Data dictionary)",
-        "uuid": "e517e678-4761-46c0-816b-259dd88ec286",
+        "id_name": "CAN - COVID-19 epidemiology update (Lab indicators - RVDSS - Data dictionary)",
+        "uuid": "be9e199a-ce72-4dbf-81e2-037981243a75",
         "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-labtesting-data-dictionary.csv",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-RVDSS-data-dictionary.csv",
         "dir_parent": "can",
-        "dir_file": "lab-testing-data-dictionary",
-        "file_name": "covid19-labtesting-data-dictionary",
+        "dir_file": "lab-testing-rvdss-data-dictionary",
+        "file_name": "covid19-RVDSS-data-dictionary",
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {
@@ -1957,7 +1957,7 @@
         },
         "supplementary": {},
         "metadata": {
-          "meta_name": "Lab indicators (data dictionary)",
+          "meta_name": "Lab indicators - RVDSS (data dictionary)",
           "meta_url": "https://health-infobase.canada.ca/covid-19/",
           "meta_url_name": "COVID-19 epidemiology update",
           "meta_licence": "",
@@ -11401,6 +11401,30 @@
         "notes": {
           "notes_data": "This is the original testing time series reported prior to December 5, 2022. It used the System for Analyzing Laboratory Test counts (SALT)."
         }
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Lab indicators - Data dictionary)",
+        "uuid": "e517e678-4761-46c0-816b-259dd88ec286",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-labtesting-data-dictionary.csv",
+        "dir_parent": "can",
+        "dir_file": "lab-testing-data-dictionary",
+        "file_name": "covid19-labtesting-data-dictionary",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Lab indicators (data dictionary)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
       }
     ],
     "mb": [
