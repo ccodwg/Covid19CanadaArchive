@@ -4874,8 +4874,74 @@
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Dataset",
-          "meta_url": "https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario/resource/455fd63b-603d-4608-8216-7d8647f43350",
+          "meta_name": "Confirmed positive cases of COVID19 in Ontario",
+          "meta_url": "https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario",
+          "meta_url_name": "Confirmed positive cases of COVID19 in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Confirmed positive cases of COVID19 in Ontario (2020)",
+        "uuid": "4428e155-15aa-496d-8b46-abf9d17a4ce5",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/f4112442-bdc8-45d2-be3c-12efae72fb27/resource/5cad2b06-e131-44e7-ad46-757ac67e041d/download/conposcovidloc_2020.csv",
+        "dir_parent": "on",
+        "dir_file": "confirmed-positive-cases-2020",
+        "file_name": "conposcovidloc_2020",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Confirmed positive cases of COVID19 in Ontario (2020)",
+          "meta_url": "https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario",
+          "meta_url_name": "Confirmed positive cases of COVID19 in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Confirmed positive cases of COVID19 in Ontario (2021)",
+        "uuid": "a17be09a-64f1-4712-853c-ec06634a6831",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/f4112442-bdc8-45d2-be3c-12efae72fb27/resource/822d637d-3416-4ad8-b09b-a748ae1370e0/download/conposcovidloc_2021.csv",
+        "dir_parent": "on",
+        "dir_file": "confirmed-positive-cases-2021",
+        "file_name": "conposcovidloc_2021",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Confirmed positive cases of COVID19 in Ontario (2021)",
+          "meta_url": "https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario",
+          "meta_url_name": "Confirmed positive cases of COVID19 in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Confirmed positive cases of COVID19 in Ontario (2022)",
+        "uuid": "afbdb302-3ad3-4eb3-b492-d34560769113",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/f4112442-bdc8-45d2-be3c-12efae72fb27/resource/c657aeb9-b829-4e16-8e3b-9c9e2aa45313/download/conposcovidloc_2022.csv",
+        "dir_parent": "on",
+        "dir_file": "confirmed-positive-cases-2022",
+        "file_name": "conposcovidloc_2022",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Confirmed positive cases of COVID19 in Ontario (2022)",
+          "meta_url": "https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario",
           "meta_url_name": "Confirmed positive cases of COVID19 in Ontario",
           "meta_licence": "",
           "meta_licence_url": "",
@@ -4897,7 +4963,7 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Status of COVID-19 cases in Ontario",
-          "meta_url": "https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/ed270bb8-340b-41f9-a7c6-e8ef587e6d11",
+          "meta_url": "https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario",
           "meta_url_name": "Status of COVID-19 cases in Ontario",
           "meta_licence": "",
           "meta_licence_url": "",
@@ -4919,7 +4985,7 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Daily change in cases by PHU",
-          "meta_url": "https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/ed270bb8-340b-41f9-a7c6-e8ef587e6d11",
+          "meta_url": "https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario",
           "meta_url_name": "Status of COVID-19 cases in Ontario",
           "meta_licence": "",
           "meta_licence_url": "",
@@ -4941,74 +5007,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Cumulative deaths (new methodology)",
-          "meta_url": "https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/ed270bb8-340b-41f9-a7c6-e8ef587e6d11",
+          "meta_url": "https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario",
           "meta_url_name": "Status of COVID-19 cases in Ontario",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Status of COVID-19 cases in Ontario by Public Health Unit (PHU)",
-        "uuid": "73fffd44-fbad-4de8-8d32-00cc5ae180a6",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/1115d5fe-dd84-4c69-b5ed-05bf0c0a0ff9/resource/d1bfe1ad-6575-4352-8302-09ca81f7ddfc/download/cases_by_status_and_phu.csv",
-        "dir_parent": "on",
-        "dir_file": "status-of-cases-by-phu",
-        "file_name": "cases_by_status_and_phu",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dataset",
-          "meta_url": "https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario-by-public-health-unit-phu",
-          "meta_url_name": "Status of COVID-19 cases in Ontario by Public Health Unit (PHU)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Ontario COVID-19 testing metrics by Public Health Unit (PHU)",
-        "uuid": "16ccd67e-fa64-488a-b58b-5d8e2870f09c",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/a2dfa674-a173-45b3-9964-1e3d2130b40f/resource/07bc0e21-26b5-4152-b609-c1958cb7b227/download/testing_metrics_by_phu.csv",
-        "dir_parent": "on",
-        "dir_file": "testing-metrics-by-phu",
-        "file_name": "testing_metrics_by_phu",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dataset",
-          "meta_url": "https://data.ontario.ca/dataset/ontario-covid-19-testing-metrics-by-public-health-unit-phu",
-          "meta_url_name": "Ontario COVID-19 testing metrics by Public Health Unit (PHU)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Ontario COVID-19 testing percent positive by age group",
-        "uuid": "bfab2b25-1588-4be8-b1c8-2d655db4d18a",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/ab5f4a2b-7219-4dc7-9e4d-aa4036c5bf36/resource/05214a0d-d8d9-4ea4-8d2a-f6e3833ba471/download/percent_positive_by_agegrp.csv",
-        "dir_parent": "on",
-        "dir_file": "percent-positive-by-age-group",
-        "file_name": "percent_positive_by_agegrp",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dataset",
-          "meta_url": "https://data.ontario.ca/dataset/ontario-covid-19-testing-percent-positive-by-age-group",
-          "meta_url_name": "Ontario COVID-19 testing percent positive by age group",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario"
@@ -5100,50 +5100,6 @@
           "meta_name": "Webpage",
           "meta_url": "https://covid-19.ontario.ca/rapid-test-locator",
           "meta_url_name": "COVID-19 rapid test locations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Ongoing outbreaks",
-        "uuid": "c40ee593-226d-4ccd-ba56-cd426435f286",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/5472ffc1-88e2-48ca-bc9f-4aa249c1298d/resource/66d15cce-bfee-4f91-9e6e-0ea79ec52b3d/download/ongoing_outbreaks.csv",
-        "dir_parent": "on",
-        "dir_file": "ongoing-outbreaks",
-        "file_name": "ongoing_outbreaks",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Ongoing outbreaks",
-          "meta_url": "https://data.ontario.ca/dataset/ontario-covid-19-outbreaks-data",
-          "meta_url_name": "Ontario COVID-19 outbreaks data",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Ongoing outbreaks by PHU",
-        "uuid": "cdf98171-8342-46f6-b4e8-d0ea3e00c734",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/5472ffc1-88e2-48ca-bc9f-4aa249c1298d/resource/36048cc1-3c47-48ff-a49f-8c7840e32cc2/download/ongoing_outbreaks_phu.csv",
-        "dir_parent": "on",
-        "dir_file": "ongoing-outbreaks-by-phu",
-        "file_name": "ongoing_outbreaks_phu",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Ongoing outbreaks by PHU",
-          "meta_url": "https://data.ontario.ca/dataset/ontario-covid-19-outbreaks-data",
-          "meta_url_name": "Ontario COVID-19 outbreaks data",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario"
@@ -16481,6 +16437,116 @@
         "notes": {
           "notes_data": "Some early files are .png screenshots and named differently."
         }
+      },
+      {
+        "id_name": "ON - Ontario COVID-19 testing percent positive by age group",
+        "uuid": "bfab2b25-1588-4be8-b1c8-2d655db4d18a",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/ab5f4a2b-7219-4dc7-9e4d-aa4036c5bf36/resource/05214a0d-d8d9-4ea4-8d2a-f6e3833ba471/download/percent_positive_by_agegrp.csv",
+        "dir_parent": "on",
+        "dir_file": "percent-positive-by-age-group",
+        "file_name": "percent_positive_by_agegrp",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://data.ontario.ca/dataset/ontario-covid-19-testing-percent-positive-by-age-group",
+          "meta_url_name": "Ontario COVID-19 testing percent positive by age group",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Ongoing outbreaks by PHU",
+        "uuid": "cdf98171-8342-46f6-b4e8-d0ea3e00c734",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/5472ffc1-88e2-48ca-bc9f-4aa249c1298d/resource/36048cc1-3c47-48ff-a49f-8c7840e32cc2/download/ongoing_outbreaks_phu.csv",
+        "dir_parent": "on",
+        "dir_file": "ongoing-outbreaks-by-phu",
+        "file_name": "ongoing_outbreaks_phu",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Ongoing outbreaks by PHU",
+          "meta_url": "https://data.ontario.ca/dataset/ontario-covid-19-outbreaks-data",
+          "meta_url_name": "Ontario COVID-19 outbreaks data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Ongoing outbreaks",
+        "uuid": "c40ee593-226d-4ccd-ba56-cd426435f286",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/5472ffc1-88e2-48ca-bc9f-4aa249c1298d/resource/66d15cce-bfee-4f91-9e6e-0ea79ec52b3d/download/ongoing_outbreaks.csv",
+        "dir_parent": "on",
+        "dir_file": "ongoing-outbreaks",
+        "file_name": "ongoing_outbreaks",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Ongoing outbreaks",
+          "meta_url": "https://data.ontario.ca/dataset/ontario-covid-19-outbreaks-data",
+          "meta_url_name": "Ontario COVID-19 outbreaks data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Status of COVID-19 cases in Ontario by Public Health Unit (PHU)",
+        "uuid": "73fffd44-fbad-4de8-8d32-00cc5ae180a6",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/1115d5fe-dd84-4c69-b5ed-05bf0c0a0ff9/resource/d1bfe1ad-6575-4352-8302-09ca81f7ddfc/download/cases_by_status_and_phu.csv",
+        "dir_parent": "on",
+        "dir_file": "status-of-cases-by-phu",
+        "file_name": "cases_by_status_and_phu",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario-by-public-health-unit-phu",
+          "meta_url_name": "Status of COVID-19 cases in Ontario by Public Health Unit (PHU)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Ontario COVID-19 testing metrics by Public Health Unit (PHU)",
+        "uuid": "16ccd67e-fa64-488a-b58b-5d8e2870f09c",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/a2dfa674-a173-45b3-9964-1e3d2130b40f/resource/07bc0e21-26b5-4152-b609-c1958cb7b227/download/testing_metrics_by_phu.csv",
+        "dir_parent": "on",
+        "dir_file": "testing-metrics-by-phu",
+        "file_name": "testing_metrics_by_phu",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://data.ontario.ca/dataset/ontario-covid-19-testing-metrics-by-public-health-unit-phu",
+          "meta_url_name": "Ontario COVID-19 testing metrics by Public Health Unit (PHU)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
       }
     ],
     "pe": [
