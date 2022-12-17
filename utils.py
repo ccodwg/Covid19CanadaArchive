@@ -9,12 +9,13 @@ import tempfile
 import requests
 import sqlite3
 
-### list_inactive_datasets: List datasets that have not been updated in at least 7 days ###
+### list_inactive_datasets: List datasets that have not been updated for an unusually long time ###
 def list_inactive_datasets():
 
   ## import modules
   import pandas as pd
-  
+  pd.options.mode.chained_assignment = None # disable chained assignment warning
+
   ## load active datasets and extract active UUIDs as list
   with open('datasets.json') as json_file:
     datasets = json.load(json_file)
@@ -32,31 +33,54 @@ def list_inactive_datasets():
     ind = pd.read_sql("SELECT * FROM archive", sqlite3.connect(temp.name))
 
   ## filter out datasets already marked as inactive
-  ind = ind[ind['uuid'].isin(ds.keys())]
+  ind = ind[ind["uuid"].isin(ds.keys())]
 
   ## filter to final file from each date
-  ind["file_final_for_date"] = ind.groupby(["uuid", "file_date"])["file_timestamp"].transform(max) == ind["file_timestamp"]
+  ind["file_final_for_date"] = ind.groupby(["uuid", "file_date"])["file_timestamp"].transform("max") == ind["file_timestamp"]
   ind = ind[ind["file_final_for_date"] == True]
 
   ## join datasets metadata
   datasets_meta = pd.DataFrame.from_dict(ds, orient = "index")[["uuid", "dir_parent", "dir_file"]]
   ind = pd.merge(ind, datasets_meta, on = "uuid", how = "left")
+
+  ## order datasets by UUID and timestamp
+  ind = ind.sort_values(by = ["uuid", "file_timestamp"]).reset_index(drop = True)
+
+  ## add name column
+  ind["name"] = ind["dir_parent"] + "/" + ind["dir_file"]
+
+  ## list to hold results
+  log = []
+
+  ## for each UUID, calculate a cumulative sum for file_duplicate, resetting at each 0 (i.e., each new file)
+  ## then, see if the current run of duplicates is longer than all previous runs of duplicates
+  for uuid in ind["uuid"].unique():
+    # filter data
+    u = ind[ind["uuid"] == uuid]
+    # calculate runs of 1s (i.e., consecutive duplicates)
+    u["file_duplicate"] = u["file_duplicate"] != 0
+    d = u["file_duplicate"]
+    u["file_duplicate"] = d.cumsum()-d.cumsum().where(~d).ffill().fillna(0).astype(int)
+    # get last value
+    last = u["file_duplicate"].iloc[-1]
+    # get max value excluding final run
+    # filter to everything before final zero
+    final_zero = u[u["file_duplicate"] == 0]
+    if len(final_zero) == 0:
+      # every entry but the first is a duplicate
+      max = 0
+    else:
+      final_zero = final_zero.index[-1]
+      ## filter to everything before final zero
+      u = u[u.index.isin(range(final_zero))]
+      max = u["file_duplicate"].max()
+    # if last value is larger than max and at least 7, add to log
+    if last > max and last >= 7:
+      log.append([u["name"].iloc[-1], last, max])
   
-  ## filter to longest consecutive sequence of duplicates starting from the bottom for each UUID
-  ind = ind[['dir_parent', 'dir_file', 'uuid', 'file_duplicate']] # subset to relevant columns
-  ind['name'] = ind['dir_parent'] + '/' + ind['dir_file']
-  ind = ind[['name', 'uuid', 'file_duplicate']]
-  ind = ind.reindex(index=ind.index[::-1]) # reverse order
-  ind['dup'] = ind['file_duplicate'] == 0
-  ind['dup'] = ind['dup'].astype(int)
-  ind['dup'] = ind.groupby(['name', 'uuid'])['dup'].cumsum()
-  ind = ind.query('dup == 0')
-  ind = ind.groupby(['name', 'uuid']).size().to_frame().reset_index()
-  ind.columns = ['name', 'uuid', 'count']
-  ind = ind.query('count >= 7').sort_values(by='count', ascending=False)
-  
-  ## save result
-  log = ind.to_string(index=False)
+  ## save result and sort
+  log = pd.DataFrame(log, columns = ["name", "current_dup_run", "previous_max_dup_run"]).sort_values(by = ["current_dup_run", "name"], ascending = [False, True])
+  log = log.to_string(index=False)
   
   ## print result
   print(log)
