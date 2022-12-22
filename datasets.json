@@ -5016,6 +5016,50 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Ontario COVID-19 testing percent positive by age group",
+        "uuid": "bfab2b25-1588-4be8-b1c8-2d655db4d18a",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/ab5f4a2b-7219-4dc7-9e4d-aa4036c5bf36/resource/05214a0d-d8d9-4ea4-8d2a-f6e3833ba471/download/percent_positive_by_agegrp.csv",
+        "dir_parent": "on",
+        "dir_file": "percent-positive-by-age-group",
+        "file_name": "percent_positive_by_agegrp",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://data.ontario.ca/dataset/ontario-covid-19-testing-percent-positive-by-age-group",
+          "meta_url_name": "Ontario COVID-19 testing percent positive by age group",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Ontario COVID-19 testing metrics by Public Health Unit (PHU)",
+        "uuid": "16ccd67e-fa64-488a-b58b-5d8e2870f09c",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/a2dfa674-a173-45b3-9964-1e3d2130b40f/resource/07bc0e21-26b5-4152-b609-c1958cb7b227/download/testing_metrics_by_phu.csv",
+        "dir_parent": "on",
+        "dir_file": "testing-metrics-by-phu",
+        "file_name": "testing_metrics_by_phu",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://data.ontario.ca/dataset/ontario-covid-19-testing-metrics-by-public-health-unit-phu",
+          "meta_url_name": "Ontario COVID-19 testing metrics by Public Health Unit (PHU)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - COVID-19 cases in hospital and ICU, by Ontario Health (OH) region",
         "uuid": "4b214c24-8542-4d26-a850-b58fc4ef6a30",
         "active": "True",
@@ -16439,28 +16483,6 @@
         }
       },
       {
-        "id_name": "ON - Ontario COVID-19 testing percent positive by age group",
-        "uuid": "bfab2b25-1588-4be8-b1c8-2d655db4d18a",
-        "active": "False",
-        "url": "https://data.ontario.ca/dataset/ab5f4a2b-7219-4dc7-9e4d-aa4036c5bf36/resource/05214a0d-d8d9-4ea4-8d2a-f6e3833ba471/download/percent_positive_by_agegrp.csv",
-        "dir_parent": "on",
-        "dir_file": "percent-positive-by-age-group",
-        "file_name": "percent_positive_by_agegrp",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dataset",
-          "meta_url": "https://data.ontario.ca/dataset/ontario-covid-19-testing-percent-positive-by-age-group",
-          "meta_url_name": "Ontario COVID-19 testing percent positive by age group",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "ON - Ongoing outbreaks by PHU",
         "uuid": "cdf98171-8342-46f6-b4e8-d0ea3e00c734",
         "active": "False",
@@ -16520,28 +16542,6 @@
           "meta_name": "Dataset",
           "meta_url": "https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario-by-public-health-unit-phu",
           "meta_url_name": "Status of COVID-19 cases in Ontario by Public Health Unit (PHU)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Ontario COVID-19 testing metrics by Public Health Unit (PHU)",
-        "uuid": "16ccd67e-fa64-488a-b58b-5d8e2870f09c",
-        "active": "False",
-        "url": "https://data.ontario.ca/dataset/a2dfa674-a173-45b3-9964-1e3d2130b40f/resource/07bc0e21-26b5-4152-b609-c1958cb7b227/download/testing_metrics_by_phu.csv",
-        "dir_parent": "on",
-        "dir_file": "testing-metrics-by-phu",
-        "file_name": "testing_metrics_by_phu",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dataset",
-          "meta_url": "https://data.ontario.ca/dataset/ontario-covid-19-testing-metrics-by-public-health-unit-phu",
-          "meta_url_name": "Ontario COVID-19 testing metrics by Public Health Unit (PHU)",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario"
