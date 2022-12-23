@@ -5013,7 +5013,9 @@
           "meta_licence_url": "",
           "meta_group_1": "Ontario"
         },
-        "notes": {}
+        "notes": {
+          "notes_data": "The method used to count COVID-19 deaths has changed, effective December 1, 2022. Prior to December 1, 2022, deaths were counted based on the date the death was updated in the public health unit’s system. Going forward, deaths are counted on the date they occurred. A small number of COVID deaths (fewer than 20) do not have recorded death dates and will be excluded from this file."
+        }
       },
       {
         "id_name": "ON - Ontario COVID-19 testing percent positive by age group",
