@@ -9342,6 +9342,121 @@
           "meta_group_2": "New Brunswick"
         },
         "notes": {}
+      },
+      {
+        "id_name": "Other: NB - NB data compiled - Weekly COVIDWATCH data by zone",
+        "uuid": "e1d9327a-062c-40e1-bac7-413b7dab7c3b",
+        "active": "True",
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS9imN3NzbBDR8r44X3JJFFuEICKdNVQk71FDgtkCLNdKE7Zl0uCKm6SHrWmaXBODHeroKu9KHjANjR/pub?gid=0&output=csv",
+        "dir_parent": "other/nb",
+        "dir_file": "nb-covidwatch-compiled-by-zone",
+        "file_name": "NB_COVIDWATCH_data_compiled_-_Weekly_CW_data_by_zone",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Weekly COVIDWATCH data by zone",
+          "meta_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS9imN3NzbBDR8r44X3JJFFuEICKdNVQk71FDgtkCLNdKE7Zl0uCKm6SHrWmaXBODHeroKu9KHjANjR/pubhtml",
+          "meta_url_name": "NB data compiled",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "Other: NB - NB data compiled - Zone 1 and COVIDWATCH data",
+        "uuid": "65f7f025-e84f-4be6-82b6-919171bb941c",
+        "active": "True",
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS9imN3NzbBDR8r44X3JJFFuEICKdNVQk71FDgtkCLNdKE7Zl0uCKm6SHrWmaXBODHeroKu9KHjANjR/pub?gid=2050348130&output=csv",
+        "dir_parent": "other/nb",
+        "dir_file": "nb-zone-1-and-covidwatch",
+        "file_name": "NB_COVIDWATCH_data_compiled_-_Z1_and_CW_data",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Zone 1 and COVIDWATCH data",
+          "meta_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS9imN3NzbBDR8r44X3JJFFuEICKdNVQk71FDgtkCLNdKE7Zl0uCKm6SHrWmaXBODHeroKu9KHjANjR/pubhtml",
+          "meta_url_name": "NB data compiled",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "Other: NB - NB data compiled - Zone 2 and COVIDWATCH data",
+        "uuid": "c19a786f-da59-44ff-9517-088e0f52b908",
+        "active": "True",
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS9imN3NzbBDR8r44X3JJFFuEICKdNVQk71FDgtkCLNdKE7Zl0uCKm6SHrWmaXBODHeroKu9KHjANjR/pub?gid=2022845076&output=csv",
+        "dir_parent": "other/nb",
+        "dir_file": "nb-zone-2-and-covidwatch",
+        "file_name": "NB_COVIDWATCH_data_compiled_-_Z2_and_CW_data",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Zone 2 and COVIDWATCH data",
+          "meta_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS9imN3NzbBDR8r44X3JJFFuEICKdNVQk71FDgtkCLNdKE7Zl0uCKm6SHrWmaXBODHeroKu9KHjANjR/pubhtml",
+          "meta_url_name": "NB data compiled",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "Other: NB - NB data compiled - Zone 3 and COVIDWATCH data",
+        "uuid": "160be6f3-a25e-4415-8b12-8d6194bd4234",
+        "active": "True",
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS9imN3NzbBDR8r44X3JJFFuEICKdNVQk71FDgtkCLNdKE7Zl0uCKm6SHrWmaXBODHeroKu9KHjANjR/pub?gid=2012782669&output=csv",
+        "dir_parent": "other/nb",
+        "dir_file": "nb-zone-3-and-covidwatch",
+        "file_name": "NB_COVIDWATCH_data_compiled_-_Z3_and_CW_data",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Zone 3 and COVIDWATCH data",
+          "meta_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS9imN3NzbBDR8r44X3JJFFuEICKdNVQk71FDgtkCLNdKE7Zl0uCKm6SHrWmaXBODHeroKu9KHjANjR/pubhtml",
+          "meta_url_name": "NB data compiled",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "New Brunswick"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "Other: NB - NB data compiled - Zone 7 and COVIDWATCH data",
+        "uuid": "c2581d56-01c4-444a-b1f0-23fd8abead1b",
+        "active": "True",
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS9imN3NzbBDR8r44X3JJFFuEICKdNVQk71FDgtkCLNdKE7Zl0uCKm6SHrWmaXBODHeroKu9KHjANjR/pub?gid=2062220284&output=csv",
+        "dir_parent": "other/nb",
+        "dir_file": "nb-zone-7-and-covidwatch",
+        "file_name": "NB_COVIDWATCH_data_compiled_-_Z7_and_CW_data",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Zone 7 and COVIDWATCH data",
+          "meta_url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vS9imN3NzbBDR8r44X3JJFFuEICKdNVQk71FDgtkCLNdKE7Zl0uCKm6SHrWmaXBODHeroKu9KHjANjR/pubhtml",
+          "meta_url_name": "NB data compiled",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "New Brunswick"
+        },
+        "notes": {}
       }
     ],
     "other/on": [],
