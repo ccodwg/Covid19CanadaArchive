@@ -9364,7 +9364,9 @@
           "meta_group_1": "Other: Non-governmental sources",
           "meta_group_2": "New Brunswick"
         },
-        "notes": {}
+        "notes": {
+          "notes_data": "Dataset compiled by Twitter user @nb_covid_info (https://twitter.com/nb_covid_info)."
+        }
       },
       {
         "id_name": "Other: NB - NB data compiled - Zone 1 and COVIDWATCH data",
@@ -9387,7 +9389,9 @@
           "meta_group_1": "Other: Non-governmental sources",
           "meta_group_2": "New Brunswick"
         },
-        "notes": {}
+        "notes": {
+          "notes_data": "Dataset compiled by Twitter user @nb_covid_info (https://twitter.com/nb_covid_info)."
+        }
       },
       {
         "id_name": "Other: NB - NB data compiled - Zone 2 and COVIDWATCH data",
@@ -9410,7 +9414,9 @@
           "meta_group_1": "Other: Non-governmental sources",
           "meta_group_2": "New Brunswick"
         },
-        "notes": {}
+        "notes": {
+          "notes_data": "Dataset compiled by Twitter user @nb_covid_info (https://twitter.com/nb_covid_info)."
+        }
       },
       {
         "id_name": "Other: NB - NB data compiled - Zone 3 and COVIDWATCH data",
@@ -9433,7 +9439,9 @@
           "meta_group_1": "Other: Non-governmental sources",
           "meta_group_2": "New Brunswick"
         },
-        "notes": {}
+        "notes": {
+          "notes_data": "Dataset compiled by Twitter user @nb_covid_info (https://twitter.com/nb_covid_info)."
+        }
       },
       {
         "id_name": "Other: NB - NB data compiled - Zone 7 and COVIDWATCH data",
@@ -9456,7 +9464,9 @@
           "meta_group_1": "Other: Non-governmental sources",
           "meta_group_2": "New Brunswick"
         },
-        "notes": {}
+        "notes": {
+          "notes_data": "Dataset compiled by Twitter user @nb_covid_info (https://twitter.com/nb_covid_info)."
+        }
       }
     ],
     "other/on": [],
