@@ -19903,6 +19903,31 @@
           "meta_group_2": "Ontario"
         },
         "notes": {}
+      },
+      {
+        "id_name": "Other: ON - Ontario COVID - Dataset",
+        "uuid": "e8e74d41-f0fa-406f-867b-25c840d9f6a6",
+        "active": "False",
+        "url": "https://docs.google.com/spreadsheets/d/1E28C0ylUQ0hHgFySFpXtdjX_LkdY5tlhl-nt0SGhCDg/export?format=xlsx&id=1E28C0ylUQ0hHgFySFpXtdjX_LkdY5tlhl-nt0SGhCDg",
+        "dir_parent": "other/on",
+        "dir_file": "ontario-covid-compiled",
+        "file_name": "Ontario_COVID",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://docs.google.com/spreadsheets/d/1E28C0ylUQ0hHgFySFpXtdjX_LkdY5tlhl-nt0SGhCDg/edit",
+          "meta_url_name": "Ontario COVID",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "Ontario"
+        },
+        "notes": {
+          "notes_data": "This dataset was compiled by Reddit/GitHub user EnterpriseValue (Nouman Ahmad) (https://github.com/EnterpriseValue)."
+        }
       }
     ],
     "other/qc": []
