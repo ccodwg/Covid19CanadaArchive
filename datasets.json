@@ -18540,7 +18540,9 @@
           "meta_licence_url": "",
           "meta_group_1": "Saskatchewan"
         },
-        "notes": {}
+        "notes": {
+          "notes_data": "Data from the original six reporting regions (up to 2020-09-13) was downloaded from here: https://publications.saskatchewan.ca/#/categories/4810 (https://publications.saskatchewan.ca/#/categories/4808)."
+        }
       },
       {
         "id_name": "SK - Saskatchewan's Dashboard - Total Cases (highlights, charts, tables)",
