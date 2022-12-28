@@ -19855,6 +19855,29 @@
         "notes": {
           "notes_data": "This vaccine rollout dataset was prepared for Healthy Debate, primarily by Nicole Naimer."
         }
+      },
+      {
+        "id_name": "Other: CAN - Outbreak deaths in Canada (Nora Loreto) - Dataset",
+        "uuid": "3863ae0d-4d9b-42c4-ae13-48964eab622b",
+        "active": "False",
+        "url": "https://docs.google.com/spreadsheets/d/1M_RzojK0vwF9nAozI7aoyLpPU8EA1JEqO6rq0g1iebU/export?format=xlsx&id=1M_RzojK0vwF9nAozI7aoyLpPU8EA1JEqO6rq0g1iebU",
+        "dir_parent": "other/can",
+        "dir_file": "outbreak-deaths-in-canada-nora-loreto",
+        "file_name": "Deaths_in_Residential_Care_in_Canada_by_facility",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://docs.google.com/spreadsheets/d/1M_RzojK0vwF9nAozI7aoyLpPU8EA1JEqO6rq0g1iebU/edit",
+          "meta_url_name": "Outbreak deaths in Canada (Nora Loreto)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "Canada"
+        },
+        "notes": {}
       }
     ],
     "other/on": [
