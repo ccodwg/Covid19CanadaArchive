@@ -7884,31 +7884,6 @@
           "meta_group_2": "Public Health Units"
         },
         "notes": {}
-      },
-      {
-        "id_name": "ON - University of Toronto COVID-19 tracking (webpage)",
-        "uuid": "065020d0-3d21-4d6a-a0cf-14165425be26",
-        "active": "True",
-        "url": "https://www.utoronto.ca/utogether/covid19-dashboard",
-        "dir_parent": "on",
-        "dir_file": "u-of-t-covid-tracking-webpage",
-        "file_name": "u-of-t-covid-tracking-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://www.utoronto.ca/utogether/covid19-dashboard",
-          "meta_url_name": "University of Toronto COVID-19 tracking",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Ontario universities"
-        },
-        "notes": {
-          "notes_data": "Some early files are .png screenshots and named differently."
-        }
       }
     ],
     "pe": [
@@ -16703,6 +16678,31 @@
           "meta_group_1": "Ontario"
         },
         "notes": {}
+      },
+      {
+        "id_name": "ON - University of Toronto COVID-19 tracking (webpage)",
+        "uuid": "065020d0-3d21-4d6a-a0cf-14165425be26",
+        "active": "False",
+        "url": "https://www.utoronto.ca/utogether/covid19-dashboard",
+        "dir_parent": "on",
+        "dir_file": "u-of-t-covid-tracking-webpage",
+        "file_name": "u-of-t-covid-tracking-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.utoronto.ca/utogether/covid19-dashboard",
+          "meta_url_name": "University of Toronto COVID-19 tracking",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Ontario universities"
+        },
+        "notes": {
+          "notes_data": "Some early files are .png screenshots and named differently."
+        }
       }
     ],
     "pe": [
