@@ -9444,6 +9444,7 @@
         }
       }
     ],
+    "other/nl": [],
     "other/on": [],
     "other/pe": [
       {
@@ -19878,6 +19879,60 @@
           "meta_group_2": "Canada"
         },
         "notes": {}
+      }
+    ],
+    "other/nl": [
+      {
+        "id_name": "Other: NL - Reported cases, tests, test positivity and deaths in Newfoundland and Labrador (2021-12-10 to 2022-04-29) during Omicron from multiple Government of Newfoundland and Labrador sources",
+        "uuid": "bf0921c1-72b4-413f-ae5f-ab9299ab7c71",
+        "active": "False",
+        "url": "https://docs.google.com/spreadsheets/d/1cDNZHKLfwk6_dr3pQaC2d-Jqcvf9XHikH-ky3pcEO5g/export?format=xlsx&id=1cDNZHKLfwk6_dr3pQaC2d-Jqcvf9XHikH-ky3pcEO5g",
+        "dir_parent": "other/nl",
+        "dir_file": "nl-cases-tests-deaths-2021-12-10-to-2022-04-29",
+        "file_name": "NL_COVID_DATA_See_Legend",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://docs.google.com/spreadsheets/d/1cDNZHKLfwk6_dr3pQaC2d-Jqcvf9XHikH-ky3pcEO5g/edit#gid=0",
+          "meta_url_name": "Reported cases, tests, test positivity and deaths in Newfoundland and Labrador (2021-12-10 to 2022-04-29) during Omicron from multiple Government of Newfoundland and Labrador sources",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "Newfoundland and Labrador"
+        },
+        "notes": {
+          "notes_data": "Note regarding column 'Lab overflow cases from D29-J6': these are cases from Dec 29 to Jan 6 that were not reported until Jan 10 to Jan 15 because NL outsized its testing capacity so for a week they were sending tests out to an external laboratory. Details are in the news releases linked in the sources.",
+          "notes_misc": "This dataset was produced by Dr. Robert Way."
+        }
+      },
+      {
+        "id_name": "Other: NL - Reported deaths in Newfoundland and Labrador (2020-03-20 to 2022-04-22) by age-group from multiple Government of Newfoundland and Labrador sources",
+        "uuid": "e36598e0-872e-455d-8414-2ae782059bd1",
+        "active": "False",
+        "url": "https://docs.google.com/spreadsheets/d/19E_pyVqLTDylJWGW7WnlVsntW24xCNRJSinJSOYl6vQ/export?format=xlsx&id=19E_pyVqLTDylJWGW7WnlVsntW24xCNRJSinJSOYl6vQ",
+        "dir_parent": "other/nl",
+        "dir_file": "nl-deaths-by-age-group-2020-03-20-to-2022-04-22",
+        "file_name": "NL_DEATHS_BY_AGE_2020-03-20_2022-04-22",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://docs.google.com/spreadsheets/d/19E_pyVqLTDylJWGW7WnlVsntW24xCNRJSinJSOYl6vQ/edit#gid=1573051946",
+          "meta_url_name": "Reported deaths in Newfoundland and Labrador (2020-03-20 to 2022-04-22) by age-group from multiple Government of Newfoundland and Labrador sources",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "Newfoundland and Labrador"
+        },
+        "notes": {
+          "notes_data": "Deaths are provided by reported date. From 2020-03-20 to 2021-02-23 and 2022-02-02 to 2022-04-22, the number of deaths provided for the 70-79 and 80+ age ranges by the Government of Newfoundland and Labrador. However, between 2021-02-24 and 2022-02-01 this source only provided death totals for a single 70+ age category. As a result, only the 70+ category was able to be produced for the whole time period (2020-03-20 to 2022-04-22) with completeness.",
+          "notes_misc": "This dataset was produced by Dr. Robert Way."
+        }
       }
     ],
     "other/on": [
