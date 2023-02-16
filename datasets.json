@@ -6775,7 +6775,7 @@
         "id_name": "ON - COVID-19 Immunization Clinics",
         "uuid": "6854ad10-999b-4165-878d-be1dbed769c0",
         "active": "True",
-        "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/d3f21fec-a80d-4f29-b298-1d0660a0e55d/resource/5fc1e31b-0b1d-4a77-9e30-be14d5e5884b/download/covid-19-immunization-clinics.geojson",
+        "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/d3f21fec-a80d-4f29-b298-1d0660a0e55d/resource/8e25b88b-ab5a-4333-8498-f88ea26f094b/download/covid-19-immunization-clinics.geojson",
         "dir_parent": "on",
         "dir_file": "toronto-immunization-clinics",
         "file_name": "covid-19-immunization-clinics",
