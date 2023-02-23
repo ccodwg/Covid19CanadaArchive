@@ -6164,31 +6164,6 @@
         "notes": {}
       },
       {
-        "id_name": "ON - Public Health Ontario: COVID-19 Data and Surveillance - COVID-19 Cases with Severe Outcomes",
-        "uuid": "ecbd0ad8-6425-445f-a89a-294431c0100f",
-        "active": "True",
-        "url": "https://www.publichealthontario.ca/-/media/Documents/nCoV/epi/covid-19-cases-severe-outcomes-epi-summary.pdf?sc_lang=en",
-        "dir_parent": "on",
-        "dir_file": "pho-cases-with-severe-outcomes-report",
-        "file_name": "covid-19-cases-severe-outcomes-epi-summary",
-        "file_ext": "pdf",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "COVID-19 Cases with Severe Outcomes",
-          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance",
-          "meta_url_name": "Public Health Ontario: COVID-19 Data and Surveillance",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Public Health Ontario"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "ON - Public Health Ontario: COVID-19 Data and Surveillance - SARS-CoV-2 Whole Genome Sequencing in Ontario",
         "uuid": "3f3c2731-be92-4ec4-825e-0db90d534f24",
         "active": "True",
@@ -6204,31 +6179,6 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "SARS-CoV-2 Whole Genome Sequencing in Ontario",
-          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance",
-          "meta_url_name": "Public Health Ontario: COVID-19 Data and Surveillance",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Public Health Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Public Health Ontario: COVID-19 Data and Surveillance - COVID-19 in Long-Term Care Homes",
-        "uuid": "5adcc4c0-51b4-4bbe-989a-b47eb0df928d",
-        "active": "True",
-        "url": "https://www.publichealthontario.ca/-/media/documents/ncov/epi/covid-19-long-term-care-epi-summary.pdf?sc_lang=en",
-        "dir_parent": "on",
-        "dir_file": "pho-ltc-summary-report",
-        "file_name": "covid-19-long-term-care-epi-summary",
-        "file_ext": "pdf",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "COVID-19 in Long-Term Care Homes",
           "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance",
           "meta_url_name": "Public Health Ontario: COVID-19 Data and Surveillance",
           "meta_licence": "",
@@ -6609,52 +6559,6 @@
         "notes": {}
       },
       {
-        "id_name": "ON - City of Toronto Daily Status of COVID-19 Cases",
-        "uuid": "ebad185e-9706-44f4-921e-fc89d5cfa334",
-        "active": "True",
-        "url": "https://docs.google.com/spreadsheets/d/11KF1DuN5tntugNc10ogQDzFnW05ruzLH/export?format=xlsx&id=11KF1DuN5tntugNc10ogQDzFnW05ruzLH",
-        "dir_parent": "on",
-        "dir_file": "toronto-daily-status",
-        "file_name": "CityofToronto_COVID-19_Daily_Public_Reporting",
-        "file_ext": "xlsx",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dataset",
-          "meta_url": "https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-pandemic-data/covid-19-weekday-status-of-cases-data/",
-          "meta_url_name": "COVID-19: Case Counts",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Toronto"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - City of Toronto COVID-19 Summary",
-        "uuid": "4ded4df6-924f-44c2-be9d-6f6943975e04",
-        "active": "True",
-        "url": "https://docs.google.com/spreadsheets/d/1euhrML0rkV_hHF1thiA0G5vSSeZCqxHY/export?format=xlsx&id=1euhrML0rkV_hHF1thiA0G5vSSeZCqxHY",
-        "dir_parent": "on",
-        "dir_file": "toronto-covid-summary",
-        "file_name": "CityofToronto_COVID-19_Data",
-        "file_ext": "xlsx",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dataset",
-          "meta_url": "https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-pandemic-data/covid-19-epidemiological-summary-of-cases-data/",
-          "meta_url_name": "COVID-19: Epidemiological Summary of Cases",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Toronto"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "ON - City of Toronto COVID-19 Monitoring Dashboard (2)",
         "uuid": "5946386c-ae3a-4b4c-8c69-b80b2ee999b1",
         "active": "True",
@@ -6670,52 +6574,6 @@
           "meta_name": "Dataset",
           "meta_url": "https://www.toronto.ca/home/covid-19/covid-19-pandemic-data/covid-19-monitoring-dashboard-data/",
           "meta_url_name": "COVID-19: Monitoring Dashboard (2)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Toronto"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - City of Toronto Case & Outbreak Counts",
-        "uuid": "31a231af-14e0-4610-ba81-c4f3830af9ab",
-        "active": "True",
-        "url": "https://docs.google.com/spreadsheets/d/11KF1DuN5tntugNc10ogQDzFnW05ruzLH/export?format=xlsx&id=11KF1DuN5tntugNc10ogQDzFnW05ruzLH",
-        "dir_parent": "on",
-        "dir_file": "toronto-case-outbreak-counts",
-        "file_name": "CityofToronto_COVID-19_Status_Public_Reporting",
-        "file_ext": "xlsx",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dataset",
-          "meta_url": "https://www.toronto.ca/home/covid-19/covid-19-pandemic-data/covid-19-case-outbreak-counts/",
-          "meta_url_name": "COVID: Case & Outbreak Counts",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Toronto"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - City of Toronto Hospitalizations & Deaths",
-        "uuid": "63f6f5a1-717b-437f-80ff-b1737dcc9ca2",
-        "active": "True",
-        "url": "https://docs.google.com/spreadsheets/d/1euhrML0rkV_hHF1thiA0G5vSSeZCqxHY/export?format=xlsx&id=1euhrML0rkV_hHF1thiA0G5vSSeZCqxHY",
-        "dir_parent": "on",
-        "dir_file": "toronto-hospitalizations-deaths",
-        "file_name": "CityofToronto_COVID-19_Data",
-        "file_ext": "xlsx",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dataset",
-          "meta_url": "https://www.toronto.ca/home/covid-19/covid-19-pandemic-data/covid-19-hospitalizations-deaths/",
-          "meta_url_name": "COVID-19: Hospitalizations & Deaths",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario",
@@ -6747,29 +6605,6 @@
         "notes": {
           "notes_data": "Data are extracted at 3 PM on the Monday of a given week and posted by Wednesday."
         }
-      },
-      {
-        "id_name": "ON - Toronto COVID-19 Testing Sites (Toronto)",
-        "uuid": "bc6247fd-cbc9-4b70-b995-e505ec47b95c",
-        "active": "True",
-        "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/cd616ce6-f7bb-424f-9412-da4eb87e342e/resource/ec36f856-a896-4648-a1f6-049343e60477/download/covid-19-testing-sites.geojson",
-        "dir_parent": "on",
-        "dir_file": "toronto-testing-sites",
-        "file_name": "covid-19-testing-sites",
-        "file_ext": "geojson",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dataset",
-          "meta_url": "https://open.toronto.ca/dataset/covid-19-testing-sites/",
-          "meta_url_name": "COVID-19 Testing Sites",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Toronto"
-        },
-        "notes": {}
       },
       {
         "id_name": "ON - COVID-19 Immunization Clinics (Toronto)",
@@ -16770,6 +16605,171 @@
           "meta_name": "Figure: North",
           "meta_url": "https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/COVID-19-Data-Surveillance/Wastewater",
           "meta_url_name": "Public Health Ontario: COVID-19 Wastewater Surveillance in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - City of Toronto Case & Outbreak Counts",
+        "uuid": "31a231af-14e0-4610-ba81-c4f3830af9ab",
+        "active": "False",
+        "url": "https://docs.google.com/spreadsheets/d/11KF1DuN5tntugNc10ogQDzFnW05ruzLH/export?format=xlsx&id=11KF1DuN5tntugNc10ogQDzFnW05ruzLH",
+        "dir_parent": "on",
+        "dir_file": "toronto-case-outbreak-counts",
+        "file_name": "CityofToronto_COVID-19_Status_Public_Reporting",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://www.toronto.ca/home/covid-19/covid-19-pandemic-data/covid-19-case-outbreak-counts/",
+          "meta_url_name": "COVID: Case & Outbreak Counts",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Toronto"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - City of Toronto Daily Status of COVID-19 Cases",
+        "uuid": "ebad185e-9706-44f4-921e-fc89d5cfa334",
+        "active": "False",
+        "url": "https://docs.google.com/spreadsheets/d/11KF1DuN5tntugNc10ogQDzFnW05ruzLH/export?format=xlsx&id=11KF1DuN5tntugNc10ogQDzFnW05ruzLH",
+        "dir_parent": "on",
+        "dir_file": "toronto-daily-status",
+        "file_name": "CityofToronto_COVID-19_Daily_Public_Reporting",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-pandemic-data/covid-19-weekday-status-of-cases-data/",
+          "meta_url_name": "COVID-19: Case Counts",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Toronto"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - City of Toronto COVID-19 Summary",
+        "uuid": "4ded4df6-924f-44c2-be9d-6f6943975e04",
+        "active": "False",
+        "url": "https://docs.google.com/spreadsheets/d/1euhrML0rkV_hHF1thiA0G5vSSeZCqxHY/export?format=xlsx&id=1euhrML0rkV_hHF1thiA0G5vSSeZCqxHY",
+        "dir_parent": "on",
+        "dir_file": "toronto-covid-summary",
+        "file_name": "CityofToronto_COVID-19_Data",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://www.toronto.ca/home/covid-19/covid-19-latest-city-of-toronto-news/covid-19-pandemic-data/covid-19-epidemiological-summary-of-cases-data/",
+          "meta_url_name": "COVID-19: Epidemiological Summary of Cases",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Toronto"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - City of Toronto Hospitalizations & Deaths",
+        "uuid": "63f6f5a1-717b-437f-80ff-b1737dcc9ca2",
+        "active": "False",
+        "url": "https://docs.google.com/spreadsheets/d/1euhrML0rkV_hHF1thiA0G5vSSeZCqxHY/export?format=xlsx&id=1euhrML0rkV_hHF1thiA0G5vSSeZCqxHY",
+        "dir_parent": "on",
+        "dir_file": "toronto-hospitalizations-deaths",
+        "file_name": "CityofToronto_COVID-19_Data",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://www.toronto.ca/home/covid-19/covid-19-pandemic-data/covid-19-hospitalizations-deaths/",
+          "meta_url_name": "COVID-19: Hospitalizations & Deaths",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Toronto"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Toronto COVID-19 Testing Sites (Toronto)",
+        "uuid": "bc6247fd-cbc9-4b70-b995-e505ec47b95c",
+        "active": "False",
+        "url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/cd616ce6-f7bb-424f-9412-da4eb87e342e/resource/ec36f856-a896-4648-a1f6-049343e60477/download/covid-19-testing-sites.geojson",
+        "dir_parent": "on",
+        "dir_file": "toronto-testing-sites",
+        "file_name": "covid-19-testing-sites",
+        "file_ext": "geojson",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://open.toronto.ca/dataset/covid-19-testing-sites/",
+          "meta_url_name": "COVID-19 Testing Sites",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Toronto"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Public Health Ontario: COVID-19 Data and Surveillance - COVID-19 in Long-Term Care Homes",
+        "uuid": "5adcc4c0-51b4-4bbe-989a-b47eb0df928d",
+        "active": "False",
+        "url": "https://www.publichealthontario.ca/-/media/documents/ncov/epi/covid-19-long-term-care-epi-summary.pdf?sc_lang=en",
+        "dir_parent": "on",
+        "dir_file": "pho-ltc-summary-report",
+        "file_name": "covid-19-long-term-care-epi-summary",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID-19 in Long-Term Care Homes",
+          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance",
+          "meta_url_name": "Public Health Ontario: COVID-19 Data and Surveillance",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Public Health Ontario: COVID-19 Data and Surveillance - COVID-19 Cases with Severe Outcomes",
+        "uuid": "ecbd0ad8-6425-445f-a89a-294431c0100f",
+        "active": "False",
+        "url": "https://www.publichealthontario.ca/-/media/Documents/nCoV/epi/covid-19-cases-severe-outcomes-epi-summary.pdf?sc_lang=en",
+        "dir_parent": "on",
+        "dir_file": "pho-cases-with-severe-outcomes-report",
+        "file_name": "covid-19-cases-severe-outcomes-epi-summary",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "COVID-19 Cases with Severe Outcomes",
+          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance",
+          "meta_url_name": "Public Health Ontario: COVID-19 Data and Surveillance",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario",
