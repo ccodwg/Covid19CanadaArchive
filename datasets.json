@@ -1533,13 +1533,13 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - Detailed preliminary information on cases of COVID-19: 6 Dimensions (Aggregated data)",
-        "uuid": "299837dc-d9fa-47d6-95e0-41a5ef634945",
+        "id_name": "CAN - Detailed preliminary information on cases of COVID-19, 2020-2023: 5-Dimensions (Aggregated data)",
+        "uuid": "3549e2b5-aa70-420a-badc-83bd9aaa7099",
         "active": "True",
-        "url": "https://www150.statcan.gc.ca/n1/tbl/csv/13100774-eng.zip",
+        "url": "https://www150.statcan.gc.ca/n1/en/tbl/csv/13100863-eng.zip",
         "dir_parent": "can",
-        "dir_file": "detailed-preliminary-case-info-aggregated-6-dimensions",
-        "file_name": "13100774",
+        "dir_file": "detailed-preliminary-case-info-aggregated-2023-5-dimensions",
+        "file_name": "13100863",
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {
@@ -1548,8 +1548,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Dataset",
-          "meta_url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310077401",
-          "meta_url_name": "Detailed preliminary information on cases of COVID-19: 6 Dimensions (Aggregated data)",
+          "meta_url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310086301",
+          "meta_url_name": "Detailed preliminary information on cases of COVID-19, 2020-2023: 5-Dimensions (Aggregated data)",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -1557,13 +1557,13 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - Detailed preliminary information on cases of COVID-19: 4 Dimensions (Aggregated data)",
-        "uuid": "87c6215e-55fc-4ee4-bda0-4b71684afdf6",
+        "id_name": "CAN - Detailed preliminary information on cases of COVID-19, 2020-2023: 4-Dimensions (Aggregated data)",
+        "uuid": "2c4898b6-78f4-41f9-abc1-9e913aaedca2",
         "active": "True",
-        "url": "https://www150.statcan.gc.ca/n1/tbl/csv/13100775-eng.zip",
+        "url": "https://www150.statcan.gc.ca/n1/tbl/csv/13100864-eng.zip",
         "dir_parent": "can",
-        "dir_file": "detailed-preliminary-case-info-aggregated-4-dimensions",
-        "file_name": "13100775",
+        "dir_file": "detailed-preliminary-case-info-aggregated-2023-4-dimensions",
+        "file_name": "13100864",
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {
@@ -1572,8 +1572,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Dataset",
-          "meta_url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310077501",
-          "meta_url_name": "Detailed preliminary information on cases of COVID-19: 4 Dimensions (Aggregated data)",
+          "meta_url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310086401",
+          "meta_url_name": "Detailed preliminary information on cases of COVID-19, 2020-2023: 4-Dimensions (Aggregated data)",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -11412,6 +11412,54 @@
           "meta_name": "Lab indicators (data dictionary)",
           "meta_url": "https://health-infobase.canada.ca/covid-19/",
           "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Detailed preliminary information on cases of COVID-19: 6 Dimensions (Aggregated data)",
+        "uuid": "299837dc-d9fa-47d6-95e0-41a5ef634945",
+        "active": "False",
+        "url": "https://www150.statcan.gc.ca/n1/tbl/csv/13100774-eng.zip",
+        "dir_parent": "can",
+        "dir_file": "detailed-preliminary-case-info-aggregated-6-dimensions",
+        "file_name": "13100774",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "unzip": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310077401",
+          "meta_url_name": "Detailed preliminary information on cases of COVID-19: 6 Dimensions (Aggregated data)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Detailed preliminary information on cases of COVID-19: 4 Dimensions (Aggregated data)",
+        "uuid": "87c6215e-55fc-4ee4-bda0-4b71684afdf6",
+        "active": "False",
+        "url": "https://www150.statcan.gc.ca/n1/tbl/csv/13100775-eng.zip",
+        "dir_parent": "can",
+        "dir_file": "detailed-preliminary-case-info-aggregated-4-dimensions",
+        "file_name": "13100775",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "unzip": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310077501",
+          "meta_url_name": "Detailed preliminary information on cases of COVID-19: 4 Dimensions (Aggregated data)",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
