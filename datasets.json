@@ -7884,7 +7884,8 @@
         "file_ext": "jpg",
         "dl_fun": "dl_file",
         "args": {
-          "rand_url": "True"
+          "rand_url": "True",
+          "user": "True"
         },
         "supplementary": {},
         "metadata": {
@@ -7908,7 +7909,8 @@
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {
-          "rand_url": "True"
+          "rand_url": "True",
+          "user": "True"
         },
         "supplementary": {},
         "metadata": {
@@ -7932,7 +7934,8 @@
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {
-          "rand_url": "True"
+          "rand_url": "True",
+          "user": "True"
         },
         "supplementary": {},
         "metadata": {
@@ -7956,7 +7959,8 @@
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {
-          "rand_url": "True"
+          "rand_url": "True",
+          "user": "True"
         },
         "supplementary": {},
         "metadata": {
@@ -7980,7 +7984,8 @@
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {
-          "rand_url": "True"
+          "rand_url": "True",
+          "user": "True"
         },
         "supplementary": {},
         "metadata": {
@@ -8004,7 +8009,8 @@
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {
-          "rand_url": "True"
+          "rand_url": "True",
+          "user": "True"
         },
         "supplementary": {},
         "metadata": {
@@ -8028,7 +8034,8 @@
         "file_ext": "pdf",
         "dl_fun": "dl_file",
         "args": {
-          "rand_url": "True"
+          "rand_url": "True",
+          "user": "True"
         },
         "supplementary": {},
         "metadata": {
@@ -8054,7 +8061,8 @@
         "file_ext": "pdf",
         "dl_fun": "dl_file",
         "args": {
-          "rand_url": "True"
+          "rand_url": "True",
+          "user": "True"
         },
         "supplementary": {},
         "metadata": {
@@ -8080,7 +8088,8 @@
         "file_ext": "pdf",
         "dl_fun": "dl_file",
         "args": {
-          "rand_url": "True"
+          "rand_url": "True",
+          "user": "True"
         },
         "supplementary": {},
         "metadata": {
@@ -8313,7 +8322,8 @@
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {
-          "rand_url": "True"
+          "rand_url": "True",
+          "user": "True"
         },
         "supplementary": {},
         "metadata": {
@@ -8337,7 +8347,8 @@
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {
-          "rand_url": "True"
+          "rand_url": "True",
+          "user": "True"
         },
         "supplementary": {},
         "metadata": {
