@@ -490,28 +490,26 @@
         }
       },
       {
-        "id_name": "BC - BC COVID-19 Data (Laboratory data)",
-        "uuid": "f9a8dea5-1eed-447b-a9a0-be2a4b62d6a6",
+        "id_name": "BC - BC COVID-19 Data (Laboratory data) (XLSX)",
+        "uuid": "e1b5e2cf-049e-4f04-bd95-4724f7aa70b1",
         "active": "True",
-        "url": "http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Lab_Information.csv",
+        "url": "http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Lab_Information.xlsx",
         "dir_parent": "bc",
-        "dir_file": "laboratory-data",
+        "dir_file": "laboratory-data-xlsx",
         "file_name": "BCCDC_COVID19_Dashboard_Lab_Information",
-        "file_ext": "csv",
+        "file_ext": "xlsx",
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Laboratory data",
+          "meta_name": "Laboratory data (XLSX)",
           "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
           "meta_url_name": "BC COVID-19 Data",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "British Columbia"
         },
-        "notes": {
-          "notes_data": "This file was previously available as an xlsx for several days."
-        }
+        "notes": {}
       },
       {
         "id_name": "BC - BC COVID-19 Data (Regional data)",
@@ -529,6 +527,53 @@
           "meta_name": "Regional data",
           "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
           "meta_url_name": "BC COVID-19 Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - BCCDC Dashboard Data Notes",
+        "uuid": "52dc153d-5a23-4a46-9689-c9b4c4cb7150",
+        "active": "True",
+        "url": "http://www.bccdc.ca/Health-Info-Site/Documents/BC_COVID-19_Disclaimer_Data_Notes.pdf",
+        "dir_parent": "bc",
+        "dir_file": "bc-dashboard-data-notes",
+        "file_name": "BC_COVID-19_Disclaimer_Data_Notes",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "BCCDC Dashboard Data Notes",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
+          "meta_url_name": "BC COVID-19 Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - BCCDC COVID-19 Situation Report (webpage)",
+        "uuid": "b85ca9d5-3a88-403d-9444-cac73ffb2d3f",
+        "active": "True",
+        "url": "https://bccdc.shinyapps.io/respiratory_covid_sitrep/",
+        "dir_parent": "bc",
+        "dir_file": "bc-covid-sitrep-webpage",
+        "file_name": "bc-covid-sitrep-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "15"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://bccdc.shinyapps.io/respiratory_covid_sitrep/",
+          "meta_url_name": "BCDCD COVID-19 Situation Report",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "British Columbia"
@@ -10739,6 +10784,30 @@
         },
         "notes": {
           "notes_data": "Dates in the file name reflect the date used in the name of the original file. Metadata on the website they were downloaded from indicate that the actual delay in posting was around 4 to 6 days."
+        }
+      },
+      {
+        "id_name": "BC - BC COVID-19 Data (Laboratory data)",
+        "uuid": "f9a8dea5-1eed-447b-a9a0-be2a4b62d6a6",
+        "active": "False",
+        "url": "http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_Dashboard_Lab_Information.csv",
+        "dir_parent": "bc",
+        "dir_file": "laboratory-data",
+        "file_name": "BCCDC_COVID19_Dashboard_Lab_Information",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Laboratory data",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
+          "meta_url_name": "BC COVID-19 Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {
+          "notes_data": "This file was previously available as an xlsx for several days."
         }
       }
     ],
