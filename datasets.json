@@ -444,28 +444,6 @@
         "notes": {}
       },
       {
-        "id_name": "BC - BCCDC Respiratory Diseases (webpage)",
-        "uuid": "a7f0ecce-2b7a-4564-851c-d65769a2a8cf",
-        "active": "True",
-        "url": "http://www.bccdc.ca/health-professionals/data-reports/respiratory-diseases",
-        "dir_parent": "bc",
-        "dir_file": "bccdc-respiratory-diseases-webpage",
-        "file_name": "bccdc-respiratory-diseases-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "http://www.bccdc.ca/health-professionals/data-reports/respiratory-diseases",
-          "meta_url_name": "BCCDC Respiratory Diseases",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "British Columbia"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "BC - BC COVID-19 Data (Case data)",
         "uuid": "ab6abe51-c9b1-4093-b625-93de1ddb6302",
         "active": "True",
@@ -527,6 +505,28 @@
           "meta_name": "Regional data",
           "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
           "meta_url_name": "BC COVID-19 Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - BCCDC Respiratory Diseases (webpage)",
+        "uuid": "a7f0ecce-2b7a-4564-851c-d65769a2a8cf",
+        "active": "True",
+        "url": "http://www.bccdc.ca/health-professionals/data-reports/respiratory-diseases",
+        "dir_parent": "bc",
+        "dir_file": "bccdc-respiratory-diseases-webpage",
+        "file_name": "bccdc-respiratory-diseases-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "http://www.bccdc.ca/health-professionals/data-reports/respiratory-diseases",
+          "meta_url_name": "BCCDC Respiratory Diseases",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "British Columbia"
@@ -10857,6 +10857,28 @@
           "meta_name": "BCCDC Dashboard Data Notes",
           "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
           "meta_url_name": "BC COVID-19 Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - BC COVID-19 Surveillance System Update: Infection episode-based approach (report)",
+        "uuid": "8b71a288-996e-41cd-94f4-9c17ab1003aa",
+        "active": "False",
+        "url": "http://www.bccdc.ca/Health-Info-Site/Documents/Respiratory_data/COVID-19_Surveillance_Update_infection_episodes.pdf",
+        "dir_parent": "bc",
+        "dir_file": "bc-surveillance-system-update-may-2023-report",
+        "file_name": "COVID-19_Surveillance_Update_infection_episodes",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "BC COVID-19 Surveillance System Update: Infection episode-based approach (report)",
+          "meta_url": "http://www.bccdc.ca/health-professionals/data-reports/respiratory-diseases",
+          "meta_url_name": "BCCDC Respiratory Diseases",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "British Columbia"
