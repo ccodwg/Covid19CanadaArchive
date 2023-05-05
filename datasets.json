@@ -559,6 +559,56 @@
         "notes": {}
       },
       {
+        "id_name": "BC - BCCDC Wastewater Surveillance (webpage)",
+        "uuid": "21631dcc-e1de-4fe9-a135-942110c60a3d",
+        "active": "True",
+        "url": "https://bccdc.shinyapps.io/respiratory_wastewater/",
+        "dir_parent": "bc",
+        "dir_file": "bc-wastewater-surveillance-webpage",
+        "file_name": "bc-wastewater-surveillance-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "15"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://bccdc.shinyapps.io/respiratory_wastewater/",
+          "meta_url_name": "BCCDC Wastewater Surveillance",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - BCCDC Genomic Surveillance (webpage)",
+        "uuid": "61226cff-bf1d-426a-afe0-4cc69451fdc4",
+        "active": "True",
+        "url": "https://bccdc.shinyapps.io/genomic_surveillance/",
+        "dir_parent": "bc",
+        "dir_file": "bc-genomic-surveillance-webpage",
+        "file_name": "bc-genomic-surveillance-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "15"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://bccdc.shinyapps.io/genomic_surveillance/",
+          "meta_url_name": "BCCDC Genomic Surveillance",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "BC - BC COVID-19 Data (COVID cases, test positivity and vaccine coverage by Community Health Service Area and Local Health Area)",
         "uuid": "f4094cca-9f58-4fd6-a1f9-b57ef01d1c14",
         "active": "True",
