@@ -545,7 +545,8 @@
         "dl_fun": "html_page",
         "args": {
           "js": "True",
-          "wait": "15"
+          "wait": "15",
+          "min_size": "500kb"
         },
         "supplementary": {},
         "metadata": {
@@ -570,7 +571,8 @@
         "dl_fun": "html_page",
         "args": {
           "js": "True",
-          "wait": "15"
+          "wait": "15",
+          "min_size": "200kb"
         },
         "supplementary": {},
         "metadata": {
@@ -595,7 +597,8 @@
         "dl_fun": "html_page",
         "args": {
           "js": "True",
-          "wait": "15"
+          "wait": "15",
+          "min_size": "500kb"
         },
         "supplementary": {},
         "metadata": {
