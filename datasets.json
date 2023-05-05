@@ -534,28 +534,6 @@
         "notes": {}
       },
       {
-        "id_name": "BC - BCCDC Dashboard Data Notes",
-        "uuid": "52dc153d-5a23-4a46-9689-c9b4c4cb7150",
-        "active": "True",
-        "url": "http://www.bccdc.ca/Health-Info-Site/Documents/BC_COVID-19_Disclaimer_Data_Notes.pdf",
-        "dir_parent": "bc",
-        "dir_file": "bc-dashboard-data-notes",
-        "file_name": "BC_COVID-19_Disclaimer_Data_Notes",
-        "file_ext": "pdf",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "BCCDC Dashboard Data Notes",
-          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
-          "meta_url_name": "BC COVID-19 Data",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "British Columbia"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "BC - BCCDC COVID-19 Situation Report (webpage)",
         "uuid": "b85ca9d5-3a88-403d-9444-cac73ffb2d3f",
         "active": "True",
@@ -10809,6 +10787,28 @@
         "notes": {
           "notes_data": "This file was previously available as an xlsx for several days."
         }
+      },
+      {
+        "id_name": "BC - BCCDC Dashboard Data Notes",
+        "uuid": "52dc153d-5a23-4a46-9689-c9b4c4cb7150",
+        "active": "False",
+        "url": "http://www.bccdc.ca/Health-Info-Site/Documents/BC_COVID-19_Disclaimer_Data_Notes.pdf",
+        "dir_parent": "bc",
+        "dir_file": "bc-dashboard-data-notes",
+        "file_name": "BC_COVID-19_Disclaimer_Data_Notes",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "BCCDC Dashboard Data Notes",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
+          "meta_url_name": "BC COVID-19 Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
       }
     ],
     "can": [
