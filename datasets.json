@@ -612,21 +612,21 @@
         "notes": {}
       },
       {
-        "id_name": "BC - BC COVID-19 Data (COVID cases, test positivity and vaccine coverage by Community Health Service Area and Local Health Area)",
-        "uuid": "f4094cca-9f58-4fd6-a1f9-b57ef01d1c14",
+        "id_name": "BC - COVID-19 Vaccination Coverage - Coverage by dose, age and Local Health Area (LHA)",
+        "uuid": "3cf05bc1-2dee-4853-a926-b18eceb86f58",
         "active": "True",
-        "url": "http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_LHA_CHSA_Data.xlsx?Web=1",
+        "url": "http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_LHA_Data.xlsx",
         "dir_parent": "bc",
-        "dir_file": "case-testing-vaccine-summary-by-CHSA-and-LHA",
+        "dir_file": "coverage-by-dose-age-lha",
         "file_name": "BCCDC_COVID19_LHA_CHSA_Data",
         "file_ext": "xlsx",
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Case, testing, vaccine summary by CHSA and LHA",
-          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
-          "meta_url_name": "BC COVID-19 Data",
+          "meta_name": "Coverage by dose, age and Local Health Area (LHA)",
+          "meta_url": "http://www.bccdc.ca/health-professionals/data-reports/covid-19-vaccination-coverage",
+          "meta_url_name": "COVID-19 Vaccination Coverage",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "British Columbia"
@@ -10879,6 +10879,28 @@
           "meta_name": "BC COVID-19 Surveillance System Update: Infection episode-based approach (report)",
           "meta_url": "http://www.bccdc.ca/health-professionals/data-reports/respiratory-diseases",
           "meta_url_name": "BCCDC Respiratory Diseases",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - BC COVID-19 Data (COVID cases, test positivity and vaccine coverage by Community Health Service Area and Local Health Area)",
+        "uuid": "f4094cca-9f58-4fd6-a1f9-b57ef01d1c14",
+        "active": "False",
+        "url": "http://www.bccdc.ca/Health-Info-Site/Documents/BCCDC_COVID19_LHA_CHSA_Data.xlsx?Web=1",
+        "dir_parent": "bc",
+        "dir_file": "case-testing-vaccine-summary-by-CHSA-and-LHA",
+        "file_name": "BCCDC_COVID19_LHA_CHSA_Data",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Case, testing, vaccine summary by CHSA and LHA",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/data",
+          "meta_url_name": "BC COVID-19 Data",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "British Columbia"
