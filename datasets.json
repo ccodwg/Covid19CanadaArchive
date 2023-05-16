@@ -2741,6 +2741,54 @@
         "notes": {}
       },
       {
+        "id_name": "CAN - COVID-19 epidemiology update (Notes and statements)",
+        "uuid": "c9a9072d-6a5e-4476-8550-7c25783f9a63",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-allNotesStatements.csv",
+        "dir_parent": "can",
+        "dir_file": "notes-and-statements",
+        "file_name": "covid19-epiSummary-allNotesStatements",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Notes and statements",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Activity levels)",
+        "uuid": "9bd6fcde-9de7-4718-9a04-38e77c490ba0",
+        "active": "True",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-activityLevel.csv",
+        "dir_parent": "can",
+        "dir_file": "activity-levels",
+        "file_name": "covid19-epiSummary-activityLevel",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Activity levels",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "CAN - COVID-19 PHAC provincial data update notes",
         "uuid": "6e0c5073-9c70-469a-b265-0f0aa6da967b",
         "active": "True",
