@@ -1453,30 +1453,6 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - Weekly variant breakdown of travellers entering Canada",
-        "uuid": "b24da20b-15c8-4388-be41-0cf5c60e3351",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-variants-poe.csv",
-        "dir_parent": "can",
-        "dir_file": "variant-prevalence-time-series-travellers-poe",
-        "file_name": "covid19-epiSummary-variants-poe",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Weekly variant breakdown of travellers entering Canada",
-          "meta_url": "https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/testing-screening-contact-tracing/summary-data-travellers.html",
-          "meta_url_name": "COVID-19: Summary data about travellers, testing and compliance",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "CAN - Monkeypox: Outbreak update (webpage)",
         "uuid": "091968c8-6b63-4a6f-999e-0508935c34f3",
         "active": "True",
@@ -11688,6 +11664,30 @@
           "meta_name": "Census district to health region correspondence",
           "meta_url": "https://health-infobase.canada.ca/covid-19/covidtrends/",
           "meta_url_name": "COVIDTrends",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Weekly variant breakdown of travellers entering Canada",
+        "uuid": "b24da20b-15c8-4388-be41-0cf5c60e3351",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-variants-poe.csv",
+        "dir_parent": "can",
+        "dir_file": "variant-prevalence-time-series-travellers-poe",
+        "file_name": "covid19-epiSummary-variants-poe",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Weekly variant breakdown of travellers entering Canada",
+          "meta_url": "https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/testing-screening-contact-tracing/summary-data-travellers.html",
+          "meta_url_name": "COVID-19: Summary data about travellers, testing and compliance",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
