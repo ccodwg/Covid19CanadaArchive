@@ -2765,174 +2765,6 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVIDTrends (Cases and deaths by health region - last 7 days)",
-        "uuid": "b5d91e59-a21f-45e9-a2c3-63c2df2d582f",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/file_out_v5_MZ7v2.csv",
-        "dir_parent": "can",
-        "dir_file": "covidtrends-cases-and-deaths-by-hr-last-7-days",
-        "file_name": "file_out_v5_MZ7v2",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases and deaths by health region - last 7 days",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/covidtrends/",
-          "meta_url_name": "COVIDTrends",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVIDTrends (Vaccine coverage by health region)",
-        "uuid": "2cce14bb-7e7b-4839-87b3-696c0059d488",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/hr_vaccination.csv",
-        "dir_parent": "can",
-        "dir_file": "covidtrends-vaccine-coverage-by-hr",
-        "file_name": "hr_vaccination",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Vaccine coverage by health region",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/covidtrends/",
-          "meta_url_name": "COVIDTrends",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVIDTrends (FluWatchers)",
-        "uuid": "76b6b477-4b71-4944-8f51-9ef47f87944f",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/fluwatchers.csv",
-        "dir_parent": "can",
-        "dir_file": "covidtrends-fluwatchers",
-        "file_name": "fluwatchers",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "FluWatchers",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/covidtrends/",
-          "meta_url_name": "COVIDTrends",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - Health region populations",
-        "uuid": "cb23041c-cf99-412b-baf2-c0a4a5282c3e",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/covid19-healthregions-hruid.csv",
-        "dir_parent": "can",
-        "dir_file": "hr-populations",
-        "file_name": "covid19-healthregions-hruid",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Health region populations",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/covidtrends/",
-          "meta_url_name": "COVIDTrends",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - Health region information",
-        "uuid": "f6dee7fa-172c-46d0-808a-e39db52de08f",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/hr_websites.csv",
-        "dir_parent": "can",
-        "dir_file": "health-region-info",
-        "file_name": "hr_websites",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Health region information",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/covidtrends/",
-          "meta_url_name": "COVIDTrends",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - FSA to health region correspondence",
-        "uuid": "8812aeee-c121-40e5-8f76-ab7712502fa8",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/FSA_HR2018.csv",
-        "dir_parent": "can",
-        "dir_file": "fsa-to-health-region-correspondence",
-        "file_name": "FSA_HR2018",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "FSA to health region correspondence",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/covidtrends/",
-          "meta_url_name": "COVIDTrends",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - Census district to health region correspondence",
-        "uuid": "e4e13eb5-9dd3-4c8c-bf12-ed873419278a",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/censusdistricts.csv",
-        "dir_parent": "can",
-        "dir_file": "census-district-to-health-region-correspondence",
-        "file_name": "censusdistricts",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Census district to health region correspondence",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/covidtrends/",
-          "meta_url_name": "COVIDTrends",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "CAN - Vaccines administered: Vaccination administration",
         "uuid": "c4631a95-cb44-4d21-ae39-f1ad54daf814",
         "active": "True",
@@ -11640,6 +11472,174 @@
           "meta_name": "Dataset",
           "meta_url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310077501",
           "meta_url_name": "Detailed preliminary information on cases of COVID-19: 4 Dimensions (Aggregated data)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVIDTrends (Cases and deaths by health region - last 7 days)",
+        "uuid": "b5d91e59-a21f-45e9-a2c3-63c2df2d582f",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/file_out_v5_MZ7v2.csv",
+        "dir_parent": "can",
+        "dir_file": "covidtrends-cases-and-deaths-by-hr-last-7-days",
+        "file_name": "file_out_v5_MZ7v2",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases and deaths by health region - last 7 days",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/covidtrends/",
+          "meta_url_name": "COVIDTrends",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVIDTrends (Vaccine coverage by health region)",
+        "uuid": "2cce14bb-7e7b-4839-87b3-696c0059d488",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/hr_vaccination.csv",
+        "dir_parent": "can",
+        "dir_file": "covidtrends-vaccine-coverage-by-hr",
+        "file_name": "hr_vaccination",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine coverage by health region",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/covidtrends/",
+          "meta_url_name": "COVIDTrends",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVIDTrends (FluWatchers)",
+        "uuid": "76b6b477-4b71-4944-8f51-9ef47f87944f",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/fluwatchers.csv",
+        "dir_parent": "can",
+        "dir_file": "covidtrends-fluwatchers",
+        "file_name": "fluwatchers",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "FluWatchers",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/covidtrends/",
+          "meta_url_name": "COVIDTrends",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Health region populations",
+        "uuid": "cb23041c-cf99-412b-baf2-c0a4a5282c3e",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/covid19-healthregions-hruid.csv",
+        "dir_parent": "can",
+        "dir_file": "hr-populations",
+        "file_name": "covid19-healthregions-hruid",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Health region populations",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/covidtrends/",
+          "meta_url_name": "COVIDTrends",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Health region information",
+        "uuid": "f6dee7fa-172c-46d0-808a-e39db52de08f",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/hr_websites.csv",
+        "dir_parent": "can",
+        "dir_file": "health-region-info",
+        "file_name": "hr_websites",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Health region information",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/covidtrends/",
+          "meta_url_name": "COVIDTrends",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - FSA to health region correspondence",
+        "uuid": "8812aeee-c121-40e5-8f76-ab7712502fa8",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/FSA_HR2018.csv",
+        "dir_parent": "can",
+        "dir_file": "fsa-to-health-region-correspondence",
+        "file_name": "FSA_HR2018",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "FSA to health region correspondence",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/covidtrends/",
+          "meta_url_name": "COVIDTrends",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Census district to health region correspondence",
+        "uuid": "e4e13eb5-9dd3-4c8c-bf12-ed873419278a",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covidTrends/censusdistricts.csv",
+        "dir_parent": "can",
+        "dir_file": "census-district-to-health-region-correspondence",
+        "file_name": "censusdistricts",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Census district to health region correspondence",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/covidtrends/",
+          "meta_url_name": "COVIDTrends",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
