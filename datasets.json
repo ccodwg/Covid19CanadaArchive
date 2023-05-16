@@ -11693,6 +11693,156 @@
           "meta_group_1": "Canada"
         },
         "notes": {}
+      },
+      {
+        "id_name": "CAN - Canada Border Testing Program: Test result data (Webpage)",
+        "uuid": "7aac280b-00f2-45c0-abc5-497ab3cf1429",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/covid-19/border-testing-data/",
+        "dir_parent": "can",
+        "dir_file": "border-testing-data-webpage",
+        "file_name": "border-testing-data-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/border-testing-data/",
+          "meta_url_name": "Canada Border Testing Program: Test result data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        }
+      },
+      {
+        "id_name": "CAN - Canada Border Testing Program: Test result data (Webpage report)",
+        "uuid": "4af1bc79-5a78-4e39-bc0c-6463b3c676fc",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/doc/border-testing/border-testing-data.pdf",
+        "dir_parent": "can",
+        "dir_file": "border-testing-data-webpage-report",
+        "file_name": "border-testing-data",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage (report)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/border-testing-data/",
+          "meta_url_name": "Canada Border Testing Program: Test result data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {
+          "notes_misc": "This is a PDF version of the main webpage (7aac280b-00f2-45c0-abc5-497ab3cf1429)."
+        }
+      },
+      {
+        "id_name": "CAN - Canada Border Testing Program: Test result data (Technical notes webpage)",
+        "uuid": "f2fe37b1-07b5-4fbc-816a-7ed6de815a51",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/covid-19/border-testing-data/technical-notes.html",
+        "dir_parent": "can",
+        "dir_file": "border-testing-data-technical-notes-webpage",
+        "file_name": "border-testing-technical-notes-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Technical notes (webpage)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/border-testing-data/",
+          "meta_url_name": "Canada Border Testing Program: Test result data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        }
+      },
+      {
+        "id_name": "CAN - Canada Border Testing Program: Test result data (Technical notes report)",
+        "uuid": "bae582fe-4b15-4831-9470-938a73055cd4",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/doc/border-testing/border-testing-data--technical-notes.pdf",
+        "dir_parent": "can",
+        "dir_file": "border-testing-data-technical-notes-webpage-report",
+        "file_name": "border-testing-data--technical-notes",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Technical notes (report)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/border-testing-data/",
+          "meta_url_name": "Canada Border Testing Program: Test result data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {
+          "notes_misc": "This is a PDF version of the technical notes webpage (f2fe37b1-07b5-4fbc-816a-7ed6de815a51)."
+        }
+      },
+      {
+        "id_name": "CAN - Canada Border Testing Program: Test result data (Figure 1)",
+        "uuid": "692ca5a2-10ce-46e9-bc64-ddfd4f6dd780",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/border-testing/border-testing-fig-1.csv",
+        "dir_parent": "can",
+        "dir_file": "border-testing-data-fig-1",
+        "file_name": "border-testing-fig-1",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure 1",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/border-testing-data/",
+          "meta_url_name": "Canada Border Testing Program: Test result data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {
+          "notes_data": "Weekly percentage of COVID-19 tests that were positive among international travellers entering Canada between February 22 and July 4, 2021, by mode of travel."
+        }
+      },
+      {
+        "id_name": "CAN - Canada Border Testing Program: Test result data (Figure 2)",
+        "uuid": "354649af-fee8-4843-8155-a9c54d8dd8c0",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/border-testing/border-testing-fig-2.csv",
+        "dir_parent": "can",
+        "dir_file": "border-testing-data-fig-2",
+        "file_name": "border-testing-fig-2",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Figure 2",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/border-testing-data/",
+          "meta_url_name": "Canada Border Testing Program: Test result data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {
+          "notes_data": "Weekly percentage of COVID-19 tests that were positive among international travellers (unvaccinated/partially vaccinated or vaccinated) entering Canada between July 05, 2021 and September 30, 2022, by mode of travel."
+        }
       }
     ],
     "mb": [
