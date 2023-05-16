@@ -7270,32 +7270,6 @@
         }
       },
       {
-        "id_name": "ON - Northwestern (PHU) - COVID-19 data (webpage)",
-        "uuid": "4c56a58b-0cb3-4d71-bafe-9fdb42e5c1d5",
-        "active": "True",
-        "url": "https://www2.nwhu.on.ca/covid-19/data/",
-        "dir_parent": "on",
-        "dir_file": "on-phu-northwestern-covid-data-webpage",
-        "file_name": "on-phu-northwestern-covid-data-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://www2.nwhu.on.ca/covid-19/data/",
-          "meta_url_name": "Northwestern (PHU) - COVID-19 Local Data",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Public Health Units"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "ON - Peel (PHU) - COVID-19 data - summary (webpage)",
         "uuid": "34b7dda2-1843-47e1-9c24-0c2a7ab78431",
         "active": "True",
@@ -8693,210 +8667,6 @@
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Montréal cases and deaths by CIUSSS (integrated health and social services centres)",
-        "uuid": "0635e027-1825-4441-aba7-6f4d1157d080",
-        "active": "True",
-        "url": "https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/ciusss.csv",
-        "dir_parent": "qc",
-        "dir_file": "montreal-cases-and-deaths-by-ciusss",
-        "file_name": "ciusss",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "user": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Montréal cases and deaths by CIUSSS",
-          "meta_url": "https://santemontreal.qc.ca/population/coronavirus-covid-19/situation-du-coronavirus-covid-19-a-montreal/",
-          "meta_url_name": "Situation du coronavirus (COVID-19) à Montréal",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec",
-          "meta_group_2": "Montreal"
-        },
-        "notes": {
-          "notes_data": "This file is semicolon-separated since it uses commas as the decimal marker (rather than periods) and is encoded as ISO 8859-15 (rather than UTF-8)."
-        }
-      },
-      {
-        "id_name": "QC - Montréal cases by area",
-        "uuid": "8d0aa5a5-6397-4f4c-a9ca-26ba81f26bc7",
-        "active": "True",
-        "url": "https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/municipal.csv",
-        "dir_parent": "qc",
-        "dir_file": "montreal-cases-by-area",
-        "file_name": "municipal",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "user": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Montréal cases by area",
-          "meta_url": "https://santemontreal.qc.ca/population/coronavirus-covid-19/situation-du-coronavirus-covid-19-a-montreal/",
-          "meta_url_name": "Situation du coronavirus (COVID-19) à Montréal",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec",
-          "meta_group_2": "Montreal"
-        },
-        "notes": {
-          "notes_data": "This file is semicolon-separated since it uses commas as the decimal marker (rather than periods) and is encoded as ISO 8859-15 (rather than UTF-8)."
-        }
-      },
-      {
-        "id_name": "QC - Montréal cases and deaths by age group",
-        "uuid": "6edc20de-c174-4c75-9d6c-c463ef43512b",
-        "active": "True",
-        "url": "https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/grage.csv",
-        "dir_parent": "qc",
-        "dir_file": "montreal-cases-and-deaths-by-age-group",
-        "file_name": "grage",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "user": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Montréal cases and deaths by age group",
-          "meta_url": "https://santemontreal.qc.ca/population/coronavirus-covid-19/situation-du-coronavirus-covid-19-a-montreal/",
-          "meta_url_name": "Situation du coronavirus (COVID-19) à Montréal",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec",
-          "meta_group_2": "Montreal"
-        },
-        "notes": {
-          "notes_data": "This file is semicolon-separated since it uses commas as the decimal marker (rather than periods) and is encoded as ISO 8859-15 (rather than UTF-8)."
-        }
-      },
-      {
-        "id_name": "QC - Montréal cases and deaths by sex",
-        "uuid": "7ae6a613-aa31-4f63-aaeb-f8fdf3d68ee0",
-        "active": "True",
-        "url": "https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/sexe.csv",
-        "dir_parent": "qc",
-        "dir_file": "montreal-cases-and-deaths-by-sex",
-        "file_name": "sexe",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "user": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Montréal cases and deaths by sex",
-          "meta_url": "https://santemontreal.qc.ca/population/coronavirus-covid-19/situation-du-coronavirus-covid-19-a-montreal/",
-          "meta_url_name": "Situation du coronavirus (COVID-19) à Montréal",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec",
-          "meta_group_2": "Montreal"
-        },
-        "notes": {
-          "notes_data": "This file is semicolon-separated since it uses commas as the decimal marker (rather than periods) and is encoded as ISO 8859-15 (rather than UTF-8)."
-        }
-      },
-      {
-        "id_name": "QC - Montréal epidemic curve",
-        "uuid": "45b626ef-d41d-48e9-b007-97edac5ac838",
-        "active": "True",
-        "url": "https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/courbe.csv",
-        "dir_parent": "qc",
-        "dir_file": "montreal-epidemic-curve",
-        "file_name": "courbe",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "user": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Montréal epidemic curve",
-          "meta_url": "https://santemontreal.qc.ca/population/coronavirus-covid-19/situation-du-coronavirus-covid-19-a-montreal/",
-          "meta_url_name": "Situation du coronavirus (COVID-19) à Montréal",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec",
-          "meta_group_2": "Montreal"
-        },
-        "notes": {
-          "notes_data": "This file is semicolon-separated since it uses commas as the decimal marker (rather than periods) and is encoded as ISO 8859-15 (rather than UTF-8)."
-        }
-      },
-      {
-        "id_name": "QC - Montréal vaccination dashboard - Vaccine coverage by neighbourhood (2)",
-        "uuid": "8aa37ad1-c642-4f12-8cfe-2998683e4289",
-        "active": "True",
-        "url": "https://services5.arcgis.com/pBN1lh7yaF4K7Tod/arcgis/rest/services/VAXarronMTL_ADEQ/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
-        "dir_parent": "qc",
-        "dir_file": "montreal-vaccine-coverage-by-neighbourhood-2",
-        "file_name": "VAXarronMTL_ADEQ",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Vaccine coverage by neighbourhood (2)",
-          "meta_url": "https://santemontreal.qc.ca/population/coronavirus-covid-19/vaccination/donnees/",
-          "meta_url_name": "Données sur la vaccination COVID-19 à Montréal",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec",
-          "meta_group_2": "Montreal"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Montréal vaccination dashboard - Vaccine coverage by age group (3)",
-        "uuid": "ae6763c8-1ff9-4bac-b3b0-de0110416e20",
-        "active": "True",
-        "url": "https://services5.arcgis.com/pBN1lh7yaF4K7Tod/arcgis/rest/services/VAXparGrpAGE_CSVuploadv3_ADEQ/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
-        "dir_parent": "qc",
-        "dir_file": "montreal-vaccine-coverage-by-age-group-3",
-        "file_name": "VAXparGrpAGE_CSVuploadv3_ADEQ",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Vaccine coverage by age group (3)",
-          "meta_url": "https://santemontreal.qc.ca/population/coronavirus-covid-19/vaccination/donnees/",
-          "meta_url_name": "Données sur la vaccination COVID-19 à Montréal",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec",
-          "meta_group_2": "Montreal"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Montréal vaccination dashboard - Vaccine administration time series (3)",
-        "uuid": "fb4df749-ae0b-4c57-9060-5fdfa3d12275",
-        "active": "True",
-        "url": "https://services5.arcgis.com/pBN1lh7yaF4K7Tod/arcgis/rest/services/VAXparJOUR_CSVupload_V3/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
-        "dir_parent": "qc",
-        "dir_file": "montreal-vaccine-administration-time-series-v3",
-        "file_name": "VAXparJOUR_CSVupload_V3",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Vaccine administration time series (3)",
-          "meta_url": "https://santemontreal.qc.ca/population/coronavirus-covid-19/vaccination/donnees/",
-          "meta_url_name": "Données sur la vaccination COVID-19 à Montréal",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec",
-          "meta_group_2": "Montreal"
         },
         "notes": {}
       },
@@ -17202,6 +16972,32 @@
           "meta_group_2": "Public Health Ontario"
         },
         "notes": {}
+      },
+      {
+        "id_name": "ON - Northwestern (PHU) - COVID-19 data (webpage)",
+        "uuid": "4c56a58b-0cb3-4d71-bafe-9fdb42e5c1d5",
+        "active": "False",
+        "url": "https://www2.nwhu.on.ca/covid-19/data/",
+        "dir_parent": "on",
+        "dir_file": "on-phu-northwestern-covid-data-webpage",
+        "file_name": "on-phu-northwestern-covid-data-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www2.nwhu.on.ca/covid-19/data/",
+          "meta_url_name": "Northwestern (PHU) - COVID-19 Local Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
       }
     ],
     "pe": [
@@ -18721,6 +18517,210 @@
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Montréal cases and deaths by CIUSSS (integrated health and social services centres)",
+        "uuid": "0635e027-1825-4441-aba7-6f4d1157d080",
+        "active": "False",
+        "url": "https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/ciusss.csv",
+        "dir_parent": "qc",
+        "dir_file": "montreal-cases-and-deaths-by-ciusss",
+        "file_name": "ciusss",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Montréal cases and deaths by CIUSSS",
+          "meta_url": "https://santemontreal.qc.ca/population/coronavirus-covid-19/situation-du-coronavirus-covid-19-a-montreal/",
+          "meta_url_name": "Situation du coronavirus (COVID-19) à Montréal",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec",
+          "meta_group_2": "Montreal"
+        },
+        "notes": {
+          "notes_data": "This file is semicolon-separated since it uses commas as the decimal marker (rather than periods) and is encoded as ISO 8859-15 (rather than UTF-8)."
+        }
+      },
+      {
+        "id_name": "QC - Montréal cases by area",
+        "uuid": "8d0aa5a5-6397-4f4c-a9ca-26ba81f26bc7",
+        "active": "False",
+        "url": "https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/municipal.csv",
+        "dir_parent": "qc",
+        "dir_file": "montreal-cases-by-area",
+        "file_name": "municipal",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Montréal cases by area",
+          "meta_url": "https://santemontreal.qc.ca/population/coronavirus-covid-19/situation-du-coronavirus-covid-19-a-montreal/",
+          "meta_url_name": "Situation du coronavirus (COVID-19) à Montréal",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec",
+          "meta_group_2": "Montreal"
+        },
+        "notes": {
+          "notes_data": "This file is semicolon-separated since it uses commas as the decimal marker (rather than periods) and is encoded as ISO 8859-15 (rather than UTF-8)."
+        }
+      },
+      {
+        "id_name": "QC - Montréal cases and deaths by age group",
+        "uuid": "6edc20de-c174-4c75-9d6c-c463ef43512b",
+        "active": "False",
+        "url": "https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/grage.csv",
+        "dir_parent": "qc",
+        "dir_file": "montreal-cases-and-deaths-by-age-group",
+        "file_name": "grage",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Montréal cases and deaths by age group",
+          "meta_url": "https://santemontreal.qc.ca/population/coronavirus-covid-19/situation-du-coronavirus-covid-19-a-montreal/",
+          "meta_url_name": "Situation du coronavirus (COVID-19) à Montréal",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec",
+          "meta_group_2": "Montreal"
+        },
+        "notes": {
+          "notes_data": "This file is semicolon-separated since it uses commas as the decimal marker (rather than periods) and is encoded as ISO 8859-15 (rather than UTF-8)."
+        }
+      },
+      {
+        "id_name": "QC - Montréal cases and deaths by sex",
+        "uuid": "7ae6a613-aa31-4f63-aaeb-f8fdf3d68ee0",
+        "active": "False",
+        "url": "https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/sexe.csv",
+        "dir_parent": "qc",
+        "dir_file": "montreal-cases-and-deaths-by-sex",
+        "file_name": "sexe",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Montréal cases and deaths by sex",
+          "meta_url": "https://santemontreal.qc.ca/population/coronavirus-covid-19/situation-du-coronavirus-covid-19-a-montreal/",
+          "meta_url_name": "Situation du coronavirus (COVID-19) à Montréal",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec",
+          "meta_group_2": "Montreal"
+        },
+        "notes": {
+          "notes_data": "This file is semicolon-separated since it uses commas as the decimal marker (rather than periods) and is encoded as ISO 8859-15 (rather than UTF-8)."
+        }
+      },
+      {
+        "id_name": "QC - Montréal epidemic curve",
+        "uuid": "45b626ef-d41d-48e9-b007-97edac5ac838",
+        "active": "False",
+        "url": "https://santemontreal.qc.ca/fileadmin/fichiers/Campagnes/coronavirus/situation-montreal/courbe.csv",
+        "dir_parent": "qc",
+        "dir_file": "montreal-epidemic-curve",
+        "file_name": "courbe",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Montréal epidemic curve",
+          "meta_url": "https://santemontreal.qc.ca/population/coronavirus-covid-19/situation-du-coronavirus-covid-19-a-montreal/",
+          "meta_url_name": "Situation du coronavirus (COVID-19) à Montréal",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec",
+          "meta_group_2": "Montreal"
+        },
+        "notes": {
+          "notes_data": "This file is semicolon-separated since it uses commas as the decimal marker (rather than periods) and is encoded as ISO 8859-15 (rather than UTF-8)."
+        }
+      },
+      {
+        "id_name": "QC - Montréal vaccination dashboard - Vaccine coverage by neighbourhood (2)",
+        "uuid": "8aa37ad1-c642-4f12-8cfe-2998683e4289",
+        "active": "False",
+        "url": "https://services5.arcgis.com/pBN1lh7yaF4K7Tod/arcgis/rest/services/VAXarronMTL_ADEQ/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "qc",
+        "dir_file": "montreal-vaccine-coverage-by-neighbourhood-2",
+        "file_name": "VAXarronMTL_ADEQ",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine coverage by neighbourhood (2)",
+          "meta_url": "https://santemontreal.qc.ca/population/coronavirus-covid-19/vaccination/donnees/",
+          "meta_url_name": "Données sur la vaccination COVID-19 à Montréal",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec",
+          "meta_group_2": "Montreal"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Montréal vaccination dashboard - Vaccine coverage by age group (3)",
+        "uuid": "ae6763c8-1ff9-4bac-b3b0-de0110416e20",
+        "active": "False",
+        "url": "https://services5.arcgis.com/pBN1lh7yaF4K7Tod/arcgis/rest/services/VAXparGrpAGE_CSVuploadv3_ADEQ/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "qc",
+        "dir_file": "montreal-vaccine-coverage-by-age-group-3",
+        "file_name": "VAXparGrpAGE_CSVuploadv3_ADEQ",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine coverage by age group (3)",
+          "meta_url": "https://santemontreal.qc.ca/population/coronavirus-covid-19/vaccination/donnees/",
+          "meta_url_name": "Données sur la vaccination COVID-19 à Montréal",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec",
+          "meta_group_2": "Montreal"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Montréal vaccination dashboard - Vaccine administration time series (3)",
+        "uuid": "fb4df749-ae0b-4c57-9060-5fdfa3d12275",
+        "active": "False",
+        "url": "https://services5.arcgis.com/pBN1lh7yaF4K7Tod/arcgis/rest/services/VAXparJOUR_CSVupload_V3/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "qc",
+        "dir_file": "montreal-vaccine-administration-time-series-v3",
+        "file_name": "VAXparJOUR_CSVupload_V3",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine administration time series (3)",
+          "meta_url": "https://santemontreal.qc.ca/population/coronavirus-covid-19/vaccination/donnees/",
+          "meta_url_name": "Données sur la vaccination COVID-19 à Montréal",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec",
+          "meta_group_2": "Montreal"
         },
         "notes": {}
       }
