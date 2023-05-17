@@ -4691,30 +4691,7 @@
         "notes": {}
       }
     ],
-    "nt": [
-      {
-        "id_name": "NT - GNWT's Response to COVID-19 (webpage)",
-        "uuid": "e008ba6f-7b09-4af4-afc5-63ec3c3bbfbb",
-        "active": "True",
-        "url": "https://www.gov.nt.ca/covid-19/",
-        "dir_parent": "nt",
-        "dir_file": "nwt-webpage",
-        "file_name": "nwt-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://www.gov.nt.ca/covid-19/",
-          "meta_url_name": "GNWT's Response to COVID-19",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Northwest Territories"
-        },
-        "notes": {}
-      }
-    ],
+    "nt": [],
     "nu": [
       {
         "id_name": "NU - COVID-19 (Novel Coronavirus) (webpage)",
@@ -14302,6 +14279,28 @@
           "meta_name": "Vaccinations doses webpage",
           "meta_url": "https://nwt-covid.shinyapps.io/Testing-and-Cases/?lang=1",
           "meta_url_name": "Northwest Territories COVID-19 dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Northwest Territories"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NT - GNWT's Response to COVID-19 (webpage)",
+        "uuid": "e008ba6f-7b09-4af4-afc5-63ec3c3bbfbb",
+        "active": "False",
+        "url": "https://www.gov.nt.ca/covid-19/",
+        "dir_parent": "nt",
+        "dir_file": "nwt-webpage",
+        "file_name": "nwt-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.gov.nt.ca/covid-19/",
+          "meta_url_name": "GNWT's Response to COVID-19",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Northwest Territories"
