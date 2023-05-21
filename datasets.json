@@ -1241,28 +1241,6 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - Canadian Critical Care Society hospital and ICU counts",
-        "uuid": "1bf52899-1fa9-4732-83c6-21a95e08a7d9",
-        "active": "True",
-        "url": "https://canadiancriticalcare.org/resources/Documents/COVID-19%20DAILY%20TRACKING%20STATISTICS.xlsx",
-        "dir_parent": "can",
-        "dir_file": "cccs-hospital-icu-counts",
-        "file_name": "COVID-19_DAILY_TRACKING_STATISTICS",
-        "file_ext": "xlsx",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Canadian Critical Care Society hospital and ICU counts",
-          "meta_url": "https://canadiancriticalcare.org/COVID-19-Case-Counts",
-          "meta_url_name": "COVID-19 Canada Case Counts (Hospital Vs. ICU)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "CAN - COVID-19 epidemiology update (English report)",
         "uuid": "1f990350-18f9-4cc4-baf2-9ed3c86ecf8e",
         "active": "True",
@@ -11590,6 +11568,28 @@
         "notes": {
           "notes_data": "Weekly percentage of COVID-19 tests that were positive among international travellers (unvaccinated/partially vaccinated or vaccinated) entering Canada between July 05, 2021 and September 30, 2022, by mode of travel."
         }
+      },
+      {
+        "id_name": "CAN - Canadian Critical Care Society hospital and ICU counts",
+        "uuid": "1bf52899-1fa9-4732-83c6-21a95e08a7d9",
+        "active": "False",
+        "url": "https://canadiancriticalcare.org/resources/Documents/COVID-19%20DAILY%20TRACKING%20STATISTICS.xlsx",
+        "dir_parent": "can",
+        "dir_file": "cccs-hospital-icu-counts",
+        "file_name": "COVID-19_DAILY_TRACKING_STATISTICS",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Canadian Critical Care Society hospital and ICU counts",
+          "meta_url": "https://canadiancriticalcare.org/COVID-19-Case-Counts",
+          "meta_url_name": "COVID-19 Canada Case Counts (Hospital Vs. ICU)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
       }
     ],
     "mb": [
