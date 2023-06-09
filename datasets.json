@@ -6244,7 +6244,7 @@
         "id_name": "ON - Algoma (PHU) - COVID-19 data (webpage)",
         "uuid": "685df305-f6c7-4ac2-992b-ec707eb1f1cb",
         "active": "True",
-        "url": "https://www.algomapublichealth.com/disease-and-illness/infectious-diseases/novel-coronavirus/current-status-covid-19/",
+        "url": "https://www.algomapublichealth.com/disease-and-illness/infectious-diseases/covid-19/local-covid-19-data/",
         "dir_parent": "on",
         "dir_file": "on-phu-algoma-covid-data-webpage",
         "file_name": "on-phu-algoma-covid-data-webpage",
