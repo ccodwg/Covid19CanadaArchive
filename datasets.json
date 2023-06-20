@@ -51,30 +51,6 @@
         }
       },
       {
-        "id_name": "AB - COVID-19 Alberta statistics: Case data",
-        "uuid": "59da1de8-3b4e-429a-9e18-b67ba3834002",
-        "active": "True",
-        "url": "https://www.alberta.ca/data/stats/covid-19-alberta-statistics-data.csv",
-        "dir_parent": "ab",
-        "dir_file": "cases",
-        "file_name": "covid19dataexport",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Case data",
-          "meta_url": "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm",
-          "meta_url_name": "COVID-19 Alberta statistics",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Alberta"
-        },
-        "notes": {
-          "notes_data": "Versions of this file from 2021-01-27 to 2021-04-25 have misaligned column names. The final column name is missing and should be 'Case type'. This was due to the unexpected removal of the initial, unnamed ID column. Additionally, this file is missing for 2020-11-30."
-        }
-      },
-      {
         "id_name": "AB - COVID-19 Alberta statistics: Summary data time series",
         "uuid": "3ced816d-8524-4875-bd69-61fb5603b596",
         "active": "True",
@@ -116,7 +92,9 @@
           "meta_licence_url": "",
           "meta_group_1": "Alberta"
         },
-        "notes": {}
+        "notes": {
+          "notes_data": "As of 2022-10-12, data are reported at the level of Zone rather than Local Geographic Area."
+        }
       },
       {
         "id_name": "AB - COVID-19 Alberta statistics: Vaccine data (Local geographic area)",
@@ -8969,6 +8947,30 @@
           "meta_group_2": "Edmonton"
         },
         "notes": {}
+      },
+      {
+        "id_name": "AB - COVID-19 Alberta statistics: Case data",
+        "uuid": "59da1de8-3b4e-429a-9e18-b67ba3834002",
+        "active": "False",
+        "url": "https://www.alberta.ca/data/stats/covid-19-alberta-statistics-data.csv",
+        "dir_parent": "ab",
+        "dir_file": "cases",
+        "file_name": "covid19dataexport",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Case data",
+          "meta_url": "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm",
+          "meta_url_name": "COVID-19 Alberta statistics",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Alberta"
+        },
+        "notes": {
+          "notes_data": "Versions of this file from 2021-01-27 to 2021-04-25 have misaligned column names. The final column name is missing and should be 'Case type'. This was due to the unexpected removal of the initial, unnamed ID column. Additionally, this file is missing for 2020-11-30."
+        }
       }
     ],
     "bc": [
