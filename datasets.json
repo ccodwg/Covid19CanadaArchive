@@ -5842,15 +5842,14 @@
         "id_name": "ON - ICES dashboard vaccine coverage estimates for selected age groups by FSA",
         "uuid": "cd168371-86f5-41f3-9555-580cd50f9b3a",
         "active": "True",
-        "url": "https://www.ices.on.ca/~/media/Files/COVID-19/ICES-COVID19-Vaccination-Data-by-FSA.ashx?la=en-CA",
+        "url_fun_python": "import re; from bs4 import BeautifulSoup; import requests; headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0'}; url_current = BeautifulSoup(requests.get('https://www.ices.on.ca/dashboards/covid-19-dashboard/', headers=headers, timeout=5).text, features='html.parser').find('a', href=re.compile('https://www.ices.on.ca/.*ICES_COVID19_Vaccination_Data_by_FSA.*\\.xlsx')).attrs['href']",
+        "url_fun_r": "library(rvest); links <- html_elements(read_html('https://www.ices.on.ca/dashboards/covid-19-dashboard/'), 'a'); linkshref <- html_attr(links, 'href'); html_attr(links[grep('https://www.ices.on.ca/.*ICES_COVID19_Vaccination_Data_by_FSA.*\\.xlsx', linkshref)][1], 'href')",
         "dir_parent": "on",
         "dir_file": "ices-vaccine-coverage-by-age-group-and-fsa",
         "file_name": "ICES-COVID19-Vaccination-Data-by-FSA",
         "file_ext": "xlsx",
         "dl_fun": "dl_file",
-        "args": {
-          "legacy_ssl": "True"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccine coverage estimates for selected age groups by FSA",
@@ -5866,15 +5865,14 @@
         "id_name": "ON - ICES dashboard vaccine coverage estimates by priority groups",
         "uuid": "ba6788e6-b1d9-4e9f-a65b-16d7c100044f",
         "active": "True",
-        "url": "https://www.ices.on.ca/~/media/Files/COVID-19/ICES-COVID19-Vaccine-Coverage-by-Priority-Group.ashx?la=en-CA",
+        "url_fun_python": "import re; from bs4 import BeautifulSoup; import requests; headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0'}; url_current = BeautifulSoup(requests.get('https://www.ices.on.ca/dashboards/covid-19-dashboard/', headers=headers, timeout=5).text, features='html.parser').find('a', href=re.compile('https://www.ices.on.ca/.*ICES_COVID19_Vaccine_Coverage_by_Priority_Group.*\\.xlsx')).attrs['href']",
+        "url_fun_r": "library(rvest); links <- html_elements(read_html('https://www.ices.on.ca/dashboards/covid-19-dashboard/'), 'a'); linkshref <- html_attr(links, 'href'); html_attr(links[grep('https://www.ices.on.ca/.*ICES_COVID19_Vaccine_Coverage_by_Priority_Group.*\\.xlsx', linkshref)][1], 'href')",
         "dir_parent": "on",
         "dir_file": "ices-vaccine-coverage-by-priority-group",
         "file_name": "ICES-COVID19-Vaccine-Coverage-by-Priority-Group",
         "file_ext": "xlsx",
         "dl_fun": "dl_file",
-        "args": {
-          "legacy_ssl": "True"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccine coverage estimates by priority groups",
@@ -5890,15 +5888,14 @@
         "id_name": "ON - ICES dashboard vaccine coverage estimates for adults with developmental disabilities",
         "uuid": "d7269b14-781c-493b-b295-ddd0789eb811",
         "active": "True",
-        "url": "https://www.ices.on.ca/~/media/Files/COVID-19/Vaccine-coverage-for-adults-with-developmental-disabilities.ashx?la=en-CA",
+        "url_fun_python": "import re; from bs4 import BeautifulSoup; import requests; headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0'}; url_current = BeautifulSoup(requests.get('https://www.ices.on.ca/dashboards/covid-19-dashboard/', headers=headers, timeout=5).text, features='html.parser').find('a', href=re.compile('https://www.ices.on.ca/.*Vaccine-coverage-for-adults-with-developmental-disabilities.*\\.xlsx')).attrs['href']",
+        "url_fun_r": "library(rvest); links <- html_elements(read_html('https://www.ices.on.ca/dashboards/covid-19-dashboard/'), 'a'); linkshref <- html_attr(links, 'href'); html_attr(links[grep('https://www.ices.on.ca/.*Vaccine-coverage-for-adults-with-developmental-disabilities.*\\.xlsx', linkshref)][1], 'href')",
         "dir_parent": "on",
         "dir_file": "ices-vaccine-coverage-for-adults-with-developmental-disabilities",
         "file_name": "Vaccine-coverage-for-adults-with-developmental-disabilities",
         "file_ext": "xlsx",
         "dl_fun": "dl_file",
-        "args": {
-          "legacy_ssl": "True"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccine coverage estimates for adults with developmental disabilities",
