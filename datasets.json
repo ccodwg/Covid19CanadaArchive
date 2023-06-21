@@ -128,10 +128,7 @@
         "file_name": "ab-cases-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
