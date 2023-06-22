@@ -5639,6 +5639,56 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Public Health Ontario: COVID-19 Wastewater Surveillance in Ontario - Dataset",
+        "uuid": "47938aa5-fe0f-4693-bbef-5ccc16a45dee",
+        "active": "True",
+        "url": "https://www.publichealthontario.ca/-/media/Data-Files/wastewater-surveillance-signal-data.xlsx",
+        "dir_parent": "on",
+        "dir_file": "pho-wastewater-surveillance-dataset",
+        "file_name": "wastewater-surveillance-signal-data",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/COVID-19-Data-Surveillance/Wastewater",
+          "meta_url_name": "Public Health Ontario: COVID-19 Wastewater Surveillance in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Public Health Ontario: COVID-19 Wastewater Surveillance in Ontario - Technical notes",
+        "uuid": "7f35f016-b245-4f3a-86bf-d7803de0fdce",
+        "active": "True",
+        "url": "https://www.publichealthontario.ca/-/media/Data-Files/wastewater-surveillance-technical-notes.pdf",
+        "dir_parent": "on",
+        "dir_file": "pho-wastewater-surveillance-technical-notes",
+        "file_name": "wastewater-surveillance-technical-notes",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Technical notes",
+          "meta_url": "https://www.publichealthontario.ca/en/Data-and-Analysis/Infectious-Disease/COVID-19-Data-Surveillance/Wastewater",
+          "meta_url_name": "Public Health Ontario: COVID-19 Wastewater Surveillance in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Ontario"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - Public Health Ontario: COVID-19 Wastewater Surveillance in Ontario - Province",
         "uuid": "8161f3d0-5805-4056-bfbe-a0335b9dd957",
         "active": "True",
