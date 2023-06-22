@@ -5850,7 +5850,8 @@
         "file_ext": "xlsx",
         "dl_fun": "dl_file",
         "args": {
-          "legacy_ssl": "True"
+          "legacy_ssl": "True",
+          "user": "True"
         },
         "supplementary": {},
         "metadata": {
@@ -5875,7 +5876,8 @@
         "file_ext": "xlsx",
         "dl_fun": "dl_file",
         "args": {
-          "legacy_ssl": "True"
+          "legacy_ssl": "True",
+          "user": "True"
         },
         "supplementary": {},
         "metadata": {
@@ -5900,7 +5902,8 @@
         "file_ext": "xlsx",
         "dl_fun": "dl_file",
         "args": {
-          "legacy_ssl": "True"
+          "legacy_ssl": "True",
+          "user": "True"
         },
         "supplementary": {},
         "metadata": {
