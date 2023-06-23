@@ -4051,8 +4051,7 @@
         "file_ext": "html",
         "dl_fun": "html_page",
         "args": {
-          "js": "True",
-          "wait": "5"
+          "legacy_ssl": "True"
         },
         "supplementary": {},
         "metadata": {
