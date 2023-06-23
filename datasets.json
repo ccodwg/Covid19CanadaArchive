@@ -4039,7 +4039,33 @@
         "notes": {}
       }
     ],
-    "ns": [],
+    "ns": [
+      {
+        "id_name": "NS - COVID-19: alerts, news and data (webpage)",
+        "uuid": "2dece230-1a08-41dd-ae3d-bcdcafafc8ed",
+        "active": "True",
+        "url": "https://novascotia.ca/coronavirus/alerts-notices/",
+        "dir_parent": "ns",
+        "dir_file": "ns-covid-alerts-news-data",
+        "file_name": "ns-covid-alerts-news-data",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://novascotia.ca/coronavirus/alerts-notices",
+          "meta_url_name": "COVID-19: alerts, news and data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Nova Scotia"
+        },
+        "notes": {}
+      }
+    ],
     "nt": [],
     "nu": [
       {
