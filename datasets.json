@@ -4039,99 +4039,7 @@
         "notes": {}
       }
     ],
-    "ns": [
-      {
-        "id_name": "NS - Nova Scotia COVID-19 Dashboard (webpage)",
-        "uuid": "abbaa0d9-7e54-4425-a9be-f91cde27f358",
-        "active": "True",
-        "url": "https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad",
-        "dir_parent": "ns",
-        "dir_file": "ns-dashboard-webpage",
-        "file_name": "ns-dashboard-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "20"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad",
-          "meta_url_name": "Nova Scotia COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Nova Scotia"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "NS - Nova Scotia COVID-19 Dashboard: Weekly Data (3)",
-        "uuid": "63a4e248-f451-456c-a837-3da75b8fcc5c",
-        "active": "True",
-        "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/COVID_WEEKREPT_V6_2_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
-        "dir_parent": "ns",
-        "dir_file": "weekly-data-3",
-        "file_name": "COVID_WEEKREPT_V6_2_PROD",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Weekly Data (3)",
-          "meta_url": "https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad",
-          "meta_url_name": "Nova Scotia COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Nova Scotia"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "NS - Nova Scotia COVID-19 Dashboard: Positive PCR test time series (PCR only/PCR after rapid test)",
-        "uuid": "369d8d34-c8f7-4594-8e5c-7c4ccc00a7a4",
-        "active": "True",
-        "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/COVID_TESTING_V6_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
-        "dir_parent": "ns",
-        "dir_file": "positive-pcr-test-time-series",
-        "file_name": "COVID_TESTING_V6_PROD",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Positive PCR test time series (PCR only/PCR after rapid test)",
-          "meta_url": "https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad",
-          "meta_url_name": "Nova Scotia COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Nova Scotia"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "NS - Nova Scotia COVID-19 Dashboard: Hospital/ICU admissions time series",
-        "uuid": "ae74c46f-dec7-43d6-a42b-86c7242f0868",
-        "active": "True",
-        "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/COVID_HOSP_ADM_V6_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
-        "dir_parent": "ns",
-        "dir_file": "hosp-icu-time-series",
-        "file_name": "COVID_HOSP_ADM_V6_PROD",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Hospital/ICU admissions time series",
-          "meta_url": "https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad",
-          "meta_url_name": "Nova Scotia COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Nova Scotia"
-        },
-        "notes": {}
-      }
-    ],
+    "ns": [],
     "nt": [],
     "nu": [
       {
@@ -5892,7 +5800,7 @@
         "id_name": "ON - ICES dashboard vaccine coverage estimates for selected age groups by FSA",
         "uuid": "cd168371-86f5-41f3-9555-580cd50f9b3a",
         "active": "True",
-        "url_fun_python": "import re; from bs4 import BeautifulSoup; import requests; headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0'}; url_current = BeautifulSoup(requests.get('https://www.ices.on.ca/dashboards/covid-19-dashboard/', headers=headers, timeout=5).text, features='html.parser').find('a', href=re.compile('https://www.ices.on.ca/.*ICES_COVID19_Vaccination_Data_by_FSA.*\\.xlsx')).attrs['href']",
+        "url_fun_python": "from bs4 import BeautifulSoup; import requests; headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0'}; url_current = BeautifulSoup(requests.get('https://www.ices.on.ca/dashboards/covid-19-dashboard/', headers=headers, timeout=5).text, features='html.parser').find('a', href=re.compile('https://www.ices.on.ca/.*ICES_COVID19_Vaccination_Data_by_FSA.*\\.xlsx')).attrs['href']",
         "url_fun_r": "library(rvest); links <- html_elements(read_html('https://www.ices.on.ca/dashboards/covid-19-dashboard/'), 'a'); linkshref <- html_attr(links, 'href'); html_attr(links[grep('https://www.ices.on.ca/.*ICES_COVID19_Vaccination_Data_by_FSA.*\\.xlsx', linkshref)][1], 'href')",
         "dir_parent": "on",
         "dir_file": "ices-vaccine-coverage-by-age-group-and-fsa",
@@ -5918,7 +5826,7 @@
         "id_name": "ON - ICES dashboard vaccine coverage estimates by priority groups",
         "uuid": "ba6788e6-b1d9-4e9f-a65b-16d7c100044f",
         "active": "True",
-        "url_fun_python": "import re; from bs4 import BeautifulSoup; import requests; headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0'}; url_current = BeautifulSoup(requests.get('https://www.ices.on.ca/dashboards/covid-19-dashboard/', headers=headers, timeout=5).text, features='html.parser').find('a', href=re.compile('https://www.ices.on.ca/.*ICES_COVID19_Vaccine_Coverage_by_Priority_Group.*\\.xlsx')).attrs['href']",
+        "url_fun_python": "from bs4 import BeautifulSoup; import requests; headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0'}; url_current = BeautifulSoup(requests.get('https://www.ices.on.ca/dashboards/covid-19-dashboard/', headers=headers, timeout=5).text, features='html.parser').find('a', href=re.compile('https://www.ices.on.ca/.*ICES_COVID19_Vaccine_Coverage_by_Priority_Group.*\\.xlsx')).attrs['href']",
         "url_fun_r": "library(rvest); links <- html_elements(read_html('https://www.ices.on.ca/dashboards/covid-19-dashboard/'), 'a'); linkshref <- html_attr(links, 'href'); html_attr(links[grep('https://www.ices.on.ca/.*ICES_COVID19_Vaccine_Coverage_by_Priority_Group.*\\.xlsx', linkshref)][1], 'href')",
         "dir_parent": "on",
         "dir_file": "ices-vaccine-coverage-by-priority-group",
@@ -5944,7 +5852,7 @@
         "id_name": "ON - ICES dashboard vaccine coverage estimates for adults with developmental disabilities",
         "uuid": "d7269b14-781c-493b-b295-ddd0789eb811",
         "active": "True",
-        "url_fun_python": "import re; from bs4 import BeautifulSoup; import requests; headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0'}; url_current = BeautifulSoup(requests.get('https://www.ices.on.ca/dashboards/covid-19-dashboard/', headers=headers, timeout=5).text, features='html.parser').find('a', href=re.compile('https://www.ices.on.ca/.*Vaccine-coverage-for-adults-with-developmental-disabilities.*\\.xlsx')).attrs['href']",
+        "url_fun_python": "from bs4 import BeautifulSoup; import requests; headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0'}; url_current = BeautifulSoup(requests.get('https://www.ices.on.ca/dashboards/covid-19-dashboard/', headers=headers, timeout=5).text, features='html.parser').find('a', href=re.compile('https://www.ices.on.ca/.*Vaccine-coverage-for-adults-with-developmental-disabilities.*\\.xlsx')).attrs['href']",
         "url_fun_r": "library(rvest); links <- html_elements(read_html('https://www.ices.on.ca/dashboards/covid-19-dashboard/'), 'a'); linkshref <- html_attr(links, 'href'); html_attr(links[grep('https://www.ices.on.ca/.*Vaccine-coverage-for-adults-with-developmental-disabilities.*\\.xlsx', linkshref)][1], 'href')",
         "dir_parent": "on",
         "dir_file": "ices-vaccine-coverage-for-adults-with-developmental-disabilities",
@@ -15002,6 +14910,97 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Weekly Data (2)",
+          "meta_url": "https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad",
+          "meta_url_name": "Nova Scotia COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Nova Scotia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NS - Nova Scotia COVID-19 Dashboard (webpage)",
+        "uuid": "abbaa0d9-7e54-4425-a9be-f91cde27f358",
+        "active": "False",
+        "url": "https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad",
+        "dir_parent": "ns",
+        "dir_file": "ns-dashboard-webpage",
+        "file_name": "ns-dashboard-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "20"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad",
+          "meta_url_name": "Nova Scotia COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Nova Scotia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NS - Nova Scotia COVID-19 Dashboard: Weekly Data (3)",
+        "uuid": "63a4e248-f451-456c-a837-3da75b8fcc5c",
+        "active": "False",
+        "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/COVID_WEEKREPT_V6_2_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "ns",
+        "dir_file": "weekly-data-3",
+        "file_name": "COVID_WEEKREPT_V6_2_PROD",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Weekly Data (3)",
+          "meta_url": "https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad",
+          "meta_url_name": "Nova Scotia COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Nova Scotia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NS - Nova Scotia COVID-19 Dashboard: Positive PCR test time series (PCR only/PCR after rapid test)",
+        "uuid": "369d8d34-c8f7-4594-8e5c-7c4ccc00a7a4",
+        "active": "False",
+        "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/COVID_TESTING_V6_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "ns",
+        "dir_file": "positive-pcr-test-time-series",
+        "file_name": "COVID_TESTING_V6_PROD",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Positive PCR test time series (PCR only/PCR after rapid test)",
+          "meta_url": "https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad",
+          "meta_url_name": "Nova Scotia COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Nova Scotia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NS - Nova Scotia COVID-19 Dashboard: Hospital/ICU admissions time series",
+        "uuid": "ae74c46f-dec7-43d6-a42b-86c7242f0868",
+        "active": "False",
+        "url": "https://services7.arcgis.com/guiEgv5T1fmjU8SW/arcgis/rest/services/COVID_HOSP_ADM_V6_PROD/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*",
+        "dir_parent": "ns",
+        "dir_file": "hosp-icu-time-series",
+        "file_name": "COVID_HOSP_ADM_V6_PROD",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Hospital/ICU admissions time series",
           "meta_url": "https://experience.arcgis.com/experience/204d6ed723244dfbb763ca3f913c5cad",
           "meta_url_name": "Nova Scotia COVID-19 Dashboard",
           "meta_licence": "",
