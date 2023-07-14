@@ -5448,6 +5448,31 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Public Health Ontario: COVID-19 Data and Surveillance - Respiratory Virus Overview in Ontario",
+        "uuid": "866bb967-10e8-427d-9f14-e906dc3ac31f",
+        "active": "True",
+        "url": "https://www.publichealthontario.ca/-/media/Documents/nCoV/epi/respiratory-virus-overview-ontario.pdf?sc_lang=en",
+        "dir_parent": "on",
+        "dir_file": "pho-respiratory-virus-overview-ontario-report",
+        "file_name": "respiratory-virus-overview-ontario-report",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Respiratory Virus Overview in Ontario",
+          "meta_url": "https://www.publichealthontario.ca/en/data-and-analysis/infectious-disease/covid-19-data-surveillance",
+          "meta_url_name": "Public Health Ontario: COVID-19 Data and Surveillance",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Ontario"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - Public Health Ontario: COVID-19 Data and Surveillance - Weekly epidemiologic summary",
         "uuid": "3b3bd20f-9d8c-45e2-8ed9-9bc8f0672b54",
         "active": "True",
