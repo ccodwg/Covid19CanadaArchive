@@ -3877,30 +3877,6 @@
         }
       },
       {
-        "id_name": "NL - Recent deaths by vaccination status",
-        "uuid": "718a2675-9c59-44ef-a055-9fee22c19313",
-        "active": "True",
-        "url": "https://services6.arcgis.com/Oayv0bA202oTQWoc/arcgis/rest/services/Deaths_Vax/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "nl",
-        "dir_file": "recent-deaths-by-vaccination-status",
-        "file_name": "Deaths_Vax",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Recent deaths by vaccination status",
-          "meta_url": "https://experience.arcgis.com/experience/280d17f9bd5d47e9870b6aba8222e5f4",
-          "meta_url_name": "Newfoundland and Labrador COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Newfoundland and Labrador"
-        },
-        "notes": {
-          "notes_data": "Includes deaths since 2021-02-28."
-        }
-      },
-      {
         "id_name": "NL - Health region summary",
         "uuid": "34f45670-34ed-415c-86a6-e14d77fcf6db",
         "active": "True",
@@ -3969,30 +3945,6 @@
           "meta_group_1": "Newfoundland and Labrador"
         },
         "notes": {}
-      },
-      {
-        "id_name": "NL - Recent case counts and rates by vaccination status",
-        "uuid": "af4583b9-3153-4617-be15-93077ea2d7f9",
-        "active": "True",
-        "url": "https://services6.arcgis.com/Oayv0bA202oTQWoc/arcgis/rest/services/Vax_Status/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "nl",
-        "dir_file": "recent-case-counts-and-rates-by-vaccination-status",
-        "file_name": "Vax_Status",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Recent case counts and rates by vaccination status",
-          "meta_url": "https://experience.arcgis.com/experience/280d17f9bd5d47e9870b6aba8222e5f4",
-          "meta_url_name": "Newfoundland and Labrador COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Newfoundland and Labrador"
-        },
-        "notes": {
-          "notes_data": "Includes cases since 2021-02-28."
-        }
       },
       {
         "id_name": "NL - Vaccination rates by age group",
@@ -7237,31 +7189,6 @@
         "notes": {}
       },
       {
-        "id_name": "QC - Dashboard of the COVID-19 situation in Quebec (FR)",
-        "uuid": "4f5cd566-41bc-4f08-b890-6a3d2b297a7a",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/20-210-382W_infographie_sommaire-executif.jpg",
-        "dir_parent": "qc",
-        "dir_file": "qc-covid-dashboard",
-        "file_name": "20-210-382W_infographie_sommaire-executif",
-        "file_ext": "jpg",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True",
-          "user": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dashboard of the COVID-19 situation in Quebec (image)",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
-          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "QC - Situation in Quebec",
         "uuid": "cad4b36c-e985-4347-8cda-c7f40907c76c",
         "active": "True",
@@ -7959,30 +7886,6 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Comparisons (provinces)",
-          "meta_url": "https://www.inspq.qc.ca/covid-19/donnees",
-          "meta_url_name": "Données COVID-19 au Québec (INSPQ)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Comparisons (countries)",
-        "uuid": "4c3df0b3-c686-47af-b45d-88c43c0f9876",
-        "active": "True",
-        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/comparaisons_pays.csv",
-        "dir_parent": "qc",
-        "dir_file": "comparisons-countries",
-        "file_name": "comparaisons_pays",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Comparisons (countries)",
           "meta_url": "https://www.inspq.qc.ca/covid-19/donnees",
           "meta_url_name": "Données COVID-19 au Québec (INSPQ)",
           "meta_licence": "",
@@ -14165,6 +14068,54 @@
           "meta_group_1": "Newfoundland and Labrador"
         },
         "notes": {}
+      },
+      {
+        "id_name": "NL - Recent case counts and rates by vaccination status",
+        "uuid": "af4583b9-3153-4617-be15-93077ea2d7f9",
+        "active": "False",
+        "url": "https://services6.arcgis.com/Oayv0bA202oTQWoc/arcgis/rest/services/Vax_Status/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nl",
+        "dir_file": "recent-case-counts-and-rates-by-vaccination-status",
+        "file_name": "Vax_Status",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Recent case counts and rates by vaccination status",
+          "meta_url": "https://experience.arcgis.com/experience/280d17f9bd5d47e9870b6aba8222e5f4",
+          "meta_url_name": "Newfoundland and Labrador COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Newfoundland and Labrador"
+        },
+        "notes": {
+          "notes_data": "Includes cases since 2021-02-28."
+        }
+      },
+      {
+        "id_name": "NL - Recent deaths by vaccination status",
+        "uuid": "718a2675-9c59-44ef-a055-9fee22c19313",
+        "active": "False",
+        "url": "https://services6.arcgis.com/Oayv0bA202oTQWoc/arcgis/rest/services/Deaths_Vax/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nl",
+        "dir_file": "recent-deaths-by-vaccination-status",
+        "file_name": "Deaths_Vax",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Recent deaths by vaccination status",
+          "meta_url": "https://experience.arcgis.com/experience/280d17f9bd5d47e9870b6aba8222e5f4",
+          "meta_url_name": "Newfoundland and Labrador COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Newfoundland and Labrador"
+        },
+        "notes": {
+          "notes_data": "Includes deaths since 2021-02-28."
+        }
       }
     ],
     "nt": [
@@ -18849,6 +18800,55 @@
           "meta_licence_url": "",
           "meta_group_1": "Quebec",
           "meta_group_2": "Montreal"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Dashboard of the COVID-19 situation in Quebec (FR)",
+        "uuid": "4f5cd566-41bc-4f08-b890-6a3d2b297a7a",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/20-210-382W_infographie_sommaire-executif.jpg",
+        "dir_parent": "qc",
+        "dir_file": "qc-covid-dashboard",
+        "file_name": "20-210-382W_infographie_sommaire-executif",
+        "file_ext": "jpg",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True",
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dashboard of the COVID-19 situation in Quebec (image)",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Comparisons (countries)",
+        "uuid": "4c3df0b3-c686-47af-b45d-88c43c0f9876",
+        "active": "False",
+        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/comparaisons_pays.csv",
+        "dir_parent": "qc",
+        "dir_file": "comparisons-countries",
+        "file_name": "comparaisons_pays",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Comparisons (countries)",
+          "meta_url": "https://www.inspq.qc.ca/covid-19/donnees",
+          "meta_url_name": "Données COVID-19 au Québec (INSPQ)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
         },
         "notes": {}
       }
