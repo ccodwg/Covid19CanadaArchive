@@ -7113,28 +7113,6 @@
         "notes": {
           "notes_data": "This page contains no data since they are not embedded in the page but pulled from the live 'Vaccine rollout' Google Sheet."
         }
-      },
-      {
-        "id_name": "PE - COVID-19 Vaccine Rollout",
-        "uuid": "3ff94c42-8b12-4653-a6c9-0ddd8ff343d5",
-        "active": "True",
-        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTNuwu9bnEW7yLLaT3nypcPqkE7Ahf1c8vZfUN2mE6tgFE1s_W4Adk6QBaWYah3MVlaUuLfs1AW7U-w/pub?output=xlsx",
-        "dir_parent": "pe",
-        "dir_file": "vaccine-data-cumulative",
-        "file_name": "Vaccine_Rollout",
-        "file_ext": "xlsx",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dataset",
-          "meta_url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/covid-19-vaccination-data",
-          "meta_url_name": "COVID-19 Vaccination Data",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Prince Edward Island"
-        },
-        "notes": {}
       }
     ],
     "qc": [
@@ -17197,6 +17175,28 @@
           "meta_name": "Webpage",
           "meta_url": "https://cslf.edu.pe.ca/avis-dexposition-covid-19",
           "meta_url_name": "Potential COVID-19 School Exposures (French School Board)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Prince Edward Island"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "PE - COVID-19 Vaccine Rollout",
+        "uuid": "3ff94c42-8b12-4653-a6c9-0ddd8ff343d5",
+        "active": "False",
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTNuwu9bnEW7yLLaT3nypcPqkE7Ahf1c8vZfUN2mE6tgFE1s_W4Adk6QBaWYah3MVlaUuLfs1AW7U-w/pub?output=xlsx",
+        "dir_parent": "pe",
+        "dir_file": "vaccine-data-cumulative",
+        "file_name": "Vaccine_Rollout",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/covid-19-vaccination-data",
+          "meta_url_name": "COVID-19 Vaccination Data",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Prince Edward Island"
