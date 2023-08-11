@@ -6259,33 +6259,6 @@
         "notes": {}
       },
       {
-        "id_name": "ON - Chatham-Kent (PHU) - COVID-19 data - epidemiological summary (webpage)",
-        "uuid": "fe08035c-2c03-4960-a642-bde1fe18c857",
-        "active": "True",
-        "url_fun_python": "from bs4 import BeautifulSoup; import requests; url_current = BeautifulSoup(requests.get('https://ckphu.com/current-situation-in-chatham-kent/', timeout=5).text, features='html.parser').find('iframe')['src']",
-        "url_fun_r": "library(rvest); html_attr(html_element(read_html('https://ckphu.com/current-situation-in-chatham-kent/'), 'iframe'), 'src')",
-        "dir_parent": "on",
-        "dir_file": "on-phu-chatham-kent-covid-data-epi-summary-webpage",
-        "file_name": "on-phu-chatham-kent-covid-data-epi-summary-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "20"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Epidemiological summary",
-          "meta_url": "https://ckphu.com/current-situation-in-chatham-kent/",
-          "meta_url_name": "Chatham-Kent (PHU) - Current Situation in Chatham-Kent and Surrounding Areas",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Public Health Units"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "ON - Durham (PHU) - COVID-19 data - status of cases (webpage)",
         "uuid": "ba7b0d74-5fe2-41d8-aadb-6320ff9acb21",
         "active": "True",
@@ -17049,6 +17022,33 @@
           "meta_name": "Webpage",
           "meta_url": "https://www2.nwhu.on.ca/covid-19/data/",
           "meta_url_name": "Northwestern (PHU) - COVID-19 Local Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Chatham-Kent (PHU) - COVID-19 data - epidemiological summary (webpage)",
+        "uuid": "fe08035c-2c03-4960-a642-bde1fe18c857",
+        "active": "False",
+        "url_fun_python": "from bs4 import BeautifulSoup; import requests; url_current = BeautifulSoup(requests.get('https://ckphu.com/current-situation-in-chatham-kent/', timeout=5).text, features='html.parser').find('iframe')['src']",
+        "url_fun_r": "library(rvest); html_attr(html_element(read_html('https://ckphu.com/current-situation-in-chatham-kent/'), 'iframe'), 'src')",
+        "dir_parent": "on",
+        "dir_file": "on-phu-chatham-kent-covid-data-epi-summary-webpage",
+        "file_name": "on-phu-chatham-kent-covid-data-epi-summary-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "20"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Epidemiological summary",
+          "meta_url": "https://ckphu.com/current-situation-in-chatham-kent/",
+          "meta_url_name": "Chatham-Kent (PHU) - Current Situation in Chatham-Kent and Surrounding Areas",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario",
