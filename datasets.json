@@ -1606,78 +1606,6 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - COVID-19 epidemiology update (Cases by exposure setting time series)",
-        "uuid": "558ccc64-799f-4329-95a4-f944dac21eb1",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesovertime.csv",
-        "dir_parent": "can",
-        "dir_file": "cases-by-exposure-time-series",
-        "file_name": "covid19-epiSummary-casesovertime",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases by exposure setting time series",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/",
-          "meta_url_name": "COVID-19 epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 epidemiology update (Epidemic curve by date of illness onset by age group)",
-        "uuid": "a2d8ad51-d0f8-4313-8542-d56e4638671b",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-epiCurveByAge.csv",
-        "dir_parent": "can",
-        "dir_file": "epidemic-curve-by-age",
-        "file_name": "covid19-epiSummary-epiCurveByAge",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Epidemic curve by date of illness onset by age group",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/",
-          "meta_url_name": "COVID-19 epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 epidemiology update (Severity by age group and sex)",
-        "uuid": "c66b12ae-3bcc-4c03-a4ad-a914f35aa842",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-severityUpdate.csv",
-        "dir_parent": "can",
-        "dir_file": "severity-by-age-and-sex",
-        "file_name": "covid19-epiSummary-severityUpdate",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Severity by age group and sex",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/",
-          "meta_url_name": "COVID-19 epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "CAN - COVID-19 epidemiology update (Severity by age group and sex) (2)",
         "uuid": "2ce45cf9-cc51-4cf8-a82c-ca76846baf27",
         "active": "True",
@@ -1693,30 +1621,6 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Severity by age group and sex (2)",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/",
-          "meta_url_name": "COVID-19 epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 epidemiology update (Cases by severity)",
-        "uuid": "768d81a5-ca7c-4546-8b0c-60428e8af0fb",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-severity.csv",
-        "dir_parent": "can",
-        "dir_file": "cases-by-severity",
-        "file_name": "covid19-epiSummary-severity",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases by severity",
           "meta_url": "https://health-infobase.canada.ca/covid-19/",
           "meta_url_name": "COVID-19 epidemiology update",
           "meta_licence": "",
@@ -1885,126 +1789,6 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Variant update date",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/",
-          "meta_url_name": "COVID-19 epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 epidemiology update (Cases following vaccination - cases, hospitalizations, deaths by vaccination status)",
-        "uuid": "123ad392-02cc-48ef-b328-cadf34e4d224",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesAfterVaccination.csv",
-        "dir_parent": "can",
-        "dir_file": "cases-following-vaccination-cases-hosp-deaths-by-vaccination-status",
-        "file_name": "covid19-epiSummary-casesAfterVaccination",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases following vaccination (cases, hospitalizations, deaths by vaccination)",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/",
-          "meta_url_name": "COVID-19 epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 epidemiology update (Cases following vaccination - cases by vaccination status and gender)",
-        "uuid": "40c82d2e-7bfb-47dd-83f4-84273ddb7872",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesAfterVaccinationGender.csv",
-        "dir_parent": "can",
-        "dir_file": "cases-following-vaccination-cases-by-vaccination-status-and-gender",
-        "file_name": "covid19-epiSummary-casesAfterVaccinationGender",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases following vaccination (cases by vaccination status and gender)",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/",
-          "meta_url_name": "COVID-19 epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 epidemiology update (Cases following vaccination - severe outcomes ratios)",
-        "uuid": "8b07772b-099b-4acd-ad86-6cf6be52b50e",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesAfterVaccinationSevereOutcome.csv",
-        "dir_parent": "can",
-        "dir_file": "cases-following-vaccination-severe-outcomes-ratios",
-        "file_name": "covid19-epiSummary-casesAfterVaccinationSevereOutcome",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases following vaccination (severe outcomes ratios)",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/",
-          "meta_url_name": "COVID-19 epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 epidemiology update (Cases following vaccination - page statements)",
-        "uuid": "fe7cde9c-41f3-4d2c-af98-c9d88b0763eb",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesAfterVaccinationPageStatements.csv",
-        "dir_parent": "can",
-        "dir_file": "cases-following-vaccination-page-statements",
-        "file_name": "covid19-epiSummary-casesAfterVaccinationPageStatements",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases following vaccination (page statements)",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/",
-          "meta_url_name": "COVID-19 epidemiology update",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 epidemiology update (Cases following vaccination - update date)",
-        "uuid": "312e8007-1bca-4b03-93d5-136c3f4263f3",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesAfterVaccinationUpdateDate.csv",
-        "dir_parent": "can",
-        "dir_file": "cases-following-vaccination-update-date",
-        "file_name": "covid19-epiSummary-casesAfterVaccinationUpdateDate",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases following vaccination (update date)",
           "meta_url": "https://health-infobase.canada.ca/covid-19/",
           "meta_url_name": "COVID-19 epidemiology update",
           "meta_licence": "",
@@ -2254,54 +2038,6 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - Vaccines administered: Vaccination administration by dose number",
-        "uuid": "73537af7-1596-4f07-9266-f0ca1bf191fc",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-administration-bydosenumber.csv",
-        "dir_parent": "can",
-        "dir_file": "vaccination-administration-by-dose-number",
-        "file_name": "vaccination-administration-bydosenumber",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Vaccination administration by dose number",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccine-administration/",
-          "meta_url_name": "COVID-19 vaccination in Canada - Vaccines administered",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - Vaccines administered: Vaccination administration by dose number (2)",
-        "uuid": "386b67f3-b23d-47c3-80b5-340d9f89f013",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-administration-bydosenumber2.csv",
-        "dir_parent": "can",
-        "dir_file": "vaccination-administration-by-dose-number-2",
-        "file_name": "vaccination-administration-bydosenumber2",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Vaccination administration by dose number (2)",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccine-administration/",
-          "meta_url_name": "COVID-19 vaccination in Canada - Vaccines administered",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "CAN - Vaccines administered: Vaccination administration (update date)",
         "uuid": "928819e8-000d-4428-b2b2-5710f69f8980",
         "active": "True",
@@ -2470,13 +2206,13 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - Vaccination coverage: Vaccination coverage by age and sex with denominators",
-        "uuid": "5c1544ad-6ea6-41dc-9e50-cf48c3ad6830",
+        "id_name": "CAN - Vaccination coverage: Vaccination coverage by age and sex (4)",
+        "uuid": "b912cfed-398b-4e19-9e71-f9e277d16cfa",
         "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-byAgeAndSexDenominators.csv",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-byAgeAndSexOTI.csv",
         "dir_parent": "can",
-        "dir_file": "vaccination-coverage-by-age-sex-denominators",
-        "file_name": "vaccination-coverage-byAgeAndSexDenominators",
+        "dir_file": "vaccination-coverage-by-age-sex-4",
+        "file_name": "vaccination-coverage-byAgeAndSexOTI",
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {
@@ -2484,7 +2220,7 @@
         },
         "supplementary": {},
         "metadata": {
-          "meta_name": "Vaccination coverage by age and sex with denominators",
+          "meta_name": "Vaccination coverage by age and sex (4)",
           "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
           "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
           "meta_licence": "",
@@ -2494,13 +2230,13 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - Vaccination coverage: Vaccination coverage by province and vaccine type",
-        "uuid": "5549f769-d4c8-4032-8434-7952fd2f349a",
+        "id_name": "CAN - Vaccination coverage: Last booster dose by vaccine",
+        "uuid": "b7c6c5f1-eeaa-46b4-b687-646d84c56321",
         "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-byVaccineType.csv",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-lastVaccineProduct-Slim.csv",
         "dir_parent": "can",
-        "dir_file": "vaccination-coverage-by-vaccine-type",
-        "file_name": "vaccination-coverage-byVaccineType",
+        "dir_file": "vaccination-coverage-last-booster-dose-by-vaccine",
+        "file_name": "vaccination-coverage-lastVaccineProduct-Slim",
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {
@@ -2508,31 +2244,7 @@
         },
         "supplementary": {},
         "metadata": {
-          "meta_name": "Vaccination coverage by province and vaccine type",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
-          "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - Vaccination coverage: Vaccination coverage by province and vaccine type (additional doses)",
-        "uuid": "7c77b927-3390-45e9-877a-3b2835886196",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-byVaccineTypeAdditional.csv",
-        "dir_parent": "can",
-        "dir_file": "vaccination-coverage-by-vaccine-type-additional-doses",
-        "file_name": "vaccination-coverage-byVaccineTypeAdditional",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Vaccination coverage by province and vaccine type (additional doses)",
+          "meta_name": "",
           "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
           "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
           "meta_licence": "",
@@ -2684,7 +2396,9 @@
           "meta_licence_url": "",
           "meta_group_1": "Canada"
         },
-        "notes": {}
+        "notes": {
+          "notes_data": "Describes the cumulative percent of people 5 years and older who have received booster doses of a COVID-19 vaccine among those who completed a primary series in by last vaccine product received."
+        }
       },
       {
         "id_name": "CAN - COVID-19 vaccination in Canada: Technical notes (webpage) (FR)",
@@ -11477,6 +11191,342 @@
           "meta_name": "Canadian Critical Care Society hospital and ICU counts",
           "meta_url": "https://canadiancriticalcare.org/COVID-19-Case-Counts",
           "meta_url_name": "COVID-19 Canada Case Counts (Hospital Vs. ICU)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Cases following vaccination - cases by vaccination status and gender)",
+        "uuid": "40c82d2e-7bfb-47dd-83f4-84273ddb7872",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesAfterVaccinationGender.csv",
+        "dir_parent": "can",
+        "dir_file": "cases-following-vaccination-cases-by-vaccination-status-and-gender",
+        "file_name": "covid19-epiSummary-casesAfterVaccinationGender",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases following vaccination (cases by vaccination status and gender)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Cases following vaccination - cases, hospitalizations, deaths by vaccination status)",
+        "uuid": "123ad392-02cc-48ef-b328-cadf34e4d224",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesAfterVaccination.csv",
+        "dir_parent": "can",
+        "dir_file": "cases-following-vaccination-cases-hosp-deaths-by-vaccination-status",
+        "file_name": "covid19-epiSummary-casesAfterVaccination",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases following vaccination (cases, hospitalizations, deaths by vaccination)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Cases following vaccination - page statements)",
+        "uuid": "fe7cde9c-41f3-4d2c-af98-c9d88b0763eb",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesAfterVaccinationPageStatements.csv",
+        "dir_parent": "can",
+        "dir_file": "cases-following-vaccination-page-statements",
+        "file_name": "covid19-epiSummary-casesAfterVaccinationPageStatements",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases following vaccination (page statements)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Cases following vaccination - severe outcomes ratios)",
+        "uuid": "8b07772b-099b-4acd-ad86-6cf6be52b50e",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesAfterVaccinationSevereOutcome.csv",
+        "dir_parent": "can",
+        "dir_file": "cases-following-vaccination-severe-outcomes-ratios",
+        "file_name": "covid19-epiSummary-casesAfterVaccinationSevereOutcome",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases following vaccination (severe outcomes ratios)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Cases following vaccination - update date)",
+        "uuid": "312e8007-1bca-4b03-93d5-136c3f4263f3",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesAfterVaccinationUpdateDate.csv",
+        "dir_parent": "can",
+        "dir_file": "cases-following-vaccination-update-date",
+        "file_name": "covid19-epiSummary-casesAfterVaccinationUpdateDate",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases following vaccination (update date)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Cases by exposure setting time series)",
+        "uuid": "558ccc64-799f-4329-95a4-f944dac21eb1",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-casesovertime.csv",
+        "dir_parent": "can",
+        "dir_file": "cases-by-exposure-time-series",
+        "file_name": "covid19-epiSummary-casesovertime",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases by exposure setting time series",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Epidemic curve by date of illness onset by age group)",
+        "uuid": "a2d8ad51-d0f8-4313-8542-d56e4638671b",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-epiCurveByAge.csv",
+        "dir_parent": "can",
+        "dir_file": "epidemic-curve-by-age",
+        "file_name": "covid19-epiSummary-epiCurveByAge",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Epidemic curve by date of illness onset by age group",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Severity by age group and sex)",
+        "uuid": "c66b12ae-3bcc-4c03-a4ad-a914f35aa842",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-severityUpdate.csv",
+        "dir_parent": "can",
+        "dir_file": "severity-by-age-and-sex",
+        "file_name": "covid19-epiSummary-severityUpdate",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Severity by age group and sex",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 epidemiology update (Cases by severity)",
+        "uuid": "768d81a5-ca7c-4546-8b0c-60428e8af0fb",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/covid19-epiSummary-severity.csv",
+        "dir_parent": "can",
+        "dir_file": "cases-by-severity",
+        "file_name": "covid19-epiSummary-severity",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases by severity",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/",
+          "meta_url_name": "COVID-19 epidemiology update",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Vaccines administered: Vaccination administration by dose number",
+        "uuid": "73537af7-1596-4f07-9266-f0ca1bf191fc",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-administration-bydosenumber.csv",
+        "dir_parent": "can",
+        "dir_file": "vaccination-administration-by-dose-number",
+        "file_name": "vaccination-administration-bydosenumber",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination administration by dose number",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccine-administration/",
+          "meta_url_name": "COVID-19 vaccination in Canada - Vaccines administered",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Vaccines administered: Vaccination administration by dose number (2)",
+        "uuid": "386b67f3-b23d-47c3-80b5-340d9f89f013",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-administration-bydosenumber2.csv",
+        "dir_parent": "can",
+        "dir_file": "vaccination-administration-by-dose-number-2",
+        "file_name": "vaccination-administration-bydosenumber2",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination administration by dose number (2)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccine-administration/",
+          "meta_url_name": "COVID-19 vaccination in Canada - Vaccines administered",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Vaccination coverage: Vaccination coverage by age and sex with denominators",
+        "uuid": "5c1544ad-6ea6-41dc-9e50-cf48c3ad6830",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-byAgeAndSexDenominators.csv",
+        "dir_parent": "can",
+        "dir_file": "vaccination-coverage-by-age-sex-denominators",
+        "file_name": "vaccination-coverage-byAgeAndSexDenominators",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination coverage by age and sex with denominators",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
+          "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Vaccination coverage: Vaccination coverage by province and vaccine type",
+        "uuid": "5549f769-d4c8-4032-8434-7952fd2f349a",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-byVaccineType.csv",
+        "dir_parent": "can",
+        "dir_file": "vaccination-coverage-by-vaccine-type",
+        "file_name": "vaccination-coverage-byVaccineType",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination coverage by province and vaccine type",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
+          "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Vaccination coverage: Vaccination coverage by province and vaccine type (additional doses)",
+        "uuid": "7c77b927-3390-45e9-877a-3b2835886196",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-byVaccineTypeAdditional.csv",
+        "dir_parent": "can",
+        "dir_file": "vaccination-coverage-by-vaccine-type-additional-doses",
+        "file_name": "vaccination-coverage-byVaccineTypeAdditional",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination coverage by province and vaccine type (additional doses)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
+          "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
