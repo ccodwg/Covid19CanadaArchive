@@ -76,10 +76,10 @@ def list_inactive_datasets():
       max = u["file_duplicate"].max()
     # if last value is larger than max and at least 7, add to log
     if last > max and last >= 7:
-      log.append([u["name"].iloc[-1], last, max])
+      log.append([u["name"].iloc[-1], u["uuid"].iloc[-1], last, max])
   
   ## save result and sort
-  log = pd.DataFrame(log, columns = ["name", "current_dup_run", "previous_max_dup_run"]).sort_values(by = ["current_dup_run", "name"], ascending = [False, True])
+  log = pd.DataFrame(log, columns = ["name", "uuid", "current_dup_run", "previous_max_dup_run"]).sort_values(by = ["current_dup_run", "name"], ascending = [False, True])
   log = log.to_string(index=False)
   
   ## print result
