@@ -3615,30 +3615,6 @@
         }
       },
       {
-        "id_name": "NL - Recent hospitalizations by vaccination status",
-        "uuid": "a6527875-601c-4b50-ac16-ea4c782ff3c0",
-        "active": "True",
-        "url": "https://services6.arcgis.com/Oayv0bA202oTQWoc/arcgis/rest/services/Hospitalizations_Vax/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "nl",
-        "dir_file": "recent-hospitalizations-by-vaccination-status",
-        "file_name": "Hospitalizations_Vax",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Recent hospitalizations by vaccination status",
-          "meta_url": "https://experience.arcgis.com/experience/280d17f9bd5d47e9870b6aba8222e5f4",
-          "meta_url_name": "Newfoundland and Labrador COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Newfoundland and Labrador"
-        },
-        "notes": {
-          "notes_data": "Includes hospitalizations since 2021-02-28."
-        }
-      },
-      {
         "id_name": "NL - Vaccination proportions",
         "uuid": "5c034df6-9bb6-444e-8233-afbf017c7bc0",
         "active": "True",
@@ -3661,19 +3637,19 @@
         "notes": {}
       },
       {
-        "id_name": "NL - Vaccination rates by age group",
-        "uuid": "42276014-355b-41fb-9f57-0dcab98b9ac3",
+        "id_name": "NL - Total deaths by age group",
+        "uuid": "3d946e94-9591-4745-a14d-900677f64187",
         "active": "True",
-        "url": "https://services6.arcgis.com/Oayv0bA202oTQWoc/arcgis/rest/services/VaxRates_Age/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "url": "https://services6.arcgis.com/Oayv0bA202oTQWoc/arcgis/rest/services/Deaths_AgeBreakDown/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
         "dir_parent": "nl",
-        "dir_file": "vaccination-rates-by-age-group",
-        "file_name": "VaxRates_Age",
+        "dir_file": "total-deaths-by-age-group",
+        "file_name": "Deaths_AgeBreakDown",
         "file_ext": "json",
         "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Vaccination rates by age group",
+          "meta_name": "Total deaths by age group",
           "meta_url": "https://experience.arcgis.com/experience/280d17f9bd5d47e9870b6aba8222e5f4",
           "meta_url_name": "Newfoundland and Labrador COVID-19 Dashboard",
           "meta_licence": "",
@@ -3681,6 +3657,52 @@
           "meta_group_1": "Newfoundland and Labrador"
         },
         "notes": {}
+      },
+      {
+        "id_name": "NL - Deaths by epidemiological week over the past year",
+        "uuid": "081099d5-cb0f-445d-ba00-78f63cc49800",
+        "active": "True",
+        "url": "https://services6.arcgis.com/Oayv0bA202oTQWoc/arcgis/rest/services/Deaths_EpiWeek_ForDashboard_July26/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nl",
+        "dir_file": "deaths-by-epi-week-past-year",
+        "file_name": "Deaths_EpiWeek_ForDashboard_July26",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Deaths by epidemiological week over the past year",
+          "meta_url": "https://experience.arcgis.com/experience/280d17f9bd5d47e9870b6aba8222e5f4",
+          "meta_url_name": "Newfoundland and Labrador COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Newfoundland and Labrador"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NL - Vaccination coverage by age group",
+        "uuid": "7ca78e59-95d3-4143-a4b6-8f8e7e47f8db",
+        "active": "True",
+        "url": "https://services6.arcgis.com/Oayv0bA202oTQWoc/arcgis/rest/services/VaxRates_Age_MockDashboard/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nl",
+        "dir_file": "vaccination-coverage-by-age-group",
+        "file_name": "VaxRates_Age_MockDashboard",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination-coverage-by-age-group",
+          "meta_url": "https://experience.arcgis.com/experience/280d17f9bd5d47e9870b6aba8222e5f4",
+          "meta_url_name": "Newfoundland and Labrador COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Newfoundland and Labrador"
+        },
+        "notes": {
+          "notes_data": "Vaccination coverage is defined as those who have completed a primary series of Health Canada approved COVID-19 vaccines (2 doses) and/or at least one booster on or after September 21st 2022."
+        }
       },
       {
         "id_name": "NL - Percent fully vaccinated by Primary Health Care Area (PHC)",
@@ -14117,6 +14139,52 @@
         "notes": {
           "notes_data": "Includes deaths since 2021-02-28."
         }
+      },
+      {
+        "id_name": "NL - Recent hospitalizations by vaccination status",
+        "uuid": "a6527875-601c-4b50-ac16-ea4c782ff3c0",
+        "active": "False",
+        "url": "https://services6.arcgis.com/Oayv0bA202oTQWoc/arcgis/rest/services/Hospitalizations_Vax/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nl",
+        "dir_file": "recent-hospitalizations-by-vaccination-status",
+        "file_name": "Hospitalizations_Vax",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Recent hospitalizations by vaccination status",
+          "meta_url": "https://experience.arcgis.com/experience/280d17f9bd5d47e9870b6aba8222e5f4",
+          "meta_url_name": "Newfoundland and Labrador COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Newfoundland and Labrador"
+        },
+        "notes": {
+          "notes_data": "Includes hospitalizations since 2021-02-28."
+        }
+      },
+      {
+        "id_name": "NL - Vaccination rates by age group",
+        "uuid": "42276014-355b-41fb-9f57-0dcab98b9ac3",
+        "active": "False",
+        "url": "https://services6.arcgis.com/Oayv0bA202oTQWoc/arcgis/rest/services/VaxRates_Age/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nl",
+        "dir_file": "vaccination-rates-by-age-group",
+        "file_name": "VaxRates_Age",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination rates by age group",
+          "meta_url": "https://experience.arcgis.com/experience/280d17f9bd5d47e9870b6aba8222e5f4",
+          "meta_url_name": "Newfoundland and Labrador COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Newfoundland and Labrador"
+        },
+        "notes": {}
       }
     ],
     "nt": [
