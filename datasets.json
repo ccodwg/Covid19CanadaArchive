@@ -3899,50 +3899,6 @@
         "notes": {}
       },
       {
-        "id_name": "ON - Status of COVID-19 cases in Ontario",
-        "uuid": "a8b1be1a-561a-47f5-9456-c553ea5b2279",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/ed270bb8-340b-41f9-a7c6-e8ef587e6d11/download/covidtesting.csv",
-        "dir_parent": "on",
-        "dir_file": "status-of-cases",
-        "file_name": "covidtesting",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Status of COVID-19 cases in Ontario",
-          "meta_url": "https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario",
-          "meta_url_name": "Status of COVID-19 cases in Ontario",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Daily change in cases by PHU",
-        "uuid": "aa73b27a-6bbd-41b3-bb47-2ee004b3adf5",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/8a88fe6d-d8fb-41a3-9d04-f0550a44999f/download/daily_change_in_cases_by_phu.csv",
-        "dir_parent": "on",
-        "dir_file": "daily-changes-in-cases-by-phu",
-        "file_name": "daily_change_in_cases_by_phu",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Daily change in cases by PHU",
-          "meta_url": "https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario",
-          "meta_url_name": "Status of COVID-19 cases in Ontario",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "ON - Cumulative deaths (new methodology)",
         "uuid": "75dd0545-f728-4af5-8185-4269596785ef",
         "active": "True",
@@ -4105,28 +4061,6 @@
         "notes": {}
       },
       {
-        "id_name": "ON - Summary of cases associated with outbreaks",
-        "uuid": "a0002ffe-0b39-4af2-956e-90e97914f39c",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/5472ffc1-88e2-48ca-bc9f-4aa249c1298d/resource/d5d8f478-765c-4246-b8a7-c3b13a4a1a41/download/outbreak_cases.csv",
-        "dir_parent": "on",
-        "dir_file": "summary-outbreak-cases",
-        "file_name": "outbreak_cases",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Summary of cases associated with outbreaks",
-          "meta_url": "https://data.ontario.ca/dataset/ontario-covid-19-outbreaks-data",
-          "meta_url_name": "Ontario COVID-19 outbreaks data",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "ON - Status of cases in provincial correctional institutions",
         "uuid": "a22a3149-ebf8-4b6b-9236-d10abaa4e124",
         "active": "True",
@@ -4142,94 +4076,6 @@
           "meta_name": "Dataset",
           "meta_url": "https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario-s-correctional-institutions",
           "meta_url_name": "Status of COVID-19 cases in Ontario’s Provincial Correctional Institutions",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Long term care homes: Summary data",
-        "uuid": "16c19059-2174-42d5-964c-8ecdb771c746",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/resource/0f8b343e-fc28-4ca5-9aab-c3a1d2c919f1/download/ltccovidsummary.csv",
-        "dir_parent": "on",
-        "dir_file": "long-term-care-home-summary",
-        "file_name": "ltccovidsummary",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Summary data",
-          "meta_url": "https://data.ontario.ca/dataset/long-term-care-home-covid-19-data",
-          "meta_url_name": "Long-Term Care Home COVID-19 Data",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Long term care homes: Active outbreaks",
-        "uuid": "f202c761-6828-4365-8bc1-c26ef1a07d21",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/resource/4b64488a-0523-4ebb-811a-fac2f07e6d59/download/activeltcoutbreak.csv",
-        "dir_parent": "on",
-        "dir_file": "long-term-care-home-active",
-        "file_name": "activeltcoutbreak",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Active outbreaks",
-          "meta_url": "https://data.ontario.ca/dataset/long-term-care-home-covid-19-data",
-          "meta_url_name": "Long-Term Care Home COVID-19 Data",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Long term care homes: Resolved outbreaks",
-        "uuid": "ffe727f6-141e-4ccb-8e27-cd5de25c0659",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/resource/0cf2f01e-d4e1-48ed-8027-2133d059ec8b/download/resolvedltc.csv",
-        "dir_parent": "on",
-        "dir_file": "long-term-care-home-resolved",
-        "file_name": "resolvedltc",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Resolved outbreaks",
-          "meta_url": "https://data.ontario.ca/dataset/long-term-care-home-covid-19-data",
-          "meta_url_name": "Long-Term Care Home COVID-19 Data",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Long term care homes: Summary by PHU",
-        "uuid": "6b671f64-19ba-416c-aaaf-97fa657d8c92",
-        "active": "True",
-        "url": "https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/resource/31ad93fc-9afd-46b7-a9e7-0508a24ee330/download/ltccovidsummarybyphu.csv",
-        "dir_parent": "on",
-        "dir_file": "long-term-care-home-summary-by-phu",
-        "file_name": "ltccovidsummarybyphu",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Summary by PHU",
-          "meta_url": "https://data.ontario.ca/dataset/long-term-care-home-covid-19-data",
-          "meta_url_name": "Long-Term Care Home COVID-19 Data",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario"
@@ -6830,210 +6676,6 @@
         "notes": {}
       },
       {
-        "id_name": "QC - Situation in Quebec",
-        "uuid": "cad4b36c-e985-4347-8cda-c7f40907c76c",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/situation-au-quebec.csv",
-        "dir_parent": "qc",
-        "dir_file": "situation-in-quebec",
-        "file_name": "situation-au-quebec",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True",
-          "user": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Situation in Quebec",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
-          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Cases percentage by age group (FR)",
-        "uuid": "b9d563b5-2cc4-45f8-ad7c-a43ba2ca967e",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-cas-age.csv",
-        "dir_parent": "qc",
-        "dir_file": "cases-percentage-by-age-group",
-        "file_name": "pourcentage-cas-age",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True",
-          "user": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases percentage by age group (FR)",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
-          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Deaths percentage by age group (FR)",
-        "uuid": "49034419-d255-4bfe-96c4-9aba22042b8c",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-deces-age.csv",
-        "dir_parent": "qc",
-        "dir_file": "deaths-percentage-by-age-group",
-        "file_name": "pourcentage-deces-age",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True",
-          "user": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Deaths percentage by age group (FR)",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
-          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Cumulative deaths by region (FR)",
-        "uuid": "50d7d98b-d7d1-4e0c-a47d-5983565d17c7",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/deces-region.csv",
-        "dir_parent": "qc",
-        "dir_file": "cumulative-deaths-by-region",
-        "file_name": "deces-region",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True",
-          "user": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cumulative deaths by region (FR)",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
-          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Deaths time series by living environment",
-        "uuid": "d7f9cb92-a83a-4cd3-b955-762410b2cf5c",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/decesquotidien.csv",
-        "dir_parent": "qc",
-        "dir_file": "deaths-time-series-by-living-environment",
-        "file_name": "decesquotidien",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True",
-          "user": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Deaths time series by living environment",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
-          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Status report on confirmed cases and deaths by RPA",
-        "uuid": "e1e3a560-814d-4e42-8898-c9bee115e07c",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_rpa.pdf",
-        "dir_parent": "qc",
-        "dir_file": "status-report-cases-and-deaths-by-rpa",
-        "file_name": "etat_situation_rpa",
-        "file_ext": "pdf",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True",
-          "user": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Status report on confirmed cases and deaths by RPA",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
-          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {
-          "notes_data": "Note that when there are no cases in this living environment, a report is not produced (and thus the file is absent)."
-        }
-      },
-      {
-        "id_name": "QC - Status report on confirmed cases and deaths by CHSLD",
-        "uuid": "39ae832e-77b7-494d-9105-0da482050e65",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_chsld.pdf",
-        "dir_parent": "qc",
-        "dir_file": "status-report-cases-and-deaths-by-chsld",
-        "file_name": "etat_situation_chsld",
-        "file_ext": "pdf",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True",
-          "user": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Status report on confirmed cases and deaths by CHSLD",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
-          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {
-          "notes_data": "Note that when there are no cases in this living environment, a report is not produced (and thus the file is absent)."
-        }
-      },
-      {
-        "id_name": "QC - Active hospitalizations per hospital",
-        "uuid": "84208252-52b7-4fb7-a232-83fbf8bae08d",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/tableau-hospitalisations.pdf",
-        "dir_parent": "qc",
-        "dir_file": "active-hospitalizations-per-hosp",
-        "file_name": "tableau-hospitalisations",
-        "file_ext": "pdf",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True",
-          "user": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Active hospitalizations per hospital",
-          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
-          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "QC - Données COVID-19 au Québec (INSPQ webpage)",
         "uuid": "09e6e683-7f58-48dd-8a5b-b33203124d66",
         "active": "True",
@@ -7243,56 +6885,6 @@
         "notes": {}
       },
       {
-        "id_name": "QC - Vaccination situation (FR)",
-        "uuid": "6c66d91e-fc86-477f-8bbb-c338a1c59774",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/situation-vaccination.csv",
-        "dir_parent": "qc",
-        "dir_file": "vaccination-situation",
-        "file_name": "situation-vaccination",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True",
-          "user": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Vaccination situation (FR)",
-          "meta_url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/covid-19-vaccination-data/",
-          "meta_url_name": "COVID-19 vaccination data",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Vaccine doses received (FR)",
-        "uuid": "aee3bd38-b782-4880-9033-db76f84cef5b",
-        "active": "True",
-        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/doses-vaccins-7jours.csv",
-        "dir_parent": "qc",
-        "dir_file": "vaccine-doses-received-7-days",
-        "file_name": "doses-vaccins-7jours",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True",
-          "user": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Vaccine doses received (FR)",
-          "meta_url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/covid-19-vaccination-data/",
-          "meta_url_name": "COVID-19 vaccination data",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "QC - Variants under enhanced surveillance - Weekly time series of variant proportions from random sequencing",
         "uuid": "1dbd4456-6c61-42c1-bfd5-5422dfcb46e3",
         "active": "True",
@@ -7342,13 +6934,13 @@
         "notes": {}
       },
       {
-        "id_name": "QC - Éclosions de COVID-19 au Québec",
-        "uuid": "32e70a1b-2d0a-47cc-b10c-57056a6b1244",
+        "id_name": "QC - Éclosions de COVID-19 au Québec (Weekly)",
+        "uuid": "1f9d3a55-ed03-41fe-8aa4-2ce79e4eae76",
         "active": "True",
-        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/eclosions.csv",
+        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/eclosions_web_SISPIN.csv",
         "dir_parent": "qc",
-        "dir_file": "active-outbreaks-time-series-by-setting",
-        "file_name": "eclosions",
+        "dir_file": "active-outbreaks-time-series-by-setting-weekly",
+        "file_name": "eclosions_web_SISPIN",
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {
@@ -7356,14 +6948,16 @@
         },
         "supplementary": {},
         "metadata": {
-          "meta_name": "Dataset",
+          "meta_name": "Dataset (weekly)",
           "meta_url": "https://www.inspq.qc.ca/covid-19/donnees/eclosions",
           "meta_url_name": "Éclosions de COVID-19 au Québec",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Quebec"
         },
-        "notes": {}
+        "notes": {
+          "notes_data": "Weekly data beginning 2022-05-29."
+        }
       },
       {
         "id_name": "QC - COVID-19 time series by region and demographics",
@@ -7440,54 +7034,6 @@
         "notes": {}
       },
       {
-        "id_name": "QC - Summary by region",
-        "uuid": "823f0f23-682c-492d-9bef-a85aaaacc2c4",
-        "active": "True",
-        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/regions.csv",
-        "dir_parent": "qc",
-        "dir_file": "summary-by-region",
-        "file_name": "regions",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Summary by region",
-          "meta_url": "https://www.inspq.qc.ca/covid-19/donnees",
-          "meta_url_name": "Données COVID-19 au Québec (INSPQ)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Deaths by RSS (health region) and living environment",
-        "uuid": "d6a2ab1c-cbaf-4efd-8b79-10ddb41f4a07",
-        "active": "True",
-        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/tableau-rpa-new.csv",
-        "dir_parent": "qc",
-        "dir_file": "deaths-by-rss-and-living-environment",
-        "file_name": "tableau-rpa-new",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Deaths by RSS (health region) and living environment",
-          "meta_url": "https://www.inspq.qc.ca/covid-19/donnees",
-          "meta_url_name": "Données COVID-19 au Québec (INSPQ)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "QC - Cases by RSS (health region) and RLS (local service network)",
         "uuid": "d2ce9223-6771-4bf8-8666-bff848d89df9",
         "active": "True",
@@ -7503,30 +7049,6 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Cases by RSS (health region) and RLS (local service network)",
-          "meta_url": "https://www.inspq.qc.ca/covid-19/donnees",
-          "meta_url_name": "Données COVID-19 au Québec (INSPQ)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Comparisons (provinces)",
-        "uuid": "0a3f65d5-4c26-448a-bd3c-3efeb7a35610",
-        "active": "True",
-        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/comparaisons_prov.csv",
-        "dir_parent": "qc",
-        "dir_file": "comparisons-provinces",
-        "file_name": "comparaisons_prov",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "rand_url": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Comparisons (provinces)",
           "meta_url": "https://www.inspq.qc.ca/covid-19/donnees",
           "meta_url_name": "Données COVID-19 au Québec (INSPQ)",
           "meta_licence": "",
@@ -17127,6 +16649,160 @@
           "meta_group_2": "Public Health Units"
         },
         "notes": {}
+      },
+      {
+        "id_name": "ON - Daily change in cases by PHU",
+        "uuid": "aa73b27a-6bbd-41b3-bb47-2ee004b3adf5",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/8a88fe6d-d8fb-41a3-9d04-f0550a44999f/download/daily_change_in_cases_by_phu.csv",
+        "dir_parent": "on",
+        "dir_file": "daily-changes-in-cases-by-phu",
+        "file_name": "daily_change_in_cases_by_phu",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Daily change in cases by PHU",
+          "meta_url": "https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario",
+          "meta_url_name": "Status of COVID-19 cases in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Long term care homes: Active outbreaks",
+        "uuid": "f202c761-6828-4365-8bc1-c26ef1a07d21",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/resource/4b64488a-0523-4ebb-811a-fac2f07e6d59/download/activeltcoutbreak.csv",
+        "dir_parent": "on",
+        "dir_file": "long-term-care-home-active",
+        "file_name": "activeltcoutbreak",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Active outbreaks",
+          "meta_url": "https://data.ontario.ca/dataset/long-term-care-home-covid-19-data",
+          "meta_url_name": "Long-Term Care Home COVID-19 Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Long term care homes: Resolved outbreaks",
+        "uuid": "ffe727f6-141e-4ccb-8e27-cd5de25c0659",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/resource/0cf2f01e-d4e1-48ed-8027-2133d059ec8b/download/resolvedltc.csv",
+        "dir_parent": "on",
+        "dir_file": "long-term-care-home-resolved",
+        "file_name": "resolvedltc",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Resolved outbreaks",
+          "meta_url": "https://data.ontario.ca/dataset/long-term-care-home-covid-19-data",
+          "meta_url_name": "Long-Term Care Home COVID-19 Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Long term care homes: Summary data",
+        "uuid": "16c19059-2174-42d5-964c-8ecdb771c746",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/resource/0f8b343e-fc28-4ca5-9aab-c3a1d2c919f1/download/ltccovidsummary.csv",
+        "dir_parent": "on",
+        "dir_file": "long-term-care-home-summary",
+        "file_name": "ltccovidsummary",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Summary data",
+          "meta_url": "https://data.ontario.ca/dataset/long-term-care-home-covid-19-data",
+          "meta_url_name": "Long-Term Care Home COVID-19 Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Long term care homes: Summary by PHU",
+        "uuid": "6b671f64-19ba-416c-aaaf-97fa657d8c92",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/42df36df-04a0-43a9-8ad4-fac5e0e22244/resource/31ad93fc-9afd-46b7-a9e7-0508a24ee330/download/ltccovidsummarybyphu.csv",
+        "dir_parent": "on",
+        "dir_file": "long-term-care-home-summary-by-phu",
+        "file_name": "ltccovidsummarybyphu",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Summary by PHU",
+          "meta_url": "https://data.ontario.ca/dataset/long-term-care-home-covid-19-data",
+          "meta_url_name": "Long-Term Care Home COVID-19 Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Status of COVID-19 cases in Ontario",
+        "uuid": "a8b1be1a-561a-47f5-9456-c553ea5b2279",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/ed270bb8-340b-41f9-a7c6-e8ef587e6d11/download/covidtesting.csv",
+        "dir_parent": "on",
+        "dir_file": "status-of-cases",
+        "file_name": "covidtesting",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Status of COVID-19 cases in Ontario",
+          "meta_url": "https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario",
+          "meta_url_name": "Status of COVID-19 cases in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Summary of cases associated with outbreaks",
+        "uuid": "a0002ffe-0b39-4af2-956e-90e97914f39c",
+        "active": "False",
+        "url": "https://data.ontario.ca/dataset/5472ffc1-88e2-48ca-bc9f-4aa249c1298d/resource/d5d8f478-765c-4246-b8a7-c3b13a4a1a41/download/outbreak_cases.csv",
+        "dir_parent": "on",
+        "dir_file": "summary-outbreak-cases",
+        "file_name": "outbreak_cases",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Summary of cases associated with outbreaks",
+          "meta_url": "https://data.ontario.ca/dataset/ontario-covid-19-outbreaks-data",
+          "meta_url_name": "Ontario COVID-19 outbreaks data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
       }
     ],
     "pe": [
@@ -18967,6 +18643,358 @@
           "meta_licence_url": "",
           "meta_group_1": "Quebec",
           "meta_group_2": "Montreal"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Éclosions de COVID-19 au Québec (daily)",
+        "uuid": "32e70a1b-2d0a-47cc-b10c-57056a6b1244",
+        "active": "False",
+        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/eclosions.csv",
+        "dir_parent": "qc",
+        "dir_file": "active-outbreaks-time-series-by-setting",
+        "file_name": "eclosions",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset (daily)",
+          "meta_url": "https://www.inspq.qc.ca/covid-19/donnees/eclosions",
+          "meta_url_name": "Éclosions de COVID-19 au Québec",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {
+          "notes_data": "Final update date for daily data was 2023-01-18."
+        }
+      },
+      {
+        "id_name": "QC - Deaths percentage by age group (FR)",
+        "uuid": "49034419-d255-4bfe-96c4-9aba22042b8c",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-deces-age.csv",
+        "dir_parent": "qc",
+        "dir_file": "deaths-percentage-by-age-group",
+        "file_name": "pourcentage-deces-age",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True",
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Deaths percentage by age group (FR)",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Cases percentage by age group (FR)",
+        "uuid": "b9d563b5-2cc4-45f8-ad7c-a43ba2ca967e",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/pourcentage-cas-age.csv",
+        "dir_parent": "qc",
+        "dir_file": "cases-percentage-by-age-group",
+        "file_name": "pourcentage-cas-age",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True",
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases percentage by age group (FR)",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Active hospitalizations per hospital",
+        "uuid": "84208252-52b7-4fb7-a232-83fbf8bae08d",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/tableau-hospitalisations.pdf",
+        "dir_parent": "qc",
+        "dir_file": "active-hospitalizations-per-hosp",
+        "file_name": "tableau-hospitalisations",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True",
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Active hospitalizations per hospital",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Cumulative deaths by region (FR)",
+        "uuid": "50d7d98b-d7d1-4e0c-a47d-5983565d17c7",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/deces-region.csv",
+        "dir_parent": "qc",
+        "dir_file": "cumulative-deaths-by-region",
+        "file_name": "deces-region",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True",
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cumulative deaths by region (FR)",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Deaths time series by living environment",
+        "uuid": "d7f9cb92-a83a-4cd3-b955-762410b2cf5c",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/decesquotidien.csv",
+        "dir_parent": "qc",
+        "dir_file": "deaths-time-series-by-living-environment",
+        "file_name": "decesquotidien",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True",
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Deaths time series by living environment",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Status report on confirmed cases and deaths by CHSLD",
+        "uuid": "39ae832e-77b7-494d-9105-0da482050e65",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_chsld.pdf",
+        "dir_parent": "qc",
+        "dir_file": "status-report-cases-and-deaths-by-chsld",
+        "file_name": "etat_situation_chsld",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True",
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Status report on confirmed cases and deaths by CHSLD",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {
+          "notes_data": "Note that when there are no cases in this living environment, a report is not produced (and thus the file is absent)."
+        }
+      },
+      {
+        "id_name": "QC - Status report on confirmed cases and deaths by RPA",
+        "uuid": "e1e3a560-814d-4e42-8898-c9bee115e07c",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/etat_situation_rpa.pdf",
+        "dir_parent": "qc",
+        "dir_file": "status-report-cases-and-deaths-by-rpa",
+        "file_name": "etat_situation_rpa",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True",
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Status report on confirmed cases and deaths by RPA",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {
+          "notes_data": "Note that when there are no cases in this living environment, a report is not produced (and thus the file is absent)."
+        }
+      },
+      {
+        "id_name": "QC - Vaccination situation (FR)",
+        "uuid": "6c66d91e-fc86-477f-8bbb-c338a1c59774",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/situation-vaccination.csv",
+        "dir_parent": "qc",
+        "dir_file": "vaccination-situation",
+        "file_name": "situation-vaccination",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True",
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination situation (FR)",
+          "meta_url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/covid-19-vaccination-data/",
+          "meta_url_name": "COVID-19 vaccination data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Vaccine doses received (FR)",
+        "uuid": "aee3bd38-b782-4880-9033-db76f84cef5b",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/doses-vaccins-7jours.csv",
+        "dir_parent": "qc",
+        "dir_file": "vaccine-doses-received-7-days",
+        "file_name": "doses-vaccins-7jours",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True",
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine doses received (FR)",
+          "meta_url": "https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/situation-coronavirus-in-quebec/covid-19-vaccination-data/",
+          "meta_url_name": "COVID-19 vaccination data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Deaths by RSS (health region) and living environment",
+        "uuid": "d6a2ab1c-cbaf-4efd-8b79-10ddb41f4a07",
+        "active": "False",
+        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/tableau-rpa-new.csv",
+        "dir_parent": "qc",
+        "dir_file": "deaths-by-rss-and-living-environment",
+        "file_name": "tableau-rpa-new",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Deaths by RSS (health region) and living environment",
+          "meta_url": "https://www.inspq.qc.ca/covid-19/donnees",
+          "meta_url_name": "Données COVID-19 au Québec (INSPQ)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Situation in Quebec",
+        "uuid": "cad4b36c-e985-4347-8cda-c7f40907c76c",
+        "active": "False",
+        "url": "https://cdn-contenu.quebec.ca/cdn-contenu/sante/documents/Problemes_de_sante/covid-19/csv/situation-au-quebec.csv",
+        "dir_parent": "qc",
+        "dir_file": "situation-in-quebec",
+        "file_name": "situation-au-quebec",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True",
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Situation in Quebec",
+          "meta_url": "https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/situation-coronavirus-quebec/",
+          "meta_url_name": "Données sur la COVID-19 au Québec (province)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Comparisons (provinces)",
+        "uuid": "0a3f65d5-4c26-448a-bd3c-3efeb7a35610",
+        "active": "False",
+        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/comparaisons_prov.csv",
+        "dir_parent": "qc",
+        "dir_file": "comparisons-provinces",
+        "file_name": "comparaisons_prov",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Comparisons (provinces)",
+          "meta_url": "https://www.inspq.qc.ca/covid-19/donnees",
+          "meta_url_name": "Données COVID-19 au Québec (INSPQ)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Summary by region",
+        "uuid": "823f0f23-682c-492d-9bef-a85aaaacc2c4",
+        "active": "False",
+        "url": "https://www.inspq.qc.ca/sites/default/files/covid/donnees/regions.csv",
+        "dir_parent": "qc",
+        "dir_file": "summary-by-region",
+        "file_name": "regions",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "rand_url": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Summary by region",
+          "meta_url": "https://www.inspq.qc.ca/covid-19/donnees",
+          "meta_url_name": "Données COVID-19 au Québec (INSPQ)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
         },
         "notes": {}
       }
