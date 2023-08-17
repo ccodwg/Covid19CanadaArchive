@@ -2350,30 +2350,6 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - Vaccination coverage: Vaccination campaign",
-        "uuid": "3f5de0c5-1c6c-45fa-9e7a-73abc1bc74af",
-        "active": "True",
-        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-campaign.csv",
-        "dir_parent": "can",
-        "dir_file": "vaccination-coverage-campaign",
-        "file_name": "vaccination-coverage-campaign",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Vaccination campaign",
-          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
-          "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "CAN - COVID-19 vaccination in Canada: Technical notes (webpage)",
         "uuid": "842d7d04-5a25-415d-9595-c292dfe8504a",
         "active": "True",
@@ -2871,28 +2847,6 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
-          "meta_url": "https://www.covid19immunitytaskforce.ca/seroprevalence-in-canada/",
-          "meta_url_name": "COVID-19 Immunity Task Force - Seroprevalence in Canada",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "CAN - COVID-19 Immunity Task Force - Seroprevalence in Canada - Dataset",
-        "uuid": "d6c26190-f273-4917-993a-20d5f3bb20d6",
-        "active": "True",
-        "url": "https://www.covid19immunitytaskforce.ca/wp-content/uploads/2021/10/citf-seroprevalence-in-canada-data.xlsx",
-        "dir_parent": "can",
-        "dir_file": "citf-seroprevalence-in-canada-dataset",
-        "file_name": "citf-seroprevalence-in-canada-dataset",
-        "file_ext": "xlsx",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dataset",
           "meta_url": "https://www.covid19immunitytaskforce.ca/seroprevalence-in-canada/",
           "meta_url_name": "COVID-19 Immunity Task Force - Seroprevalence in Canada",
           "meta_licence": "",
@@ -7716,52 +7670,6 @@
           "meta_group_1": "Quebec"
         },
         "notes": {}
-      },
-      {
-        "id_name": "QC - Montréal situation in emergency rooms - daily update (webpage)",
-        "uuid": "3ed8e857-f5d5-4315-b083-b316e3bb18fd",
-        "active": "True",
-        "url": "https://santemontreal.qc.ca/en/professionnels/donnees-urgences-et-chirurgies/releve-quotidien-de-la-situation-des-salles-durgence/",
-        "dir_parent": "qc",
-        "dir_file": "montreal-situation-in-emergency-rooms-daily-update-webpage",
-        "file_name": "releve-quotidien-de-la-situation-des-salles-durgence",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://santemontreal.qc.ca/en/professionnels/donnees-urgences-et-chirurgies/releve-quotidien-de-la-situation-des-salles-durgence/",
-          "meta_url_name": "Situation des salles d'urgence - Relevé quotidien",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec",
-          "meta_group_2": "Montreal"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "QC - Montréal situation in emergency rooms - daily update (report)",
-        "uuid": "80c53b1a-1e74-4871-9d9c-920f40e663e9",
-        "active": "True",
-        "url": "https://santemontreal.qc.ca/fileadmin/fichiers_portail/Donnees_urgence/urgence_quotidien_media.pdf",
-        "dir_parent": "qc",
-        "dir_file": "montreal-situation-in-emergency-rooms-daily-update-report",
-        "file_name": "urgence_quotidien_media",
-        "file_ext": "pdf",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Report",
-          "meta_url": "https://santemontreal.qc.ca/en/professionnels/donnees-urgences-et-chirurgies/releve-quotidien-de-la-situation-des-salles-durgence/",
-          "meta_url_name": "Situation des salles d'urgence - Relevé quotidien",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Quebec",
-          "meta_group_2": "Montreal"
-        },
-        "notes": {}
       }
     ],
     "sk": [
@@ -11549,6 +11457,52 @@
           "meta_name": "Vaccination coverage by province and vaccine type (additional doses)",
           "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
           "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Vaccination coverage: Vaccination campaign",
+        "uuid": "3f5de0c5-1c6c-45fa-9e7a-73abc1bc74af",
+        "active": "False",
+        "url": "https://health-infobase.canada.ca/src/data/covidLive/vaccination-coverage-campaign.csv",
+        "dir_parent": "can",
+        "dir_file": "vaccination-coverage-campaign",
+        "file_name": "vaccination-coverage-campaign",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "verify": "False"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination campaign",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
+          "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - COVID-19 Immunity Task Force - Seroprevalence in Canada - Dataset",
+        "uuid": "d6c26190-f273-4917-993a-20d5f3bb20d6",
+        "active": "False",
+        "url": "https://www.covid19immunitytaskforce.ca/wp-content/uploads/2021/10/citf-seroprevalence-in-canada-data.xlsx",
+        "dir_parent": "can",
+        "dir_file": "citf-seroprevalence-in-canada-dataset",
+        "file_name": "citf-seroprevalence-in-canada-dataset",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://www.covid19immunitytaskforce.ca/seroprevalence-in-canada/",
+          "meta_url_name": "COVID-19 Immunity Task Force - Seroprevalence in Canada",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -18967,6 +18921,52 @@
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Montréal situation in emergency rooms - daily update (report)",
+        "uuid": "80c53b1a-1e74-4871-9d9c-920f40e663e9",
+        "active": "False",
+        "url": "https://santemontreal.qc.ca/fileadmin/fichiers_portail/Donnees_urgence/urgence_quotidien_media.pdf",
+        "dir_parent": "qc",
+        "dir_file": "montreal-situation-in-emergency-rooms-daily-update-report",
+        "file_name": "urgence_quotidien_media",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Report",
+          "meta_url": "https://santemontreal.qc.ca/en/professionnels/donnees-urgences-et-chirurgies/releve-quotidien-de-la-situation-des-salles-durgence/",
+          "meta_url_name": "Situation des salles d'urgence - Relevé quotidien",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec",
+          "meta_group_2": "Montreal"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "QC - Montréal situation in emergency rooms - daily update (webpage)",
+        "uuid": "3ed8e857-f5d5-4315-b083-b316e3bb18fd",
+        "active": "False",
+        "url": "https://santemontreal.qc.ca/en/professionnels/donnees-urgences-et-chirurgies/releve-quotidien-de-la-situation-des-salles-durgence/",
+        "dir_parent": "qc",
+        "dir_file": "montreal-situation-in-emergency-rooms-daily-update-webpage",
+        "file_name": "releve-quotidien-de-la-situation-des-salles-durgence",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://santemontreal.qc.ca/en/professionnels/donnees-urgences-et-chirurgies/releve-quotidien-de-la-situation-des-salles-durgence/",
+          "meta_url_name": "Situation des salles d'urgence - Relevé quotidien",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec",
+          "meta_group_2": "Montreal"
         },
         "notes": {}
       }
