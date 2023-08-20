@@ -563,85 +563,6 @@
         "notes": {}
       },
       {
-        "id_name": "BC - Public exposures: school exposures (Fraser webpage)",
-        "uuid": "c29f61da-17f0-4b4b-9e91-0de8cd33c45b",
-        "active": "True",
-        "url": "https://www.fraserhealth.ca/schoolexposures",
-        "dir_parent": "bc",
-        "dir_file": "school-exposures-fraser-webpage",
-        "file_name": "school-exposures-fraser-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "School exposures Fraser webpage",
-          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
-          "meta_url_name": "COVID-19 Public Exposures",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "British Columbia"
-        },
-        "notes": {
-          "notes_data": "Warning: some early files are .png screenshots and named differently."
-        }
-      },
-      {
-        "id_name": "BC - Public exposures: school exposures (Interior webpage)",
-        "uuid": "6a2d286d-3b6a-4a4f-a7f7-068f438b5281",
-        "active": "True",
-        "url": "https://www.interiorhealth.ca/health-and-wellness/disease-outbreaks/covid-19/school-exposures",
-        "dir_parent": "bc",
-        "dir_file": "school-exposures-interior-webpage",
-        "file_name": "school-exposures-interior-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "School exposures Interior webpage",
-          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
-          "meta_url_name": "COVID-19 Public Exposures",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "British Columbia"
-        },
-        "notes": {
-          "notes_data": "Warning: some early files are .png screenshots and named differently."
-        }
-      },
-      {
-        "id_name": "BC - British Columbia COVID-19 Dashboard (webpage)",
-        "uuid": "6db751a2-7b78-48f7-8c73-d5ebf5addd03",
-        "active": "True",
-        "url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
-        "dir_parent": "bc",
-        "dir_file": "bc-covid-dashboard-webpage",
-        "file_name": "bc-covid-dashboard-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "10"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
-          "meta_url_name": "British Columbia COVID-19 Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "British Columbia"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard (2) - Introduction (webpage)",
         "uuid": "97b00c04-0285-4fd2-b1a0-a64a932e6241",
         "active": "True",
@@ -9560,6 +9481,85 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "7-day and cumulative cases by HSDA (2)",
+          "meta_url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
+          "meta_url_name": "British Columbia COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "BC - Public exposures: school exposures (Fraser webpage)",
+        "uuid": "c29f61da-17f0-4b4b-9e91-0de8cd33c45b",
+        "active": "False",
+        "url": "https://www.fraserhealth.ca/schoolexposures",
+        "dir_parent": "bc",
+        "dir_file": "school-exposures-fraser-webpage",
+        "file_name": "school-exposures-fraser-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "School exposures Fraser webpage",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
+          "meta_url_name": "COVID-19 Public Exposures",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {
+          "notes_data": "Warning: some early files are .png screenshots and named differently."
+        }
+      },
+      {
+        "id_name": "BC - Public exposures: school exposures (Interior webpage)",
+        "uuid": "6a2d286d-3b6a-4a4f-a7f7-068f438b5281",
+        "active": "False",
+        "url": "https://www.interiorhealth.ca/health-and-wellness/disease-outbreaks/covid-19/school-exposures",
+        "dir_parent": "bc",
+        "dir_file": "school-exposures-interior-webpage",
+        "file_name": "school-exposures-interior-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "School exposures Interior webpage",
+          "meta_url": "http://www.bccdc.ca/health-info/diseases-conditions/covid-19/public-exposures",
+          "meta_url_name": "COVID-19 Public Exposures",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {
+          "notes_data": "Warning: some early files are .png screenshots and named differently."
+        }
+      },
+      {
+        "id_name": "BC - British Columbia COVID-19 Dashboard (webpage)",
+        "uuid": "6db751a2-7b78-48f7-8c73-d5ebf5addd03",
+        "active": "False",
+        "url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
+        "dir_parent": "bc",
+        "dir_file": "bc-covid-dashboard-webpage",
+        "file_name": "bc-covid-dashboard-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
           "meta_url": "https://experience.arcgis.com/experience/a6f23959a8b14bfa989e3cda29297ded",
           "meta_url_name": "British Columbia COVID-19 Dashboard",
           "meta_licence": "",
