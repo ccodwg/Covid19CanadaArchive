@@ -947,28 +947,6 @@
         "notes": {}
       },
       {
-        "id_name": "CAN - Epidemiological summary of COVID-19 cases in First Nations communities (webpage)",
-        "uuid": "e9ef2ae1-423f-4c99-a56c-d863d4f8185f",
-        "active": "True",
-        "url": "https://www.sac-isc.gc.ca/eng/1589895506010/1589895527965",
-        "dir_parent": "can",
-        "dir_file": "isc-epi-summary-first-nations-webpage",
-        "file_name": "isc-epi-summary-first-nations-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://www.sac-isc.gc.ca/eng/1589895506010/1589895527965",
-          "meta_url_name": "Epidemiological summary of COVID-19 cases in First Nations communities",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Canada"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "CAN - Detailed preliminary information on cases of COVID-19, 2020-2023: 5-Dimensions (Aggregated data)",
         "uuid": "3549e2b5-aa70-420a-badc-83bd9aaa7099",
         "active": "True",
@@ -2165,7 +2143,7 @@
         },
         "supplementary": {},
         "metadata": {
-          "meta_name": "",
+          "meta_name": "Last booster dose by vaccine",
           "meta_url": "https://health-infobase.canada.ca/covid-19/vaccination-coverage/",
           "meta_url_name": "COVID-19 vaccination in Canada - Vaccination coverage",
           "meta_licence": "",
@@ -11047,6 +11025,28 @@
           "meta_name": "Dataset",
           "meta_url": "https://www.covid19immunitytaskforce.ca/seroprevalence-in-canada/",
           "meta_url_name": "COVID-19 Immunity Task Force - Seroprevalence in Canada",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Epidemiological summary of COVID-19 cases in First Nations communities (webpage)",
+        "uuid": "e9ef2ae1-423f-4c99-a56c-d863d4f8185f",
+        "active": "False",
+        "url": "https://www.sac-isc.gc.ca/eng/1589895506010/1589895527965",
+        "dir_parent": "can",
+        "dir_file": "isc-epi-summary-first-nations-webpage",
+        "file_name": "isc-epi-summary-first-nations-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.sac-isc.gc.ca/eng/1589895506010/1589895527965",
+          "meta_url_name": "Epidemiological summary of COVID-19 cases in First Nations communities",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
