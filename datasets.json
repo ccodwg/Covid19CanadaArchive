@@ -6495,10 +6495,10 @@
     ],
     "pe": [
       {
-        "id_name": "PE - PEI COVID-19 Case Data",
+        "id_name": "PE - PEI COVID-19 Testing and Case Data (webpage)",
         "uuid": "68e5cbb9-0dcc-4a4f-ade0-58a0b06b1455",
         "active": "True",
-        "url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/pei-covid-19-case-data",
+        "url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/covid-19-testing-and-case-data",
         "dir_parent": "pe",
         "dir_file": "pei-webpage",
         "file_name": "pei-webpage",
@@ -6510,8 +6510,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
-          "meta_url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/pei-covid-19-case-data",
-          "meta_url_name": "PEI COVID-19 Case Data",
+          "meta_url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/covid-19-testing-and-case-data",
+          "meta_url_name": "PEI COVID-19 Testing and Case Data",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Prince Edward Island"
@@ -6519,30 +6519,28 @@
         "notes": {}
       },
       {
-        "id_name": "PE - COVID-19 Vaccination Data",
-        "uuid": "177098c3-de1e-4c50-b77e-43b78dd3302a",
+        "id_name": "PE - PEI COVID-19 Testing and Case Data - Cases by epidemiological week (image)",
+        "uuid": "6377553c-b6bd-4085-ac84-ebf83c1da43c",
         "active": "True",
-        "url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/covid-19-vaccination-data",
+        "url": "https://www.princeedwardisland.ca/sites/default/files/embedded_images/chart.png",
         "dir_parent": "pe",
-        "dir_file": "pei-vaccination-webpage",
-        "file_name": "pei-vaccination-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
+        "dir_file": "pei-cases-by-epi-week",
+        "file_name": "chart",
+        "file_ext": "png",
+        "dl_fun": "dl_file",
         "args": {
           "user": "True"
         },
         "supplementary": {},
         "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/covid-19-vaccination-data",
-          "meta_url_name": "COVID-19 Vaccination Data",
+          "meta_name": "Cases by epidemiological week",
+          "meta_url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/covid-19-testing-and-case-data",
+          "meta_url_name": "PEI COVID-19 Testing and Case Data",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Prince Edward Island"
         },
-        "notes": {
-          "notes_data": "This page contains no data since they are not embedded in the page but pulled from the live 'Vaccine rollout' Google Sheet."
-        }
+        "notes": {}
       }
     ],
     "qc": [
@@ -16972,6 +16970,56 @@
           "meta_group_1": "Prince Edward Island"
         },
         "notes": {}
+      },
+      {
+        "id_name": "PE - PEI COVID-19 Testing and Case Data - Annual COVID-19 Summary 2022 (report)",
+        "uuid": "0e1081b7-0997-49a5-8d45-4b37cd024587",
+        "active": "False",
+        "url": "https://www.princeedwardisland.ca/sites/default/files/publications/annual_covid_summary_2022_final.pdf",
+        "dir_parent": "pe",
+        "dir_file": "pei-annual-covid-summary-2022-report",
+        "file_name": "annual_covid_summary_2022_final",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Annual COVID-19 Summary 2022 (report)",
+          "meta_url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/covid-19-testing-and-case-data",
+          "meta_url_name": "PEI COVID-19 Testing and Case Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Prince Edward Island"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "PE - COVID-19 Vaccination Data",
+        "uuid": "177098c3-de1e-4c50-b77e-43b78dd3302a",
+        "active": "False",
+        "url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/covid-19-vaccination-data",
+        "dir_parent": "pe",
+        "dir_file": "pei-vaccination-webpage",
+        "file_name": "pei-vaccination-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/covid-19-vaccination-data",
+          "meta_url_name": "COVID-19 Vaccination Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Prince Edward Island"
+        },
+        "notes": {
+          "notes_data": "This page contains no data since they are not embedded in the page but pulled from the live 'Vaccine rollout' Google Sheet."
+        }
       }
     ],
     "qc": [
