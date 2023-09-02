@@ -5616,29 +5616,6 @@
         "notes": {}
       },
       {
-        "id_name": "ON - Children's Hospital of Eastern Ontario (CHEO) - COVID-19 webpage and admissions dashboard",
-        "uuid": "dfa577ef-2de7-4b66-936f-e7d1b6f26b37",
-        "active": "True",
-        "url": "https://www.cheo.on.ca/en/visiting-cheo/covid-19.aspx",
-        "dir_parent": "on",
-        "dir_file": "cheo-covid-admissions-dashboard-webpage",
-        "file_name": "cheo-covid-admissions-dashboard-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://www.cheo.on.ca/en/visiting-cheo/covid-19.aspx",
-          "meta_url_name": "Children's Hospital of Eastern Ontario (CHEO) - COVID-19 webpage and admissions dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Ottawa"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "ON - Algoma (PHU) - COVID-19 data (webpage)",
         "uuid": "685df305-f6c7-4ac2-992b-ec707eb1f1cb",
         "active": "True",
@@ -16821,6 +16798,29 @@
           "meta_licence_url": "",
           "meta_group_1": "Ontario",
           "meta_group_2": "Public Health Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Children's Hospital of Eastern Ontario (CHEO) - COVID-19 webpage and admissions dashboard",
+        "uuid": "dfa577ef-2de7-4b66-936f-e7d1b6f26b37",
+        "active": "False",
+        "url": "https://www.cheo.on.ca/en/visiting-cheo/covid-19.aspx",
+        "dir_parent": "on",
+        "dir_file": "cheo-covid-admissions-dashboard-webpage",
+        "file_name": "cheo-covid-admissions-dashboard-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.cheo.on.ca/en/visiting-cheo/covid-19.aspx",
+          "meta_url_name": "Children's Hospital of Eastern Ontario (CHEO) - COVID-19 webpage and admissions dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Ottawa"
         },
         "notes": {}
       }
