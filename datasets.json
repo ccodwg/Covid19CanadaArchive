@@ -19293,7 +19293,9 @@
           "meta_licence_url": "",
           "meta_group_1": "Saskatchewan"
         },
-        "notes": {}
+        "notes": {
+          "notes_data": "Dataset switches from original six reporting regions to thirteen reporting regions on 2020-09-14. The new dataset does not include historical data."
+        }
       },
       {
         "id_name": "SK - Saskatchewan's Dashboard - Seven-day Average of Daily New Cases (highlights, charts, tables)",
@@ -19384,7 +19386,7 @@
           "meta_group_1": "Saskatchewan"
         },
         "notes": {
-          "notes_data": "Data from the original six reporting regions (up to 2020-09-13) was downloaded from here: https://publications.saskatchewan.ca/#/categories/4810 (https://publications.saskatchewan.ca/#/categories/4808)."
+          "notes_data": "Data from the original six reporting regions (up to 2020-09-13) was downloaded from here: https://publications.saskatchewan.ca/#/categories/4810 (https://publications.saskatchewan.ca/#/categories/4808). The new dataset with thirteen reporting regions does not include historical data."
         }
       },
       {
@@ -19430,7 +19432,9 @@
           "meta_licence_url": "",
           "meta_group_1": "Saskatchewan"
         },
-        "notes": {}
+        "notes": {
+          "notes_data": "Dataset switches from original six reporting regions to thirteen reporting regions on 2020-09-14. The new dataset does not include historical data."
+        }
       },
       {
         "id_name": "SK - Weekly Monitoring Report - Children and Youth (webpage)",
