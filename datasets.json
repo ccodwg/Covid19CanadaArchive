@@ -1124,9 +1124,7 @@
         "file_name": "Epidemiological-summary-of-COVID-19-cases-in-Canada-Canada.ca",
         "file_ext": "pdf",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Report (English)",
@@ -1150,9 +1148,7 @@
         "file_name": "Resume-epidemiologique-des-cas-de-COVID-19-au-Canada",
         "file_ext": "pdf",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Report (French)",
@@ -1176,9 +1172,7 @@
         "file_name": "covid19",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "National overview (DD-MM-YYYY)",
@@ -1200,9 +1194,7 @@
         "file_name": "covid19-download",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "National overview (YYYY-MM-DD)",
@@ -1224,9 +1216,7 @@
         "file_name": "covid19v2",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "National overview v2",
@@ -1248,9 +1238,7 @@
         "file_name": "covid19",
         "file_ext": "json",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "National overview (YYYY-MM-DD, JSON)",
@@ -1272,9 +1260,7 @@
         "file_name": "covid19-updateTime",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Update time",
@@ -1296,9 +1282,7 @@
         "file_name": "covid19-epiSummary-updateTime",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Update time (2)",
@@ -1320,9 +1304,7 @@
         "file_name": "covid19-casesdeaths-data-dictionary",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "National overview (data dictionary) (weekly)",
@@ -1344,9 +1326,7 @@
         "file_name": "covid19-RVDSS-data-dictionary",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Lab indicators - RVDSS (data dictionary)",
@@ -1368,9 +1348,7 @@
         "file_name": "covid19-epiSummary-statements",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Epidemiology summary statements",
@@ -1392,9 +1370,7 @@
         "file_name": "covid19-epiSummary-labIndicators2",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Lab indicators - RVDSS",
@@ -1418,9 +1394,7 @@
         "file_name": "covid19-nTotal",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Number of cases with detailed case report data",
@@ -1442,9 +1416,7 @@
         "file_name": "covid19-health-regions",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Cases and deaths by health region time series (2)",
@@ -1466,9 +1438,7 @@
         "file_name": "covid19-healthregions-hruid",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Health region UID table",
@@ -1490,9 +1460,7 @@
         "file_name": "covid19-healthregions-hruid-2022",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Health region UID table 2022",
@@ -1514,9 +1482,7 @@
         "file_name": "covid19-epiSummary-severityUpdate2",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Severity by age group and sex (2)",
@@ -1538,9 +1504,7 @@
         "file_name": "covid19-epiSummary-agegroups2",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Cases by age group and sex",
@@ -1562,9 +1526,7 @@
         "file_name": "covid19-epiSummary-hospVentICU",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Hospitalizations, intensive care unit (ICU), mechanical ventilation",
@@ -1586,9 +1548,7 @@
         "file_name": "covid19-isc",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Cases on First Nations reserves",
@@ -1610,9 +1570,7 @@
         "file_name": "covid19-epiSummary-variants",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Variant prevalence time series",
@@ -1634,9 +1592,7 @@
         "file_name": "covid19-epiSummary-variants-sampleSize",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Variant sample size time series",
@@ -1658,9 +1614,7 @@
         "file_name": "covid19-epiSummary-variants-contributingLabs",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Variant contributing labs",
@@ -1682,9 +1636,7 @@
         "file_name": "covid19-epiSummary-variants-updateDate",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Variant update date",
@@ -1706,9 +1658,7 @@
         "file_name": "covid19-epiSummary-outbreaks-settings",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Outbreaks time series by setting",
@@ -1730,9 +1680,7 @@
         "file_name": "covid19-epiSummary-outbreaks-size",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Outbreak time series by setting and size",
@@ -1754,9 +1702,7 @@
         "file_name": "covid19-epiSummary-outbreaks-size-median",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Outbreaks median size by year",
@@ -1778,9 +1724,7 @@
         "file_name": "covid19-epiSummary-ageGender",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Case rates time series by age and gender",
@@ -1802,9 +1746,7 @@
         "file_name": "covid19-epiSummary-weeklyEpiCurve",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Weekly epidemic curve",
@@ -1826,9 +1768,7 @@
         "file_name": "covid19-epiSummary-accumulatingPeriods",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Accumulating periods",
@@ -1850,9 +1790,7 @@
         "file_name": "covid19-epiSummary-allNotesStatements",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Notes and statements",
@@ -1874,9 +1812,7 @@
         "file_name": "covid19-epiSummary-activityLevel",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Activity levels",
@@ -1898,9 +1834,7 @@
         "file_name": "covid19-epiSummary-exceptions",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "PHAC provincial data update notes",
@@ -1922,9 +1856,7 @@
         "file_name": "vaccination-administration",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination administration",
@@ -1946,9 +1878,7 @@
         "file_name": "vaccination-administration-updateDate",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination administration (update date)",
@@ -1970,9 +1900,7 @@
         "file_name": "vaccination-distribution",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination distribution",
@@ -1994,9 +1922,7 @@
         "file_name": "vaccination-distribution-updateDate",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination distribution (update date)",
@@ -2018,9 +1944,7 @@
         "file_name": "vaccination-coverage-overall",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination coverage overall",
@@ -2042,9 +1966,7 @@
         "file_name": "vaccination-coverage-byAgeAndSexOT1",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination coverage by age and sex (3)",
@@ -2066,9 +1988,7 @@
         "file_name": "vaccination-coverage-byAgeAndSexOT",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination coverage by age and sex (condensed)",
@@ -2090,9 +2010,7 @@
         "file_name": "vaccination-coverage-byAgeAndSex-overTime",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination coverage by age and sex (alternative)",
@@ -2114,9 +2032,7 @@
         "file_name": "vaccination-coverage-byAgeAndSexOTI",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination coverage by age and sex (4)",
@@ -2138,9 +2054,7 @@
         "file_name": "vaccination-coverage-lastVaccineProduct-Slim",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Last booster dose by vaccine",
@@ -2162,9 +2076,7 @@
         "file_name": "vaccination-coverage-map",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination coverage by province",
@@ -2186,9 +2098,7 @@
         "file_name": "vaccination-coverage-updateDate",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination coverage by province (update date)",
@@ -2210,9 +2120,7 @@
         "file_name": "vaccination-notes",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination notes",
@@ -2234,9 +2142,7 @@
         "file_name": "vaccination-coverage-legendBuckets",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Legend buckets",
@@ -2310,9 +2216,7 @@
         "file_name": "vaccination-coverage-dataAvailability",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccination coverage data availability by week",
@@ -2334,9 +2238,7 @@
         "file_name": "InternationalCovid19Cases",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "International case and death time series",
@@ -2358,9 +2260,7 @@
         "file_name": "updated",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "International case and death time series update date",
@@ -2382,9 +2282,7 @@
         "file_name": "vaccine-safety-AEFI-figure",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "AEFI weekly reports by event category and vaccine type",
@@ -2406,9 +2304,7 @@
         "file_name": "vaccine-safety-AESIs-table",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "AESI weekly reports by event category and vaccine type",
@@ -2430,9 +2326,7 @@
         "file_name": "vaccine-safety-keyupdates",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "AEFI weekly reports key updates",
@@ -2454,9 +2348,7 @@
         "file_name": "vaccine-safety-figure1",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "AEFI summary including vaccination data",
@@ -2478,9 +2370,7 @@
         "file_name": "vaccine-safety-figure2",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "AEFI weekly summary by vaccine type",
@@ -2502,9 +2392,7 @@
         "file_name": "vaccine-safety-figure3",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "AEFI weekly summary by age and sex",
@@ -2526,9 +2414,7 @@
         "file_name": "covid19-wastewater",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Wastewater data",
@@ -2550,9 +2436,7 @@
         "file_name": "covid19-wastewater-trend",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Wastewater trends",
@@ -2574,9 +2458,7 @@
         "file_name": "covid19-wastewater-data-dictionary-en",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Data dictionary (EN)",
@@ -2598,9 +2480,7 @@
         "file_name": "covid19-wastewater-data-dictionary-fr",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Data dictionary (FR)",
@@ -2622,9 +2502,7 @@
         "file_name": "covid19-wastewater-dashboard",
         "file_ext": "pdf",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Report (EN)",
@@ -2646,9 +2524,7 @@
         "file_name": "covid19-eaux-usees-tableau-de-bord",
         "file_ext": "pdf",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Report (FR)",
@@ -3967,7 +3843,6 @@
         "file_ext": "html",
         "dl_fun": "html_page",
         "args": {
-          "verify": "False",
           "user": "True"
         },
         "supplementary": {},
@@ -4867,9 +4742,7 @@
         "file_name": "respiratory-virus-overview-ontario-report",
         "file_ext": "pdf",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Respiratory Virus Overview in Ontario",
@@ -4892,9 +4765,7 @@
         "file_name": "covid-19-sars-cov2-whole-genome-sequencing-epi-summary",
         "file_ext": "pdf",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "SARS-CoV-2 Whole Genome Sequencing in Ontario",
@@ -4917,9 +4788,7 @@
         "file_name": "covid-19-vaccine-uptake-ontario-epi-summary",
         "file_ext": "pdf",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "COVID-19 Vaccine Uptake and Program Impact in Ontario",
@@ -4942,9 +4811,7 @@
         "file_name": "covid-19-aefi-report",
         "file_ext": "pdf",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Adverse Events Following Immunization (AEFIs) for COVID-19 in Ontario",
@@ -4967,9 +4834,7 @@
         "file_name": "covid-19-epi-confirmed-cases-post-vaccination",
         "file_ext": "pdf",
         "dl_fun": "dl_file",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Confirmed Cases of COVID-19 Following Vaccination in Ontario",
@@ -5625,9 +5490,7 @@
         "file_name": "on-phu-algoma-covid-data-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -6298,9 +6161,7 @@
         "file_name": "on-phu-timiskaming-covid-data-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
@@ -6790,8 +6651,7 @@
         "file_ext": "csv",
         "dl_fun": "dl_file",
         "args": {
-          "rand_url": "True",
-          "verify": "False"
+          "rand_url": "True"
         },
         "supplementary": {},
         "metadata": {
@@ -7125,9 +6985,7 @@
         "file_name": "yukon-current-situation-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
-        "args": {
-          "verify": "False"
-        },
+        "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
