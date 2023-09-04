@@ -7255,33 +7255,7 @@
         }
       }
     ],
-    "other/qc": [
-      {
-        "id_name": "Other: QC - Covid Écoles Québec (Excel)",
-        "uuid": "65b771e8-df5b-4a45-a4f6-f8e079e2d5f3",
-        "active": "True",
-        "url": "https://docs.google.com/spreadsheets/d/1Il2Xhz-VKhME4B9EqKkzbmT5APf3IaKktyk80SQi6JA/export?format=xlsx&id=1Il2Xhz-VKhME4B9EqKkzbmT5APf3IaKktyk80SQi6JA",
-        "dir_parent": "other/qc",
-        "dir_file": "covid-ecoles-quebec-school-list",
-        "file_name": "COVIDECOLESQUEBEC",
-        "file_ext": "xlsx",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dataset",
-          "meta_url": "https://www.covidecolesquebec.org/nombre-dcoles-20212022",
-          "meta_url_name": "Covid Écoles Québec: Number of schools",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Other: Non-governmental sources",
-          "meta_group_2": "Quebec"
-        },
-        "notes": {
-          "notes_data": "Original file name was 'COVIDECOLESQUEBEC_20200905.xlsx'; file added to archive in 2021 had original file name of 'COVIDECOLESQUEBEC_20200913.xlsx'. Renamed to avoid confusion."
-        }
-      }
-    ]
+    "other/qc": []
   },
   "inactive": {
     "ab": [
@@ -20714,6 +20688,32 @@
         }
       }
     ],
-    "other/qc": []
+    "other/qc": [
+      {
+        "id_name": "Other: QC - Covid Écoles Québec (Excel)",
+        "uuid": "65b771e8-df5b-4a45-a4f6-f8e079e2d5f3",
+        "active": "False",
+        "url": "https://docs.google.com/spreadsheets/d/1Il2Xhz-VKhME4B9EqKkzbmT5APf3IaKktyk80SQi6JA/export?format=xlsx&id=1Il2Xhz-VKhME4B9EqKkzbmT5APf3IaKktyk80SQi6JA",
+        "dir_parent": "other/qc",
+        "dir_file": "covid-ecoles-quebec-school-list",
+        "file_name": "COVIDECOLESQUEBEC",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://www.covidecolesquebec.org/nombre-dcoles-20212022",
+          "meta_url_name": "Covid Écoles Québec: Number of schools",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "Quebec"
+        },
+        "notes": {
+          "notes_data": "Original file name was 'COVIDECOLESQUEBEC_20200905.xlsx'; file added to archive in 2021 had original file name of 'COVIDECOLESQUEBEC_20200913.xlsx'. Renamed to avoid confusion."
+        }
+      }
+    ]
   }
 }
