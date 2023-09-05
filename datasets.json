@@ -688,6 +688,31 @@
         "notes": {}
       },
       {
+        "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard (2) - Spring Booster (webpage)",
+        "uuid": "1e03c394-8c8c-4016-a76d-13bc0f4c89c6",
+        "active": "True",
+        "url": "https://public.tableau.com/views/COVID-19VaccinationCoverageDashboard/SpringBooster?%3Adisplay_static_image=y&%3Aembed=true&%3Aembed=y&%3Alanguage=en-US&%3AshowVizHome=n&%3AapiID=host0#navType=0&navSrc=Parse",
+        "dir_parent": "bc",
+        "dir_file": "bccdc-surveillance-dashboard-spring-booster-2-webpage",
+        "file_name": "bccdc-surveillance-dashboard-spring-booster-2-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Spring Booster",
+          "meta_url": "https://public.tableau.com/app/profile/bccdc/viz/COVID-19VaccinationCoverageDashboard/Introduction",
+          "meta_url_name": "BCCDC COVID-19 Surveillance Dashboard (2)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "British Columbia"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "BC - BCCDC COVID-19 Surveillance Dashboard (2) - Data Notes (webpage)",
         "uuid": "250ba809-9d1d-454d-b0fd-be8f1887d451",
         "active": "True",
