@@ -19687,8 +19687,8 @@
           "meta_name": "Cases by vaccine status weekly time series",
           "meta_url": "https://open.yukon.ca/information/publications/historical-covid-19-dashboard-data",
           "meta_url_name": "Historical COVID-19 Dashboard Data",
-          "meta_licence": "",
-          "meta_licence_url": "",
+          "meta_licence": "Open Government Licence - Yukon",
+          "meta_licence_url": "https://open.yukon.ca/open-government-licence-yukon",
           "meta_group_1": "Yukon"
         },
         "notes": {}
@@ -19731,8 +19731,8 @@
           "meta_name": "Cases time series",
           "meta_url": "https://open.yukon.ca/information/publications/historical-covid-19-dashboard-data",
           "meta_url_name": "Historical COVID-19 Dashboard Data",
-          "meta_licence": "",
-          "meta_licence_url": "",
+          "meta_licence": "Open Government Licence - Yukon",
+          "meta_licence_url": "https://open.yukon.ca/open-government-licence-yukon",
           "meta_group_1": "Yukon"
         },
         "notes": {}
@@ -19775,8 +19775,8 @@
           "meta_name": "Cumulative and active cases by community",
           "meta_url": "https://open.yukon.ca/information/publications/historical-covid-19-dashboard-data",
           "meta_url_name": "Historical COVID-19 Dashboard Data",
-          "meta_licence": "",
-          "meta_licence_url": "",
+          "meta_licence": "Open Government Licence - Yukon",
+          "meta_licence_url": "https://open.yukon.ca/open-government-licence-yukon",
           "meta_group_1": "Yukon"
         },
         "notes": {}
@@ -19819,8 +19819,8 @@
           "meta_name": "Daily current stats",
           "meta_url": "https://open.yukon.ca/information/publications/historical-covid-19-dashboard-data",
           "meta_url_name": "Historical COVID-19 Dashboard Data",
-          "meta_licence": "",
-          "meta_licence_url": "",
+          "meta_licence": "Open Government Licence - Yukon",
+          "meta_licence_url": "https://open.yukon.ca/open-government-licence-yukon",
           "meta_group_1": "Yukon"
         },
         "notes": {}
@@ -19863,8 +19863,8 @@
           "meta_name": "Case rate by vaccination status monthly time series",
           "meta_url": "https://open.yukon.ca/information/publications/historical-covid-19-dashboard-data",
           "meta_url_name": "Historical COVID-19 Dashboard Data",
-          "meta_licence": "",
-          "meta_licence_url": "",
+          "meta_licence": "Open Government Licence - Yukon",
+          "meta_licence_url": "https://open.yukon.ca/open-government-licence-yukon",
           "meta_group_1": "Yukon"
         },
         "notes": {}
@@ -19907,8 +19907,8 @@
           "meta_name": "Vaccine coverage by gender",
           "meta_url": "https://open.yukon.ca/information/publications/historical-covid-19-dashboard-data",
           "meta_url_name": "Historical COVID-19 Dashboard Data",
-          "meta_licence": "",
-          "meta_licence_url": "",
+          "meta_licence": "Open Government Licence - Yukon",
+          "meta_licence_url": "https://open.yukon.ca/open-government-licence-yukon",
           "meta_group_1": "Yukon"
         },
         "notes": {}
@@ -19951,8 +19951,8 @@
           "meta_name": "Vaccine coverage by age group",
           "meta_url": "https://open.yukon.ca/information/publications/historical-covid-19-dashboard-data",
           "meta_url_name": "Historical COVID-19 Dashboard Data",
-          "meta_licence": "",
-          "meta_licence_url": "",
+          "meta_licence": "Open Government Licence - Yukon",
+          "meta_licence_url": "https://open.yukon.ca/open-government-licence-yukon",
           "meta_group_1": "Yukon"
         },
         "notes": {}
@@ -19995,8 +19995,8 @@
           "meta_name": "Vaccine coverage by community and age group",
           "meta_url": "https://open.yukon.ca/information/publications/historical-covid-19-dashboard-data",
           "meta_url_name": "Historical COVID-19 Dashboard Data",
-          "meta_licence": "",
-          "meta_licence_url": "",
+          "meta_licence": "Open Government Licence - Yukon",
+          "meta_licence_url": "https://open.yukon.ca/open-government-licence-yukon",
           "meta_group_1": "Yukon"
         },
         "notes": {}
@@ -20039,8 +20039,8 @@
           "meta_name": "Testing time series",
           "meta_url": "https://open.yukon.ca/information/publications/historical-covid-19-dashboard-data",
           "meta_url_name": "Historical COVID-19 Dashboard Data",
-          "meta_licence": "",
-          "meta_licence_url": "",
+          "meta_licence": "Open Government Licence - Yukon",
+          "meta_licence_url": "https://open.yukon.ca/open-government-licence-yukon",
           "meta_group_1": "Yukon"
         },
         "notes": {}
@@ -20083,8 +20083,30 @@
           "meta_name": "Hospitalization time series",
           "meta_url": "https://open.yukon.ca/information/publications/historical-covid-19-dashboard-data",
           "meta_url_name": "Historical COVID-19 Dashboard Data",
-          "meta_licence": "",
-          "meta_licence_url": "",
+          "meta_licence": "Open Government Licence - Yukon",
+          "meta_licence_url": "https://open.yukon.ca/open-government-licence-yukon",
+          "meta_group_1": "Yukon"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "YT - Historical COVID-19 data dashboard - Data dictionary",
+        "uuid": "97a753be-a0d8-45c2-a1a3-2d733f44e92b",
+        "active": "False",
+        "url": "https://open.yukon.ca/sites/default/files/OpenData_DataDictionary.xlsx",
+        "dir_parent": "yt",
+        "dir_file": "yt-dashboard-data-dictionary",
+        "file_name": "OpenData_DataDictionary",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Data dictionary",
+          "meta_url": "https://open.yukon.ca/information/publications/historical-covid-19-dashboard-data",
+          "meta_url_name": "Historical COVID-19 Dashboard Data",
+          "meta_licence": "Open Government Licence - Yukon",
+          "meta_licence_url": "https://open.yukon.ca/open-government-licence-yukon",
           "meta_group_1": "Yukon"
         },
         "notes": {}
