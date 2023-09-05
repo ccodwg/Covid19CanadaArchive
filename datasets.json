@@ -3479,28 +3479,6 @@
         "notes": {
           "notes_data": "Vaccination coverage is defined as those who have completed a primary series of Health Canada approved COVID-19 vaccines (2 doses) and/or at least one booster on or after September 21st 2022."
         }
-      },
-      {
-        "id_name": "NL - Percent fully vaccinated by Primary Health Care Area (PHC)",
-        "uuid": "bf4abc94-ebe8-4d5a-9f5f-bf40e938bf72",
-        "active": "True",
-        "url": "https://services6.arcgis.com/Oayv0bA202oTQWoc/arcgis/rest/services/PHC_FullyVaccinated_LabMerge/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
-        "dir_parent": "nl",
-        "dir_file": "fully-vaccinated-by-phc",
-        "file_name": "PHC_FullyVaccinated_LabMerge",
-        "file_ext": "json",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Percent fully vaccinated by Primary Health Care Area (PHC)",
-          "meta_url": "https://covid-19-newfoundland-and-labrador-gnl.hub.arcgis.com/",
-          "meta_url_name": "Newfoundland and Labrador COVID-19 Pandemic Update Hub",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Newfoundland and Labrador"
-        },
-        "notes": {}
       }
     ],
     "ns": [
@@ -13485,6 +13463,28 @@
           "meta_name": "Vaccination rates by age group",
           "meta_url": "https://experience.arcgis.com/experience/280d17f9bd5d47e9870b6aba8222e5f4",
           "meta_url_name": "Newfoundland and Labrador COVID-19 Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Newfoundland and Labrador"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NL - Percent fully vaccinated by Primary Health Care Area (PHC)",
+        "uuid": "bf4abc94-ebe8-4d5a-9f5f-bf40e938bf72",
+        "active": "False",
+        "url": "https://services6.arcgis.com/Oayv0bA202oTQWoc/arcgis/rest/services/PHC_FullyVaccinated_LabMerge/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "dir_parent": "nl",
+        "dir_file": "fully-vaccinated-by-phc",
+        "file_name": "PHC_FullyVaccinated_LabMerge",
+        "file_ext": "json",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Percent fully vaccinated by Primary Health Care Area (PHC)",
+          "meta_url": "https://covid-19-newfoundland-and-labrador-gnl.hub.arcgis.com/",
+          "meta_url_name": "Newfoundland and Labrador COVID-19 Pandemic Update Hub",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Newfoundland and Labrador"
