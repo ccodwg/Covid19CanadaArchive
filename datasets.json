@@ -3155,31 +3155,6 @@
     ],
     "mb": [
       {
-        "id_name": "MB - COVID 19 Updates (webpage)",
-        "uuid": "9282e729-3d3e-4bd3-bc83-1ab3dc48bc0f",
-        "active": "True",
-        "url": "https://www.gov.mb.ca/covid19/updates/index.html",
-        "dir_parent": "mb",
-        "dir_file": "manitoba-webpage",
-        "file_name": "manitoba-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://www.gov.mb.ca/covid19/updates/index.html",
-          "meta_url_name": "Province of Manitoba - COVID-19",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Manitoba"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "MB - Provincial Respiratory Surveillance Report - COVID-19 and Seasonal Influenza (Webpage)",
         "uuid": "211a55f7-3050-48b6-9cf0-6a76595733c3",
         "active": "True",
@@ -3534,31 +3509,6 @@
     "nt": [],
     "nu": [
       {
-        "id_name": "NU - COVID-19 (Novel Coronavirus) (webpage)",
-        "uuid": "04ab3773-f535-42ad-8ee4-4d584ec23523",
-        "active": "True",
-        "url": "https://gov.nu.ca/health/information/covid-19-novel-coronavirus",
-        "dir_parent": "nu",
-        "dir_file": "nunavut-webpage",
-        "file_name": "nunavut-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://gov.nu.ca/health/information/covid-19-novel-coronavirus",
-          "meta_url_name": "COVID-19 (Novel Coronavirus)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Nunavut"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "NU - COVID-19 Vaccination (webpage)",
         "uuid": "8d781e96-64d4-4283-9d57-4d53a33a765f",
         "active": "True",
@@ -3577,31 +3527,6 @@
           "meta_name": "Webpage",
           "meta_url": "https://www.gov.nu.ca/health/information/covid-19-vaccination",
           "meta_url_name": "COVID-19 Vaccination",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Nunavut"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "NU - COVID-19 Exposure Notices (webpage)",
-        "uuid": "ef9003cc-e55f-433f-9e9b-0f2d32a5ccbb",
-        "active": "True",
-        "url": "https://www.gov.nu.ca/health/information/covid-19-exposure-notices",
-        "dir_parent": "nu",
-        "dir_file": "nunavut-exposure-notices-webpage",
-        "file_name": "nunavut-exposure-notices-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "5"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://www.gov.nu.ca/health/information/covid-19-exposure-notices",
-          "meta_url_name": "COVID-19 Exposure Notices",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Nunavut"
@@ -5759,60 +5684,6 @@
           "meta_name": "Main",
           "meta_url": "https://hpepublichealth.ca/covid-19-cases/",
           "meta_url_name": "Hastings Prince Edward (PHU) - Status of COVID-19 Cases and Vaccinations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Public Health Units"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Kingston Frontenac Lennox & Addington (PHU) - COVID-19 data - Cases (webpage)",
-        "uuid": "83d1fa13-7fb3-4079-b3dc-5bc50c584fd3",
-        "active": "True",
-        "url_fun_python": "from bs4 import BeautifulSoup; import requests; url_current = BeautifulSoup(requests.get('https://www.kflaph.ca/en/healthy-living/status-of-cases-in-kfla.aspx', timeout=5).text, features='html.parser').find('iframe')['src']",
-        "url_fun_r": "library(rvest); html_attr(html_element(read_html('https://www.kflaph.ca/en/healthy-living/status-of-cases-in-kfla.aspx'), 'iframe'), 'src')",
-        "dir_parent": "on",
-        "dir_file": "on-phu-kingston-frontenac-lennox-addington-covid-data-cases-webpage",
-        "file_name": "on-phu-kingston-frontenac-lennox-addington-covid-data-cases-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "20"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases",
-          "meta_url": "https://www.kflaph.ca/en/healthy-living/status-of-cases-in-kfla.aspx",
-          "meta_url_name": "Kingston Frontenac Lennox & Addington (PHU) - COVID-19 case data for KFL&A Region Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario",
-          "meta_group_2": "Public Health Units"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "ON - Kingston Frontenac Lennox & Addington (PHU) - COVID-19 data - Cases - New cases table (webpage)",
-        "uuid": "0523eacc-9020-47a2-92f7-dfc4ddf8d0f8",
-        "active": "True",
-        "url_fun_python": "from bs4 import BeautifulSoup; import requests; url_current = BeautifulSoup(requests.get('https://www.kflaph.ca/en/healthy-living/status-of-cases-in-kfla.aspx', timeout=5).text, features='html.parser').find('iframe')['src']",
-        "url_fun_r": "library(rvest); html_attr(html_element(read_html('https://www.kflaph.ca/en/healthy-living/status-of-cases-in-kfla.aspx'), 'iframe'), 'src')",
-        "dir_parent": "on",
-        "dir_file": "on-phu-kingston-frontenac-lennox-addington-covid-data-cases-new-cases-table-webpage",
-        "file_name": "on-phu-kingston-frontenac-lennox-addington-covid-data-cases-new-cases-table-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "js": "True",
-          "wait": "20"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Cases - New cases table",
-          "meta_url": "https://www.kflaph.ca/en/healthy-living/status-of-cases-in-kfla.aspx",
-          "meta_url_name": "Kingston Frontenac Lennox & Addington (PHU) - COVID-19 case data for KFL&A Region Dashboard",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Ontario",
@@ -12112,6 +11983,31 @@
           "meta_group_1": "Manitoba"
         },
         "notes": {}
+      },
+      {
+        "id_name": "MB - COVID 19 Updates (webpage)",
+        "uuid": "9282e729-3d3e-4bd3-bc83-1ab3dc48bc0f",
+        "active": "False",
+        "url": "https://www.gov.mb.ca/covid19/updates/index.html",
+        "dir_parent": "mb",
+        "dir_file": "manitoba-webpage",
+        "file_name": "manitoba-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.gov.mb.ca/covid19/updates/index.html",
+          "meta_url_name": "Province of Manitoba - COVID-19",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Manitoba"
+        },
+        "notes": {}
       }
     ],
     "nb": [
@@ -14478,6 +14374,56 @@
           "meta_group_1": "Nunavut"
         },
         "notes": {}
+      },
+      {
+        "id_name": "NU - COVID-19 (Novel Coronavirus) (webpage)",
+        "uuid": "04ab3773-f535-42ad-8ee4-4d584ec23523",
+        "active": "False",
+        "url": "https://gov.nu.ca/health/information/covid-19-novel-coronavirus",
+        "dir_parent": "nu",
+        "dir_file": "nunavut-webpage",
+        "file_name": "nunavut-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://gov.nu.ca/health/information/covid-19-novel-coronavirus",
+          "meta_url_name": "COVID-19 (Novel Coronavirus)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Nunavut"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "NU - COVID-19 Exposure Notices (webpage)",
+        "uuid": "ef9003cc-e55f-433f-9e9b-0f2d32a5ccbb",
+        "active": "False",
+        "url": "https://www.gov.nu.ca/health/information/covid-19-exposure-notices",
+        "dir_parent": "nu",
+        "dir_file": "nunavut-exposure-notices-webpage",
+        "file_name": "nunavut-exposure-notices-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.gov.nu.ca/health/information/covid-19-exposure-notices",
+          "meta_url_name": "COVID-19 Exposure Notices",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Nunavut"
+        },
+        "notes": {}
       }
     ],
     "on": [
@@ -16723,6 +16669,60 @@
           "meta_licence_url": "",
           "meta_group_1": "Ontario",
           "meta_group_2": "Ottawa"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Kingston Frontenac Lennox & Addington (PHU) - COVID-19 data - Cases (webpage)",
+        "uuid": "83d1fa13-7fb3-4079-b3dc-5bc50c584fd3",
+        "active": "False",
+        "url_fun_python": "from bs4 import BeautifulSoup; import requests; url_current = BeautifulSoup(requests.get('https://www.kflaph.ca/en/healthy-living/status-of-cases-in-kfla.aspx', timeout=5).text, features='html.parser').find('iframe')['src']",
+        "url_fun_r": "library(rvest); html_attr(html_element(read_html('https://www.kflaph.ca/en/healthy-living/status-of-cases-in-kfla.aspx'), 'iframe'), 'src')",
+        "dir_parent": "on",
+        "dir_file": "on-phu-kingston-frontenac-lennox-addington-covid-data-cases-webpage",
+        "file_name": "on-phu-kingston-frontenac-lennox-addington-covid-data-cases-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "20"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases",
+          "meta_url": "https://www.kflaph.ca/en/healthy-living/status-of-cases-in-kfla.aspx",
+          "meta_url_name": "Kingston Frontenac Lennox & Addington (PHU) - COVID-19 case data for KFL&A Region Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Kingston Frontenac Lennox & Addington (PHU) - COVID-19 data - Cases - New cases table (webpage)",
+        "uuid": "0523eacc-9020-47a2-92f7-dfc4ddf8d0f8",
+        "active": "False",
+        "url_fun_python": "from bs4 import BeautifulSoup; import requests; url_current = BeautifulSoup(requests.get('https://www.kflaph.ca/en/healthy-living/status-of-cases-in-kfla.aspx', timeout=5).text, features='html.parser').find('iframe')['src']",
+        "url_fun_r": "library(rvest); html_attr(html_element(read_html('https://www.kflaph.ca/en/healthy-living/status-of-cases-in-kfla.aspx'), 'iframe'), 'src')",
+        "dir_parent": "on",
+        "dir_file": "on-phu-kingston-frontenac-lennox-addington-covid-data-cases-new-cases-table-webpage",
+        "file_name": "on-phu-kingston-frontenac-lennox-addington-covid-data-cases-new-cases-table-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "20"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases - New cases table",
+          "meta_url": "https://www.kflaph.ca/en/healthy-living/status-of-cases-in-kfla.aspx",
+          "meta_url_name": "Kingston Frontenac Lennox & Addington (PHU) - COVID-19 case data for KFL&A Region Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario",
+          "meta_group_2": "Public Health Units"
         },
         "notes": {}
       }
