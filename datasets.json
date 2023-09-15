@@ -6178,6 +6178,131 @@
           "meta_group_2": "Public Health Units"
         },
         "notes": {}
+      },
+      {
+        "id_name": "ON - Respiratory illness surveillance in KFL&A - Dashboard (Transmission risk assessment) (webpage)",
+        "uuid": "4d7632a9-a8e1-4640-9896-9045db6fc643",
+        "active": "True",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiN2UwNDllODgtNTQwMi00YzQxLTk1YTMtYWMyZmUxZmQ4YzE0IiwidCI6Ijk4M2JmOTVjLTAyNDYtNDg5My05MmI4LTgwMWJkNTEwYjRmYSJ9",
+        "dir_parent": "on",
+        "dir_file": "kfla-respiratory-dashboard-transmission-risk-assessment-webpage",
+        "file_name": "kfla-respiratory-dashboard-transmission-risk-assessment-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dashboard (Transmission risk assessment)",
+          "meta_url": "https://www.kflaph.ca/en/health-topics/respiratory-illness-surveillance-in-kfl-a.aspx",
+          "meta_url_name": "Respiratory illness surveillance in KFL&A",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Respiratory illness surveillance in KFL&A - Dashboard (Overall surveillance) (webpage)",
+        "uuid": "ae526ee3-a390-4765-a960-3802148124243",
+        "active": "True",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiN2UwNDllODgtNTQwMi00YzQxLTk1YTMtYWMyZmUxZmQ4YzE0IiwidCI6Ijk4M2JmOTVjLTAyNDYtNDg5My05MmI4LTgwMWJkNTEwYjRmYSJ9&pageName=ReportSectioncbf638ee3561b01ebc99",
+        "dir_parent": "on",
+        "dir_file": "kfla-respiratory-dashboard-overall-surveillance-webpage",
+        "file_name": "kfla-respiratory-dashboard-overall-surveillance-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dashboard (Overall surveillance)",
+          "meta_url": "https://www.kflaph.ca/en/health-topics/respiratory-illness-surveillance-in-kfl-a.aspx",
+          "meta_url_name": "Respiratory illness surveillance in KFL&A",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Respiratory illness surveillance in KFL&A - Dashboard (Hospitalizations) (webpage)",
+        "uuid": "27fd10da-ee53-4df5-8f91-48799442820b",
+        "active": "True",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiN2UwNDllODgtNTQwMi00YzQxLTk1YTMtYWMyZmUxZmQ4YzE0IiwidCI6Ijk4M2JmOTVjLTAyNDYtNDg5My05MmI4LTgwMWJkNTEwYjRmYSJ9&pageName=ReportSectionc98d1f00395915198a2a",
+        "dir_parent": "on",
+        "dir_file": "kfla-respiratory-dashboard-hospitalizations-webpage",
+        "file_name": "kfla-respiratory-dashboard-hospitalizations-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dashboard (Hospitalizations)",
+          "meta_url": "https://www.kflaph.ca/en/health-topics/respiratory-illness-surveillance-in-kfl-a.aspx",
+          "meta_url_name": "Respiratory illness surveillance in KFL&A",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Respiratory illness surveillance in KFL&A - Dashboard (Outbreaks) (webpage)",
+        "uuid": "855e93ff-aa81-4ef8-add3-291e5afaf443",
+        "active": "True",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiN2UwNDllODgtNTQwMi00YzQxLTk1YTMtYWMyZmUxZmQ4YzE0IiwidCI6Ijk4M2JmOTVjLTAyNDYtNDg5My05MmI4LTgwMWJkNTEwYjRmYSJ9&pageName=ReportSectione41fc2cf908e33d09990",
+        "dir_parent": "on",
+        "dir_file": "kfla-respiratory-dashboard-outbreaks-webpage",
+        "file_name": "kfla-respiratory-dashboard-outbreaks-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dashboard (Outbreaks)",
+          "meta_url": "https://www.kflaph.ca/en/health-topics/respiratory-illness-surveillance-in-kfl-a.aspx",
+          "meta_url_name": "Respiratory illness surveillance in KFL&A",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - Respiratory illness surveillance in KFL&A - Dashboard (Notes) (webpage)",
+        "uuid": "c87683fc-221f-4e18-9072-5cf8011ad1a2",
+        "active": "True",
+        "url": "https://app.powerbi.com/view?r=eyJrIjoiN2UwNDllODgtNTQwMi00YzQxLTk1YTMtYWMyZmUxZmQ4YzE0IiwidCI6Ijk4M2JmOTVjLTAyNDYtNDg5My05MmI4LTgwMWJkNTEwYjRmYSJ9&pageName=ReportSection96b273492b005b6c1524",
+        "dir_parent": "on",
+        "dir_file": "kfla-respiratory-dashboard-notes-webpage",
+        "file_name": "kfla-respiratory-dashboard-notes-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "10"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dashboard (Notes)",
+          "meta_url": "https://www.kflaph.ca/en/health-topics/respiratory-illness-surveillance-in-kfl-a.aspx",
+          "meta_url_name": "Respiratory illness surveillance in KFL&A",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
       }
     ],
     "pe": [
