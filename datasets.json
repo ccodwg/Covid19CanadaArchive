@@ -5609,7 +5609,7 @@
         "id_name": "PE - PEI COVID-19 Testing and Case Data - Cases by epidemiological week (image)",
         "uuid": "6377553c-b6bd-4085-ac84-ebf83c1da43c",
         "active": "True",
-        "url": "https://www.princeedwardisland.ca/sites/default/files/embedded_images/chart.png",
+        "url": "https://www.princeedwardisland.ca/sites/default/files/embedded_images/epicurve_covid19_1.jpg",
         "dir_parent": "pe",
         "dir_file": "pei-cases-by-epi-week",
         "file_name": "chart",
@@ -6502,33 +6502,7 @@
     ],
     "other/nl": [],
     "other/on": [],
-    "other/pe": [
-      {
-        "id_name": "Other: PE - COVID Metrics for PEI - Dataset",
-        "uuid": "f1880caf-f77d-4fd0-a0fd-43939f9f4f50",
-        "active": "True",
-        "url": "https://docs.google.com/spreadsheets/d/12wnCJlqT5705u6CjkdbJx8FOLvNBIJQQ_9ONBPWObUk/export?format=xlsx&id=12wnCJlqT5705u6CjkdbJx8FOLvNBIJQQ_9ONBPWObUk",
-        "dir_parent": "other/pe",
-        "dir_file": "pe-covid-metrics",
-        "file_name": "COVID_Metrics_for_PEI_(headline_numbers,_age_distributions,_LTC_outbreaks,_vax_status)",
-        "file_ext": "xlsx",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dataset",
-          "meta_url": "https://docs.google.com/spreadsheets/d/12wnCJlqT5705u6CjkdbJx8FOLvNBIJQQ_9ONBPWObUk/edit",
-          "meta_url_name": "COVID Metrics for PEI",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Other: Non-governmental sources",
-          "meta_group_2": "Prince Edward Island"
-        },
-        "notes": {
-          "notes_data": "This dataset was compiled by Nate Hood (https://twitter.com/HoodHaikus)."
-        }
-      }
-    ],
+    "other/pe": [],
     "other/qc": []
   },
   "inactive": {
@@ -20953,6 +20927,33 @@
         },
         "notes": {
           "notes_data": "This dataset was compiled by Reddit/GitHub user EnterpriseValue (Nouman Ahmad) (https://github.com/EnterpriseValue)."
+        }
+      }
+    ],
+    "other/pe": [
+      {
+        "id_name": "Other: PE - COVID Metrics for PEI - Dataset",
+        "uuid": "f1880caf-f77d-4fd0-a0fd-43939f9f4f50",
+        "active": "False",
+        "url": "https://docs.google.com/spreadsheets/d/12wnCJlqT5705u6CjkdbJx8FOLvNBIJQQ_9ONBPWObUk/export?format=xlsx&id=12wnCJlqT5705u6CjkdbJx8FOLvNBIJQQ_9ONBPWObUk",
+        "dir_parent": "other/pe",
+        "dir_file": "pe-covid-metrics",
+        "file_name": "COVID_Metrics_for_PEI_(headline_numbers,_age_distributions,_LTC_outbreaks,_vax_status)",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://docs.google.com/spreadsheets/d/12wnCJlqT5705u6CjkdbJx8FOLvNBIJQQ_9ONBPWObUk/edit",
+          "meta_url_name": "COVID Metrics for PEI",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Other: Non-governmental sources",
+          "meta_group_2": "Prince Edward Island"
+        },
+        "notes": {
+          "notes_data": "This dataset was compiled by Nate Hood (https://twitter.com/HoodHaikus)."
         }
       }
     ],
