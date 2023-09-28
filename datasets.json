@@ -3545,7 +3545,9 @@
         "file_name": "conposcovidloc",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "user": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Confirmed positive cases of COVID19 in Ontario",
@@ -3567,7 +3569,9 @@
         "file_name": "conposcovidloc_2020",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "user": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Confirmed positive cases of COVID19 in Ontario (2020)",
@@ -3589,7 +3593,9 @@
         "file_name": "conposcovidloc_2021",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "user": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Confirmed positive cases of COVID19 in Ontario (2021)",
@@ -3611,7 +3617,9 @@
         "file_name": "conposcovidloc_2022",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "user": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Confirmed positive cases of COVID19 in Ontario (2022)",
@@ -3633,7 +3641,9 @@
         "file_name": "cumulative_deaths",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "user": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Cumulative deaths (new methodology)",
@@ -3657,7 +3667,9 @@
         "file_name": "percent_positive_by_agegrp",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "user": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Dataset",
@@ -3679,7 +3691,9 @@
         "file_name": "testing_metrics_by_phu",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "user": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Dataset",
@@ -3701,7 +3715,9 @@
         "file_name": "lhin_hospital_icu_covid_data",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "user": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Dataset",
@@ -3723,7 +3739,9 @@
         "file_name": "hosp_icu_c19_breakdown",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "user": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Dataset",
@@ -3770,7 +3788,9 @@
         "file_name": "correctionsinmatecases",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "user": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Dataset",
@@ -3792,7 +3812,9 @@
         "file_name": "vaccine_doses",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "user": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccine data",
@@ -3814,7 +3836,9 @@
         "file_name": "vaccines_by_age",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "user": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccine data by age",
@@ -3836,7 +3860,9 @@
         "file_name": "vaccines_by_age_phu",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "user": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Vaccine data by Public Health Unit and by age",
@@ -3858,7 +3884,9 @@
         "file_name": "deaths_fatality_type",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "user": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Dataset",
@@ -3880,7 +3908,9 @@
         "file_name": "deaths_by_vac_status",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "user": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Dataset",
@@ -3902,7 +3932,9 @@
         "file_name": "icu_beds",
         "file_ext": "csv",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "user": "True"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "Dataset",
