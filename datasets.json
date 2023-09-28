@@ -3761,30 +3761,6 @@
         "notes": {}
       },
       {
-        "id_name": "ON - COVID-19 rapid test locations (webpage)",
-        "uuid": "574f927f-191b-4c08-a24e-bac3a7fd14e5",
-        "active": "True",
-        "url": "https://covid-19.ontario.ca/rapid-test-locator",
-        "dir_parent": "on",
-        "dir_file": "rapid-test-locations-webpage",
-        "file_name": "rapid-test-locations-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {
-          "user": "True"
-        },
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://covid-19.ontario.ca/rapid-test-locator",
-          "meta_url_name": "COVID-19 rapid test locations",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Ontario"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "ON - Status of cases in provincial correctional institutions",
         "uuid": "a22a3149-ebf8-4b6b-9236-d10abaa4e124",
         "active": "True",
@@ -16873,6 +16849,30 @@
           "meta_licence_url": "",
           "meta_group_1": "Ontario",
           "meta_group_2": "Public Health Ontario"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "ON - COVID-19 rapid test locations (webpage)",
+        "uuid": "574f927f-191b-4c08-a24e-bac3a7fd14e5",
+        "active": "False",
+        "url": "https://covid-19.ontario.ca/rapid-test-locator",
+        "dir_parent": "on",
+        "dir_file": "rapid-test-locations-webpage",
+        "file_name": "rapid-test-locations-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://covid-19.ontario.ca/rapid-test-locator",
+          "meta_url_name": "COVID-19 rapid test locations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
         },
         "notes": {}
       }
