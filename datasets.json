@@ -2,21 +2,21 @@
   "active": {
     "ab": [
       {
-        "id_name": "AB - COVID-19 Alberta statistics (webpage)",
-        "uuid": "24a572ea-0de3-4f83-b9b7-8764ea203eb6",
+        "id_name": "AB - Alberta respiratory virus statistics (webpage)",
+        "uuid": "35e1786c-1c64-4d46-8f4f-ec14b2e37206",
         "active": "True",
-        "url": "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm",
+        "url": "https://www.alberta.ca/stats/dashboard/respiratory-virus-statistics.htm",
         "dir_parent": "ab",
-        "dir_file": "ab-covid-statistics-webpage",
-        "file_name": "ab-covid-statistics-webpage",
+        "dir_file": "ab-respiratory-virus-statistics-webpage",
+        "file_name": "ab-respiratory-virus-statistics-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
         "args": {},
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
-          "meta_url": "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm",
-          "meta_url_name": "COVID-19 Alberta statistics",
+          "meta_url": "https://www.alberta.ca/stats/dashboard/respiratory-virus-statistics.htm",
+          "meta_url_name": "Alberta respiratory virus statistics",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Alberta"
@@ -24,13 +24,13 @@
         "notes": {}
       },
       {
-        "id_name": "AB - COVID-19 Alberta statistics (webpage) (backup)",
-        "uuid": "1467a98a-78ac-49e0-8843-5339cc260719",
+        "id_name": "AB - Alberta respiratory virus statistics (webpage) (backup)",
+        "uuid": "9ef9f6b8-c0e4-40fd-a984-319208877ec6",
         "active": "True",
-        "url": "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm",
+        "url": "https://www.alberta.ca/stats/dashboard/respiratory-virus-statistics.htm",
         "dir_parent": "ab",
-        "dir_file": "ab-covid-statistics-backup-webpage",
-        "file_name": "ab-covid-statistics-backup-webpage",
+        "dir_file": "ab-respiratory-virus-statistics-backup-webpage",
+        "file_name": "ab-respiratory-virus-statistics-backup-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
         "args": {
@@ -40,8 +40,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage (backup)",
-          "meta_url": "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm",
-          "meta_url_name": "COVID-19 Alberta statistics",
+          "meta_url": "https://www.alberta.ca/stats/dashboard/respiratory-virus-statistics.htm",
+          "meta_url_name": "Alberta respiratory virus statistics",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Alberta"
@@ -184,28 +184,6 @@
           "meta_name": "Webpage",
           "meta_url": "https://www.alberta.ca/covid19-vaccine.aspx",
           "meta_url_name": "COVID-19 vaccine distribution",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Alberta"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "AB - Alberta influenza statistics (webpage)",
-        "uuid": "f8868a2a-0c7b-4a38-bd8d-56f0471eab79",
-        "active": "True",
-        "url": "https://www.alberta.ca/stats/influenza/influenza-statistics.htm",
-        "dir_parent": "ab",
-        "dir_file": "ab-influenza-stats-webpage",
-        "file_name": "ab-influenza-stats-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://www.alberta.ca/stats/influenza/influenza-statistics.htm",
-          "meta_url_name": "Alberta influenza statistics",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Alberta"
@@ -6986,6 +6964,77 @@
         "notes": {
           "notes_data": "Versions of this file from 2021-01-27 to 2021-04-25 have misaligned column names. The final column name is missing and should be 'Case type'. This was due to the unexpected removal of the initial, unnamed ID column. Additionally, this file is missing for 2020-11-30."
         }
+      },
+      {
+        "id_name": "AB - COVID-19 Alberta statistics (webpage)",
+        "uuid": "24a572ea-0de3-4f83-b9b7-8764ea203eb6",
+        "active": "False",
+        "url": "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm",
+        "dir_parent": "ab",
+        "dir_file": "ab-covid-statistics-webpage",
+        "file_name": "ab-covid-statistics-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm",
+          "meta_url_name": "COVID-19 Alberta statistics",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Alberta"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "AB - COVID-19 Alberta statistics (webpage) (backup)",
+        "uuid": "1467a98a-78ac-49e0-8843-5339cc260719",
+        "active": "False",
+        "url": "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm",
+        "dir_parent": "ab",
+        "dir_file": "ab-covid-statistics-backup-webpage",
+        "file_name": "ab-covid-statistics-backup-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "js": "True",
+          "wait": "5"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage (backup)",
+          "meta_url": "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm",
+          "meta_url_name": "COVID-19 Alberta statistics",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Alberta"
+        },
+        "notes": {
+          "notes_data": "This is a JS-enabled backup of the original page."
+        }
+      },
+      {
+        "id_name": "AB - Alberta influenza statistics (webpage)",
+        "uuid": "f8868a2a-0c7b-4a38-bd8d-56f0471eab79",
+        "active": "False",
+        "url": "https://www.alberta.ca/stats/influenza/influenza-statistics.htm",
+        "dir_parent": "ab",
+        "dir_file": "ab-influenza-stats-webpage",
+        "file_name": "ab-influenza-stats-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.alberta.ca/stats/influenza/influenza-statistics.htm",
+          "meta_url_name": "Alberta influenza statistics",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Alberta"
+        },
+        "notes": {}
       }
     ],
     "bc": [
