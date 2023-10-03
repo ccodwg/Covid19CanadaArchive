@@ -3655,7 +3655,7 @@
         "id_name": "NL - Deaths by epidemiological week over the past year",
         "uuid": "081099d5-cb0f-445d-ba00-78f63cc49800",
         "active": "True",
-        "url": "https://services6.arcgis.com/Oayv0bA202oTQWoc/arcgis/rest/services/Deaths_EpiWeek_ForDashboard_Aug26/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
+        "url": "https://services6.arcgis.com/Oayv0bA202oTQWoc/arcgis/rest/services/Deaths_EpiWeek_ForDashboard_Sept27/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&outFields=*",
         "dir_parent": "nl",
         "dir_file": "deaths-by-epi-week-past-year",
         "file_name": "Deaths_EpiWeek_ForDashboard_July26",
