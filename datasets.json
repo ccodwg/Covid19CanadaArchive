@@ -383,28 +383,6 @@
         "notes": {}
       },
       {
-        "id_name": "AB - Cases in Alberta (webpage)",
-        "uuid": "d3b170a7-bb86-4bb0-b362-2adc5e6438c2",
-        "active": "True",
-        "url": "https://www.alberta.ca/covid-19-alberta-data.aspx",
-        "dir_parent": "ab",
-        "dir_file": "ab-cases-webpage",
-        "file_name": "ab-cases-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://www.alberta.ca/covid-19-alberta-data.aspx",
-          "meta_url_name": "Cases in Alberta",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Alberta"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "AB - COVID-19 info for Albertans (webpage)",
         "uuid": "ec1acea4-8b85-4c04-b905-f075de040493",
         "active": "True",
@@ -7294,6 +7272,28 @@
           "meta_name": "Webpage",
           "meta_url": "https://www.alberta.ca/stats/influenza/influenza-statistics.htm",
           "meta_url_name": "Alberta influenza statistics",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Alberta"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "AB - Cases in Alberta (webpage)",
+        "uuid": "d3b170a7-bb86-4bb0-b362-2adc5e6438c2",
+        "active": "False",
+        "url": "https://www.alberta.ca/covid-19-alberta-data.aspx",
+        "dir_parent": "ab",
+        "dir_file": "ab-cases-webpage",
+        "file_name": "ab-cases-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.alberta.ca/covid-19-alberta-data.aspx",
+          "meta_url_name": "Cases in Alberta",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Alberta"
