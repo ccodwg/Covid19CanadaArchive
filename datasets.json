@@ -5832,13 +5832,13 @@
     ],
     "pe": [
       {
-        "id_name": "PE - PEI COVID-19 Testing and Case Data (webpage)",
-        "uuid": "68e5cbb9-0dcc-4a4f-ade0-58a0b06b1455",
+        "id_name": "PE - PEI Respiratory Illness Summary 2023-2024 Season (webpage)",
+        "uuid": "0c7f33a3-5d07-4db9-9287-d88071e027bc",
         "active": "True",
         "url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/covid-19-testing-and-case-data",
         "dir_parent": "pe",
-        "dir_file": "pei-webpage",
-        "file_name": "pei-webpage",
+        "dir_file": "pei-respiratory-illness-summary-2023-2024-webpage",
+        "file_name": "pei-respiratory-illness-summary-2023-2024-webpage",
         "file_ext": "html",
         "dl_fun": "html_page",
         "args": {
@@ -5847,8 +5847,8 @@
         "supplementary": {},
         "metadata": {
           "meta_name": "Webpage",
-          "meta_url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/covid-19-testing-and-case-data",
-          "meta_url_name": "PEI COVID-19 Testing and Case Data",
+          "meta_url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/pei-respiratory-illness-summary-2023-2024-season",
+          "meta_url_name": "PEI Respiratory Illness Summary 2023-2024 Season",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Prince Edward Island"
@@ -5856,13 +5856,13 @@
         "notes": {}
       },
       {
-        "id_name": "PE - PEI COVID-19 Testing and Case Data - Cases by epidemiological week (image)",
-        "uuid": "6377553c-b6bd-4085-ac84-ebf83c1da43c",
+        "id_name": "PE - PEI Respiratory Illness Summary 2023-2024 Season - Epidemiological curve and test positivity (image)",
+        "uuid": "5fb61c0d-9037-4fff-a498-3aa5e0a4888e",
         "active": "True",
-        "url": "https://www.princeedwardisland.ca/sites/default/files/embedded_images/epicurve_covid19_1.jpg",
+        "url": "https://www.princeedwardisland.ca/sites/default/files/embedded_images/resp_surv_epicurve.png",
         "dir_parent": "pe",
-        "dir_file": "pei-cases-by-epi-week",
-        "file_name": "chart",
+        "dir_file": "pei-respiratory-illness-summary-2023-2024-epi-curve-test-positivity",
+        "file_name": "resp_surv_epicurve",
         "file_ext": "png",
         "dl_fun": "dl_file",
         "args": {
@@ -5870,9 +5870,9 @@
         },
         "supplementary": {},
         "metadata": {
-          "meta_name": "Cases by epidemiological week",
-          "meta_url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/covid-19-testing-and-case-data",
-          "meta_url_name": "PEI COVID-19 Testing and Case Data",
+          "meta_name": "Epidemiological curve and test positivity",
+          "meta_url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/pei-respiratory-illness-summary-2023-2024-season",
+          "meta_url_name": "PEI Respiratory Illness Summary 2023-2024 Season",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Prince Edward Island"
@@ -17416,6 +17416,56 @@
         },
         "notes": {
           "notes_data": "This page contains no data since they are not embedded in the page but pulled from the live 'Vaccine rollout' Google Sheet."
+        }
+      },
+      {
+        "id_name": "PE - PEI COVID-19 Testing and Case Data (webpage)",
+        "uuid": "68e5cbb9-0dcc-4a4f-ade0-58a0b06b1455",
+        "active": "False",
+        "url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/covid-19-testing-and-case-data",
+        "dir_parent": "pe",
+        "dir_file": "pei-webpage",
+        "file_name": "pei-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/covid-19-testing-and-case-data",
+          "meta_url_name": "PEI COVID-19 Testing and Case Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Prince Edward Island"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "PE - PEI COVID-19 Testing and Case Data - Cases by epidemiological week (image)",
+        "uuid": "6377553c-b6bd-4085-ac84-ebf83c1da43c",
+        "active": "False",
+        "url": "https://www.princeedwardisland.ca/sites/default/files/embedded_images/epicurve_covid19_1.jpg",
+        "dir_parent": "pe",
+        "dir_file": "pei-cases-by-epi-week",
+        "file_name": "chart",
+        "file_ext": "jpg",
+        "dl_fun": "dl_file",
+        "args": {
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Cases by epidemiological week",
+          "meta_url": "https://www.princeedwardisland.ca/en/information/health-and-wellness/covid-19-testing-and-case-data",
+          "meta_url_name": "PEI COVID-19 Testing and Case Data",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Prince Edward Island"
+        },
+        "notes": {
+          "notes_data": "Some of the later images are have the PNG extension but are actually JPG files."
         }
       }
     ],
