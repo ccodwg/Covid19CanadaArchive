@@ -673,7 +673,7 @@
         "args": {
           "js": "True",
           "wait": "15",
-          "min_size": "500kb"
+          "min_size": "250kb"
         },
         "supplementary": {},
         "metadata": {
