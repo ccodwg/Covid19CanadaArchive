@@ -2136,6 +2136,50 @@
         "notes": {}
       },
       {
+        "id_name": "CAN - Vaccines administered: Vaccination administration by dose number (3)",
+        "uuid": "194a0002-5ad1-4016-8788-e7a216216a92",
+        "active": "True",
+        "url": "https://infobase-dev.com/src/data/covidLive/vaccination-administration-bydosenumber_grouped.csv",
+        "dir_parent": "can",
+        "dir_file": "vaccination-administration-by-dose-number-3",
+        "file_name": "vaccination-administration-bydosenumber_grouped",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination administration by dose number (3)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccine-administration/",
+          "meta_url_name": "COVID-19 vaccination in Canada - Vaccines administered",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "CAN - Vaccines administered: Vaccination administration by dose number (4)",
+        "uuid": "355b88a0-4d6a-4cc0-aeaa-cbba429f1155",
+        "active": "True",
+        "url": "https://infobase-dev.com/src/data/covidLive/vaccination-administration-bydosenumber_grouped2.csv",
+        "dir_parent": "can",
+        "dir_file": "vaccination-administration-by-dose-number-4",
+        "file_name": "vaccination-administration-bydosenumber_grouped2",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccination administration by dose number (4)",
+          "meta_url": "https://health-infobase.canada.ca/covid-19/vaccine-administration/",
+          "meta_url_name": "COVID-19 vaccination in Canada - Vaccines administered",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Canada"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "CAN - Vaccination coverage: Data dictionary",
         "uuid": "7aff8cc2-ae9b-44b8-9ef7-c486bc2c4082",
         "active": "True",
