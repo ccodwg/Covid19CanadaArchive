@@ -3874,6 +3874,30 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Confirmed positive cases of COVID19 in Ontario (2023)",
+        "uuid": "f1c9ce71-b4c4-432b-aa3f-bafbed2ecca6",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/f4112442-bdc8-45d2-be3c-12efae72fb27/resource/ac6ac661-81ea-415b-8934-3a111b8f800f/download/conposcovidloc_2023.csv",
+        "dir_parent": "on",
+        "dir_file": "confirmed-positive-cases-2023",
+        "file_name": "conposcovidloc_2023",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Confirmed positive cases of COVID19 in Ontario (2023)",
+          "meta_url": "https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario",
+          "meta_url_name": "Confirmed positive cases of COVID19 in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - Cumulative deaths (new methodology)",
         "uuid": "75dd0545-f728-4af5-8185-4269596785ef",
         "active": "True",
