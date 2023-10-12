@@ -3898,6 +3898,30 @@
         "notes": {}
       },
       {
+        "id_name": "ON - Confirmed positive cases of COVID19 in Ontario (Data dictionary)",
+        "uuid": "4ecf4b18-d634-46b8-949b-5893e210a70c",
+        "active": "True",
+        "url": "https://data.ontario.ca/dataset/f4112442-bdc8-45d2-be3c-12efae72fb27/resource/a2ea0536-1eae-4a17-aa04-e5a1ab89ca9a/download/conposcovidloc_data_dictionary_april2023_updates.xlsx",
+        "dir_parent": "on",
+        "dir_file": "confirmed-positive-cases-data-dictionary",
+        "file_name": "conposcovidloc_data_dictionary",
+        "file_ext": "xlsx",
+        "dl_fun": "dl_file",
+        "args": {
+          "user": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Confirmed positive cases of COVID19 in Ontario (Data dictionary)",
+          "meta_url": "https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario",
+          "meta_url_name": "Confirmed positive cases of COVID19 in Ontario",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Ontario"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "ON - Cumulative deaths (new methodology)",
         "uuid": "75dd0545-f728-4af5-8185-4269596785ef",
         "active": "True",
