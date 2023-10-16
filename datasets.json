@@ -11775,7 +11775,7 @@
       {
         "id_name": "MB - Provincial Respiratory Surveillance Report - COVID-19 (webpage)",
         "uuid": "363c937c-c384-4f4e-be24-fbd47fac9e83",
-        "active": "True",
+        "active": "False",
         "url_fun_python": "from bs4 import BeautifulSoup; import requests; url_current = 'https://www.gov.mb.ca/health/publichealth/surveillance/covid-19/' + BeautifulSoup(requests.get('https://www.gov.mb.ca/health/publichealth/surveillance/covid-19/index.html', timeout=5).text, features='html.parser').select_one('a[href*=week]').attrs['href']",
         "url_fun_r": "library(rvest); paste0('https://www.gov.mb.ca/health/publichealth/surveillance/covid-19/', html_attr(html_element(read_html('https://www.gov.mb.ca/health/publichealth/surveillance/covid-19/index.html'), 'a[href*=week]'), 'href'))",
         "dir_parent": "mb",
