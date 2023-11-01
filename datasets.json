@@ -3746,6 +3746,30 @@
           "meta_group_1": "Nova Scotia"
         },
         "notes": {}
+      },
+      {
+        "id_name": "NS - Communicable Disease Prevention and Control Respiratory Watch Report",
+        "uuid": "b96c566d-39b4-4ac8-b83a-119bc9661226",
+        "active": "True",
+        "url_fun_python": "import requests\nfrom bs4 import BeautifulSoup\nimport re\n\nclass CustomHttpAdapter (requests.adapters.HTTPAdapter):\n    def __init__(self, ssl_context=None, **kwargs):\n        self.ssl_context = ssl_context\n        super().__init__(**kwargs)\n\n    def init_poolmanager(self, connections, maxsize, block=False):\n        import urllib3\n        self.poolmanager = urllib3.poolmanager.PoolManager(\n            num_pools=connections, maxsize=maxsize,\n            block=block, ssl_context=self.ssl_context)\n\ndef get_legacy_session(custom_session):\n    import ssl\n    import requests\n    ctx = ssl.create_default_context(ssl.Purpose.SERVER_AUTH)\n    ctx.options |= 0x4\n    session = requests.session()\n    session.mount('https://', custom_session(ctx))\n    return session\n\nreq = get_legacy_session(CustomHttpAdapter).get('https://novascotia.ca/dhw/cdpc/respiratory-watch.asp', timeout=5)\nurl_current = 'https://novascotia.ca/dhw/cdpc/' + BeautifulSoup(req.content).find('a', text=re.compile('^Respiratory Watch Week'))['href']\n",
+        "dir_parent": "ns",
+        "dir_file": "respiratory-watch-report",
+        "file_name": "respiratory-watch",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {
+          "legacy_ssl": "True"
+        },
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Report (PDF)",
+          "meta_url": "https://novascotia.ca/dhw/cdpc/respiratory-watch.asp",
+          "meta_url_name": "Communicable Disease Prevention and Control Respiratory Watch Report",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Nova Scotia"
+        },
+        "notes": {}
       }
     ],
     "nt": [],
