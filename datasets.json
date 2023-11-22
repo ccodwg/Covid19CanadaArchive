@@ -3878,7 +3878,7 @@
         "id_name": "ON - Confirmed positive cases of COVID19 in Ontario (Data dictionary)",
         "uuid": "4ecf4b18-d634-46b8-949b-5893e210a70c",
         "active": "True",
-        "url": "https://data.ontario.ca/dataset/f4112442-bdc8-45d2-be3c-12efae72fb27/resource/a2ea0536-1eae-4a17-aa04-e5a1ab89ca9a/download/conposcovidloc_data_dictionary_april2023_updates.xlsx",
+        "url": "https://data.ontario.ca/dataset/f4112442-bdc8-45d2-be3c-12efae72fb27/resource/8f5cb424-cef5-4e09-95f1-8ac33ef24931/download/conposcovidloc_data_dictionary_april2023_updates.xlsx",
         "dir_parent": "on",
         "dir_file": "confirmed-positive-cases-data-dictionary",
         "file_name": "conposcovidloc_data_dictionary",
