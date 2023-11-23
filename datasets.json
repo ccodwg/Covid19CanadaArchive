@@ -3649,6 +3649,28 @@
           "meta_group_1": "Newfoundland and Labrador"
         },
         "notes": {}
+      },
+      {
+        "id_name": "NL - Respiratory Activity Dashboard - Technical notes",
+        "uuid": "cba6717b-54d0-40b2-b79f-1e1581f9ab92",
+        "active": "True",
+        "url": "https://ago-item-storage.s3.amazonaws.com/76849186b5504973b18d0b5f133cfd68/Technical_Notes_Nov15.pdf",
+        "dir_parent": "nl",
+        "dir_file": "nl-respiratory-activity-dashboard-technical-notes",
+        "file_name": "nl-respiratory-activity-dashboard-technical-notes",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Technical notes",
+          "meta_url": "https://storymaps.arcgis.com/stories/3e071e497a974f71881c162311655045",
+          "meta_url_name": "Newfoundland and Labrador Respiratory Activity Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Newfoundland and Labrador"
+        },
+        "notes": {}
       }
     ],
     "ns": [
