@@ -3649,28 +3649,6 @@
           "meta_group_1": "Newfoundland and Labrador"
         },
         "notes": {}
-      },
-      {
-        "id_name": "NL - Respiratory Activity Dashboard - Technical notes",
-        "uuid": "cba6717b-54d0-40b2-b79f-1e1581f9ab92",
-        "active": "True",
-        "url": "https://ago-item-storage.s3.amazonaws.com/76849186b5504973b18d0b5f133cfd68/Technical_Notes_Nov15.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIGDZZzGUGpYB4WRRf0OaR2n%2FB6UnOh3ErN8GJwi4%2BHwDAiAhx2EEYUsPDI5dbdX2vxA3NKC%2F%2BWhJwwAUbEadejqoeiqzBQhKEAAaDDYwNDc1ODEwMjY2NSIMjUdMkvc%2Btiv5N3IeKpAFC%2FS5S0bgBHmkrN%2Fed6KoGl2K0DQ0IkoiyKSLnmMH6BWWsNfxVgockeY6U6tmfhuc5yQ2Zjaivc0RpCAQAj1k0qd7UtFsWUD1SymNjdnJwnFUhbrpp5KCKrHV8gxw1gX44jgqRl6c59e3zAxc0ZB5pTv5j4FBnxwbpuvu%2B%2B5Bk3w%2FA8Mi0ZuXOTb7HXzyM3GNKc%2BFv6ymaox9YCUNxNwajK08dKmfVwVwWkCZI9FaMWvszj%2FCD8zOuQbsPh98q0ZcOGaEYUyFCigeC7dd6CJA26Y%2B1ssqQLdlPaQJkvYP426bxdSepqBmyUCmGIl3Ts9rVEMs2TQEbWToG4Y%2F74jddlwlmCt1LHpH2f6ZH0W70N63GTRCwJ9nMScghSsf%2Ffyi0nGUKIsIPmuizKNs2Ffgel%2FbXZGhFHOGsVTAPnwwBuQ5e1UfYtwim6Uyy%2Bnm6QiElc09uYq1sqjbfQDDVrgQpNsS1U%2FMeKE5aJDetY089hZlbrpOTwNjtrNi6aSLe5wUbvJ5v1V6FJjJA47Adw8vYsG%2BPCq%2B%2Bsg0Qr6nunh0P6W1kCAairAAWwvKcOjo5qgElJaPlBGEHjet7nAp1PCPMvagAm%2BoDqqGSGxvR6sFs6j9eWgJ%2Bv%2Fs%2F98kvfZOr2P5aebcCt8pqINi3I6uQhwQKNhlukL2d9pCZkz0r2cErcZgnTBUXOQs7bG6Z59FN5sxoXCefbUJQioOJ8wVpvb7fRCLBp%2FeoWMl3GYjUQoNZ2W551xHyR3YRfAmtd5SSNESecP%2Fp85%2Bz4OSKfa%2Bp9CEz2Stk5boWg48Wxb22KcFA4WfNpgiDl%2F2dRxRLUyVISNv4ZmN6Ae9OnDV6LCGqSP23do%2F%2Bz6iQQ7M6BpJ5%2BnkJ8sw8oX%2BqgY6sgHbG3cxgKGiTNKKU%2BclE27JbXWgCx10CVEIbdBuT1qiANj49GmhEW87FiiSaXC35lKrrmuIxe4DyY1wsrflaGMm%2BzdnqHAfafdJPsNxI3jc4XMd2x698XdhVlYdfAsstgT3eOhPpjIsUrcKwZyJhTZmf%2FeALt9S2zrxis%2FPxNrC3xpJHmv7bwyNpd84NkOba0onD6M7XsLcmXF0uda7ryf%2BOARPMcnmr7ofPZ2FGMgQCrwi&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231123T172010Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAYZTTEKKEYGGRY55P%2F20231123%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=671447b4337104043728a69741153636e641bd2ab818fd2ff9d3a40994a13aac",
-        "dir_parent": "nl",
-        "dir_file": "nl-respiratory-activity-dashboard-technical-notes",
-        "file_name": "nl-respiratory-activity-dashboard-technical-notes",
-        "file_ext": "pdf",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Technical notes",
-          "meta_url": "https://storymaps.arcgis.com/stories/3e071e497a974f71881c162311655045",
-          "meta_url_name": "Newfoundland and Labrador Respiratory Activity Dashboard",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Newfoundland and Labrador"
-        },
-        "notes": {}
       }
     ],
     "ns": [
@@ -13402,6 +13380,28 @@
         "notes": {
           "notes_data": "Vaccination coverage is defined as those who have completed a primary series of Health Canada approved COVID-19 vaccines (2 doses) and/or at least one booster on or after September 21st 2022."
         }
+      },
+      {
+        "id_name": "NL - Respiratory Activity Dashboard - Technical notes",
+        "uuid": "cba6717b-54d0-40b2-b79f-1e1581f9ab92",
+        "active": "False",
+        "url": "https://ago-item-storage.s3.amazonaws.com/76849186b5504973b18d0b5f133cfd68/Technical_Notes_Nov15.pdf",
+        "dir_parent": "nl",
+        "dir_file": "nl-respiratory-activity-dashboard-technical-notes",
+        "file_name": "nl-respiratory-activity-dashboard-technical-notes",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Technical notes",
+          "meta_url": "https://storymaps.arcgis.com/stories/3e071e497a974f71881c162311655045",
+          "meta_url_name": "Newfoundland and Labrador Respiratory Activity Dashboard",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Newfoundland and Labrador"
+        },
+        "notes": {}
       }
     ],
     "nt": [
