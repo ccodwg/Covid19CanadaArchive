@@ -6433,6 +6433,28 @@
         }
       },
       {
+        "id_name": "QC - Daily hospitalizations - List of variables and data notes",
+        "uuid": "4b75b970-83e3-441c-b5d3-0b912956fb1e",
+        "active": "True",
+        "url": "https://www.donneesquebec.ca/recherche/dataset/99517f1f-9e4d-4853-98da-47f7cafb4d77/resource/2227d1b2-8449-4a3d-9c3b-682226dfe687/download/listevariables_notesmetho_hospit_20231205.pdf",
+        "dir_parent": "qc",
+        "dir_file": "daily-hosp-list-variables-data-notes",
+        "file_name": "listevariables_notesmetho_hospit",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "List of variables and data notes",
+          "meta_url": "https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-des-hospitalisations",
+          "meta_url_name": "Portrait quotidien des hospitalisations",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Quebec"
+        },
+        "notes": {}
+      },
+      {
         "id_name": "QC - Weekly deaths in Quebec by age group",
         "uuid": "f559d214-5154-4dee-8d67-991525ec6ac3",
         "active": "True",
