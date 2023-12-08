@@ -315,74 +315,6 @@
         "notes": {}
       },
       {
-        "id_name": "AB - COVID-19 Alberta statistics: Summary data time series",
-        "uuid": "3ced816d-8524-4875-bd69-61fb5603b596",
-        "active": "True",
-        "url": "https://www.alberta.ca/data/stats/covid-19-alberta-statistics-summary-data.csv",
-        "dir_parent": "ab",
-        "dir_file": "covid-summary-time-series",
-        "file_name": "covid-19-alberta-statistics-summary-data",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Summary data time series",
-          "meta_url": "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm",
-          "meta_url_name": "COVID-19 Alberta statistics",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Alberta"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "AB - COVID-19 Alberta statistics: Case time series (Local geographic area)",
-        "uuid": "e7d94ff1-6029-4046-8f93-281d200912a9",
-        "active": "True",
-        "url": "https://www.alberta.ca/data/stats/covid-19-alberta-statistics-map-data.csv",
-        "dir_parent": "ab",
-        "dir_file": "case-time-series-by-lga",
-        "file_name": "covid-19-alberta-statistics-map-data",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Case time series (Local geographic area)",
-          "meta_url": "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm",
-          "meta_url_name": "COVID-19 Alberta statistics",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Alberta"
-        },
-        "notes": {
-          "notes_data": "As of 2022-10-12, data are reported at the level of Zone rather than Local Geographic Area."
-        }
-      },
-      {
-        "id_name": "AB - COVID-19 Alberta statistics: Vaccine data (Local geographic area)",
-        "uuid": "48a2e451-cad7-4f47-a792-5a4dad2eb8c3",
-        "active": "True",
-        "url": "https://www.alberta.ca/data/stats/lga-coverage.csv",
-        "dir_parent": "ab",
-        "dir_file": "vaccine-coverage-by-lga",
-        "file_name": "lga-coverage",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Vaccine data (Local geographic area)",
-          "meta_url": "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm",
-          "meta_url_name": "COVID-19 Alberta statistics",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Alberta"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "AB - COVID-19 info for Albertans (webpage)",
         "uuid": "ec1acea4-8b85-4c04-b905-f075de040493",
         "active": "True",
@@ -480,72 +412,6 @@
         "notes": {}
       },
       {
-        "id_name": "AB - COVID-19 Alberta statistics mirror datasets: Day by day",
-        "uuid": "95114364-265a-4460-85cd-96c5b9212769",
-        "active": "True",
-        "url": "https://data.edmonton.ca/api/views/gxqm-z6fa/rows.csv?accessType=DOWNLOAD",
-        "dir_parent": "ab",
-        "dir_file": "ab-covid-statistics-mirror-day-by-day",
-        "file_name": "COVID-19_in_Alberta__Day_by_day",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Day by day",
-          "meta_url": "https://data.edmonton.ca/browse?limitTo=datasets&q=COVID-19&sortBy=relevance&tags=ahs",
-          "meta_url_name": "COVID-19 Alberta statistics mirror datasets",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Alberta"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "AB - COVID-19 Alberta statistics mirror datasets: People tested for COVID-19 in Alberta by age group and gender",
-        "uuid": "064b678c-055d-4c61-9b3c-6fcb8680ff73",
-        "active": "True",
-        "url": "https://data.edmonton.ca/api/views/ypc6-7cu6/rows.csv?accessType=DOWNLOAD",
-        "dir_parent": "ab",
-        "dir_file": "ab-covid-statistics-mirror-people-tested-by-age-group-and-gender",
-        "file_name": "COVID-19_in_Alberta__People_tested_for_COVID-19_in_Alberta_by_age_group_and_gender",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "People tested for COVID-19 in Alberta by age group and gender",
-          "meta_url": "https://data.edmonton.ca/browse?limitTo=datasets&q=COVID-19&sortBy=relevance&tags=ahs",
-          "meta_url_name": "COVID-19 Alberta statistics mirror datasets",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Alberta"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "AB - COVID-19 Alberta statistics mirror datasets: Day by day for Edmonton",
-        "uuid": "7031da81-3859-45d0-a7f5-e499de158cba",
-        "active": "True",
-        "url": "https://data.edmonton.ca/api/views/xwaa-ucvd/rows.csv?accessType=DOWNLOAD",
-        "dir_parent": "ab",
-        "dir_file": "ab-covid-statistics-mirror-day-by-day-edmonton",
-        "file_name": "COVID-19_in_Edmonton__Day_by_day",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Day by day for Edmonton",
-          "meta_url": "https://data.edmonton.ca/browse?limitTo=datasets&q=COVID-19&sortBy=relevance&tags=ahs",
-          "meta_url_name": "COVID-19 Alberta statistics mirror datasets",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Alberta"
-        },
-        "notes": {}
-      },
-      {
         "id_name": "AB - COVID-19 Vaccination Locations (Calgary)",
         "uuid": "044f50ee-6176-430b-a5c7-fefb4dc16678",
         "active": "True",
@@ -588,29 +454,6 @@
           "meta_licence_url": "",
           "meta_group_1": "Alberta",
           "meta_group_2": "Calgary"
-        },
-        "notes": {}
-      },
-      {
-        "id_name": "AB - Impacts to Citizens: City COVID-19 Response (Edmonton)",
-        "uuid": "f85314cf-9cf1-4d15-9b21-4e6414bc6002",
-        "active": "True",
-        "url": "https://data.edmonton.ca/api/views/uwts-yj6k/rows.csv?accessType=DOWNLOAD",
-        "dir_parent": "ab",
-        "dir_file": "edmonton-impact-to-citizens-city-covid-19-response",
-        "file_name": "Impacts_to_Citizens__City_COVID-19_Response",
-        "file_ext": "csv",
-        "dl_fun": "dl_file",
-        "args": {},
-        "supplementary": {},
-        "metadata": {
-          "meta_name": "Dataset",
-          "meta_url": "https://data.edmonton.ca/City-Administration/Impacts-to-Citizens-City-COVID-19-Response/uwts-yj6k",
-          "meta_url_name": "Impacts to Citizens: City COVID-19 Response (Edmonton)",
-          "meta_licence": "",
-          "meta_licence_url": "",
-          "meta_group_1": "Alberta",
-          "meta_group_2": "Edmonton"
         },
         "notes": {}
       }
@@ -7391,6 +7234,163 @@
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Alberta"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "AB - COVID-19 Alberta statistics: Summary data time series",
+        "uuid": "3ced816d-8524-4875-bd69-61fb5603b596",
+        "active": "False",
+        "url": "https://www.alberta.ca/data/stats/covid-19-alberta-statistics-summary-data.csv",
+        "dir_parent": "ab",
+        "dir_file": "covid-summary-time-series",
+        "file_name": "covid-19-alberta-statistics-summary-data",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Summary data time series",
+          "meta_url": "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm",
+          "meta_url_name": "COVID-19 Alberta statistics",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Alberta"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "AB - COVID-19 Alberta statistics: Case time series (Local geographic area)",
+        "uuid": "e7d94ff1-6029-4046-8f93-281d200912a9",
+        "active": "False",
+        "url": "https://www.alberta.ca/data/stats/covid-19-alberta-statistics-map-data.csv",
+        "dir_parent": "ab",
+        "dir_file": "case-time-series-by-lga",
+        "file_name": "covid-19-alberta-statistics-map-data",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Case time series (Local geographic area)",
+          "meta_url": "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm",
+          "meta_url_name": "COVID-19 Alberta statistics",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Alberta"
+        },
+        "notes": {
+          "notes_data": "As of 2022-10-12, data are reported at the level of Zone rather than Local Geographic Area."
+        }
+      },
+      {
+        "id_name": "AB - COVID-19 Alberta statistics: Vaccine data (Local geographic area)",
+        "uuid": "48a2e451-cad7-4f47-a792-5a4dad2eb8c3",
+        "active": "False",
+        "url": "https://www.alberta.ca/data/stats/lga-coverage.csv",
+        "dir_parent": "ab",
+        "dir_file": "vaccine-coverage-by-lga",
+        "file_name": "lga-coverage",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Vaccine data (Local geographic area)",
+          "meta_url": "https://www.alberta.ca/stats/covid-19-alberta-statistics.htm",
+          "meta_url_name": "COVID-19 Alberta statistics",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Alberta"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "AB - COVID-19 Alberta statistics mirror datasets: Day by day",
+        "uuid": "95114364-265a-4460-85cd-96c5b9212769",
+        "active": "False",
+        "url": "https://data.edmonton.ca/api/views/gxqm-z6fa/rows.csv?accessType=DOWNLOAD",
+        "dir_parent": "ab",
+        "dir_file": "ab-covid-statistics-mirror-day-by-day",
+        "file_name": "COVID-19_in_Alberta__Day_by_day",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Day by day",
+          "meta_url": "https://data.edmonton.ca/browse?limitTo=datasets&q=COVID-19&sortBy=relevance&tags=ahs",
+          "meta_url_name": "COVID-19 Alberta statistics mirror datasets",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Alberta"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "AB - COVID-19 Alberta statistics mirror datasets: People tested for COVID-19 in Alberta by age group and gender",
+        "uuid": "064b678c-055d-4c61-9b3c-6fcb8680ff73",
+        "active": "False",
+        "url": "https://data.edmonton.ca/api/views/ypc6-7cu6/rows.csv?accessType=DOWNLOAD",
+        "dir_parent": "ab",
+        "dir_file": "ab-covid-statistics-mirror-people-tested-by-age-group-and-gender",
+        "file_name": "COVID-19_in_Alberta__People_tested_for_COVID-19_in_Alberta_by_age_group_and_gender",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "People tested for COVID-19 in Alberta by age group and gender",
+          "meta_url": "https://data.edmonton.ca/browse?limitTo=datasets&q=COVID-19&sortBy=relevance&tags=ahs",
+          "meta_url_name": "COVID-19 Alberta statistics mirror datasets",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Alberta"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "AB - COVID-19 Alberta statistics mirror datasets: Day by day for Edmonton",
+        "uuid": "7031da81-3859-45d0-a7f5-e499de158cba",
+        "active": "False",
+        "url": "https://data.edmonton.ca/api/views/xwaa-ucvd/rows.csv?accessType=DOWNLOAD",
+        "dir_parent": "ab",
+        "dir_file": "ab-covid-statistics-mirror-day-by-day-edmonton",
+        "file_name": "COVID-19_in_Edmonton__Day_by_day",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Day by day for Edmonton",
+          "meta_url": "https://data.edmonton.ca/browse?limitTo=datasets&q=COVID-19&sortBy=relevance&tags=ahs",
+          "meta_url_name": "COVID-19 Alberta statistics mirror datasets",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Alberta"
+        },
+        "notes": {}
+      },
+      {
+        "id_name": "AB - Impacts to Citizens: City COVID-19 Response (Edmonton)",
+        "uuid": "f85314cf-9cf1-4d15-9b21-4e6414bc6002",
+        "active": "False",
+        "url": "https://data.edmonton.ca/api/views/uwts-yj6k/rows.csv?accessType=DOWNLOAD",
+        "dir_parent": "ab",
+        "dir_file": "edmonton-impact-to-citizens-city-covid-19-response",
+        "file_name": "Impacts_to_Citizens__City_COVID-19_Response",
+        "file_ext": "csv",
+        "dl_fun": "dl_file",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Dataset",
+          "meta_url": "https://data.edmonton.ca/City-Administration/Impacts-to-Citizens-City-COVID-19-Response/uwts-yj6k",
+          "meta_url_name": "Impacts to Citizens: City COVID-19 Response (Edmonton)",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Alberta",
+          "meta_group_2": "Edmonton"
         },
         "notes": {}
       }
