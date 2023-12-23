@@ -6375,7 +6375,9 @@
         "file_name": "sha-outbreak-list-congregate-setting",
         "file_ext": "pdf",
         "dl_fun": "dl_file",
-        "args": {},
+        "args": {
+          "verify": "False"
+        },
         "supplementary": {},
         "metadata": {
           "meta_name": "SHA Outbreak List Congregate Setting",
