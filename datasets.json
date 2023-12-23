@@ -6366,21 +6366,21 @@
     ],
     "sk": [
       {
-        "id_name": "SK - COVID-19 Active Outbreaks (webpage)",
-        "uuid": "dd622812-7fbb-4bdc-8329-7023a928dd6d",
+        "id_name": "SK - SHA Outbreak List Congregate Setting",
+        "uuid": "f6986ee2-ce7a-439d-878e-1f6e85944053",
         "active": "True",
-        "url": "https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/covid-19-active-outbreaks",
+        "url": "https://www.saskhealthauthority.ca/system/files/2021-07/SHA-COVID-19-Outbreak-List-Congregate-Setting.pdf",
         "dir_parent": "sk",
-        "dir_file": "active-outbreaks-webpage",
-        "file_name": "active-outbreaks-webpage",
-        "file_ext": "html",
-        "dl_fun": "html_page",
+        "dir_file": "sha-outbreak-list-congregate-setting",
+        "file_name": "sha-outbreak-list-congregate-setting",
+        "file_ext": "pdf",
+        "dl_fun": "dl_file",
         "args": {},
         "supplementary": {},
         "metadata": {
-          "meta_name": "Webpage",
-          "meta_url": "https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/covid-19-active-outbreaks",
-          "meta_url_name": "COVID-19 Active Outbreaks",
+          "meta_name": "SHA Outbreak List Congregate Setting",
+          "meta_url": "https://www.saskhealthauthority.ca/intranet/health-provider-resources/clinical-resources/covid-19-info-healthcare-providers/testing-screening-treatment-and-medical-directives/outbreaks",
+          "meta_url_name": "Outbreaks",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Saskatchewan"
@@ -20490,6 +20490,28 @@
         "notes": {
           "notes_data": "Monthly report released 2022-07-21 was corrected on 2022-07-25 with the following note: 'Outbreaks for the period June 26-July 16 initially stated three, corrected to 17'; it was further corrected on 2022-08-08 with the following note: 'Number of COVID-19 vaccine doses initially stated 2,526,279, corrected to 2,533,382.'."
         }
+      },
+      {
+        "id_name": "SK - COVID-19 Active Outbreaks (webpage)",
+        "uuid": "dd622812-7fbb-4bdc-8329-7023a928dd6d",
+        "active": "False",
+        "url": "https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/covid-19-active-outbreaks",
+        "dir_parent": "sk",
+        "dir_file": "active-outbreaks-webpage",
+        "file_name": "active-outbreaks-webpage",
+        "file_ext": "html",
+        "dl_fun": "html_page",
+        "args": {},
+        "supplementary": {},
+        "metadata": {
+          "meta_name": "Webpage",
+          "meta_url": "https://www.saskatchewan.ca/government/health-care-administration-and-provider-resources/treatment-procedures-and-guidelines/emerging-public-health-issues/2019-novel-coronavirus/latest-updates/covid-19-active-outbreaks",
+          "meta_url_name": "COVID-19 Active Outbreaks",
+          "meta_licence": "",
+          "meta_licence_url": "",
+          "meta_group_1": "Saskatchewan"
+        },
+        "notes": {}
       }
     ],
     "yt": [
