@@ -5838,7 +5838,7 @@
         "metadata": {
           "meta_name": "Cumulative time series of confirmed cases and deaths",
           "meta_url": "https://www.donneesquebec.ca/recherche/dataset/covid-19-portrait-quotidien-des-cas-confirmes",
-          "meta_url_name": "COVID-19 - Portrait quotidien des cas confirmés ",
+          "meta_url_name": "COVID-19 - Portrait quotidien des cas confirmés",
           "meta_licence": "CC-BY 4.0",
           "meta_licence_url": "https://www.donneesquebec.ca/licence/#cc-by",
           "meta_group_1": "Quebec"
