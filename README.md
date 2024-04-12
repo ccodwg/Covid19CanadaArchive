@@ -4,8 +4,6 @@ The purpose of this repository is to support automated, daily backups of COVID-1
 
 For a list of available datasets, see the [Data catalogue](#data-catalogue) below. For information on how to access the datasets in the archive, see [Accessing the data](#accessing-the-data).
 
-The easiest way to [contribute to this project](#contributing) is to help add new data (by providing a link to the data or by uploading files you have previously downloaded) using our [data submission form](https://docs.google.com/forms/d/e/1FAIpQLSeiUd415u_qdqNwNHVEeA_6KCEMRJhXJSL9_9i1UvLDN3LGQA/viewform?usp=sf_link) or by opening an issue on GitHub. We're also looking for help making this archive more useful and accessible by building tools to simplify discovering, downloading and working with the data contained within.
-
 File name timestamps are given in ET (America/Toronto) in the following format: %Y-%m-%d_%H-%M. Files are archived nightly beginning around 22:00 ET.
 
 All code in this repository is covered by the [MIT License](https://github.com/ccodwg/Covid19CanadaArchive/blob/master/LICENSE). Archived datasets may be used under the licenses/terms of use assigned to them by the data creators.
@@ -16,10 +14,6 @@ Table of contents:
 
 * [Data catalogue](#data-catalogue)
 * [Accessing the data](#accessing-the-data)
-* [Contributing](#contributing)
-  * [Add a new dataset](#add-a-new-dataset)
-  * [Retire an inactive dataset](#retire-an-inactive-dataset)
-  * [Contribute historical data](#contribute-historical-data)
 * [Recommended citation](#recommended-citation)
 * [Notes about the data archive](#notes-about-the-data-archive)
 * [Notes about the archival tool](#notes-about-the-archival-tool)
@@ -50,36 +44,6 @@ https://data.opencovid.ca/archive/index.db
 This database can easily be queried using a programming language and used to download a list of files.
 
 Previously, a [JSON API](https://api.opencovid.ca/) was available to search the file index, which supported filtering by UUID and date ranges, as well as removing duplicate files. This API was retired in February 2024.
-
-## Contributing
-
-You may contribute to the project in several ways. In the future, more ways of contributing will be added (e.g., adding metadata).
-
-### Add a new dataset
-
-New datasets may be added in the following ways:
-
-* **New!** Use our [data submission form](https://docs.google.com/forms/d/e/1FAIpQLSeiUd415u_qdqNwNHVEeA_6KCEMRJhXJSL9_9i1UvLDN3LGQA/viewform?usp=sf_link).
-* Create a pull request on GitHub adding the dataset to the appropriate location in the "active" section of `data/datasets.json`. See other entries for examples.
-* Create an issue on GitHub requesting the new dataset be added.
-* Email [the maintainer](https://jeanpaulsoucy.com/) requesting the new dataset be added.
-
-If you have archived versions of the dataset you are adding (e.g., you previously downloaded the dataset daily), see "Contributing historical data" below.
-
-### Contribute historical data
-
-Historical data (e.g., archived versions of a dataset newly added to the archival tool) may be contributed in the following ways:
-
-* **New!** Use our [data submission form](https://docs.google.com/forms/d/e/1FAIpQLSeiUd415u_qdqNwNHVEeA_6KCEMRJhXJSL9_9i1UvLDN3LGQA/viewform?usp=sf_link).
-* Create an issue on GitHub regarding the historical data.
-* Email [the maintainer](https://jeanpaulsoucy.com/) regarding the historical data.
-
-### Retire an inactive dataset
-
-Some datasets continue to exist at a URL but are no longer updated. These datasets should be removed from the nightly update. This may be achieved in the following ways:
-
-* Create a pull request on GitHub moving the dataset's entry from the "active" section of `data/datsets.json` to the appropriate location in the "inactive" section. Also, change the dataset's "active" flag from "True" to "False". See other entries for examples.
-* Email [the maintainer](https://jeanpaulsoucy.com/) with the historical data (for a dataset you've downloaded previously but is no longer updated).
 
 ## Recommended citation
 
