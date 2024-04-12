@@ -1,14 +1,12 @@
 # Canadian COVID-19 Data Archive
 
-The purpose of this repository is to support automated, daily backups of COVID-19 data from Canadian governmental and non-governmental sources. It is composed of a list of datasets (`datasets.json`), as well as the Python code making up the archival tool itself. The Canadian COVID-19 Data Archive is one component of the **[What Happened? COVID-19 in Canada](https://whathappened.coronavirus.icu/)** project.
+The Canadian COVID-19 Data Archive is a collection of datasets, documents and webpages related to the COVID-19 pandemic in Canada, with files spanning March 2020 to January 2024. This project supported automated, daily snapshots of Canadian COVID-19 data from governmental and non-governmental sources beginning August 25, 2020 and concluding January 31, 2024. The Archive is maintained by [Jean-Paul R. Soucy](https://jeanpaulsoucy.com/) on behalf of the [COVID-19 Open Data Working Group](https://opencovid.ca/). It is a sister project to the [Timeline of COVID-19 in Canada](https://github.com/ccodwg/CovidTimelineCanada), a definitive dataset for COVID-19 in Canada.
 
 For a list of available datasets, see the [Data catalogue](#data-catalogue) below. For information on how to access the datasets in the archive, see [Accessing the data](#accessing-the-data).
 
-File name timestamps are given in ET (America/Toronto) in the following format: %Y-%m-%d_%H-%M. Files are archived nightly beginning around 22:00 ET.
+File name timestamps are given in ET (America/Toronto) in the following format: %Y-%m-%d_%H-%M. Files were archived nightly beginning around 22:00 ET.
 
 All code in this repository is covered by the [MIT License](https://github.com/ccodwg/Covid19CanadaArchive/blob/master/LICENSE). Archived datasets may be used under the licenses/terms of use assigned to them by the data creators.
-
-This repository is maintained by [Jean-Paul R. Soucy](https://jeanpaulsoucy.com/) on behalf of the [COVID-19 Open Data Working Group](https://opencovid.ca/).
 
 Table of contents:
 
@@ -70,5 +68,3 @@ Many people are to thank for contributing archived data and code to this reposit
 
 [Jens von Bergmann](https://github.com/mountainMath) / [Simon Coulombe](https://github.com/simoncoulombe) / [James E. Wright](https://twitter.com/JWright159) / [Farbod Abolhassani](https://github.com/farbodab) / [Shelby L. Sturrock](https://twitter.com/shelbysturrock) / [Safa Ahmad](https://twitter.com/birdseye47) / [Jacques Marcoux](https://twitter.com/jacquesmarcoux) / [Shraddha Pai](https://twitter.com/spaiglass) / [Matti Aleve](https://twitter.com/maleve) / [Scott van Millingen](https://github.com/svmillin) / [Robson Fletcher](https://twitter.com/CBCFletch) / [Les Perreaux](https://twitter.com/perreaux) / Allen Kwan ([Twitter](https://twitter.com/allenkwan)/[LinkedIn](https://www.linkedin.com/in/allen-kwan/)) / Christine Hagyard ([Twitter](https://twitter.com/ChrisHagyard)/[LinkedIn](https://www.linkedin.com/in/christine-hagyard/))
  / Amy Bihari ([Twitter](https://twitter.com/AmyBihari)/[LinkedIn](https://www.linkedin.com/in/amy-bihari/)) / Razieh Faraji ([Twitter](https://twitter.com/raziehfaraji)/[LinkedIn](https://www.linkedin.com/in/raziehfaraji/)) / [David Lussier](https://twitter.com/LussiD) / [Matthias Schoettle](https://github.com/mschoettle) / [Jeremy Moreau](https://github.com/jeremymoreau)
-
- Last but not least, thank you to the [Internet Archive](https://archive.org/) for being a resource and an inspiration to amateur archivists everywhere. They even gave the Canadian COVID-19 Data Archive a [shoutout on Twitter](https://twitter.com/internetarchive/status/1420041682125426691)!
