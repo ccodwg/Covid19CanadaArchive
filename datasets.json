@@ -2529,7 +2529,7 @@
         "metadata": {
           "meta_name": "Wastewater data",
           "meta_url": "https://health-infobase.canada.ca/covid-19/wastewater/",
-          "meta_url_name": "https://health-infobase.canada.ca/covid-19/wastewater/",
+          "meta_url_name": "COVID-19 wastewater surveillance dashboard",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -2551,7 +2551,7 @@
         "metadata": {
           "meta_name": "Wastewater trends",
           "meta_url": "https://health-infobase.canada.ca/covid-19/wastewater/",
-          "meta_url_name": "https://health-infobase.canada.ca/covid-19/wastewater/",
+          "meta_url_name": "COVID-19 wastewater surveillance dashboard",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -2573,7 +2573,7 @@
         "metadata": {
           "meta_name": "Data dictionary (EN)",
           "meta_url": "https://health-infobase.canada.ca/covid-19/wastewater/",
-          "meta_url_name": "https://health-infobase.canada.ca/covid-19/wastewater/",
+          "meta_url_name": "COVID-19 wastewater surveillance dashboard",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -2595,7 +2595,7 @@
         "metadata": {
           "meta_name": "Data dictionary (FR)",
           "meta_url": "https://health-infobase.canada.ca/covid-19/wastewater/",
-          "meta_url_name": "https://health-infobase.canada.ca/covid-19/wastewater/",
+          "meta_url_name": "COVID-19 wastewater surveillance dashboard",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -2617,7 +2617,7 @@
         "metadata": {
           "meta_name": "Report (EN)",
           "meta_url": "https://health-infobase.canada.ca/covid-19/wastewater/",
-          "meta_url_name": "https://health-infobase.canada.ca/covid-19/wastewater/",
+          "meta_url_name": "COVID-19 wastewater surveillance dashboard",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
@@ -2639,7 +2639,7 @@
         "metadata": {
           "meta_name": "Report (FR)",
           "meta_url": "https://health-infobase.canada.ca/covid-19/wastewater/",
-          "meta_url_name": "https://health-infobase.canada.ca/covid-19/wastewater/",
+          "meta_url_name": "COVID-19 wastewater surveillance dashboard",
           "meta_licence": "",
           "meta_licence_url": "",
           "meta_group_1": "Canada"
