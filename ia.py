@@ -45,7 +45,7 @@ def gen_description(uuid):
     else:
         descr += f'URL: <a href="{d["url"]}">{d["url"]}</a><br>'
     descr += f'''
-        UUID: <a href="https://raw.githubusercontent.com/ccodwg/Covid19CanadaArchive-index/main/uuid/{d['uuid']}.json">{d['uuid']}</a><br>
+        UUID: <a href="https://raw.githubusercontent.com/ccodwg/Covid19CanadaArchive-index/main/uuid/json/{d['uuid']}.json">{d['uuid']}</a><br>
         File path: {d['dir_parent']}/{d['dir_file']}/{d['file_name']}.{d['file_ext']}<br>
     '''
     # add optional fields
@@ -100,7 +100,7 @@ def gen_metadata(uuid):
     md = {
         'title': title,
         'mediatype': 'data',
-        'collection': 'opensource_media',
+        'collection': ['opensource_media', 'canadian-covid-19-data-archive'],
         'date': '2024-01-31',
         'description': descr,
         'subject': subjects,
