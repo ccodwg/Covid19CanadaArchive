@@ -1,8 +1,23 @@
-# Canadian COVID-19 Data Archive: Extra Datasets
+# Canadian COVID-19 Data Archive: Extra datasets
 
 This page describes extra datasets collected as part of the Canadian COVID-19 Data Archive that are not included in the [main dataset list](https://github.com/ccodwg/Covid19CanadaArchive/blob/master/datasets.json) or [Data Explorer](https://ccodwg.github.io/Covid19CanadaArchive-data-explorer/). Unlike the main Canadian COVID-19 Data Archive collection, these files do not have standardized metadata or file naming conventions. In many cases, the modification datetime of the file is meaningful and reflects the date the file was captured. In other cases, files are named by capture date or data cutoff date.
 
-All extra datasets are hosted in a [single item on the Internet Archive](https://archive.org/details/cc19da_extra-datasets). Each entry below describes a single dataset and includes a link to download all available files as a ZIP file or to view individual files for download.
+All extra datasets are hosted in a [single item on the Internet Archive](https://archive.org/details/cc19da_extra-datasets), with the exception of datasets related to the COVID-19 Canada Open Data Working Group (CCODWG), which have their [own item on the Internet Archive](https://archive.org/details/cc19da_ccodwg-datasets). Each entry below describes a single dataset and includes a link to download all available files as a ZIP file or to view individual files for download.
+
+## Table of contents
+- [ab (Alberta)](#ab-alberta)
+- [bc (British Columbia)](#bc-british-columbia)
+- [can (Canada)](#can-canada)
+- [nb (New Brunswick)](#nb-new-brunswick)
+- [nl (Newfoundland and Labrador)](#nl-newfoundland-and-labrador)
+- [ns (Nova Scotia)](#ns-nova-scotia)
+- [on (Ontario)](#on-ontario)
+- [on-phu (Ontario Public Health Units)](#on-phu-ontario-public-health-units)
+- [on-science-table (Ontario Science Table)](#on-science-table-ontario-science-table)
+- [qc (Quebec)](#qc-quebec)
+- [sk (Saskatchewan)](#sk-saskatchewan)
+- [yt (Yukon)](#yt-yukon)
+- [ccodwg (COVID-19 Canada Open Data Working Group)](#ccodwg-covid-19-canada-open-data-working-group)
 
 ## ab (Alberta)
 - covid19dataexport: AB cases dataset ([ZIP](https://archive.org/download/cc19da_extra-datasets/ab/covid19dataexport.zip) | [view files](https://archive.org/download/cc19da_extra-datasets/ab/covid19dataexport.zip/))
@@ -105,3 +120,7 @@ All extra datasets are hosted in a [single item on the Internet Archive](https:/
 
 ## yt (Yukon)
 - eco-live-update-transcript: YT COVID-19 Facebook live update transcripts ([ZIP](https://archive.org/download/cc19da_extra-datasets/yt/eco-live-update-transcript.zip) | [view files](https://archive.org/download/cc19da_extra-datasets/yt/eco-live-update-transcript.zip/))
+
+## ccodwg (COVID-19 Canada Open Data Working Group)
+- Covid19Canada ([ZIP](https://archive.org/download/cc19da_ccodwg-datasets/Covid19Canada.zip) | [view files](https://archive.org/download/cc19da_ccodwg-datasets/Covid19Canada.zip/)): A mirror of the GitHub repository of the COVID-19 Canada Open Data Working Group's original [`Covid19Canada`](https://github.com/ccodwg/Covid19Canada) dataset (final update date: 2022-05-03)
+- covid-19-canada-gov-data ([ZIP](https://archive.org/download/cc19da_ccodwg-datasets/covid-19-canada-gov-data.zip) | [view files](https://archive.org/download/cc19da_ccodwg-datasets/covid-19-canada-gov-data.zip/)): The GitHub repository of `covid-19-canada-gov-data`, the first version of the Canadian COVID-19 Data Archive, which archived data on GitHub from 2020-03-24 to 2020-12-08
